@@ -22,7 +22,7 @@ pip install ssbio
 
 **Cloning**
 ```bash
-git clone https://github.com/nmih/Recon3D_GP
+git clone https://github.com/SBRG/Recon3D
 ```
 
 **Opening**
