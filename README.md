@@ -1,4 +1,10 @@
-# Recon3D_GP
+# Recon3D
+
+A 3-Dimensional View of Human Metabolism and Disease
+
+****************************************************
+
+## GEM-PRO (Recon3D_GP)
 
 GEM-PRO for the *H. sapiens* Recon3D metabolic model.
 
