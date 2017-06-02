@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:42:15
+# Commandline: needle
+#    -outfile ./Recon3D/genes/55033.1/55033.1_protein/sequences/Q9NWM8-1_4msp-B.needle
+#    -asequence asis::MRLFLWNAVLTLFVTSLIGALIPEPEVKIEVLQKPFICHRKTKGGDLMLVHYEGYLEKDGSLFHSTHKHNNGQPIWFTLGILEALKGWDQGLKGMCVGEKRKLIIPPALGYGKEGKGKIPPESTLIFNIDLLEIRNGPRSHESFQEMDLNDDWKLSKDEVKAYLKKEFEKHGAVVNESHHDALVEDIFDKEDEDKDGFISAREFTYKHDEL
+#    -bsequence asis::XXIPEPEVKIEVLQKPFICHRKTKGGDLMLVHYEGYLEKDGSLFHSTHKHNNGQPIWFTLGILEALKGWDQGLKGMCVGEKRKLIIPPALGYGKEGKGKIPPESTLIFNIDLLEIRNGPRSHESFQEMDLNDDWKLSKDEVKAYLKKEFEKHGAVVNESHHDALVEDIFDKEDEDKDGFISAREFTYKHDE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/55033.1/55033.1_protein/sequences/Q9NWM8-1_4msp-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 211
+# Identity:     189/211 (89.6%)
+# Similarity:   189/211 (89.6%)
+# Gaps:          20/211 ( 9.5%)
+# Score: 1022.0
+# 
+#
+#=======================================
+
+asis               1 MRLFLWNAVLTLFVTSLIGALIPEPEVKIEVLQKPFICHRKTKGGDLMLV     50
+                                        ..|||||||||||||||||||||||||||||
+asis               1 -------------------XXIPEPEVKIEVLQKPFICHRKTKGGDLMLV     31
+
+asis              51 HYEGYLEKDGSLFHSTHKHNNGQPIWFTLGILEALKGWDQGLKGMCVGEK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              32 HYEGYLEKDGSLFHSTHKHNNGQPIWFTLGILEALKGWDQGLKGMCVGEK     81
+
+asis             101 RKLIIPPALGYGKEGKGKIPPESTLIFNIDLLEIRNGPRSHESFQEMDLN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              82 RKLIIPPALGYGKEGKGKIPPESTLIFNIDLLEIRNGPRSHESFQEMDLN    131
+
+asis             151 DDWKLSKDEVKAYLKKEFEKHGAVVNESHHDALVEDIFDKEDEDKDGFIS    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             132 DDWKLSKDEVKAYLKKEFEKHGAVVNESHHDALVEDIFDKEDEDKDGFIS    181
+
+asis             201 AREFTYKHDEL    211
+                     |||||||||| 
+asis             182 AREFTYKHDE-    191
+
+
+#---------------------------------------
+#---------------------------------------

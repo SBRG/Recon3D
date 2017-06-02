@@ -1,0 +1,138 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 18:08:17
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2064.1/2064.1_protein/sequences/P04626-1_4hrl-C.needle
+#    -asequence asis::MELAALCRWGLLLALLPPGAASTQVCTGTDMKLRLPASPETHLDMLRHLYQGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLRIVRGTQLFEDNYALAVLDNGDPLNNTTPVTGASPGGLRELQLRSLTEILKGGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCKGSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHSDCLACLHFNHSGICELHCPALVTYNTDTFESMPNPEGRYTFGASCVTACPYNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHLREVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVFETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGISWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRPEDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPINCTHSCVDLDDKGCPAEQRASPLTSIISAVVGILLVVVLGVVFGILIKRRQQKIRKYTMRRLLQETELVEPLTPSGAMPNQAQMRILKETELRKVKVLGSGAFGTVYKGIWIPDGENVKIPVAIKVLRENTSPKANKEILDEAYVMAGVGSPYVSRLLGICLTSTVQLVTQLMPYGCLLDHVRENRGRLGSQDLLNWCMQIAKGMSYLEDVRLVHRDLAARNVLVKSPNHVKITDFGLARLLDIDETEYHADGGKVPIKWMALESILRRRFTHQSDVWSYGVTVWELMTFGAKPYDGIPAREIPDLLEKGERLPQPPICTIDVYMIMVKCWMIDSECRPRFRELVSEFSRMARDPQRFVVIQNEDLGPASPLDSTFYRSLLEDDDMGDLVDAEEYLVPQQGFFCPDPAPGAGGMVHHRHRSSSTRSGGGDLTLGLEPSEEEAPRSPLAPSEGAGSDVFDGDLGMGAAKGLQSLPTHDPSPLQRYSEDPTVPLPSETDGYVAPLTCSPQPEYVNQPDVRPQPPSPREGPLPAARPAGATLERPKTLSPGKNGVVKDVFAFGGAVENPEYLTPQGGAAPQPHPPPAFSPAFDNLYYWDQDPPERGAPPSTFKGTPTAENPEYLGLDVPV
+#    -bsequence asis::XQVCTGTDMKLRLPXXPXTHLDMLRHLYQGCQVVQGNLELTYLPTDASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLRIVRGTQLFEDNYALAVLDNGDXXXXXXXXXXXSPGGLRELQLRSLTEILKGGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTXXXXXCHPCSPMCXXSRCWGESSEDCQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2064.1/2064.1_protein/sequences/P04626-1_4hrl-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1255
+# Identity:     168/1255 (13.4%)
+# Similarity:   169/1255 (13.5%)
+# Gaps:        1064/1255 (84.8%)
+# Score: 884.0
+# 
+#
+#=======================================
+
+asis               1 MELAALCRWGLLLALLPPGAASTQVCTGTDMKLRLPASPETHLDMLRHLY     50
+                                           .|||||||||||||..|.||||||||||
+asis               1 ----------------------XQVCTGTDMKLRLPXXPXTHLDMLRHLY     28
+
+asis              51 QGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLR    100
+                     |||||||||||||||||:||||||||||||||||||||||||||||||||
+asis              29 QGCQVVQGNLELTYLPTDASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLR     78
+
+asis             101 IVRGTQLFEDNYALAVLDNGDPLNNTTPVTGASPGGLRELQLRSLTEILK    150
+                     |||||||||||||||||||||...........||||||||||||||||||
+asis              79 IVRGTQLFEDNYALAVLDNGDXXXXXXXXXXXSPGGLRELQLRSLTEILK    128
+
+asis             151 GGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCK    200
+                     ||||||||||||||||||||||||||||||||||||.....||||||||.
+asis             129 GGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTXXXXXCHPCSPMCX    178
+
+asis             201 GSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHS    250
+                     .||||||||||||                                     
+asis             179 XSRCWGESSEDCQ-------------------------------------    191
+
+asis             251 DCLACLHFNHSGICELHCPALVTYNTDTFESMPNPEGRYTFGASCVTACP    300
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             301 YNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHL    350
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             351 REVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVF    400
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             401 ETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGI    450
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             451 SWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRP    500
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             501 EDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGL    550
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             551 PREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARC    600
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             601 PSGVKPDLSYMPIWKFPDEEGACQPCPINCTHSCVDLDDKGCPAEQRASP    650
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             651 LTSIISAVVGILLVVVLGVVFGILIKRRQQKIRKYTMRRLLQETELVEPL    700
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             701 TPSGAMPNQAQMRILKETELRKVKVLGSGAFGTVYKGIWIPDGENVKIPV    750
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             751 AIKVLRENTSPKANKEILDEAYVMAGVGSPYVSRLLGICLTSTVQLVTQL    800
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             801 MPYGCLLDHVRENRGRLGSQDLLNWCMQIAKGMSYLEDVRLVHRDLAARN    850
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             851 VLVKSPNHVKITDFGLARLLDIDETEYHADGGKVPIKWMALESILRRRFT    900
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             901 HQSDVWSYGVTVWELMTFGAKPYDGIPAREIPDLLEKGERLPQPPICTID    950
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis             951 VYMIMVKCWMIDSECRPRFRELVSEFSRMARDPQRFVVIQNEDLGPASPL   1000
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis            1001 DSTFYRSLLEDDDMGDLVDAEEYLVPQQGFFCPDPAPGAGGMVHHRHRSS   1050
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis            1051 STRSGGGDLTLGLEPSEEEAPRSPLAPSEGAGSDVFDGDLGMGAAKGLQS   1100
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis            1101 LPTHDPSPLQRYSEDPTVPLPSETDGYVAPLTCSPQPEYVNQPDVRPQPP   1150
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis            1151 SPREGPLPAARPAGATLERPKTLSPGKNGVVKDVFAFGGAVENPEYLTPQ   1200
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis            1201 GGAAPQPHPPPAFSPAFDNLYYWDQDPPERGAPPSTFKGTPTAENPEYLG   1250
+                                                                       
+asis             191 --------------------------------------------------    191
+
+asis            1251 LDVPV   1255
+                          
+asis             191 -----    191
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:51:12
+# Commandline: needle
+#    -outfile ./Recon3D/genes/51227.1/51227.1_protein/sequences/P57054-1_H28442-X.needle
+#    -asequence asis::MVPRSTSLALIVFLFHRLSKAPGKMVENSPSPLPERAIYGFVLFLSSQFGFILYLVWAFIPESWLNSLGLTYWPQKYWAVALPVYLLIAIVIGYVLLFGINMMSTSPLDSIHTITDNYAKNQQQKKYQEEAIPALRDISISEVNQMFFLAAKELYTKN
+#    -bsequence asis::MVENSPSPLPERAIYGFVLFLSSQFGFILYLVWAFIPESWLNSLGLTYWPQKYWAVALPVYLLIAIVIGYVLLFGINMMSTSPLDSIHTITDNYAKNQQQKKYQEEAIPALRDISISEVNQMFFLAAKELYTKN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/51227.1/51227.1_protein/sequences/P57054-1_H28442-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:     134/158 (84.8%)
+# Similarity:   134/158 (84.8%)
+# Gaps:          24/158 (15.2%)
+# Score: 696.0
+# 
+#
+#=======================================
+
+asis               1 MVPRSTSLALIVFLFHRLSKAPGKMVENSPSPLPERAIYGFVLFLSSQFG     50
+                                             ||||||||||||||||||||||||||
+asis               1 ------------------------MVENSPSPLPERAIYGFVLFLSSQFG     26
+
+asis              51 FILYLVWAFIPESWLNSLGLTYWPQKYWAVALPVYLLIAIVIGYVLLFGI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              27 FILYLVWAFIPESWLNSLGLTYWPQKYWAVALPVYLLIAIVIGYVLLFGI     76
+
+asis             101 NMMSTSPLDSIHTITDNYAKNQQQKKYQEEAIPALRDISISEVNQMFFLA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              77 NMMSTSPLDSIHTITDNYAKNQQQKKYQEEAIPALRDISISEVNQMFFLA    126
+
+asis             151 AKELYTKN    158
+                     ||||||||
+asis             127 AKELYTKN    134
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,134 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:18:54
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7297.1/7297.1_protein/sequences/P29597-1_4po6-A.needle
+#    -asequence asis::MPLRHWGMARGSKPVGDGAQPMAAMGGLKVLLHWAGPGGGEPWVTFSESSLTAEEVCIHIAHKVGITPPCFNLFALFDAQAQVWLPPNHILEIPRDASLMLYFRIRFYFRNWHGMNPREPAVYRCGPPGTEASSDQTAQGMQLLDPASFEYLFEQGKHEFVNDVASLWELSTEEEIHHFKNESLGMAFLHLCHLALRHGIPLEEVAKKTSFKDCIPRSFRRHIRQHSALTRLRLRNVFRRFLRDFQPGRLSQQMVMVKYLATLERLAPRFGTERVPVCHLRLLAQAEGEPCYIRDSGVAPTDPGPESAAGPPTHEVLVTGTGGIQWWPVEEEVNKEEGSSGSSGRNPQASLFGKKAKAHKAVGQPADRPREPLWAYFCDFRDITHVVLKEHCVSIHRQDNKCLELSLPSRAAALSFVSLVDGYFRLTADSSHYLCHEVAPPRLVMSIRDGIHGPLLEPFVQAKLRPEDGLYLIHWSTSHPYRLILTVAQRSQAPDGMQSLRLRKFPIEQQDGAFVLEGWGRSFPSVRELGAALQGCLLRAGDDCFSLRRCCLPQPGETSNLIIMRGARASPRTLNLSQLSFHRVDQKEITQLSHLGQGTRTNVYEGRLRVEGSGDPEEGKMDDEDPLVPGRDRGQELRVVLKVLDPSHHDIALAFYETASLMSQVSHTHLAFVHGVCVRGPENIMVTEYVEHGPLDVWLRRERGHVPMAWKMVVAQQLASALSYLENKNLVHGNVCGRNILLARLGLAEGTSPFIKLSDPGVGLGALSREERVERIPWLAPECLPGGANSLSTAMDKWGFGATLLEICFDGEAPLQSRSPSEKEHFYQRQHRLPEPSCPQLATLTSQCLTYEPTQRPSFRTILRDLTRLQPHNLADVLTVNPDSPASDPTVFHKRYLKKIRDLGEGHFGKVSLYCYDPTNDGTGEMVAVKALKADCGPQHRSGWKQEIDILRTLYHEHIIKYKGCCEDQGEKSLQLVMEYVPLGSLRDYLPRHSIGLAQLLLFAQQICEGMAYLHAQHYIHRDLAARNVLLDNDRLVKIGDFGLAKAVPEGHEYYRVREDGDSPVFWYAPECLKEYKFYYASDVWSFGVTLYELLTHCDSSQSPPTKFLELIGIAQGQMTVLRLTELLERGERLPRPDKCPCEVYHLMKNCWETEASFRPTFENLIPILKTVHEKYQGQAPSVFSVC
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXGGLKVLLHWAGPGGGEPWVTFSESSLTAEEVCIHIAHKVGITPPCFNLFALFDAQAQVWLPPNHILEIPRDASLMLYFRIRFYFRNWHGMNPREPAVYRCGPPGXXXXXXXXXQGMQLLDPASFEYLFEQGKHEFVNDVASLWELSTEEEIHHFKNESLGMAFLHLCHLALRHGIPLEEVAKKTSFKDCIPRSFRRHIRQHSALTRLRLRNVFRRFLRDFQPGRLSQQMVMVKYLATLERLAPRFGTERVPVCHLRLLAQAEGEPCYIRDXXXXXXXXXXXXXAGPPTHEVLVTGTGGIQWWPVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEPLWAYFCDFRDITHVVLKEHCVSIHRQDNKCLELSLPSRAAALSFVSLVDGYFRLTADSSHYLCHEVAPPRLVMSIRDGIHGPLLEPFVQAKLRPEDGLYLIHWSTSHPYRLILTVAQRSQAPDGMQSLRLRKFPIEQXXXAFVLEGWGRSFPSVRELGAALQGCLLRAGDDCFSLRRCCLPQPGETSNLIIMRG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7297.1/7297.1_protein/sequences/P29597-1_4po6-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1209
+# Identity:     475/1209 (39.3%)
+# Similarity:   475/1209 (39.3%)
+# Gaps:         665/1209 (55.0%)
+# Score: 2498.5
+# 
+#
+#=======================================
+
+asis               1 MPLRHWGMARGSKPVGDGAQPM----------------------AAMGGL     28
+                                                                 ...|||
+asis               1 ----------------------XXXXXXXXXXXXXXXXXXXXXXXXXGGL     28
+
+asis              29 KVLLHWAGPGGGEPWVTFSESSLTAEEVCIHIAHKVGITPPCFNLFALFD     78
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              29 KVLLHWAGPGGGEPWVTFSESSLTAEEVCIHIAHKVGITPPCFNLFALFD     78
+
+asis              79 AQAQVWLPPNHILEIPRDASLMLYFRIRFYFRNWHGMNPREPAVYRCGPP    128
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              79 AQAQVWLPPNHILEIPRDASLMLYFRIRFYFRNWHGMNPREPAVYRCGPP    128
+
+asis             129 GTEASSDQTAQGMQLLDPASFEYLFEQGKHEFVNDVASLWELSTEEEIHH    178
+                     |.........||||||||||||||||||||||||||||||||||||||||
+asis             129 GXXXXXXXXXQGMQLLDPASFEYLFEQGKHEFVNDVASLWELSTEEEIHH    178
+
+asis             179 FKNESLGMAFLHLCHLALRHGIPLEEVAKKTSFKDCIPRSFRRHIRQHSA    228
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             179 FKNESLGMAFLHLCHLALRHGIPLEEVAKKTSFKDCIPRSFRRHIRQHSA    228
+
+asis             229 LTRLRLRNVFRRFLRDFQPGRLSQQMVMVKYLATLERLAPRFGTERVPVC    278
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             229 LTRLRLRNVFRRFLRDFQPGRLSQQMVMVKYLATLERLAPRFGTERVPVC    278
+
+asis             279 HLRLLAQAEGEPCYIRDSGVAPTDPGPESAAGPPTHEVLVTGTGGIQWWP    328
+                     |||||||||||||||||.............||||||||||||||||||||
+asis             279 HLRLLAQAEGEPCYIRDXXXXXXXXXXXXXAGPPTHEVLVTGTGGIQWWP    328
+
+asis             329 VEEEVNKEEGSSGSSGRNPQASLFGKKAKAHKAVGQPADRPREPLWAYFC    378
+                     |.........................................||||||||
+asis             329 VXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEPLWAYFC    378
+
+asis             379 DFRDITHVVLKEHCVSIHRQDNKCLELSLPSRAAALSFVSLVDGYFRLTA    428
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             379 DFRDITHVVLKEHCVSIHRQDNKCLELSLPSRAAALSFVSLVDGYFRLTA    428
+
+asis             429 DSSHYLCHEVAPPRLVMSIRDGIHGPLLEPFVQAKLRPEDGLYLIHWSTS    478
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             429 DSSHYLCHEVAPPRLVMSIRDGIHGPLLEPFVQAKLRPEDGLYLIHWSTS    478
+
+asis             479 HPYRLILTVAQRSQAPDGMQSLRLRKFPIEQQDGAFVLEGWGRSFPSVRE    528
+                     |||||||||||||||||||||||||||||||...||||||||||||||||
+asis             479 HPYRLILTVAQRSQAPDGMQSLRLRKFPIEQXXXAFVLEGWGRSFPSVRE    528
+
+asis             529 LGAALQGCLLRAGDDCFSLRRCCLPQPGETSNLIIMRGARASPRTLNLSQ    578
+                     ||||||||||||||||||||||||||||||||||||||            
+asis             529 LGAALQGCLLRAGDDCFSLRRCCLPQPGETSNLIIMRG------------    566
+
+asis             579 LSFHRVDQKEITQLSHLGQGTRTNVYEGRLRVEGSGDPEEGKMDDEDPLV    628
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis             629 PGRDRGQELRVVLKVLDPSHHDIALAFYETASLMSQVSHTHLAFVHGVCV    678
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis             679 RGPENIMVTEYVEHGPLDVWLRRERGHVPMAWKMVVAQQLASALSYLENK    728
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis             729 NLVHGNVCGRNILLARLGLAEGTSPFIKLSDPGVGLGALSREERVERIPW    778
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis             779 LAPECLPGGANSLSTAMDKWGFGATLLEICFDGEAPLQSRSPSEKEHFYQ    828
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis             829 RQHRLPEPSCPQLATLTSQCLTYEPTQRPSFRTILRDLTRLQPHNLADVL    878
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis             879 TVNPDSPASDPTVFHKRYLKKIRDLGEGHFGKVSLYCYDPTNDGTGEMVA    928
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis             929 VKALKADCGPQHRSGWKQEIDILRTLYHEHIIKYKGCCEDQGEKSLQLVM    978
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis             979 EYVPLGSLRDYLPRHSIGLAQLLLFAQQICEGMAYLHAQHYIHRDLAARN   1028
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis            1029 VLLDNDRLVKIGDFGLAKAVPEGHEYYRVREDGDSPVFWYAPECLKEYKF   1078
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis            1079 YYASDVWSFGVTLYELLTHCDSSQSPPTKFLELIGIAQGQMTVLRLTELL   1128
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis            1129 ERGERLPRPDKCPCEVYHLMKNCWETEASFRPTFENLIPILKTVHEKYQG   1178
+                                                                       
+asis             566 --------------------------------------------------    566
+
+asis            1179 QAPSVFSVC   1187
+                              
+asis             566 ---------    566
+
+
+#---------------------------------------
+#---------------------------------------

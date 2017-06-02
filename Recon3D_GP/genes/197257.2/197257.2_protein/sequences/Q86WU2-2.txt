@@ -1,0 +1,183 @@
+ID   LDHD_HUMAN              Reviewed;         507 AA.
+AC   Q86WU2; Q8IZK5;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   15-MAR-2017, entry version 118.
+DE   RecName: Full=Probable D-lactate dehydrogenase, mitochondrial;
+DE            Short=DLD;
+DE            Short=Lactate dehydrogenase D;
+DE            EC=1.1.2.4;
+DE   Flags: Precursor;
+GN   Name=LDHD {ECO:0000312|HGNC:HGNC:19708};
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:AAM50322.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), INTERACTION WITH CSRP3, AND
+RP   TISSUE SPECIFICITY.
+RX   PubMed=12127981; DOI=10.1016/S0006-291X(02)00768-4;
+RA   Flick M.J., Konieczny S.F.;
+RT   "Identification of putative mammalian D-lactate dehydrogenase
+RT   enzymes.";
+RL   Biochem. Biophys. Res. Commun. 295:910-916(2002).
+RN   [2] {ECO:0000305, ECO:0000312|EMBL:AAH40279.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   TISSUE=Brain {ECO:0000312|EMBL:AAH47902.1}, and
+RC   Colon {ECO:0000312|EMBL:AAH40279.1};
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Liver;
+RX   PubMed=24275569; DOI=10.1016/j.jprot.2013.11.014;
+RA   Bian Y., Song C., Cheng K., Dong M., Wang F., Huang J., Sun D.,
+RA   Wang L., Ye M., Zou H.;
+RT   "An enzyme assisted RP-RPLC approach for in-depth analysis of human
+RT   liver phosphoproteome.";
+RL   J. Proteomics 96:253-262(2014).
+CC   -!- CATALYTIC ACTIVITY: (R)-lactate + 2 ferricytochrome c = pyruvate +
+CC       2 ferrocytochrome c + 2 H(+).
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000250|UniProtKB:P39976};
+CC   -!- SUBUNIT: Interacts with CSRP3. {ECO:0000269|PubMed:12127981}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion
+CC       {ECO:0000250|UniProtKB:Q7TNG8}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1 {ECO:0000269|PubMed:15489334};
+CC         IsoId=Q86WU2-1; Sequence=Displayed;
+CC         Note=No experimental confirmation available. {ECO:0000305};
+CC       Name=2 {ECO:0000269|PubMed:12127981};
+CC         IsoId=Q86WU2-2; Sequence=VSP_052253;
+CC   -!- TISSUE SPECIFICITY: Expressed moderately in heart and liver and at
+CC       lower levels in skeletal muscle and kidney.
+CC       {ECO:0000269|PubMed:12127981}.
+CC   -!- SIMILARITY: Belongs to the FAD-binding oxidoreductase/transferase
+CC       type 4 family. {ECO:0000255}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAM50322.1; Type=Frameshift; Positions=Several; Evidence={ECO:0000305};
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY092767; AAM50322.1; ALT_FRAME; mRNA.
+DR   EMBL; BC040279; AAH40279.1; -; mRNA.
+DR   EMBL; BC047902; AAH47902.1; -; mRNA.
+DR   CCDS; CCDS10913.1; -. [Q86WU2-1]
+DR   CCDS; CCDS45529.1; -. [Q86WU2-2]
+DR   RefSeq; NP_705690.2; NM_153486.3. [Q86WU2-1]
+DR   RefSeq; NP_919417.1; NM_194436.2. [Q86WU2-2]
+DR   UniGene; Hs.380929; -.
+DR   ProteinModelPortal; Q86WU2; -.
+DR   BioGrid; 128242; 40.
+DR   IntAct; Q86WU2; 36.
+DR   STRING; 9606.ENSP00000300051; -.
+DR   iPTMnet; Q86WU2; -.
+DR   PhosphoSitePlus; Q86WU2; -.
+DR   BioMuta; LDHD; -.
+DR   DMDM; 74727712; -.
+DR   MaxQB; Q86WU2; -.
+DR   PaxDb; Q86WU2; -.
+DR   PeptideAtlas; Q86WU2; -.
+DR   PRIDE; Q86WU2; -.
+DR   Ensembl; ENST00000300051; ENSP00000300051; ENSG00000166816. [Q86WU2-1]
+DR   Ensembl; ENST00000450168; ENSP00000417011; ENSG00000166816. [Q86WU2-2]
+DR   GeneID; 197257; -.
+DR   KEGG; hsa:197257; -.
+DR   UCSC; uc002fdm.4; human. [Q86WU2-1]
+DR   CTD; 197257; -.
+DR   DisGeNET; 197257; -.
+DR   GeneCards; LDHD; -.
+DR   HGNC; HGNC:19708; LDHD.
+DR   HPA; HPA041766; -.
+DR   HPA; HPA048639; -.
+DR   HPA; HPA066148; -.
+DR   MIM; 607490; gene.
+DR   neXtProt; NX_Q86WU2; -.
+DR   OpenTargets; ENSG00000166816; -.
+DR   PharmGKB; PA134917525; -.
+DR   eggNOG; KOG1231; Eukaryota.
+DR   eggNOG; COG0277; LUCA.
+DR   GeneTree; ENSGT00530000063515; -.
+DR   HOGENOM; HOG000230995; -.
+DR   HOVERGEN; HBG066407; -.
+DR   InParanoid; Q86WU2; -.
+DR   KO; K00102; -.
+DR   OMA; GQGFEWA; -.
+DR   OrthoDB; EOG091G0BAW; -.
+DR   PhylomeDB; Q86WU2; -.
+DR   TreeFam; TF314122; -.
+DR   BioCyc; MetaCyc:HS15490-MONOMER; -.
+DR   Reactome; R-HSA-1268020; Mitochondrial protein import.
+DR   GenomeRNAi; 197257; -.
+DR   PRO; PR:Q86WU2; -.
+DR   Proteomes; UP000005640; Chromosome 16.
+DR   Bgee; ENSG00000166816; -.
+DR   CleanEx; HS_LDHD; -.
+DR   ExpressionAtlas; Q86WU2; baseline and differential.
+DR   Genevisible; Q86WU2; HS.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IEA:Ensembl.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0004458; F:D-lactate dehydrogenase (cytochrome) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   Gene3D; 1.10.45.10; -; 1.
+DR   Gene3D; 3.30.43.10; -; 1.
+DR   Gene3D; 3.30.465.10; -; 1.
+DR   InterPro; IPR016169; CO_DH_flavot_FAD-bd_sub2.
+DR   InterPro; IPR016166; FAD-bd_2.
+DR   InterPro; IPR016167; FAD-bd_2_sub1.
+DR   InterPro; IPR016164; FAD-linked_Oxase-like_C.
+DR   InterPro; IPR004113; FAD-linked_oxidase_C.
+DR   InterPro; IPR006094; Oxid_FAD_bind_N.
+DR   InterPro; IPR016171; Vanillyl_alc_oxidase_C-sub2.
+DR   Pfam; PF02913; FAD-oxidase_C; 1.
+DR   Pfam; PF01565; FAD_binding_4; 1.
+DR   SUPFAM; SSF55103; SSF55103; 1.
+DR   SUPFAM; SSF56176; SSF56176; 2.
+DR   PROSITE; PS51387; FAD_PCMH; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Alternative splicing; Complete proteome; FAD;
+KW   Flavoprotein; Mitochondrion; Oxidoreductase; Polymorphism;
+KW   Reference proteome; Transit peptide.
+FT   TRANSIT       1      ?       Mitochondrion. {ECO:0000255}.
+FT   CHAIN         ?    507       Probable D-lactate dehydrogenase,
+FT                                mitochondrial.
+FT                                /FTId=PRO_0000262952.
+FT   DOMAIN       62    265       FAD-binding PCMH-type.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00718}.
+FT   MOD_RES      36     36       N6-acetyllysine.
+FT                                {ECO:0000250|UniProtKB:Q7TNG8}.
+FT   MOD_RES     315    315       N6-acetyllysine.
+FT                                {ECO:0000250|UniProtKB:Q7TNG8}.
+FT   MOD_RES     358    358       N6-acetyllysine; alternate.
+FT                                {ECO:0000250|UniProtKB:Q7TNG8}.
+FT   MOD_RES     358    358       N6-succinyllysine; alternate.
+FT                                {ECO:0000250|UniProtKB:Q7TNG8}.
+FT   MOD_RES     445    445       N6-acetyllysine.
+FT                                {ECO:0000250|UniProtKB:Q7TNG8}.
+FT   MOD_RES     472    472       N6-acetyllysine.
+FT                                {ECO:0000250|UniProtKB:Q7TNG8}.
+FT   VAR_SEQ     211    233       Missing (in isoform 2).
+FT                                {ECO:0000303|PubMed:12127981}.
+FT                                /FTId=VSP_052253.
+FT   VARIANT     233    233       R -> K (in dbSNP:rs11644820).
+FT                                /FTId=VAR_029561.
+FT   CONFLICT    323    323       T -> I (in Ref. 1; AAM50322).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   507 AA;  54871 MW;  5625743709939182 CRC64;
+     MARLLRSATW ELFPWRGYCS QKAKGELCRD FVEALKAVVG GSHVSTAAVV REQHGRDESV
+     HRCEPPDAVV WPQNVEQVSR LAALCYRQGV PIIPFGTGTG LEGGVCAVQG GVCVNLTHMD
+     RILELNQEDF SVVVEPGVTR KALNAHLRDS GLWFPVDPGA DASLCGMAAT GASGTNAVRY
+     GTMRDNVLNL EVVLPDGRLL HTAGRGRHFR FGFWPEIPHH TAWYSPCVSL GRRKSAAGYN
+     LTGLFVGSEG TLGLITATTL RLHPAPEATV AATCAFPSVQ AAVDSTVHIL QAAVPVARIE
+     FLDEVMMDAC NRYSKLNCLV APTLFLEFHG SQQALEEQLQ RTEEIVQQNG ASDFSWAKEA
+     EERSRLWTAR HNAWYAALAT RPGCKGYSTD VCVPISRLPE IVVQTKEDLN ASGLTGSIVG
+     HVGDGNFHCI LLVNPDDAEE LGRVKAFAEQ LGRRALALHG TCTGEHGIGM GKRQLLQEEV
+     GAVGVETMRQ LKAVLDPQGL MNPGKVL
+//

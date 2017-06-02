@@ -1,0 +1,142 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:46:26
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2580.1/2580.1_protein/sequences/O14976-1_4c58-A.needle
+#    -asequence asis::MSLLQSALDFLAGPGSLGGASGRDQSDFVGQTVELGELRLRVRRVLAEGGFAFVYEAQDVGSGREYALKRLLSNEEEKNRAIIQEVCFMKKLSGHPNIVQFCSAASIGKEESDTGQAEFLLLTELCKGQLVEFLKKMESRGPLSCDTVLKIFYQTCRAVQHMHRQKPPIIHRDLKVENLLLSNQGTIKLCDFGSATTISHYPDYSWSAQRRALVEEEITRNTTPMYRTPEIIDLYSNFPIGEKQDIWALGCILYLLCFRQHPFEDGAKLRIVNGKYSIPPHDTQYTVFHSLIRAMLQVNPEERLSIAEVVHQLQEIAAARNVNPKSPITELLEQNGGYGSATLSRGPPPPVGPAGSGYSGGLALAEYDQPYGGFLDILRGGTERLFTNLKDTSSKVIQSVANYAKGDLDISYITSRIAVMSFPAEGVESALKNNIEDVRLFLDSKHPGHYAVYNLSPRTYRPSRFHNRVSECGWAARRAPHLHTLYNICRNMHAWLRQDHKNVCVVHCMDGRAASAVAVCSFLCFCRLFSTAEAAVYMFSMKRCPPGIWPSHKRYIEYMCDMVAEEPITPHSKPILVRAVVMTPVPLFSKQRSGCRPFCEVYVGDERVASTSQEYDKMRDFKIEDGKAVIPLGVTVQGDVLIVIYHARSTLGGRLQAKMASMKMFQIQFHTGFVPRNATTVKFAKYDLDACDIQEKYPDLFQVNLEVEVEPRDRPSREAPPWENSSMRGLNPKILFSSREEQQDILSKFGKPELPRQPGSTAQYDAGAGSPEAEPTDSDSPPSSSADASRFLHTLDWQEEKEAETGAENASSKESESALMEDRDESEVSDEGGSPISSEGQEPRADPEPPGLAAGLVQQDLVFEVETPAVLPEPVPQEDGVDLLGLHSEVGAGPAVPPQACKAPSSNTDLLSCLLGPPEAASQGPPEDLLSEDPLLLASPAPPLSVQSTPRGGPPAAADPFGPLLPSSGNNSQPCSNPDLFGEFLNSDSVTVPPSFPSAHSAPPPSCSADFLHLGDLPGEPSKMTASSSNPDLLGGWAAWTETAASAVAPTPATEGPLFSPGGQPAPCGSQASWTKSQNPDPFADLGDLSSGLQGSPAGFPPGGFIPKTATTPKGSSSWQTSRPPAQGASWPPQAKPPPKACTQPRPNYASNFSVIGAREERGVRAPSFAQKPKVSENDFEDLLSNQGFSSRSDKKGPKTIAEMRKQDLAKDTDPLKLKLLDWIEGKERNIRALLSTLHTVLWDGESRWTPVGMADLVAPEQVKKHYRRAVLAVHPDKAAGQPYEQHAKMIFMELNDAWSEFENQGSRPLF
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXDFVGQTVELGELRLRVRRVLAEGGFAFVYEAQDVGSGREYALKRLLSNEEEKNRAIIQEVCFMKKLSGHPNIVQFCSAASIGKEESDTGQAEFLLLTELCKGQLVEFLKKMESRGPLSCDTVLKIFYQTCRAVQHMHRQKPPIIHRDLKVENLLLSNQGTIKLCDFGSATTISHYPDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLYSNFPIGEKQDIWALGCILYLLCFRQHPFEXXXXXXXXXXKYSIPPHDTQYTVFHSLIRAMLQVNPEERLSIAEVVHQLQEIAAARNVNPKSPITELLE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2580.1/2580.1_protein/sequences/O14976-1_4c58-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1311
+# Identity:     267/1311 (20.4%)
+# Similarity:   267/1311 (20.4%)
+# Gaps:         978/1311 (74.6%)
+# Score: 1335.0
+# 
+#
+#=======================================
+
+asis               1 MSLLQSALDFLAGPGSLGGASGRDQSDFVGQTVELGELRLRVRRVLAEGG     50
+                     ..........................||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXDFVGQTVELGELRLRVRRVLAEGG     50
+
+asis              51 FAFVYEAQDVGSGREYALKRLLSNEEEKNRAIIQEVCFMKKLSGHPNIVQ    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 FAFVYEAQDVGSGREYALKRLLSNEEEKNRAIIQEVCFMKKLSGHPNIVQ    100
+
+asis             101 FCSAASIGKEESDTGQAEFLLLTELCKGQLVEFLKKMESRGPLSCDTVLK    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 FCSAASIGKEESDTGQAEFLLLTELCKGQLVEFLKKMESRGPLSCDTVLK    150
+
+asis             151 IFYQTCRAVQHMHRQKPPIIHRDLKVENLLLSNQGTIKLCDFGSATTISH    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 IFYQTCRAVQHMHRQKPPIIHRDLKVENLLLSNQGTIKLCDFGSATTISH    200
+
+asis             201 YPDYSWSAQRRALVEEEITRNTTPMYRTPEIIDLYSNFPIGEKQDIWALG    250
+                     |||..............................|||||||||||||||||
+asis             201 YPDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLYSNFPIGEKQDIWALG    250
+
+asis             251 CILYLLCFRQHPFEDGAKLRIVNGKYSIPPHDTQYTVFHSLIRAMLQVNP    300
+                     ||||||||||||||..........||||||||||||||||||||||||||
+asis             251 CILYLLCFRQHPFEXXXXXXXXXXKYSIPPHDTQYTVFHSLIRAMLQVNP    300
+
+asis             301 EERLSIAEVVHQLQEIAAARNVNPKSPITELLEQNGGYGSATLSRGPPPP    350
+                     |||||||||||||||||||||||||||||||||                 
+asis             301 EERLSIAEVVHQLQEIAAARNVNPKSPITELLE-----------------    333
+
+asis             351 VGPAGSGYSGGLALAEYDQPYGGFLDILRGGTERLFTNLKDTSSKVIQSV    400
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             401 ANYAKGDLDISYITSRIAVMSFPAEGVESALKNNIEDVRLFLDSKHPGHY    450
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             451 AVYNLSPRTYRPSRFHNRVSECGWAARRAPHLHTLYNICRNMHAWLRQDH    500
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             501 KNVCVVHCMDGRAASAVAVCSFLCFCRLFSTAEAAVYMFSMKRCPPGIWP    550
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             551 SHKRYIEYMCDMVAEEPITPHSKPILVRAVVMTPVPLFSKQRSGCRPFCE    600
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             601 VYVGDERVASTSQEYDKMRDFKIEDGKAVIPLGVTVQGDVLIVIYHARST    650
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             651 LGGRLQAKMASMKMFQIQFHTGFVPRNATTVKFAKYDLDACDIQEKYPDL    700
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             701 FQVNLEVEVEPRDRPSREAPPWENSSMRGLNPKILFSSREEQQDILSKFG    750
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             751 KPELPRQPGSTAQYDAGAGSPEAEPTDSDSPPSSSADASRFLHTLDWQEE    800
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             801 KEAETGAENASSKESESALMEDRDESEVSDEGGSPISSEGQEPRADPEPP    850
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             851 GLAAGLVQQDLVFEVETPAVLPEPVPQEDGVDLLGLHSEVGAGPAVPPQA    900
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             901 CKAPSSNTDLLSCLLGPPEAASQGPPEDLLSEDPLLLASPAPPLSVQSTP    950
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis             951 RGGPPAAADPFGPLLPSSGNNSQPCSNPDLFGEFLNSDSVTVPPSFPSAH   1000
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis            1001 SAPPPSCSADFLHLGDLPGEPSKMTASSSNPDLLGGWAAWTETAASAVAP   1050
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis            1051 TPATEGPLFSPGGQPAPCGSQASWTKSQNPDPFADLGDLSSGLQGSPAGF   1100
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis            1101 PPGGFIPKTATTPKGSSSWQTSRPPAQGASWPPQAKPPPKACTQPRPNYA   1150
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis            1151 SNFSVIGAREERGVRAPSFAQKPKVSENDFEDLLSNQGFSSRSDKKGPKT   1200
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis            1201 IAEMRKQDLAKDTDPLKLKLLDWIEGKERNIRALLSTLHTVLWDGESRWT   1250
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis            1251 PVGMADLVAPEQVKKHYRRAVLAVHPDKAAGQPYEQHAKMIFMELNDAWS   1300
+                                                                       
+asis             333 --------------------------------------------------    333
+
+asis            1301 EFENQGSRPLF   1311
+                                
+asis             333 -----------    333
+
+
+#---------------------------------------
+#---------------------------------------

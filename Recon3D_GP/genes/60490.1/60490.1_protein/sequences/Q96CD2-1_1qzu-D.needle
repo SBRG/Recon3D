@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:56:22
+# Commandline: needle
+#    -outfile ./Recon3D/genes/60490.1/60490.1_protein/sequences/Q96CD2-1_1qzu-D.needle
+#    -asequence asis::MEPKASCPAAAPLMERKFHVLVGVTGSVAALKLPLLVSKLLDIPGLEVAVVTTERAKHFYSPQDIPVTLYSDADEWEIWKSRSDPVLHIDLRRWADLLLVAPLDANTLGKVASGICDNLLTCVMRAWDRSKPLLFCPAMNTAMWEHPITAQQVDQLKAFGYVEIPCVAKKLVCGDEGLGAMAEVGTIVDKVKEVLFQHSGFQQS
+#    -bsequence asis::XXXXXXXXXXXXXXXRKFHVLVGVTGSVAALKLPLLVSKLLXXXGLEVAVVTTERAKHFYSPQDIPVTLYSDADEWEMWKSRSDPVLHIDLRRWADLLLVAPLDANTLGKVASGICDNLLTCVMRAWDRSKPLLFCPAMNTAMWEHPITAQQVDQLKAFGYVEIPXXXXXXXXXXXXXXXXXXVGTIVDKV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/60490.1/60490.1_protein/sequences/Q96CD2-1_1qzu-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 204
+# Identity:     154/204 (75.5%)
+# Similarity:   155/204 (76.0%)
+# Gaps:          13/204 ( 6.4%)
+# Score: 772.0
+# 
+#
+#=======================================
+
+asis               1 MEPKASCPAAAPLMERKFHVLVGVTGSVAALKLPLLVSKLLDIPGLEVAV     50
+                     ...............||||||||||||||||||||||||||...||||||
+asis               1 XXXXXXXXXXXXXXXRKFHVLVGVTGSVAALKLPLLVSKLLXXXGLEVAV     50
+
+asis              51 VTTERAKHFYSPQDIPVTLYSDADEWEIWKSRSDPVLHIDLRRWADLLLV    100
+                     |||||||||||||||||||||||||||:||||||||||||||||||||||
+asis              51 VTTERAKHFYSPQDIPVTLYSDADEWEMWKSRSDPVLHIDLRRWADLLLV    100
+
+asis             101 APLDANTLGKVASGICDNLLTCVMRAWDRSKPLLFCPAMNTAMWEHPITA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 APLDANTLGKVASGICDNLLTCVMRAWDRSKPLLFCPAMNTAMWEHPITA    150
+
+asis             151 QQVDQLKAFGYVEIPCVAKKLVCGDEGLGAMAEVGTIVDKVKEVLFQHSG    200
+                     |||||||||||||||..................||||||||         
+asis             151 QQVDQLKAFGYVEIPXXXXXXXXXXXXXXXXXXVGTIVDKV---------    191
+
+asis             201 FQQS    204
+                         
+asis             191 ----    191
+
+
+#---------------------------------------
+#---------------------------------------

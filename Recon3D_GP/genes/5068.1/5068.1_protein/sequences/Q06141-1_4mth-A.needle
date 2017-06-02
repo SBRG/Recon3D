@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:21:27
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5068.1/5068.1_protein/sequences/Q06141-1_4mth-A.needle
+#    -asequence asis::MLPPMALPSVSWMLLSCLMLLSQVQGEEPQRELPSARIRCPKGSKAYGSHCYALFLSPKSWTDADLACQKRPSGNLVSVLSGAEGSFVSSLVKSIGNSYSYVWIGLHDPTQGTEPNGEGWEWSSSDVMNYFAWERNPSTISSPGHCASLSRSTAFLRWKDYNCNVRLPYVCKFTD
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMIRCPKGSKAYGSHCYALFLSPKSWTDADLACQKRPSGNLVSVLSGAEGSFVSSLVKSIGNSYSYVWIGLHDPTQGTEPNGEGWEWSSSDVMNYFAWERNPSTISSPGHCASLSRSTAFLRWKDYNCNVRLPYVCKFTD
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5068.1/5068.1_protein/sequences/Q06141-1_4mth-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 211
+# Identity:     139/211 (65.9%)
+# Similarity:   139/211 (65.9%)
+# Gaps:          72/211 (34.1%)
+# Score: 743.5
+# 
+#
+#=======================================
+
+asis               1 ------------------------------------MLPPMALPSVSWML     14
+                                                         |             
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXM-------------     37
+
+asis              15 LSCLMLLSQVQGEEPQRELPSARIRCPKGSKAYGSHCYALFLSPKSWTDA     64
+                                            |||||||||||||||||||||||||||
+asis              38 -----------------------IRCPKGSKAYGSHCYALFLSPKSWTDA     64
+
+asis              65 DLACQKRPSGNLVSVLSGAEGSFVSSLVKSIGNSYSYVWIGLHDPTQGTE    114
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              65 DLACQKRPSGNLVSVLSGAEGSFVSSLVKSIGNSYSYVWIGLHDPTQGTE    114
+
+asis             115 PNGEGWEWSSSDVMNYFAWERNPSTISSPGHCASLSRSTAFLRWKDYNCN    164
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             115 PNGEGWEWSSSDVMNYFAWERNPSTISSPGHCASLSRSTAFLRWKDYNCN    164
+
+asis             165 VRLPYVCKFTD    175
+                     |||||||||||
+asis             165 VRLPYVCKFTD    175
+
+
+#---------------------------------------
+#---------------------------------------

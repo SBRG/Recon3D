@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:52:15
+# Commandline: needle
+#    -outfile ./Recon3D/genes/54981.1/54981.1_protein/sequences/Q9NWW6-1_2qg6-A.needle
+#    -asequence asis::MKTFIIGISGVTNSGKTTLAKNLQKHLPNCSVISQDDFFKPESEIETDKNGFLQYDVLEALNMEKMMSAISCWMESARHSVVSTDQESAEEIPILIIEGFLLFNYKPLDTIWNRSYFLTIPYEECKRRRSTRVYQPPDSPGYFDGHVWPMYLKYRQEMQDITWEVVYLDGTKSEEDLFLQVYEDLIQELAKQKCLQVTA
+#    -bsequence asis::XKTFIIGISGVTNSGKTTLAKNLQKHLPNCSVISQDDFFKPESEIETDKNGFLQYDVLEALNXEKXXSAISCWXESARHSVVXXXXXXXXXIPILIIEGFLLFNYKPLDTIWNRSYFLTIPYEECKRRRSTRVYQPPDSPGYFDGHVWPXYLKYRQEXQDITWEVVYLDGTKSEEDLFLQVYEDLIQELAKQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/54981.1/54981.1_protein/sequences/Q9NWW6-1_2qg6-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 199
+# Identity:     176/199 (88.4%)
+# Similarity:   176/199 (88.4%)
+# Gaps:           7/199 ( 3.5%)
+# Score: 927.0
+# 
+#
+#=======================================
+
+asis               1 MKTFIIGISGVTNSGKTTLAKNLQKHLPNCSVISQDDFFKPESEIETDKN     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XKTFIIGISGVTNSGKTTLAKNLQKHLPNCSVISQDDFFKPESEIETDKN     50
+
+asis              51 GFLQYDVLEALNMEKMMSAISCWMESARHSVVSTDQESAEEIPILIIEGF    100
+                     ||||||||||||.||..||||||.||||||||.........|||||||||
+asis              51 GFLQYDVLEALNXEKXXSAISCWXESARHSVVXXXXXXXXXIPILIIEGF    100
+
+asis             101 LLFNYKPLDTIWNRSYFLTIPYEECKRRRSTRVYQPPDSPGYFDGHVWPM    150
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+asis             101 LLFNYKPLDTIWNRSYFLTIPYEECKRRRSTRVYQPPDSPGYFDGHVWPX    150
+
+asis             151 YLKYRQEMQDITWEVVYLDGTKSEEDLFLQVYEDLIQELAKQKCLQVTA    199
+                     |||||||.||||||||||||||||||||||||||||||||||       
+asis             151 YLKYRQEXQDITWEVVYLDGTKSEEDLFLQVYEDLIQELAKQ-------    192
+
+
+#---------------------------------------
+#---------------------------------------

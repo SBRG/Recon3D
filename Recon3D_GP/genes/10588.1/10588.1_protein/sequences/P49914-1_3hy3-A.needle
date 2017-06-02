@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:56:17
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10588.1/10588.1_protein/sequences/P49914-1_3hy3-A.needle
+#    -asequence asis::MAAAAVSSAKRSLRGELKQRLRAMSAEERLRQSRVLSQKVIAHSEYQKSKRISIFLSMQDEIETEEIIKDIFQRGKICFIPRYRFQSNHMDMVRIESPEEISLLPKTSWNIPQPGEGDVREEALSTGGLDLIFMPGLGFDKHGNRLGRGKGYYDAYLKRCLQHQEVKPYTLALAFKEQICLQVPVNENDMKVDEVLYEDSSTA
+#    -bsequence asis::MAAAAVSSAKRSLRGELKQRLRAMSAEERLRQSRVLSQKVIAHSEYQKSKRISIFLSMQDEIETEEIIKDIFQRGKICFIPRYRFQSNHMDMVRIESPEEISLLPKTSWNIPQPGEGDVREEALSTGGLDLIFMPGLGFDKHGNRLGRGKGYYDAYLKRCLQHQEVKPYTLALAFKEQICLQVPVNXXDMKVDEVLYE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10588.1/10588.1_protein/sequences/P49914-1_3hy3-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:     196/203 (96.6%)
+# Similarity:   196/203 (96.6%)
+# Gaps:           5/203 ( 2.5%)
+# Score: 1000.0
+# 
+#
+#=======================================
+
+asis               1 MAAAAVSSAKRSLRGELKQRLRAMSAEERLRQSRVLSQKVIAHSEYQKSK     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MAAAAVSSAKRSLRGELKQRLRAMSAEERLRQSRVLSQKVIAHSEYQKSK     50
+
+asis              51 RISIFLSMQDEIETEEIIKDIFQRGKICFIPRYRFQSNHMDMVRIESPEE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 RISIFLSMQDEIETEEIIKDIFQRGKICFIPRYRFQSNHMDMVRIESPEE    100
+
+asis             101 ISLLPKTSWNIPQPGEGDVREEALSTGGLDLIFMPGLGFDKHGNRLGRGK    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 ISLLPKTSWNIPQPGEGDVREEALSTGGLDLIFMPGLGFDKHGNRLGRGK    150
+
+asis             151 GYYDAYLKRCLQHQEVKPYTLALAFKEQICLQVPVNENDMKVDEVLYEDS    200
+                     ||||||||||||||||||||||||||||||||||||..||||||||||  
+asis             151 GYYDAYLKRCLQHQEVKPYTLALAFKEQICLQVPVNXXDMKVDEVLYE--    198
+
+asis             201 STA    203
+                        
+asis             198 ---    198
+
+
+#---------------------------------------
+#---------------------------------------

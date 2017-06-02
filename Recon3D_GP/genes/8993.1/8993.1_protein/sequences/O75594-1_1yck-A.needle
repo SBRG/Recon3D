@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:45:14
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8993.1/8993.1_protein/sequences/O75594-1_1yck-A.needle
+#    -asequence asis::MSRRSMLLAWALPSLLRLGAAQETEDPACCSPIVPRNEWKALASECAQHLSLPLRYVVVSHTAGSSCNTPASCQQQARNVQHYHMKTLGWCDVGYNFLIGEDGLVYEGRGWNFTGAHSGHLWNPMSIGISFMGNYMDRVPTPQAIRAAQGLLACGVAQGALRSNYVLKGHRDVQRTLSPGNQLYHLIQNWPHYRSP
+#    -bsequence asis::XXXXXXXXCSPIVPRNEWKALASECAQHLSLPLRYVVVSHTAGSSCNTPASCQQQARNVQHYHMKTLGWCDVGYNFLIGEDGLVYEGRGWNFTGAHSGHLWNPMSIGISFMGNYMDRVPTPQAIRAAQGLLACGVAQGALRSNYVLKGHRDVQRTLSPGNQLYHLIQNWPHYRSP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8993.1/8993.1_protein/sequences/O75594-1_1yck-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 196
+# Identity:     167/196 (85.2%)
+# Similarity:   167/196 (85.2%)
+# Gaps:          21/196 (10.7%)
+# Score: 919.0
+# 
+#
+#=======================================
+
+asis               1 MSRRSMLLAWALPSLLRLGAAQETEDPACCSPIVPRNEWKALASECAQHL     50
+                                          ........|||||||||||||||||||||
+asis               1 ---------------------XXXXXXXXCSPIVPRNEWKALASECAQHL     29
+
+asis              51 SLPLRYVVVSHTAGSSCNTPASCQQQARNVQHYHMKTLGWCDVGYNFLIG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              30 SLPLRYVVVSHTAGSSCNTPASCQQQARNVQHYHMKTLGWCDVGYNFLIG     79
+
+asis             101 EDGLVYEGRGWNFTGAHSGHLWNPMSIGISFMGNYMDRVPTPQAIRAAQG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              80 EDGLVYEGRGWNFTGAHSGHLWNPMSIGISFMGNYMDRVPTPQAIRAAQG    129
+
+asis             151 LLACGVAQGALRSNYVLKGHRDVQRTLSPGNQLYHLIQNWPHYRSP    196
+                     ||||||||||||||||||||||||||||||||||||||||||||||
+asis             130 LLACGVAQGALRSNYVLKGHRDVQRTLSPGNQLYHLIQNWPHYRSP    175
+
+
+#---------------------------------------
+#---------------------------------------

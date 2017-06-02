@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:23:13
+# Commandline: needle
+#    -outfile ./Recon3D/genes/318.1/318.1_protein/sequences/P50583-1_4ick-A.needle
+#    -asequence asis::MALRACGLIIFRRCLIPKVDNNAIEFLLLQASDGIHHWTPPKGHVEPGEDDLETALRETQEEAGIEAGQLTIIEGFKRELNYVARNKPKTVIYWLAEVKDYDVEIRLSHEHQAYRWLGLEEACQLAQFKEMKAALQEGHQFLCSIEA
+#    -bsequence asis::XXXRACGLIIFRRCLIPKVDNNAIEFLLLQASDGIHHWTPPKGHVEPGEDDLETALRATQEEAGIEAGQLTIIEGFKRELNYVARNKPKTVIYWLAEVKDYDVEIRLSHEHQAYRWLGLEEACQLAQFKEMKAALQEGHQFLCSIEALEH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/318.1/318.1_protein/sequences/P50583-1_4ick-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 150
+# Identity:     143/150 (95.3%)
+# Similarity:   143/150 (95.3%)
+# Gaps:           3/150 ( 2.0%)
+# Score: 756.0
+# 
+#
+#=======================================
+
+asis               1 MALRACGLIIFRRCLIPKVDNNAIEFLLLQASDGIHHWTPPKGHVEPGED     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXRACGLIIFRRCLIPKVDNNAIEFLLLQASDGIHHWTPPKGHVEPGED     50
+
+asis              51 DLETALRETQEEAGIEAGQLTIIEGFKRELNYVARNKPKTVIYWLAEVKD    100
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+asis              51 DLETALRATQEEAGIEAGQLTIIEGFKRELNYVARNKPKTVIYWLAEVKD    100
+
+asis             101 YDVEIRLSHEHQAYRWLGLEEACQLAQFKEMKAALQEGHQFLCSIEA---    147
+                     |||||||||||||||||||||||||||||||||||||||||||||||   
+asis             101 YDVEIRLSHEHQAYRWLGLEEACQLAQFKEMKAALQEGHQFLCSIEALEH    150
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:42:32
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10105.1/10105.1_protein/sequences/P30405-1_5ccs-X.needle
+#    -asequence asis::MLALRCGSRWLGLLSVPRSVPLRLPAARACSKGSGDPSSSSSSGNPLVYLDVDANGKPLGRVVLELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHNGTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIKTDWLDGKHVVFGHVKEGMDVVKKIESFGSKSGRTSKKIVITDCGQLS
+#    -bsequence asis::XGNPLVYLDVDANGKPLGRVVLELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHNGTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIKTDWLDGQHVVFGHVIEGMDVVKKIESFGSKSGRTSKKIVITDCGQLS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10105.1/10105.1_protein/sequences/P30405-1_5ccs-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 207
+# Identity:     162/207 (78.3%)
+# Similarity:   163/207 (78.7%)
+# Gaps:          42/207 (20.3%)
+# Score: 866.0
+# 
+#
+#=======================================
+
+asis               1 MLALRCGSRWLGLLSVPRSVPLRLPAARACSKGSGDPSSSSSSGNPLVYL     50
+                                                               .|||||||
+asis               1 ------------------------------------------XGNPLVYL      8
+
+asis              51 DVDANGKPLGRVVLELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIP    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               9 DVDANGKPLGRVVLELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIP     58
+
+asis             101 SFMCQAGDFTNHNGTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              59 SFMCQAGDFTNHNGTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTN    108
+
+asis             151 GSQFFICTIKTDWLDGKHVVFGHVKEGMDVVKKIESFGSKSGRTSKKIVI    200
+                     ||||||||||||||||:|||||||.|||||||||||||||||||||||||
+asis             109 GSQFFICTIKTDWLDGQHVVFGHVIEGMDVVKKIESFGSKSGRTSKKIVI    158
+
+asis             201 TDCGQLS    207
+                     |||||||
+asis             159 TDCGQLS    165
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:55:51
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3251.1/3251.1_protein/sequences/P00492-1_5hia-A.needle
+#    -asequence asis::MATRSPGVVISDDEPGYDLDLFCIPNHYAEDLERVFIPHGLIMDRTERLARDVMKEMGGHHIVALCVLKGGYKFFADLLDYIKALNRNSDRSIPMTVDFIRLKSYCNDQSTGDIKVIGGDDLSTLTGKNVLIVEDIIDTGKTMQTLLSLVRQYNPKMVKVASLLVKRTPRSVGYKPDFVGFEIPDKFVVGYALDYNEYFRDLNHVCVISETGKAKYKA
+#    -bsequence asis::XTRSPGVVISDDEPGYDLDLFAIPNHYAEDLERVFIPHGLIMDRTERLARDVMKEMGGHHIVALCVLKGGYKFFADLLDYIKALNRNSDRSIPMTVDFIRLXXXXXXXXXXXIKVIXXXDLSTLTGKNVLIVEDIIDTGKTMQTLLSLVRQYNPKMVKVASLLVKRTPRSVGYKPDFVGFEIPDKFVVGYALDYNEYFRDLNHVAVISETGKAKYKA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3251.1/3251.1_protein/sequences/P00492-1_5hia-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 218
+# Identity:     200/218 (91.7%)
+# Similarity:   200/218 (91.7%)
+# Gaps:           1/218 ( 0.5%)
+# Score: 1018.0
+# 
+#
+#=======================================
+
+asis               1 MATRSPGVVISDDEPGYDLDLFCIPNHYAEDLERVFIPHGLIMDRTERLA     50
+                      .||||||||||||||||||||.|||||||||||||||||||||||||||
+asis               1 -XTRSPGVVISDDEPGYDLDLFAIPNHYAEDLERVFIPHGLIMDRTERLA     49
+
+asis              51 RDVMKEMGGHHIVALCVLKGGYKFFADLLDYIKALNRNSDRSIPMTVDFI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              50 RDVMKEMGGHHIVALCVLKGGYKFFADLLDYIKALNRNSDRSIPMTVDFI     99
+
+asis             101 RLKSYCNDQSTGDIKVIGGDDLSTLTGKNVLIVEDIIDTGKTMQTLLSLV    150
+                     ||...........||||...||||||||||||||||||||||||||||||
+asis             100 RLXXXXXXXXXXXIKVIXXXDLSTLTGKNVLIVEDIIDTGKTMQTLLSLV    149
+
+asis             151 RQYNPKMVKVASLLVKRTPRSVGYKPDFVGFEIPDKFVVGYALDYNEYFR    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             150 RQYNPKMVKVASLLVKRTPRSVGYKPDFVGFEIPDKFVVGYALDYNEYFR    199
+
+asis             201 DLNHVCVISETGKAKYKA    218
+                     |||||.||||||||||||
+asis             200 DLNHVAVISETGKAKYKA    217
+
+
+#---------------------------------------
+#---------------------------------------

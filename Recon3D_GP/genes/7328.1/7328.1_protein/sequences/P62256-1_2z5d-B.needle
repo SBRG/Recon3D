@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:40:41
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7328.1/7328.1_protein/sequences/P62256-1_2z5d-B.needle
+#    -asequence asis::MSSPSPGKRRMDTDVVKLIESKHEVTILGGLNEFVVKFYGPQGTPYEGGVWKVRVDLPDKYPFKSPSIGFMNKIFHPNIDEASGTVCLDVINQTWTALYDLTNIFESFLPQLLAYPNPIDPLNGDAAAMYLHRPEEYKQKIKEYIQKYATEEALKEQEEGTGDSSSESSMSDFSEDEAQDMEL
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXPGKRRMDTDVIKLIESKHEVTILGGLNEFVVKFYGPQGTPYEGGVWKVRVDLPDKYPFKSPSIGFMNKIFHPNIDEASGTVCLDVINQTWTALYDLTNIFESFLPQLLAYPNPIDPLNGDAAAMYLHRPEEYKQKIKEYIQKYATEEALKE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7328.1/7328.1_protein/sequences/P62256-1_2z5d-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 202
+# Identity:     150/202 (74.3%)
+# Similarity:   151/202 (74.8%)
+# Gaps:          46/202 (22.8%)
+# Score: 805.0
+# 
+#
+#=======================================
+
+asis               1 -------------------MSSPSPGKRRMDTDVVKLIESKHEVTILGGL     31
+                                        .....||||||||||:|||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXPGKRRMDTDVIKLIESKHEVTILGGL     50
+
+asis              32 NEFVVKFYGPQGTPYEGGVWKVRVDLPDKYPFKSPSIGFMNKIFHPNIDE     81
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 NEFVVKFYGPQGTPYEGGVWKVRVDLPDKYPFKSPSIGFMNKIFHPNIDE    100
+
+asis              82 ASGTVCLDVINQTWTALYDLTNIFESFLPQLLAYPNPIDPLNGDAAAMYL    131
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 ASGTVCLDVINQTWTALYDLTNIFESFLPQLLAYPNPIDPLNGDAAAMYL    150
+
+asis             132 HRPEEYKQKIKEYIQKYATEEALKEQEEGTGDSSSESSMSDFSEDEAQDM    181
+                     |||||||||||||||||||||||||                         
+asis             151 HRPEEYKQKIKEYIQKYATEEALKE-------------------------    175
+
+asis             182 EL    183
+                       
+asis             175 --    175
+
+
+#---------------------------------------
+#---------------------------------------

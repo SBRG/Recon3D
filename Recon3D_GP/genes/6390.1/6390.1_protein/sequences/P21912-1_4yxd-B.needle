@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:54:04
+# Commandline: needle
+#    -outfile ./Recon3D/genes/6390.1/6390.1_protein/sequences/P21912-1_4yxd-B.needle
+#    -asequence asis::MAAVVALSLRRRLPATTLGGACLQASRGAQTAAATAPRIKKFAIYRWDPDKAGDKPHMQTYEVDLNKCGPMVLDALIKIKNEVDSTLTFRRSCREGICGSCAMNINGGNTLACTRRIDTNLNKVSKIYPLPHMYVIKDLVPDLSNFYAQYKSIEPYLKKKDESQEGKQQYLQSIEEREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAVLMQAYRWMIDSRDDFTEERLAKLQDPFSLYRCHTIMNCTRTCPKGLNPGKAIAEIKKMMATYKEKKASV
+#    -bsequence asis::XXXXXXXXPRIKKFAIYRWDPDKTGDKPHMQTYEIDLNNCGPMVLDALIKIKNEIDSTLTFRRSCREGICGSCAMNINGGNTLACTRRIDTNLDKVSKIYPLPHMYVIKDLVPDLSNFYAQYKSIEPYLKKKDESQEGKQQYLQSIEEREKLDGLYECILCACCSTSCPSYWWNGDKYLGPAVLMQAYRWMIDSRDDFTEERLAKLQDPFSLYRCHTIMNCTGTCPKGLNPGKAIAEIKKMMATYKE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/6390.1/6390.1_protein/sequences/P21912-1_4yxd-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 280
+# Identity:     233/280 (83.2%)
+# Similarity:   236/280 (84.3%)
+# Gaps:          33/280 (11.8%)
+# Score: 1285.0
+# 
+#
+#=======================================
+
+asis               1 MAAVVALSLRRRLPATTLGGACLQASRGAQTAAATAPRIKKFAIYRWDPD     50
+                                                 ........||||||||||||||
+asis               1 ----------------------------XXXXXXXXPRIKKFAIYRWDPD     22
+
+asis              51 KAGDKPHMQTYEVDLNKCGPMVLDALIKIKNEVDSTLTFRRSCREGICGS    100
+                     |.||||||||||:|||.|||||||||||||||:|||||||||||||||||
+asis              23 KTGDKPHMQTYEIDLNNCGPMVLDALIKIKNEIDSTLTFRRSCREGICGS     72
+
+asis             101 CAMNINGGNTLACTRRIDTNLNKVSKIYPLPHMYVIKDLVPDLSNFYAQY    150
+                     |||||||||||||||||||||:||||||||||||||||||||||||||||
+asis              73 CAMNINGGNTLACTRRIDTNLDKVSKIYPLPHMYVIKDLVPDLSNFYAQY    122
+
+asis             151 KSIEPYLKKKDESQEGKQQYLQSIEEREKLDGLYECILCACCSTSCPSYW    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             123 KSIEPYLKKKDESQEGKQQYLQSIEEREKLDGLYECILCACCSTSCPSYW    172
+
+asis             201 WNGDKYLGPAVLMQAYRWMIDSRDDFTEERLAKLQDPFSLYRCHTIMNCT    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             173 WNGDKYLGPAVLMQAYRWMIDSRDDFTEERLAKLQDPFSLYRCHTIMNCT    222
+
+asis             251 RTCPKGLNPGKAIAEIKKMMATYKEKKASV    280
+                     .||||||||||||||||||||||||     
+asis             223 GTCPKGLNPGKAIAEIKKMMATYKE-----    247
+
+
+#---------------------------------------
+#---------------------------------------

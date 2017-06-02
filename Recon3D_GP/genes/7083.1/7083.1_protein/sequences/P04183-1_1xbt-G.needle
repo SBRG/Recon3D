@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:27:40
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7083.1/7083.1_protein/sequences/P04183-1_1xbt-G.needle
+#    -asequence asis::MSCINLPTVLPGSPSKTRGQIQVILGPMFSGKSTELMRRVRRFQIAQYKCLVIKYAKDTRYSSSFCTHDRNTMEALPACLLRDVAQEALGVAVIGIDEGQFFPDIVEFCEAMANAGKTVIVAALDGTFQRKPFGAILNLVPLAESVVKLTAVCMECFREAAYTKRLGTEKEVEVIGGADKYHSVCRLCYFKKASGQPAGPDNKENCPVPGKPGEAVAARKLFAPQQILQCSPAN
+#    -bsequence asis::XXXXXXXXXXXXXXXXXRGQIQVILGPMFSGKSTELMRRVRRFQIAQYKCLVIKYAKDTRYSSSXXXXXXXXXEALPACLLRDVAQEALGVAVIGIDEGQFFPDIVEFCEAMANAGKTVIVAALDGTFQRKPFGAILNLVPLAESVVKLTAVCMECFREAAYTKRLGTEKEVEVIGGADKYHSVCRLCYFK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7083.1/7083.1_protein/sequences/P04183-1_1xbt-G.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 234
+# Identity:     165/234 (70.5%)
+# Similarity:   165/234 (70.5%)
+# Gaps:          43/234 (18.4%)
+# Score: 818.0
+# 
+#
+#=======================================
+
+asis               1 MSCINLPTVLPGSPSKTRGQIQVILGPMFSGKSTELMRRVRRFQIAQYKC     50
+                     .................|||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXRGQIQVILGPMFSGKSTELMRRVRRFQIAQYKC     50
+
+asis              51 LVIKYAKDTRYSSSFCTHDRNTMEALPACLLRDVAQEALGVAVIGIDEGQ    100
+                     ||||||||||||||.........|||||||||||||||||||||||||||
+asis              51 LVIKYAKDTRYSSSXXXXXXXXXEALPACLLRDVAQEALGVAVIGIDEGQ    100
+
+asis             101 FFPDIVEFCEAMANAGKTVIVAALDGTFQRKPFGAILNLVPLAESVVKLT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 FFPDIVEFCEAMANAGKTVIVAALDGTFQRKPFGAILNLVPLAESVVKLT    150
+
+asis             151 AVCMECFREAAYTKRLGTEKEVEVIGGADKYHSVCRLCYFKKASGQPAGP    200
+                     |||||||||||||||||||||||||||||||||||||||||         
+asis             151 AVCMECFREAAYTKRLGTEKEVEVIGGADKYHSVCRLCYFK---------    191
+
+asis             201 DNKENCPVPGKPGEAVAARKLFAPQQILQCSPAN    234
+                                                       
+asis             191 ----------------------------------    191
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:52:08
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2944.2/2944.2_protein/sequences/P09488-2_1xw6-A.needle
+#    -asequence asis::MPMILGYWDIRGLAHAIRLLLEYTDSSYEEKKYTMGDAPDYDRSQWLNEKFKLGLDFPNLPYLIDGAHKITQSNAILCYIARKHNLCGETEEEKIRVDILENQTMDNHMQLGMICYNPEFEKLKPKYLEELPEKLKLYSEFLGKRPWFAGNKGLEKISAYMKSSRFLPRPVFSKMAVWGNK
+#    -bsequence asis::PMILGYWDIRGLAHAIRLLLEYTDSSYEEKKYTMGDAPDYDRSQWLNEKFKLGLDFPNLPYLIDGAHKITQSNAILCYIARKHNLCGETEEEKIRVDILENQTMDNHMQLGMICYNPEFEKLKPKYLEELPEKLKLYSEFLGKRPWFAGNKITFVDFLVYDVLDLHRIFEPKCLDAFPNLKDFISRFEGLEKISAYMKSSRFLPRPVFSKMAVWGNK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2944.2/2944.2_protein/sequences/P09488-2_1xw6-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 218
+# Identity:     180/218 (82.6%)
+# Similarity:   180/218 (82.6%)
+# Gaps:          38/218 (17.4%)
+# Score: 944.0
+# 
+#
+#=======================================
+
+asis               1 MPMILGYWDIRGLAHAIRLLLEYTDSSYEEKKYTMGDAPDYDRSQWLNEK     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 -PMILGYWDIRGLAHAIRLLLEYTDSSYEEKKYTMGDAPDYDRSQWLNEK     49
+
+asis              51 FKLGLDFPNLPYLIDGAHKITQSNAILCYIARKHNLCGETEEEKIRVDIL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              50 FKLGLDFPNLPYLIDGAHKITQSNAILCYIARKHNLCGETEEEKIRVDIL     99
+
+asis             101 ENQTMDNHMQLGMICYNPEFEKLKPKYLEELPEKLKLYSEFLGKRPWFAG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             100 ENQTMDNHMQLGMICYNPEFEKLKPKYLEELPEKLKLYSEFLGKRPWFAG    149
+
+asis             151 NK-------------------------------------GLEKISAYMKS    163
+                     ||                                     |||||||||||
+asis             150 NKITFVDFLVYDVLDLHRIFEPKCLDAFPNLKDFISRFEGLEKISAYMKS    199
+
+asis             164 SRFLPRPVFSKMAVWGNK    181
+                     ||||||||||||||||||
+asis             200 SRFLPRPVFSKMAVWGNK    217
+
+
+#---------------------------------------
+#---------------------------------------

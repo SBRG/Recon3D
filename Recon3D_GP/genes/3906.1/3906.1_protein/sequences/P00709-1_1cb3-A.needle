@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:55:04
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3906.1/3906.1_protein/sequences/P00709-1_1cb3-A.needle
+#    -asequence asis::MRFFVPLFLVGILFPAILAKQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL
+#    -bsequence asis::IDYWLAHKALA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3906.1/3906.1_protein/sequences/P00709-1_1cb3-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      10/142 ( 7.0%)
+# Similarity:    10/142 ( 7.0%)
+# Gaps:         131/142 (92.3%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+asis               1 MRFFVPLFLVGILFPAILAKQFTKCELSQLLKDIDGYGGIALPELICTMF     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 HTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFL    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 DDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL    142
+                                        ||||||||||.            
+asis               1 -------------------IDYWLAHKALA------------     11
+
+
+#---------------------------------------
+#---------------------------------------

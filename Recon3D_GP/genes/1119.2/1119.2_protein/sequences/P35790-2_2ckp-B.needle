@@ -1,0 +1,78 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:24:47
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1119.2/1119.2_protein/sequences/P35790-2_2ckp-B.needle
+#    -asequence asis::MKTKFCTGGEAEPSPLGLLLSCGSGSAAPAPGVGQQRDAASDLESKQLGGQQPPLALPPPPPLPLPLPLPQPPPPQPPADEQPEPRTRRRAYLWCKEFLPGAWRGLREDEFHISVIRGGLSNMLFQCSLPDTTATLGDEPRKVLLRLYGAILQMGAEAMVLESVMFAILAERSLGPKLYGIFPQGRLEQFIPSRRLDTEELSLPDISAEIAEKMATFHGMKMPFNKEPKWLFGTMEKYLKEVLRIKFTEESRIKKLHKLLSYNLPLELENLRSLLESTPSPVVFCHNDCQEGNILLLEGRENSEKQKLMLIDFEYSSYNYRGFDIGNHFCEWMYDYSYEKYPFFRANIRKYPTKKQQLHFISSYLPAFQNDFENLSTEEKSIIKEEMLLEVNRFALASHFLWGLWSIVQAKISSIEFGYMDYAQARFDAYFHQKRKLGV
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYLWCKEFLPGAWRGLREDEFHISVIRXXXXNMLFQCSLPXXXXXXXXXXXKVLLRLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMVLESVMFAILAERSLGPKLYGIFPQGRLEQFIPSRRLDTEELSLPDISAEIAEKMATFHGMKMPFNKEPKWLFGTMEKXXXXXXXXXXXXXXXXXXXXXXLSYNLPLELENLRSLLESTPSPVVFCHNDCQEGNILLLEXXXXXXXQKLMLIDFEYSSYNYRGFDIGNHFCEWMYDYSYEKYPFFRANIRKYPTKKQQLHFISSYLPAFQXXFENLSTEEKSIIKEEMLLEVNRFALASHFLWGLWXXXXXXXXXXXXXXXXXAQARFDAYFHQKRKLGV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1119.2/1119.2_protein/sequences/P35790-2_2ckp-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 547
+# Identity:     274/547 (50.1%)
+# Similarity:   274/547 (50.1%)
+# Gaps:         198/547 (36.2%)
+# Score: 1329.0
+# 
+#
+#=======================================
+
+asis               1 MKTKFCTGGEAEPSPLGLLLSCGSGSAAPAPGVGQQRDAASDLESKQLGG     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 QQPPLALPPPPPLPLPLPLPQPPPPQPPADEQPEPRTRRR----------     90
+                                                                       
+asis               1 ----------------------------------------XXXXXXXXXX     10
+
+asis              90 --------------------------------------------------     90
+                                                                       
+asis              11 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     60
+
+asis              91 ------------------------------AYLWCKEFLPGAWRGLREDE    110
+                                                   .|||||||||||||||||||
+asis              61 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYLWCKEFLPGAWRGLREDE    110
+
+asis             111 FHISVIRGGLSNMLFQCSLPDTTATLGDEPRKVLLRL-------------    147
+                     |||||||....|||||||||...........||||||             
+asis             111 FHISVIRXXXXNMLFQCSLPXXXXXXXXXXXKVLLRLXXXXXXXXXXXXX    160
+
+asis             148 -----YGAILQMGAEAMVLESVMFAILAERSLGPKLYGIFPQGRLEQFIP    192
+                          ...........||||||||||||||||||||||||||||||||||
+asis             161 XXXXXXXXXXXXXXXXMVLESVMFAILAERSLGPKLYGIFPQGRLEQFIP    210
+
+asis             193 SRRLDTEELSLPDISAEIAEKMATFHGMKMPFNKEPKWLFGTMEKYLKEV    242
+                     |||||||||||||||||||||||||||||||||||||||||||||.....
+asis             211 SRRLDTEELSLPDISAEIAEKMATFHGMKMPFNKEPKWLFGTMEKXXXXX    260
+
+asis             243 LRIKFTEESRIKKLHKLLSYNLPLELENLRSLLESTPSPVVFCHNDCQEG    292
+                     .................|||||||||||||||||||||||||||||||||
+asis             261 XXXXXXXXXXXXXXXXXLSYNLPLELENLRSLLESTPSPVVFCHNDCQEG    310
+
+asis             293 NILLLEGRENSEKQKLMLIDFEYSSYNYRGFDIGNHFCEWMYDYSYEKYP    342
+                     ||||||.......|||||||||||||||||||||||||||||||||||||
+asis             311 NILLLEXXXXXXXQKLMLIDFEYSSYNYRGFDIGNHFCEWMYDYSYEKYP    360
+
+asis             343 FFRANIRKYPTKKQQLHFISSYLPAFQNDFENLSTEEKSIIKEEMLLEVN    392
+                     |||||||||||||||||||||||||||..|||||||||||||||||||||
+asis             361 FFRANIRKYPTKKQQLHFISSYLPAFQXXFENLSTEEKSIIKEEMLLEVN    410
+
+asis             393 RFALASHFLWGLWSIVQAKISSIEFGYMDYAQARFDAYFHQKRKLGV    439
+                     |||||||||||||.................|||||||||||||||||
+asis             411 RFALASHFLWGLWXXXXXXXXXXXXXXXXXAQARFDAYFHQKRKLGV    457
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:34:12
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3419.1/3419.1_protein/sequences/P50213-1_5gri-A.needle
+#    -asequence asis::MAGPAWISKVSRLLGAFHNPKQVTRGFTGGVQTVTLIPGDGIGPEISAAVMKIFDAAKAPIQWEERNVTAIQGPGGKWMIPSEAKESMDKNKMGLKGPLKTPIAAGHPSMNLLLRKTFDLYANVRPCVSIEGYKTPYTDVNIVTIRENTEGEYSGIEHVIVDGVVQSIKLITEGASKRIAEFAFEYARNNHRSNVTAVHKANIMRMSDGLFLQKCREVAESCKDIKFNEMYLDTVCLNMVQDPSQFDVLVMPNLYGDILSDLCAGLIGGLGVTPSGNIGANGVAIFESVHGTAPDIAGKDMANPTALLLSAVMMLRHMGLFDHAARIEAACFATIKDGKSLTKDLGGNAKCSDFTEEICRRVKDLD
+#    -bsequence asis::XXXVQTVTLIPGDGIGPEISAAVMKIFDAAKAPIQWEERNVTAIQXXXXXWMIPSEAKESMDKNKMGLKGPLKTXXXXXXPSMNLLLRKTFDLYANVRPCVSIEGYKTPYTDVNIVTIRENTEGEYSGIEHVIVDGVVQSIKLITEGASKRIAEFAFEYARNNHRSNVTAVHKANIMRMSDGLFLQKCREVAESCKDIKFNEMYLDTVCLNMVQDPSQFDVLVMPNLYGDILSDLCAGLIGGLGVTPSGNIGANGVAIFESVHGTAPDIAGKDMANPTALLLSAVMMLRHMGLFDHAARIEAACFATIKDGKSLTKDLXGNAKCSDFTEEICRRVKDL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3419.1/3419.1_protein/sequences/P50213-1_5gri-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 366
+# Identity:     323/366 (88.3%)
+# Similarity:   323/366 (88.3%)
+# Gaps:          28/366 ( 7.7%)
+# Score: 1653.0
+# 
+#
+#=======================================
+
+asis               1 MAGPAWISKVSRLLGAFHNPKQVTRGFTGGVQTVTLIPGDGIGPEISAAV     50
+                                                ...||||||||||||||||||||
+asis               1 ---------------------------XXXVQTVTLIPGDGIGPEISAAV     23
+
+asis              51 MKIFDAAKAPIQWEERNVTAIQGPGGKWMIPSEAKESMDKNKMGLKGPLK    100
+                     ||||||||||||||||||||||.....|||||||||||||||||||||||
+asis              24 MKIFDAAKAPIQWEERNVTAIQXXXXXWMIPSEAKESMDKNKMGLKGPLK     73
+
+asis             101 TPIAAGHPSMNLLLRKTFDLYANVRPCVSIEGYKTPYTDVNIVTIRENTE    150
+                     |......|||||||||||||||||||||||||||||||||||||||||||
+asis              74 TXXXXXXPSMNLLLRKTFDLYANVRPCVSIEGYKTPYTDVNIVTIRENTE    123
+
+asis             151 GEYSGIEHVIVDGVVQSIKLITEGASKRIAEFAFEYARNNHRSNVTAVHK    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             124 GEYSGIEHVIVDGVVQSIKLITEGASKRIAEFAFEYARNNHRSNVTAVHK    173
+
+asis             201 ANIMRMSDGLFLQKCREVAESCKDIKFNEMYLDTVCLNMVQDPSQFDVLV    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             174 ANIMRMSDGLFLQKCREVAESCKDIKFNEMYLDTVCLNMVQDPSQFDVLV    223
+
+asis             251 MPNLYGDILSDLCAGLIGGLGVTPSGNIGANGVAIFESVHGTAPDIAGKD    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             224 MPNLYGDILSDLCAGLIGGLGVTPSGNIGANGVAIFESVHGTAPDIAGKD    273
+
+asis             301 MANPTALLLSAVMMLRHMGLFDHAARIEAACFATIKDGKSLTKDLGGNAK    350
+                     |||||||||||||||||||||||||||||||||||||||||||||.||||
+asis             274 MANPTALLLSAVMMLRHMGLFDHAARIEAACFATIKDGKSLTKDLXGNAK    323
+
+asis             351 CSDFTEEICRRVKDLD    366
+                     ||||||||||||||| 
+asis             324 CSDFTEEICRRVKDL-    338
+
+
+#---------------------------------------
+#---------------------------------------

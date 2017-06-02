@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:54:05
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5092.1/5092.1_protein/sequences/P61457-1_1f93-C.needle
+#    -asequence asis::MAGKAHRLSAEERDQLLPNLRAVGWNELEGRDAIFKQFHFKDFNRAFGFMTRVALQAEKLDHHPEWFNVYNKVHITLSTHECAGLSERDINLASFIEQVAVSMT
+#    -bsequence asis::XXXXXHRLSAEERDQLLPNLRAVGWNELEGRDAIFKQFHFKDFNRAFGFXTRVALQAEKLDHHPEWFNVYNKVHITLSTHECAGLSERDINLASFIEQVAVSXT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5092.1/5092.1_protein/sequences/P61457-1_1f93-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      97/104 (93.3%)
+# Similarity:    97/104 (93.3%)
+# Gaps:           0/104 ( 0.0%)
+# Score: 509.0
+# 
+#
+#=======================================
+
+asis               1 MAGKAHRLSAEERDQLLPNLRAVGWNELEGRDAIFKQFHFKDFNRAFGFM     50
+                     .....||||||||||||||||||||||||||||||||||||||||||||.
+asis               1 XXXXXHRLSAEERDQLLPNLRAVGWNELEGRDAIFKQFHFKDFNRAFGFX     50
+
+asis              51 TRVALQAEKLDHHPEWFNVYNKVHITLSTHECAGLSERDINLASFIEQVA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 TRVALQAEKLDHHPEWFNVYNKVHITLSTHECAGLSERDINLASFIEQVA    100
+
+asis             101 VSMT    104
+                     ||.|
+asis             101 VSXT    104
+
+
+#---------------------------------------
+#---------------------------------------

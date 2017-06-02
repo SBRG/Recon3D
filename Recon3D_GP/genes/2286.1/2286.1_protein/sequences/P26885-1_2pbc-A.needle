@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:41:50
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2286.1/2286.1_protein/sequences/P26885-1_2pbc-A.needle
+#    -asequence asis::MRLSWFRVLTVLSICLSAVATATGAEGKRKLQIGVKKRVDHCPIKSRKGDVLHMHYTGKLEDGTEFDSSLPQNQPFVFSLGTGQVIKGWDQGLLGMCEGEKRKLVIPSELGYGERGAPPKIPGGATLVFEVELLKIERRTEL
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGSPIKSRKGDVLHMHYTGKLEDGTEFDSSLPQNQPFVFSLGTGQVIKGWDQGLLGMCEGEKRKLVIPSELGYGERGAPPKIPGGATLVFEVELLKIERRT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2286.1/2286.1_protein/sequences/P26885-1_2pbc-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      99/159 (62.3%)
+# Similarity:   100/159 (62.9%)
+# Gaps:          36/159 (22.6%)
+# Score: 491.0
+# 
+#
+#=======================================
+
+asis               1 -----------------MRLSWFRVLTVLSICLSAVATATGAEGKRKLQI     33
+                                      .......................|:        
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGS--------     42
+
+asis              34 GVKKRVDHCPIKSRKGDVLHMHYTGKLEDGTEFDSSLPQNQPFVFSLGTG     83
+                              |||||||||||||||||||||||||||||||||||||||||
+asis              43 ---------PIKSRKGDVLHMHYTGKLEDGTEFDSSLPQNQPFVFSLGTG     83
+
+asis              84 QVIKGWDQGLLGMCEGEKRKLVIPSELGYGERGAPPKIPGGATLVFEVEL    133
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              84 QVIKGWDQGLLGMCEGEKRKLVIPSELGYGERGAPPKIPGGATLVFEVEL    133
+
+asis             134 LKIERRTEL    142
+                     |||||||  
+asis             134 LKIERRT--    140
+
+
+#---------------------------------------
+#---------------------------------------

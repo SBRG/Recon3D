@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:04:28
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1024.1/1024.1_protein/sequences/P49336-1_4crl-A.needle
+#    -asequence asis::MDYDFKVKLSSERERVEDLFEYEGCKVGRGTYGHVYKAKRKDGKDDKDYALKQIEGTGISMSACREIALLRELKHPNVISLQKVFLSHADRKVWLLFDYAEHDLWHIIKFHRASKANKKPVQLPRGMVKSLLYQILDGIHYLHANWVLHRDLKPANILVMGEGPERGRVKIADMGFARLFNSPLKPLADLDPVVVTFWYRAPELLLGARHYTKAIDIWAIGCIFAELLTSEPIFHCRQEDIKTSNPYHHDQLDRIFNVMGFPADKDWEDIKKMPEHSTLMKDFRRNTYTNCSLIKYMEKHKVKPDSKAFHLLQKLLTMDPIKRITSEQAMQDPYFLEDPLPTSDVFAGCQIPYPKREFLTEEEPDDKGDKKNQQQQQGNNHTNGTGHPGNQDSSHTQGPPLKKVRVVPPTTTSGGLIMTSDYQRSNPHAAYPNPGPSTSQPQSSMGYSATSQQPPQYSHQTHRY
+#    -bsequence asis::DDKMDYDFKVKLSSERERVEDLFEYEGCKVGRGTYGHVYKAKRKDGKDDKDYALKQIEGTGISMSACREIALLRELKHPNVISLQKVFLSHADRKVWLLFDYAEHDLWHIIKFHRASXXXXXXVQLPRGMVKSLLYQILDGIHYLHANWVLHRDLKPANILVMGEGPERGRVKIADMGFARLFNSPLXXXXXXXXXXVTFWYRAPELLLGARHYTKAIDIWAIGCIFAELLTSEPIFHCRQXXXXXXXPYHHDQLDRIFNVMGFPADKDWEDIKKMPEHSTLMKDFRRNTYTNCSLIKYMEKHKVKPDSKAFHLLQKLLTMDPIKRITSEQAMQDPYFLEDPLPTSDVFAGCQIPYPKREFL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1024.1/1024.1_protein/sequences/P49336-1_4crl-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 467
+# Identity:     336/467 (71.9%)
+# Similarity:   336/467 (71.9%)
+# Gaps:         108/467 (23.1%)
+# Score: 1788.0
+# 
+#
+#=======================================
+
+asis               1 ---MDYDFKVKLSSERERVEDLFEYEGCKVGRGTYGHVYKAKRKDGKDDK     47
+                        |||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 DDKMDYDFKVKLSSERERVEDLFEYEGCKVGRGTYGHVYKAKRKDGKDDK     50
+
+asis              48 DYALKQIEGTGISMSACREIALLRELKHPNVISLQKVFLSHADRKVWLLF     97
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 DYALKQIEGTGISMSACREIALLRELKHPNVISLQKVFLSHADRKVWLLF    100
+
+asis              98 DYAEHDLWHIIKFHRASKANKKPVQLPRGMVKSLLYQILDGIHYLHANWV    147
+                     |||||||||||||||||......|||||||||||||||||||||||||||
+asis             101 DYAEHDLWHIIKFHRASXXXXXXVQLPRGMVKSLLYQILDGIHYLHANWV    150
+
+asis             148 LHRDLKPANILVMGEGPERGRVKIADMGFARLFNSPLKPLADLDPVVVTF    197
+                     |||||||||||||||||||||||||||||||||||||..........|||
+asis             151 LHRDLKPANILVMGEGPERGRVKIADMGFARLFNSPLXXXXXXXXXXVTF    200
+
+asis             198 WYRAPELLLGARHYTKAIDIWAIGCIFAELLTSEPIFHCRQEDIKTSNPY    247
+                     |||||||||||||||||||||||||||||||||||||||||.......||
+asis             201 WYRAPELLLGARHYTKAIDIWAIGCIFAELLTSEPIFHCRQXXXXXXXPY    250
+
+asis             248 HHDQLDRIFNVMGFPADKDWEDIKKMPEHSTLMKDFRRNTYTNCSLIKYM    297
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 HHDQLDRIFNVMGFPADKDWEDIKKMPEHSTLMKDFRRNTYTNCSLIKYM    300
+
+asis             298 EKHKVKPDSKAFHLLQKLLTMDPIKRITSEQAMQDPYFLEDPLPTSDVFA    347
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             301 EKHKVKPDSKAFHLLQKLLTMDPIKRITSEQAMQDPYFLEDPLPTSDVFA    350
+
+asis             348 GCQIPYPKREFLTEEEPDDKGDKKNQQQQQGNNHTNGTGHPGNQDSSHTQ    397
+                     ||||||||||||                                      
+asis             351 GCQIPYPKREFL--------------------------------------    362
+
+asis             398 GPPLKKVRVVPPTTTSGGLIMTSDYQRSNPHAAYPNPGPSTSQPQSSMGY    447
+                                                                       
+asis             362 --------------------------------------------------    362
+
+asis             448 SATSQQPPQYSHQTHRY    464
+                                      
+asis             362 -----------------    362
+
+
+#---------------------------------------
+#---------------------------------------

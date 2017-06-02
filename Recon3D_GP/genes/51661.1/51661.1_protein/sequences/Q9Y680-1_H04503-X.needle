@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:42:16
+# Commandline: needle
+#    -outfile ./Recon3D/genes/51661.1/51661.1_protein/sequences/Q9Y680-1_H04503-X.needle
+#    -asequence asis::MPKTMHFLFRFIVFFYLWGLFTAQRQKKEESTEEVKIEVLHRPENCSKTSKKGDLLNAHYDGYLAKDGSKFYCSRTQNEGHPKWFVLGVGQVIKGLDIAMTDMCPGEKRKVVIPPSFAYGKEGYGSLEEVFLLQNILVSCHRTTLHVLKCMYLLVLNNNTCAEGKIPPDATLIFEIELYAVTKGPRSIETFKQIDMDNDRQLSKAEINLYLQREFEKDEKPRDKSYQDAVLEDIFKKNDHDGDGFISPKEYNVYQHDEL
+#    -bsequence asis::MPKTMHFLFRFIVFFYLWGLFTAQRQKKEESTEEVKIEVLHRPENCSKTSKKGDLLNAHYDGYLAKDGSKFYCSRTQNEGHPKWFVLGVGQVIKGLDIAMTDMCPGEKRKVVIPPSFAYGKEGYEGKIPPDATLIFEIELYAVTKGPRSIETFKQIDMDNDRQLSKAEINLYLQREFEKDEKPRDKSYQDAVLEDIFKKNDHDGDGFISPKEYNVYQHDEL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/51661.1/51661.1_protein/sequences/Q9Y680-1_H04503-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 259
+# Identity:     221/259 (85.3%)
+# Similarity:   221/259 (85.3%)
+# Gaps:          38/259 (14.7%)
+# Score: 1156.5
+# 
+#
+#=======================================
+
+asis               1 MPKTMHFLFRFIVFFYLWGLFTAQRQKKEESTEEVKIEVLHRPENCSKTS     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MPKTMHFLFRFIVFFYLWGLFTAQRQKKEESTEEVKIEVLHRPENCSKTS     50
+
+asis              51 KKGDLLNAHYDGYLAKDGSKFYCSRTQNEGHPKWFVLGVGQVIKGLDIAM    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 KKGDLLNAHYDGYLAKDGSKFYCSRTQNEGHPKWFVLGVGQVIKGLDIAM    100
+
+asis             101 TDMCPGEKRKVVIPPSFAYGKEGYGSLEEVFLLQNILVSCHRTTLHVLKC    150
+                     ||||||||||||||||||||||||                          
+asis             101 TDMCPGEKRKVVIPPSFAYGKEGY--------------------------    124
+
+asis             151 MYLLVLNNNTCAEGKIPPDATLIFEIELYAVTKGPRSIETFKQIDMDNDR    200
+                                 ||||||||||||||||||||||||||||||||||||||
+asis             125 ------------EGKIPPDATLIFEIELYAVTKGPRSIETFKQIDMDNDR    162
+
+asis             201 QLSKAEINLYLQREFEKDEKPRDKSYQDAVLEDIFKKNDHDGDGFISPKE    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             163 QLSKAEINLYLQREFEKDEKPRDKSYQDAVLEDIFKKNDHDGDGFISPKE    212
+
+asis             251 YNVYQHDEL    259
+                     |||||||||
+asis             213 YNVYQHDEL    221
+
+
+#---------------------------------------
+#---------------------------------------

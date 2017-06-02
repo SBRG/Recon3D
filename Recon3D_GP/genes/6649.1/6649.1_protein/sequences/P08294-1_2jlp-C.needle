@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:53:02
+# Commandline: needle
+#    -outfile ./Recon3D/genes/6649.1/6649.1_protein/sequences/P08294-1_2jlp-C.needle
+#    -asequence asis::MLALLCSCLLLAAGASDAWTGEDSAEPNSDSAEWIRDMYAKVTEIWQEVMQRRDDDGALHAACQVQPSATLDAAQPRVTGVVLFRQLAPRAKLDAFFALEGFPTEPNSSSRAIHVHQFGDLSQGCESTGPHYNPLAVPHPQHPGDFGNFAVRDGSLWRYRAGLAASLAGPHSIVGRAVVVHAGEDDLGRGGNQASVENGNAGRRLACCVVGVCGPGLWERQAREHSERKKRRRESECKAA
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDGTLHAACQVQPSATLDAAQPRVTGVVLFRQLAPRAKLDAFFALEGFPTEPNSSSRAIHVHQFGDLSQGCESTGPHYNPLAVPHPQHPGDFGNFAVRDGSLWRYRAGLAASLAGPHSIVGRAVVVHAGEDDLGRGGNQASVENGNAGRRLACCVVGVCGPGLWERQA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/6649.1/6649.1_protein/sequences/P08294-1_2jlp-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 277
+# Identity:     166/277 (59.9%)
+# Similarity:   166/277 (59.9%)
+# Gaps:         110/277 (39.7%)
+# Score: 865.0
+# 
+#
+#=======================================
+
+asis               1 MLALLCSCLLLAAGASDAWTGEDSAEPNSDSAEWIRDMYAKVTEIWQEVM     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 QRRDD-------------------------------------DGALHAAC     63
+                                                               ||.|||||
+asis               1 -----XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDGTLHAAC     45
+
+asis              64 QVQPSATLDAAQPRVTGVVLFRQLAPRAKLDAFFALEGFPTEPNSSSRAI    113
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              46 QVQPSATLDAAQPRVTGVVLFRQLAPRAKLDAFFALEGFPTEPNSSSRAI     95
+
+asis             114 HVHQFGDLSQGCESTGPHYNPLAVPHPQHPGDFGNFAVRDGSLWRYRAGL    163
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              96 HVHQFGDLSQGCESTGPHYNPLAVPHPQHPGDFGNFAVRDGSLWRYRAGL    145
+
+asis             164 AASLAGPHSIVGRAVVVHAGEDDLGRGGNQASVENGNAGRRLACCVVGVC    213
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             146 AASLAGPHSIVGRAVVVHAGEDDLGRGGNQASVENGNAGRRLACCVVGVC    195
+
+asis             214 GPGLWERQAREHSERKKRRRESECKAA    240
+                     |||||||||                  
+asis             196 GPGLWERQA------------------    204
+
+
+#---------------------------------------
+#---------------------------------------

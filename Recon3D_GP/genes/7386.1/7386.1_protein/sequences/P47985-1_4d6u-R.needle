@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:57:50
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7386.1/7386.1_protein/sequences/P47985-1_4d6u-R.needle
+#    -asequence asis::MLSVASRSGPFAPVLSATSRGVAGALRPLVQATVPATPEQPVLDLKRPFLSRESLSGQAVRRPLVASVGLNVPASVCYSHTDIKVPDFSEYRRLEVLDSTKSSRESSEARKGFSYLVTGVTTVGVAYAAKNAVTQFVSSMSASADVLALAKIEIKLSDIPEGKNMAFKWRGKPLFVRHRTQKEIEQEAAVELSQLRDPQHDLDRVKKPEWVILIGVCTHLGCVPIANAGDFGGYYCPCHGSHYDASGRIRLGPAPLNLEVPTYEFTSDDMVIVG
+#    -bsequence asis::SHTDIKVPDFSDYRRPEVLDSTKSSKESSEARKGFSYLVTATTTVGVAYAAKNVVSQFVSSMSASADVLAMSKIEIKLSDIPEGKNMAFKWRGKPLFVRHRTKKEIDQEAAVEVSQLRDPQHDLERVKKPEWVILIGVCTHLGCVPIANAGDFGGYYCPCHGSHYDASGRIRKGPAPLNLEVPSYEFTSDDMVIVG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7386.1/7386.1_protein/sequences/P47985-1_4d6u-R.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 274
+# Identity:     181/274 (66.1%)
+# Similarity:   191/274 (69.7%)
+# Gaps:          78/274 (28.5%)
+# Score: 961.0
+# 
+#
+#=======================================
+
+asis               1 MLSVASRSGPFAPVLSATSRGVAGALRPLVQATVPATPEQPVLDLKRPFL     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 SRESLSGQAVRRPLVASVGLNVPASVCYSHTDIKVPDFSEYRRLEVLDST    100
+                                                 |||||||||||:|||.||||||
+asis               1 ----------------------------SHTDIKVPDFSDYRRPEVLDST     22
+
+asis             101 KSSRESSEARKGFSYLVTGVTTVGVAYAAKNAVTQFVSSMSASADVLALA    150
+                     |||:||||||||||||||..|||||||||||.|:||||||||||||||::
+asis              23 KSSKESSEARKGFSYLVTATTTVGVAYAAKNVVSQFVSSMSASADVLAMS     72
+
+asis             151 KIEIKLSDIPEGKNMAFKWRGKPLFVRHRTQKEIEQEAAVELSQLRDPQH    200
+                     ||||||||||||||||||||||||||||||:|||:||||||:||||||||
+asis              73 KIEIKLSDIPEGKNMAFKWRGKPLFVRHRTKKEIDQEAAVEVSQLRDPQH    122
+
+asis             201 DLDRVKKPEWVILIGVCTHLGCVPIANAGDFGGYYCPCHGSHYDASGRIR    250
+                     ||:|||||||||||||||||||||||||||||||||||||||||||||||
+asis             123 DLERVKKPEWVILIGVCTHLGCVPIANAGDFGGYYCPCHGSHYDASGRIR    172
+
+asis             251 LGPAPLNLEVPTYEFTSDDMVIVG    274
+                     .||||||||||:||||||||||||
+asis             173 KGPAPLNLEVPSYEFTSDDMVIVG    196
+
+
+#---------------------------------------
+#---------------------------------------

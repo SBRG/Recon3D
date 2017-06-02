@@ -1,0 +1,534 @@
+data_2LDC
+# 
+_entry.id   2LDC 
+# 
+_audit_conform.dict_name       mmcif_pdbx.dic 
+_audit_conform.dict_version    4.011 
+_audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
+# 
+loop_
+_database_2.database_id 
+_database_2.database_code 
+PDB  2LDC       
+RCSB RCSB102257 
+BMRB 17658      
+# 
+_database_PDB_rev.num             1 
+_database_PDB_rev.date            2011-07-06 
+_database_PDB_rev.date_original   2011-05-20 
+_database_PDB_rev.mod_type        0 
+_database_PDB_rev.replaces        2LDC 
+_database_PDB_rev.status          ? 
+# 
+loop_
+_pdbx_database_related.db_id 
+_pdbx_database_related.db_name 
+_pdbx_database_related.content_type 
+_pdbx_database_related.details 
+17658 BMRB unspecified . 
+2LDA  PDB  unspecified . 
+2LDD  PDB  unspecified . 
+# 
+_pdbx_database_status.deposit_site     BMRB 
+_pdbx_database_status.entry_id         2LDC 
+_pdbx_database_status.process_site     RCSB 
+_pdbx_database_status.SG_entry         ? 
+_pdbx_database_status.status_code      REL 
+_pdbx_database_status.status_code_mr   REL 
+_pdbx_database_status.status_code_sf   ? 
+_pdbx_database_status.status_code_cs   REL 
+# 
+loop_
+_audit_author.name 
+_audit_author.pdbx_ordinal 
+'Phillips, C.' 1  
+'Bazin, R.'    2  
+'Bent, A.'     3  
+'Davies, N.'   4  
+'Moore, R.'    5  
+'Pannifer, A.' 6  
+'Pickford, A.' 7  
+'Prior, S.'    8  
+'Read, C.'     9  
+'Roberts, L.'  10 
+'Schade, M.'   11 
+'Scott, A.'    12 
+'Brown, D.'    13 
+'Xu, B.'       14 
+'Irving, S.'   15 
+# 
+_citation.id                        primary 
+_citation.title                     'Design and structure of stapled peptides binding to estrogen receptors.' 
+_citation.journal_abbrev            J.Am.Chem.Soc. 
+_citation.journal_volume            133 
+_citation.page_first                9696 
+_citation.page_last                 9699 
+_citation.year                      2011 
+_citation.journal_id_ASTM           JACSAT 
+_citation.country                   US 
+_citation.journal_id_ISSN           0002-7863 
+_citation.journal_id_CSD            0004 
+_citation.book_publisher            ? 
+_citation.pdbx_database_id_PubMed   21612236 
+_citation.pdbx_database_id_DOI      10.1021/ja202946k 
+# 
+loop_
+_citation_author.citation_id 
+_citation_author.name 
+_citation_author.ordinal 
+primary 'Phillips, C.'   1  
+primary 'Roberts, L.R.'  2  
+primary 'Schade, M.'     3  
+primary 'Bazin, R.'      4  
+primary 'Bent, A.'       5  
+primary 'Davies, N.L.'   6  
+primary 'Moore, R.'      7  
+primary 'Pannifer, A.D.' 8  
+primary 'Pickford, A.R.' 9  
+primary 'Prior, S.H.'    10 
+primary 'Read, C.M.'     11 
+primary 'Scott, A.'      12 
+primary 'Brown, D.G.'    13 
+primary 'Xu, B.'         14 
+primary 'Irving, S.L.'   15 
+# 
+_entity.id                         1 
+_entity.type                       polymer 
+_entity.src_method                 syn 
+_entity.pdbx_description           'Estrogen receptor-binding stapled peptide SP1' 
+_entity.formula_weight             1355.662 
+_entity.pdbx_number_of_molecules   1 
+_entity.details                    ? 
+# 
+_entity_poly.entity_id                      1 
+_entity_poly.type                           'polypeptide(L)' 
+_entity_poly.nstd_linkage                   no 
+_entity_poly.nstd_monomer                   yes 
+_entity_poly.pdbx_seq_one_letter_code       '(ACE)H(MK8)ILH(MK8)LLQDS(NH2)' 
+_entity_poly.pdbx_seq_one_letter_code_can   XHLILHLLLQDSX 
+_entity_poly.pdbx_strand_id                 A 
+# 
+loop_
+_entity_poly_seq.entity_id 
+_entity_poly_seq.num 
+_entity_poly_seq.mon_id 
+_entity_poly_seq.hetero 
+1 1  ACE n 
+1 2  HIS n 
+1 3  MK8 n 
+1 4  ILE n 
+1 5  LEU n 
+1 6  HIS n 
+1 7  MK8 n 
+1 8  LEU n 
+1 9  LEU n 
+1 10 GLN n 
+1 11 ASP n 
+1 12 SER n 
+1 13 NH2 n 
+# 
+_struct_ref.id                         1 
+_struct_ref.db_name                    PDB 
+_struct_ref.db_code                    2LDC 
+_struct_ref.pdbx_db_accession          2LDC 
+_struct_ref.entity_id                  1 
+_struct_ref.biol_id                    . 
+_struct_ref.pdbx_align_begin           ? 
+_struct_ref.pdbx_seq_one_letter_code   ? 
+# 
+_struct_ref_seq.align_id                      1 
+_struct_ref_seq.ref_id                        1 
+_struct_ref_seq.pdbx_PDB_id_code              2LDC 
+_struct_ref_seq.pdbx_strand_id                A 
+_struct_ref_seq.seq_align_beg                 1 
+_struct_ref_seq.pdbx_seq_align_beg_ins_code   ? 
+_struct_ref_seq.seq_align_end                 13 
+_struct_ref_seq.pdbx_seq_align_end_ins_code   ? 
+_struct_ref_seq.pdbx_db_accession             2LDC 
+_struct_ref_seq.db_align_beg                  0 
+_struct_ref_seq.db_align_end                  12 
+_struct_ref_seq.pdbx_auth_seq_align_beg       0 
+_struct_ref_seq.pdbx_auth_seq_align_end       12 
+# 
+loop_
+_chem_comp.id 
+_chem_comp.type 
+_chem_comp.mon_nstd_flag 
+_chem_comp.name 
+_chem_comp.pdbx_synonyms 
+_chem_comp.formula 
+_chem_comp.formula_weight 
+ACE NON-POLYMER         . 'ACETYL GROUP'        ? 'C2 H4 O'        44.053  
+HIS 'L-peptide linking' y HISTIDINE             ? 'C6 H10 N3 O2 1' 156.164 
+MK8 'L-peptide linking' n 2-METHYL-L-NORLEUCINE ? 'C7 H15 N O2'    145.201 
+ILE 'L-peptide linking' y ISOLEUCINE            ? 'C6 H13 N O2'    131.174 
+LEU 'L-peptide linking' y LEUCINE               ? 'C6 H13 N O2'    131.174 
+GLN 'L-peptide linking' y GLUTAMINE             ? 'C5 H10 N2 O3'   146.146 
+ASP 'L-peptide linking' y 'ASPARTIC ACID'       ? 'C4 H7 N O4'     133.104 
+SER 'L-peptide linking' y SERINE                ? 'C3 H7 N O3'     105.093 
+NH2 NON-POLYMER         . 'AMINO GROUP'         ? 'H2 N'           16.022  
+# 
+loop_
+_pdbx_nmr_exptl.conditions_id 
+_pdbx_nmr_exptl.experiment_id 
+_pdbx_nmr_exptl.solution_id 
+_pdbx_nmr_exptl.type 
+1 1 1 '2D 1H-1H COSY'  
+1 2 1 '2D 1H-1H TOCSY' 
+1 3 1 '2D 1H-1H NOESY' 
+1 4 2 '2D 1H-1H COSY'  
+1 5 2 '2D 1H-1H TOCSY' 
+1 6 2 '2D 1H-1H NOESY' 
+# 
+_pdbx_nmr_exptl_sample_conditions.conditions_id    1 
+_pdbx_nmr_exptl_sample_conditions.ionic_strength   50 
+_pdbx_nmr_exptl_sample_conditions.pH               5.5 
+_pdbx_nmr_exptl_sample_conditions.pressure         ambient 
+_pdbx_nmr_exptl_sample_conditions.pressure_units   ? 
+_pdbx_nmr_exptl_sample_conditions.temperature      298 
+# 
+loop_
+_pdbx_nmr_sample_details.contents 
+_pdbx_nmr_sample_details.solution_id 
+_pdbx_nmr_sample_details.solvent_system 
+'5 mM stapled peptide SP1, 90% H2O/10% D2O' 1 '90% H2O/10% D2O' 
+'5 mM stapled peptide SP1, 100% D2O'        2 '100% D2O'        
+# 
+_pdbx_nmr_spectrometer.field_strength    600 
+_pdbx_nmr_spectrometer.manufacturer      Varian 
+_pdbx_nmr_spectrometer.model             INOVA 
+_pdbx_nmr_spectrometer.spectrometer_id   1 
+_pdbx_nmr_spectrometer.type              'Varian INOVA' 
+# 
+_pdbx_nmr_refine.entry_id   2LDC 
+_pdbx_nmr_refine.method     'simulated annealing' 
+_pdbx_nmr_refine.details    ? 
+# 
+_pdbx_nmr_ensemble.average_constraint_violations_per_residue     ? 
+_pdbx_nmr_ensemble.average_constraints_per_residue               ? 
+_pdbx_nmr_ensemble.average_distance_constraint_violation         ? 
+_pdbx_nmr_ensemble.average_torsion_angle_constraint_violation    ? 
+_pdbx_nmr_ensemble.conformer_selection_criteria                  'all calculated structures submitted' 
+_pdbx_nmr_ensemble.conformers_calculated_total_number            10 
+_pdbx_nmr_ensemble.conformers_submitted_total_number             10 
+_pdbx_nmr_ensemble.distance_constraint_violation_method          ? 
+_pdbx_nmr_ensemble.entry_id                                      2LDC 
+_pdbx_nmr_ensemble.maximum_distance_constraint_violation         ? 
+_pdbx_nmr_ensemble.maximum_lower_distance_constraint_violation   ? 
+_pdbx_nmr_ensemble.maximum_torsion_angle_constraint_violation    ? 
+_pdbx_nmr_ensemble.maximum_upper_distance_constraint_violation   ? 
+_pdbx_nmr_ensemble.torsion_angle_constraint_violation_method     ? 
+# 
+_pdbx_nmr_representative.conformer_id         1 
+_pdbx_nmr_representative.entry_id             2LDC 
+_pdbx_nmr_representative.selection_criteria   'closest to the average' 
+# 
+loop_
+_pdbx_nmr_software.authors 
+_pdbx_nmr_software.classification 
+_pdbx_nmr_software.name 
+_pdbx_nmr_software.version 
+_pdbx_nmr_software.ordinal 
+Varian                                              collection                  VNMR     ?   1 
+'Andy Pickford'                                     'structure solution'        NMRSwarm 0.1 2 
+'Andy Pickford'                                     'data analysis'             NMRSwarm 0.1 3 
+'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax' processing                  NMRPipe  ?   4 
+CCPN                                                'chemical shift assignment' Analysis ?   5 
+?                                                   refinement                  NMRSwarm ?   6 
+# 
+_exptl.absorpt_coefficient_mu     ? 
+_exptl.absorpt_correction_T_max   ? 
+_exptl.absorpt_correction_T_min   ? 
+_exptl.absorpt_correction_type    ? 
+_exptl.absorpt_process_details    ? 
+_exptl.crystals_number            ? 
+_exptl.details                    ? 
+_exptl.entry_id                   2LDC 
+_exptl.method                     'SOLUTION NMR' 
+_exptl.method_details             ? 
+# 
+_struct.entry_id                  2LDC 
+_struct.title                     'Solution structure of the estrogen receptor-binding stapled peptide SP1 (Ac-HXILHXLLQDS-NH2)' 
+_struct.pdbx_descriptor           'Estrogen receptor-binding stapled peptide SP1' 
+_struct.pdbx_model_details        'closest to the average, model 1' 
+_struct.pdbx_CASP_flag            ? 
+_struct.pdbx_model_type_details   ? 
+# 
+_struct_keywords.entry_id        2LDC 
+_struct_keywords.pdbx_keywords   'DE NOVO PROTEIN' 
+_struct_keywords.text            'DE NOVO PROTEIN' 
+# 
+_struct_asym.id                            A 
+_struct_asym.pdbx_blank_PDB_chainid_flag   N 
+_struct_asym.pdbx_modified                 N 
+_struct_asym.entity_id                     1 
+_struct_asym.details                       ? 
+# 
+_struct_biol.id        1 
+_struct_biol.details   ? 
+# 
+_struct_conf.conf_type_id            HELX_P 
+_struct_conf.id                      HELX_P1 
+_struct_conf.pdbx_PDB_helix_id       1 
+_struct_conf.beg_label_comp_id       HIS 
+_struct_conf.beg_label_asym_id       A 
+_struct_conf.beg_label_seq_id        2 
+_struct_conf.pdbx_beg_PDB_ins_code   ? 
+_struct_conf.end_label_comp_id       GLN 
+_struct_conf.end_label_asym_id       A 
+_struct_conf.end_label_seq_id        10 
+_struct_conf.pdbx_end_PDB_ins_code   ? 
+_struct_conf.beg_auth_comp_id        HIS 
+_struct_conf.beg_auth_asym_id        A 
+_struct_conf.beg_auth_seq_id         1 
+_struct_conf.end_auth_comp_id        GLN 
+_struct_conf.end_auth_asym_id        A 
+_struct_conf.end_auth_seq_id         9 
+_struct_conf.pdbx_PDB_helix_class    1 
+_struct_conf.details                 ? 
+_struct_conf.pdbx_PDB_helix_length   9 
+# 
+_struct_conf_type.id          HELX_P 
+_struct_conf_type.criteria    ? 
+_struct_conf_type.reference   ? 
+# 
+loop_
+_struct_conn.id 
+_struct_conn.conn_type_id 
+_struct_conn.pdbx_PDB_id 
+_struct_conn.ptnr1_label_asym_id 
+_struct_conn.ptnr1_label_comp_id 
+_struct_conn.ptnr1_label_seq_id 
+_struct_conn.ptnr1_label_atom_id 
+_struct_conn.pdbx_ptnr1_label_alt_id 
+_struct_conn.pdbx_ptnr1_PDB_ins_code 
+_struct_conn.pdbx_ptnr1_standard_comp_id 
+_struct_conn.ptnr1_symmetry 
+_struct_conn.ptnr2_label_asym_id 
+_struct_conn.ptnr2_label_comp_id 
+_struct_conn.ptnr2_label_seq_id 
+_struct_conn.ptnr2_label_atom_id 
+_struct_conn.pdbx_ptnr2_label_alt_id 
+_struct_conn.pdbx_ptnr2_PDB_ins_code 
+_struct_conn.ptnr1_auth_asym_id 
+_struct_conn.ptnr1_auth_comp_id 
+_struct_conn.ptnr1_auth_seq_id 
+_struct_conn.ptnr2_auth_asym_id 
+_struct_conn.ptnr2_auth_comp_id 
+_struct_conn.ptnr2_auth_seq_id 
+_struct_conn.ptnr2_symmetry 
+_struct_conn.pdbx_ptnr3_label_atom_id 
+_struct_conn.pdbx_ptnr3_label_seq_id 
+_struct_conn.pdbx_ptnr3_label_comp_id 
+_struct_conn.pdbx_ptnr3_label_asym_id 
+_struct_conn.pdbx_ptnr3_label_alt_id 
+_struct_conn.pdbx_ptnr3_PDB_ins_code 
+_struct_conn.details 
+_struct_conn.pdbx_dist_value 
+_struct_conn.pdbx_value_order 
+covale1 covale ? A ACE 1  C  ? ? ? 1_555 A HIS 2  N  ? ? A ACE 0  A HIS 1  1_555 ? ? ? ? ? ? ? 1.379 ? 
+covale2 covale ? A HIS 2  C  ? ? ? 1_555 A MK8 3  N  ? ? A HIS 1  A MK8 2  1_555 ? ? ? ? ? ? ? 1.399 ? 
+covale3 covale ? A MK8 3  C  ? ? ? 1_555 A ILE 4  N  ? ? A MK8 2  A ILE 3  1_555 ? ? ? ? ? ? ? 1.381 ? 
+covale4 covale ? A HIS 6  C  ? ? ? 1_555 A MK8 7  N  ? ? A HIS 5  A MK8 6  1_555 ? ? ? ? ? ? ? 1.391 ? 
+covale5 covale ? A MK8 7  C  ? ? ? 1_555 A LEU 8  N  ? ? A MK8 6  A LEU 7  1_555 ? ? ? ? ? ? ? 1.383 ? 
+covale6 covale ? A SER 12 C  ? ? ? 1_555 A NH2 13 N  ? ? A SER 11 A NH2 12 1_555 ? ? ? ? ? ? ? 1.327 ? 
+covale7 covale ? A MK8 3  CE ? ? ? 1_555 A MK8 7  CE ? ? A MK8 2  A MK8 6  1_555 ? ? ? ? ? ? ? 1.391 ? 
+# 
+_struct_conn_type.id          covale 
+_struct_conn_type.criteria    ? 
+_struct_conn_type.reference   ? 
+# 
+_atom_sites.entry_id                    2LDC 
+_atom_sites.Cartn_transform_axes        ? 
+_atom_sites.fract_transf_matrix[1][1]   1.000000 
+_atom_sites.fract_transf_matrix[1][2]   0.000000 
+_atom_sites.fract_transf_matrix[1][3]   0.000000 
+_atom_sites.fract_transf_matrix[2][1]   0.000000 
+_atom_sites.fract_transf_matrix[2][2]   1.000000 
+_atom_sites.fract_transf_matrix[2][3]   0.000000 
+_atom_sites.fract_transf_matrix[3][1]   0.000000 
+_atom_sites.fract_transf_matrix[3][2]   0.000000 
+_atom_sites.fract_transf_matrix[3][3]   1.000000 
+_atom_sites.fract_transf_vector[1]      0.00000 
+_atom_sites.fract_transf_vector[2]      0.00000 
+_atom_sites.fract_transf_vector[3]      0.00000 
+# 
+loop_
+_atom_type.symbol 
+C 
+O 
+H 
+N 
+# 
+loop_
+_pdbx_poly_seq_scheme.asym_id 
+_pdbx_poly_seq_scheme.entity_id 
+_pdbx_poly_seq_scheme.seq_id 
+_pdbx_poly_seq_scheme.mon_id 
+_pdbx_poly_seq_scheme.ndb_seq_num 
+_pdbx_poly_seq_scheme.pdb_seq_num 
+_pdbx_poly_seq_scheme.auth_seq_num 
+_pdbx_poly_seq_scheme.pdb_mon_id 
+_pdbx_poly_seq_scheme.auth_mon_id 
+_pdbx_poly_seq_scheme.pdb_strand_id 
+_pdbx_poly_seq_scheme.pdb_ins_code 
+_pdbx_poly_seq_scheme.hetero 
+A 1 1  ACE 1  0  0  ACE ACE A . n 
+A 1 2  HIS 2  1  1  HIS HIS A . n 
+A 1 3  MK8 3  2  2  MK8 MK8 A . n 
+A 1 4  ILE 4  3  3  ILE ILE A . n 
+A 1 5  LEU 5  4  4  LEU LEU A . n 
+A 1 6  HIS 6  5  5  HIS HIS A . n 
+A 1 7  MK8 7  6  6  MK8 MK8 A . n 
+A 1 8  LEU 8  7  7  LEU LEU A . n 
+A 1 9  LEU 9  8  8  LEU LEU A . n 
+A 1 10 GLN 10 9  9  GLN GLN A . n 
+A 1 11 ASP 11 10 10 ASP ASP A . n 
+A 1 12 SER 12 11 11 SER SER A . n 
+A 1 13 NH2 13 12 12 NH2 NH2 A . n 
+# 
+_pdbx_struct_assembly.id                   1 
+_pdbx_struct_assembly.details              author_defined_assembly 
+_pdbx_struct_assembly.method_details       ? 
+_pdbx_struct_assembly.oligomeric_details   monomeric 
+_pdbx_struct_assembly.oligomeric_count     1 
+# 
+_pdbx_struct_assembly_gen.assembly_id       1 
+_pdbx_struct_assembly_gen.oper_expression   1 
+_pdbx_struct_assembly_gen.asym_id_list      A 
+# 
+_pdbx_struct_oper_list.id                   1 
+_pdbx_struct_oper_list.type                 'identity operation' 
+_pdbx_struct_oper_list.name                 1_555 
+_pdbx_struct_oper_list.symmetry_operation   x,y,z 
+_pdbx_struct_oper_list.matrix[1][1]         1.0000000000 
+_pdbx_struct_oper_list.matrix[1][2]         0.0000000000 
+_pdbx_struct_oper_list.matrix[1][3]         0.0000000000 
+_pdbx_struct_oper_list.vector[1]            0.0000000000 
+_pdbx_struct_oper_list.matrix[2][1]         0.0000000000 
+_pdbx_struct_oper_list.matrix[2][2]         1.0000000000 
+_pdbx_struct_oper_list.matrix[2][3]         0.0000000000 
+_pdbx_struct_oper_list.vector[2]            0.0000000000 
+_pdbx_struct_oper_list.matrix[3][1]         0.0000000000 
+_pdbx_struct_oper_list.matrix[3][2]         0.0000000000 
+_pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
+_pdbx_struct_oper_list.vector[3]            0.0000000000 
+# 
+loop_
+_pdbx_nmr_exptl_sample.component 
+_pdbx_nmr_exptl_sample.concentration 
+_pdbx_nmr_exptl_sample.concentration_range 
+_pdbx_nmr_exptl_sample.concentration_units 
+_pdbx_nmr_exptl_sample.isotopic_labeling 
+_pdbx_nmr_exptl_sample.solution_id 
+'stapled peptide SP1-1' 5 ? mM ? 1 
+'stapled peptide SP1-2' 5 ? mM ? 2 
+# 
+loop_
+_pdbx_unobs_or_zero_occ_atoms.id 
+_pdbx_unobs_or_zero_occ_atoms.polymer_flag 
+_pdbx_unobs_or_zero_occ_atoms.occupancy_flag 
+_pdbx_unobs_or_zero_occ_atoms.PDB_model_num 
+_pdbx_unobs_or_zero_occ_atoms.auth_asym_id 
+_pdbx_unobs_or_zero_occ_atoms.auth_comp_id 
+_pdbx_unobs_or_zero_occ_atoms.auth_seq_id 
+_pdbx_unobs_or_zero_occ_atoms.PDB_ins_code 
+_pdbx_unobs_or_zero_occ_atoms.auth_atom_id 
+_pdbx_unobs_or_zero_occ_atoms.label_alt_id 
+1  Y 1 1  A MK8 2 ? HEA ? 
+2  Y 1 1  A MK8 2 ? HEB ? 
+3  Y 1 1  A MK8 6 ? HEA ? 
+4  Y 1 1  A MK8 6 ? HEB ? 
+5  Y 1 2  A MK8 2 ? HEA ? 
+6  Y 1 2  A MK8 2 ? HEB ? 
+7  Y 1 2  A MK8 6 ? HEA ? 
+8  Y 1 2  A MK8 6 ? HEB ? 
+9  Y 1 3  A MK8 2 ? HEA ? 
+10 Y 1 3  A MK8 2 ? HEB ? 
+11 Y 1 3  A MK8 6 ? HEA ? 
+12 Y 1 3  A MK8 6 ? HEB ? 
+13 Y 1 4  A MK8 2 ? HEA ? 
+14 Y 1 4  A MK8 2 ? HEB ? 
+15 Y 1 4  A MK8 6 ? HEA ? 
+16 Y 1 4  A MK8 6 ? HEB ? 
+17 Y 1 5  A MK8 2 ? HEA ? 
+18 Y 1 5  A MK8 2 ? HEB ? 
+19 Y 1 5  A MK8 6 ? HEA ? 
+20 Y 1 5  A MK8 6 ? HEB ? 
+21 Y 1 6  A MK8 2 ? HEA ? 
+22 Y 1 6  A MK8 2 ? HEB ? 
+23 Y 1 6  A MK8 6 ? HEA ? 
+24 Y 1 6  A MK8 6 ? HEB ? 
+25 Y 1 7  A MK8 2 ? HEA ? 
+26 Y 1 7  A MK8 2 ? HEB ? 
+27 Y 1 7  A MK8 6 ? HEA ? 
+28 Y 1 7  A MK8 6 ? HEB ? 
+29 Y 1 8  A MK8 2 ? HEA ? 
+30 Y 1 8  A MK8 2 ? HEB ? 
+31 Y 1 8  A MK8 6 ? HEA ? 
+32 Y 1 8  A MK8 6 ? HEB ? 
+33 Y 1 9  A MK8 2 ? HEA ? 
+34 Y 1 9  A MK8 2 ? HEB ? 
+35 Y 1 9  A MK8 6 ? HEA ? 
+36 Y 1 9  A MK8 6 ? HEB ? 
+37 Y 1 10 A MK8 2 ? HEA ? 
+38 Y 1 10 A MK8 2 ? HEB ? 
+39 Y 1 10 A MK8 6 ? HEA ? 
+40 Y 1 10 A MK8 6 ? HEB ? 
+# 
+loop_
+_pdbx_version.entry_id 
+_pdbx_version.revision_date 
+_pdbx_version.major_version 
+_pdbx_version.minor_version 
+_pdbx_version.details 
+_pdbx_version.revision_type 
+2LDC 2011-05-27 3 2    'compliance with PDB format V.3.20'          'Version format compliance' 
+2LDC 2011-07-13 4 0000 'compliance with PDB Exchange Dictionary V4' 'Version format compliance' 
+# 
+loop_
+_pdbx_struct_mod_residue.id 
+_pdbx_struct_mod_residue.label_asym_id 
+_pdbx_struct_mod_residue.label_seq_id 
+_pdbx_struct_mod_residue.label_comp_id 
+_pdbx_struct_mod_residue.auth_asym_id 
+_pdbx_struct_mod_residue.auth_seq_id 
+_pdbx_struct_mod_residue.auth_comp_id 
+_pdbx_struct_mod_residue.PDB_ins_code 
+_pdbx_struct_mod_residue.parent_comp_id 
+_pdbx_struct_mod_residue.details 
+1 A 3 MK8 A 2 MK8 ? LEU 2-METHYL-L-NORLEUCINE 
+2 A 7 MK8 A 6 MK8 ? LEU 2-METHYL-L-NORLEUCINE 
+# 
+loop_
+_pdbx_validate_close_contact.id 
+_pdbx_validate_close_contact.PDB_model_num 
+_pdbx_validate_close_contact.auth_atom_id_1 
+_pdbx_validate_close_contact.auth_asym_id_1 
+_pdbx_validate_close_contact.auth_comp_id_1 
+_pdbx_validate_close_contact.auth_seq_id_1 
+_pdbx_validate_close_contact.PDB_ins_code_1 
+_pdbx_validate_close_contact.label_alt_id_1 
+_pdbx_validate_close_contact.auth_atom_id_2 
+_pdbx_validate_close_contact.auth_asym_id_2 
+_pdbx_validate_close_contact.auth_comp_id_2 
+_pdbx_validate_close_contact.auth_seq_id_2 
+_pdbx_validate_close_contact.PDB_ins_code_2 
+_pdbx_validate_close_contact.label_alt_id_2 
+_pdbx_validate_close_contact.dist 
+1 1  HA A ILE 3 ? ? HDA A MK8 6 ? ? 1.51 
+2 2  HA A ILE 3 ? ? HDA A MK8 6 ? ? 1.44 
+3 6  HA A ILE 3 ? ? HG  A MK8 6 ? ? 1.52 
+4 8  HA A ILE 3 ? ? HDA A MK8 6 ? ? 1.59 
+5 9  HA A ILE 3 ? ? HDA A MK8 6 ? ? 1.45 
+6 10 HA A ILE 3 ? ? HDA A MK8 6 ? ? 1.55 
+# 
+_pdbx_validate_torsion.id              1 
+_pdbx_validate_torsion.PDB_model_num   4 
+_pdbx_validate_torsion.auth_comp_id    MK8 
+_pdbx_validate_torsion.auth_asym_id    A 
+_pdbx_validate_torsion.auth_seq_id     6 
+_pdbx_validate_torsion.PDB_ins_code    ? 
+_pdbx_validate_torsion.phi             -55.44 
+_pdbx_validate_torsion.psi             -7.33 
+# 

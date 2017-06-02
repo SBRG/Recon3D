@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:13:46
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2978.1/2978.1_protein/sequences/P43080-1_2na0-A.needle
+#    -asequence asis::MGNVMEGKSVEELSSTECHQWYKKFMTECPSGQLTLYEFRQFFGLKNLSPSASQYVEQMFETFDFNKDGYIDFMEYVAALSLVLKGKVEQKLRWYFKLYDVDGNGCIDRDELLTIIQAIRAINPCSDTTMTAEEFTDTVFSKIDVNGDGELSLEEFIEGVQKDQMLLDTLTRSLDLTRIVRRLQNGEQDEEGADEAAEAAG
+#    -bsequence asis::XGNIMDGKSVEELSSTECHQWYKKFMTECPSGQLTLYEFRQFFGLKNLSPWASQYVEQMFETFDFNKDGYIDFMEYEAALSLVLKGKVEQKLRWYFKLYDVDGNGCIDRDELLTIIRAIRAINPCSDSTMTAEEFTDTVFSKIDVNGDGELSLEEFMEGVQKDQMLLDTLTRSLDLTRIVRRLQN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2978.1/2978.1_protein/sequences/P43080-1_2na0-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 201
+# Identity:     177/201 (88.1%)
+# Similarity:   182/201 (90.5%)
+# Gaps:          16/201 ( 8.0%)
+# Score: 928.0
+# 
+#
+#=======================================
+
+asis               1 MGNVMEGKSVEELSSTECHQWYKKFMTECPSGQLTLYEFRQFFGLKNLSP     50
+                     .||:|:||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XGNIMDGKSVEELSSTECHQWYKKFMTECPSGQLTLYEFRQFFGLKNLSP     50
+
+asis              51 SASQYVEQMFETFDFNKDGYIDFMEYVAALSLVLKGKVEQKLRWYFKLYD    100
+                     .|||||||||||||||||||||||||.|||||||||||||||||||||||
+asis              51 WASQYVEQMFETFDFNKDGYIDFMEYEAALSLVLKGKVEQKLRWYFKLYD    100
+
+asis             101 VDGNGCIDRDELLTIIQAIRAINPCSDTTMTAEEFTDTVFSKIDVNGDGE    150
+                     ||||||||||||||||:||||||||||:||||||||||||||||||||||
+asis             101 VDGNGCIDRDELLTIIRAIRAINPCSDSTMTAEEFTDTVFSKIDVNGDGE    150
+
+asis             151 LSLEEFIEGVQKDQMLLDTLTRSLDLTRIVRRLQNGEQDEEGADEAAEAA    200
+                     ||||||:||||||||||||||||||||||||||||               
+asis             151 LSLEEFMEGVQKDQMLLDTLTRSLDLTRIVRRLQN---------------    185
+
+asis             201 G    201
+                      
+asis             185 -    185
+
+
+#---------------------------------------
+#---------------------------------------

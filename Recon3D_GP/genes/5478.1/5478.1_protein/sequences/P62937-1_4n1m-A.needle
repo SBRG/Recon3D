@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:42:39
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5478.1/5478.1_protein/sequences/P62937-1_4n1m-A.needle
+#    -asequence asis::MVNPTVFFDIAVDGEPLGRVSFELFADKVPKTAENFRALSTGEKGFGYKGSCFHRIIPGFMCQGGDFTRHNGTGGKSIYGEKFEDENFILKHTGPGILSMANAGPNTNGSQFFICTAKTEWLDGKHVVFGKVKEGMNIVEAMERFGSRNGKTSKKITIADCGQLE
+#    -bsequence asis::SHMMVNPTVFFDIAVDGEPLGRVSFELFADKVPKTAENFRALSTGEKGFGYKGSCFHRIIPGFMCQGGDFTRHNGTGGKSIYGEKFEDENFILKHTGPGILSMANAGPNTNGSQFFICTAKTEWLDGKHVVFGKVKEGMNIVEAMERFGSRNGKTSKKITIADCGQLEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5478.1/5478.1_protein/sequences/P62937-1_4n1m-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:     165/205 (80.5%)
+# Similarity:   165/205 (80.5%)
+# Gaps:          40/205 (19.5%)
+# Score: 886.0
+# 
+#
+#=======================================
+
+asis               1 ---MVNPTVFFDIAVDGEPLGRVSFELFADKVPKTAENFRALSTGEKGFG     47
+                        |||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 SHMMVNPTVFFDIAVDGEPLGRVSFELFADKVPKTAENFRALSTGEKGFG     50
+
+asis              48 YKGSCFHRIIPGFMCQGGDFTRHNGTGGKSIYGEKFEDENFILKHTGPGI     97
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 YKGSCFHRIIPGFMCQGGDFTRHNGTGGKSIYGEKFEDENFILKHTGPGI    100
+
+asis              98 LSMANAGPNTNGSQFFICTAKTEWLDGKHVVFGKVKEGMNIVEAMERFGS    147
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 LSMANAGPNTNGSQFFICTAKTEWLDGKHVVFGKVKEGMNIVEAMERFGS    150
+
+asis             148 RNGKTSKKITIADCGQLE--------------------------------    165
+                     ||||||||||||||||||                                
+asis             151 RNGKTSKKITIADCGQLEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    200
+
+asis             165 -----    165
+                          
+asis             201 XXXGP    205
+
+
+#---------------------------------------
+#---------------------------------------

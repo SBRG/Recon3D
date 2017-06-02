@@ -1,0 +1,256 @@
+ID   MK15_HUMAN              Reviewed;         544 AA.
+AC   Q8TD08; Q2TCF9; Q8N362;
+DT   18-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   15-MAR-2017, entry version 133.
+DE   RecName: Full=Mitogen-activated protein kinase 15;
+DE            Short=MAP kinase 15;
+DE            Short=MAPK 15;
+DE            EC=2.7.11.24;
+DE   AltName: Full=Extracellular signal-regulated kinase 7;
+DE            Short=ERK-7;
+DE   AltName: Full=Extracellular signal-regulated kinase 8;
+DE            Short=ERK-8;
+GN   Name=MAPK15; Synonyms=ERK7, ERK8;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), TISSUE SPECIFICITY,
+RP   INTERACTION WITH CSK, MUTAGENESIS OF LYS-42; THR-175 AND TYR-177,
+RP   PHOSPHORYLATION AT THR-175 AND TYR-177, CHARACTERIZATION, AND
+RP   FUNCTION.
+RC   TISSUE=Testis;
+RX   PubMed=11875070; DOI=10.1074/jbc.M112483200;
+RA   Abe M.K., Saelzler M.P., Espinosa R. III, Kahle K.T., Hershenson M.B.,
+RA   Le Beau M.M., Rosner M.R.;
+RT   "ERK8, a new member of the mitogen-activated protein kinase family.";
+RL   J. Biol. Chem. 277:16733-16743(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), TISSUE SPECIFICITY, FUNCTION,
+RP   AND INTERACTION WITH ABL1 AND RET.
+RC   TISSUE=Medulla oblongata;
+RX   PubMed=16484222; DOI=10.1074/jbc.M513397200;
+RA   Iavarone C., Acunzo M., Carlomagno F., Catania A., Melillo R.M.,
+RA   Carlomagno S.M., Santoro M., Chiariello M.;
+RT   "Activation of the Erk8 mitogen-activated protein (MAP) kinase by
+RT   RET/PTC3, a constitutively active form of the RET proto-oncogene.";
+RL   J. Biol. Chem. 281:10567-10576(2006).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3).
+RC   TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA
+RT   project: the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   INTERACTION WITH TGFB1I1.
+RX   PubMed=16624805; DOI=10.1074/jbc.M512418200;
+RA   Saelzler M.P., Spackman C.C., Liu Y., Martinez L.C., Harris J.P.,
+RA   Abe M.K.;
+RT   "ERK8 down-regulates transactivation of the glucocorticoid receptor
+RT   through Hic-5.";
+RL   J. Biol. Chem. 281:16821-16832(2006).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RX   PubMed=19369195; DOI=10.1074/mcp.M800588-MCP200;
+RA   Oppermann F.S., Gnad F., Olsen J.V., Hornberger R., Greff Z., Keri G.,
+RA   Mann M., Daub H.;
+RT   "Large-scale proteomics analysis of the human kinome.";
+RL   Mol. Cell. Proteomics 8:1751-1764(2009).
+RN   [6]
+RP   METHYLATION [LARGE SCALE ANALYSIS] AT ARG-449, AND IDENTIFICATION BY
+RP   MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Colon carcinoma;
+RX   PubMed=24129315; DOI=10.1074/mcp.O113.027870;
+RA   Guo A., Gu H., Zhou J., Mulhern D., Wang Y., Lee K.A., Yang V.,
+RA   Aguiar M., Kornhauser J., Jia X., Ren J., Beausoleil S.A., Silva J.C.,
+RA   Vemulapalli V., Bedford M.T., Comb M.J.;
+RT   "Immunoaffinity enrichment and mass spectrometry analysis of protein
+RT   methylation.";
+RL   Mol. Cell. Proteomics 13:372-387(2014).
+CC   -!- FUNCTION: In vitro, phosphorylates MBP.
+CC       {ECO:0000269|PubMed:11875070, ECO:0000269|PubMed:16484222}.
+CC   -!- CATALYTIC ACTIVITY: ATP + a protein = ADP + a phosphoprotein.
+CC   -!- ENZYME REGULATION: Activated by threonine and tyrosine
+CC       phosphorylation. Inhibited by dual specificity phosphatases, such
+CC       as DUSP1 (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with CSK/c-Src, ABL1, RET and TGFB1I1.
+CC       {ECO:0000269|PubMed:11875070, ECO:0000269|PubMed:16484222,
+CC       ECO:0000269|PubMed:16624805}.
+CC   -!- INTERACTION:
+CC       P24941:CDK2; NbExp=4; IntAct=EBI-1383794, EBI-375096;
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1;
+CC         IsoId=Q8TD08-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Erk8 delta;
+CC         IsoId=Q8TD08-2; Sequence=VSP_017919, VSP_017920;
+CC         Note=Appears not to be a CSK- and RET-dependent activated
+CC         kinase.;
+CC       Name=3;
+CC         IsoId=Q8TD08-3; Sequence=VSP_017918, VSP_017921;
+CC         Note=No experimental confirmation available.;
+CC   -!- TISSUE SPECIFICITY: Widely expressed with a maximal expression in
+CC       lung and kidney. {ECO:0000269|PubMed:11875070,
+CC       ECO:0000269|PubMed:16484222}.
+CC   -!- DOMAIN: The N-terminal region (1-20) is the minimal region
+CC       necessary for ubiquitination and further proteasomal degradation.
+CC       {ECO:0000250}.
+CC   -!- DOMAIN: The TXY motif contains the threonine and tyrosine residues
+CC       whose phosphorylation activates the MAP kinases.
+CC   -!- PTM: Dually phosphorylated on Thr-175 and Tyr-177, which activates
+CC       the enzyme. Autophosphorylated on threonine and tyrosine residues
+CC       in vitro. {ECO:0000269|PubMed:11875070}.
+CC   -!- PTM: Ubiquitinated. Ubiquitination may allow its tight kinase
+CC       activity regulation and rapid turnover. May be ubiquitinated by a
+CC       SCF E3 ligase (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. CMGC
+CC       Ser/Thr protein kinase family. MAP kinase subfamily.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AY065978; AAL40897.1; -; mRNA.
+DR   EMBL; AY994058; AAY44299.1; -; mRNA.
+DR   EMBL; BC028034; AAH28034.1; -; mRNA.
+DR   CCDS; CCDS6409.2; -. [Q8TD08-1]
+DR   RefSeq; NP_620590.2; NM_139021.2. [Q8TD08-1]
+DR   UniGene; Hs.493169; -.
+DR   ProteinModelPortal; Q8TD08; -.
+DR   SMR; Q8TD08; -.
+DR   BioGrid; 128827; 21.
+DR   IntAct; Q8TD08; 9.
+DR   STRING; 9606.ENSP00000337691; -.
+DR   BindingDB; Q8TD08; -.
+DR   ChEMBL; CHEMBL5198; -.
+DR   GuidetoPHARMACOLOGY; 2090; -.
+DR   iPTMnet; Q8TD08; -.
+DR   PhosphoSitePlus; Q8TD08; -.
+DR   BioMuta; MAPK15; -.
+DR   DMDM; 74760462; -.
+DR   EPD; Q8TD08; -.
+DR   MaxQB; Q8TD08; -.
+DR   PaxDb; Q8TD08; -.
+DR   PeptideAtlas; Q8TD08; -.
+DR   PRIDE; Q8TD08; -.
+DR   DNASU; 225689; -.
+DR   Ensembl; ENST00000338033; ENSP00000337691; ENSG00000181085. [Q8TD08-1]
+DR   Ensembl; ENST00000395107; ENSP00000378539; ENSG00000181085. [Q8TD08-3]
+DR   Ensembl; ENST00000395108; ENSP00000378540; ENSG00000181085. [Q8TD08-2]
+DR   Ensembl; ENST00000615253; ENSP00000483093; ENSG00000274205. [Q8TD08-1]
+DR   GeneID; 225689; -.
+DR   KEGG; hsa:225689; -.
+DR   UCSC; uc003yzj.4; human. [Q8TD08-1]
+DR   CTD; 225689; -.
+DR   DisGeNET; 225689; -.
+DR   GeneCards; MAPK15; -.
+DR   HGNC; HGNC:24667; MAPK15.
+DR   HPA; HPA002704; -.
+DR   neXtProt; NX_Q8TD08; -.
+DR   OpenTargets; ENSG00000181085; -.
+DR   PharmGKB; PA142671478; -.
+DR   eggNOG; KOG0660; Eukaryota.
+DR   eggNOG; ENOG410XNY0; LUCA.
+DR   GeneTree; ENSGT00550000074298; -.
+DR   HOGENOM; HOG000233024; -.
+DR   HOVERGEN; HBG014652; -.
+DR   InParanoid; Q8TD08; -.
+DR   KO; K19603; -.
+DR   OMA; IRGDWNR; -.
+DR   OrthoDB; EOG091G08QL; -.
+DR   PhylomeDB; Q8TD08; -.
+DR   TreeFam; TF105101; -.
+DR   SignaLink; Q8TD08; -.
+DR   SIGNOR; Q8TD08; -.
+DR   GeneWiki; MAPK15; -.
+DR   GenomeRNAi; 225689; -.
+DR   PRO; PR:Q8TD08; -.
+DR   Proteomes; UP000005640; Chromosome 8.
+DR   Bgee; ENSG00000181085; -.
+DR   CleanEx; HS_MAPK15; -.
+DR   Genevisible; Q8TD08; HS.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005576; C:extracellular region; NAS:UniProtKB.
+DR   GO; GO:0005622; C:intracellular; NAS:UniProtKB.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004707; F:MAP kinase activity; IDA:UniProtKB.
+DR   GO; GO:0017124; F:SH3 domain binding; NAS:UniProtKB.
+DR   GO; GO:0051973; P:positive regulation of telomerase activity; IDA:BHF-UCL.
+DR   GO; GO:1904355; P:positive regulation of telomere capping; IDA:BHF-UCL.
+DR   GO; GO:0032212; P:positive regulation of telomere maintenance via telomerase; IDA:BHF-UCL.
+DR   GO; GO:0046777; P:protein autophosphorylation; IDA:UniProtKB.
+DR   GO; GO:0010468; P:regulation of gene expression; IBA:GO_Central.
+DR   InterPro; IPR011009; Kinase-like_dom.
+DR   InterPro; IPR003527; MAP_kinase_CS.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SUPFAM; SSF56112; SSF56112; 1.
+DR   PROSITE; PS01351; MAPK; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; ATP-binding; Complete proteome; Kinase;
+KW   Methylation; Nucleotide-binding; Phosphoprotein; Polymorphism;
+KW   Reference proteome; Serine/threonine-protein kinase; Transferase;
+KW   Ubl conjugation.
+FT   CHAIN         1    544       Mitogen-activated protein kinase 15.
+FT                                /FTId=PRO_0000232637.
+FT   DOMAIN       13    304       Protein kinase. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00159}.
+FT   NP_BIND      19     27       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00159}.
+FT   MOTIF       175    177       TXY.
+FT   ACT_SITE    137    137       Proton acceptor. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00159}.
+FT   BINDING      42     42       ATP. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00159}.
+FT   MOD_RES     175    175       Phosphothreonine.
+FT                                {ECO:0000269|PubMed:11875070}.
+FT   MOD_RES     177    177       Phosphotyrosine.
+FT                                {ECO:0000269|PubMed:11875070}.
+FT   MOD_RES     449    449       Omega-N-methylarginine.
+FT                                {ECO:0000244|PubMed:24129315}.
+FT   VAR_SEQ      95     95       M -> MGCPPSPPPPTAVRTLSA (in isoform 3).
+FT                                {ECO:0000303|PubMed:15489334}.
+FT                                /FTId=VSP_017918.
+FT   VAR_SEQ     241    254       DLLALGSGCRASVL -> GAQTACRSGTGAST (in
+FT                                isoform 2).
+FT                                {ECO:0000303|PubMed:16484222}.
+FT                                /FTId=VSP_017919.
+FT   VAR_SEQ     255    544       Missing (in isoform 2).
+FT                                {ECO:0000303|PubMed:16484222}.
+FT                                /FTId=VSP_017920.
+FT   VAR_SEQ     261    544       Missing (in isoform 3).
+FT                                {ECO:0000303|PubMed:15489334}.
+FT                                /FTId=VSP_017921.
+FT   VARIANT     221    221       T -> K (in dbSNP:rs60732298).
+FT                                /FTId=VAR_061535.
+FT   VARIANT     505    505       S -> P (in dbSNP:rs56038219).
+FT                                /FTId=VAR_061536.
+FT   MUTAGEN      42     42       K->R: Loss of autophosphorylation and
+FT                                activity. {ECO:0000269|PubMed:11875070}.
+FT   MUTAGEN     175    175       T->A: Loss of autophosphorylation and
+FT                                activity. {ECO:0000269|PubMed:11875070}.
+FT   MUTAGEN     177    177       Y->A: Loss of autophosphorylation and
+FT                                activity. {ECO:0000269|PubMed:11875070}.
+FT   CONFLICT    113    113       H -> R (in Ref. 2; AAY44299).
+FT                                {ECO:0000305}.
+SQ   SEQUENCE   544 AA;  59832 MW;  758E0E3B9654AAC5 CRC64;
+     MCTVVDPRIV RRYLLRRQLG QGAYGIVWKA VDRRTGEVVA IKKIFDAFRD KTDAQRTFRE
+     ITLLQEFGDH PNIISLLDVI RAENDRDIYL VFEFMDTDLN AVIRKGGLLQ DVHVRSIFYQ
+     LLRATRFLHS GHVVHRDQKP SNVLLDANCT VKLCDFGLAR SLGDLPEGPE DQAVTEYVAT
+     RWYRAPEVLL SSHRYTLGVD MWSLGCILGE MLRGRPLFPG TSTLHQLELI LETIPPPSEE
+     DLLALGSGCR ASVLHQLGSR PRQTLDALLP PDTSPEALDL LRRLLVFAPD KRLSATQALQ
+     HPYVQRFHCP SDEWAREADV RPRAHEGVQL SVPEYRSRVY QMILECGGSS GTSREKGPEG
+     VSPSQAHLHK PRADPQLPSR TPVQGPRPRP QSSPGHDPAE HESPRAAKNV PRQNSAPLLQ
+     TALLGNGERP PGAKEAPPLT LSLVKPSGRG AAPSLTSQAA AQVANQALIR GDWNRGGGVR
+     VASVQQVPPR LPPEARPGRR MFSTSALQGA QGGARALLGG YSQAYGTVCH SALGHLPLLE
+     GHHV
+//

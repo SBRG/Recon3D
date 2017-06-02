@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:46:30
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5730.1/5730.1_protein/sequences/P41222-1_4orr-A.needle
+#    -asequence asis::MATHHTLWMGLALLGVLGDLQAAPEAQVSVQPNFQQDKFLGRWFSAGLASNSSWLREKKAALSMCKSVVAPATDGGLNLTSTFLRKNQCETRTMLLQPAGSLGSYSYRSPHWGSTYSVSVVETDYDQYALLYSQGSKGPGEDFRMATLYSRTQTPRAELKEKFTAFCKAQGFTEDTIVFLPQTDKCMTEQ
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXVSVQPNFQQDKFLGRWFSAGLASNSSWLREKKAALSMAKSVVAPATDGGLNLTSTFLRKNQCETRTMLLQPAGSLGSYSYRSPHWGSTYSVSVVETDYDQYALLYSQGSKGPGEDFRMATLYSRTQTPRAELKEKFTAFCKAQGFTEDTIVFLPQTDKCMT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5730.1/5730.1_protein/sequences/P41222-1_4orr-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 190
+# Identity:     160/190 (84.2%)
+# Similarity:   160/190 (84.2%)
+# Gaps:           2/190 ( 1.1%)
+# Score: 816.0
+# 
+#
+#=======================================
+
+asis               1 MATHHTLWMGLALLGVLGDLQAAPEAQVSVQPNFQQDKFLGRWFSAGLAS     50
+                     ...........................|||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXVSVQPNFQQDKFLGRWFSAGLAS     50
+
+asis              51 NSSWLREKKAALSMCKSVVAPATDGGLNLTSTFLRKNQCETRTMLLQPAG    100
+                     ||||||||||||||.|||||||||||||||||||||||||||||||||||
+asis              51 NSSWLREKKAALSMAKSVVAPATDGGLNLTSTFLRKNQCETRTMLLQPAG    100
+
+asis             101 SLGSYSYRSPHWGSTYSVSVVETDYDQYALLYSQGSKGPGEDFRMATLYS    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 SLGSYSYRSPHWGSTYSVSVVETDYDQYALLYSQGSKGPGEDFRMATLYS    150
+
+asis             151 RTQTPRAELKEKFTAFCKAQGFTEDTIVFLPQTDKCMTEQ    190
+                     ||||||||||||||||||||||||||||||||||||||  
+asis             151 RTQTPRAELKEKFTAFCKAQGFTEDTIVFLPQTDKCMT--    188
+
+
+#---------------------------------------
+#---------------------------------------

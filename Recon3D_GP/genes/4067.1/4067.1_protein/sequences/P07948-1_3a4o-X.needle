@@ -1,0 +1,78 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 18:07:30
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4067.1/4067.1_protein/sequences/P07948-1_3a4o-X.needle
+#    -asequence asis::MGCIKSKGKDSLSDDGVDLKTQPVRNTERTIYVRDPTSNKQQRPVPESQLLPGQRFQTKDPEEQGDIVVALYPYDGIHPDDLSFKKGEKMKVLEEHGEWWKAKSLLTKKEGFIPSNYVAKLNTLETEEWFFKDITRKDAERQLLAPGNSAGAFLIRESETLKGSFSLSVRDFDPVHGDVIKHYKIRSLDNGGYYISPRITFPCISDMIKHYQKQADGLCRRLEKACISPKPQKPWDKDAWEIPRESIKLVKRLGAGQFGEVWMGYYNNSTKVAVKTLKPGTMSVQAFLEEANLMKTLQHDKLVRLYAVVTREEPIYIITEYMAKGSLLDFLKSDEGGKVLLPKLIDFSAQIAEGMAYIERKNYIHRDLRAANVLVSESLMCKIADFGLARVIEDNEYTAREGAKFPIKWTAPEAINFGCFTIKSDVWSFGILLYEIVTYGKIPYPGRTNADVMTALSQGYRMPRVENCPDELYDIMKMCWKEKAEERPTFDYLQSVLDDFYTATEGQYQQQP
+#    -bsequence asis::XXXXXXDAWEIPRESIKLVKRLGAGQFGEVWMGYYNNSTKVAVKTLKPGTMSVQAFLEEANLMKTLQHDKLVRLYAVVTREEPIYIITEYMAKGSLLDFLKSDEGGKVLLPKLIDFSAQIAEGMAYIERKNYIHRDLRAANVLVSESLMCKIADFGLARVXXXXXXXXXEGAKFPIKWTAPEAINFGCFTIKSDVWSFGILLYEIVTYGKIPYPGRTNADVMTALSQGYRMPRVENCPDELYDIMKMCWKEKAEERPTFDYLQSVLDDFYTATE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4067.1/4067.1_protein/sequences/P07948-1_3a4o-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 512
+# Identity:     259/512 (50.6%)
+# Similarity:   259/512 (50.6%)
+# Gaps:         238/512 (46.5%)
+# Score: 1340.0
+# 
+#
+#=======================================
+
+asis               1 MGCIKSKGKDSLSDDGVDLKTQPVRNTERTIYVRDPTSNKQQRPVPESQL     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 LPGQRFQTKDPEEQGDIVVALYPYDGIHPDDLSFKKGEKMKVLEEHGEWW    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 KAKSLLTKKEGFIPSNYVAKLNTLETEEWFFKDITRKDAERQLLAPGNSA    150
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             151 GAFLIRESETLKGSFSLSVRDFDPVHGDVIKHYKIRSLDNGGYYISPRIT    200
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             201 FPCISDMIKHYQKQADGLCRRLEKACISPKPQKPWDKDAWEIPRESIKLV    250
+                                                    ......|||||||||||||
+asis               1 -------------------------------XXXXXXDAWEIPRESIKLV     19
+
+asis             251 KRLGAGQFGEVWMGYYNNSTKVAVKTLKPGTMSVQAFLEEANLMKTLQHD    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              20 KRLGAGQFGEVWMGYYNNSTKVAVKTLKPGTMSVQAFLEEANLMKTLQHD     69
+
+asis             301 KLVRLYAVVTREEPIYIITEYMAKGSLLDFLKSDEGGKVLLPKLIDFSAQ    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              70 KLVRLYAVVTREEPIYIITEYMAKGSLLDFLKSDEGGKVLLPKLIDFSAQ    119
+
+asis             351 IAEGMAYIERKNYIHRDLRAANVLVSESLMCKIADFGLARVIEDNEYTAR    400
+                     |||||||||||||||||||||||||||||||||||||||||.........
+asis             120 IAEGMAYIERKNYIHRDLRAANVLVSESLMCKIADFGLARVXXXXXXXXX    169
+
+asis             401 EGAKFPIKWTAPEAINFGCFTIKSDVWSFGILLYEIVTYGKIPYPGRTNA    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             170 EGAKFPIKWTAPEAINFGCFTIKSDVWSFGILLYEIVTYGKIPYPGRTNA    219
+
+asis             451 DVMTALSQGYRMPRVENCPDELYDIMKMCWKEKAEERPTFDYLQSVLDDF    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             220 DVMTALSQGYRMPRVENCPDELYDIMKMCWKEKAEERPTFDYLQSVLDDF    269
+
+asis             501 YTATEGQYQQQP    512
+                     |||||       
+asis             270 YTATE-------    274
+
+
+#---------------------------------------
+#---------------------------------------

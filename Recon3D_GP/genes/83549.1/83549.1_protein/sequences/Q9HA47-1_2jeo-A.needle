@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:25:36
+# Commandline: needle
+#    -outfile ./Recon3D/genes/83549.1/83549.1_protein/sequences/Q9HA47-1_2jeo-A.needle
+#    -asequence asis::MASAGGEDCESPAPEADRPHQRPFLIGVSGGTASGKSTVCEKIMELLGQNEVEQRQRKVVILSQDRFYKVLTAEQKAKALKGQYNFDHPDAFDNDLMHRTLKNIVEGKTVEVPTYDFVTHSRLPETTVVYPADVVLFEGILVFYSQEIRDMFHLRLFVDTDSDVRLSRRVLRDVRRGRDLEQILTQYTTFVKPAFEEFCLPTKKYADVIIPRGVDNMVAINLIVQHIQDILNGDICKWHRGGSNGRSYKRTFSEPGDHPGMLTSGKRSHLESSSRPH
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXMRPFLIGVSGGTASGKSTVCEKIMELLGQNEVEQRQRKVVILSQDRFYKVLTAEQKAKALKGQYNFDHPDAFDNDLMHRTLKNIVEGKTVEVPTYDFVTHSRLPETTVVYPADVVLFEGILVFYSQEIRDMFHLRLFVDTDSDVRLSRRVLRDVRXXXDLEQILTQYTTFVKPAFEEFCLPTKKYADVIIPRGVDNMVAINLIVQHIQDILNGDI
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/83549.1/83549.1_protein/sequences/Q9HA47-1_2jeo-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 297
+# Identity:     212/297 (71.4%)
+# Similarity:   212/297 (71.4%)
+# Gaps:          82/297 (27.6%)
+# Score: 1061.5
+# 
+#
+#=======================================
+
+asis               1 --------------------MASAGGEDCESPAPEADRPHQRPFLIGVSG     30
+                                         |                    |||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXM--------------------RPFLIGVSG     30
+
+asis              31 GTASGKSTVCEKIMELLGQNEVEQRQRKVVILSQDRFYKVLTAEQKAKAL     80
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              31 GTASGKSTVCEKIMELLGQNEVEQRQRKVVILSQDRFYKVLTAEQKAKAL     80
+
+asis              81 KGQYNFDHPDAFDNDLMHRTLKNIVEGKTVEVPTYDFVTHSRLPETTVVY    130
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              81 KGQYNFDHPDAFDNDLMHRTLKNIVEGKTVEVPTYDFVTHSRLPETTVVY    130
+
+asis             131 PADVVLFEGILVFYSQEIRDMFHLRLFVDTDSDVRLSRRVLRDVRRGRDL    180
+                     |||||||||||||||||||||||||||||||||||||||||||||...||
+asis             131 PADVVLFEGILVFYSQEIRDMFHLRLFVDTDSDVRLSRRVLRDVRXXXDL    180
+
+asis             181 EQILTQYTTFVKPAFEEFCLPTKKYADVIIPRGVDNMVAINLIVQHIQDI    230
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             181 EQILTQYTTFVKPAFEEFCLPTKKYADVIIPRGVDNMVAINLIVQHIQDI    230
+
+asis             231 LNGDICKWHRGGSNGRSYKRTFSEPGDHPGMLTSGKRSHLESSSRPH    277
+                     |||||                                          
+asis             231 LNGDI------------------------------------------    235
+
+
+#---------------------------------------
+#---------------------------------------

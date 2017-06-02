@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:12:15
+# Commandline: needle
+#    -outfile ./Recon3D/genes/493869.1/493869.1_protein/sequences/Q8TED1-1_3cyn-B.needle
+#    -asequence asis::MEPLAAYPLKCSGPRAKVFAVLLSIVLCTVTLFLLQLKFLKPKINSFYAFEVKDAKGRTVSLEKYKGKVSLVVNVASDCQLTDRNYLGLKELHKEFGPSHFSVLAFPCNQFGESEPRPSKEVESFARKNYGVTFPIFHKIKILGSEGEPAFRFLVDSSKKEPRWNFWKYLVNPEGQVVKFWKPEEPIEVIRPDIAALVRQVIIKKKEDL
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNLYFQSMINSFYAFEVKDAKGRTVSLEKYKGKVSLVVNVASDCQLTDRNYLGLKELHKEFGPSHFSVLAFPCNQFGESEPRPSKEVESFARKNYGVTFPIFHKIKILGSEGEPAFRFLVDSSKKEPRWNFWKYLVNPEGQVVKFWRPEEPIEVIRPDIAALVRQVIIKKKEDL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/493869.1/493869.1_protein/sequences/Q8TED1-1_3cyn-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 246
+# Identity:     165/246 (67.1%)
+# Similarity:   169/246 (68.7%)
+# Gaps:          74/246 (30.1%)
+# Score: 848.0
+# 
+#
+#=======================================
+
+asis               1 -------------------------------------MEPLAAYPLKCSG     13
+                                                          :            
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNL------------     38
+
+asis              14 PRAKVFAVLLSIVLCTVTLFLLQLKFLKPKINSFYAFEVKDAKGRTVSLE     63
+                                              :.:..||||||||||||||||||||
+asis              39 -------------------------YFQSMINSFYAFEVKDAKGRTVSLE     63
+
+asis              64 KYKGKVSLVVNVASDCQLTDRNYLGLKELHKEFGPSHFSVLAFPCNQFGE    113
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              64 KYKGKVSLVVNVASDCQLTDRNYLGLKELHKEFGPSHFSVLAFPCNQFGE    113
+
+asis             114 SEPRPSKEVESFARKNYGVTFPIFHKIKILGSEGEPAFRFLVDSSKKEPR    163
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             114 SEPRPSKEVESFARKNYGVTFPIFHKIKILGSEGEPAFRFLVDSSKKEPR    163
+
+asis             164 WNFWKYLVNPEGQVVKFWKPEEPIEVIRPDIAALVRQVIIKKKEDL    209
+                     ||||||||||||||||||:|||||||||||||||||||||||||||
+asis             164 WNFWKYLVNPEGQVVKFWRPEEPIEVIRPDIAALVRQVIIKKKEDL    209
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:25:36
+# Commandline: needle
+#    -outfile ./Recon3D/genes/978.1/978.1_protein/sequences/P32320-1_1mq0-B.needle
+#    -asequence asis::MAQKRPACTLKPECVQQLLVCSQEAKKSAYCPYSHFPVGAALLTQEGRIFKGCNIENACYPLGICAERTAIQKAVSEGYKDFRAIAIASDMQDDFISPCGACRQVMREFGTNWPVYMTKPDGTYIVMTVQELLPSSFGPEDLQKTQ
+#    -bsequence asis::XXXXXXXXXXXXECVQQLLVCSQEAKQSAYCPYSHFPVGAALLTQEGRIFKGCNIENACYPLGICAERTAIQKAVSEGYKDFRAIAIASDMQDDFISPCGACRQVMREFGTNWPVYMTKPDGTYIVMTVQELLPSSFGPEDL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/978.1/978.1_protein/sequences/P32320-1_1mq0-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:     129/146 (88.4%)
+# Similarity:   130/146 (89.0%)
+# Gaps:           4/146 ( 2.7%)
+# Score: 683.0
+# 
+#
+#=======================================
+
+asis               1 MAQKRPACTLKPECVQQLLVCSQEAKKSAYCPYSHFPVGAALLTQEGRIF     50
+                     ............||||||||||||||:|||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXECVQQLLVCSQEAKQSAYCPYSHFPVGAALLTQEGRIF     50
+
+asis              51 KGCNIENACYPLGICAERTAIQKAVSEGYKDFRAIAIASDMQDDFISPCG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 KGCNIENACYPLGICAERTAIQKAVSEGYKDFRAIAIASDMQDDFISPCG    100
+
+asis             101 ACRQVMREFGTNWPVYMTKPDGTYIVMTVQELLPSSFGPEDLQKTQ    146
+                     ||||||||||||||||||||||||||||||||||||||||||    
+asis             101 ACRQVMREFGTNWPVYMTKPDGTYIVMTVQELLPSSFGPEDL----    142
+
+
+#---------------------------------------
+#---------------------------------------

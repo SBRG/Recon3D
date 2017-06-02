@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:27:41
+# Commandline: needle
+#    -outfile ./Recon3D/genes/11072.1/11072.1_protein/sequences/O95147-1_2wgp-B.needle
+#    -asequence asis::MSSRGHSTLPRTLMAPRMISEGDIGGIAQITSSLFLGRGSVASNRHLLQARGITCIVNATIEIPNFNWPQFEYVKVPLADMPHAPIGLYFDTVADKIHSVSRKHGATLVHCAAGVSRSATLCIAYLMKFHNVCLLEAYNWVKARRPVIRPNVGFWRQLIDYERQLFGKSTVKMVQTPYGIVPDVYEKESRHLMPYWGI
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXGGIAQITSSLFLGRGSVASNRHLLQARGITCIVNATIEIPNFNWPQFEYVKVPLADMPHAPIGLYFDTVADKIHSVSRKHGATLVHCAAGVSRSATLCIAYLMKFHNVCLLEAYNWVKARRPVIRPNVGFWRQLIDYERQLFGKSTVKMVQTPYGIVPDVYEKESRH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/11072.1/11072.1_protein/sequences/O95147-1_2wgp-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 198
+# Identity:     167/198 (84.3%)
+# Similarity:   167/198 (84.3%)
+# Gaps:           7/198 ( 3.5%)
+# Score: 868.0
+# 
+#
+#=======================================
+
+asis               1 MSSRGHSTLPRTLMAPRMISEGDIGGIAQITSSLFLGRGSVASNRHLLQA     50
+                     ........................||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXGGIAQITSSLFLGRGSVASNRHLLQA     50
+
+asis              51 RGITCIVNATIEIPNFNWPQFEYVKVPLADMPHAPIGLYFDTVADKIHSV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 RGITCIVNATIEIPNFNWPQFEYVKVPLADMPHAPIGLYFDTVADKIHSV    100
+
+asis             101 SRKHGATLVHCAAGVSRSATLCIAYLMKFHNVCLLEAYNWVKARRPVIRP    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 SRKHGATLVHCAAGVSRSATLCIAYLMKFHNVCLLEAYNWVKARRPVIRP    150
+
+asis             151 NVGFWRQLIDYERQLFGKSTVKMVQTPYGIVPDVYEKESRHLMPYWGI    198
+                     |||||||||||||||||||||||||||||||||||||||||       
+asis             151 NVGFWRQLIDYERQLFGKSTVKMVQTPYGIVPDVYEKESRH-------    191
+
+
+#---------------------------------------
+#---------------------------------------

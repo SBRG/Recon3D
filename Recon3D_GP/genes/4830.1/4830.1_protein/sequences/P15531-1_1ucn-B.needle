@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:37:11
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4830.1/4830.1_protein/sequences/P15531-1_1ucn-B.needle
+#    -asequence asis::MANCERTFIAIKPDGVQRGLVGEIIKRFEQKGFRLVGLKFMQASEDLLKEHYVDLKDRPFFAGLVKYMHSGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFHPEELVDYTSCAQNWIYE
+#    -bsequence asis::XANCERTFIAIKPDGVQRGLVGEIIKRFEQKGFRLVGLKFMQASEDLLKEHYVDLKDRPWFAGLVKYMHSGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIGGSDSVESAEKEIGLWFHPEELVDYTSCAQNWIYE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4830.1/4830.1_protein/sequences/P15531-1_1ucn-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:     149/152 (98.0%)
+# Similarity:   150/152 (98.7%)
+# Gaps:           0/152 ( 0.0%)
+# Score: 787.0
+# 
+#
+#=======================================
+
+asis               1 MANCERTFIAIKPDGVQRGLVGEIIKRFEQKGFRLVGLKFMQASEDLLKE     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XANCERTFIAIKPDGVQRGLVGEIIKRFEQKGFRLVGLKFMQASEDLLKE     50
+
+asis              51 HYVDLKDRPFFAGLVKYMHSGPVVAMVWEGLNVVKTGRVMLGETNPADSK    100
+                     |||||||||:||||||||||||||||||||||||||||||||||||||||
+asis              51 HYVDLKDRPWFAGLVKYMHSGPVVAMVWEGLNVVKTGRVMLGETNPADSK    100
+
+asis             101 PGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFHPEELVDYTSCAQNWI    150
+                     |||||||||||||||||.||||||||||||||||||||||||||||||||
+asis             101 PGTIRGDFCIQVGRNIIGGSDSVESAEKEIGLWFHPEELVDYTSCAQNWI    150
+
+asis             151 YE    152
+                     ||
+asis             151 YE    152
+
+
+#---------------------------------------
+#---------------------------------------

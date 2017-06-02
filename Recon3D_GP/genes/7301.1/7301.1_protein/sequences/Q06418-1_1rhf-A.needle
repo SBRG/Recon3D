@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 18:08:51
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7301.1/7301.1_protein/sequences/Q06418-1_1rhf-A.needle
+#    -asequence asis::MALRRSMGRPGLPPLPLPPPPRLGLLLAALASLLLPESAAAGLKLMGAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEGVPFFTVEPKDLAVPPNAPFQLSCEAVGPPEPVTIVWWRGTTKIGGPAPSPSVLNVTGVTQSTMFSCEAHNLKGLASSRTATVHLQALPAAPFNITVTKLSSSNASVAWMPGADGRALLQSCTVQVTQAPGGWEVLAVVVPVPPFTCLLRDLVPATNYSLRVRCANALGPSPYADWVPFQTKGLAPASAPQNLHAIRTDSGLILEWEEVIPEAPLEGPLGPYKLSWVQDNGTQDELTVEGTRANLTGWDPQKDLIVRVCVSNAVGCGPWSQPLVVSSHDRAGQQGPPHSRTSWVPVVLGVLTALVTAAALALILLRKRRKETRFGQAFDSVMARGEPAVHFRAARSFNRERPERIEATLDSLGISDELKEKLEDVLIPEQQFTLGRMLGKGEFGSVREAQLKQEDGSFVKVAVKMLKADIIASSDIEEFLREAACMKEFDHPHVAKLVGVSLRSRAKGRLPIPMVILPFMKHGDLHAFLLASRIGENPFNLPLQTLIRFMVDIACGMEYLSSRNFIHRDLAARNCMLAEDMTVCVADFGLSRKIYSGDYYRQGCASKLPVKWLALESLADNLYTVQSDVWAFGVTMWEIMTRGQTPYAGIENAEIYNYLIGGNRLKQPPECMEDVYDLMYQCWSADPKQRPSFTCLRMELENILGQLSVLSASQDPLYINIERAEEPTAGGSLELPGRDQPYSGAGDGSGMGAVGGTPSDCRYILTPGGLAEQPGQAEHQPESPLNETQRLLLLQQGLLPHSSC
+#    -bsequence asis::XXXXXXGAPVKLTVSQGQPVKLNCSVEGXEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEGVPFFTVEPKDLAVPPNAPFQLSCEAVGPPEPVTIVWWRGTTKIGGPAPSPSVLNVTGVTQSTXFSCEAHNLKGLASSRTATVHLQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7301.1/7301.1_protein/sequences/Q06418-1_1rhf-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 890
+# Identity:     174/890 (19.6%)
+# Similarity:   174/890 (19.6%)
+# Gaps:         708/890 (79.6%)
+# Score: 926.0
+# 
+#
+#=======================================
+
+asis               1 MALRRSMGRPGLPPLPLPPPPRLGLLLAALASLLLPESAAAGLKLMGAPV     50
+                                                             ......||||
+asis               1 ----------------------------------------XXXXXXGAPV     10
+
+asis              51 KLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIG    100
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
+asis              11 KLTVSQGQPVKLNCSVEGXEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIG     60
+
+asis             101 FLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEGVPFFTVEPKDLAV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              61 FLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEGVPFFTVEPKDLAV    110
+
+asis             151 PPNAPFQLSCEAVGPPEPVTIVWWRGTTKIGGPAPSPSVLNVTGVTQSTM    200
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+asis             111 PPNAPFQLSCEAVGPPEPVTIVWWRGTTKIGGPAPSPSVLNVTGVTQSTX    160
+
+asis             201 FSCEAHNLKGLASSRTATVHLQALPAAPFNITVTKLSSSNASVAWMPGAD    250
+                     ||||||||||||||||||||||                            
+asis             161 FSCEAHNLKGLASSRTATVHLQ----------------------------    182
+
+asis             251 GRALLQSCTVQVTQAPGGWEVLAVVVPVPPFTCLLRDLVPATNYSLRVRC    300
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             301 ANALGPSPYADWVPFQTKGLAPASAPQNLHAIRTDSGLILEWEEVIPEAP    350
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             351 LEGPLGPYKLSWVQDNGTQDELTVEGTRANLTGWDPQKDLIVRVCVSNAV    400
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             401 GCGPWSQPLVVSSHDRAGQQGPPHSRTSWVPVVLGVLTALVTAAALALIL    450
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             451 LRKRRKETRFGQAFDSVMARGEPAVHFRAARSFNRERPERIEATLDSLGI    500
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             501 SDELKEKLEDVLIPEQQFTLGRMLGKGEFGSVREAQLKQEDGSFVKVAVK    550
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             551 MLKADIIASSDIEEFLREAACMKEFDHPHVAKLVGVSLRSRAKGRLPIPM    600
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             601 VILPFMKHGDLHAFLLASRIGENPFNLPLQTLIRFMVDIACGMEYLSSRN    650
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             651 FIHRDLAARNCMLAEDMTVCVADFGLSRKIYSGDYYRQGCASKLPVKWLA    700
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             701 LESLADNLYTVQSDVWAFGVTMWEIMTRGQTPYAGIENAEIYNYLIGGNR    750
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             751 LKQPPECMEDVYDLMYQCWSADPKQRPSFTCLRMELENILGQLSVLSASQ    800
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             801 DPLYINIERAEEPTAGGSLELPGRDQPYSGAGDGSGMGAVGGTPSDCRYI    850
+                                                                       
+asis             182 --------------------------------------------------    182
+
+asis             851 LTPGGLAEQPGQAEHQPESPLNETQRLLLLQQGLLPHSSC    890
+                                                             
+asis             182 ----------------------------------------    182
+
+
+#---------------------------------------
+#---------------------------------------

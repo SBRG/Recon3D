@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:30:28
+# Commandline: needle
+#    -outfile ./Recon3D/genes/128853.1/128853.1_protein/sequences/Q9H1R2-1_1yz4-B.needle
+#    -asequence asis::MTEGVLPGLYLGNFIDAKDLDQLGRNKITHIISIHESPQPLLQDITYLRIPVADTPEVPIKKHFKECINFIHCCRLNGGNCLVHCFAGISRSTTIVTAYVMTVTGLGWRDVLEAIKATRPIANPNPGFRQQLEEFGWASSQKGARHRTSKTSGAQCPPMTSATCLLAARVALLSAALVREATGRTAQRCRLSPRAAAERLLGPPPHVAAGWSPDPKYQICLCFGEEDPGPTQHPKEQLIMADVQVQLRPGSSSCTLSASTERPDGSSTPGNPDGITHLQCSCLHPKRAASSSCTR
+#    -bsequence asis::XGNGMTKVLPGLYLGNFIDAKDLDQLGRNKITHIISIHESPQPLLQDITYLRIPVADTPEVPIKKHFKECINFIHCCRLNGGNCLVHSFAGISRSTTIVTAYVMTVTGLGWRDVLEAIKATRPIANPNPGFRQQLEEFGWASSQKLRRQLEERFGES
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/128853.1/128853.1_protein/sequences/Q9H1R2-1_1yz4-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 299
+# Identity:     141/299 (47.2%)
+# Similarity:   144/299 (48.2%)
+# Gaps:         146/299 (48.8%)
+# Score: 729.0
+# 
+#
+#=======================================
+
+asis               1 ----MTEGVLPGLYLGNFIDAKDLDQLGRNKITHIISIHESPQPLLQDIT     46
+                         ||: ||||||||||||||||||||||||||||||||||||||||||
+asis               1 XGNGMTK-VLPGLYLGNFIDAKDLDQLGRNKITHIISIHESPQPLLQDIT     49
+
+asis              47 YLRIPVADTPEVPIKKHFKECINFIHCCRLNGGNCLVHCFAGISRSTTIV     96
+                     ||||||||||||||||||||||||||||||||||||||.|||||||||||
+asis              50 YLRIPVADTPEVPIKKHFKECINFIHCCRLNGGNCLVHSFAGISRSTTIV     99
+
+asis              97 TAYVMTVTGLGWRDVLEAIKATRPIANPNPGFRQQLEEFGWASSQKGARH    146
+                     |||||||||||||||||||||||||||||||||||||||||||||| .|.
+asis             100 TAYVMTVTGLGWRDVLEAIKATRPIANPNPGFRQQLEEFGWASSQK-LRR    148
+
+asis             147 RTSKTSGAQCPPMTSATCLLAARVALLSAALVREATGRTAQRCRLSPRAA    196
+                     :..:..|..                                         
+asis             149 QLEERFGES-----------------------------------------    157
+
+asis             197 AERLLGPPPHVAAGWSPDPKYQICLCFGEEDPGPTQHPKEQLIMADVQVQ    246
+                                                                       
+asis             157 --------------------------------------------------    157
+
+asis             247 LRPGSSSCTLSASTERPDGSSTPGNPDGITHLQCSCLHPKRAASSSCTR    295
+                                                                      
+asis             157 -------------------------------------------------    157
+
+
+#---------------------------------------
+#---------------------------------------

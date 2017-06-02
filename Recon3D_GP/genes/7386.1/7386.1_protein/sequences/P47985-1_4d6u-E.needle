@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:57:50
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7386.1/7386.1_protein/sequences/P47985-1_4d6u-E.needle
+#    -asequence asis::MLSVASRSGPFAPVLSATSRGVAGALRPLVQATVPATPEQPVLDLKRPFLSRESLSGQAVRRPLVASVGLNVPASVCYSHTDIKVPDFSEYRRLEVLDSTKSSRESSEARKGFSYLVTGVTTVGVAYAAKNAVTQFVSSMSASADVLALAKIEIKLSDIPEGKNMAFKWRGKPLFVRHRTQKEIEQEAAVELSQLRDPQHDLDRVKKPEWVILIGVCTHLGCVPIANAGDFGGYYCPCHGSHYDASGRIRLGPAPLNLEVPTYEFTSDDMVIVG
+#    -bsequence asis::SHTDIKVPDFSDYRRPEVLDSTKSSKESSEARKGFSYLVTATTTVGVAYAAKNVVSQFVSSMSASADVLAMSK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7386.1/7386.1_protein/sequences/P47985-1_4d6u-E.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 274
+# Identity:      64/274 (23.4%)
+# Similarity:    69/274 (25.2%)
+# Gaps:         201/274 (73.4%)
+# Score: 315.0
+# 
+#
+#=======================================
+
+asis               1 MLSVASRSGPFAPVLSATSRGVAGALRPLVQATVPATPEQPVLDLKRPFL     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 SRESLSGQAVRRPLVASVGLNVPASVCYSHTDIKVPDFSEYRRLEVLDST    100
+                                                 |||||||||||:|||.||||||
+asis               1 ----------------------------SHTDIKVPDFSDYRRPEVLDST     22
+
+asis             101 KSSRESSEARKGFSYLVTGVTTVGVAYAAKNAVTQFVSSMSASADVLALA    150
+                     |||:||||||||||||||..|||||||||||.|:||||||||||||||::
+asis              23 KSSKESSEARKGFSYLVTATTTVGVAYAAKNVVSQFVSSMSASADVLAMS     72
+
+asis             151 KIEIKLSDIPEGKNMAFKWRGKPLFVRHRTQKEIEQEAAVELSQLRDPQH    200
+                     |                                                 
+asis              73 K-------------------------------------------------     73
+
+asis             201 DLDRVKKPEWVILIGVCTHLGCVPIANAGDFGGYYCPCHGSHYDASGRIR    250
+                                                                       
+asis              73 --------------------------------------------------     73
+
+asis             251 LGPAPLNLEVPTYEFTSDDMVIVG    274
+                                             
+asis              73 ------------------------     73
+
+
+#---------------------------------------
+#---------------------------------------

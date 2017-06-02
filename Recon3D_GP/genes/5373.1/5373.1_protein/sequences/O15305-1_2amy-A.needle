@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:01:37
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5373.1/5373.1_protein/sequences/O15305-1_2amy-A.needle
+#    -asequence asis::MAAPGPALCLFDVDGTLTAPRQKITKEMDDFLQKLRQKIKIGVVGGSDFEKVQEQLGNDVVEKYDYVFPENGLVAYKDGKLLCRQNIQSHLGEALIQDLINYCLSYIAKIKLPKKRGTFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKENIRQKFVADLRKEFAGKGLTFSIGGQISFDVFPDGWDKRYCLRHVENDGYKTIYFFGDKTMPGGNDHEIFTDPRTMGYSVTAPEDTRRICELLFS
+#    -bsequence asis::XXXPGPALCLFDVDGTLTAPRQKITKEXDDFLQKLRQKIKIGVVGGSDFEKVQEQLGNDVVEKYDYVFPENGLVAYKDGKLLCRQNIQSHLGEALIQDLINYCLSYIAKIKLPKKRGTFIEFRNGXLNVSPIGRSCSQEERIEFYELDKKENIRQKFVADLRKEFAGKGLTFSIGGQISFDVFPDGWDKRYCLRHVENDGYKTIYFFGDKTXXXXNDHEIFTDPRTXGYSVTAPEDTRRICELLFSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGGG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5373.1/5373.1_protein/sequences/O15305-1_2amy-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 402
+# Identity:     236/402 (58.7%)
+# Similarity:   236/402 (58.7%)
+# Gaps:         156/402 (38.8%)
+# Score: 1243.0
+# 
+#
+#=======================================
+
+asis               1 MAAPGPALCLFDVDGTLTAPRQKITKEMDDFLQKLRQKIKIGVVGGSDFE     50
+                     ...||||||||||||||||||||||||.||||||||||||||||||||||
+asis               1 XXXPGPALCLFDVDGTLTAPRQKITKEXDDFLQKLRQKIKIGVVGGSDFE     50
+
+asis              51 KVQEQLGNDVVEKYDYVFPENGLVAYKDGKLLCRQNIQSHLGEALIQDLI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 KVQEQLGNDVVEKYDYVFPENGLVAYKDGKLLCRQNIQSHLGEALIQDLI    100
+
+asis             101 NYCLSYIAKIKLPKKRGTFIEFRNGMLNVSPIGRSCSQEERIEFYELDKK    150
+                     |||||||||||||||||||||||||.||||||||||||||||||||||||
+asis             101 NYCLSYIAKIKLPKKRGTFIEFRNGXLNVSPIGRSCSQEERIEFYELDKK    150
+
+asis             151 ENIRQKFVADLRKEFAGKGLTFSIGGQISFDVFPDGWDKRYCLRHVENDG    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 ENIRQKFVADLRKEFAGKGLTFSIGGQISFDVFPDGWDKRYCLRHVENDG    200
+
+asis             201 YKTIYFFGDKTMPGGNDHEIFTDPRTMGYSVTAPEDTRRICELLFS----    246
+                     |||||||||||....|||||||||||.|||||||||||||||||||    
+asis             201 YKTIYFFGDKTXXXXNDHEIFTDPRTXGYSVTAPEDTRRICELLFSXXXX    250
+
+asis             246 --------------------------------------------------    246
+                                                                       
+asis             251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    300
+
+asis             246 --------------------------------------------------    246
+                                                                       
+asis             301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    350
+
+asis             246 --------------------------------------------------    246
+                                                                       
+asis             351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXG    400
+
+asis             246 --    246
+                       
+asis             401 GG    402
+
+
+#---------------------------------------
+#---------------------------------------

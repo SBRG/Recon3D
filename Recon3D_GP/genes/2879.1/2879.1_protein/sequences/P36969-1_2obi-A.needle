@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:22
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2879.1/2879.1_protein/sequences/P36969-1_2obi-A.needle
+#    -asequence asis::MSLGRLCRLLKPALLCGALAAPGLAGTMCASRDDWRCARSMHEFSAKDIDGHMVNLDKYRGFVCIVTNVASQUGKTEVNYTQLVDLHARYAECGLRILAFPCNQFGKQEPGSNEEIKEFAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQPKGKGILGNAIKWNFTKFLIDKNGCVVKRYGPMEEPLVIEKDLPHYF
+#    -bsequence asis::XXXXXDDWRCARSMHEFSAKDIDGHMVNLDKYRGFVCIVTNVASQCGKTEVNYTQLVDLHARYAECGLRILAFPCNQFGKQEPGSNEEIKEFAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQPKGKGILGNAIKWNFTKFLIDKNGCVVKRYGPMEEPLVIEKDLPHYF
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2879.1/2879.1_protein/sequences/P36969-1_2obi-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 197
+# Identity:     164/197 (83.2%)
+# Similarity:   164/197 (83.2%)
+# Gaps:          27/197 (13.7%)
+# Score: 903.0
+# 
+#
+#=======================================
+
+asis               1 MSLGRLCRLLKPALLCGALAAPGLAGTMCASRDDWRCARSMHEFSAKDID     50
+                                                .....||||||||||||||||||
+asis               1 ---------------------------XXXXXDDWRCARSMHEFSAKDID     23
+
+asis              51 GHMVNLDKYRGFVCIVTNVASQUGKTEVNYTQLVDLHARYAECGLRILAF    100
+                     |||||||||||||||||||||| |||||||||||||||||||||||||||
+asis              24 GHMVNLDKYRGFVCIVTNVASQCGKTEVNYTQLVDLHARYAECGLRILAF     73
+
+asis             101 PCNQFGKQEPGSNEEIKEFAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQ    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              74 PCNQFGKQEPGSNEEIKEFAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQ    123
+
+asis             151 PKGKGILGNAIKWNFTKFLIDKNGCVVKRYGPMEEPLVIEKDLPHYF    197
+                     |||||||||||||||||||||||||||||||||||||||||||||||
+asis             124 PKGKGILGNAIKWNFTKFLIDKNGCVVKRYGPMEEPLVIEKDLPHYF    170
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:37:59
+# Commandline: needle
+#    -outfile ./Recon3D/genes/23327.1/23327.1_protein/sequences/Q96PU5-1_2nsq-A.needle
+#    -asequence asis::MATGLGEPVYGLSEDEGESRILRVKVVSGIDLAKKDIFGASDPYVKLSLYVADENRELALVQTKTIKKTLNPKWNEEFYFRVNPSNHRLLFEVFDENRLTRDDFLGQVDVPLSHLPTEDPTMERPYTFKDFLLRPRSHKSRVKGFLRLKMAYMPKNGGQDEENSDQRDDMEHGWEVVDSNDSASQHQEELPPPPLPPGWEEKVDNLGRTYYVNHNNRTTQWHRPSLMDVSSESDNNIRQINQEAAHRRFRSRRHISEDLEPEPSEGGDVPEPWETISEEVNIAGDSLGLALPPPPASPGSRTSPQELSEELSRRLQITPDSNGEQFSSLIQREPSSRLRSCSVTDAVAEQGHLPPPSAPAGRARSSTVTGGEEPTPSVAYVHTTPGLPSGWEERKDAKGRTYYVNHNNRTTTWTRPIMQLAEDGASGSATNSNNHLIEPQIRRPRSLSSPTVTLSAPLEGAKDSPVRRAVKDTLSNPQSPQPSPYNSPKPQHKVTQSFLPPGWEMRIAPNGRPFFIDHNTKTTTWEDPRLKFPVHMRSKTSLNPNDLGPLPPGWEERIHLDGRTFYIDHNSKITQWEDPRLQNPAITGPAVPYSREFKQKYDYFRKKLKKPADIPNRFEMKLHRNNIFEESYRRIMSVKRPDVLKARLWIEFESEKGLDYGGVAREWFFLLSKEMFNPYYGLFEYSATDNYTLQINPNSGLCNEDHLSYFTFIGRVAGLAVFHGKLLDGFFIRPFYKMMLGKQITLNDMESVDSEYYNSLKWILENDPTELDLMFCIDEENFGQTYQVDLKPNGSEIMVTNENKREYIDLVIQWRFVNRVQKQMNAFLEGFTELLPIDLIKIFDENELELLMCGLGDVDVNDWRQHSIYKNGYCPNHPVIQWFWKAVLLMDAEKRIRLLQFVTGTSRVPMNGFAELYGSNGPQLFTIEQWGSPEKLPRAHTCFNRLDLPPYETFEDLREKLLMAVENAQGFEGVD
+#    -bsequence asis::XXXXXGEPVYGLSEDEGESRILRVKVVSGIDLAKKXXXXASDPYVKLSLYVADENRELALVQTKTIKKTLNPKWNEEFYFRVNPSNHRLLFEVFDENRLTRDDFLGQVDVPLSHLPTEDPXXXXXYTFKDFLLRPRSHKSRVKGFLRLKMAYMP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/23327.1/23327.1_protein/sequences/Q96PU5-1_2nsq-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 975
+# Identity:     140/975 (14.4%)
+# Similarity:   140/975 (14.4%)
+# Gaps:         821/975 (84.2%)
+# Score: 716.0
+# 
+#
+#=======================================
+
+asis               1 MATGLGEPVYGLSEDEGESRILRVKVVSGIDLAKKDIFGASDPYVKLSLY     50
+                     .....||||||||||||||||||||||||||||||....|||||||||||
+asis               1 XXXXXGEPVYGLSEDEGESRILRVKVVSGIDLAKKXXXXASDPYVKLSLY     50
+
+asis              51 VADENRELALVQTKTIKKTLNPKWNEEFYFRVNPSNHRLLFEVFDENRLT    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 VADENRELALVQTKTIKKTLNPKWNEEFYFRVNPSNHRLLFEVFDENRLT    100
+
+asis             101 RDDFLGQVDVPLSHLPTEDPTMERPYTFKDFLLRPRSHKSRVKGFLRLKM    150
+                     ||||||||||||||||||||.....|||||||||||||||||||||||||
+asis             101 RDDFLGQVDVPLSHLPTEDPXXXXXYTFKDFLLRPRSHKSRVKGFLRLKM    150
+
+asis             151 AYMPKNGGQDEENSDQRDDMEHGWEVVDSNDSASQHQEELPPPPLPPGWE    200
+                     ||||                                              
+asis             151 AYMP----------------------------------------------    154
+
+asis             201 EKVDNLGRTYYVNHNNRTTQWHRPSLMDVSSESDNNIRQINQEAAHRRFR    250
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             251 SRRHISEDLEPEPSEGGDVPEPWETISEEVNIAGDSLGLALPPPPASPGS    300
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             301 RTSPQELSEELSRRLQITPDSNGEQFSSLIQREPSSRLRSCSVTDAVAEQ    350
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             351 GHLPPPSAPAGRARSSTVTGGEEPTPSVAYVHTTPGLPSGWEERKDAKGR    400
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             401 TYYVNHNNRTTTWTRPIMQLAEDGASGSATNSNNHLIEPQIRRPRSLSSP    450
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             451 TVTLSAPLEGAKDSPVRRAVKDTLSNPQSPQPSPYNSPKPQHKVTQSFLP    500
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             501 PGWEMRIAPNGRPFFIDHNTKTTTWEDPRLKFPVHMRSKTSLNPNDLGPL    550
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             551 PPGWEERIHLDGRTFYIDHNSKITQWEDPRLQNPAITGPAVPYSREFKQK    600
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             601 YDYFRKKLKKPADIPNRFEMKLHRNNIFEESYRRIMSVKRPDVLKARLWI    650
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             651 EFESEKGLDYGGVAREWFFLLSKEMFNPYYGLFEYSATDNYTLQINPNSG    700
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             701 LCNEDHLSYFTFIGRVAGLAVFHGKLLDGFFIRPFYKMMLGKQITLNDME    750
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             751 SVDSEYYNSLKWILENDPTELDLMFCIDEENFGQTYQVDLKPNGSEIMVT    800
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             801 NENKREYIDLVIQWRFVNRVQKQMNAFLEGFTELLPIDLIKIFDENELEL    850
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             851 LMCGLGDVDVNDWRQHSIYKNGYCPNHPVIQWFWKAVLLMDAEKRIRLLQ    900
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             901 FVTGTSRVPMNGFAELYGSNGPQLFTIEQWGSPEKLPRAHTCFNRLDLPP    950
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             951 YETFEDLREKLLMAVENAQGFEGVD    975
+                                              
+asis             154 -------------------------    154
+
+
+#---------------------------------------
+#---------------------------------------

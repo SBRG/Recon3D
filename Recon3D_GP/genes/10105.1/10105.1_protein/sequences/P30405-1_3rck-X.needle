@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:42:22
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10105.1/10105.1_protein/sequences/P30405-1_3rck-X.needle
+#    -asequence asis::MLALRCGSRWLGLLSVPRSVPLRLPAARACSKGSGDPSSSSSSGNPLVYLDVDANGKPLGRVVLELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHNGTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIKTDWLDGKHVVFGHVKEGMDVVKKIESFGSKSGRTSKKIVITDCGQLS
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGNPLVYLDVDANGKPLGRVVLELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHNGTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXTDWLDGKHVVFGHVIEGMDVVKKIESFGSKSGRTSKKIVITDCGQLS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10105.1/10105.1_protein/sequences/P30405-1_3rck-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 403
+# Identity:     163/403 (40.4%)
+# Similarity:   163/403 (40.4%)
+# Gaps:         233/403 (57.8%)
+# Score: 753.0
+# 
+#
+#=======================================
+
+asis               1 MLALRCGSRWLGLLSVPRSVPLRLPAARACSKGSGDP-------------     37
+                                                                       
+asis               1 -------------------------------------XXXXXXXXXXXXX     13
+
+asis              38 ------------------------SSSSSSGNPLVYLDVDANGKPLGRVV     63
+                                             ......||||||||||||||||||||
+asis              14 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGNPLVYLDVDANGKPLGRVV     63
+
+asis              64 LELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHN    113
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              64 LELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHN    113
+
+asis             114 GTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIK---    160
+                     |||||||||||||||||||||||||||||||||||||||||||||||   
+asis             114 GTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIKXXX    163
+
+asis             160 --------------------------------------------------    160
+                                                                       
+asis             164 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    213
+
+asis             160 --------------------------------------------------    160
+                                                                       
+asis             214 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    263
+
+asis             160 --------------------------------------------------    160
+                                                                       
+asis             264 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    313
+
+asis             161 ------TDWLDGKHVVFGHVKEGMDVVKKIESFGSKSGRTSKKIVITDCG    204
+                           ||||||||||||||.|||||||||||||||||||||||||||||
+asis             314 XXXXXXTDWLDGKHVVFGHVIEGMDVVKKIESFGSKSGRTSKKIVITDCG    363
+
+asis             205 QLS    207
+                     |||
+asis             364 QLS    366
+
+
+#---------------------------------------
+#---------------------------------------

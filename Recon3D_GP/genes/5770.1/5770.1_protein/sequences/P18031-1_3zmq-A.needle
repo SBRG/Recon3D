@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:29:38
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5770.1/5770.1_protein/sequences/P18031-1_3zmq-A.needle
+#    -asequence asis::MEMEKEFEQIDKSGSWAAIYQDIRHEASDFPCRVAKLPKNKNRNRYRDVSPFDHSRIKLHQEDNDYINASLIKMEEAQRSYILTQGPLPNTCGHFWEMVWEQKSRGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQLELENLTTQETREILHFHYTTWPDFGVPESPASFLNFLFKVRESGSLSPEHGPVVVHCSAGIGRSGTFCLADTCLLLMDKRKDPSSVDIKKVLLEMRKFRMGLIQTADQLRFSYLAVIEGAKFIMGDSSVQDQWKELSHEDLEPPPEHIPPPPRPPKRILEPHNGKCREFFPNHQWVKEETQEDKDCPIKEEKGSPLNAAPYGIESMSQDTEVRSRVVGGSLRGAQAASPAKGEPSLPEKDEDHALSYWKPFLVNMCVATVLTAGAYLCYRFLFNSNT
+#    -bsequence asis::XXXXXXFEQIDKSGSWAAIYQDIRHEASDFPCRVAKLPKNKNRNRYRDVSPFDHSRIKLHQEDNDYINASLIKMEEAQRSYILTQGPLPNTCGHFWEMVWEQKSRGVVMLNRXXXXXXXXXXXYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQLELENLTTQETREILHFHYTTWPDFGVPXXPASFLNFLFKVRESGSLSPEHGPVVVHSSAGIGRSGTFCLADTCLLLMDKRXXPSSVDIKKVLLEMRKFRMGLIQTADQLRFSYLAVIEGAK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5770.1/5770.1_protein/sequences/P18031-1_3zmq-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 435
+# Identity:     257/435 (59.1%)
+# Similarity:   257/435 (59.1%)
+# Gaps:         156/435 (35.9%)
+# Score: 1341.0
+# 
+#
+#=======================================
+
+asis               1 MEMEKEFEQIDKSGSWAAIYQDIRHEASDFPCRVAKLPKNKNRNRYRDVS     50
+                     ......||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXFEQIDKSGSWAAIYQDIRHEASDFPCRVAKLPKNKNRNRYRDVS     50
+
+asis              51 PFDHSRIKLHQEDNDYINASLIKMEEAQRSYILTQGPLPNTCGHFWEMVW    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 PFDHSRIKLHQEDNDYINASLIKMEEAQRSYILTQGPLPNTCGHFWEMVW    100
+
+asis             101 EQKSRGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIK    150
+                     ||||||||||||...........|||||||||||||||||||||||||||
+asis             101 EQKSRGVVMLNRXXXXXXXXXXXYWPQKEEKEMIFEDTNLKLTLISEDIK    150
+
+asis             151 SYYTVRQLELENLTTQETREILHFHYTTWPDFGVPESPASFLNFLFKVRE    200
+                     |||||||||||||||||||||||||||||||||||..|||||||||||||
+asis             151 SYYTVRQLELENLTTQETREILHFHYTTWPDFGVPXXPASFLNFLFKVRE    200
+
+asis             201 SGSLSPEHGPVVVHCSAGIGRSGTFCLADTCLLLMDKRKDPSSVDIKKVL    250
+                     ||||||||||||||.|||||||||||||||||||||||..||||||||||
+asis             201 SGSLSPEHGPVVVHSSAGIGRSGTFCLADTCLLLMDKRXXPSSVDIKKVL    250
+
+asis             251 LEMRKFRMGLIQTADQLRFSYLAVIEGAKFIMGDSSVQDQWKELSHEDLE    300
+                     |||||||||||||||||||||||||||||                     
+asis             251 LEMRKFRMGLIQTADQLRFSYLAVIEGAK---------------------    279
+
+asis             301 PPPEHIPPPPRPPKRILEPHNGKCREFFPNHQWVKEETQEDKDCPIKEEK    350
+                                                                       
+asis             279 --------------------------------------------------    279
+
+asis             351 GSPLNAAPYGIESMSQDTEVRSRVVGGSLRGAQAASPAKGEPSLPEKDED    400
+                                                                       
+asis             279 --------------------------------------------------    279
+
+asis             401 HALSYWKPFLVNMCVATVLTAGAYLCYRFLFNSNT    435
+                                                        
+asis             279 -----------------------------------    279
+
+
+#---------------------------------------
+#---------------------------------------

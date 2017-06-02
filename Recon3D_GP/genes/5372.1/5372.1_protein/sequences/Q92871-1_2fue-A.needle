@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:01:37
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5372.1/5372.1_protein/sequences/Q92871-1_2fue-A.needle
+#    -asequence asis::MAVTAQAARRKERVLCLFDVDGTLTPARQKIDPEVAAFLQKLRSRVQIGVVGGSDYCKIAEQLGDGDEVIEKFDYVFAENGTVQYKHGRLLSKQTIQNHLGEELLQDLINFCLSYMALLRLPKKRGTFIEFRNGMLNISPIGRSCTLEERIEFSELDKKEKIREKFVEALKTEFAGKGLRFSRGGMISFDVFPEGWDKRYCLDSLDQDSFDTIHFFGNETSPGGNDFEIFADPRTVGHSVVSPQDTVQRCREIFFPETAHEA
+#    -bsequence asis::XXXXXXXXXXXXRVLCLFDVDGTLTPARQKIDPEVAAFLQKLRSRVQIGVVGGSDYCKIAEQLGDGDEVIEKFDYVFAENGTVQYKHGRLLSKQTIQNHLGEELLQDLINFCLSYXALLRLPKKRGTFIEFRNGXLNISPIGRSCTLEERIEFSELDKKEKIREKFVEALKTEFAGKGLRFSRGGXISFDVFPEGWDKRYCLDSLDQDSFDTIHFFGNETSPGGNDFEIFADPRTVGHSVVSPQDTVQRCREIFFPET
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5372.1/5372.1_protein/sequences/Q92871-1_2fue-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 262
+# Identity:     243/262 (92.7%)
+# Similarity:   243/262 (92.7%)
+# Gaps:           4/262 ( 1.5%)
+# Score: 1265.0
+# 
+#
+#=======================================
+
+asis               1 MAVTAQAARRKERVLCLFDVDGTLTPARQKIDPEVAAFLQKLRSRVQIGV     50
+                     ............||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXRVLCLFDVDGTLTPARQKIDPEVAAFLQKLRSRVQIGV     50
+
+asis              51 VGGSDYCKIAEQLGDGDEVIEKFDYVFAENGTVQYKHGRLLSKQTIQNHL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 VGGSDYCKIAEQLGDGDEVIEKFDYVFAENGTVQYKHGRLLSKQTIQNHL    100
+
+asis             101 GEELLQDLINFCLSYMALLRLPKKRGTFIEFRNGMLNISPIGRSCTLEER    150
+                     |||||||||||||||.||||||||||||||||||.|||||||||||||||
+asis             101 GEELLQDLINFCLSYXALLRLPKKRGTFIEFRNGXLNISPIGRSCTLEER    150
+
+asis             151 IEFSELDKKEKIREKFVEALKTEFAGKGLRFSRGGMISFDVFPEGWDKRY    200
+                     |||||||||||||||||||||||||||||||||||.||||||||||||||
+asis             151 IEFSELDKKEKIREKFVEALKTEFAGKGLRFSRGGXISFDVFPEGWDKRY    200
+
+asis             201 CLDSLDQDSFDTIHFFGNETSPGGNDFEIFADPRTVGHSVVSPQDTVQRC    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 CLDSLDQDSFDTIHFFGNETSPGGNDFEIFADPRTVGHSVVSPQDTVQRC    250
+
+asis             251 REIFFPETAHEA    262
+                     ||||||||    
+asis             251 REIFFPET----    258
+
+
+#---------------------------------------
+#---------------------------------------

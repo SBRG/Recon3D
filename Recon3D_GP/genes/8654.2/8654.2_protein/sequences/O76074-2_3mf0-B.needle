@@ -1,0 +1,110 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:45:43
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8654.2/8654.2_protein/sequences/O76074-2_3mf0-B.needle
+#    -asequence asis::MLPFGDKTREMVNAWFAERVHTIPVCKEGIRGHTESCSCPLQQSPRADNSAPGTPTRKISASEFDRPLRPIVVKDSEGTVSFLSDSEKKEQMPLTPPRFDHDEGDQCSRLLELVKDISSHLDVTALCHKIFLHIHGLISADRYSLFLVCEDSSNDKFLISRLFDVAEGSTLEEVSNNCIRLEWNKGIVGHVAALGEPLNIKDAYEDPRFNAEVDQITGYKTQSILCMPIKNHREEVVGVAQAINKKSGNGGTFTEKDEKDFAAYLAFCGIVLHNAQLYETSLLENKRNQVLLDLASLIFEEQQSLEVILKKIAATIISFMQVQKCTIFIVDEDCSDSFSSVFHMECEELEKSSDTLTREHDANKINYMYAQYVKNTMEPLNIPDVSKDKRFPWTTENTGNVNQQCIRSLLCTPIKNGKKNKVIGVCQLVNKMEENTGKVKPFNRNDEQFLEAFVIFCGLGIQNTQMYEAVERAMAKQMVTLEVLSYHASAAEEETRELQSLAAAVVPSAQTLKITDFSFSDFELSDLETALCTIRMFTDLNLVQNFQMKHEVLCRWILSVKKNYRKNVAYHNWRHAFNTAQCMFAALKAGKIQNKLTDLEILALLIAALSHDLDHRGVNNSYIQRSEHPLAQLYCHSIMEHHHFDQCLMILNSPGNQILSGLSIEEYKTTLKIIKQAILATDLALYIKRRGEFFELIRKNQFNLEDPHQKELFLAMLMTACDLSAITKPWPIQQRIAELVATEFFDQGDRERKELNIEPTDLMNREKKNKIPSMQVGFIDAICLQLYEALTHVSEDCFPLLDGCRKNRQKWQALAEQQEKMLINGESGQAKRN
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXISASEFDRPLRPIVVKDSEGTVSFLSDSEKXXXXXXXXXXXXXXXXDQSSRLLELVKDISSHLDVTALCHKIFLHIHGLISADRYSLFLVCEDSSNDKFLISRLFDVAXXXXXXXXXNNCIRLEWNKGIVGHVAALGEPLNIKDAYEDPRFNAEVDQITGYKTQSILCMPIKNHREEVVGVAQAINKKSGNGGTFTEKDEKDFAAYLAFCGIVLHNAQLYETSLLENKRNQVLLDLASLIFEEQQSLEVILKKIAATIISFMQVQKCTIFIVDEDCSDSFSSVFHMECEELEKSXXXXXXXXXXXXXXYMYAQYVKNTMEPLNIPDVSKDKRFPXXXXXXXXXXXXCIRSLLCTPIKNGKKNKVIGVCQLVNKMEENTGKVKPFNRNDEQFLEAFVIFCGLGIQNTQMYEAVERAMAKRN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8654.2/8654.2_protein/sequences/O76074-2_3mf0-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 933
+# Identity:     366/933 (39.2%)
+# Similarity:   367/933 (39.3%)
+# Gaps:         513/933 (55.0%)
+# Score: 1801.5
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis              51 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    100
+
+asis               1 MLPFGDKTREMVNAWFAERVHTIPVCKEGIRGHTESCSCPLQQSPRADNS     50
+                                                                       
+asis             100 --------------------------------------------------    100
+
+asis              51 APGTPTRKISASEFDRPLRPIVVKDSEGTVSFLSDSEKKEQMPLTPPRFD    100
+                             ||||||||||||||||||||||||||||||............
+asis             101 --------ISASEFDRPLRPIVVKDSEGTVSFLSDSEKXXXXXXXXXXXX    142
+
+asis             101 HDEGDQCSRLLELVKDISSHLDVTALCHKIFLHIHGLISADRYSLFLVCE    150
+                     ....||.|||||||||||||||||||||||||||||||||||||||||||
+asis             143 XXXXDQSSRLLELVKDISSHLDVTALCHKIFLHIHGLISADRYSLFLVCE    192
+
+asis             151 DSSNDKFLISRLFDVAEGSTLEEVSNNCIRLEWNKGIVGHVAALGEPLNI    200
+                     ||||||||||||||||.........|||||||||||||||||||||||||
+asis             193 DSSNDKFLISRLFDVAXXXXXXXXXNNCIRLEWNKGIVGHVAALGEPLNI    242
+
+asis             201 KDAYEDPRFNAEVDQITGYKTQSILCMPIKNHREEVVGVAQAINKKSGNG    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             243 KDAYEDPRFNAEVDQITGYKTQSILCMPIKNHREEVVGVAQAINKKSGNG    292
+
+asis             251 GTFTEKDEKDFAAYLAFCGIVLHNAQLYETSLLENKRNQVLLDLASLIFE    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             293 GTFTEKDEKDFAAYLAFCGIVLHNAQLYETSLLENKRNQVLLDLASLIFE    342
+
+asis             301 EQQSLEVILKKIAATIISFMQVQKCTIFIVDEDCSDSFSSVFHMECEELE    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             343 EQQSLEVILKKIAATIISFMQVQKCTIFIVDEDCSDSFSSVFHMECEELE    392
+
+asis             351 KSSDTLTREHDANKINYMYAQYVKNTMEPLNIPDVSKDKRFPWTTENTGN    400
+                     ||..............||||||||||||||||||||||||||........
+asis             393 KSXXXXXXXXXXXXXXYMYAQYVKNTMEPLNIPDVSKDKRFPXXXXXXXX    442
+
+asis             401 VNQQCIRSLLCTPIKNGKKNKVIGVCQLVNKMEENTGKVKPFNRNDEQFL    450
+                     ....||||||||||||||||||||||||||||||||||||||||||||||
+asis             443 XXXXCIRSLLCTPIKNGKKNKVIGVCQLVNKMEENTGKVKPFNRNDEQFL    492
+
+asis             451 EAFVIFCGLGIQNTQMYEAVERAMAKQMVTLEVLSYHASAAEEETRELQS    500
+                     ||||||||||||||||||||||||||:.                      
+asis             493 EAFVIFCGLGIQNTQMYEAVERAMAKRN----------------------    520
+
+asis             501 LAAAVVPSAQTLKITDFSFSDFELSDLETALCTIRMFTDLNLVQNFQMKH    550
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             551 EVLCRWILSVKKNYRKNVAYHNWRHAFNTAQCMFAALKAGKIQNKLTDLE    600
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             601 ILALLIAALSHDLDHRGVNNSYIQRSEHPLAQLYCHSIMEHHHFDQCLMI    650
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             651 LNSPGNQILSGLSIEEYKTTLKIIKQAILATDLALYIKRRGEFFELIRKN    700
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             701 QFNLEDPHQKELFLAMLMTACDLSAITKPWPIQQRIAELVATEFFDQGDR    750
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             751 ERKELNIEPTDLMNREKKNKIPSMQVGFIDAICLQLYEALTHVSEDCFPL    800
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             801 LDGCRKNRQKWQALAEQQEKMLINGESGQAKRN    833
+                                                      
+asis             520 ---------------------------------    520
+
+
+#---------------------------------------
+#---------------------------------------

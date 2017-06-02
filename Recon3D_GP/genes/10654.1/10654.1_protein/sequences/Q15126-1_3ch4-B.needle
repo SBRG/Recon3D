@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:51:24
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10654.1/10654.1_protein/sequences/Q15126-1_3ch4-B.needle
+#    -asequence asis::MAPLGGAPRLVLLFSGKRKSGKDFVTEALQSRLGADVCAVLRLSGPLKEQYAQEHGLNFQRLLDTSTYKEAFRKDMIRWGEEKRQADPGFFCRKIVEGISQPIWLVSDTRRVSDIQWFREAYGAVTQTVRVVALEQSRQQRGWVFTPGVDDAESECGLDNFGDFDWVIENHGVEQRLEEQLENLIEFIRSRL
+#    -bsequence asis::GSMAPLGGAPRLVLLFSGKRKSGKDFVTEALQSRLGADVCAVLRLSGPLKEQYAQEHGLNFQXXXXXXXYKEAFRKDMIRWGEEKRQADPGFFCRKIVEGISQPIWLVSDTRRVSDIQWFREAYGAVTQTVRVVALEQSRQQRGWVFTPGVDDAESECGLDNFGDFDWVIENHGVEQRLEEQLENLIEFIRSRLK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10654.1/10654.1_protein/sequences/Q15126-1_3ch4-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 195
+# Identity:     185/195 (94.9%)
+# Similarity:   185/195 (94.9%)
+# Gaps:           3/195 ( 1.5%)
+# Score: 967.0
+# 
+#
+#=======================================
+
+asis               1 --MAPLGGAPRLVLLFSGKRKSGKDFVTEALQSRLGADVCAVLRLSGPLK     48
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 GSMAPLGGAPRLVLLFSGKRKSGKDFVTEALQSRLGADVCAVLRLSGPLK     50
+
+asis              49 EQYAQEHGLNFQRLLDTSTYKEAFRKDMIRWGEEKRQADPGFFCRKIVEG     98
+                     ||||||||||||.......|||||||||||||||||||||||||||||||
+asis              51 EQYAQEHGLNFQXXXXXXXYKEAFRKDMIRWGEEKRQADPGFFCRKIVEG    100
+
+asis              99 ISQPIWLVSDTRRVSDIQWFREAYGAVTQTVRVVALEQSRQQRGWVFTPG    148
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 ISQPIWLVSDTRRVSDIQWFREAYGAVTQTVRVVALEQSRQQRGWVFTPG    150
+
+asis             149 VDDAESECGLDNFGDFDWVIENHGVEQRLEEQLENLIEFIRSRL-    192
+                     |||||||||||||||||||||||||||||||||||||||||||| 
+asis             151 VDDAESECGLDNFGDFDWVIENHGVEQRLEEQLENLIEFIRSRLK    195
+
+
+#---------------------------------------
+#---------------------------------------

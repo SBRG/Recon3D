@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:10:56
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2169.1/2169.1_protein/sequences/P12104-1_3akm-C.needle
+#    -asequence asis::MAFDSTWKVDRSENYDKFMEKMGVNIVKRKLAAHDNLKLTITQEGNKFTVKESSAFRNIEVVFELGVTFNYNLADGTELRGTWSLEGNKLIGKFKRTDNGNELNTVREIIGDELVQTYVYEGVEAKRIFKKD
+#    -bsequence asis::AFDSTWKVDRSENYDKFMEKMGVNIVKRKLAAHDNLKLTITQEGNKFTVKESSAFRNIEVVFELGVTFNYNLADGTELRGTWSLEGNKLIGKFKRTDNGNELNTVREIIGDELVQTYVYEGVEAKRIFKKD
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2169.1/2169.1_protein/sequences/P12104-1_3akm-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 132
+# Identity:     131/132 (99.2%)
+# Similarity:   131/132 (99.2%)
+# Gaps:           1/132 ( 0.8%)
+# Score: 676.0
+# 
+#
+#=======================================
+
+asis               1 MAFDSTWKVDRSENYDKFMEKMGVNIVKRKLAAHDNLKLTITQEGNKFTV     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 -AFDSTWKVDRSENYDKFMEKMGVNIVKRKLAAHDNLKLTITQEGNKFTV     49
+
+asis              51 KESSAFRNIEVVFELGVTFNYNLADGTELRGTWSLEGNKLIGKFKRTDNG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              50 KESSAFRNIEVVFELGVTFNYNLADGTELRGTWSLEGNKLIGKFKRTDNG     99
+
+asis             101 NELNTVREIIGDELVQTYVYEGVEAKRIFKKD    132
+                     ||||||||||||||||||||||||||||||||
+asis             100 NELNTVREIIGDELVQTYVYEGVEAKRIFKKD    131
+
+
+#---------------------------------------
+#---------------------------------------

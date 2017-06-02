@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:07:03
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10106.1/10106.1_protein/sequences/O14595-1_2q5e-B.needle
+#    -asequence asis::MEHGSIITQARREDALVLTKQGLVSKSSPKKPRGRNIFKALFCCFRAQHVGQSSSSTELAAYKEEANTIAKSDLLQCLQYQFYQIPGTCLLPEVTEEDQGRICVVIDLDETLVHSSFKPINNADFIVPIEIEGTTHQVYVLKRPYVDEFLRRMGELFECVLFTASLAKYADPVTDLLDRCGVFRARLFRESCVFHQGCYVKDLSRLGRDLRKTLILDNSPASYIFHPENAVPVQSWFDDMADTELLNLIPIFEELSGAEDVYTSLGQLRAP
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLLPEVTEEDQGRICVVIDLDETLVHSSFKPIXXADFIVPIEIEGTTHQVYVLKRPYVDEFLRRMGELFECVLFTASLAKYADPVTDLLDRCGVFRARLFRESCVFHQGCYVKDLSRLGRDLRKTLILDNSPASYIFHPENAVPVQSWFDDMADTELLNLIPIFEELSGAEDVYTSLGQLR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10106.1/10106.1_protein/sequences/O14595-1_2q5e-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 360
+# Identity:     178/360 (49.4%)
+# Similarity:   178/360 (49.4%)
+# Gaps:         180/360 (50.0%)
+# Score: 871.0
+# 
+#
+#=======================================
+
+asis               1 MEHGSIITQARREDALVLTKQGLVSKSSPKKPRGRNIFKALFCCFRAQHV     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 GQSSSSTELAAYKEEANTIAKSDLLQCLQYQFYQIPGTC-----------     89
+                                                                       
+asis               1 ---------------------------------------XXXXXXXXXXX     11
+
+asis              89 --------------------------------------------------     89
+                                                                       
+asis              12 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     61
+
+asis              90 ----------------------------LLPEVTEEDQGRICVVIDLDET    111
+                                                 ||||||||||||||||||||||
+asis              62 XXXXXXXXXXXXXXXXXXXXXXXXXXXXLLPEVTEEDQGRICVVIDLDET    111
+
+asis             112 LVHSSFKPINNADFIVPIEIEGTTHQVYVLKRPYVDEFLRRMGELFECVL    161
+                     |||||||||..|||||||||||||||||||||||||||||||||||||||
+asis             112 LVHSSFKPIXXADFIVPIEIEGTTHQVYVLKRPYVDEFLRRMGELFECVL    161
+
+asis             162 FTASLAKYADPVTDLLDRCGVFRARLFRESCVFHQGCYVKDLSRLGRDLR    211
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             162 FTASLAKYADPVTDLLDRCGVFRARLFRESCVFHQGCYVKDLSRLGRDLR    211
+
+asis             212 KTLILDNSPASYIFHPENAVPVQSWFDDMADTELLNLIPIFEELSGAEDV    261
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             212 KTLILDNSPASYIFHPENAVPVQSWFDDMADTELLNLIPIFEELSGAEDV    261
+
+asis             262 YTSLGQLRAP    271
+                     ||||||||  
+asis             262 YTSLGQLR--    269
+
+
+#---------------------------------------
+#---------------------------------------

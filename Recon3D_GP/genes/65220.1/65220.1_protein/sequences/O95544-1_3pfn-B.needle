@@ -1,0 +1,78 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:01:26
+# Commandline: needle
+#    -outfile ./Recon3D/genes/65220.1/65220.1_protein/sequences/O95544-1_3pfn-B.needle
+#    -asequence asis::MEMEQEKMTMNKELSPDAAAYCCSACHGDETWSYNHPIRGRAKSRSLSASPALGSTKEFRRTRSLHGPCPVTTFGPKACVLQNPQTIMHIQDPASQRLTWNKSPKSVLVIKKMRDASLLQPFKELCTHLMEENMIVYVEKKVLEDPAIASDESFGAVKKKFCTFREDYDDISNQIDFIICLGGDGTLLYASSLFQGSVPPVMAFHLGSLGFLTPFSFENFQSQVTQVIEGNAAVVLRSRLKVRVVKELRGKKTAVHNGLGENGSQAAGLDMDVGKQAMQYQVLNEVVIDRGPSSYLSNVDVYLDGHLITTVQGDGVIVSTPTGSTAYAAAAGASMIHPNVPAIMITPICPHSLSFRPIVVPAGVELKIMLSPEARNTAWVSFDGRKRQEIRHGDSISITTSCYPLPSICVRDPVSDWFESLAQCLHWNVRKKQAHFEEEEEEEEEG
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCPVTTFGPKACVLQNPQTIXHIQDPASQRLTWNKSPKSVLVIKKXRDASLLQPFKELCTHLXEENXIVYVEKKVLEDPAIASDESFGAVKKKFCTFREDYDDISNQIDFIICLGGDGTLLYASSLFQGSVPPVXAFHLGSLGFLTPFSFENFQSQVTQVIEGNAAVVLRSRLKVRVVKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXQAXQYQVLNEVVIDRGPXXXLSNVDVYLDGHLITTVQGDGVIVSTPTGSTAYAAAAGASXIHPNVPAIXITPICPHSLSFRPIVVPAGVELKIXLSPEARNTAWVSFDGRKRQEIRHGDSISITTSCYPLPSICVRDPVSDWFESLAQCLHH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/65220.1/65220.1_protein/sequences/O95544-1_3pfn-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 514
+# Identity:     317/514 (61.7%)
+# Similarity:   317/514 (61.7%)
+# Gaps:         155/514 (30.2%)
+# Score: 1569.5
+# 
+#
+#=======================================
+
+asis               1 MEMEQEKMTMNKELSPDAAAYCCSACHGDETWSYNHPIRGRAKSRSLSAS     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 PALGSTKEFRRTRSLHGP--------------------------------     68
+                                                                       
+asis               1 ------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     32
+
+asis              69 ------------------------------------CPVTTFGPKACVLQ     82
+                                                         ||||||||||||||
+asis              33 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCPVTTFGPKACVLQ     82
+
+asis              83 NPQTIMHIQDPASQRLTWNKSPKSVLVIKKMRDASLLQPFKELCTHLMEE    132
+                     |||||.||||||||||||||||||||||||.||||||||||||||||.||
+asis              83 NPQTIXHIQDPASQRLTWNKSPKSVLVIKKXRDASLLQPFKELCTHLXEE    132
+
+asis             133 NMIVYVEKKVLEDPAIASDESFGAVKKKFCTFREDYDDISNQIDFIICLG    182
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+asis             133 NXIVYVEKKVLEDPAIASDESFGAVKKKFCTFREDYDDISNQIDFIICLG    182
+
+asis             183 GDGTLLYASSLFQGSVPPVMAFHLGSLGFLTPFSFENFQSQVTQVIEGNA    232
+                     |||||||||||||||||||.||||||||||||||||||||||||||||||
+asis             183 GDGTLLYASSLFQGSVPPVXAFHLGSLGFLTPFSFENFQSQVTQVIEGNA    232
+
+asis             233 AVVLRSRLKVRVVKELRGKKTAVHNGLGENGSQAAGLDMDVGKQAMQYQV    282
+                     ||||||||||||||.............................||.||||
+asis             233 AVVLRSRLKVRVVKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXQAXQYQV    282
+
+asis             283 LNEVVIDRGPSSYLSNVDVYLDGHLITTVQGDGVIVSTPTGSTAYAAAAG    332
+                     ||||||||||...|||||||||||||||||||||||||||||||||||||
+asis             283 LNEVVIDRGPXXXLSNVDVYLDGHLITTVQGDGVIVSTPTGSTAYAAAAG    332
+
+asis             333 ASMIHPNVPAIMITPICPHSLSFRPIVVPAGVELKIMLSPEARNTAWVSF    382
+                     ||.||||||||.||||||||||||||||||||||||.|||||||||||||
+asis             333 ASXIHPNVPAIXITPICPHSLSFRPIVVPAGVELKIXLSPEARNTAWVSF    382
+
+asis             383 DGRKRQEIRHGDSISITTSCYPLPSICVRDPVSDWFESLAQCLHWNVRKK    432
+                     ||||||||||||||||||||||||||||||||||||||||||||.     
+asis             383 DGRKRQEIRHGDSISITTSCYPLPSICVRDPVSDWFESLAQCLHH-----    427
+
+asis             433 QAHFEEEEEEEEEG    446
+                                   
+asis             427 --------------    427
+
+
+#---------------------------------------
+#---------------------------------------

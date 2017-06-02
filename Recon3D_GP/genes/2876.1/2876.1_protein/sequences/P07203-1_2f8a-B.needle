@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:23
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2876.1/2876.1_protein/sequences/P07203-1_2f8a-B.needle
+#    -asequence asis::MCAARLAAAAAAAQSVYAFSARPLAGGEPVSLGSLRGKVLLIENVASLUGTTVRDYTQMNELQRRLGPRGLVVLGFPCNQFGHQENAKNEEILNSLKYVRPGGGFEPNFMLFEKCEVNGAGAHPLFAFLREALPAPSDDATALMTDPKLITWSPVCRNDVAWNFEKFLVGPDGVPLRRYSRRFQTIDIEPDIEALLSQGPSCA
+#    -bsequence asis::XXXXXXXXXXXQSVYAFSARPLAGGEPVSLGSLRGKVLLIENVASLGGTTVRDYTQMNELQRRLGPRGLVVLGFPCNQFGHQENAKNEEILNSLKYVRPGGGFEPNFMLFEKCEVNGAGAHPLFAFLREALPAPSDDATALMTDPKLITWSPVCRNDVAWNFEKFLVGPDGVPLRRYSRRFQTIDIEPDIEALLS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2876.1/2876.1_protein/sequences/P07203-1_2f8a-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:     183/203 (90.1%)
+# Similarity:   183/203 (90.1%)
+# Gaps:           8/203 ( 3.9%)
+# Score: 959.0
+# 
+#
+#=======================================
+
+asis               1 MCAARLAAAAAAAQSVYAFSARPLAGGEPVSLGSLRGKVLLIENVASLUG     50
+                       ...........||||||||||||||||||||||||||||||||||| |
+asis               1 --XXXXXXXXXXXQSVYAFSARPLAGGEPVSLGSLRGKVLLIENVASLGG     48
+
+asis              51 TTVRDYTQMNELQRRLGPRGLVVLGFPCNQFGHQENAKNEEILNSLKYVR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              49 TTVRDYTQMNELQRRLGPRGLVVLGFPCNQFGHQENAKNEEILNSLKYVR     98
+
+asis             101 PGGGFEPNFMLFEKCEVNGAGAHPLFAFLREALPAPSDDATALMTDPKLI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              99 PGGGFEPNFMLFEKCEVNGAGAHPLFAFLREALPAPSDDATALMTDPKLI    148
+
+asis             151 TWSPVCRNDVAWNFEKFLVGPDGVPLRRYSRRFQTIDIEPDIEALLSQGP    200
+                     |||||||||||||||||||||||||||||||||||||||||||||||   
+asis             149 TWSPVCRNDVAWNFEKFLVGPDGVPLRRYSRRFQTIDIEPDIEALLS---    195
+
+asis             201 SCA    203
+                        
+asis             195 ---    195
+
+
+#---------------------------------------
+#---------------------------------------

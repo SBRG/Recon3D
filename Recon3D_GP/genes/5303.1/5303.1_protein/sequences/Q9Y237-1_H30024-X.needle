@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:41:48
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5303.1/5303.1_protein/sequences/Q9Y237-1_H30024-X.needle
+#    -asequence asis::MPPKGKSGSGKAGKGGAASGSDSADKKAQGPKGGGNAVKVRHILCEKHGKIMEAMEKLKSGMRFNEVAAQYSEDKARQGGDLGWMTRGSMVGPFQEAAFALPVSGMDKPVFTDPPVKTKFGYHIIMVEGRK
+#    -bsequence asis::MPMAGLLKGLVRQLERFSVQQQASKMPPKGKSGSGKAGKGGAASGSDSADKKAQGPKGGGNAVKVRHILCEKHGKIMEAMEKLKSGMRFNEVAAQYSEDKARQGIPSLQQHAGHHRDLRSTLISLVSYLQTTP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5303.1/5303.1_protein/sequences/Q9Y237-1_H30024-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 167
+# Identity:      85/167 (50.9%)
+# Similarity:    86/167 (51.5%)
+# Gaps:          70/167 (41.9%)
+# Score: 398.0
+# 
+#
+#=======================================
+
+asis               1 -------------------------MPPKGKSGSGKAGKGGAASGSDSAD     25
+                                              |||||||||||||||||||||||||
+asis               1 MPMAGLLKGLVRQLERFSVQQQASKMPPKGKSGSGKAGKGGAASGSDSAD     50
+
+asis              26 KKAQGPKGGGNAVKVRHILCEKHGKIMEAMEKLKSGMRFNEVAAQYSEDK     75
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 KKAQGPKGGGNAVKVRHILCEKHGKIMEAMEKLKSGMRFNEVAAQYSEDK    100
+
+asis              76 ARQG-----------GDLGWMTRGSMVGPFQEAAFALPVSGMDKPVFTDP    114
+                     ||||           .||. .|..|:|...|...                
+asis             101 ARQGIPSLQQHAGHHRDLR-STLISLVSYLQTTP----------------    133
+
+asis             115 PVKTKFGYHIIMVEGRK    131
+                                      
+asis             133 -----------------    133
+
+
+#---------------------------------------
+#---------------------------------------

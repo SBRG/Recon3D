@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 14:55:08
+# Commandline: needle
+#    -outfile ./Recon3D/genes/221357.1/221357.1_protein/sequences/Q7RTV2-1_2r6k-A.needle
+#    -asequence asis::MAEKPKLHYSNARGSMESIRWLLAAAGVELEEKFLESAEDLDKLRNDGSLLFQQVPMVEIDGMKLVQTRAILNYIASKYNLYGKDMKERALIDMYTEGIVDLTEMILLLLICQPEERDAKTALVKEKIKNRYFPAFEKVLKSHRQDYLVGNKLSWADIHLVELFYYVEELDSSLISSFPLLKALKTRISNLPTVKKFLQPGSQRKPPMDEKSLEEARKIFRF
+#    -bsequence asis::XAEKPKLHYFNARGRMESTRWLLAAAGVEFEEKFIKSAEDLDKLRNDGYLMFQQVPMVEIDGMKLVQTRAVLNYIASKYNLYGKDIKERALIDMYIEGIADLGEMILLLPVCPPEEKDAKLALIKEKIKNRYFPAFEKVLKSHGQDYLVGNKLSRADIHLVELLYYVEELDSSLISSFPLLKALKTRISNLPTVKKFLQPGSPRKPPMDEKSLEEARKIFRF
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/221357.1/221357.1_protein/sequences/Q7RTV2-1_2r6k-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:     198/222 (89.2%)
+# Similarity:   206/222 (92.8%)
+# Gaps:           0/222 ( 0.0%)
+# Score: 1002.0
+# 
+#
+#=======================================
+
+asis               1 MAEKPKLHYSNARGSMESIRWLLAAAGVELEEKFLESAEDLDKLRNDGSL     50
+                     .||||||||.||||.|||.||||||||||.||||::||||||||||||.|
+asis               1 XAEKPKLHYFNARGRMESTRWLLAAAGVEFEEKFIKSAEDLDKLRNDGYL     50
+
+asis              51 LFQQVPMVEIDGMKLVQTRAILNYIASKYNLYGKDMKERALIDMYTEGIV    100
+                     :|||||||||||||||||||:||||||||||||||:|||||||||.|||.
+asis              51 MFQQVPMVEIDGMKLVQTRAVLNYIASKYNLYGKDIKERALIDMYIEGIA    100
+
+asis             101 DLTEMILLLLICQPEERDAKTALVKEKIKNRYFPAFEKVLKSHRQDYLVG    150
+                     ||.||||||.:|.|||:|||.||:|||||||||||||||||||.||||||
+asis             101 DLGEMILLLPVCPPEEKDAKLALIKEKIKNRYFPAFEKVLKSHGQDYLVG    150
+
+asis             151 NKLSWADIHLVELFYYVEELDSSLISSFPLLKALKTRISNLPTVKKFLQP    200
+                     ||||.||||||||.||||||||||||||||||||||||||||||||||||
+asis             151 NKLSRADIHLVELLYYVEELDSSLISSFPLLKALKTRISNLPTVKKFLQP    200
+
+asis             201 GSQRKPPMDEKSLEEARKIFRF    222
+                     ||.|||||||||||||||||||
+asis             201 GSPRKPPMDEKSLEEARKIFRF    222
+
+
+#---------------------------------------
+#---------------------------------------

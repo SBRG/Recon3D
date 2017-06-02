@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:43:58
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2272.1/2272.1_protein/sequences/P49789-1_1fit-A.needle
+#    -asequence asis::MSFRFGQHLIKPSVVFLKTELSFALVNRKPVVPGHVLVCPLRPVERFHDLRPDEVADLFQTTQRVGTVVEKHFHGTSLTFSMQDGPEAGQTVKHVHVHVLPRKAGDFHRNDSIYEELQKHDKEDFPASWRSEEEMAAEAAALRVYFQ
+#    -bsequence asis::XSFRFGQHLIKPSVVFLKTELSFALVNRKPVVPGHVLVCPLRPVERFHDLRPDEVADLFQTTQRVGTVVEKHFHGTSLTFSXQDGPEAGQTVKHVHVHVLPRKAGDXXXXXXXXXXXXXXXXXXXXASWRSEEEXAAEAAALRVYFQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2272.1/2272.1_protein/sequences/P49789-1_1fit-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 147
+# Identity:     124/147 (84.4%)
+# Similarity:   124/147 (84.4%)
+# Gaps:           0/147 ( 0.0%)
+# Score: 625.0
+# 
+#
+#=======================================
+
+asis               1 MSFRFGQHLIKPSVVFLKTELSFALVNRKPVVPGHVLVCPLRPVERFHDL     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XSFRFGQHLIKPSVVFLKTELSFALVNRKPVVPGHVLVCPLRPVERFHDL     50
+
+asis              51 RPDEVADLFQTTQRVGTVVEKHFHGTSLTFSMQDGPEAGQTVKHVHVHVL    100
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+asis              51 RPDEVADLFQTTQRVGTVVEKHFHGTSLTFSXQDGPEAGQTVKHVHVHVL    100
+
+asis             101 PRKAGDFHRNDSIYEELQKHDKEDFPASWRSEEEMAAEAAALRVYFQ    147
+                     ||||||....................||||||||.||||||||||||
+asis             101 PRKAGDXXXXXXXXXXXXXXXXXXXXASWRSEEEXAAEAAALRVYFQ    147
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:40:42
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7325.1/7325.1_protein/sequences/Q96LR5-1_1y6l-A.needle
+#    -asequence asis::MSTEAQRVDDSPSTSGGSSDGDQRESVQQEPEREQVQPKKKEGKISSKTAAKLSTSAKRIQKELAEITLDPPPNCSAGPKGDNIYEWRSTILGPPGSVYEGGVFFLDITFSPDYPFKPPKVTFRTRIYHCNINSQGVICLDILKDNWSPALTISKVLLSICSLLTDCNPADPLVGSIATQYMTNRAEHDRMARQWTKRYAT
+#    -bsequence asis::STSAKRIQKELAEITLDPPPNCSAGPKGDNIYEWRSTILGPPGSVYEGGVFFLDITFSPDYPFKPPKVTFRTRIYHCNINSQGVICLDILKDNWSPALTISKVLLSICSLLTDCNPADPLVGSIATQYMTNRAEHDRMARQWTKRYAT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7325.1/7325.1_protein/sequences/Q96LR5-1_1y6l-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 201
+# Identity:     148/201 (73.6%)
+# Similarity:   148/201 (73.6%)
+# Gaps:          53/201 (26.4%)
+# Score: 800.0
+# 
+#
+#=======================================
+
+asis               1 MSTEAQRVDDSPSTSGGSSDGDQRESVQQEPEREQVQPKKKEGKISSKTA     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 AKLSTSAKRIQKELAEITLDPPPNCSAGPKGDNIYEWRSTILGPPGSVYE    100
+                        |||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 ---STSAKRIQKELAEITLDPPPNCSAGPKGDNIYEWRSTILGPPGSVYE     47
+
+asis             101 GGVFFLDITFSPDYPFKPPKVTFRTRIYHCNINSQGVICLDILKDNWSPA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              48 GGVFFLDITFSPDYPFKPPKVTFRTRIYHCNINSQGVICLDILKDNWSPA     97
+
+asis             151 LTISKVLLSICSLLTDCNPADPLVGSIATQYMTNRAEHDRMARQWTKRYA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              98 LTISKVLLSICSLLTDCNPADPLVGSIATQYMTNRAEHDRMARQWTKRYA    147
+
+asis             201 T    201
+                     |
+asis             148 T    148
+
+
+#---------------------------------------
+#---------------------------------------

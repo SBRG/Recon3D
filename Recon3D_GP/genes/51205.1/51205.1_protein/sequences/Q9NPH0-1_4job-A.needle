@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:18:48
+# Commandline: needle
+#    -outfile ./Recon3D/genes/51205.1/51205.1_protein/sequences/Q9NPH0-1_4job-A.needle
+#    -asequence asis::MITGVFSMRLWTPVGVLTSLAYCLHQRRVALAELQEADGQCPVDRSLLKLKMVQVVFRHGARSPLKPLPLEEQVEWNPQLLEVPPQTQFDYTVTNLAGGPKPYSPYDSQYHETTLKGGMFAGQLTKVGMQQMFALGERLRKNYVEDIPFLSPTFNPQEVFIRSTNIFRNLESTRCLLAGLFQCQKEGPIIIHTDEADSEVLYPNYQSCWSLRQRTRGRRQTASLQPGISEDLKKVKDRMGIDSSDKVDFFILLDNVAAEQAHNLPSCPMLKRFARMIEQRAVDTSLYILPKEDRESLQMAVGPFLHILESNLLKAVDSATAPDKIRKLYLYAAHDVTFIPLLMTLGIFDHKWPPFAVDLTMELYQHLESKEWFVQLYYHGKEQVPRGCPDGLCPLDMFLNAMSVYTLSPEKYHALCSQTQVMEVGNEE
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXPVDRSLLKLKMVQVVFRHGARSPLKPLPLEEQVEWNPQLLEVPPQTQFDYTVTNLAGGPKPYSPYXXXXXETTLKGGMFAGQLTKVGMQQMFALGERLRKNYVEDIPFLSPTFNPQEVFIRSTNIFRNLESTRCLLAGLFQCQKEGPIIIHTDEADSEVLYPNYQSCWSLRQRTRGRRQTASLQPGISEDLKKVKDRMGIDSSDKVDFFILLDNVAAEQAHNLPSCPMLKRFARMIEQRAVDTSLYILPKEDRESLQMAVGPFLHILESNLLKAMDXXXXPDKIRKLYLYAAHDVTFIPLLMTLGIFDHKWPPFAVDLTMELYQHLESKEWFVQLYYHGKEQVPRGCPDGLCPLDMFLNAMSVYTLSPEKYHALCSQT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/51205.1/51205.1_protein/sequences/Q9NPH0-1_4job-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 469
+# Identity:     368/469 (78.5%)
+# Similarity:   369/469 (78.7%)
+# Gaps:          91/469 (19.4%)
+# Score: 1914.0
+# 
+#
+#=======================================
+
+asis               1 MITGVFSMRLWTPVGVLTSLAYCLHQRRVALAELQEADGQC---------     41
+                                                                       
+asis               1 -----------------------------------------XXXXXXXXX      9
+
+asis              42 --------------------------------PVDRSLLKLKMVQVVFRH     59
+                                                     ||||||||||||||||||
+asis              10 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXPVDRSLLKLKMVQVVFRH     59
+
+asis              60 GARSPLKPLPLEEQVEWNPQLLEVPPQTQFDYTVTNLAGGPKPYSPYDSQ    109
+                     |||||||||||||||||||||||||||||||||||||||||||||||...
+asis              60 GARSPLKPLPLEEQVEWNPQLLEVPPQTQFDYTVTNLAGGPKPYSPYXXX    109
+
+asis             110 YHETTLKGGMFAGQLTKVGMQQMFALGERLRKNYVEDIPFLSPTFNPQEV    159
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+asis             110 XXETTLKGGMFAGQLTKVGMQQMFALGERLRKNYVEDIPFLSPTFNPQEV    159
+
+asis             160 FIRSTNIFRNLESTRCLLAGLFQCQKEGPIIIHTDEADSEVLYPNYQSCW    209
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             160 FIRSTNIFRNLESTRCLLAGLFQCQKEGPIIIHTDEADSEVLYPNYQSCW    209
+
+asis             210 SLRQRTRGRRQTASLQPGISEDLKKVKDRMGIDSSDKVDFFILLDNVAAE    259
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             210 SLRQRTRGRRQTASLQPGISEDLKKVKDRMGIDSSDKVDFFILLDNVAAE    259
+
+asis             260 QAHNLPSCPMLKRFARMIEQRAVDTSLYILPKEDRESLQMAVGPFLHILE    309
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             260 QAHNLPSCPMLKRFARMIEQRAVDTSLYILPKEDRESLQMAVGPFLHILE    309
+
+asis             310 SNLLKAVDSATAPDKIRKLYLYAAHDVTFIPLLMTLGIFDHKWPPFAVDL    359
+                     ||||||:|....||||||||||||||||||||||||||||||||||||||
+asis             310 SNLLKAMDXXXXPDKIRKLYLYAAHDVTFIPLLMTLGIFDHKWPPFAVDL    359
+
+asis             360 TMELYQHLESKEWFVQLYYHGKEQVPRGCPDGLCPLDMFLNAMSVYTLSP    409
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             360 TMELYQHLESKEWFVQLYYHGKEQVPRGCPDGLCPLDMFLNAMSVYTLSP    409
+
+asis             410 EKYHALCSQTQVMEVGNEE    428
+                     ||||||||||         
+asis             410 EKYHALCSQT---------    419
+
+
+#---------------------------------------
+#---------------------------------------

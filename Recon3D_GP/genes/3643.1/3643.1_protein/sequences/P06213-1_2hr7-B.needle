@@ -1,0 +1,146 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:21:25
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3643.1/3643.1_protein/sequences/P06213-1_2hr7-B.needle
+#    -asequence asis::MATGGRRGAAAAPLLVAVAALLLGAAGHLYPGEVCPGMDIRNNLTRLHELENCSVIEGHLQILLMFKTRPEDFRDLSFPKLIMITDYLLLFRVYGLESLKDLFPNLTVIRGSRLFFNYALVIFEMVHLKELGLYNLMNITRGSVRIEKNNELCYLATIDWSRILDSVEDNYIVLNKDDNEECGDICPGTAKGKTNCPATVINGQFVERCWTHSHCQKVCPTICKSHGCTAEGLCCHSECLGNCSQPDDPTKCVACRNFYLDGRCVETCPPPYYHFQDWRCVNFSFCQDLHHKCKNSRRQGCHQYVIHNNKCIPECPSGYTMNSSNLLCTPCLGPCPKVCHLLEGEKTIDSVTSAQELRGCTVINGSLIINIRGGNNLAAELEANLGLIEEISGYLKIRRSYALVSLSFFRKLRLIRGETLEIGNYSFYALDNQNLRQLWDWSKHNLTITQGKLFFHYNPKLCLSEIHKMEEVSGTKGRQERNDIALKTNGDQASCENELLKFSYIRTSFDKILLRWEPYWPPDFRDLLGFMLFYKEAPYQNVTEFDGQDACGSNSWTVVDIDPPLRSNDPKSQNHPGWLMRGLKPWTQYAIFVKTLVTFSDERRTYGAKSDIIYVQTDATNPSVPLDPISVSNSSSQIILKWKPPSDPNGNITHYLVFWERQAEDSELFELDYCLKGLKLPSRTWSPPFESEDSQKHNQSEYEDSAGECCSCPKTDSQILKELEESSFRKTFEDYLHNVVFVPRKTSSGTGAEDPRPSRKRRSLGDVGNVTVAVPTVAAFPNTSSTSVPTSPEEHRPFEKVVNKESLVISGLRHFTGYRIELQACNQDTPEERCSVAAYVSARTMPEAKADDIVGPVTHEIFENNVVHLMWQEPKEPNGLIVLYEVSYRRYGDEELHLCVSRKHFALERGCRLRGLSPGNYSVRIRATSLAGNGSWTEPTYFYVTDYLDVPSNIAKIIIGPLIFVFLFSVVIGSIYLFLRKRQPDGPLGPLYASSNPEYLSASDVFPCSVYVPDEWEVSREKITLLRELGQGSFGMVYEGNARDIIKGEAETRVAVKTVNESASLRERIEFLNEASVMKGFTCHHVVRLLGVVSKGQPTLVVMELMAHGDLKSYLRSLRPEAENNPGRPPPTLQEMIQMAAEIADGMAYLNAKKFVHRDLAARNCMVAHDFTVKIGDFGMTRDIYETDYYRKGGKGLLPVRWMAPESLKDGVFTTSSDMWSFGVVLWEITSLAEQPYQGLSNEQVLKFVMDGGYLDQPDNCPERVTDLMRMCWQFNPKMRPTFLEIVNLLKDDLHPSFPEVSFFHSEENKAPESEELEMEFEDMENVPLDRSSHCQREEAGGRDGGSSLGFKRSYEEHIPYTHMNGGKKNGRILTLPRSNPS
+#    -bsequence asis::XXXPGEVCPGMDIRNNLTRLHELENCSVIEGHLQILLMFKTRPEDFRDLSFPKLIMITDYLLLFRVYGLESLKDLFPNLTVIRGSRLFFNYALVIFEMVHLKELGLYNLMNITRGSVRIEKNNELCYLATIDWSRILDSVEDNHIVLNKDDNEECGDICPGTAKGXTNCPATVINGQFVERCWTHSHCQKVCPTICKSHGCTAEGLCCHSECLGNCSQPDDPTKCVACRNFYLDGRCVETCPPPYYHFQDWRCVNFSFCQDLHHKCKNSRRXGCHQYVIHNNKCIPECPSGYTMNSSNLLCTPCLGPCPKVCHLLEGEKTIDSVTSAQELRGCTVINGSLIINIRGGNNLAAELEANLGLIEEISGYLKIRRSYALVSLSFFRKLRLIRGETLEIGNYSFYALDNQNLRQLWDWSKHNLTITQGKLFFHYNPKLCLSEIHKMEEVSGTKGRQERNDIALKTNGDKASCEN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3643.1/3643.1_protein/sequences/P06213-1_2hr7-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1382
+# Identity:     463/1382 (33.5%)
+# Similarity:   465/1382 (33.6%)
+# Gaps:         912/1382 (66.0%)
+# Score: 2545.0
+# 
+#
+#=======================================
+
+asis               1 MATGGRRGAAAAPLLVAVAALLLGAAGHLYPGEVCPGMDIRNNLTRLHEL     50
+                                                ...||||||||||||||||||||
+asis               1 ---------------------------XXXPGEVCPGMDIRNNLTRLHEL     23
+
+asis              51 ENCSVIEGHLQILLMFKTRPEDFRDLSFPKLIMITDYLLLFRVYGLESLK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              24 ENCSVIEGHLQILLMFKTRPEDFRDLSFPKLIMITDYLLLFRVYGLESLK     73
+
+asis             101 DLFPNLTVIRGSRLFFNYALVIFEMVHLKELGLYNLMNITRGSVRIEKNN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              74 DLFPNLTVIRGSRLFFNYALVIFEMVHLKELGLYNLMNITRGSVRIEKNN    123
+
+asis             151 ELCYLATIDWSRILDSVEDNYIVLNKDDNEECGDICPGTAKGKTNCPATV    200
+                     ||||||||||||||||||||:|||||||||||||||||||||.|||||||
+asis             124 ELCYLATIDWSRILDSVEDNHIVLNKDDNEECGDICPGTAKGXTNCPATV    173
+
+asis             201 INGQFVERCWTHSHCQKVCPTICKSHGCTAEGLCCHSECLGNCSQPDDPT    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             174 INGQFVERCWTHSHCQKVCPTICKSHGCTAEGLCCHSECLGNCSQPDDPT    223
+
+asis             251 KCVACRNFYLDGRCVETCPPPYYHFQDWRCVNFSFCQDLHHKCKNSRRQG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+asis             224 KCVACRNFYLDGRCVETCPPPYYHFQDWRCVNFSFCQDLHHKCKNSRRXG    273
+
+asis             301 CHQYVIHNNKCIPECPSGYTMNSSNLLCTPCLGPCPKVCHLLEGEKTIDS    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             274 CHQYVIHNNKCIPECPSGYTMNSSNLLCTPCLGPCPKVCHLLEGEKTIDS    323
+
+asis             351 VTSAQELRGCTVINGSLIINIRGGNNLAAELEANLGLIEEISGYLKIRRS    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             324 VTSAQELRGCTVINGSLIINIRGGNNLAAELEANLGLIEEISGYLKIRRS    373
+
+asis             401 YALVSLSFFRKLRLIRGETLEIGNYSFYALDNQNLRQLWDWSKHNLTITQ    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             374 YALVSLSFFRKLRLIRGETLEIGNYSFYALDNQNLRQLWDWSKHNLTITQ    423
+
+asis             451 GKLFFHYNPKLCLSEIHKMEEVSGTKGRQERNDIALKTNGDQASCENELL    500
+                     |||||||||||||||||||||||||||||||||||||||||:|||||   
+asis             424 GKLFFHYNPKLCLSEIHKMEEVSGTKGRQERNDIALKTNGDKASCEN---    470
+
+asis             501 KFSYIRTSFDKILLRWEPYWPPDFRDLLGFMLFYKEAPYQNVTEFDGQDA    550
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis             551 CGSNSWTVVDIDPPLRSNDPKSQNHPGWLMRGLKPWTQYAIFVKTLVTFS    600
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis             601 DERRTYGAKSDIIYVQTDATNPSVPLDPISVSNSSSQIILKWKPPSDPNG    650
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis             651 NITHYLVFWERQAEDSELFELDYCLKGLKLPSRTWSPPFESEDSQKHNQS    700
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis             701 EYEDSAGECCSCPKTDSQILKELEESSFRKTFEDYLHNVVFVPRKTSSGT    750
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis             751 GAEDPRPSRKRRSLGDVGNVTVAVPTVAAFPNTSSTSVPTSPEEHRPFEK    800
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis             801 VVNKESLVISGLRHFTGYRIELQACNQDTPEERCSVAAYVSARTMPEAKA    850
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis             851 DDIVGPVTHEIFENNVVHLMWQEPKEPNGLIVLYEVSYRRYGDEELHLCV    900
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis             901 SRKHFALERGCRLRGLSPGNYSVRIRATSLAGNGSWTEPTYFYVTDYLDV    950
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis             951 PSNIAKIIIGPLIFVFLFSVVIGSIYLFLRKRQPDGPLGPLYASSNPEYL   1000
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis            1001 SASDVFPCSVYVPDEWEVSREKITLLRELGQGSFGMVYEGNARDIIKGEA   1050
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis            1051 ETRVAVKTVNESASLRERIEFLNEASVMKGFTCHHVVRLLGVVSKGQPTL   1100
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis            1101 VVMELMAHGDLKSYLRSLRPEAENNPGRPPPTLQEMIQMAAEIADGMAYL   1150
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis            1151 NAKKFVHRDLAARNCMVAHDFTVKIGDFGMTRDIYETDYYRKGGKGLLPV   1200
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis            1201 RWMAPESLKDGVFTTSSDMWSFGVVLWEITSLAEQPYQGLSNEQVLKFVM   1250
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis            1251 DGGYLDQPDNCPERVTDLMRMCWQFNPKMRPTFLEIVNLLKDDLHPSFPE   1300
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis            1301 VSFFHSEENKAPESEELEMEFEDMENVPLDRSSHCQREEAGGRDGGSSLG   1350
+                                                                       
+asis             470 --------------------------------------------------    470
+
+asis            1351 FKRSYEEHIPYTHMNGGKKNGRILTLPRSNPS   1382
+                                                     
+asis             470 --------------------------------    470
+
+
+#---------------------------------------
+#---------------------------------------

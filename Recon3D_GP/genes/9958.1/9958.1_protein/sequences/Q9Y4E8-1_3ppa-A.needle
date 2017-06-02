@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:35:42
+# Commandline: needle
+#    -outfile ./Recon3D/genes/9958.1/9958.1_protein/sequences/Q9Y4E8-1_3ppa-A.needle
+#    -asequence asis::MAEGGAADLDTQRSDIATLLKTSLRKGDTWYLVDSRWFKQWKKYVGFDSWDKYQMGDQNVYPGPIDNSGLLKDGDAQSLKEHLIDELDYILLPTEGWNKLVSWYTLMEGQEPIARKVVEQGMFVKHCKVEVYLTELKLCENGNMNNVVTRRFSKADTIDTIEKEIRKIFSIPDEKETRLWNKYMSNTFEPLNKPDSTIQDAGLYQGQVLVIEQKNEDGTWPRGPSTPKSPGASNFSTLPKISPSSLSNNYNNMNNRNVKNSNYCLPSYTAYKNYDYSEPGRNNEQPGLCGLSNLGNTCFMNSAIQCLSNTPPLTEYFLNDKYQEELNFDNPLGMRGEIAKSYAELIKQMWSGKFSYVTPRAFKTQVGRFAPQFSGYQQQDCQELLAFLLDGLHEDLNRIRKKPYIQLKDADGRPDKVVAEEAWENHLKRNDSIIVDIFHGLFKSTLVCPECAKISVTFDPFCYLTLPLPMKKERTLEVYLVRMDPLTKPMQYKVVVPKIGNILDLCTALSALSGIPADKMIVTDIYNHRFHRIFAMDENLSSIMERDDIYVFEININRTEDTEHVIIPVCLREKFRHSSYTHHTGSSLFGQPFLMAVPRNNTEDKLYNLLLLRMCRYVKISTETEETEGSLHCCKDQNINGNGPNGIHEEGSPSEMETDEPDDESSQDQELPSENENSQSEDSVGGDNDSENGLCTEDTCKGQLTGHKKRLFTFQFNNLGNTDINYIKDDTRHIRFDDRQLRLDERSFLALDWDPDLKKRYFDENAAEDFEKHESVEYKPPKKPFVKLKDCIELFTTKEKLGAEDPWYCPNCKEHQQATKKLDLWSLPPVLVVHLKRFSYSRYMRDKLDTLVDFPINDLDMSEFLINPNAGPCRYNLIAVSNHYGGMGGGHYTAFAKNKDDGKWYYFDDSSVSTASEDQIVSKAAYVLFYQRQDTFSGTGFFPLDRETKGASAATGIPLESDEDSNDNDNDIENENCMHTN
+#    -bsequence asis::XXXXXXXXLDTQRSDIATLLKTSLRKGDTWYLVDSRWFKQWKKYVGFDSWDKYQMGDQNVYPGPIDNSGLLKXXXXQSLKEHLIDELDYILLPTEGWNKLVSWYTLMEXQEPIARKVVEQGMFVKHCKVEVYLTELKLCENGNMNNVVTRRFSKADTIDTIEKEIRKIFSIPDEKETRLWNKYMSNTFEPLNKPDSTIQDAGLYQXQVLVIEQKNEDGTWPRG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/9958.1/9958.1_protein/sequences/Q9Y4E8-1_3ppa-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 981
+# Identity:     209/981 (21.3%)
+# Similarity:   209/981 (21.3%)
+# Gaps:         758/981 (77.3%)
+# Score: 1114.0
+# 
+#
+#=======================================
+
+asis               1 MAEGGAADLDTQRSDIATLLKTSLRKGDTWYLVDSRWFKQWKKYVGFDSW     50
+                     ........||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXLDTQRSDIATLLKTSLRKGDTWYLVDSRWFKQWKKYVGFDSW     50
+
+asis              51 DKYQMGDQNVYPGPIDNSGLLKDGDAQSLKEHLIDELDYILLPTEGWNKL    100
+                     ||||||||||||||||||||||....||||||||||||||||||||||||
+asis              51 DKYQMGDQNVYPGPIDNSGLLKXXXXQSLKEHLIDELDYILLPTEGWNKL    100
+
+asis             101 VSWYTLMEGQEPIARKVVEQGMFVKHCKVEVYLTELKLCENGNMNNVVTR    150
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+asis             101 VSWYTLMEXQEPIARKVVEQGMFVKHCKVEVYLTELKLCENGNMNNVVTR    150
+
+asis             151 RFSKADTIDTIEKEIRKIFSIPDEKETRLWNKYMSNTFEPLNKPDSTIQD    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 RFSKADTIDTIEKEIRKIFSIPDEKETRLWNKYMSNTFEPLNKPDSTIQD    200
+
+asis             201 AGLYQGQVLVIEQKNEDGTWPRGPSTPKSPGASNFSTLPKISPSSLSNNY    250
+                     |||||.|||||||||||||||||                           
+asis             201 AGLYQXQVLVIEQKNEDGTWPRG---------------------------    223
+
+asis             251 NNMNNRNVKNSNYCLPSYTAYKNYDYSEPGRNNEQPGLCGLSNLGNTCFM    300
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             301 NSAIQCLSNTPPLTEYFLNDKYQEELNFDNPLGMRGEIAKSYAELIKQMW    350
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             351 SGKFSYVTPRAFKTQVGRFAPQFSGYQQQDCQELLAFLLDGLHEDLNRIR    400
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             401 KKPYIQLKDADGRPDKVVAEEAWENHLKRNDSIIVDIFHGLFKSTLVCPE    450
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             451 CAKISVTFDPFCYLTLPLPMKKERTLEVYLVRMDPLTKPMQYKVVVPKIG    500
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             501 NILDLCTALSALSGIPADKMIVTDIYNHRFHRIFAMDENLSSIMERDDIY    550
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             551 VFEININRTEDTEHVIIPVCLREKFRHSSYTHHTGSSLFGQPFLMAVPRN    600
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             601 NTEDKLYNLLLLRMCRYVKISTETEETEGSLHCCKDQNINGNGPNGIHEE    650
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             651 GSPSEMETDEPDDESSQDQELPSENENSQSEDSVGGDNDSENGLCTEDTC    700
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             701 KGQLTGHKKRLFTFQFNNLGNTDINYIKDDTRHIRFDDRQLRLDERSFLA    750
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             751 LDWDPDLKKRYFDENAAEDFEKHESVEYKPPKKPFVKLKDCIELFTTKEK    800
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             801 LGAEDPWYCPNCKEHQQATKKLDLWSLPPVLVVHLKRFSYSRYMRDKLDT    850
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             851 LVDFPINDLDMSEFLINPNAGPCRYNLIAVSNHYGGMGGGHYTAFAKNKD    900
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             901 DGKWYYFDDSSVSTASEDQIVSKAAYVLFYQRQDTFSGTGFFPLDRETKG    950
+                                                                       
+asis             223 --------------------------------------------------    223
+
+asis             951 ASAATGIPLESDEDSNDNDNDIENENCMHTN    981
+                                                    
+asis             223 -------------------------------    223
+
+
+#---------------------------------------
+#---------------------------------------

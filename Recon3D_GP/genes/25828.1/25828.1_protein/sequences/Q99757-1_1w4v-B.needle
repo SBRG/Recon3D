@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:57:25
+# Commandline: needle
+#    -outfile ./Recon3D/genes/25828.1/25828.1_protein/sequences/Q99757-1_1w4v-B.needle
+#    -asequence asis::MAQRLLLRRFLASVISRKPSQGQWPPLTSRALQTPQCSPGGLTVTPNPARTIYTTRISLTTFNIQDGPDFQDRVVNSETPVVVDFHAQWCGPCKILGPRLEKMVAKQHGKVVMAKVDIDDHTDLAIEYEVSAVPTVLAMKNGDVVDKFVGIKDEDQLEAFLKKLIG
+#    -bsequence asis::HGSTTFNIQDGPDFQDRVVNSETPVVVDFHAQWCGPCKILGPRLEKMVAKQHGKVVMAKVDIDDHTDLAIEYEVSAVPTVLAMKNGDVVDKFVGIKDEDQLEAFLKKLIG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/25828.1/25828.1_protein/sequences/Q99757-1_1w4v-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 166
+# Identity:     107/166 (64.5%)
+# Similarity:   107/166 (64.5%)
+# Gaps:          56/166 (33.7%)
+# Score: 555.0
+# 
+#
+#=======================================
+
+asis               1 MAQRLLLRRFLASVISRKPSQGQWPPLTSRALQTPQCSPGGLTVTPNPAR     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 TIYTTRISLTTFNIQDGPDFQDRVVNSETPVVVDFHAQWCGPCKILGPRL    100
+                           ...|||||||||||||||||||||||||||||||||||||||||
+asis               1 ------HGSTTFNIQDGPDFQDRVVNSETPVVVDFHAQWCGPCKILGPRL     44
+
+asis             101 EKMVAKQHGKVVMAKVDIDDHTDLAIEYEVSAVPTVLAMKNGDVVDKFVG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              45 EKMVAKQHGKVVMAKVDIDDHTDLAIEYEVSAVPTVLAMKNGDVVDKFVG     94
+
+asis             151 IKDEDQLEAFLKKLIG    166
+                     ||||||||||||||||
+asis              95 IKDEDQLEAFLKKLIG    110
+
+
+#---------------------------------------
+#---------------------------------------

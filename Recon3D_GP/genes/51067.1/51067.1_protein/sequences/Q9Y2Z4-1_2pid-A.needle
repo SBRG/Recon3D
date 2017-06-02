@@ -1,0 +1,78 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:14:50
+# Commandline: needle
+#    -outfile ./Recon3D/genes/51067.1/51067.1_protein/sequences/Q9Y2Z4-1_2pid-A.needle
+#    -asequence asis::MAAPILRSFSWGRWSGTLNLSVLLPLGLRKAHSGAQGLLAAQKARGLFKDFFPETGTKIELPELFDRGTASFPQTIYCGFDPTADSLHVGHLLALLGLFHLQRAGHNVIALVGGATARLGDPSGRTKEREALETERVRANARALRLGLEALAANHQQLFTDGRSWGSFTVLDNSAWYQKQHLVDFLAAVGGHFRMGTLLSRQSVQLRLKSPEGMSLAEFFYQVLQAYDFYYLFQRYGCRVQLGGSDQLGNIMSGYEFINKLTGEDVFGITVPLITSTTGAKLGKSAGNAVWLNRDKTSPFELYQFFVRQPDDSVERYLKLFTFLPLPEIDHIMQLHVKEPERRGPQKRLAAEVTKLVHGREGLDSAKRCTQALYHSSIDALEVMSDQELKELFKEAPFSEFFLDPGTSVLDTCRKANAIPDGPRGYRMITEGGVSINHQQVTNPESVLIVGQHILKNGLSLLKIGKRNFYIIKWLQL
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGLLAAQKARGLFKDFFPETGTKIELPELFXXXXXXXPQTIYCGFDPTADSLHVGHLLALLGLFHLQRAGHNVIALVGGATARLGDPSGRTKEREALETERVRANARALRLGLEALAANHQQLFTDGRSWGSFTVLDNSAWYQKQHLVDFLAAVGGHFRMGTLLSRQSVQLRLKSPEGMSLAEFFYQVLQAYDFYYLFQRYGCRVQLGGSDQLGNIMSGYEFINKLTGEDVFGITVPLITXXXXXXXXXXXXXAVWLNRDKTSPFELYQFFVRQPDDSVERYLKLFTFLPLPEIDHIMQLHVKEPERRGPQKRLAAEVTKLVHGREGLDSAKRCTQAL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/51067.1/51067.1_protein/sequences/Q9Y2Z4-1_2pid-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 504
+# Identity:     317/504 (62.9%)
+# Similarity:   317/504 (62.9%)
+# Gaps:         158/504 (31.3%)
+# Score: 1612.0
+# 
+#
+#=======================================
+
+asis               1 ---------------------------MAAPILRSFSWGRWSGTLNLSVL     23
+                                                ...                    
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX--------------------     30
+
+asis              24 LPLGLRKAHSGAQGLLAAQKARGLFKDFFPETGTKIELPELFDRGTASFP     73
+                            ......|||||||||||||||||||||||||||||.......|
+asis              31 -------XXXXXXGLLAAQKARGLFKDFFPETGTKIELPELFXXXXXXXP     73
+
+asis              74 QTIYCGFDPTADSLHVGHLLALLGLFHLQRAGHNVIALVGGATARLGDPS    123
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              74 QTIYCGFDPTADSLHVGHLLALLGLFHLQRAGHNVIALVGGATARLGDPS    123
+
+asis             124 GRTKEREALETERVRANARALRLGLEALAANHQQLFTDGRSWGSFTVLDN    173
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             124 GRTKEREALETERVRANARALRLGLEALAANHQQLFTDGRSWGSFTVLDN    173
+
+asis             174 SAWYQKQHLVDFLAAVGGHFRMGTLLSRQSVQLRLKSPEGMSLAEFFYQV    223
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             174 SAWYQKQHLVDFLAAVGGHFRMGTLLSRQSVQLRLKSPEGMSLAEFFYQV    223
+
+asis             224 LQAYDFYYLFQRYGCRVQLGGSDQLGNIMSGYEFINKLTGEDVFGITVPL    273
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             224 LQAYDFYYLFQRYGCRVQLGGSDQLGNIMSGYEFINKLTGEDVFGITVPL    273
+
+asis             274 ITSTTGAKLGKSAGNAVWLNRDKTSPFELYQFFVRQPDDSVERYLKLFTF    323
+                     ||.............|||||||||||||||||||||||||||||||||||
+asis             274 ITXXXXXXXXXXXXXAVWLNRDKTSPFELYQFFVRQPDDSVERYLKLFTF    323
+
+asis             324 LPLPEIDHIMQLHVKEPERRGPQKRLAAEVTKLVHGREGLDSAKRCTQAL    373
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             324 LPLPEIDHIMQLHVKEPERRGPQKRLAAEVTKLVHGREGLDSAKRCTQAL    373
+
+asis             374 YHSSIDALEVMSDQELKELFKEAPFSEFFLDPGTSVLDTCRKANAIPDGP    423
+                                                                       
+asis             373 --------------------------------------------------    373
+
+asis             424 RGYRMITEGGVSINHQQVTNPESVLIVGQHILKNGLSLLKIGKRNFYIIK    473
+                                                                       
+asis             373 --------------------------------------------------    373
+
+asis             474 WLQL    477
+                         
+asis             373 ----    373
+
+
+#---------------------------------------
+#---------------------------------------

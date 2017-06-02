@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:45:31
+# Commandline: needle
+#    -outfile ./Recon3D/genes/170685.1/170685.1_protein/sequences/Q8NFP7-1_3mcf-A.needle
+#    -asequence asis::MKCKPNQTRTYDPEGFKKRAACLCFRSEREDEVLLVSSSRYPDRWIVPGGGMEPEEEPGGAAVREVYEEAGVKGKLGRLLGVFEQNQDPKHRTYVYVLTVTELLEDWEDSVSIGRKREWFKVEDAIKVLQCHKPVHAEYLEKLKLGGSPTNGNSMAPSSPDSDP
+#    -bsequence asis::XXXXXXXXXXXXXXXMKKRAACLCFRSEREDEVLLVSSSRYPDRWIVPGGGMEPEEEPGGAAVREVYEEAGVKGKLGRLLGVFEXXXXXXHRTYVYVLTVTELLEDWEDSVSIGRKREWFKVEDAIKVLQCHKPVHAEYLEKLKAHHHHHH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/170685.1/170685.1_protein/sequences/Q8NFP7-1_3mcf-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 179
+# Identity:     123/179 (68.7%)
+# Similarity:   124/179 (69.3%)
+# Gaps:          43/179 (24.0%)
+# Score: 617.0
+# 
+#
+#=======================================
+
+asis               1 ---------------MKCKPNQTRTYDPEGFKKRAACLCFRSEREDEVLL     35
+                                    |               |||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXM---------------KKRAACLCFRSEREDEVLL     35
+
+asis              36 VSSSRYPDRWIVPGGGMEPEEEPGGAAVREVYEEAGVKGKLGRLLGVFEQ     85
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+asis              36 VSSSRYPDRWIVPGGGMEPEEEPGGAAVREVYEEAGVKGKLGRLLGVFEX     85
+
+asis              86 NQDPKHRTYVYVLTVTELLEDWEDSVSIGRKREWFKVEDAIKVLQCHKPV    135
+                     .....|||||||||||||||||||||||||||||||||||||||||||||
+asis              86 XXXXXHRTYVYVLTVTELLEDWEDSVSIGRKREWFKVEDAIKVLQCHKPV    135
+
+asis             136 HAEYLEKLKLGGSPTNGNSMAPSSPDSDP    164
+                     |||||||||......:             
+asis             136 HAEYLEKLKAHHHHHH-------------    151
+
+
+#---------------------------------------
+#---------------------------------------

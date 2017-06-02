@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:38:56
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10273.1/10273.1_protein/sequences/Q9UNE7-1_2c2l-C.needle
+#    -asequence asis::MKGKEEKEGGARLGAGGGSPEKSPSAQELKEQGNRLFVGRKYPEAAACYGRAITRNPLVAVYYTNRALCYLKMQQHEQALADCRRALELDGQSVKAHFFLGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKKKRWNSIEERRIHQESELHSYLSRLIAAERERELEECQRNHEGDEDDSHVRAQQACIEAKHDKYMADMDELFSQVDEKRKKRDIPDYLCGKISFELMREPCITPSGITYDRKDIEEHLQRVGHFDPVTRSPLTQEQLIPNLAMKEVIDAFISENGWVEDY
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXSPSAQELKEQGNRLFVGRKYPEAAACYGRAITRNPLVAVYYTNRALCYLKMQQPEQALADCRRALELDGQSVKAHFFLGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKKKRWNSIEERRIHQESELHSYLTRLIAAERERELEECQRNHEGHEDDGHIRAQQACIEAKHDKYMADMDELFSQVDEKRKKRDIPDYLCGKISFELMREPCITPSGITYDRKDIEEHLQRVGHFNPVTRSPLTQEQLIPNLAMKEVIDAFISENGWVEDY
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10273.1/10273.1_protein/sequences/Q9UNE7-1_2c2l-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 304
+# Identity:     275/304 (90.5%)
+# Similarity:   278/304 (91.4%)
+# Gaps:           1/304 ( 0.3%)
+# Score: 1425.0
+# 
+#
+#=======================================
+
+asis               1 -MKGKEEKEGGARLGAGGGSPEKSPSAQELKEQGNRLFVGRKYPEAAACY     49
+                      ......................|||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXSPSAQELKEQGNRLFVGRKYPEAAACY     50
+
+asis              50 GRAITRNPLVAVYYTNRALCYLKMQQHEQALADCRRALELDGQSVKAHFF     99
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+asis              51 GRAITRNPLVAVYYTNRALCYLKMQQPEQALADCRRALELDGQSVKAHFF    100
+
+asis             100 LGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKKKRWNS    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 LGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKKKRWNS    150
+
+asis             150 IEERRIHQESELHSYLSRLIAAERERELEECQRNHEGDEDDSHVRAQQAC    199
+                     ||||||||||||||||:||||||||||||||||||||.|||.|:||||||
+asis             151 IEERRIHQESELHSYLTRLIAAERERELEECQRNHEGHEDDGHIRAQQAC    200
+
+asis             200 IEAKHDKYMADMDELFSQVDEKRKKRDIPDYLCGKISFELMREPCITPSG    249
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 IEAKHDKYMADMDELFSQVDEKRKKRDIPDYLCGKISFELMREPCITPSG    250
+
+asis             250 ITYDRKDIEEHLQRVGHFDPVTRSPLTQEQLIPNLAMKEVIDAFISENGW    299
+                     ||||||||||||||||||:|||||||||||||||||||||||||||||||
+asis             251 ITYDRKDIEEHLQRVGHFNPVTRSPLTQEQLIPNLAMKEVIDAFISENGW    300
+
+asis             300 VEDY    303
+                     ||||
+asis             301 VEDY    304
+
+
+#---------------------------------------
+#---------------------------------------

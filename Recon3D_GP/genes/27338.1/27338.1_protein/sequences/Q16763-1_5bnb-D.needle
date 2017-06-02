@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:41:28
+# Commandline: needle
+#    -outfile ./Recon3D/genes/27338.1/27338.1_protein/sequences/Q16763-1_5bnb-D.needle
+#    -asequence asis::MNSNVENLPPHIIRLVYKEVTTLTADPPDGIKVFPNEEDLTDLQVTIEGPEGTPYAGGLFRMKLLLGKDFPASPPKGYFLTKIFHPNVGANGEICVNVLKRDWTAELGIRHVLLTIKCLLIHPNPESALNEEAGRLLLENYEEYAARARLLTEIHGGAGGPSGRAEAGRALASGTEASSTDPGAPGGPGGAEGPMAKKHAGERDKKLAAKKKTDKKRALRRL
+#    -bsequence asis::XXXXXXNLPPHIIRLVYKEVTTLTADPPDGIKVFPNEEDLTDLQVTIEGPEGTPYAGGLFRMKLLLGKDFPASPPKGYFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXIRHVLLTIKMLLXXPNPXXALNEEAGRLLLENYEEYAARARLLTEIH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/27338.1/27338.1_protein/sequences/Q16763-1_5bnb-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:     115/222 (51.8%)
+# Similarity:   115/222 (51.8%)
+# Gaps:          67/222 (30.2%)
+# Score: 563.0
+# 
+#
+#=======================================
+
+asis               1 MNSNVENLPPHIIRLVYKEVTTLTADPPDGIKVFPNEEDLTDLQVTIEGP     50
+                     ......||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXNLPPHIIRLVYKEVTTLTADPPDGIKVFPNEEDLTDLQVTIEGP     50
+
+asis              51 EGTPYAGGLFRMKLLLGKDFPASPPKGYFLTKIFHPNVGANGEICVNVLK    100
+                     |||||||||||||||||||||||||||||.....................
+asis              51 EGTPYAGGLFRMKLLLGKDFPASPPKGYFXXXXXXXXXXXXXXXXXXXXX    100
+
+asis             101 RDWTAELGIRHVLLTIKCLLIHPNPESALNEEAGRLLLENYEEYAARARL    150
+                     ........|||||||||.||..|||..|||||||||||||||||||||||
+asis             101 XXXXXXXXIRHVLLTIKMLLXXPNPXXALNEEAGRLLLENYEEYAARARL    150
+
+asis             151 LTEIHGGAGGPSGRAEAGRALASGTEASSTDPGAPGGPGGAEGPMAKKHA    200
+                     |||||                                             
+asis             151 LTEIH---------------------------------------------    155
+
+asis             201 GERDKKLAAKKKTDKKRALRRL    222
+                                           
+asis             155 ----------------------    155
+
+
+#---------------------------------------
+#---------------------------------------

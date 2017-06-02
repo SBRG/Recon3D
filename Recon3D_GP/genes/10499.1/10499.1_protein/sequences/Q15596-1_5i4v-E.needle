@@ -1,0 +1,182 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:09:09
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10499.1/10499.1_protein/sequences/Q15596-1_5i4v-E.needle
+#    -asequence asis::MSGMGENTSDPSRAETRKRKECPDQLGPSPKRNTEKRNREQENKYIEELAELIFANFNDIDNFNFKPDKCAILKETVKQIRQIKEQEKAAAANIDEVQKSDVSSTGQGVIDKDALGPMMLEALDGFFFVVNLEGNVVFVSENVTQYLRYNQEELMNKSVYSILHVGDHTEFVKNLLPKSIVNGGSWSGEPPRRNSHTFNCRMLVKPLPDSEEEGHDNQEAHQKYETMQCFAVSQPKSIKEEGEDLQSCLICVARRVPMKERPVLPSSESFTTRQDLQGKITSLDTSTMRAAMKPGWEDLVRRCIQKFHAQHEGESVSYAKRHHHEVLRQGLAFSQIYRFSLSDGTLVAAQTKSKLIRSQTTNEPQLVISLHMLHREQNVCVMNPDLTGQTMGKPLNPISSNSPAHQALCSGNPGQDMTLSSNINFPINGPKEQMGMPMGRFGGSGGMNHVSGMQATTPQGSNYALKMNSPSQSSPGMNPGQPTSMLSPRHRMSPGVAGSPRIPPSQFSPAGSLHSPVGVCSSTGNSHSYTNSSLNALQALSEGHGVSLGSSLASPDLKMGNLQNSPVNMNPPPLSKMGSLDSKDCFGLYGEPSEGTTGQAESSCHPGEQKETNDPNLPPAVSSERADGQSRLHDSKGQTKLLQLLTTKSDQMEPSPLASSLSDTNKDSTGSLPGSGSTHGTSLKEKHKILHRLLQDSSSPVDLAKLTAEATGKDLSQESSSTAPGSEVTIKQEPVSPKKKENALLRYLLDKDDTKDIGLPEITPKLERLDSKTDPASNTKLIAMKTEKEEMSFEPGDQPGSELDNLEEILDDLQNSQLPQLFPDTRPGAPAGSVDKQAIINDLMQLTAENSPVTPVGAQKTALRISQSTFNNPRPGQLGRLLPNQNLPLDITLQSPTGAGPFPPIRNSSPYSVIPQPGMMGNQGMIGNQGNLGNSSTGMIGNSASRPTMPSGEWAPQSSAVRVTCAATTSAMNRPVQGGMIRNPAASIPMRPSSQPGQRQTLQSQVMNIGPSELEMNMGGPQYSQQQAPPNQTAPWPESILPIDQASFASQNRQPFGSSPDDLLCPHPAAESPSDEGALLDQLYLALRNFDGLEEIDRALGIPELVSQSQAVDPEQFSSQDSNIMLEQKAPVFPQQYASQAQMAQGSYSPMQDPNFHTMGQRPSYATLRMQPRPGLRPTGLVQNQPNQLRLQLQHRLQAQQNRQPLMNQISNVSNVNLTLRPGVPTQAPINAQMLAQRQREILNQHLRQRQMHQQQQVQQRTLMMRGQGLNMTPSMVAPSGMPATMSNPRIPQANAQQFPFPPNYGISQQPDPGFTGATTPQSPLMSPRMAHTQSPMMQQSQANPAYQAPSDINGWAQGNMGGNSMFSQQSPPHFGQQANTSMYSNNMNINVSMATNTGGMSSMNQMTGQISMTSVTSVPTSGLSSMGPEQVNDPALRGGNLFPNQLPGMDMIKQEGDTTRKYC
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXVQLTAAQELMIQQLVAAQLQCNKRSFSDQPKVTPWPLXXXXXXGSASQQRFAHFTELAIISVQEIVDFAKQVPGFLQLGREDQIALLKASTIEIMLLETARRYNHETECITFLKDFTYSKDDFHRAGLQVEFINPIFEFSRAMRRLGLDDAEYALLIAINIFSADRPNVQEPGRVEALQQPYVEALLSYTRIKRPQDQLRFPRMLMKLVSLRTLSSVHSEQVFALRLQDKKLPPLLSEIWDVXXXXXXXXXKILHRLLQD
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10499.1/10499.1_protein/sequences/Q15596-1_5i4v-E.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1850
+# Identity:      17/1850 ( 0.9%)
+# Similarity:    37/1850 ( 2.0%)
+# Gaps:        1759/1850 (95.1%)
+# Score: 4.5
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis              51 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             201 XXXXXXXXXXXXXXXXXVQLTAAQELMIQQLVAAQLQCNKRSFSDQPKVT    250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             251 PWPLXXXXXXGSASQQRFAHFTELAIISVQEIVDFAKQVPGFLQLGREDQ    300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             301 IALLKASTIEIMLLETARRYNHETECITFLKDFTYSKDDFHRAGLQVEFI    350
+
+asis               1 ----------------------------MSGMGENTSDPSRAETRKRKEC     22
+                                                 .|....|..:|.|.|..::...
+asis             351 NPIFEFSRAMRRLGLDDAEYALLIAINIFSADRPNVQEPGRVEALQQPYV    400
+
+asis              23 PDQLGPSPKRNTEKRNREQENKYIEELAELI-FANFNDIDNFNFKPDKCA     71
+                     ...|.     .|..:..:.:.::...|.:|: ....:.:.:         
+asis             401 EALLS-----YTRIKRPQDQLRFPRMLMKLVSLRTLSSVHS---------    436
+
+asis              72 ILKETVKQIRQIKEQEKAAAANIDEVQKSDVSSTGQGVIDK-------DA    114
+                           :|:..::.|:|.....:.|:.  ||.........|       | 
+asis             437 ------EQVFALRLQDKKLPPLLSEIW--DVXXXXXXXXXKILHRLLQD-    477
+
+asis             115 LGPMMLEALDGFFFVVNLEGNVVFVSENVTQYLRYNQEELMNKSVYSILH    164
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             165 VGDHTEFVKNLLPKSIVNGGSWSGEPPRRNSHTFNCRMLVKPLPDSEEEG    214
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             215 HDNQEAHQKYETMQCFAVSQPKSIKEEGEDLQSCLICVARRVPMKERPVL    264
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             265 PSSESFTTRQDLQGKITSLDTSTMRAAMKPGWEDLVRRCIQKFHAQHEGE    314
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             315 SVSYAKRHHHEVLRQGLAFSQIYRFSLSDGTLVAAQTKSKLIRSQTTNEP    364
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             365 QLVISLHMLHREQNVCVMNPDLTGQTMGKPLNPISSNSPAHQALCSGNPG    414
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             415 QDMTLSSNINFPINGPKEQMGMPMGRFGGSGGMNHVSGMQATTPQGSNYA    464
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             465 LKMNSPSQSSPGMNPGQPTSMLSPRHRMSPGVAGSPRIPPSQFSPAGSLH    514
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             515 SPVGVCSSTGNSHSYTNSSLNALQALSEGHGVSLGSSLASPDLKMGNLQN    564
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             565 SPVNMNPPPLSKMGSLDSKDCFGLYGEPSEGTTGQAESSCHPGEQKETND    614
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             615 PNLPPAVSSERADGQSRLHDSKGQTKLLQLLTTKSDQMEPSPLASSLSDT    664
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             665 NKDSTGSLPGSGSTHGTSLKEKHKILHRLLQDSSSPVDLAKLTAEATGKD    714
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             715 LSQESSSTAPGSEVTIKQEPVSPKKKENALLRYLLDKDDTKDIGLPEITP    764
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             765 KLERLDSKTDPASNTKLIAMKTEKEEMSFEPGDQPGSELDNLEEILDDLQ    814
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             815 NSQLPQLFPDTRPGAPAGSVDKQAIINDLMQLTAENSPVTPVGAQKTALR    864
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             865 ISQSTFNNPRPGQLGRLLPNQNLPLDITLQSPTGAGPFPPIRNSSPYSVI    914
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             915 PQPGMMGNQGMIGNQGNLGNSSTGMIGNSASRPTMPSGEWAPQSSAVRVT    964
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis             965 CAATTSAMNRPVQGGMIRNPAASIPMRPSSQPGQRQTLQSQVMNIGPSEL   1014
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis            1015 EMNMGGPQYSQQQAPPNQTAPWPESILPIDQASFASQNRQPFGSSPDDLL   1064
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis            1065 CPHPAAESPSDEGALLDQLYLALRNFDGLEEIDRALGIPELVSQSQAVDP   1114
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis            1115 EQFSSQDSNIMLEQKAPVFPQQYASQAQMAQGSYSPMQDPNFHTMGQRPS   1164
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis            1165 YATLRMQPRPGLRPTGLVQNQPNQLRLQLQHRLQAQQNRQPLMNQISNVS   1214
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis            1215 NVNLTLRPGVPTQAPINAQMLAQRQREILNQHLRQRQMHQQQQVQQRTLM   1264
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis            1265 MRGQGLNMTPSMVAPSGMPATMSNPRIPQANAQQFPFPPNYGISQQPDPG   1314
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis            1315 FTGATTPQSPLMSPRMAHTQSPMMQQSQANPAYQAPSDINGWAQGNMGGN   1364
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis            1365 SMFSQQSPPHFGQQANTSMYSNNMNINVSMATNTGGMSSMNQMTGQISMT   1414
+                                                                       
+asis             477 --------------------------------------------------    477
+
+asis            1415 SVTSVPTSGLSSMGPEQVNDPALRGGNLFPNQLPGMDMIKQEGDTTRKYC   1464
+                                                                       
+asis             477 --------------------------------------------------    477
+
+
+#---------------------------------------
+#---------------------------------------

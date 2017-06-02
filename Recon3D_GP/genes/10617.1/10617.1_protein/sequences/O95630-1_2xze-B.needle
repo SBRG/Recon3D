@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:35:30
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10617.1/10617.1_protein/sequences/O95630-1_2xze-B.needle
+#    -asequence asis::MSDHGDVSLPPEDRVRALSQLGSAVEVNEDIPPRRYFRSGVEIIRMASIYSEEGNIEHAFILYNKYITLFIEKLPKHRDYKSAVIPEKKDTVKKLKEIAFPKAEELKAELLKRYTKEYTEYNEEKKKEAEELARNMAIQQELEKEKQRVAQQKQQQLEQEQFHAFEEMIRNQELEKERLKIVQEFGKVDPGLGGPLVPDLEKPSLDVFPTLTVSSIQPSDCHTTVRPAKPPVVDRSLKPGALSNSESIPTIDGLRHVVVPGRLCPQFLQLASANTARGVETCGILCGKLMRNEFTITHVLIPKQSAGSDYCNTENEEELFLIQDQQGLITLGWIHTHPTQTAFLSSVDLHTHCSYQMMLPESVAIVCSPKFQETGFFKLTDHGLEEISSCRQKGFHPHSKDPPLFCSCSHVTVVDRAVTITDLR
+#    -bsequence asis::XSDHGDVSLPPEDRVRALSQLGSAVEVNEDIPPRRYFRSGVEIIRMASIYSEEGNIEHAFILYNKYITLFIEKLPKHRDYKSAVIPEKKDTVKKLKEIAFPKAEELKAELLKRYTKEYTEYNEEKKKEAEELARNMAIQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10617.1/10617.1_protein/sequences/O95630-1_2xze-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 424
+# Identity:     138/424 (32.5%)
+# Similarity:   138/424 (32.5%)
+# Gaps:         285/424 (67.2%)
+# Score: 699.0
+# 
+#
+#=======================================
+
+asis               1 MSDHGDVSLPPEDRVRALSQLGSAVEVNEDIPPRRYFRSGVEIIRMASIY     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XSDHGDVSLPPEDRVRALSQLGSAVEVNEDIPPRRYFRSGVEIIRMASIY     50
+
+asis              51 SEEGNIEHAFILYNKYITLFIEKLPKHRDYKSAVIPEKKDTVKKLKEIAF    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 SEEGNIEHAFILYNKYITLFIEKLPKHRDYKSAVIPEKKDTVKKLKEIAF    100
+
+asis             101 PKAEELKAELLKRYTKEYTEYNEEKKKEAEELARNMAIQQELEKEKQRVA    150
+                     |||||||||||||||||||||||||||||||||||||||           
+asis             101 PKAEELKAELLKRYTKEYTEYNEEKKKEAEELARNMAIQ-----------    139
+
+asis             151 QQKQQQLEQEQFHAFEEMIRNQELEKERLKIVQEFGKVDPGLGGPLVPDL    200
+                                                                       
+asis             139 --------------------------------------------------    139
+
+asis             201 EKPSLDVFPTLTVSSIQPSDCHTTVRPAKPPVVDRSLKPGALSNSESIPT    250
+                                                                       
+asis             139 --------------------------------------------------    139
+
+asis             251 IDGLRHVVVPGRLCPQFLQLASANTARGVETCGILCGKLMRNEFTITHVL    300
+                                                                       
+asis             139 --------------------------------------------------    139
+
+asis             301 IPKQSAGSDYCNTENEEELFLIQDQQGLITLGWIHTHPTQTAFLSSVDLH    350
+                                                                       
+asis             139 --------------------------------------------------    139
+
+asis             351 THCSYQMMLPESVAIVCSPKFQETGFFKLTDHGLEEISSCRQKGFHPHSK    400
+                                                                       
+asis             139 --------------------------------------------------    139
+
+asis             401 DPPLFCSCSHVTVVDRAVTITDLR    424
+                                             
+asis             139 ------------------------    139
+
+
+#---------------------------------------
+#---------------------------------------

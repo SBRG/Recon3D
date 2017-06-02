@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:55:03
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3906.1/3906.1_protein/sequences/P00709-1_1hml-A.needle
+#    -asequence asis::MRFFVPLFLVGILFPAILAKQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL
+#    -bsequence asis::KQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3906.1/3906.1_protein/sequences/P00709-1_1hml-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:     123/142 (86.6%)
+# Similarity:   123/142 (86.6%)
+# Gaps:          19/142 (13.4%)
+# Score: 668.0
+# 
+#
+#=======================================
+
+asis               1 MRFFVPLFLVGILFPAILAKQFTKCELSQLLKDIDGYGGIALPELICTMF     50
+                                        |||||||||||||||||||||||||||||||
+asis               1 -------------------KQFTKCELSQLLKDIDGYGGIALPELICTMF     31
+
+asis              51 HTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              32 HTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFL     81
+
+asis             101 DDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL    142
+                     ||||||||||||||||||||||||||||||||||||||||||
+asis              82 DDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCEKL    123
+
+
+#---------------------------------------
+#---------------------------------------

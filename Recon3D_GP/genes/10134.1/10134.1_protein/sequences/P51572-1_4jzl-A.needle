@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:12:40
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10134.1/10134.1_protein/sequences/P51572-1_4jzl-A.needle
+#    -asequence asis::MSLQWTAVATFLYAEVFVVLLLCIPFISPKRWQKIFKSRLVELLVSYGNTFFVVLIVILVLLVIDAVREIRKYDDVTEKVNLQNNPGAMEHFHMKLFRAQRNLYIAGFSLLLSFLLRRLVTLISQQATLLASNEAFKKQAESASEAAKKYMEENDQLKKGAAVDGGKLDVGNAEVKLEEENRSLKADLQKLKDELASTKQKLEKAENQVLAMRKQSEGLTKEYDRLLEEHAKLQAAVDGPMDKKEE
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNAEVKLEEENRSLKADLQKLKDELASTKQKLEKAENQVLAMRKQSEGLTKEYDRLLEEHAKL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10134.1/10134.1_protein/sequences/P51572-1_4jzl-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 417
+# Identity:      62/417 (14.9%)
+# Similarity:    62/417 (14.9%)
+# Gaps:         355/417 (85.1%)
+# Score: 205.0
+# 
+#
+#=======================================
+
+asis               1 MSLQWTAVATFLYAEVFVVLLLCIPFISPKRWQKIFKSRLVELLVSYGNT     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 FFVVLIVILVLLVIDAVREIRKYDDVTEKVNLQNNPGAMEHFHMKLFRAQ    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 RNLYIAGFSLLLSFLLRRLVTLISQQATLLASNEAFKKQAESASEAAKKY    150
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             151 MEENDQLKKGAAVDGGKLDVG-----------------------------    171
+                                                                       
+asis               1 ---------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXX     29
+
+asis             171 --------------------------------------------------    171
+                                                                       
+asis              30 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     79
+
+asis             171 --------------------------------------------------    171
+                                                                       
+asis              80 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    129
+
+asis             172 ------------------------------------------NAEVKLEE    179
+                                                               ||||||||
+asis             130 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNAEVKLEE    179
+
+asis             180 ENRSLKADLQKLKDELASTKQKLEKAENQVLAMRKQSEGLTKEYDRLLEE    229
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             180 ENRSLKADLQKLKDELASTKQKLEKAENQVLAMRKQSEGLTKEYDRLLEE    229
+
+asis             230 HAKLQAAVDGPMDKKEE    246
+                     ||||             
+asis             230 HAKL-------------    233
+
+
+#---------------------------------------
+#---------------------------------------

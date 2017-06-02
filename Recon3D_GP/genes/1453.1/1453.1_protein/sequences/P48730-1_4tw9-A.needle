@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:02:52
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1453.1/1453.1_protein/sequences/P48730-1_4tw9-A.needle
+#    -asequence asis::MELRVGNRYRLGRKIGSGSFGDIYLGTDIAAGEEVAIKLECVKTKHPQLHIESKIYKMMQGGVGIPTIRWCGAEGDYNVMVMELLGPSLEDLFNFCSRKFSLKTVLLLADQMISRIEYIHSKNFIHRDVKPDNFLMGLGKKGNLVYIIDFGLAKKYRDARTHQHIPYRENKNLTGTARYASINTHLGIEQSRRDDLESLGYVLMYFNLGSLPWQGLKAATKRQKYERISEKKMSTPIEVLCKGYPSEFATYLNFCRSLRFDDKPDYSYLRQLFRNLFHRQGFSYDYVFDWNMLKFGASRAADDAERERRDREERLRHSRNPATRGLPSTASGRLRGTQEVAPPTPLTPTSHTANTSPRPVSGMERERKVSMRLHRGAPVNISSSDLTGRQDTSRMSTSQIPGRVASSGLQSVVHR
+#    -bsequence asis::XELRVGNRYRLGNKIGSGSFGDIYLGTDIAAGEEVAIKLECVKTKHPQLHIESKIYKMMQGGVGIPTIRWCGAEGDYNVMVMELLGPSLEDLFNFCSRKFSLKTVLLLADQMISRIEYIHSKNFIHRDVKPDNFLMGLGKKGNLVYIIDFGLAKKYRDARTHQHIPYRENKNLTGTARYASINTHLGIEQSRRDDLESLGYVLMYFNLGSLPWQGLKAAXXXXKYERISEKKMSTPIEVLCKGYPSEFATYLNFCRSLRFDDKPDYSYLRQLFRNLFHRQGFSYDYVFDWNMLKF
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1453.1/1453.1_protein/sequences/P48730-1_4tw9-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 415
+# Identity:     289/415 (69.6%)
+# Similarity:   289/415 (69.6%)
+# Gaps:         120/415 (28.9%)
+# Score: 1533.0
+# 
+#
+#=======================================
+
+asis               1 MELRVGNRYRLGRKIGSGSFGDIYLGTDIAAGEEVAIKLECVKTKHPQLH     50
+                     .|||||||||||.|||||||||||||||||||||||||||||||||||||
+asis               1 XELRVGNRYRLGNKIGSGSFGDIYLGTDIAAGEEVAIKLECVKTKHPQLH     50
+
+asis              51 IESKIYKMMQGGVGIPTIRWCGAEGDYNVMVMELLGPSLEDLFNFCSRKF    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 IESKIYKMMQGGVGIPTIRWCGAEGDYNVMVMELLGPSLEDLFNFCSRKF    100
+
+asis             101 SLKTVLLLADQMISRIEYIHSKNFIHRDVKPDNFLMGLGKKGNLVYIIDF    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 SLKTVLLLADQMISRIEYIHSKNFIHRDVKPDNFLMGLGKKGNLVYIIDF    150
+
+asis             151 GLAKKYRDARTHQHIPYRENKNLTGTARYASINTHLGIEQSRRDDLESLG    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 GLAKKYRDARTHQHIPYRENKNLTGTARYASINTHLGIEQSRRDDLESLG    200
+
+asis             201 YVLMYFNLGSLPWQGLKAATKRQKYERISEKKMSTPIEVLCKGYPSEFAT    250
+                     |||||||||||||||||||....|||||||||||||||||||||||||||
+asis             201 YVLMYFNLGSLPWQGLKAAXXXXKYERISEKKMSTPIEVLCKGYPSEFAT    250
+
+asis             251 YLNFCRSLRFDDKPDYSYLRQLFRNLFHRQGFSYDYVFDWNMLKFGASRA    300
+                     |||||||||||||||||||||||||||||||||||||||||||||     
+asis             251 YLNFCRSLRFDDKPDYSYLRQLFRNLFHRQGFSYDYVFDWNMLKF-----    295
+
+asis             301 ADDAERERRDREERLRHSRNPATRGLPSTASGRLRGTQEVAPPTPLTPTS    350
+                                                                       
+asis             295 --------------------------------------------------    295
+
+asis             351 HTANTSPRPVSGMERERKVSMRLHRGAPVNISSSDLTGRQDTSRMSTSQI    400
+                                                                       
+asis             295 --------------------------------------------------    295
+
+asis             401 PGRVASSGLQSVVHR    415
+                                    
+asis             295 ---------------    295
+
+
+#---------------------------------------
+#---------------------------------------

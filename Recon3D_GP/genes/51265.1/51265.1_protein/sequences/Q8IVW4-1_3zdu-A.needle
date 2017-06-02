@@ -1,0 +1,82 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:50:47
+# Commandline: needle
+#    -outfile ./Recon3D/genes/51265.1/51265.1_protein/sequences/Q8IVW4-1_3zdu-A.needle
+#    -asequence asis::MEMYETLGKVGEGSYGTVMKCKHKNTGQIVAIKIFYERPEQSVNKIAMREIKFLKQFHHENLVNLIEVFRQKKKIHLVFEFIDHTVLDELQHYCHGLESKRLRKYLFQILRAIDYLHSNNIIHRDIKPENILVSQSGITKLCDFGFARTLAAPGDIYTDYVATRWYRAPELVLKDTSYGKPVDIWALGCMIIEMATGNPYLPSSSDLDLLHKIVLKVGNLSPHLQNIFSKSPIFAGVVLPQVQHPKNARKKYPKLNGLLADIVHACLQIDPADRISSSDLLHHEYFTRDGFIEKFMPELKAKLLQEAKVNSLIKPKESSKENELRKDERKTVYTNTLLSSSVLGKEIEKEKKPKEIKVRVIKVKGGRGDISEPKKKEYEGGLGQQDANENVHPMSPDTKLVTIEPPNPINPSTNCNGLKENPHCGGSVTMPPINLTNSNLMAANLSSNLFHPSVRLTERAKKRRTSSQSIGQVMPNSRQEDPGPIQSQMEKGIFNERTGHSDQMANENKRKLNFSRSDRKEFHFPELPVTIQSKDTKGMEVKQIKMLKRESKKTESSKIPTLLNVDQNQEKQEGGDGHCEGKNLKRNRFFFW
+#    -bsequence asis::MEMYETLGKVGEGSYGTVMKCKHKNTGQIVAIKIFYXXXXXXXNKIAMREIKFLKQFHHENLVNLIEVFRQKKKIHLVFEFIDHTVLDELQHYCHGLESKRLRKYLFQILRAIDYLHSNNIIHRDIKPENILVSQSGITKLCDFGFARTXXXXXDIYDDEVATRWYRAPELVLKDTSYGKPVDIWALGCMIIEMATGNPYLPSSSDLDLLHKIVLKVGNLSPHLQNIFSKSPIFAGVVLPQVQHPKNARKKYPKLNGLLADIVHACLQIDPADRISSSDLLHHEYFTRDGFIEKFMPELKAKLLQEAKV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/51265.1/51265.1_protein/sequences/Q8IVW4-1_3zdu-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 592
+# Identity:     295/592 (49.8%)
+# Similarity:   295/592 (49.8%)
+# Gaps:         283/592 (47.8%)
+# Score: 1535.0
+# 
+#
+#=======================================
+
+asis               1 MEMYETLGKVGEGSYGTVMKCKHKNTGQIVAIKIFYERPEQSVNKIAMRE     50
+                     ||||||||||||||||||||||||||||||||||||.......|||||||
+asis               1 MEMYETLGKVGEGSYGTVMKCKHKNTGQIVAIKIFYXXXXXXXNKIAMRE     50
+
+asis              51 IKFLKQFHHENLVNLIEVFRQKKKIHLVFEFIDHTVLDELQHYCHGLESK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 IKFLKQFHHENLVNLIEVFRQKKKIHLVFEFIDHTVLDELQHYCHGLESK    100
+
+asis             101 RLRKYLFQILRAIDYLHSNNIIHRDIKPENILVSQSGITKLCDFGFARTL    150
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+asis             101 RLRKYLFQILRAIDYLHSNNIIHRDIKPENILVSQSGITKLCDFGFARTX    150
+
+asis             151 AAPGDIYTDYVATRWYRAPELVLKDTSYGKPVDIWALGCMIIEMATGNPY    200
+                     ....|||.|.||||||||||||||||||||||||||||||||||||||||
+asis             151 XXXXDIYDDEVATRWYRAPELVLKDTSYGKPVDIWALGCMIIEMATGNPY    200
+
+asis             201 LPSSSDLDLLHKIVLKVGNLSPHLQNIFSKSPIFAGVVLPQVQHPKNARK    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 LPSSSDLDLLHKIVLKVGNLSPHLQNIFSKSPIFAGVVLPQVQHPKNARK    250
+
+asis             251 KYPKLNGLLADIVHACLQIDPADRISSSDLLHHEYFTRDGFIEKFMPELK    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 KYPKLNGLLADIVHACLQIDPADRISSSDLLHHEYFTRDGFIEKFMPELK    300
+
+asis             301 AKLLQEAKVNSLIKPKESSKENELRKDERKTVYTNTLLSSSVLGKEIEKE    350
+                     |||||||||                                         
+asis             301 AKLLQEAKV-----------------------------------------    309
+
+asis             351 KKPKEIKVRVIKVKGGRGDISEPKKKEYEGGLGQQDANENVHPMSPDTKL    400
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             401 VTIEPPNPINPSTNCNGLKENPHCGGSVTMPPINLTNSNLMAANLSSNLF    450
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             451 HPSVRLTERAKKRRTSSQSIGQVMPNSRQEDPGPIQSQMEKGIFNERTGH    500
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             501 SDQMANENKRKLNFSRSDRKEFHFPELPVTIQSKDTKGMEVKQIKMLKRE    550
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             551 SKKTESSKIPTLLNVDQNQEKQEGGDGHCEGKNLKRNRFFFW    592
+                                                               
+asis             309 ------------------------------------------    309
+
+
+#---------------------------------------
+#---------------------------------------

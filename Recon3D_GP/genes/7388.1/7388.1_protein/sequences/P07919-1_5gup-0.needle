@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:58:07
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7388.1/7388.1_protein/sequences/P07919-1_5gup-0.needle
+#    -asequence asis::MGLEDEQKMLTESGDPEEEEEEEEELVDPLTTVREQCEQLEKCVKARERLELCDERVSSRSHTEEDCTEELFDFLHARDHCVAHKLFNNLK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXDPLTTVREQCEQIEKCIKARERLELCDQRVSSRSQTEEDCTEELFDFLHARDHCVAHKLFNSLK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7388.1/7388.1_protein/sequences/P07919-1_5gup-0.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 118
+# Identity:      59/118 (50.0%)
+# Similarity:    63/118 (53.4%)
+# Gaps:          54/118 (45.8%)
+# Score: 304.0
+# 
+#
+#=======================================
+
+asis               1 MGLEDEQKMLTESGDPEEEEEEEEELV-----------------------     27
+                                                                       
+asis               1 ---------------------------XXXXXXXXXXXXXXXXXXXXXXX     23
+
+asis              28 ----DPLTTVREQCEQLEKCVKARERLELCDERVSSRSHTEEDCTEELFD     73
+                         ||||||||||||:|||:||||||||||:||||||.|||||||||||
+asis              24 XXXXDPLTTVREQCEQIEKCIKARERLELCDQRVSSRSQTEEDCTEELFD     73
+
+asis              74 FLHARDHCVAHKLFNNLK     91
+                     |||||||||||||||:||
+asis              74 FLHARDHCVAHKLFNSLK     91
+
+
+#---------------------------------------
+#---------------------------------------

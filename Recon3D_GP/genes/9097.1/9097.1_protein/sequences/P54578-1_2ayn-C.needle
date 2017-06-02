@@ -1,0 +1,82 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:35:58
+# Commandline: needle
+#    -outfile ./Recon3D/genes/9097.1/9097.1_protein/sequences/P54578-1_2ayn-C.needle
+#    -asequence asis::MPLYSVTVKWGKEKFEGVELNTDEPPMVFKAQLFALTGVQPARQKVMVKGGTLKDDDWGNIKIKNGMTLLMMGSADALPEEPSAKTVFVEDMTEEQLASAMELPCGLTNLGNTCYMNATVQCIRSVPELKDALKRYAGALRASGEMASAQYITAALRDLFDSMDKTSSSIPPIILLQFLHMAFPQFAEKGEQGQYLQQDANECWIQMMRVLQQKLEAIEDDSVKETDSSSASAATPSKKKSLIDQFFGVEFETTMKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPTLQRNALYIKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPLMLDMYELCTPELQEKMVSFRSKFKDLEDKKVNQQPNTSDKKSSPQKEVKYEPFSFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRKQDEWIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLYGPRRVEIMEEESEQ
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMELPCGLTNLGNTCYMNATVQCIRSVPELKDALKRYAGALXXXXXXASAQYITAALRDLFDSMDKTSSSIPPIILLQFLHMAFPQFAEKGEQGQYLQQDANECWIQMMRVLQQKLEAIEDDXXXXXXXXXXXXXXXXXXKSLIDQFFGVEFETTMKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPTLQRNALYIKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPLMLDMYELCTPELQEKMVSFRSKFKDLEDXXXXXXXXXXXXXXXXXXXXXXEPFSFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRKQDEWIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLYGPR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/9097.1/9097.1_protein/sequences/P54578-1_2ayn-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 590
+# Identity:     337/590 (57.1%)
+# Similarity:   337/590 (57.1%)
+# Gaps:         204/590 (34.6%)
+# Score: 1664.5
+# 
+#
+#=======================================
+
+asis               1 MPLYSVTVKWGKEKFEGVELNTDEPPMVFKAQLFALTGVQPARQKVMVKG     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 GTLKDDDWGNIKIKNGMTLLMMGSADALPEEPSAKTVFVEDMTEEQL---     97
+                                                                       
+asis               1 -----------------------------------------------XXX      3
+
+asis              97 --------------------------------------------------     97
+                                                                       
+asis               4 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     53
+
+asis              98 -------------------------------------------ASAMELP    104
+                                                                ...||||
+asis              54 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMELP    103
+
+asis             105 CGLTNLGNTCYMNATVQCIRSVPELKDALKRYAGALRASGEMASAQYITA    154
+                     ||||||||||||||||||||||||||||||||||||......||||||||
+asis             104 CGLTNLGNTCYMNATVQCIRSVPELKDALKRYAGALXXXXXXASAQYITA    153
+
+asis             155 ALRDLFDSMDKTSSSIPPIILLQFLHMAFPQFAEKGEQGQYLQQDANECW    204
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             154 ALRDLFDSMDKTSSSIPPIILLQFLHMAFPQFAEKGEQGQYLQQDANECW    203
+
+asis             205 IQMMRVLQQKLEAIEDDSVKETDSSSASAATPSKKKSLIDQFFGVEFETT    254
+                     |||||||||||||||||..................|||||||||||||||
+asis             204 IQMMRVLQQKLEAIEDDXXXXXXXXXXXXXXXXXXKSLIDQFFGVEFETT    253
+
+asis             255 MKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPT    304
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             254 MKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPT    303
+
+asis             305 LQRNALYIKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPLMLD    354
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             304 LQRNALYIKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPLMLD    353
+
+asis             355 MYELCTPELQEKMVSFRSKFKDLEDKKVNQQPNTSDKKSSPQKEVKYEPF    404
+                     |||||||||||||||||||||||||......................|||
+asis             354 MYELCTPELQEKMVSFRSKFKDLEDXXXXXXXXXXXXXXXXXXXXXXEPF    403
+
+asis             405 SFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRKQDEWIKFDDDK    454
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             404 SFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRKQDEWIKFDDDK    453
+
+asis             455 VSIVTPEDILRLSGGGDWHIAYVLLYGPRRVEIMEEESEQ    494
+                     |||||||||||||||||||||||||||||           
+asis             454 VSIVTPEDILRLSGGGDWHIAYVLLYGPR-----------    482
+
+
+#---------------------------------------
+#---------------------------------------

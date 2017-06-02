@@ -1,0 +1,122 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:36:17
+# Commandline: needle
+#    -outfile ./Recon3D/genes/55072.1/55072.1_protein/sequences/Q96EP0-1_4p0b-A.needle
+#    -asequence asis::MPGEEEERAFLVAREELASALRRDSGQAFSLEQLRPLLASSLPLAARYLQLDAARLVRCNAHGEPRNYLNTLSTALNILEKYGRNLLSPQRPRYWRGVKFNNPVFRSTVDAVQGGRDVLRLYGYTEEQPDGLSFPEGQEEPDEHQVATVTLEVLLLRTELSLLLQNTHPRQQALEQLLEDKVEDDMLQLSEFDPLLREIAPGPLTTPSVPGSTPGPCFLCGSAPGTLHCPSCKQALCPACDHLFHGHPSRAHHLRQTLPGVLQGTHLSPSLPASAQPRPQSTSLLALGDSSLSSPNPASAHLPWHCAACAMLNEPWAVLCVACDRPRGCKGLGLGTEGPQGTGGLEPDLARGRWACQSCTFENEAAAVLCSICERPRLAQPPSLVVDSRDAGICLQPLQQGDALLASAQSQVWYCIHCTFCNSSPGWVCVMCNRTSSPIPAQHAPRPYASSLEKGPPKPGPPRRLSAPLPSSCGDPEKQRQDKMREEGLQLVSMIREGEAAGACPEEIFSALQYSGTEVPLQWLRSELPYVLEMVAELAGQQDPGLGAFSCQEARRAWLDRHGNLDEAVEECVRTRRRKVQELQSLGFGPEEGSLQALFQHGGDVSRALTELQRQRLEPFRQRLWDSGPEPTPSWDGPDKQSLVRRLLAVYALPSWGRAELALSLLQETPRNYELGDVVEAVRHSQDRAFLRRLLAQECAVCGWALPHNRMQALTSCECTICPDCFRQHFTIALKEKHITDMVCPACGRPDLTDDTQLLSYFSTLDIQLRESLEPDAYALFHKKLTEGVLMRDPKFLWCAQCSFGFIYEREQLEATCPQCHQTFCVRCKRQWEEQHRGRSCEDFQNWKRMNDPEYQAQGLAMYLQENGIDCPKCKFSYALARGGCMHFHCTQCRHQFCSGCYNAFYAKNKCPEPNCRVKKSLHGHHPRDCLFYLRDWTALRLQKLLQDNNVMFNTEPPAGARAVPGGGCRVIEQKEVPNGLRDEACGKETPAGYAGLCQAHYKEYLVSLINAHSLDPATLYEVEELETATERYLHVRPQPLAGEDPPAYQARLLQKLTEEVPLGQSIPRRRK
+#    -bsequence asis::XXXXEEERAFLVAREELASALRRDSGQAFSLEQLRPLLASSLPLAARYLQLDAARLVRCNAHGEPRNYLNTLSTALNILEKYGRNLLSPQRPRYWRGVKFNNPVFRSTVDAVQGGRDVLRLYGYTEEXXXXLSFPEGQEEPDEHQVATVTLEVLLLRTELSLLLQNTHPRQQALEQL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/55072.1/55072.1_protein/sequences/Q96EP0-1_4p0b-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1072
+# Identity:     169/1072 (15.8%)
+# Similarity:   169/1072 (15.8%)
+# Gaps:         895/1072 (83.5%)
+# Score: 843.0
+# 
+#
+#=======================================
+
+asis               1 MPGEEEERAFLVAREELASALRRDSGQAFSLEQLRPLLASSLPLAARYLQ     50
+                     ....||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXEEERAFLVAREELASALRRDSGQAFSLEQLRPLLASSLPLAARYLQ     50
+
+asis              51 LDAARLVRCNAHGEPRNYLNTLSTALNILEKYGRNLLSPQRPRYWRGVKF    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 LDAARLVRCNAHGEPRNYLNTLSTALNILEKYGRNLLSPQRPRYWRGVKF    100
+
+asis             101 NNPVFRSTVDAVQGGRDVLRLYGYTEEQPDGLSFPEGQEEPDEHQVATVT    150
+                     |||||||||||||||||||||||||||....|||||||||||||||||||
+asis             101 NNPVFRSTVDAVQGGRDVLRLYGYTEEXXXXLSFPEGQEEPDEHQVATVT    150
+
+asis             151 LEVLLLRTELSLLLQNTHPRQQALEQLLEDKVEDDMLQLSEFDPLLREIA    200
+                     |||||||||||||||||||||||||||                       
+asis             151 LEVLLLRTELSLLLQNTHPRQQALEQL-----------------------    177
+
+asis             201 PGPLTTPSVPGSTPGPCFLCGSAPGTLHCPSCKQALCPACDHLFHGHPSR    250
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             251 AHHLRQTLPGVLQGTHLSPSLPASAQPRPQSTSLLALGDSSLSSPNPASA    300
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             301 HLPWHCAACAMLNEPWAVLCVACDRPRGCKGLGLGTEGPQGTGGLEPDLA    350
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             351 RGRWACQSCTFENEAAAVLCSICERPRLAQPPSLVVDSRDAGICLQPLQQ    400
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             401 GDALLASAQSQVWYCIHCTFCNSSPGWVCVMCNRTSSPIPAQHAPRPYAS    450
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             451 SLEKGPPKPGPPRRLSAPLPSSCGDPEKQRQDKMREEGLQLVSMIREGEA    500
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             501 AGACPEEIFSALQYSGTEVPLQWLRSELPYVLEMVAELAGQQDPGLGAFS    550
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             551 CQEARRAWLDRHGNLDEAVEECVRTRRRKVQELQSLGFGPEEGSLQALFQ    600
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             601 HGGDVSRALTELQRQRLEPFRQRLWDSGPEPTPSWDGPDKQSLVRRLLAV    650
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             651 YALPSWGRAELALSLLQETPRNYELGDVVEAVRHSQDRAFLRRLLAQECA    700
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             701 VCGWALPHNRMQALTSCECTICPDCFRQHFTIALKEKHITDMVCPACGRP    750
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             751 DLTDDTQLLSYFSTLDIQLRESLEPDAYALFHKKLTEGVLMRDPKFLWCA    800
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             801 QCSFGFIYEREQLEATCPQCHQTFCVRCKRQWEEQHRGRSCEDFQNWKRM    850
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             851 NDPEYQAQGLAMYLQENGIDCPKCKFSYALARGGCMHFHCTQCRHQFCSG    900
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             901 CYNAFYAKNKCPEPNCRVKKSLHGHHPRDCLFYLRDWTALRLQKLLQDNN    950
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis             951 VMFNTEPPAGARAVPGGGCRVIEQKEVPNGLRDEACGKETPAGYAGLCQA   1000
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis            1001 HYKEYLVSLINAHSLDPATLYEVEELETATERYLHVRPQPLAGEDPPAYQ   1050
+                                                                       
+asis             177 --------------------------------------------------    177
+
+asis            1051 ARLLQKLTEEVPLGQSIPRRRK   1072
+                                           
+asis             177 ----------------------    177
+
+
+#---------------------------------------
+#---------------------------------------

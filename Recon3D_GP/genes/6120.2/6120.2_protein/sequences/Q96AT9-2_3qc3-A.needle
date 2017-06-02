@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:00:08
+# Commandline: needle
+#    -outfile ./Recon3D/genes/6120.2/6120.2_protein/sequences/Q96AT9-2_3qc3-A.needle
+#    -asequence asis::MASGCKIGPSILNSDLANLGAECLRMLDSGADYLHLDVMDGHMHMMVSKPEQWVKPMAVAGANQYTFHLEATENPGALIKDIRENGMKSCSVTQAEVQWHSQGPLQVGLAIKPGTSVEYLAPWANQIDMALVMTVEPGFGGQKFMEDMMPKVHWLRTQFPSLDIEVDGGVGPDTVHKCAEAGANMIVSGSAIMRSEDPRSVINLLRNVCSEAAQKRSLDR
+#    -bsequence asis::GXASGCKIGPSILNSDLANLGAECLRXLDSGADYLHLDVXDGHFVPNITFGHPVVESLRKQLGQDPFFDXHXXVSKPEQWVKPXAVAGANQYTFHLEATENPGALIKDIRENGXKVGLAIKPGTSVEYLAPWANQIDXALVXTVEPGFGGQKFXEDXXPKVHWLRTQFPSLDIEVDGGVGPDTVHKCAEAGANXIVSGSAIXRSEDPRSVINLLRNVCSEAAQKR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/6120.2/6120.2_protein/sequences/Q96AT9-2_3qc3-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 247
+# Identity:     183/247 (74.1%)
+# Similarity:   183/247 (74.1%)
+# Gaps:          49/247 (19.8%)
+# Score: 911.0
+# 
+#
+#=======================================
+
+asis               1 -MASGCKIGPSILNSDLANLGAECLRMLDSGADYLHLDVMDGHM------     43
+                      .||||||||||||||||||||||||.||||||||||||.|||.      
+asis               1 GXASGCKIGPSILNSDLANLGAECLRXLDSGADYLHLDVXDGHFVPNITF     50
+
+asis              44 --------------------HMMVSKPEQWVKPMAVAGANQYTFHLEATE     73
+                                         |..||||||||||.||||||||||||||||
+asis              51 GHPVVESLRKQLGQDPFFDXHXXVSKPEQWVKPXAVAGANQYTFHLEATE    100
+
+asis              74 NPGALIKDIRENGMKSCSVTQAEVQWHSQGPLQVGLAIKPGTSVEYLAPW    123
+                     |||||||||||||.|                  |||||||||||||||||
+asis             101 NPGALIKDIRENGXK------------------VGLAIKPGTSVEYLAPW    132
+
+asis             124 ANQIDMALVMTVEPGFGGQKFMEDMMPKVHWLRTQFPSLDIEVDGGVGPD    173
+                     |||||.|||.|||||||||||.||..||||||||||||||||||||||||
+asis             133 ANQIDXALVXTVEPGFGGQKFXEDXXPKVHWLRTQFPSLDIEVDGGVGPD    182
+
+asis             174 TVHKCAEAGANMIVSGSAIMRSEDPRSVINLLRNVCSEAAQKRSLDR    220
+                     |||||||||||.|||||||.|||||||||||||||||||||||    
+asis             183 TVHKCAEAGANXIVSGSAIXRSEDPRSVINLLRNVCSEAAQKR----    225
+
+
+#---------------------------------------
+#---------------------------------------

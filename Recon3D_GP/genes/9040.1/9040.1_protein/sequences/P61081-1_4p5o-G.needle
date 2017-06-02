@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:37:32
+# Commandline: needle
+#    -outfile ./Recon3D/genes/9040.1/9040.1_protein/sequences/P61081-1_4p5o-G.needle
+#    -asequence asis::MIKLFSLKQQKKEEESAGGTKGSSKKASAAQLRIQKDINELNLPKTCDISFSDPDDLLNFKLVICPDEGFYKSGKFVFSFKVGQGYPHDPPKVKCETMVYHPNIDLEGNVCLNILREDWKPVLTINSIIYGLQYLFLEPNPEDPLNKEAAEVLQNNRRLFEQNVQRSMRGGYIGSTYFERCLK
+#    -bsequence asis::XIKLFSLKQQKKEEEXXXXXXXXXXXXXAAQLRIQKDINELNLPKTCDISFSDPDDLLNFKLVICPDEGFYKSGKFVFSFKVGQGYPHDPPKVKCETMVYHPSIDLEGNVSLNILREDWKPVLTINSIIYGLQYLFLEPNPEDPLNKEAAEVLQNNRRLFEQNVQRSMRGGYIGSTYFERCLKH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/9040.1/9040.1_protein/sequences/P61081-1_4p5o-G.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:     167/184 (90.8%)
+# Similarity:   168/184 (91.3%)
+# Gaps:           1/184 ( 0.5%)
+# Score: 881.0
+# 
+#
+#=======================================
+
+asis               1 MIKLFSLKQQKKEEESAGGTKGSSKKASAAQLRIQKDINELNLPKTCDIS     50
+                     .||||||||||||||.............||||||||||||||||||||||
+asis               1 XIKLFSLKQQKKEEEXXXXXXXXXXXXXAAQLRIQKDINELNLPKTCDIS     50
+
+asis              51 FSDPDDLLNFKLVICPDEGFYKSGKFVFSFKVGQGYPHDPPKVKCETMVY    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 FSDPDDLLNFKLVICPDEGFYKSGKFVFSFKVGQGYPHDPPKVKCETMVY    100
+
+asis             101 HPNIDLEGNVCLNILREDWKPVLTINSIIYGLQYLFLEPNPEDPLNKEAA    150
+                     ||:|||||||.|||||||||||||||||||||||||||||||||||||||
+asis             101 HPSIDLEGNVSLNILREDWKPVLTINSIIYGLQYLFLEPNPEDPLNKEAA    150
+
+asis             151 EVLQNNRRLFEQNVQRSMRGGYIGSTYFERCLK-    183
+                     ||||||||||||||||||||||||||||||||| 
+asis             151 EVLQNNRRLFEQNVQRSMRGGYIGSTYFERCLKH    184
+
+
+#---------------------------------------
+#---------------------------------------

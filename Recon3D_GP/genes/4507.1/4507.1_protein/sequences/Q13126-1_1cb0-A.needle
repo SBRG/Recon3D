@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:36:48
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4507.1/4507.1_protein/sequences/Q13126-1_1cb0-A.needle
+#    -asequence asis::MASGTTTTAVKIGIIGGTGLDDPEILEGRTEKYVDTPFGKPSDALILGKIKNVDCVLLARHGRQHTIMPSKVNYQANIWALKEEGCTHVIVTTACGSLREEIQPGDIVIIDQFIDRTTMRPQSFYDGSHSCARGVCHIPMAEPFCPKTREVLIETAKKLGLRCHSKGTMVTIEGPRFSSRAESFMFRTWGADVINMTTVPEVVLAKEAGICYASIAMATDYDCWKEHEEAVSVDRVLKTLKENANKAKSLLLTTIPQIGSTEWSETLHNLKNMAQFSVLLPRH
+#    -bsequence asis::XXXXXXXXAVKIGIIGGTGLDDPEILEGRTEKYVDTPFGKPSDALILGKIKNVDCVLLARHGRQHTIMPSKVNYQANIWALKEEGCTHVIVTTACGSLREEIQPGDIVIIDQFIDRTTMRPQSFYDGSHSCARGVCHIPMAEPFCPKTREVLIETAKKLGLRCHSKGTMVTIEGPRFSSRAESFMFRTWGADVINMTTVPEVVLAKEAGICYASIAMATDYDCWXXXXXAVSVDRVLKTLKENANKAKSLLLTTIPQIGSTEWSETLHNLKNMAQFSVLLP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4507.1/4507.1_protein/sequences/Q13126-1_1cb0-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 283
+# Identity:     268/283 (94.7%)
+# Similarity:   268/283 (94.7%)
+# Gaps:           2/283 ( 0.7%)
+# Score: 1400.0
+# 
+#
+#=======================================
+
+asis               1 MASGTTTTAVKIGIIGGTGLDDPEILEGRTEKYVDTPFGKPSDALILGKI     50
+                     ........||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXAVKIGIIGGTGLDDPEILEGRTEKYVDTPFGKPSDALILGKI     50
+
+asis              51 KNVDCVLLARHGRQHTIMPSKVNYQANIWALKEEGCTHVIVTTACGSLRE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 KNVDCVLLARHGRQHTIMPSKVNYQANIWALKEEGCTHVIVTTACGSLRE    100
+
+asis             101 EIQPGDIVIIDQFIDRTTMRPQSFYDGSHSCARGVCHIPMAEPFCPKTRE    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 EIQPGDIVIIDQFIDRTTMRPQSFYDGSHSCARGVCHIPMAEPFCPKTRE    150
+
+asis             151 VLIETAKKLGLRCHSKGTMVTIEGPRFSSRAESFMFRTWGADVINMTTVP    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 VLIETAKKLGLRCHSKGTMVTIEGPRFSSRAESFMFRTWGADVINMTTVP    200
+
+asis             201 EVVLAKEAGICYASIAMATDYDCWKEHEEAVSVDRVLKTLKENANKAKSL    250
+                     ||||||||||||||||||||||||.....|||||||||||||||||||||
+asis             201 EVVLAKEAGICYASIAMATDYDCWXXXXXAVSVDRVLKTLKENANKAKSL    250
+
+asis             251 LLTTIPQIGSTEWSETLHNLKNMAQFSVLLPRH    283
+                     |||||||||||||||||||||||||||||||  
+asis             251 LLTTIPQIGSTEWSETLHNLKNMAQFSVLLP--    281
+
+
+#---------------------------------------
+#---------------------------------------

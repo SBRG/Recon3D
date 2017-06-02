@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:30:09
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2618.1/2618.1_protein/sequences/P22102-1_2qk4-B.needle
+#    -asequence asis::MAARVLIIGSGGREHTLAWKLAQSHHVKQVLVAPGNAGTACSEKISNTAISISDHTALAQFCKEKKIEFVVVGPEAPLAAGIVGNLRSAGVQCFGPTAEAAQLESSKRFAKEFMDRHGIPTAQWKAFTKPEEACSFILSADFPALVVKASGLAAGKGVIVAKSKEEACKAVQEIMQEKAFGAAGETIVIEELLDGEEVSCLCFTDGKTVAPMPPAQDHKRLLEGDGGPNTGGMGAYCPAPQVSNDLLLKIKDTVLQRTVDGMQQEGTPYTGILYAGIMLTKNGPKVLEFNCRFGDPECQVILPLLKSDLYEVIQSTLDGLLCTSLPVWLENHTALTVVMASKGYPGDYTKGVEITGFPEAQALGLEVFHAGTALKNGKVVTHGGRVLAVTAIRENLISALEEAKKGLAAIKFEGAIYRKDVGFRAIAFLQQPRSLTYKESGVDIAAGNMLVKKIQPLAKATSRSGCKVDLGGFAGLFDLKAAGFKDPLLASGTDGVGTKLKIAQLCNKHDTIGQDLVAMCVNDILAQGAEPLFFLDYFSCGKLDLSVTEAVVAGIAKACGKAGCALLGGETAEMPDMYPPGEYDLAGFAVGAMERDQKLPHLERITEGDVVVGIASSGLHSNGFSLVRKIVAKSSLQYSSPAPDGCGDQTLGDLLLTPTRIYSHSLLPVLRSGHVKAFAHITGGGLLENIPRVLPEKLGVDLDAQTWRIPRVFSWLQQEGHLSEEEMARTFNCGVGAVLVVSKEQTEQILRDIQQHKEEAWVIGSVVARAEGSPRVKVKNLIESMQINGSVLKNGSLTNHFSFEKKKARVAVLISGTGSNLQALIDSTREPNSSAQIDIVISNKAAVAGLDKAERAGIPTRVINHKLYKNRVEFDSAIDLVLEEFSIDIVCLAGFMRILSGPFVQKWNGKMLNIHPSLLPSFKGSNAHEQALETGVTVTGCTVHFVAEDVDAGQIILQEAVPVKRGDTVATLSERVKLAEHKIFPAALQLVASGTVQLGENGKICWVKEE
+#    -bsequence asis::SMAARVLIIGSGGREHTLAWKLAQSHHVKQVLVAPGNAGTACSEKISNTAISISDHTALAQFCKEKKIEFVVVGPEAPLAAGIVGNLRSAGVQCFGPTAEAAQLESSKRFAKEFMDRHGIPTAQWKAFTKPEEACSFILSADFPALVVKASGLAXXXGVIVAKSKEEACKAVQEIMQEKXXXXAGETIVIEELLDGEEVSCLCFTDGKTVAPMPPAQDHKRLLEGDGGPNTGGMGAYCPAPQVSNDLLLKIKDTVLQRTVDGMQQEGTPYTGILYAGIMLTKNGPKVLEFNCRFGDPECQVILPLLKSDLYEVIQSTLDGLLCTSLPVWLENHTALTVVMASKGYPGDYTKGVEITGFPEAQALGLEVFHAGTALKNGKVVTHGGRVLAVTAIRENLISALEEAKKGLAAIKFEGAIYRKDIGFRAIAFLQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2618.1/2618.1_protein/sequences/P22102-1_2qk4-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1011
+# Identity:     422/1011 (41.7%)
+# Similarity:   423/1011 (41.8%)
+# Gaps:         581/1011 (57.5%)
+# Score: 2168.0
+# 
+#
+#=======================================
+
+asis               1 -MAARVLIIGSGGREHTLAWKLAQSHHVKQVLVAPGNAGTACSEKISNTA     49
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 SMAARVLIIGSGGREHTLAWKLAQSHHVKQVLVAPGNAGTACSEKISNTA     50
+
+asis              50 ISISDHTALAQFCKEKKIEFVVVGPEAPLAAGIVGNLRSAGVQCFGPTAE     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 ISISDHTALAQFCKEKKIEFVVVGPEAPLAAGIVGNLRSAGVQCFGPTAE    100
+
+asis             100 AAQLESSKRFAKEFMDRHGIPTAQWKAFTKPEEACSFILSADFPALVVKA    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 AAQLESSKRFAKEFMDRHGIPTAQWKAFTKPEEACSFILSADFPALVVKA    150
+
+asis             150 SGLAAGKGVIVAKSKEEACKAVQEIMQEKAFGAAGETIVIEELLDGEEVS    199
+                     ||||...||||||||||||||||||||||....|||||||||||||||||
+asis             151 SGLAXXXGVIVAKSKEEACKAVQEIMQEKXXXXAGETIVIEELLDGEEVS    200
+
+asis             200 CLCFTDGKTVAPMPPAQDHKRLLEGDGGPNTGGMGAYCPAPQVSNDLLLK    249
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 CLCFTDGKTVAPMPPAQDHKRLLEGDGGPNTGGMGAYCPAPQVSNDLLLK    250
+
+asis             250 IKDTVLQRTVDGMQQEGTPYTGILYAGIMLTKNGPKVLEFNCRFGDPECQ    299
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 IKDTVLQRTVDGMQQEGTPYTGILYAGIMLTKNGPKVLEFNCRFGDPECQ    300
+
+asis             300 VILPLLKSDLYEVIQSTLDGLLCTSLPVWLENHTALTVVMASKGYPGDYT    349
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             301 VILPLLKSDLYEVIQSTLDGLLCTSLPVWLENHTALTVVMASKGYPGDYT    350
+
+asis             350 KGVEITGFPEAQALGLEVFHAGTALKNGKVVTHGGRVLAVTAIRENLISA    399
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             351 KGVEITGFPEAQALGLEVFHAGTALKNGKVVTHGGRVLAVTAIRENLISA    400
+
+asis             400 LEEAKKGLAAIKFEGAIYRKDVGFRAIAFLQQPRSLTYKESGVDIAAGNM    449
+                     |||||||||||||||||||||:|||||||||                   
+asis             401 LEEAKKGLAAIKFEGAIYRKDIGFRAIAFLQ-------------------    431
+
+asis             450 LVKKIQPLAKATSRSGCKVDLGGFAGLFDLKAAGFKDPLLASGTDGVGTK    499
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis             500 LKIAQLCNKHDTIGQDLVAMCVNDILAQGAEPLFFLDYFSCGKLDLSVTE    549
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis             550 AVVAGIAKACGKAGCALLGGETAEMPDMYPPGEYDLAGFAVGAMERDQKL    599
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis             600 PHLERITEGDVVVGIASSGLHSNGFSLVRKIVAKSSLQYSSPAPDGCGDQ    649
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis             650 TLGDLLLTPTRIYSHSLLPVLRSGHVKAFAHITGGGLLENIPRVLPEKLG    699
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis             700 VDLDAQTWRIPRVFSWLQQEGHLSEEEMARTFNCGVGAVLVVSKEQTEQI    749
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis             750 LRDIQQHKEEAWVIGSVVARAEGSPRVKVKNLIESMQINGSVLKNGSLTN    799
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis             800 HFSFEKKKARVAVLISGTGSNLQALIDSTREPNSSAQIDIVISNKAAVAG    849
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis             850 LDKAERAGIPTRVINHKLYKNRVEFDSAIDLVLEEFSIDIVCLAGFMRIL    899
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis             900 SGPFVQKWNGKMLNIHPSLLPSFKGSNAHEQALETGVTVTGCTVHFVAED    949
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis             950 VDAGQIILQEAVPVKRGDTVATLSERVKLAEHKIFPAALQLVASGTVQLG    999
+                                                                       
+asis             431 --------------------------------------------------    431
+
+asis            1000 ENGKICWVKEE   1010
+                                
+asis             431 -----------    431
+
+
+#---------------------------------------
+#---------------------------------------

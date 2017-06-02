@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:56:33
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4706.1/4706.1_protein/sequences/O14561-1_2dnw-A.needle
+#    -asequence asis::MASRVLSAYVSRLPAAFAPLPRVRMLAVARPLSTALCSAGTQTRLGTLQPALVLAQVPGRVTQLCRQYSDMPPLTLEGIQDRVLYVLKLYDKIDPEKLSVNSHFMKDLGLDSLDQVEIIMAMEDEFGFEIPDIDAEKLMCPQEIVDYIADKKDVYE
+#    -bsequence asis::GSSGSSGMPPLTLEGIQDRVLYVLKLYDKIDPEKLSVNSHFMKDLGLDSLDQVEIIMAMEDEFGFEIPDIDAEKLMCPQEIVDYIADKKDVYESGPSSG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4706.1/4706.1_protein/sequences/O14561-1_2dnw-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 162
+# Identity:      87/162 (53.7%)
+# Similarity:    87/162 (53.7%)
+# Gaps:          69/162 (42.6%)
+# Score: 437.0
+# 
+#
+#=======================================
+
+asis               1 MASRVLSAYVSRLPAAFAPLPRVRMLAVARPLSTALCSAGTQTRLGTLQP     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 ALVLAQVPGRVTQLCRQYSDMPPLTLEGIQDRVLYVLKLYDKIDPEKLSV    100
+                                  .....|.||||||||||||||||||||||||||||||
+asis               1 -------------GSSGSSGMPPLTLEGIQDRVLYVLKLYDKIDPEKLSV     37
+
+asis             101 NSHFMKDLGLDSLDQVEIIMAMEDEFGFEIPDIDAEKLMCPQEIVDYIAD    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              38 NSHFMKDLGLDSLDQVEIIMAMEDEFGFEIPDIDAEKLMCPQEIVDYIAD     87
+
+asis             151 KKDVYE------    156
+                     ||||||      
+asis              88 KKDVYESGPSSG     99
+
+
+#---------------------------------------
+#---------------------------------------

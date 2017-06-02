@@ -1,0 +1,182 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:04:59
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8648.1/8648.1_protein/sequences/Q15788-1_3ctb-B.needle
+#    -asequence asis::MSGLGDSSSDPANPDSHKRKGSPCDTLASSTEKRRREQENKYLEELAELLSANISDIDSLSVKPDKCKILKKTVDQIQLMKRMEQEKSTTDDDVQKSDISSSSQGVIEKESLGPLLLEALDGFFFVVNCEGRIVFVSENVTSYLGYNQEELMNTSVYSILHVGDHAEFVKNLLPKSLVNGVPWPQEATRRNSHTFNCRMLIHPPDEPGTENQEACQRYEVMQCFTVSQPKSIQEDGEDFQSCLICIARRLPRPPAITGVESFMTKQDTTGKIISIDTSSLRAAGRTGWEDLVRKCIYAFFQPQGREPSYARQLFQEVMTRGTASSPSYRFILNDGTMLSAHTKCKLCYPQSPDMQPFIMGIHIIDREHSGLSPQDDTNSGMSIPRVNPSVNPSISPAHGVARSSTLPPSNSNMVSTRINRQQSSDLHSSSHSNSSNSQGSFGCSPGSQIVANVALNQGQASSQSSNPSLNLNNSPMEGTGISLAQFMSPRRQVTSGLATRPRMPNNSFPPNISTLSSPVGMTSSACNNNNRSYSNIPVTSLQGMNEGPNNSVGFSASSPVLRQMSSQNSPSRLNIQPAKAESKDNKEIASILNEMIQSDNSSSDGKPLDSGLLHNNDRLSDGDSKYSQTSHKLVQLLTTTAEQQLRHADIDTSCKDVLSCTGTSNSASANSSGGSCPSSHSSLTERHKILHRLLQEGSPSDITTLSVEPDKKDSASTSVSVTGQVQGNSSIKLELDASKKKESKDHQLLRYLLDKDEKDLRSTPNLSLDDVKVKVEKKEQMDPCNTNPTPMTKPTPEEIKLEAQSQFTADLDQFDQLLPTLEKAAQLPGLCETDRMDGAVTSVTIKSEILPASLQSATARPTSRLNRLPELELEAIDNQFGQPGTGDQIPWTNNTVTAINQSKSEDQCISSQLDELLCPPTTVEGRNDEKALLEQLVSFLSGKDETELAELDRALGIDKLVQGGGLDVLSERFPPQQATPPLIMEERPNLYSQPYSSPSPTANLPSPFQGMVRQKPSLGTMPVQVTPPRGAFSPGMGMQPRQTLNRPPAAPNQLRLQLQQRLQGQQQLIHQNRQAILNQFAATAPVGINMRSGMQQQITPQPPLNAQMLAQRQRELYSQQHRQRQLIQQQRAMLMRQQSFGNNLPPSSGLPVQMGNPRLPQGAPQQFPYPPNYGTNPGTPPASTSPFSQLAANPEASLANRNSMVSRGMTGNIGGQFGTGINPQMQQNVFQYPGAGMVPQGEANFAPSLSPGSSMVPMPIPPPQSSLLQQTPPASGYQSPDMKAWQQGAIGNNNVFSQAVQNQPTPAQPGVYNNMSITVSMAGGNTNVQNMNPMMAQMQMSSLQMPGMNTVCPEQINDPALRHTGLYCNQLSSTDLLKTEADGTQQVQQVQVFADVQCTVNLVGGDPYLNQPGPLGTQKPTSGPQTPQAQQKSLLQQLLTE
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGLTEEQRMMIRELMDAQMKTFDTTFSHFKNFRLPGVLXXXXXXXXXXXXXSREEAAKWSQVRKDLCSLKVSLQLRGEDGSVWNYKPPADSGGKEIFSLLPHMADMSTYMFKGIISFAKVISYFRDLPIEDQISLLKGAAFELCQLRFNTVFNAETGTWECGRLSYCLEXXXXXXXQLLLEPMLKFHYMLKKLQLHEEEYVLMQAISLFSPDRPGVLQHRVVDQLQEQFAITLKSYIECNRPQPAHRFLFLKIMAMLTELRSINAQHTQRLLRIQDIHPFATPLMQELFGIXXXXXXXXXXXXSLTERHKILHRLLQEGS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8648.1/8648.1_protein/sequences/Q15788-1_3ctb-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1813
+# Identity:      21/1813 ( 1.2%)
+# Similarity:    39/1813 ( 2.2%)
+# Gaps:        1725/1813 (95.1%)
+# Score: 17.0
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis              51 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGLTEEQRMM    150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             151 IRELMDAQMKTFDTTFSHFKNFRLPGVLXXXXXXXXXXXXXSREEAAKWS    200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             201 QVRKDLCSLKVSLQLRGEDGSVWNYKPPADSGGKEIFSLLPHMADMSTYM    250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             251 FKGIISFAKVISYFRDLPIEDQISLLKGAAFELCQLRFNTVFNAETGTWE    300
+
+asis               1 ------------------------------------------MSGLGDSS      8
+                                                               |..:...|
+asis             301 CGRLSYCLEXXXXXXXQLLLEPMLKFHYMLKKLQLHEEEYVLMQAISLFS    350
+
+asis               9 SDPANPDSHK----RKGSPCDTLASSTEKRRREQENKYL-----EELAEL     49
+                     .|......|:    .:.....||.|..|..|.:..:::|     ..|.||
+asis             351 PDRPGVLQHRVVDQLQEQFAITLKSYIECNRPQPAHRFLFLKIMAMLTEL    400
+
+asis              50 LSANISDIDSL----SVKPDKCKILKK-----------------TVDQIQ     78
+                     .|.|......|    .:.|....::::                 ..::.:
+asis             401 RSINAQHTQRLLRIQDIHPFATPLMQELFGIXXXXXXXXXXXXSLTERHK    450
+
+asis              79 LMKRMEQEKSTTDDDVQKSDISSSSQGVIEKESLGPLLLEALDGFFFVVN    128
+                     ::.|:.||.|                                        
+asis             451 ILHRLLQEGS----------------------------------------    460
+
+asis             129 CEGRIVFVSENVTSYLGYNQEELMNTSVYSILHVGDHAEFVKNLLPKSLV    178
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             179 NGVPWPQEATRRNSHTFNCRMLIHPPDEPGTENQEACQRYEVMQCFTVSQ    228
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             229 PKSIQEDGEDFQSCLICIARRLPRPPAITGVESFMTKQDTTGKIISIDTS    278
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             279 SLRAAGRTGWEDLVRKCIYAFFQPQGREPSYARQLFQEVMTRGTASSPSY    328
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             329 RFILNDGTMLSAHTKCKLCYPQSPDMQPFIMGIHIIDREHSGLSPQDDTN    378
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             379 SGMSIPRVNPSVNPSISPAHGVARSSTLPPSNSNMVSTRINRQQSSDLHS    428
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             429 SSHSNSSNSQGSFGCSPGSQIVANVALNQGQASSQSSNPSLNLNNSPMEG    478
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             479 TGISLAQFMSPRRQVTSGLATRPRMPNNSFPPNISTLSSPVGMTSSACNN    528
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             529 NNRSYSNIPVTSLQGMNEGPNNSVGFSASSPVLRQMSSQNSPSRLNIQPA    578
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             579 KAESKDNKEIASILNEMIQSDNSSSDGKPLDSGLLHNNDRLSDGDSKYSQ    628
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             629 TSHKLVQLLTTTAEQQLRHADIDTSCKDVLSCTGTSNSASANSSGGSCPS    678
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             679 SHSSLTERHKILHRLLQEGSPSDITTLSVEPDKKDSASTSVSVTGQVQGN    728
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             729 SSIKLELDASKKKESKDHQLLRYLLDKDEKDLRSTPNLSLDDVKVKVEKK    778
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             779 EQMDPCNTNPTPMTKPTPEEIKLEAQSQFTADLDQFDQLLPTLEKAAQLP    828
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             829 GLCETDRMDGAVTSVTIKSEILPASLQSATARPTSRLNRLPELELEAIDN    878
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             879 QFGQPGTGDQIPWTNNTVTAINQSKSEDQCISSQLDELLCPPTTVEGRND    928
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             929 EKALLEQLVSFLSGKDETELAELDRALGIDKLVQGGGLDVLSERFPPQQA    978
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis             979 TPPLIMEERPNLYSQPYSSPSPTANLPSPFQGMVRQKPSLGTMPVQVTPP   1028
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis            1029 RGAFSPGMGMQPRQTLNRPPAAPNQLRLQLQQRLQGQQQLIHQNRQAILN   1078
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis            1079 QFAATAPVGINMRSGMQQQITPQPPLNAQMLAQRQRELYSQQHRQRQLIQ   1128
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis            1129 QQRAMLMRQQSFGNNLPPSSGLPVQMGNPRLPQGAPQQFPYPPNYGTNPG   1178
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis            1179 TPPASTSPFSQLAANPEASLANRNSMVSRGMTGNIGGQFGTGINPQMQQN   1228
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis            1229 VFQYPGAGMVPQGEANFAPSLSPGSSMVPMPIPPPQSSLLQQTPPASGYQ   1278
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis            1279 SPDMKAWQQGAIGNNNVFSQAVQNQPTPAQPGVYNNMSITVSMAGGNTNV   1328
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis            1329 QNMNPMMAQMQMSSLQMPGMNTVCPEQINDPALRHTGLYCNQLSSTDLLK   1378
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis            1379 TEADGTQQVQQVQVFADVQCTVNLVGGDPYLNQPGPLGTQKPTSGPQTPQ   1428
+                                                                       
+asis             460 --------------------------------------------------    460
+
+asis            1429 AQQKSLLQQLLTE   1441
+                                  
+asis             460 -------------    460
+
+
+#---------------------------------------
+#---------------------------------------

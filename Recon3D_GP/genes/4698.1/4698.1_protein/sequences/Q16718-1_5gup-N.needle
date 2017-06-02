@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:58:46
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4698.1/4698.1_protein/sequences/Q16718-1_5gup-N.needle
+#    -asequence asis::MAGVLKKTTGLVGLAVCNTPHERLRILYTKILDVLEEIPKNAAYRKYTEQITNEKLAMVKAEPDVKKLEDQLQGGQLEEVILQAEHELNLARKMREWKLWEPLVEEPPADQWKWPI
+#    -bsequence asis::XXXXLKKTTGLVGLAVCETPHERLKILYTKILDVLGQIPKNAAYRKYTEQITNEKLGMVKAEPDVKKLEEQLQGGQIEEVILQAENELSLARKMLRWKPWEPLVEEPPANQWKWPI
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4698.1/4698.1_protein/sequences/Q16718-1_5gup-N.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      99/116 (85.3%)
+# Similarity:   106/116 (91.4%)
+# Gaps:           0/116 ( 0.0%)
+# Score: 521.0
+# 
+#
+#=======================================
+
+asis               1 MAGVLKKTTGLVGLAVCNTPHERLRILYTKILDVLEEIPKNAAYRKYTEQ     50
+                     ....|||||||||||||.||||||:||||||||||.:|||||||||||||
+asis               1 XXXXLKKTTGLVGLAVCETPHERLKILYTKILDVLGQIPKNAAYRKYTEQ     50
+
+asis              51 ITNEKLAMVKAEPDVKKLEDQLQGGQLEEVILQAEHELNLARKMREWKLW    100
+                     ||||||.||||||||||||:||||||:||||||||:||:|||||..||.|
+asis              51 ITNEKLGMVKAEPDVKKLEEQLQGGQIEEVILQAENELSLARKMLRWKPW    100
+
+asis             101 EPLVEEPPADQWKWPI    116
+                     |||||||||:||||||
+asis             101 EPLVEEPPANQWKWPI    116
+
+
+#---------------------------------------
+#---------------------------------------

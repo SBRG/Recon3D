@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:09:32
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4722.1/4722.1_protein/sequences/O75489-1_5gpn-W.needle
+#    -asequence asis::MAAAAVARLWWRGILGASALTRGTGRPSVLLLPVRRESAGADTRPTVRPRNDVAHKQLSAFGEYVAEILPKYVQQVQVSCFNELEVCIHPDGVIPVLTFLRDHTNAQFKSLVDLTAVDVPTRQNRFEIVYNLLSLRFNSRIRVKTYTDELTPIESAVSVFKAANWYEREIWDMFGVFFANHPDLRRILTDYGFEGHPFRKDFPLSGYVELRYDDEVKRVVAEPVELAQEFRKFDLNSPWEAFPVYRQPPESLKLEAGDKKPDAK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNDVVHKQLSAFGQYVAEILPKYVQQVQVSCFNELEIFIHPDGVIPVLTFLRDHTNAQFKSLADLTAVDVPTRQNRFEIVYNLLSLRFNSRIRVKTYTDELTPIESSVTVYKAANWYEREIWDMFGVFFANHPDLRRILTDYGFEGHPFRKDFPLSGYVELRYDDEVKRV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4722.1/4722.1_protein/sequences/O75489-1_5gpn-W.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:     161/309 (52.1%)
+# Similarity:   166/309 (53.7%)
+# Gaps:         135/309 (43.7%)
+# Score: 827.0
+# 
+#
+#=======================================
+
+asis               1 ---------------------------------------------MAAAA      5
+                                                                  .....
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               6 VARLWWRGILGASALTRGTGRPSVLLLPVRRESAGADTRPTVRPRNDVAH     55
+                                                                  |||.|
+asis              51 ---------------------------------------------NDVVH     55
+
+asis              56 KQLSAFGEYVAEILPKYVQQVQVSCFNELEVCIHPDGVIPVLTFLRDHTN    105
+                     |||||||:||||||||||||||||||||||:.||||||||||||||||||
+asis              56 KQLSAFGQYVAEILPKYVQQVQVSCFNELEIFIHPDGVIPVLTFLRDHTN    105
+
+asis             106 AQFKSLVDLTAVDVPTRQNRFEIVYNLLSLRFNSRIRVKTYTDELTPIES    155
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||||
+asis             106 AQFKSLADLTAVDVPTRQNRFEIVYNLLSLRFNSRIRVKTYTDELTPIES    155
+
+asis             156 AVSVFKAANWYEREIWDMFGVFFANHPDLRRILTDYGFEGHPFRKDFPLS    205
+                     :|:|:|||||||||||||||||||||||||||||||||||||||||||||
+asis             156 SVTVYKAANWYEREIWDMFGVFFANHPDLRRILTDYGFEGHPFRKDFPLS    205
+
+asis             206 GYVELRYDDEVKRVVAEPVELAQEFRKFDLNSPWEAFPVYRQPPESLKLE    255
+                     ||||||||||||||                                    
+asis             206 GYVELRYDDEVKRV------------------------------------    219
+
+asis             256 AGDKKPDAK    264
+                              
+asis             219 ---------    219
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:40:10
+# Commandline: needle
+#    -outfile ./Recon3D/genes/389898.1/389898.1_protein/sequences/Q5JXB2-1_3von-X.needle
+#    -asequence asis::MAELPHRIIKETQRLLAEPVPGIKAEPDESNARYFHVVIAGESKDSPFEGGTFKRELLLAEEYPMAAPKVRFMTKIYHPNVDKLERISLDILKDKWSPALQIRTVLLSIQALLNAPNPDDPLANDVVEQWKTNEAQAIETARAWTRLYAMNSI
+#    -bsequence asis::XXXLPRRIIKETQRLLAEPVPGIKAEPDESNARYFHVVIAGPQDSPFEGGTFKLELFLPEEYPMAAPKVRFMTKIYHPNVDKLGRICLDILKDKWSPALQIRTVLLSIQALLSAPNPDDPLANDVAEQWKTNEAQAIETARAWTRLYAMN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/389898.1/389898.1_protein/sequences/Q5JXB2-1_3von-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 153
+# Identity:     137/153 (89.5%)
+# Similarity:   139/153 (90.8%)
+# Gaps:           3/153 ( 2.0%)
+# Score: 695.0
+# 
+#
+#=======================================
+
+asis               1 MAELPHRIIKETQRLLAEPVPGIKAEPDESNARYFHVVIAGESKDSPFEG     50
+                     ...||.||||||||||||||||||||||||||||||||||| .:||||||
+asis               1 XXXLPRRIIKETQRLLAEPVPGIKAEPDESNARYFHVVIAG-PQDSPFEG     49
+
+asis              51 GTFKRELLLAEEYPMAAPKVRFMTKIYHPNVDKLERISLDILKDKWSPAL    100
+                     ||||.||.|.||||||||||||||||||||||||.||.||||||||||||
+asis              50 GTFKLELFLPEEYPMAAPKVRFMTKIYHPNVDKLGRICLDILKDKWSPAL     99
+
+asis             101 QIRTVLLSIQALLNAPNPDDPLANDVVEQWKTNEAQAIETARAWTRLYAM    150
+                     |||||||||||||:||||||||||||.|||||||||||||||||||||||
+asis             100 QIRTVLLSIQALLSAPNPDDPLANDVAEQWKTNEAQAIETARAWTRLYAM    149
+
+asis             151 NSI    153
+                     |  
+asis             150 N--    150
+
+
+#---------------------------------------
+#---------------------------------------

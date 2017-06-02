@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:01:55
+# Commandline: needle
+#    -outfile ./Recon3D/genes/27010.1/27010.1_protein/sequences/Q9H3S4-1_3s4y-A.needle
+#    -asequence asis::MEHAFTPLEPLLSTGNLKYCLVILNQPLDNYFRHLWNKALLRACADGGANRLYDITEGERESFLPEFINGDFDSIRPEVREYYATKGCELISTPDQDHTDFTKCLKMLQKKIEEKDLKVDVIVTLGGLAGRFDQIMASVNTLFQATHITPFPIIIIQEESLIYLLQPGKHRLHVDTGMEGDWCGLIPVGQPCMQVTTTGLKWNLTNDVLAFGTLVSTSNTYDGSGVVTVETDHPLLWTMAIKS
+#    -bsequence asis::XXXXXXXXXXXXXXXNLKYCLVILNQPLDNYFRHLWNKALLRACADGGANRLYDITEGERESFLPEFINGDFDSIRPEVREYYATKGCELISTPDQDHTDFTKCLKMLQKKIEEKDLKVDVIVTLGGLAGRFDQIMASVNTLFQATHITPFPIIIIQEESLIYLLQPGKHRLHVXXXMEGDWCGLIPVGQPCMQVTTTGLKWNLTNDVLAFGTLVSTSNTYDGSGVVTVETDHPLLWTMAIK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/27010.1/27010.1_protein/sequences/Q9H3S4-1_3s4y-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 243
+# Identity:     224/243 (92.2%)
+# Similarity:   224/243 (92.2%)
+# Gaps:           1/243 ( 0.4%)
+# Score: 1180.0
+# 
+#
+#=======================================
+
+asis               1 MEHAFTPLEPLLSTGNLKYCLVILNQPLDNYFRHLWNKALLRACADGGAN     50
+                     ...............|||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXNLKYCLVILNQPLDNYFRHLWNKALLRACADGGAN     50
+
+asis              51 RLYDITEGERESFLPEFINGDFDSIRPEVREYYATKGCELISTPDQDHTD    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 RLYDITEGERESFLPEFINGDFDSIRPEVREYYATKGCELISTPDQDHTD    100
+
+asis             101 FTKCLKMLQKKIEEKDLKVDVIVTLGGLAGRFDQIMASVNTLFQATHITP    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 FTKCLKMLQKKIEEKDLKVDVIVTLGGLAGRFDQIMASVNTLFQATHITP    150
+
+asis             151 FPIIIIQEESLIYLLQPGKHRLHVDTGMEGDWCGLIPVGQPCMQVTTTGL    200
+                     ||||||||||||||||||||||||...|||||||||||||||||||||||
+asis             151 FPIIIIQEESLIYLLQPGKHRLHVXXXMEGDWCGLIPVGQPCMQVTTTGL    200
+
+asis             201 KWNLTNDVLAFGTLVSTSNTYDGSGVVTVETDHPLLWTMAIKS    243
+                     |||||||||||||||||||||||||||||||||||||||||| 
+asis             201 KWNLTNDVLAFGTLVSTSNTYDGSGVVTVETDHPLLWTMAIK-    242
+
+
+#---------------------------------------
+#---------------------------------------

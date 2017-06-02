@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:57:30
+# Commandline: needle
+#    -outfile ./Recon3D/genes/762.1/762.1_protein/sequences/P22748-1_3f7u-C.needle
+#    -asequence asis::MRMLLALLALSAARPSASAESHWCYEVQAESSNYPCLVPVKWGGNCQKDRQSPINIVTTKAKVDKKLGRFFFSGYDKKQTWTVQNNGHSVMMLLENKASISGGGLPAPYQAKQLHLHWSDLPYKGSEHSLDGEHFAMEMHIVHEKEKGTSRNVKEAQDPEDEIAVLAFLVEAGTQVNEGFQPLVEALSNIPKPEMSTTMAESSLLDLLPKEEKLRHYFRYLGSLTTPTCDEKVVWTVFREPIQLHREQILAFSQKLYYDKEQTVSMKDNVRPLQQLGQRTVIKSGAPGRPLPWALPALLGPMLACLLAGFLR
+#    -bsequence asis::XXXXWCYEVQAESCLVPVKWXXXGGNCQKDRQSPINIVTTKAKVDKKLGRFFFSGYDKKQTWTVQNNGHSVMMLLENXXXKASISGGGLPAPYQAKQLHLHWSDLPYKGSEHSLDGEHFAMEMHIVHEKEKXXXXXXXXXXPEDEIAVLAFLVEAGTQVNEGFQPLVEALSNIPKPEMSTTMAESSLLDLLPKEEKLRHYFRYLGSLTTPTCDEKVVWTVFREPIQLHREQILAFSQKLYYDKXXEQTVSMKDNVRPLQQLGQRTVIKS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/762.1/762.1_protein/sequences/P22748-1_3f7u-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 320
+# Identity:     247/320 (77.2%)
+# Similarity:   247/320 (77.2%)
+# Gaps:          59/320 (18.4%)
+# Score: 1247.0
+# 
+#
+#=======================================
+
+asis               1 MRMLLALLALSAARPSASAESHWCYEVQAESSNYPCLVPVKW---GGNCQ     47
+                                       ....|||||||||    |||||||   |||||
+asis               1 ------------------XXXXWCYEVQAES----CLVPVKWXXXGGNCQ     28
+
+asis              48 KDRQSPINIVTTKAKVDKKLGRFFFSGYDKKQTWTVQNNGHSVMMLLEN-     96
+                     ||||||||||||||||||||||||||||||||||||||||||||||||| 
+asis              29 KDRQSPINIVTTKAKVDKKLGRFFFSGYDKKQTWTVQNNGHSVMMLLENX     78
+
+asis              97 --KASISGGGLPAPYQAKQLHLHWSDLPYKGSEHSLDGEHFAMEMHIVHE    144
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+asis              79 XXKASISGGGLPAPYQAKQLHLHWSDLPYKGSEHSLDGEHFAMEMHIVHE    128
+
+asis             145 KEKGTSRNVKEAQDPEDEIAVLAFLVEAGTQVNEGFQPLVEALSNIPKPE    194
+                     ||| ..........||||||||||||||||||||||||||||||||||||
+asis             129 KEK-XXXXXXXXXXPEDEIAVLAFLVEAGTQVNEGFQPLVEALSNIPKPE    177
+
+asis             195 MSTTMAESSLLDLLPKEEKLRHYFRYLGSLTTPTCDEKVVWTVFREPIQL    244
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             178 MSTTMAESSLLDLLPKEEKLRHYFRYLGSLTTPTCDEKVVWTVFREPIQL    227
+
+asis             245 HREQILAFSQKLYYDK--EQTVSMKDNVRPLQQLGQRTVIKSGAPGRPLP    292
+                     ||||||||||||||||  ||||||||||||||||||||||||        
+asis             228 HREQILAFSQKLYYDKXXEQTVSMKDNVRPLQQLGQRTVIKS--------    269
+
+asis             293 WALPALLGPMLACLLAGFLR    312
+                                         
+asis             269 --------------------    269
+
+
+#---------------------------------------
+#---------------------------------------

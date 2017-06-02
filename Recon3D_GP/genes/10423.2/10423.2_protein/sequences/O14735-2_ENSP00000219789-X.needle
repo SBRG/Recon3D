@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:24:19
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10423.2/10423.2_protein/sequences/O14735-2_ENSP00000219789-X.needle
+#    -asequence asis::MLPTAAGFSIWGQVGAAREAPRCQTKISSCSCPTSSVSAAHGPGPNERARGLGGLPDPALSPRVPFQGYARIVFAIISFYFMPCCPLTASSFYLLSGLLDAFDGHAARALNQGTRFGAMLDMLTDRCSTMCLLVNLALLYPGATLFFQISMSLDVASHWLHLHRSAAILGAWATWRHYSGVG
+#    -bsequence asis::MPDENIFLFVPNLIGYARIVFAIISFYFMPCCPLTASSFYLLSGLLDAFDGHAARALNQGTRFGAMLDMLTDRCSTMCLLVNLALLYPGATLFFQISMSLDVASHWLHLHSSVVRGSESHKMIDLSGNPVLRIYYTSRPALFTLCAGNELFYCLLYLFHFSEGPLVGSVGLFRMGLWVTAPIALLKSLISVIHLITAARNMAALDAADRAKKK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10423.2/10423.2_protein/sequences/O14735-2_ENSP00000219789-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 272
+# Identity:     102/272 (37.5%)
+# Similarity:   109/272 (40.1%)
+# Gaps:         149/272 (54.8%)
+# Score: 501.5
+# 
+#
+#=======================================
+
+asis               1 MLPTAAGFSIWGQVGAAREAPRCQTKISSCSCPTSSVSAAHGPGPNERAR     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 GLGGLPDPALSPRVP-FQGYARIVFAIISFYFMPCCPLTASSFYLLSGLL     99
+                         :||..:...|| ..||||||||||||||||||||||||||||||||
+asis               1 ----MPDENIFLFVPNLIGYARIVFAIISFYFMPCCPLTASSFYLLSGLL     46
+
+asis             100 DAFDGHAARALNQGTRFGAMLDMLTDRCSTMCLLVNLALLYPGATLFFQI    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              47 DAFDGHAARALNQGTRFGAMLDMLTDRCSTMCLLVNLALLYPGATLFFQI     96
+
+asis             150 SMSLDVASHWLHLHRSAAILGAWATWRHYSGVG-----------------    182
+                     |||||||||||||| |:.:.|:    ..:..:.                 
+asis              97 SMSLDVASHWLHLH-SSVVRGS----ESHKMIDLSGNPVLRIYYTSRPAL    141
+
+asis             182 --------------------------------------------------    182
+                                                                       
+asis             142 FTLCAGNELFYCLLYLFHFSEGPLVGSVGLFRMGLWVTAPIALLKSLISV    191
+
+asis             182 ----------------------    182
+                                           
+asis             192 IHLITAARNMAALDAADRAKKK    213
+
+
+#---------------------------------------
+#---------------------------------------

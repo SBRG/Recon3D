@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:02:46
+# Commandline: needle
+#    -outfile ./Recon3D/genes/98.1/98.1_protein/sequences/P14621-1_1aps-A.needle
+#    -asequence asis::MSTAQSLKSVDYEVFGRVQGVCFRMYTEDEARKIGVVGWVKNTSKGTVTGQVQGPEDKVNSMKSWLSKVGSPSSRIDRTNFSNEKTISKLEYSNFSIRY
+#    -bsequence asis::STARPLKSVDYEVFGRVQGVCFRMYAEDEARKIGVVGWVKNTSKGTVTGQVQGPEEKVNSMKSWLSKVGSPSSRIDRTNFSNEKTISKLEYSNFSVRY
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/98.1/98.1_protein/sequences/P14621-1_1aps-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      93/99 (93.9%)
+# Similarity:    96/99 (97.0%)
+# Gaps:           1/99 ( 1.0%)
+# Score: 486.0
+# 
+#
+#=======================================
+
+asis               1 MSTAQSLKSVDYEVFGRVQGVCFRMYTEDEARKIGVVGWVKNTSKGTVTG     50
+                      |||:.||||||||||||||||||||.|||||||||||||||||||||||
+asis               1 -STARPLKSVDYEVFGRVQGVCFRMYAEDEARKIGVVGWVKNTSKGTVTG     49
+
+asis              51 QVQGPEDKVNSMKSWLSKVGSPSSRIDRTNFSNEKTISKLEYSNFSIRY     99
+                     ||||||:|||||||||||||||||||||||||||||||||||||||:||
+asis              50 QVQGPEEKVNSMKSWLSKVGSPSSRIDRTNFSNEKTISKLEYSNFSVRY     98
+
+
+#---------------------------------------
+#---------------------------------------

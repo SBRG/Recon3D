@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:54:07
+# Commandline: needle
+#    -outfile ./Recon3D/genes/79178.1/79178.1_protein/sequences/Q9BU02-1_3tvl-A.needle
+#    -asequence asis::MAQGLIEVERKFLPGPGTEERLQELGGTLEYRVTFRDTYYDTPELSLMQADHWLRRREDSGWELKCPGAAGVLGPHTEYKELTAEPTIVAQLCKVLRADGLGAGDVAAVLGPLGLQEVASFVTKRSAWKLVLLGADEEEPQLRVDLDTADFGYAVGEVEALVHEEAEVPTALEKIHRLSSMLGVPAQETAPAKLIVYLQRFRPQDYQRLLEVNSSRERPQETEDPDHCLG
+#    -bsequence asis::XXXGLIEVERKFLPGPGTEERLQELGGTLEYRVTFRDTYYDTPELSLMQADHWLRRREDSGWELKCPGAAGVLGPHTEYKELTAEPTIVAQLCKVLRADGLGAGDVAAVLGPLGLQEVASFVTKRSAWKLVLXXXXXXXPQLRVDLDTADFGYAVGEVEALVHEEAEVPTALEKIHRLSSMLGVPAQETAPAKLIVYLQRFRPQDYQRLLEVNS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/79178.1/79178.1_protein/sequences/Q9BU02-1_3tvl-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:     204/230 (88.7%)
+# Similarity:   204/230 (88.7%)
+# Gaps:          16/230 ( 7.0%)
+# Score: 1044.0
+# 
+#
+#=======================================
+
+asis               1 MAQGLIEVERKFLPGPGTEERLQELGGTLEYRVTFRDTYYDTPELSLMQA     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXGLIEVERKFLPGPGTEERLQELGGTLEYRVTFRDTYYDTPELSLMQA     50
+
+asis              51 DHWLRRREDSGWELKCPGAAGVLGPHTEYKELTAEPTIVAQLCKVLRADG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 DHWLRRREDSGWELKCPGAAGVLGPHTEYKELTAEPTIVAQLCKVLRADG    100
+
+asis             101 LGAGDVAAVLGPLGLQEVASFVTKRSAWKLVLLGADEEEPQLRVDLDTAD    150
+                     ||||||||||||||||||||||||||||||||.......|||||||||||
+asis             101 LGAGDVAAVLGPLGLQEVASFVTKRSAWKLVLXXXXXXXPQLRVDLDTAD    150
+
+asis             151 FGYAVGEVEALVHEEAEVPTALEKIHRLSSMLGVPAQETAPAKLIVYLQR    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 FGYAVGEVEALVHEEAEVPTALEKIHRLSSMLGVPAQETAPAKLIVYLQR    200
+
+asis             201 FRPQDYQRLLEVNSSRERPQETEDPDHCLG    230
+                     ||||||||||||||                
+asis             201 FRPQDYQRLLEVNS----------------    214
+
+
+#---------------------------------------
+#---------------------------------------

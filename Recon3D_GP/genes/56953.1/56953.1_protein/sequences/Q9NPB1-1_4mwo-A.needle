@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:38:36
+# Commandline: needle
+#    -outfile ./Recon3D/genes/56953.1/56953.1_protein/sequences/Q9NPB1-1_4mwo-A.needle
+#    -asequence asis::MIRLGGWCARRLCSAAVPAGRRGAAGGLGLAGGRALRVLVDMDGVLADFEGGFLRKFRARFPDQPFIALEDRRGFWVSEQYGRLRPGLSEKAISIWESKNFFFELEPLPGAVEAVKEMASLQNTDVFICTSPIKMFKYCPYEKYAWVEKYFGPDFLEQIVLTRDKTVVSADLLIDDRPDITGAEPTPSWEHVLFTACHNQHLQLQPPRRRLHSWADDWKAILDSKRPC
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXALRVLVDMDGVLADFEGGFLRKFRARFPDQPFIALEDRRGFWVSEQYGRLRPGLSEKAISIWESKNFFFELEPLPGAVEAVKEMASLQNTDVFICTSPIKMFKYCPYEKYAWVEKYFGPDFLEQIVLTRDKTVVSADLLIDDRPDITGAEPTPSWEHVLFTACHNQHLQLQPPRRRLHSWADDWKAILDSKRP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/56953.1/56953.1_protein/sequences/Q9NPB1-1_4mwo-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 262
+# Identity:     193/262 (73.7%)
+# Similarity:   193/262 (73.7%)
+# Gaps:          69/262 (26.3%)
+# Score: 1013.5
+# 
+#
+#=======================================
+
+asis               1 MIRLGGWCARRLCSAAVPAGRRGAAGGLGLAGGR----------------     34
+                                                                       
+asis               1 ----------------------------------XXXXXXXXXXXXXXXX     16
+
+asis              35 ------------------ALRVLVDMDGVLADFEGGFLRKFRARFPDQPF     66
+                                       ||||||||||||||||||||||||||||||||
+asis              17 XXXXXXXXXXXXXXXXXXALRVLVDMDGVLADFEGGFLRKFRARFPDQPF     66
+
+asis              67 IALEDRRGFWVSEQYGRLRPGLSEKAISIWESKNFFFELEPLPGAVEAVK    116
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              67 IALEDRRGFWVSEQYGRLRPGLSEKAISIWESKNFFFELEPLPGAVEAVK    116
+
+asis             117 EMASLQNTDVFICTSPIKMFKYCPYEKYAWVEKYFGPDFLEQIVLTRDKT    166
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             117 EMASLQNTDVFICTSPIKMFKYCPYEKYAWVEKYFGPDFLEQIVLTRDKT    166
+
+asis             167 VVSADLLIDDRPDITGAEPTPSWEHVLFTACHNQHLQLQPPRRRLHSWAD    216
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             167 VVSADLLIDDRPDITGAEPTPSWEHVLFTACHNQHLQLQPPRRRLHSWAD    216
+
+asis             217 DWKAILDSKRPC    228
+                     ||||||||||| 
+asis             217 DWKAILDSKRP-    227
+
+
+#---------------------------------------
+#---------------------------------------

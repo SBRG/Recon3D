@@ -1,0 +1,906 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:13:02
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8085.1/8085.1_protein/sequences/O14686-1_4erq-E.needle
+#    -asequence asis::MDSQKLAGEDKDSEPAADGPAASEDPSATESDLPNPHVGEVSVLSSGSPRLQETPQDCSGGPVRRCALCNCGEPSLHGQRELRRFELPFDWPRCPVVSPGGSPGPNEAVLPSEDLSQIGFPEGLTPAHLGEPGGSCWAHHWCAAWSAGVWGQEGPELCGVDKAIFSGISQRCSHCTRLGASIPCRSPGCPRLYHFPCATASGSFLSMKTLQLLCPEHSEGAAYLEEARCAVCEGPGELCDLFFCTSCGHHYHGACLDTALTARKRAGWQCPECKVCQACRKPGNDSKMLVCETCDKGYHTFCLKPPMEELPAHSWKCKACRVCRACGAGSAELNPNSEWFENYSLCHRCHKAQGGQTIRSVAEQHTPVCSRFSPPEPGDTPTDEPDALYVACQGQPKGGHVTSMQPKEPGPLQCEAKPLGKAGVQLEPQLEAPLNEEMPLLPPPEESPLSPPPEESPTSPPPEASRLSPPPEELPASPLPEALHLSRPLEESPLSPPPEESPLSPPPESSPFSPLEESPLSPPEESPPSPALETPLSPPPEASPLSPPFEESPLSPPPEELPTSPPPEASRLSPPPEESPMSPPPEESPMSPPPEASRLFPPFEESPLSPPPEESPLSPPPEASRLSPPPEDSPMSPPPEESPMSPPPEVSRLSPLPVVSRLSPPPEESPLSPPPEESPTSPPPEASRLSPPPEDSPTSPPPEDSPASPPPEDSLMSLPLEESPLLPLPEEPQLCPRSEGPHLSPRPEEPHLSPRPEEPHLSPQAEEPHLSPQPEEPCLCAVPEEPHLSPQAEGPHLSPQPEELHLSPQTEEPHLSPVPEEPCLSPQPEESHLSPQSEEPCLSPRPEESHLSPELEKPPLSPRPEKPPEEPGQCPAPEELPLFPPPGEPSLSPLLGEPALSEPGEPPLSPLPEELPLSPSGEPSLSPQLMPPDPLPPPLSPIITAAAPPALSPLGELEYPFGAKGDSDPESPLAAPILETPISPPPEANCTDPEPVPPMILPPSPGSPVGPASPILMEPLPPQCSPLLQHSLVPQNSPPSQCSPPALPLSVPSPLSPIGKVVGVSDEAELHEMETEKVSEPECPALEPSATSPLPSPMGDLSCPAPSPAPALDDFSGLGEDTAPLDGIDAPGSQPEPGQTPGSLASELKGSPVLLDPEELAPVTPMEVYPECKQTAGQGSPCEEQEEPRAPVAPTPPTLIKSDIVNEISNLSQGDASASFPGSEPLLGSPDPEGGGSLSMELGVSTDVSPARDEGSLRLCTDSLPETDDSLLCDAGTAISGGKAEGEKGRRRSSPARSRIKQGRSSSFPGRRRPRGGAHGGRGRGRARLKSTASSIETLVVADIDSSPSKEEEEEDDDTMQNTVVLFSNTDKFVLMQDMCVVCGSFGRGAEGHLLACSQCSQCYHPYCVNSKITKVMLLKGWRCVECIVCEVCGQASDPSRLLLCDDCDISYHTYCLDPPLLTVPKGGWKCKWCVSCMQCGAASPGFHCEWQNSYTHCGPCASLVTCPICHAPYVEEDLLIQCRHCERWMHAGCESLFTEDDVEQAADEGFDCVSCQPYVVKPVAPVAPPELVPMKVKEPEPQYFRFEGVWLTETGMALLRNLTMSPLHKRRQRRGRLGLPGEAGLEGSEPSDALGPDDKKDGDLDTDELLKGEGGVEHMECEIKLEGPVSPDVEPGKEETEESKKRKRKPYRPGIGGFMVRQRKSHTRTKKGPAAQAEVLSGDGQPDEVIPADLPAEGAVEQSLAEGDEKKKQQRRGRKKSKLEDMFPAYLQEAFFGKELLDLSRKALFAVGVGRPSFGLGTPKAKGDGGSERKELPTSQKGDDGPDIADEESRGLEGKADTPGPEDGGVKASPVPSDPEKPGTPGEGMLSSDLDRISTEELPKMESKDLQQLFKDVLGSEREQHLGCGTPGLEGSRTPLQRPFLQGGLPLGNLPSSSPMDSYPGLCQSPFLDSRERGGFFSPEPGEPDSPWTGSGGTTPSTPTTPTTEGEGDGLSYNQRSLQRWEKDEELGQLSTISPVLYANINFPNLKQDYPDWSSRCKQIMKLWRKVPAADKAPYLQKAKDNRAAHRINKVQKQAESQINKQTKVGDIARKTDRPALHLRIPPQPGALGSPPPAAAPTIFIGSPTTPAGLSTSADGFLKPPAGSVPGPDSPGELFLKLPPQVPAQVPSQDPFGLAPAYPLEPRFPTAPPTYPPYPSPTGAPAQPPMLGASSRPGAGQPGEFHTTPPGTPRHQPSTPDPFLKPRCPSLDNLAVPESPGVGGGKASEPLLSPPPFGESRKALEVKKEELGASSPSYGPPNLGFVDSPSSGTHLGGLELKTPDVFKAPLTPRASQVEPQSPGLGLRPQEPPPAQALAPSPPSHPDIFRPGSYTDPYAQPPLTPRPQPPPPESCCALPPRSLPSDPFSRVPASPQSQSSSQSPLTPRPLSAEAFCPSPVTPRFQSPDPYSRPPSRPQSRDPFAPLHKPPRPQPPEVAFKAGSLAHTSLGAGGFPAALPAGPAGELHAKVPSGQPPNFVRSPGTGAFVGTPSPMRFTFPQAVGEPSLKPPVPQPGLPPPHGINSHFGPGPTLGKPQSTNYTVATGNFHPSGSPLGPSSGSTGESYGLSPLRPPSVLPPPAPDGSLPYLSHGASQRSGITSPVEKREDPGTGMGSSLATAELPGTQDPGMSGLSQTELEKQRQRQRLRELLIRQQIQRNTLRQEKETAAAAAGAVGPPGSWGAEPSSPAFEQLSRGQTPFAGTQDKSSLVGLPPSKLSGPILGPGSFPSDDRLSRPPPPATPSSMDVNSRQLVGGSQAFYQRAPYPGSLPLQQQQQQLWQQQQATAATSMRFAMSARFPSTPGPELGRQALGSPLAGISTRLPGPGEPVPGPAGPAQFIELRHNVQKGLGPGGTPFPGQGPPQRPRFYPVSEDPHRLAPEGLRGLAVSGLPPQKPSAPPAPELNNSLHPTPHTKGPTLPTGLELVNRPPSSTELGRPNPLALEAGKLPCEDPELDDDFDAHKALEDDEELAHLGLGVDVAKGDDELGTLENLETNDPHLDDLLNGDEFDLLAYTDPELDTGDKKDIFNEHLRLVESANEKAEREALLRGVEPGPLGPEERPPPAADASEPRLASVLPEVKPKVEEGGRHPSPCQFTIATPKVEPAPAANSLGLGLKPGQSMMGSRDTRMGTGPFSSSGHTAEKASFGATGGPPAHLLTPSPLSGPGGSSLLEKFELESGALTLPGGPAASGDELDKMESSLVASELPLLIEDLLEHEKKELQKKQQLSAQLQPAQQQQQQQQQHSLLSAPGPAQAMSLPHEGSSPSLAGSQQQLSLGLAGARQPGLPQPLMPTQPPAHALQQRLAPSMAMVSNQGHMLSGQHGGQAGLVPQQSSQPVLSQKPMGTMPPSMCMKPQQLAMQQQLANSFFPDTDLDKFAAEDIIDPIAKAKMVALKGIKKVMAQGSIGVAPGMNRQQVSLLAQRLSGGPSSDLQNHVAAGSGQERSAGDPSQPRPNPPTFAQGVINEADQRQYEEWLFHTQQLLQMQLKVLEEQIGVHRKSRKALCAKQRTAKKAGREFPEADAEKLKLVTEQQSKIQKQLDQVRKQQKEHTNLMAEYRNKQQQQQQQQQQQQQQHSAVLALSPSQSPRLLTKLPGQLLPGHGLQPPQGPPGGQAGGLRLTPGGMALPGQPGGPFLNTALAQQQQQQHSGGAGSLAGPSGGFFPGNLALRSLGPDSRLLQERQLQLQQQRMQLAQKLQQQQQQQQQQQHLLGQVAIQQQQQQGPGVQTNQALGPKPQGLMPPSSHQGLLVQQLSPQPPQGPQGMLGPAQVAVLQQQHPGALGPQGPHRQVLMTQSRVLSSPQLAQQGQGLMGHRLVTAQQQQQQQQHQQQGSMAGLSHLQQSLMSHSGQPKLSAQPMGSLQQLQQQQQLQQQQQLQQQQQQQLQQQQQLQQQQLQQQQQQQQLQQQQQQQLQQQQQQLQQQQQQQQQQFQQQQQQQQMGLLNQSRTLLSPQQQQQQQVALGPGMPAKPLQHFSSPGALGPTLLLTGKEQNTVDPAVSSEATEGPSTHQGGPLAIGTTPESMATEPGEVKPSLSGDSQLLLVQPQPQPQPSSLQLQPPLRLPGQQQQQVSLLHTAGGGSHGQLGSGSSSEASSVPHLLAQPSVSLGDQPGSMTQNLLGPQQPMLERPMQNNTGPQPPKPGPVLQSGQGLPGVGIMPTVGQLRAQLQGVLAKNPQLRHLSPQQQQQLQALLMQRQLQQSQAVRQTPPYQEPGTQTSPLQGLLGCQPQLGGFPGPQTGPLQELGAGPRPQGPPRLPAPPGALSTGPVLGPVHPTPPPSSPQEPKRPSQLPSPSSQLPTEAQLPPTHPGTPKPQGPTLEPPPGRVSPAAAQLADTLFSKGLGPWDPPDNLAETQKPEQSSLVPGHLDQVNGQVVPEASQLSIKQEPREEPCALGAQSVKREANGEPIGAPGTSNHLLLAGPRSEAGHLLLQKLLRAKNVQLSTGRGSEGLRAEINGHIDSKLAGLEQKLQGTPSNKEDAAARKPLTPKPKRVQKASDRLVSSRKKLRKEDGVRASEALLKQLKQELSLLPLTEPAITANFSLFAPFGSGCPVNGQSQLRGAFGSGALPTGPDYYSQLLTKNNLSNPPTPPSSLPPTPPPSVQQKMVNGVTPSEELGEHPKDAASARDSERALRDTSEVKSLDLLAALPTPPHNQTEDVRMESDEDSDSPDSIVPASSPESILGEEAPRFPHLGSGRWEQEDRALSPVIPLIPRASIPVFPDTKPYGALGLEVPGKLPVTTWEKGKGSEVSVMLTVSAAAAKNLNGVMVAVAELLSMKIPNSYEVLFPESPARAGTEPKKGEAEGPGGKEKGLEGKSPDTGPDWLKQFDAVLPGYTLKSQLDILSLLKQESPAPEPPTQHSYTYNVSNLDVRQLSAPPPEEPSPPPSPLAPSPASPPTEPLVELPTEPLAEPPVPSPLPLASSPESARPKPRARPPEEGEDSRPPRLKKWKGVRWKRLRLLLTIQKGSGRQEDEREVAEFMEQLGTALRPDKVPRDMRRCCFCHEEGDGATDGPARLLNLDLDLWVHLNCALWSTEVYETQGGALMNVEVALHRGLLTKCSLCQRTGATSSCNRMRCPNVYHFACAIRAKCMFFKDKTMLCPMHKIKGPCEQELSSFAVFRRVYIERDEVKQIASIIQRGERLHMFRVGGLVFHAIGQLLPHQMADFHSATALYPVGYEATRIYWSLRTNNRRCCYRCSIGENNGRPEFVIKVIEQGLEDLVFTDASPQAVWNRIIEPVAAMRKEADMLRLFPEYLKGEELFGLTVHAVLRIAESLPGVESCQNYLFRYGRHPLMELPLMINPTGCARSEPKILTHYKRPHTLNSTSMSKAYQSTFTGETNTPYSKQFVHSKSSQYRRLRTEWKNNVYLARSRIQGLGLYAAKDLEKHTMVIEYIGTIIRNEVANRREKIYEEQNRGIYMFRINNEHVIDATLTGGPARYINHSCAPNCVAEVVTFDKEDKIIIISSRRIPKGEELTYDYQFDFEDDQHKIPCHCGAWNCRKWMN
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXINPTGCARSEPKI
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8085.1/8085.1_protein/sequences/O14686-1_4erq-E.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10876
+# Identity:       1/10876 ( 0.0%)
+# Similarity:     2/10876 ( 0.0%)
+# Gaps:       10870/10876 (99.9%)
+# Score: 5.0
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis              51 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    350
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    400
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    450
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    500
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    550
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    600
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    650
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    700
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    750
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    800
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    850
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    900
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    950
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1000
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1001 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1050
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1051 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1350
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1400
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1450
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1500
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1550
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1600
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1650
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1700
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1750
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1800
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1850
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1900
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1950
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2000
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2001 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2050
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2051 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2350
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2400
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2450
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2500
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2550
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2600
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2650
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2700
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2750
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2800
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2850
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2900
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2950
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3000
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3001 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3050
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3051 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3350
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3400
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3450
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3500
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3550
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3600
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3650
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3700
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3750
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3800
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3850
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3900
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3950
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4000
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4001 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4050
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4051 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4350
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4400
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4450
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4500
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4550
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4600
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4650
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4700
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4750
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4800
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4850
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4900
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4950
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   5000
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            5001 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   5050
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            5051 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   5100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            5101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   5150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            5151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   5200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            5201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   5250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            5251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   5300
+
+asis               1 ---------------------------------------MDSQKLAGEDK     11
+                                                            ....|:     
+asis            5301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXINPTGCARSEPKI-----   5345
+
+asis              12 DSEPAADGPAASEDPSATESDLPNPHVGEVSVLSSGSPRLQETPQDCSGG     61
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis              62 PVRRCALCNCGEPSLHGQRELRRFELPFDWPRCPVVSPGGSPGPNEAVLP    111
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             112 SEDLSQIGFPEGLTPAHLGEPGGSCWAHHWCAAWSAGVWGQEGPELCGVD    161
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             162 KAIFSGISQRCSHCTRLGASIPCRSPGCPRLYHFPCATASGSFLSMKTLQ    211
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             212 LLCPEHSEGAAYLEEARCAVCEGPGELCDLFFCTSCGHHYHGACLDTALT    261
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             262 ARKRAGWQCPECKVCQACRKPGNDSKMLVCETCDKGYHTFCLKPPMEELP    311
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             312 AHSWKCKACRVCRACGAGSAELNPNSEWFENYSLCHRCHKAQGGQTIRSV    361
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             362 AEQHTPVCSRFSPPEPGDTPTDEPDALYVACQGQPKGGHVTSMQPKEPGP    411
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             412 LQCEAKPLGKAGVQLEPQLEAPLNEEMPLLPPPEESPLSPPPEESPTSPP    461
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             462 PEASRLSPPPEELPASPLPEALHLSRPLEESPLSPPPEESPLSPPPESSP    511
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             512 FSPLEESPLSPPEESPPSPALETPLSPPPEASPLSPPFEESPLSPPPEEL    561
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             562 PTSPPPEASRLSPPPEESPMSPPPEESPMSPPPEASRLFPPFEESPLSPP    611
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             612 PEESPLSPPPEASRLSPPPEDSPMSPPPEESPMSPPPEVSRLSPLPVVSR    661
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             662 LSPPPEESPLSPPPEESPTSPPPEASRLSPPPEDSPTSPPPEDSPASPPP    711
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             712 EDSLMSLPLEESPLLPLPEEPQLCPRSEGPHLSPRPEEPHLSPRPEEPHL    761
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             762 SPQAEEPHLSPQPEEPCLCAVPEEPHLSPQAEGPHLSPQPEELHLSPQTE    811
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             812 EPHLSPVPEEPCLSPQPEESHLSPQSEEPCLSPRPEESHLSPELEKPPLS    861
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             862 PRPEKPPEEPGQCPAPEELPLFPPPGEPSLSPLLGEPALSEPGEPPLSPL    911
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             912 PEELPLSPSGEPSLSPQLMPPDPLPPPLSPIITAAAPPALSPLGELEYPF    961
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis             962 GAKGDSDPESPLAAPILETPISPPPEANCTDPEPVPPMILPPSPGSPVGP   1011
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1012 ASPILMEPLPPQCSPLLQHSLVPQNSPPSQCSPPALPLSVPSPLSPIGKV   1061
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1062 VGVSDEAELHEMETEKVSEPECPALEPSATSPLPSPMGDLSCPAPSPAPA   1111
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1112 LDDFSGLGEDTAPLDGIDAPGSQPEPGQTPGSLASELKGSPVLLDPEELA   1161
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1162 PVTPMEVYPECKQTAGQGSPCEEQEEPRAPVAPTPPTLIKSDIVNEISNL   1211
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1212 SQGDASASFPGSEPLLGSPDPEGGGSLSMELGVSTDVSPARDEGSLRLCT   1261
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1262 DSLPETDDSLLCDAGTAISGGKAEGEKGRRRSSPARSRIKQGRSSSFPGR   1311
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1312 RRPRGGAHGGRGRGRARLKSTASSIETLVVADIDSSPSKEEEEEDDDTMQ   1361
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1362 NTVVLFSNTDKFVLMQDMCVVCGSFGRGAEGHLLACSQCSQCYHPYCVNS   1411
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1412 KITKVMLLKGWRCVECIVCEVCGQASDPSRLLLCDDCDISYHTYCLDPPL   1461
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1462 LTVPKGGWKCKWCVSCMQCGAASPGFHCEWQNSYTHCGPCASLVTCPICH   1511
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1512 APYVEEDLLIQCRHCERWMHAGCESLFTEDDVEQAADEGFDCVSCQPYVV   1561
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1562 KPVAPVAPPELVPMKVKEPEPQYFRFEGVWLTETGMALLRNLTMSPLHKR   1611
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1612 RQRRGRLGLPGEAGLEGSEPSDALGPDDKKDGDLDTDELLKGEGGVEHME   1661
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1662 CEIKLEGPVSPDVEPGKEETEESKKRKRKPYRPGIGGFMVRQRKSHTRTK   1711
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1712 KGPAAQAEVLSGDGQPDEVIPADLPAEGAVEQSLAEGDEKKKQQRRGRKK   1761
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1762 SKLEDMFPAYLQEAFFGKELLDLSRKALFAVGVGRPSFGLGTPKAKGDGG   1811
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1812 SERKELPTSQKGDDGPDIADEESRGLEGKADTPGPEDGGVKASPVPSDPE   1861
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1862 KPGTPGEGMLSSDLDRISTEELPKMESKDLQQLFKDVLGSEREQHLGCGT   1911
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1912 PGLEGSRTPLQRPFLQGGLPLGNLPSSSPMDSYPGLCQSPFLDSRERGGF   1961
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            1962 FSPEPGEPDSPWTGSGGTTPSTPTTPTTEGEGDGLSYNQRSLQRWEKDEE   2011
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2012 LGQLSTISPVLYANINFPNLKQDYPDWSSRCKQIMKLWRKVPAADKAPYL   2061
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2062 QKAKDNRAAHRINKVQKQAESQINKQTKVGDIARKTDRPALHLRIPPQPG   2111
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2112 ALGSPPPAAAPTIFIGSPTTPAGLSTSADGFLKPPAGSVPGPDSPGELFL   2161
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2162 KLPPQVPAQVPSQDPFGLAPAYPLEPRFPTAPPTYPPYPSPTGAPAQPPM   2211
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2212 LGASSRPGAGQPGEFHTTPPGTPRHQPSTPDPFLKPRCPSLDNLAVPESP   2261
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2262 GVGGGKASEPLLSPPPFGESRKALEVKKEELGASSPSYGPPNLGFVDSPS   2311
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2312 SGTHLGGLELKTPDVFKAPLTPRASQVEPQSPGLGLRPQEPPPAQALAPS   2361
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2362 PPSHPDIFRPGSYTDPYAQPPLTPRPQPPPPESCCALPPRSLPSDPFSRV   2411
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2412 PASPQSQSSSQSPLTPRPLSAEAFCPSPVTPRFQSPDPYSRPPSRPQSRD   2461
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2462 PFAPLHKPPRPQPPEVAFKAGSLAHTSLGAGGFPAALPAGPAGELHAKVP   2511
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2512 SGQPPNFVRSPGTGAFVGTPSPMRFTFPQAVGEPSLKPPVPQPGLPPPHG   2561
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2562 INSHFGPGPTLGKPQSTNYTVATGNFHPSGSPLGPSSGSTGESYGLSPLR   2611
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2612 PPSVLPPPAPDGSLPYLSHGASQRSGITSPVEKREDPGTGMGSSLATAEL   2661
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2662 PGTQDPGMSGLSQTELEKQRQRQRLRELLIRQQIQRNTLRQEKETAAAAA   2711
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2712 GAVGPPGSWGAEPSSPAFEQLSRGQTPFAGTQDKSSLVGLPPSKLSGPIL   2761
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2762 GPGSFPSDDRLSRPPPPATPSSMDVNSRQLVGGSQAFYQRAPYPGSLPLQ   2811
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2812 QQQQQLWQQQQATAATSMRFAMSARFPSTPGPELGRQALGSPLAGISTRL   2861
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2862 PGPGEPVPGPAGPAQFIELRHNVQKGLGPGGTPFPGQGPPQRPRFYPVSE   2911
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2912 DPHRLAPEGLRGLAVSGLPPQKPSAPPAPELNNSLHPTPHTKGPTLPTGL   2961
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            2962 ELVNRPPSSTELGRPNPLALEAGKLPCEDPELDDDFDAHKALEDDEELAH   3011
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3012 LGLGVDVAKGDDELGTLENLETNDPHLDDLLNGDEFDLLAYTDPELDTGD   3061
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3062 KKDIFNEHLRLVESANEKAEREALLRGVEPGPLGPEERPPPAADASEPRL   3111
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3112 ASVLPEVKPKVEEGGRHPSPCQFTIATPKVEPAPAANSLGLGLKPGQSMM   3161
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3162 GSRDTRMGTGPFSSSGHTAEKASFGATGGPPAHLLTPSPLSGPGGSSLLE   3211
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3212 KFELESGALTLPGGPAASGDELDKMESSLVASELPLLIEDLLEHEKKELQ   3261
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3262 KKQQLSAQLQPAQQQQQQQQQHSLLSAPGPAQAMSLPHEGSSPSLAGSQQ   3311
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3312 QLSLGLAGARQPGLPQPLMPTQPPAHALQQRLAPSMAMVSNQGHMLSGQH   3361
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3362 GGQAGLVPQQSSQPVLSQKPMGTMPPSMCMKPQQLAMQQQLANSFFPDTD   3411
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3412 LDKFAAEDIIDPIAKAKMVALKGIKKVMAQGSIGVAPGMNRQQVSLLAQR   3461
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3462 LSGGPSSDLQNHVAAGSGQERSAGDPSQPRPNPPTFAQGVINEADQRQYE   3511
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3512 EWLFHTQQLLQMQLKVLEEQIGVHRKSRKALCAKQRTAKKAGREFPEADA   3561
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3562 EKLKLVTEQQSKIQKQLDQVRKQQKEHTNLMAEYRNKQQQQQQQQQQQQQ   3611
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3612 QHSAVLALSPSQSPRLLTKLPGQLLPGHGLQPPQGPPGGQAGGLRLTPGG   3661
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3662 MALPGQPGGPFLNTALAQQQQQQHSGGAGSLAGPSGGFFPGNLALRSLGP   3711
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3712 DSRLLQERQLQLQQQRMQLAQKLQQQQQQQQQQQHLLGQVAIQQQQQQGP   3761
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3762 GVQTNQALGPKPQGLMPPSSHQGLLVQQLSPQPPQGPQGMLGPAQVAVLQ   3811
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3812 QQHPGALGPQGPHRQVLMTQSRVLSSPQLAQQGQGLMGHRLVTAQQQQQQ   3861
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3862 QQHQQQGSMAGLSHLQQSLMSHSGQPKLSAQPMGSLQQLQQQQQLQQQQQ   3911
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3912 LQQQQQQQLQQQQQLQQQQLQQQQQQQQLQQQQQQQLQQQQQQLQQQQQQ   3961
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            3962 QQQQFQQQQQQQQMGLLNQSRTLLSPQQQQQQQVALGPGMPAKPLQHFSS   4011
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4012 PGALGPTLLLTGKEQNTVDPAVSSEATEGPSTHQGGPLAIGTTPESMATE   4061
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4062 PGEVKPSLSGDSQLLLVQPQPQPQPSSLQLQPPLRLPGQQQQQVSLLHTA   4111
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4112 GGGSHGQLGSGSSSEASSVPHLLAQPSVSLGDQPGSMTQNLLGPQQPMLE   4161
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4162 RPMQNNTGPQPPKPGPVLQSGQGLPGVGIMPTVGQLRAQLQGVLAKNPQL   4211
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4212 RHLSPQQQQQLQALLMQRQLQQSQAVRQTPPYQEPGTQTSPLQGLLGCQP   4261
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4262 QLGGFPGPQTGPLQELGAGPRPQGPPRLPAPPGALSTGPVLGPVHPTPPP   4311
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4312 SSPQEPKRPSQLPSPSSQLPTEAQLPPTHPGTPKPQGPTLEPPPGRVSPA   4361
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4362 AAQLADTLFSKGLGPWDPPDNLAETQKPEQSSLVPGHLDQVNGQVVPEAS   4411
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4412 QLSIKQEPREEPCALGAQSVKREANGEPIGAPGTSNHLLLAGPRSEAGHL   4461
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4462 LLQKLLRAKNVQLSTGRGSEGLRAEINGHIDSKLAGLEQKLQGTPSNKED   4511
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4512 AAARKPLTPKPKRVQKASDRLVSSRKKLRKEDGVRASEALLKQLKQELSL   4561
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4562 LPLTEPAITANFSLFAPFGSGCPVNGQSQLRGAFGSGALPTGPDYYSQLL   4611
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4612 TKNNLSNPPTPPSSLPPTPPPSVQQKMVNGVTPSEELGEHPKDAASARDS   4661
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4662 ERALRDTSEVKSLDLLAALPTPPHNQTEDVRMESDEDSDSPDSIVPASSP   4711
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4712 ESILGEEAPRFPHLGSGRWEQEDRALSPVIPLIPRASIPVFPDTKPYGAL   4761
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4762 GLEVPGKLPVTTWEKGKGSEVSVMLTVSAAAAKNLNGVMVAVAELLSMKI   4811
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4812 PNSYEVLFPESPARAGTEPKKGEAEGPGGKEKGLEGKSPDTGPDWLKQFD   4861
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4862 AVLPGYTLKSQLDILSLLKQESPAPEPPTQHSYTYNVSNLDVRQLSAPPP   4911
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4912 EEPSPPPSPLAPSPASPPTEPLVELPTEPLAEPPVPSPLPLASSPESARP   4961
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            4962 KPRARPPEEGEDSRPPRLKKWKGVRWKRLRLLLTIQKGSGRQEDEREVAE   5011
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5012 FMEQLGTALRPDKVPRDMRRCCFCHEEGDGATDGPARLLNLDLDLWVHLN   5061
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5062 CALWSTEVYETQGGALMNVEVALHRGLLTKCSLCQRTGATSSCNRMRCPN   5111
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5112 VYHFACAIRAKCMFFKDKTMLCPMHKIKGPCEQELSSFAVFRRVYIERDE   5161
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5162 VKQIASIIQRGERLHMFRVGGLVFHAIGQLLPHQMADFHSATALYPVGYE   5211
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5212 ATRIYWSLRTNNRRCCYRCSIGENNGRPEFVIKVIEQGLEDLVFTDASPQ   5261
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5262 AVWNRIIEPVAAMRKEADMLRLFPEYLKGEELFGLTVHAVLRIAESLPGV   5311
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5312 ESCQNYLFRYGRHPLMELPLMINPTGCARSEPKILTHYKRPHTLNSTSMS   5361
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5362 KAYQSTFTGETNTPYSKQFVHSKSSQYRRLRTEWKNNVYLARSRIQGLGL   5411
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5412 YAAKDLEKHTMVIEYIGTIIRNEVANRREKIYEEQNRGIYMFRINNEHVI   5461
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5462 DATLTGGPARYINHSCAPNCVAEVVTFDKEDKIIIISSRRIPKGEELTYD   5511
+                                                                       
+asis            5345 --------------------------------------------------   5345
+
+asis            5512 YQFDFEDDQHKIPCHCGAWNCRKWMN   5537
+                                               
+asis            5345 --------------------------   5345
+
+
+#---------------------------------------
+#---------------------------------------

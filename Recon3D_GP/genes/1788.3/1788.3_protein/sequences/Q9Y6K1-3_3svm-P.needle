@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:27:27
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1788.3/1788.3_protein/sequences/Q9Y6K1-3_3svm-P.needle
+#    -asequence asis::MPAMPSSGPGDTSSSAAEREEDRKDGEEQEEPRGKEERQEPSTTARKVGRPGRKRKHPPVESGDTPKDPAVISKSPSMAQDSGASELLPNGDLEKRSEPQPEEGSPAGGQKGGAPAEGEGAAETLPEASRAVENGCCTPKEGRGAPAEAGESSAPGAASSGPTSIP
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYEPSTTARXVGR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1788.3/1788.3_protein/sequences/Q9Y6K1-3_3svm-P.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:      10/205 ( 4.9%)
+# Similarity:    10/205 ( 4.9%)
+# Gaps:         194/205 (94.6%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+asis               1 MPAMPSSGPGDTSSSAAEREEDRKDGEEQEEPRGKEERQ-----------     39
+                                                                       
+asis               1 ---------------------------------------XXXXXXXXXXX     11
+
+asis              40 ----------------------------EPSTTARKVGRPGRKRKHPPVE     61
+                                                 |||||||.|||           
+asis              12 XXXXXXXXXXXXXXXXXXXXXXXXXXXYEPSTTARXVGR-----------     50
+
+asis              62 SGDTPKDPAVISKSPSMAQDSGASELLPNGDLEKRSEPQPEEGSPAGGQK    111
+                                                                       
+asis              50 --------------------------------------------------     50
+
+asis             112 GGAPAEGEGAAETLPEASRAVENGCCTPKEGRGAPAEAGESSAPGAASSG    161
+                                                                       
+asis              50 --------------------------------------------------     50
+
+asis             162 PTSIP    166
+                          
+asis              50 -----     50
+
+
+#---------------------------------------
+#---------------------------------------

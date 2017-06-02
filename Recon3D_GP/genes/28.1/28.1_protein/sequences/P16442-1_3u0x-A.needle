@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:19:52
+# Commandline: needle
+#    -outfile ./Recon3D/genes/28.1/28.1_protein/sequences/P16442-1_3u0x-A.needle
+#    -asequence asis::MAEVLRTLAGKPKCHALRPMILFLIMLVLVLFGYGVLSPRSLMPGSLERGFCMAVREPDHLQRVSLPRMVYPQPKVLTPCRKDVLVVTPWLAPIVWEGTFNIDILNEQFRLQNTTIGLTVFAIKKYVAFLKLFLETAEKHFMVGHRVHYYVFTDQPAAVPRVTLGTGRQLSVLEVRAYKRWQDVSMRRMEMISDFCERRFLSEVDYLVCVDVDMEFRDHVGVEILTPLFGTLHPGFYGSSREAFTYERRPQSQAYIPKDEGDFYYLGGFFGGSVQEVQRLTRACHQAMMVDQANGIEAVWHDESHLNKYLLRHKPTKVLSPEYLWDQQLLGWPAVLRKLRFTAVPKNHQAVRNP
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAIGEFMVSLPRMVYPQPKVLTPCRKDVLVVTPWLAPIVWEGTFNIDILNEQFRLQNTTIGLTVFAIKKYVAFLKLFLETAEKHFMVGHRVHYYVFTDQPAAVPRVTLGTGRQLSVLEVXXXXXWQDVSMRRMEMISDFCERRFLSEVDYLVCVDVDMEFRDHVGVEILTPLFGTLHPSFYGSSREAFTYERRPQSQAYIPKDEGDFYYMGAFFGGSVQEVQRLTRACHQAMMVDQANGIEAVWHDESHLNKYLLRHKPTKVLSPEYLWDQQLLGWPAVLRKLRFTAVPKNHQAVR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/28.1/28.1_protein/sequences/P16442-1_3u0x-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 412
+# Identity:     282/412 (68.4%)
+# Similarity:   285/412 (69.2%)
+# Gaps:         118/412 (28.6%)
+# Score: 1466.5
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               1 --------MAEVLRTLAGKPKCHALRPMILFLIMLVLVLFGYGVLSPRSL     42
+                             :.|.:                                     
+asis              51 XXXXXXXAIGEFM-------------------------------------     63
+
+asis              43 MPGSLERGFCMAVREPDHLQRVSLPRMVYPQPKVLTPCRKDVLVVTPWLA     92
+                                          |||||||||||||||||||||||||||||
+asis              64 ---------------------VSLPRMVYPQPKVLTPCRKDVLVVTPWLA     92
+
+asis              93 PIVWEGTFNIDILNEQFRLQNTTIGLTVFAIKKYVAFLKLFLETAEKHFM    142
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              93 PIVWEGTFNIDILNEQFRLQNTTIGLTVFAIKKYVAFLKLFLETAEKHFM    142
+
+asis             143 VGHRVHYYVFTDQPAAVPRVTLGTGRQLSVLEVRAYKRWQDVSMRRMEMI    192
+                     |||||||||||||||||||||||||||||||||.....||||||||||||
+asis             143 VGHRVHYYVFTDQPAAVPRVTLGTGRQLSVLEVXXXXXWQDVSMRRMEMI    192
+
+asis             193 SDFCERRFLSEVDYLVCVDVDMEFRDHVGVEILTPLFGTLHPGFYGSSRE    242
+                     ||||||||||||||||||||||||||||||||||||||||||.|||||||
+asis             193 SDFCERRFLSEVDYLVCVDVDMEFRDHVGVEILTPLFGTLHPSFYGSSRE    242
+
+asis             243 AFTYERRPQSQAYIPKDEGDFYYLGGFFGGSVQEVQRLTRACHQAMMVDQ    292
+                     |||||||||||||||||||||||:|.||||||||||||||||||||||||
+asis             243 AFTYERRPQSQAYIPKDEGDFYYMGAFFGGSVQEVQRLTRACHQAMMVDQ    292
+
+asis             293 ANGIEAVWHDESHLNKYLLRHKPTKVLSPEYLWDQQLLGWPAVLRKLRFT    342
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             293 ANGIEAVWHDESHLNKYLLRHKPTKVLSPEYLWDQQLLGWPAVLRKLRFT    342
+
+asis             343 AVPKNHQAVRNP    354
+                     ||||||||||  
+asis             343 AVPKNHQAVR--    352
+
+
+#---------------------------------------
+#---------------------------------------

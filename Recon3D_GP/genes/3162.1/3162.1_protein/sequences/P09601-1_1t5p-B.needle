@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:33:43
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3162.1/3162.1_protein/sequences/P09601-1_1t5p-B.needle
+#    -asequence asis::MERPQPDSMPQDLSEALKEATKEVHTQAENAEFMRNFQKGQVTRDGFKLVMASLYHIYVALEEEIERNKESPVFAPVYFPEELHRKAALEQDLAFWYGPRWQEVIPYTPAMQRYVKRLHEVGRTEPELLVAHAYTRYLGDLSGGQVLKKIAQKALDLPSSGEGLAFFTFPNIASATKFKQLYRSRMNSLEMTPAVRQRVIEEAKTAFLLNIQLFEELQELLTHDTKDQSPSRAPGLRQRASNKVQDSAPVETPRGKPPLNTRSQAPLLRWVLTLSFLVATVAVGLYAM
+#    -bsequence asis::XXXXXXXXXPQDLSEALKEATKEVHTXXXXXXXXXXXXXXXXTRDGFKLVMASLYHIYVALEEEIERNKESPVFAPVYFPEELHRKAALEQDLAFWYGPRWQEVIPYTPAMQRYVKRLHEVGRTEPELLVAHAYTRYLGDLSGGQVLKKIAQKALDLPSSGEGLAFFTFPNIASATKFKQLYRSRMNSLEMTPAVRQRVIEEAKTAFLLNIQLFEELQELLTH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3162.1/3162.1_protein/sequences/P09601-1_1t5p-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 288
+# Identity:     198/288 (68.8%)
+# Similarity:   198/288 (68.8%)
+# Gaps:          65/288 (22.6%)
+# Score: 991.0
+# 
+#
+#=======================================
+
+asis               1 MERPQPDSMPQDLSEALKEATKEVHTQAENAEFMRNFQKGQVTRDGFKLV     50
+                     .........|||||||||||||||||................||||||||
+asis               1 XXXXXXXXXPQDLSEALKEATKEVHTXXXXXXXXXXXXXXXXTRDGFKLV     50
+
+asis              51 MASLYHIYVALEEEIERNKESPVFAPVYFPEELHRKAALEQDLAFWYGPR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 MASLYHIYVALEEEIERNKESPVFAPVYFPEELHRKAALEQDLAFWYGPR    100
+
+asis             101 WQEVIPYTPAMQRYVKRLHEVGRTEPELLVAHAYTRYLGDLSGGQVLKKI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 WQEVIPYTPAMQRYVKRLHEVGRTEPELLVAHAYTRYLGDLSGGQVLKKI    150
+
+asis             151 AQKALDLPSSGEGLAFFTFPNIASATKFKQLYRSRMNSLEMTPAVRQRVI    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 AQKALDLPSSGEGLAFFTFPNIASATKFKQLYRSRMNSLEMTPAVRQRVI    200
+
+asis             201 EEAKTAFLLNIQLFEELQELLTHDTKDQSPSRAPGLRQRASNKVQDSAPV    250
+                     |||||||||||||||||||||||                           
+asis             201 EEAKTAFLLNIQLFEELQELLTH---------------------------    223
+
+asis             251 ETPRGKPPLNTRSQAPLLRWVLTLSFLVATVAVGLYAM    288
+                                                           
+asis             223 --------------------------------------    223
+
+
+#---------------------------------------
+#---------------------------------------

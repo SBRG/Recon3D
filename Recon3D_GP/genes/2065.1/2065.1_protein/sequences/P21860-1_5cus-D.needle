@@ -1,0 +1,146 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:21:11
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2065.1/2065.1_protein/sequences/P21860-1_5cus-D.needle
+#    -asequence asis::MRANDALQVLGLLFSLARGSEVGNSQAVCPGTLNGLSVTGDAENQYQTLYKLYERCEVVMGNLEIVLTGHNADLSFLQWIREVTGYVLVAMNEFSTLPLPNLRVVRGTQVYDGKFAIFVMLNYNTNSSHALRQLRLTQLTEILSGGVYIEKNDKLCHMDTIDWRDIVRDRDAEIVVKDNGRSCPPCHEVCKGRCWGPGSEDCQTLTKTICAPQCNGHCFGPNPNQCCHDECAGGCSGPQDTDCFACRHFNDSGACVPRCPQPLVYNKLTFQLEPNPHTKYQYGGVCVASCPHNFVVDQTSCVRACPPDKMEVDKNGLKMCEPCGGLCPKACEGTGSGSRFQTVDSSNIDGFVNCTKILGNLDFLITGLNGDPWHKIPALDPEKLNVFRTVREITGYLNIQSWPPHMHNFSVFSNLTTIGGRSLYNRGFSLLIMKNLNVTSLGFRSLKEISAGRIYISANRQLCYHHSLNWTKVLRGPTEERLDIKHNRPRRDCVAEGKVCDPLCSSGGCWGPGPGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTATCNGSGSDTCAQCAHFRDGPHCVSSCPHGVLGAKGPIYKYPDVQNECRPCHENCTQGCKGPELQDCLGQTLVLIGKTHLTMALTVIAGLVVIFMMLGGTFLYWRGRRIQNKRAMRRYLERGESIEPLDPSEKANKVLARIFKETELRKLKVLGSGVFGTVHKGVWIPEGESIKIPVCIKVIEDKSGRQSFQAVTDHMLAIGSLDHAHIVRLLGLCPGSSLQLVTQYLPLGSLLDHVRQHRGALGPQLLLNWGVQIAKGMYYLEEHGMVHRNLAARNVLLKSPSQVQVADFGVADLLPPDDKQLLYSEAKTPIKWMALESIHFGKYTHQSDVWSYGVTVWELMTFGAEPYAGLRLAEVPDLLEKGERLAQPQICTIDVYMVMVKCWMIDENIRPTFKELANEFTRMARDPPRYLVIKRESGPGIAPGPEPHGLTNKKLEEVELEPELDLDLDLEAEEDNLATTTLGSALSLPVGTLNRPRGSQSLLSPSSGYMPMNQGNLGESCQESAVSGSSERCPRPVSLHPMPRGCLASESSEGHVTGSEAELQEKVSMCRSRSRSRSPRPRGDSAYHSQRHSLLTPVTPLSPPGLEEEDVNGYVMPDTHLKGTPSSREGTLSSVGLSSVLGTEEEDEDEEYEYMNRRRRHSPPHPPRPSSLEELGYEYMDVGSDLSASLGSTQSCPLHPVPIMPTAGTTPDEDYEYMNRQRDGGGPGGDYAAMGACPASEQGYEEMRAFQGPGHQAPHVHYARLKTLRSLEATDSAFDNPDYWHSRLFPKANAQRT
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEVVMGNLXXXXXXXXXXXXXLQWIREVTGYVLVAMXXXXTLPLPNLRVVRGTQVYDGKFAIFVMLXXXXXXXHALRQLRLTQLTEILSGGVYIEKNDKLCHMDTIDWRDIVRDRDAEIVVKDNXXXCPPCHEVCKXXCWGPGSEDCQTLTKTICAPXCXXXXXXXXPNQCCXDECAGGCSGPQDTDCFACRHFNDSGACVPRCPQPLVYNKLTXQLEPNPHTKYQYGGVCXXXCPXNFVVDQTSCVRACPPDKMEVDXXGLKMCEPCGGLCPKACEGTGSGSRFQTVDSSNIDGFVNCTKILGNLDFLITGLNGDPWHKIPALDPEKLNVFRTVREITGYLNIQSWPPHMHNFSVFSNLTTIGGRSLYNRGFSLLIMKNLNVTSLGFRSLKEISAGRIYISANRQLCYHHSLNWTKVLRGPTEERLDIKHNRPRRDCVAEGKVCDPLCSSGGCWGPGPGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTATCNGSGSDTCAQCAHFRDGPHCVSSCPHXXXXXXGPIYKYPDXXNECRPCHENXXXXCKG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2065.1/2065.1_protein/sequences/P21860-1_5cus-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1379
+# Identity:     509/1379 (36.9%)
+# Similarity:   509/1379 (36.9%)
+# Gaps:         812/1379 (58.9%)
+# Score: 2820.0
+# 
+#
+#=======================================
+
+asis               1 MRANDALQVLGLLFSLARGSEVGNSQAVCPGTLNGLSVTGDAENQYQTLY     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 KLYERC-------------------------------------EVVMGNL     63
+                                                                |||||||
+asis               1 ------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEVVMGNL     44
+
+asis              64 EIVLTGHNADLSFLQWIREVTGYVLVAMNEFSTLPLPNLRVVRGTQVYDG    113
+                     .............|||||||||||||||....||||||||||||||||||
+asis              45 XXXXXXXXXXXXXLQWIREVTGYVLVAMXXXXTLPLPNLRVVRGTQVYDG     94
+
+asis             114 KFAIFVMLNYNTNSSHALRQLRLTQLTEILSGGVYIEKNDKLCHMDTIDW    163
+                     ||||||||.......|||||||||||||||||||||||||||||||||||
+asis              95 KFAIFVMLXXXXXXXHALRQLRLTQLTEILSGGVYIEKNDKLCHMDTIDW    144
+
+asis             164 RDIVRDRDAEIVVKDNGRSCPPCHEVCKGRCWGPGSEDCQTLTKTICAPQ    213
+                     ||||||||||||||||...|||||||||..|||||||||||||||||||.
+asis             145 RDIVRDRDAEIVVKDNXXXCPPCHEVCKXXCWGPGSEDCQTLTKTICAPX    194
+
+asis             214 CNGHCFGPNPNQCCHDECAGGCSGPQDTDCFACRHFNDSGACVPRCPQPL    263
+                     |........|||||.|||||||||||||||||||||||||||||||||||
+asis             195 CXXXXXXXXPNQCCXDECAGGCSGPQDTDCFACRHFNDSGACVPRCPQPL    244
+
+asis             264 VYNKLTFQLEPNPHTKYQYGGVCVASCPHNFVVDQTSCVRACPPDKMEVD    313
+                     ||||||.||||||||||||||||...||.|||||||||||||||||||||
+asis             245 VYNKLTXQLEPNPHTKYQYGGVCXXXCPXNFVVDQTSCVRACPPDKMEVD    294
+
+asis             314 KNGLKMCEPCGGLCPKACEGTGSGSRFQTVDSSNIDGFVNCTKILGNLDF    363
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+asis             295 XXGLKMCEPCGGLCPKACEGTGSGSRFQTVDSSNIDGFVNCTKILGNLDF    344
+
+asis             364 LITGLNGDPWHKIPALDPEKLNVFRTVREITGYLNIQSWPPHMHNFSVFS    413
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             345 LITGLNGDPWHKIPALDPEKLNVFRTVREITGYLNIQSWPPHMHNFSVFS    394
+
+asis             414 NLTTIGGRSLYNRGFSLLIMKNLNVTSLGFRSLKEISAGRIYISANRQLC    463
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             395 NLTTIGGRSLYNRGFSLLIMKNLNVTSLGFRSLKEISAGRIYISANRQLC    444
+
+asis             464 YHHSLNWTKVLRGPTEERLDIKHNRPRRDCVAEGKVCDPLCSSGGCWGPG    513
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             445 YHHSLNWTKVLRGPTEERLDIKHNRPRRDCVAEGKVCDPLCSSGGCWGPG    494
+
+asis             514 PGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTA    563
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             495 PGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTA    544
+
+asis             564 TCNGSGSDTCAQCAHFRDGPHCVSSCPHGVLGAKGPIYKYPDVQNECRPC    613
+                     ||||||||||||||||||||||||||||......||||||||..||||||
+asis             545 TCNGSGSDTCAQCAHFRDGPHCVSSCPHXXXXXXGPIYKYPDXXNECRPC    594
+
+asis             614 HENCTQGCKGPELQDCLGQTLVLIGKTHLTMALTVIAGLVVIFMMLGGTF    663
+                     |||....|||                                        
+asis             595 HENXXXXCKG----------------------------------------    604
+
+asis             664 LYWRGRRIQNKRAMRRYLERGESIEPLDPSEKANKVLARIFKETELRKLK    713
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis             714 VLGSGVFGTVHKGVWIPEGESIKIPVCIKVIEDKSGRQSFQAVTDHMLAI    763
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis             764 GSLDHAHIVRLLGLCPGSSLQLVTQYLPLGSLLDHVRQHRGALGPQLLLN    813
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis             814 WGVQIAKGMYYLEEHGMVHRNLAARNVLLKSPSQVQVADFGVADLLPPDD    863
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis             864 KQLLYSEAKTPIKWMALESIHFGKYTHQSDVWSYGVTVWELMTFGAEPYA    913
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis             914 GLRLAEVPDLLEKGERLAQPQICTIDVYMVMVKCWMIDENIRPTFKELAN    963
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis             964 EFTRMARDPPRYLVIKRESGPGIAPGPEPHGLTNKKLEEVELEPELDLDL   1013
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis            1014 DLEAEEDNLATTTLGSALSLPVGTLNRPRGSQSLLSPSSGYMPMNQGNLG   1063
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis            1064 ESCQESAVSGSSERCPRPVSLHPMPRGCLASESSEGHVTGSEAELQEKVS   1113
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis            1114 MCRSRSRSRSPRPRGDSAYHSQRHSLLTPVTPLSPPGLEEEDVNGYVMPD   1163
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis            1164 THLKGTPSSREGTLSSVGLSSVLGTEEEDEDEEYEYMNRRRRHSPPHPPR   1213
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis            1214 PSSLEELGYEYMDVGSDLSASLGSTQSCPLHPVPIMPTAGTTPDEDYEYM   1263
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis            1264 NRQRDGGGPGGDYAAMGACPASEQGYEEMRAFQGPGHQAPHVHYARLKTL   1313
+                                                                       
+asis             604 --------------------------------------------------    604
+
+asis            1314 RSLEATDSAFDNPDYWHSRLFPKANAQRT   1342
+                                                  
+asis             604 -----------------------------    604
+
+
+#---------------------------------------
+#---------------------------------------

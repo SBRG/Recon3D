@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:17:21
+# Commandline: needle
+#    -outfile ./Recon3D/genes/145553.1/145553.1_protein/sequences/Q86V88-1_2wm8-A.needle
+#    -asequence asis::MARLPKLAVFDLDYTLWPFWVDTHVDPPFHKSSDGTVRDRRGQDVRLYPEVPEVLKRLQSLGVPGAAASRTSEIEGANQLLELFDLFRYFVHREIYPGSKITHFERLQQKTGIPFSQMIFFDDERRNIVDVSKLGVTCIHIQNGMNLQTLSQGLETFAKAQTGPLRSSLEESPFEA
+#    -bsequence asis::GTENLYFQSMARLPKLAVFDLDYTLWPFWVDTHVDPPFHKSSDGTVRDRRGQDVRLYPEVPEVLKRLQSLGVPGAAASRTSEIEGANQLLELFDLFRYFVHREIYPGSKITHFERLQQKTGIPFSQMIFFDDERRNIVDVSKLGVTCIHIQNGMNLQTLSQGLETFAKAQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/145553.1/145553.1_protein/sequences/Q86V88-1_2wm8-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:     161/185 (87.0%)
+# Similarity:   161/185 (87.0%)
+# Gaps:          24/185 (13.0%)
+# Score: 844.0
+# 
+#
+#=======================================
+
+asis               1 ---------MARLPKLAVFDLDYTLWPFWVDTHVDPPFHKSSDGTVRDRR     41
+                              |||||||||||||||||||||||||||||||||||||||||
+asis               1 GTENLYFQSMARLPKLAVFDLDYTLWPFWVDTHVDPPFHKSSDGTVRDRR     50
+
+asis              42 GQDVRLYPEVPEVLKRLQSLGVPGAAASRTSEIEGANQLLELFDLFRYFV     91
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 GQDVRLYPEVPEVLKRLQSLGVPGAAASRTSEIEGANQLLELFDLFRYFV    100
+
+asis              92 HREIYPGSKITHFERLQQKTGIPFSQMIFFDDERRNIVDVSKLGVTCIHI    141
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 HREIYPGSKITHFERLQQKTGIPFSQMIFFDDERRNIVDVSKLGVTCIHI    150
+
+asis             142 QNGMNLQTLSQGLETFAKAQTGPLRSSLEESPFEA    176
+                     ||||||||||||||||||||               
+asis             151 QNGMNLQTLSQGLETFAKAQ---------------    170
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:57:53
+# Commandline: needle
+#    -outfile ./Recon3D/genes/768.1/768.1_protein/sequences/Q16790-1_3iai-B.needle
+#    -asequence asis::MAPLCPSPWLPLLIPAPAPGLTVQLLLSLLLLVPVHPQRLPRMQEDSPLGGGSSGEDDPLGEEDLPSEEDSPREEDPPGEEDLPGEEDLPGEEDLPEVKPKSEEEGSLKLEDLPTVEAPGDPQEPQNNAHRDKEGDDQSHWRYGGDPPWPRVSPACAGRFQSPVDIRPQLAAFCPALRPLELLGFQLPPLPELRLRNNGHSVQLTLPPGLEMALGPGREYRALQLHLHWGAAGRPGSEHTVEGHRFPAEIHVVHLSTAFARVDEALGRPGGLAVLAAFLEEGPEENSAYEQLLSRLEEIAEEGSETQVPGLDISALLPSDFSRYFQYEGSLTTPPCAQGVIWTVFNQTVMLSAKQLHTLSDTLWGPGDSRLQLNFRATQPLNGRVIEASFPAGVDSSPRAAEPVQLNSCLAAGDILALVFGLLFAVTSVAFLVQMRRQHRRGTKGGVSYRPAEVAETGA
+#    -bsequence asis::XXXHWRYGGDPXXXPWPRVSPACAGRFQSPVDIRPQLAAFSPALRPLELLGFQLPPLPELRLRNNGHSVQLTLPPXXXGLEMALGXPGREYRALQLHLHWGAAGRPGSEHTVEGHRFPAEIHVVHLSTXAFARVDEALGRPGGLAVLAAFLEEGPEENSAYEQLLSRLEEIAEEGSETQVPGLDISALLPSDFSRYFQYEGSLTTPPCAQGVIWTVFNQTVMLSAKQLHTLSDTLWGPXXXXGDSRLQLNFRATQPLNGRVIEASFP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/768.1/768.1_protein/sequences/Q16790-1_3iai-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 471
+# Identity:     251/471 (53.3%)
+# Similarity:   251/471 (53.3%)
+# Gaps:         216/471 (45.9%)
+# Score: 1277.5
+# 
+#
+#=======================================
+
+asis               1 MAPLCPSPWLPLLIPAPAPGLTVQLLLSLLLLVPVHPQRLPRMQEDSPLG     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 GGSSGEDDPLGEEDLPSEEDSPREEDPPGEEDLPGEEDLPGEEDLPEVKP    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 KSEEEGSLKLEDLPTVEAPGDPQEPQNNAHRDKEGDDQSHWRYGGDP---    147
+                                                         ...||||||||   
+asis               1 ------------------------------------XXXHWRYGGDPXXX     14
+
+asis             148 PWPRVSPACAGRFQSPVDIRPQLAAFCPALRPLELLGFQLPPLPELRLRN    197
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+asis              15 PWPRVSPACAGRFQSPVDIRPQLAAFSPALRPLELLGFQLPPLPELRLRN     64
+
+asis             198 NGHSVQLTLPP---GLEMALG-PGREYRALQLHLHWGAAGRPGSEHTVEG    243
+                     |||||||||||   ||||||| ||||||||||||||||||||||||||||
+asis              65 NGHSVQLTLPPXXXGLEMALGXPGREYRALQLHLHWGAAGRPGSEHTVEG    114
+
+asis             244 HRFPAEIHVVHLST-AFARVDEALGRPGGLAVLAAFLEEGPEENSAYEQL    292
+                     |||||||||||||| |||||||||||||||||||||||||||||||||||
+asis             115 HRFPAEIHVVHLSTXAFARVDEALGRPGGLAVLAAFLEEGPEENSAYEQL    164
+
+asis             293 LSRLEEIAEEGSETQVPGLDISALLPSDFSRYFQYEGSLTTPPCAQGVIW    342
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             165 LSRLEEIAEEGSETQVPGLDISALLPSDFSRYFQYEGSLTTPPCAQGVIW    214
+
+asis             343 TVFNQTVMLSAKQLHTLSDTLWGP----GDSRLQLNFRATQPLNGRVIEA    388
+                     ||||||||||||||||||||||||    ||||||||||||||||||||||
+asis             215 TVFNQTVMLSAKQLHTLSDTLWGPXXXXGDSRLQLNFRATQPLNGRVIEA    264
+
+asis             389 SFPAGVDSSPRAAEPVQLNSCLAAGDILALVFGLLFAVTSVAFLVQMRRQ    438
+                     |||                                               
+asis             265 SFP-----------------------------------------------    267
+
+asis             439 HRRGTKGGVSYRPAEVAETGA    459
+                                          
+asis             267 ---------------------    267
+
+
+#---------------------------------------
+#---------------------------------------

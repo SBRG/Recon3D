@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:42:28
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10105.1/10105.1_protein/sequences/P30405-1_4j5d-X.needle
+#    -asequence asis::MLALRCGSRWLGLLSVPRSVPLRLPAARACSKGSGDPSSSSSSGNPLVYLDVDANGKPLGRVVLELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHNGTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIKTDWLDGKHVVFGHVKEGMDVVKKIESFGSKSGRTSKKIVITDCGQLS
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGNPLVYLDVDANGKPLGRVVLELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHNGTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIKTDWLDGKHVVFGHVIEGMDVVKKIESFGSKSGRTSKKIVITDCGQLS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10105.1/10105.1_protein/sequences/P30405-1_4j5d-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 244
+# Identity:     163/244 (66.8%)
+# Similarity:   163/244 (66.8%)
+# Gaps:          74/244 (30.3%)
+# Score: 842.0
+# 
+#
+#=======================================
+
+asis               1 MLALRCGSRWLGLLSVPRSVPLRLPAARACSKGSGDP-------------     37
+                                                                       
+asis               1 -------------------------------------XXXXXXXXXXXXX     13
+
+asis              38 ------------------------SSSSSSGNPLVYLDVDANGKPLGRVV     63
+                                             ......||||||||||||||||||||
+asis              14 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGNPLVYLDVDANGKPLGRVV     63
+
+asis              64 LELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHN    113
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              64 LELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHN    113
+
+asis             114 GTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIKTDW    163
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             114 GTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIKTDW    163
+
+asis             164 LDGKHVVFGHVKEGMDVVKKIESFGSKSGRTSKKIVITDCGQLS    207
+                     |||||||||||.||||||||||||||||||||||||||||||||
+asis             164 LDGKHVVFGHVIEGMDVVKKIESFGSKSGRTSKKIVITDCGQLS    207
+
+
+#---------------------------------------
+#---------------------------------------

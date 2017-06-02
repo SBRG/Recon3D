@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:04:38
+# Commandline: needle
+#    -outfile ./Recon3D/genes/57118.1/57118.1_protein/sequences/Q8IU85-1_2jc6-A.needle
+#    -asequence asis::MARENGESSSSWKKQAEDIKKIFEFKETLGTGAFSEVVLAEEKATGKLFAVKCIPKKALKGKESSIENEIAVLRKIKHENIVALEDIYESPNHLYLVMQLVSGGELFDRIVEKGFYTEKDASTLIRQVLDAVYYLHRMGIVHRDLKPENLLYYSQDEESKIMISDFGLSKMEGKGDVMSTACGTPGYVAPEVLAQKPYSKAVDCWSIGVIAYILLCGYPPFYDENDSKLFEQILKAEYEFDSPYWDDISDSAKDFIRNLMEKDPNKRYTCEQAARHPWIAGDTALNKNIHESVSAQIRKNFAKSKWRQAFNATAVVRHMRKLHLGSSLDSSNASVSSSLSLASQKDCLAPSTLCSFISSSSGVSGVGAERRPRPTTVTAVHSGSK
+#    -bsequence asis::XXXXXXXXXXSWKKQAEDIKKIFEFKETLGTGAFSEVVLAEEKATGKLFAVKCIPKKAXXXXXSSIENEIAVLRKIKHENIVALEDIYESPNHLYLVMQLVSGGELFDRIVEKGFYTEKDASTLIRQVLDAVYYLHRMGIVHRDLKPENLLYYSQDEESKIMISXXXXXXXXXXXXXXXXXXXXPGYVAPEVLAQKPYSKAVDCWSIGVIAYILLCGYPPFYDENDSKLFEQILKAEYEFDSPYWDDISDSAKDFIRNLMEKDPNKRYTCEQAARHPWIAGDTALNKNIHESVSAQIRKNFAKSKWRQAFNAT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/57118.1/57118.1_protein/sequences/Q8IU85-1_2jc6-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 385
+# Identity:     278/385 (72.2%)
+# Similarity:   278/385 (72.2%)
+# Gaps:          72/385 (18.7%)
+# Score: 1427.0
+# 
+#
+#=======================================
+
+asis               1 MARENGESSSSWKKQAEDIKKIFEFKETLGTGAFSEVVLAEEKATGKLFA     50
+                     ..........||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXSWKKQAEDIKKIFEFKETLGTGAFSEVVLAEEKATGKLFA     50
+
+asis              51 VKCIPKKALKGKESSIENEIAVLRKIKHENIVALEDIYESPNHLYLVMQL    100
+                     ||||||||.....|||||||||||||||||||||||||||||||||||||
+asis              51 VKCIPKKAXXXXXSSIENEIAVLRKIKHENIVALEDIYESPNHLYLVMQL    100
+
+asis             101 VSGGELFDRIVEKGFYTEKDASTLIRQVLDAVYYLHRMGIVHRDLKPENL    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 VSGGELFDRIVEKGFYTEKDASTLIRQVLDAVYYLHRMGIVHRDLKPENL    150
+
+asis             151 LYYSQDEESKIMISDFGLSKMEGKGDVMSTACGTPGYVAPEVLAQKPYSK    200
+                     ||||||||||||||....................||||||||||||||||
+asis             151 LYYSQDEESKIMISXXXXXXXXXXXXXXXXXXXXPGYVAPEVLAQKPYSK    200
+
+asis             201 AVDCWSIGVIAYILLCGYPPFYDENDSKLFEQILKAEYEFDSPYWDDISD    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 AVDCWSIGVIAYILLCGYPPFYDENDSKLFEQILKAEYEFDSPYWDDISD    250
+
+asis             251 SAKDFIRNLMEKDPNKRYTCEQAARHPWIAGDTALNKNIHESVSAQIRKN    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 SAKDFIRNLMEKDPNKRYTCEQAARHPWIAGDTALNKNIHESVSAQIRKN    300
+
+asis             301 FAKSKWRQAFNATAVVRHMRKLHLGSSLDSSNASVSSSLSLASQKDCLAP    350
+                     |||||||||||||                                     
+asis             301 FAKSKWRQAFNAT-------------------------------------    313
+
+asis             351 STLCSFISSSSGVSGVGAERRPRPTTVTAVHSGSK    385
+                                                        
+asis             313 -----------------------------------    313
+
+
+#---------------------------------------
+#---------------------------------------

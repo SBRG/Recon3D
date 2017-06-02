@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:22:18
+# Commandline: needle
+#    -outfile ./Recon3D/genes/11219.1/11219.1_protein/sequences/Q9BQ50-1_1y97-A.needle
+#    -asequence asis::MGRAGSPLPRSSWPRMDDCGSRSRCSPTLCSSLRTCYPRGNITMSEAPRAETFVFLDLEATGLPSVEPEIAELSLFAVHRSSLENPEHDESGALVLPRVLDKLTLCMCPERPFTAKASEITGLSSEGLARCRKAGFDGAVVRTLQAFLSRQAGPICLVAHNGFDYDFPLLCAELRRLGARLPRDTVCLDTLPALRGLDRAHSHGTRARGRQGYSLGSLFHRYFRAEPSAAHSAEGDVHTLLLIFLHRAAELLAWADEQARGWAHIEPMYLPPDDPSLEA
+#    -bsequence asis::AGXSEAPRAETFVFLDLEATGLPSVEPEIAELSLFAVHRSSLENPEHXXXGALVLPRVLDKLTLCXCPERPFTAKASEITGLSSEGLARCRKAGFDGAVVRTLQAFLSRQAGPICLVAHNGFDYDFPLLCAELRRLGARLPRDTVCLDTLPALRGLDRAHXXXXXXXXXXGYSLGSLFHRYFRAEPSXXXSAEGDVHTLLLIFLHRAAELLAWADEQARGWAHIEPXYLP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/11219.1/11219.1_protein/sequences/Q9BQ50-1_1y97-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 279
+# Identity:     209/279 (74.9%)
+# Similarity:   209/279 (74.9%)
+# Gaps:          49/279 (17.6%)
+# Score: 1074.0
+# 
+#
+#=======================================
+
+asis               1 MGRAGSPLPRSSWPRMDDCGSRSRCSPTLCSSLRTCYPRGNITMSEAPRA     50
+                                                              ...||||||
+asis               1 -----------------------------------------AGXSEAPRA      9
+
+asis              51 ETFVFLDLEATGLPSVEPEIAELSLFAVHRSSLENPEHDESGALVLPRVL    100
+                     ||||||||||||||||||||||||||||||||||||||...|||||||||
+asis              10 ETFVFLDLEATGLPSVEPEIAELSLFAVHRSSLENPEHXXXGALVLPRVL     59
+
+asis             101 DKLTLCMCPERPFTAKASEITGLSSEGLARCRKAGFDGAVVRTLQAFLSR    150
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||||
+asis              60 DKLTLCXCPERPFTAKASEITGLSSEGLARCRKAGFDGAVVRTLQAFLSR    109
+
+asis             151 QAGPICLVAHNGFDYDFPLLCAELRRLGARLPRDTVCLDTLPALRGLDRA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             110 QAGPICLVAHNGFDYDFPLLCAELRRLGARLPRDTVCLDTLPALRGLDRA    159
+
+asis             201 HSHGTRARGRQGYSLGSLFHRYFRAEPSAAHSAEGDVHTLLLIFLHRAAE    250
+                     |..........|||||||||||||||||...|||||||||||||||||||
+asis             160 HXXXXXXXXXXGYSLGSLFHRYFRAEPSXXXSAEGDVHTLLLIFLHRAAE    209
+
+asis             251 LLAWADEQARGWAHIEPMYLPPDDPSLEA    279
+                     |||||||||||||||||.|||        
+asis             210 LLAWADEQARGWAHIEPXYLP--------    230
+
+
+#---------------------------------------
+#---------------------------------------

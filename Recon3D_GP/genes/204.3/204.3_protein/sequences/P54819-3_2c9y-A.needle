@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:20:53
+# Commandline: needle
+#    -outfile ./Recon3D/genes/204.3/204.3_protein/sequences/P54819-3_2c9y-A.needle
+#    -asequence asis::MAPSVPAAEPEYPKGIRAVLLGPPGAGKGTQAPRLAENFCVCHLATGDMLRAMVASGSELGKKLKATMDAGKLVSDEMVVELIEKNLETPLCKNGFLLDGFPRTVRQAEMLDDLMEKRKEKLDSVIEFSIPDSLLIRRITGRLIHPKSGRSYHEEFNPPKEPMKDDITGEPLIRRSDIGQAKRSFLRLAKISFDVLIKKALA
+#    -bsequence asis::XXXXXXXXXXXXXXGIRAVLLGPPGAGKGTQAPRLAENFCVCHLATGDMLRAMVASGSELGKKLKATMDAGKLVSDEMVVELIEKNLETPLCKNGFLLDGFPRTVRQAEMLDDLMEKRKEKLDSVIEFSIPDSLLIRRITGRLIHPKSGRSYHEEFNPPKEPMKDDITGEPLIRRSDDNEKALKIRLQAYHTQTTPLIEYYRKRGIHSAIDASQTPDVVFASILAAFSKATC
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/204.3/204.3_protein/sequences/P54819-3_2c9y-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 250
+# Identity:     166/250 (66.4%)
+# Similarity:   167/250 (66.8%)
+# Gaps:          66/250 (26.4%)
+# Score: 816.5
+# 
+#
+#=======================================
+
+asis               1 MAPSVPAAEPEYPKGIRAVLLGPPGAGKGTQAPRLAENFCVCHLATGDML     50
+                     ..............||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXGIRAVLLGPPGAGKGTQAPRLAENFCVCHLATGDML     50
+
+asis              51 RAMVASGSELGKKLKATMDAGKLVSDEMVVELIEKNLETPLCKNGFLLDG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 RAMVASGSELGKKLKATMDAGKLVSDEMVVELIEKNLETPLCKNGFLLDG    100
+
+asis             101 FPRTVRQAEMLDDLMEKRKEKLDSVIEFSIPDSLLIRRITGRLIHPKSGR    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 FPRTVRQAEMLDDLMEKRKEKLDSVIEFSIPDSLLIRRITGRLIHPKSGR    150
+
+asis             151 SYHEEFNPPKEPMKDDITGEPLIRRSDIGQAKRSFLRLAKISFDVLIKKA    200
+                     |||||||||||||||||||||||||||..:                  ||
+asis             151 SYHEEFNPPKEPMKDDITGEPLIRRSDDNE------------------KA    182
+
+asis             201 LA------------------------------------------------    202
+                     |.                                                
+asis             183 LKIRLQAYHTQTTPLIEYYRKRGIHSAIDASQTPDVVFASILAAFSKATC    232
+
+
+#---------------------------------------
+#---------------------------------------

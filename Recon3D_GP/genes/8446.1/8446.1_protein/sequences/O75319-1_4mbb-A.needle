@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:17:24
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8446.1/8446.1_protein/sequences/O75319-1_4mbb-A.needle
+#    -asequence asis::MSQWHHPRSGWGRRRDFSGRSSAKKKGGNHIPERWKDYLPVGQRMPGTRFIAFKVPLQKSFEKKLAPEECFSPLDLFNKIREQNEELGLIIDLTYTQRYYKPEDLPETVPYLKIFTVGHQVPDDETIFKFKHAVNGFLKENKDNDKLIGVHCTHGLNRTGYLICRYLIDVEGVRPDDAIELFNRCRGHCLERQNYIEDLQNGPIRKNWNSSVPRSSDFEDSAHLMQPVHNKPVKQGPRYNLHQIQGHSAPRHFHTQTQSLQQSVRKFSENPHVYQRHHLPPPGPPGEDYSHRRYSWNVKPNASRAAQDRRRWYPYNYSRLSYPACWEWTQ
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXGPLGSNHIPERWKDYLPVGQRMPGTRFIAFKVPLQKSFEKKLAPEECFSPLDLFNKIREQNEELGLIIDLTYTQRYYKPEDLPETVPYLKIFTVGHQVPDDETIFKFKHAVNGFLKENKDNDKLIGVHSTHGLNRTGYLICRYLIDVEGVRPDDAIELFNRCRGHCLERQNYIEDLQNGPIRKN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8446.1/8446.1_protein/sequences/O75319-1_4mbb-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 355
+# Identity:     179/355 (50.4%)
+# Similarity:   180/355 (50.7%)
+# Gaps:         173/355 (48.7%)
+# Score: 953.0
+# 
+#
+#=======================================
+
+asis               1 -------------------------MSQWHHPRSGWGRRRDFSGRSSAKK     25
+                                              :                        
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXGPL------------------------     26
+
+asis              26 KGGNHIPERWKDYLPVGQRMPGTRFIAFKVPLQKSFEKKLAPEECFSPLD     75
+                      |.|||||||||||||||||||||||||||||||||||||||||||||||
+asis              27 -GSNHIPERWKDYLPVGQRMPGTRFIAFKVPLQKSFEKKLAPEECFSPLD     75
+
+asis              76 LFNKIREQNEELGLIIDLTYTQRYYKPEDLPETVPYLKIFTVGHQVPDDE    125
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              76 LFNKIREQNEELGLIIDLTYTQRYYKPEDLPETVPYLKIFTVGHQVPDDE    125
+
+asis             126 TIFKFKHAVNGFLKENKDNDKLIGVHCTHGLNRTGYLICRYLIDVEGVRP    175
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+asis             126 TIFKFKHAVNGFLKENKDNDKLIGVHSTHGLNRTGYLICRYLIDVEGVRP    175
+
+asis             176 DDAIELFNRCRGHCLERQNYIEDLQNGPIRKNWNSSVPRSSDFEDSAHLM    225
+                     ||||||||||||||||||||||||||||||||                  
+asis             176 DDAIELFNRCRGHCLERQNYIEDLQNGPIRKN------------------    207
+
+asis             226 QPVHNKPVKQGPRYNLHQIQGHSAPRHFHTQTQSLQQSVRKFSENPHVYQ    275
+                                                                       
+asis             207 --------------------------------------------------    207
+
+asis             276 RHHLPPPGPPGEDYSHRRYSWNVKPNASRAAQDRRRWYPYNYSRLSYPAC    325
+                                                                       
+asis             207 --------------------------------------------------    207
+
+asis             326 WEWTQ    330
+                          
+asis             207 -----    207
+
+
+#---------------------------------------
+#---------------------------------------

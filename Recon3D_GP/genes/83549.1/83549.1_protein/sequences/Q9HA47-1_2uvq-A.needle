@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:25:37
+# Commandline: needle
+#    -outfile ./Recon3D/genes/83549.1/83549.1_protein/sequences/Q9HA47-1_2uvq-A.needle
+#    -asequence asis::MASAGGEDCESPAPEADRPHQRPFLIGVSGGTASGKSTVCEKIMELLGQNEVEQRQRKVVILSQDRFYKVLTAEQKAKALKGQYNFDHPDAFDNDLMHRTLKNIVEGKTVEVPTYDFVTHSRLPETTVVYPADVVLFEGILVFYSQEIRDMFHLRLFVDTDSDVRLSRRVLRDVRRGRDLEQILTQYTTFVKPAFEEFCLPTKKYADVIIPRGVDNMVAINLIVQHIQDILNGDICKWHRGGSNGRSYKRTFSEPGDHPGMLTSGKRSHLESSSRPH
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXRPFLIGVSGGTASGKSTVCEKIMELLGQNEVEQRQRKVVILSQDRFYKVLTAEQKAKALKGQYNFDHPDAFDNDLMHRTLKNIVEGKTVEVPTYDFVTHSRLPETTVVYPADVVLFEGILVFYSQEIRDMFHLRLFVDTDSDVRLSRRVLRDVRXXXDLEQILTQYTTFVKPAFEEFCLPTKKYADVIIPRGVDNMVAINLIVQHIQDILNGDI
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/83549.1/83549.1_protein/sequences/Q9HA47-1_2uvq-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 277
+# Identity:     211/277 (76.2%)
+# Similarity:   211/277 (76.2%)
+# Gaps:          42/277 (15.2%)
+# Score: 1057.0
+# 
+#
+#=======================================
+
+asis               1 MASAGGEDCESPAPEADRPHQRPFLIGVSGGTASGKSTVCEKIMELLGQN     50
+                     .....................|||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXXRPFLIGVSGGTASGKSTVCEKIMELLGQN     50
+
+asis              51 EVEQRQRKVVILSQDRFYKVLTAEQKAKALKGQYNFDHPDAFDNDLMHRT    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 EVEQRQRKVVILSQDRFYKVLTAEQKAKALKGQYNFDHPDAFDNDLMHRT    100
+
+asis             101 LKNIVEGKTVEVPTYDFVTHSRLPETTVVYPADVVLFEGILVFYSQEIRD    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 LKNIVEGKTVEVPTYDFVTHSRLPETTVVYPADVVLFEGILVFYSQEIRD    150
+
+asis             151 MFHLRLFVDTDSDVRLSRRVLRDVRRGRDLEQILTQYTTFVKPAFEEFCL    200
+                     |||||||||||||||||||||||||...||||||||||||||||||||||
+asis             151 MFHLRLFVDTDSDVRLSRRVLRDVRXXXDLEQILTQYTTFVKPAFEEFCL    200
+
+asis             201 PTKKYADVIIPRGVDNMVAINLIVQHIQDILNGDICKWHRGGSNGRSYKR    250
+                     |||||||||||||||||||||||||||||||||||               
+asis             201 PTKKYADVIIPRGVDNMVAINLIVQHIQDILNGDI---------------    235
+
+asis             251 TFSEPGDHPGMLTSGKRSHLESSSRPH    277
+                                                
+asis             235 ---------------------------    235
+
+
+#---------------------------------------
+#---------------------------------------

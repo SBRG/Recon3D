@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 13:00:07
+# Commandline: needle
+#    -outfile ./Recon3D/genes/55967.1/55967.1_protein/sequences/Q9UI09-1_5lnk-i.needle
+#    -asequence asis::MELVQVLKRGLQQITGHGGLRGYLRVFFRTNDAKVGTLVGEDKYGNKYYEDNKQFFGRHRWVVYTTEMNGKNTFWDVDGSMVPPEWHRWLHSMTDDPPTTKPLTARKFIWTNHKFNVTGTPEQYVPYSTTRKKIQEWIPPSTPYK
+#    -bsequence asis::MELLQVLKRGLQQVSGHGGLRGYLRVLFRANDVRVGTLVGEDKYGNKYYEDNKQFFGRHRWVIYTTEMNGKNTFWDVDGSMVPPEWHRWLHCMTDDPPTVKPPTARKFIWTNHKFNLSGTPQQYVPYSTTRKKIQEWVPPSTPY
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/55967.1/55967.1_protein/sequences/Q9UI09-1_5lnk-i.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:     129/145 (89.0%)
+# Similarity:   138/145 (95.2%)
+# Gaps:           1/145 ( 0.7%)
+# Score: 756.0
+# 
+#
+#=======================================
+
+asis               1 MELVQVLKRGLQQITGHGGLRGYLRVFFRTNDAKVGTLVGEDKYGNKYYE     50
+                     |||:|||||||||::|||||||||||.||.||.:||||||||||||||||
+asis               1 MELLQVLKRGLQQVSGHGGLRGYLRVLFRANDVRVGTLVGEDKYGNKYYE     50
+
+asis              51 DNKQFFGRHRWVVYTTEMNGKNTFWDVDGSMVPPEWHRWLHSMTDDPPTT    100
+                     ||||||||||||:||||||||||||||||||||||||||||.|||||||.
+asis              51 DNKQFFGRHRWVIYTTEMNGKNTFWDVDGSMVPPEWHRWLHCMTDDPPTV    100
+
+asis             101 KPLTARKFIWTNHKFNVTGTPEQYVPYSTTRKKIQEWIPPSTPYK    145
+                     ||.|||||||||||||::|||:|||||||||||||||:|||||| 
+asis             101 KPPTARKFIWTNHKFNLSGTPQQYVPYSTTRKKIQEWVPPSTPY-    144
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 13:00:27
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1340.1/1340.1_protein/sequences/P14854-1_2y69-H.needle
+#    -asequence asis::MAEDMETKIKNYKTAPFDSRFPNQNQTRNCWQNYLDFHRCQKAMTAKGGDISVCEWYQRVYQSLCPTSWVTDWDEQRAEGTFPGKI
+#    -bsequence asis::XXXXXXXXXXYQTAPFDSRFPNQNQTRNCWQNYLDFHRCEKAMTAKGGDVSVCEWYRRVYKSLCPISWVSTWDDRRAEGTFPGKI
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1340.1/1340.1_protein/sequences/P14854-1_2y69-H.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      65/86 (75.6%)
+# Similarity:    73/86 (84.9%)
+# Gaps:           1/86 ( 1.2%)
+# Score: 388.0
+# 
+#
+#=======================================
+
+asis               1 MAEDMETKIKNYKTAPFDSRFPNQNQTRNCWQNYLDFHRCQKAMTAKGGD     50
+                      ..........|:|||||||||||||||||||||||||||:|||||||||
+asis               1 -XXXXXXXXXXYQTAPFDSRFPNQNQTRNCWQNYLDFHRCEKAMTAKGGD     49
+
+asis              51 ISVCEWYQRVYQSLCPTSWVTDWDEQRAEGTFPGKI     86
+                     :||||||:|||:||||.|||:.||::||||||||||
+asis              50 VSVCEWYRRVYKSLCPISWVSTWDDRRAEGTFPGKI     85
+
+
+#---------------------------------------
+#---------------------------------------

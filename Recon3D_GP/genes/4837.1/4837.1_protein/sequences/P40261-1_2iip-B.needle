@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:37:17
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4837.1/4837.1_protein/sequences/P40261-1_2iip-B.needle
+#    -asequence asis::MESGFTSKDTYLSHFNPRDYLEKYYKFGSRHSAESQILKHLLKNLFKIFCLDGVKGDLLIDIGSGPTIYQLLSACESFKEIVVTDYSDQNLQELEKWLKKEPEAFDWSPVVTYVCDLEGNRVKGPEKEEKLRQAVKQVLKCDVTQSQPLGAVPLPPADCVLSTLCLDAACPDLPTYCRALRNLGSLLKPGGFLVIMDALKSSYYMIGEQKFSSLPLGREAVEAAVKEAGYTIEWFEVISQSYSSTMANNEGLFSLVARKLSRPL
+#    -bsequence asis::SSGLVPRGSMESGFTSKDTYLSHFNPRDYLEKYYKXXXXXSAESQILKHLLKNLFKIFCLDGVKGDLLIDIGSGPTIYQLLSACESFKEIVVTDYSDQNLQELEKWLKAAPAAFDWSPVVTYVCDLEGNRVKGPEKEEKLRQAVKQVLKCDVTQSQPLGAVPLPPADCVLSTLCLDAACPDLPTYCRALRNLGSLLKPGGFLVIMDALKSSYYMIGEQKFSSLPLGREAVEAAVKEAGYTIEWFEVISQSYSSTMANNEGLFSLVARKL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4837.1/4837.1_protein/sequences/P40261-1_2iip-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 273
+# Identity:     252/273 (92.3%)
+# Similarity:   252/273 (92.3%)
+# Gaps:          13/273 ( 4.8%)
+# Score: 1306.0
+# 
+#
+#=======================================
+
+asis               1 ---------MESGFTSKDTYLSHFNPRDYLEKYYKFGSRHSAESQILKHL     41
+                              ||||||||||||||||||||||||||.....||||||||||
+asis               1 SSGLVPRGSMESGFTSKDTYLSHFNPRDYLEKYYKXXXXXSAESQILKHL     50
+
+asis              42 LKNLFKIFCLDGVKGDLLIDIGSGPTIYQLLSACESFKEIVVTDYSDQNL     91
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 LKNLFKIFCLDGVKGDLLIDIGSGPTIYQLLSACESFKEIVVTDYSDQNL    100
+
+asis              92 QELEKWLKKEPEAFDWSPVVTYVCDLEGNRVKGPEKEEKLRQAVKQVLKC    141
+                     ||||||||..|.||||||||||||||||||||||||||||||||||||||
+asis             101 QELEKWLKAAPAAFDWSPVVTYVCDLEGNRVKGPEKEEKLRQAVKQVLKC    150
+
+asis             142 DVTQSQPLGAVPLPPADCVLSTLCLDAACPDLPTYCRALRNLGSLLKPGG    191
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 DVTQSQPLGAVPLPPADCVLSTLCLDAACPDLPTYCRALRNLGSLLKPGG    200
+
+asis             192 FLVIMDALKSSYYMIGEQKFSSLPLGREAVEAAVKEAGYTIEWFEVISQS    241
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 FLVIMDALKSSYYMIGEQKFSSLPLGREAVEAAVKEAGYTIEWFEVISQS    250
+
+asis             242 YSSTMANNEGLFSLVARKLSRPL    264
+                     |||||||||||||||||||    
+asis             251 YSSTMANNEGLFSLVARKL----    269
+
+
+#---------------------------------------
+#---------------------------------------

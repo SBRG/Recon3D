@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:26:03
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1716.5/1716.5_protein/sequences/Q16854-5_H03770-X.needle
+#    -asequence asis::MAAGRLFLSRLRAPFSSMAKSPLEGVSSSRGLHAGRGPRRLSIEGNIGNILKQIRGRAPIQETACTAQSLGNLLDMMYREPARWSYTFQTFSFLSRLKVQLEPFPEKLLQARKPVQIFERSVYSDRYIFAKNLFENGSLSDIEWHIYQDWHSFLLWEFASRITLHGFIYLQASPQVCLKRLYQRAREEEKGIELAYLEQLHGQHEAWLIHKTTKLHFEALMNIPVLVLDVNDDFSEEVTKQEDLMREVNTFVKNL
+#    -bsequence asis::MAAGRLFLSRLRAPFSSMAKSPLEGVSSSRGLHAGRGPRRLSIEGNIAVGKSTFVKLLTKTYPEWHVATEPVATWQNIQAAGTQKACTAQSLGNLLDMMYREPARWSYTFQTFSFLSRLKVQLEPFPEKLLQARKPVQIFERSVYSDRLHFEALMNIPVLVLDVNDDFSEEVTKQEDLMREVNTFVKNL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1716.5/1716.5_protein/sequences/Q16854-5_H03770-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 277
+# Identity:     155/277 (56.0%)
+# Similarity:   158/277 (57.0%)
+# Gaps:         110/277 (39.7%)
+# Score: 687.0
+# 
+#
+#=======================================
+
+asis               1 MAAGRLFLSRLRAPFSSMAKSPLEGVSSSRGLHAGRGPRRLSIEGNI---     47
+                     |||||||||||||||||||||||||||||||||||||||||||||||   
+asis               1 MAAGRLFLSRLRAPFSSMAKSPLEGVSSSRGLHAGRGPRRLSIEGNIAVG     50
+
+asis              48 -GNILKQIRGRAP--------------IQ----ETACTAQSLGNLLDMMY     78
+                      ...:|.:....|              ||    :.|||||||||||||||
+asis              51 KSTFVKLLTKTYPEWHVATEPVATWQNIQAAGTQKACTAQSLGNLLDMMY    100
+
+asis              79 REPARWSYTFQTFSFLSRLKVQLEPFPEKLLQARKPVQIFERSVYSDRYI    128
+                     ||||||||||||||||||||||||||||||||||||||||||||||||  
+asis             101 REPARWSYTFQTFSFLSRLKVQLEPFPEKLLQARKPVQIFERSVYSDR--    148
+
+asis             129 FAKNLFENGSLSDIEWHIYQDWHSFLLWEFASRITLHGFIYLQASPQVCL    178
+                                                                       
+asis             148 --------------------------------------------------    148
+
+asis             179 KRLYQRAREEEKGIELAYLEQLHGQHEAWLIHKTTKLHFEALMNIPVLVL    228
+                                                         ||||||||||||||
+asis             149 ------------------------------------LHFEALMNIPVLVL    162
+
+asis             229 DVNDDFSEEVTKQEDLMREVNTFVKNL    255
+                     |||||||||||||||||||||||||||
+asis             163 DVNDDFSEEVTKQEDLMREVNTFVKNL    189
+
+
+#---------------------------------------
+#---------------------------------------

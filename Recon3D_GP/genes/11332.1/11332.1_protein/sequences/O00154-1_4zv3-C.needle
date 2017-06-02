@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:09:08
+# Commandline: needle
+#    -outfile ./Recon3D/genes/11332.1/11332.1_protein/sequences/O00154-1_4zv3-C.needle
+#    -asequence asis::MKLLARALRLCEFGRQASSRRLVAGQGCVGPRRGCCAPVQVVGPRADLPPCGACITGRIMRPDDANVAGNVHGGTILKMIEEAGAIISTRHCNSQNGERCVAALARVERTDFLSPMCIGEVAHVSAEITYTSKHSVEVQVNVMSENILTGAKKLTNKATLWYVPLSLKNVDKVLEVPPVVYSRQEQEEEGRKRYEAQKLERMETKWRNGDIVQPVLNPEPNTVSYSQSSLIHLVGPSDCTLHGFVHGGVTMKLMDEVAGIVAARHCKTNIVTASVDAINFHDKIRKGCVITISGRMTFTSNKSMEIEVLVDADPVVDSSQKRYRAASAFFTYVSLSQEGRSLPVPQLVPETEDEKKRFEEGKGRYLQMKAKRQGHAEPQP
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXVTMGRIMRPDDANVAGNVHGGTILKMIEEAGAIISTRHCNSQNGERCVAALARVERTDFLSPMCIGEVAHVSAEITYTSKHSVEVQVHVMSENILTGTKKLTNKATLWYVPLSLKNVDKVLEVPPIVYLRQEQEEEGRKRYEAQKLERMEXXXXXXXXXXXXXXPEPNTVSYSQSSLIHLVGPSDCTLHGFVHGGVTMKLMDEVAGIVAARHCKTNIVTASVDAINFHDKIRKGCVITISGRMTFTSNKSMEIEVLVDADPVVDNSQKRYRAASAFFTYVSLNQEGKPMPVPQLVPETEDEKKRFEEGKGRYLQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/11332.1/11332.1_protein/sequences/O00154-1_4zv3-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 439
+# Identity:     289/439 (65.8%)
+# Similarity:   295/439 (67.2%)
+# Gaps:         127/439 (28.9%)
+# Score: 1441.0
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               1 ---------MKLLARALRLCEFGRQASSRRLVAGQGCVGPRRGCCAPVQV     41
+                              |                                        
+asis              51 XXXXXXXVTM----------------------------------------     60
+
+asis              42 VGPRADLPPCGACITGRIMRPDDANVAGNVHGGTILKMIEEAGAIISTRH     91
+                                    |||||||||||||||||||||||||||||||||||
+asis              61 ---------------GRIMRPDDANVAGNVHGGTILKMIEEAGAIISTRH     95
+
+asis              92 CNSQNGERCVAALARVERTDFLSPMCIGEVAHVSAEITYTSKHSVEVQVN    141
+                     |||||||||||||||||||||||||||||||||||||||||||||||||:
+asis              96 CNSQNGERCVAALARVERTDFLSPMCIGEVAHVSAEITYTSKHSVEVQVH    145
+
+asis             142 VMSENILTGAKKLTNKATLWYVPLSLKNVDKVLEVPPVVYSRQEQEEEGR    191
+                     |||||||||.|||||||||||||||||||||||||||:||.|||||||||
+asis             146 VMSENILTGTKKLTNKATLWYVPLSLKNVDKVLEVPPIVYLRQEQEEEGR    195
+
+asis             192 KRYEAQKLERMETKWRNGDIVQPVLNPEPNTVSYSQSSLIHLVGPSDCTL    241
+                     ||||||||||||..............||||||||||||||||||||||||
+asis             196 KRYEAQKLERMEXXXXXXXXXXXXXXPEPNTVSYSQSSLIHLVGPSDCTL    245
+
+asis             242 HGFVHGGVTMKLMDEVAGIVAARHCKTNIVTASVDAINFHDKIRKGCVIT    291
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             246 HGFVHGGVTMKLMDEVAGIVAARHCKTNIVTASVDAINFHDKIRKGCVIT    295
+
+asis             292 ISGRMTFTSNKSMEIEVLVDADPVVDSSQKRYRAASAFFTYVSLSQEGRS    341
+                     ||||||||||||||||||||||||||:|||||||||||||||||:|||:.
+asis             296 ISGRMTFTSNKSMEIEVLVDADPVVDNSQKRYRAASAFFTYVSLNQEGKP    345
+
+asis             342 LPVPQLVPETEDEKKRFEEGKGRYLQMKAKRQGHAEPQP    380
+                     :|||||||||||||||||||||||||             
+asis             346 MPVPQLVPETEDEKKRFEEGKGRYLQ-------------    371
+
+
+#---------------------------------------
+#---------------------------------------

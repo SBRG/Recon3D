@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:23:00
+# Commandline: needle
+#    -outfile ./Recon3D/genes/115286.3/115286.3_protein/sequences/Q70HW3-3_ENSP00000336801-X.needle
+#    -asequence asis::MKHMLAASAGEVVACLIRVPSEVVKQRAQVSASTRTFQIFSNILYEEGIQGLYRGYKSTVLREEED
+#    -bsequence asis::MDRPGFVAALVAGGVAGVSVDLILFPLDTIKTRLQSPQGFSKAGGFHGIYAGVPSAAIGSFPNAAAFFITYEYVKWFLHADSSSYLTPMKHMLAASAGEVVACLIRVPSEVVKQRAQVSASTRTFQIFSNILYEEGIQGLYRGYKSTVLREIPFSLVQFPLWESLKALWSWRQDHVVDSWQSAVCGAFAGGFAAAVTTPLDVAKTRITLAKAGSSTADGNVLSVLHGVWRSQGLAGLFAGVFPRMAAISLGGFIFLGAYDRTHSLLLEVGRKSP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/115286.3/115286.3_protein/sequences/Q70HW3-3_ENSP00000336801-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 274
+# Identity:      63/274 (23.0%)
+# Similarity:    63/274 (23.0%)
+# Gaps:         208/274 (75.9%)
+# Score: 302.0
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 MDRPGFVAALVAGGVAGVSVDLILFPLDTIKTRLQSPQGFSKAGGFHGIY     50
+
+asis               1 --------------------------------------MKHMLAASAGEV     12
+                                                           ||||||||||||
+asis              51 AGVPSAAIGSFPNAAAFFITYEYVKWFLHADSSSYLTPMKHMLAASAGEV    100
+
+asis              13 VACLIRVPSEVVKQRAQVSASTRTFQIFSNILYEEGIQGLYRGYKSTVLR     62
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 VACLIRVPSEVVKQRAQVSASTRTFQIFSNILYEEGIQGLYRGYKSTVLR    150
+
+asis              63 EEED----------------------------------------------     66
+                     |...                                              
+asis             151 EIPFSLVQFPLWESLKALWSWRQDHVVDSWQSAVCGAFAGGFAAAVTTPL    200
+
+asis              66 --------------------------------------------------     66
+                                                                       
+asis             201 DVAKTRITLAKAGSSTADGNVLSVLHGVWRSQGLAGLFAGVFPRMAAISL    250
+
+asis              66 ------------------------     66
+                                             
+asis             251 GGFIFLGAYDRTHSLLLEVGRKSP    274
+
+
+#---------------------------------------
+#---------------------------------------

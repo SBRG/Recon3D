@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:17:23
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8446.1/8446.1_protein/sequences/O75319-1_4jmj-A.needle
+#    -asequence asis::MSQWHHPRSGWGRRRDFSGRSSAKKKGGNHIPERWKDYLPVGQRMPGTRFIAFKVPLQKSFEKKLAPEECFSPLDLFNKIREQNEELGLIIDLTYTQRYYKPEDLPETVPYLKIFTVGHQVPDDETIFKFKHAVNGFLKENKDNDKLIGVHCTHGLNRTGYLICRYLIDVEGVRPDDAIELFNRCRGHCLERQNYIEDLQNGPIRKNWNSSVPRSSDFEDSAHLMQPVHNKPVKQGPRYNLHQIQGHSAPRHFHTQTQSLQQSVRKFSENPHVYQRHHLPPPGPPGEDYSHRRYSWNVKPNASRAAQDRRRWYPYNYSRLSYPACWEWTQ
+#    -bsequence asis::GNHIPERWKDYLPVGQRMPGTRFIAFKVPLQKSFEKKLAPEECFSPLDLFNKIREQNEELGLIIDLTYTQRYYKPEDLPETVPYLKIFTVGHQVPDDETIFKFKHAVNGFLKENKDNDKLIGVHSTHGLNRTGYLICRYLIDVEGVRPDDAIELFNRCRGHCLERQNYIEDLQNGPIRKNW
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8446.1/8446.1_protein/sequences/O75319-1_4jmj-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 330
+# Identity:     180/330 (54.5%)
+# Similarity:   180/330 (54.5%)
+# Gaps:         149/330 (45.2%)
+# Score: 984.0
+# 
+#
+#=======================================
+
+asis               1 MSQWHHPRSGWGRRRDFSGRSSAKKKGGNHIPERWKDYLPVGQRMPGTRF     50
+                                                |||||||||||||||||||||||
+asis               1 ---------------------------GNHIPERWKDYLPVGQRMPGTRF     23
+
+asis              51 IAFKVPLQKSFEKKLAPEECFSPLDLFNKIREQNEELGLIIDLTYTQRYY    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              24 IAFKVPLQKSFEKKLAPEECFSPLDLFNKIREQNEELGLIIDLTYTQRYY     73
+
+asis             101 KPEDLPETVPYLKIFTVGHQVPDDETIFKFKHAVNGFLKENKDNDKLIGV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              74 KPEDLPETVPYLKIFTVGHQVPDDETIFKFKHAVNGFLKENKDNDKLIGV    123
+
+asis             151 HCTHGLNRTGYLICRYLIDVEGVRPDDAIELFNRCRGHCLERQNYIEDLQ    200
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+asis             124 HSTHGLNRTGYLICRYLIDVEGVRPDDAIELFNRCRGHCLERQNYIEDLQ    173
+
+asis             201 NGPIRKNWNSSVPRSSDFEDSAHLMQPVHNKPVKQGPRYNLHQIQGHSAP    250
+                     ||||||||                                          
+asis             174 NGPIRKNW------------------------------------------    181
+
+asis             251 RHFHTQTQSLQQSVRKFSENPHVYQRHHLPPPGPPGEDYSHRRYSWNVKP    300
+                                                                       
+asis             181 --------------------------------------------------    181
+
+asis             301 NASRAAQDRRRWYPYNYSRLSYPACWEWTQ    330
+                                                   
+asis             181 ------------------------------    181
+
+
+#---------------------------------------
+#---------------------------------------

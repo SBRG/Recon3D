@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:53:05
+# Commandline: needle
+#    -outfile ./Recon3D/genes/6648.1/6648.1_protein/sequences/P04179-1_1pl4-B.needle
+#    -asequence asis::MLSRAVCGTSRQLAPALGYLGSRQKHSLPDLPYDYGALEPHINAQIMQLHHSKHHAAYVNNLNVTEEKYQEALAKGDVTAQIALQPALKFNGGGHINHSIFWTNLSPNGGGEPKGELLEAIKRDFGSFDKFKEKLTAASVGVQGSGWGWLGFNKERGHLQIAACPNQDPLQGTTGLIPLLGIDVWEHAYYLQYKNVRPDYLKAIWNVINWENVTERYMACKK
+#    -bsequence asis::KHSLPDLPYDYGALEPHINAQIMQLHHSKHHAAYVNNLNVTEEKYQEALAKGDVTAQIALQPALKFNGGGHINHSIFWTNLSPNGGGEPKGELLEAIKRDFGSFDKFKEKLTAASVGVQGSGWGWLGFNKERGHLQIAACPNQDPLQGTTGLIPLLGIDVWEHAYFLQYKNVRPDYLKAIWNVINWENVTERYMAC
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/6648.1/6648.1_protein/sequences/P04179-1_1pl4-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:     195/222 (87.8%)
+# Similarity:   196/222 (88.3%)
+# Gaps:          26/222 (11.7%)
+# Score: 1071.0
+# 
+#
+#=======================================
+
+asis               1 MLSRAVCGTSRQLAPALGYLGSRQKHSLPDLPYDYGALEPHINAQIMQLH     50
+                                             ||||||||||||||||||||||||||
+asis               1 ------------------------KHSLPDLPYDYGALEPHINAQIMQLH     26
+
+asis              51 HSKHHAAYVNNLNVTEEKYQEALAKGDVTAQIALQPALKFNGGGHINHSI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              27 HSKHHAAYVNNLNVTEEKYQEALAKGDVTAQIALQPALKFNGGGHINHSI     76
+
+asis             101 FWTNLSPNGGGEPKGELLEAIKRDFGSFDKFKEKLTAASVGVQGSGWGWL    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              77 FWTNLSPNGGGEPKGELLEAIKRDFGSFDKFKEKLTAASVGVQGSGWGWL    126
+
+asis             151 GFNKERGHLQIAACPNQDPLQGTTGLIPLLGIDVWEHAYYLQYKNVRPDY    200
+                     |||||||||||||||||||||||||||||||||||||||:||||||||||
+asis             127 GFNKERGHLQIAACPNQDPLQGTTGLIPLLGIDVWEHAYFLQYKNVRPDY    176
+
+asis             201 LKAIWNVINWENVTERYMACKK    222
+                     ||||||||||||||||||||  
+asis             177 LKAIWNVINWENVTERYMAC--    196
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:22
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2879.1/2879.1_protein/sequences/P36969-1_2gs3-A.needle
+#    -asequence asis::MSLGRLCRLLKPALLCGALAAPGLAGTMCASRDDWRCARSMHEFSAKDIDGHMVNLDKYRGFVCIVTNVASQUGKTEVNYTQLVDLHARYAECGLRILAFPCNQFGKQEPGSNEEIKEFAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQPKGKGILGNAIKWNFTKFLIDKNGCVVKRYGPMEEPLVIEKDLPHYF
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXTENLYFQSMRCARSMHEFSAKDIDGHMVNLDKYRGFVCIVTNVASQGGKTEVNYTQLVDLHARYAECGLRILAFPCNQFGKQEPGSNEEIKEFAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQPKGKGILGNAIKWNFTKFLIDKNGCVVKRYGPMEEPLVIEKDLPHYF
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2879.1/2879.1_protein/sequences/P36969-1_2gs3-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:     162/229 (70.7%)
+# Similarity:   163/229 (71.2%)
+# Gaps:          64/229 (27.9%)
+# Score: 864.5
+# 
+#
+#=======================================
+
+asis               1 --------------------------------MSLGRLCRLLKPALLCGA     18
+                                                     .|:               
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXTENLYFQSM---------------     35
+
+asis              19 LAAPGLAGTMCASRDDWRCARSMHEFSAKDIDGHMVNLDKYRGFVCIVTN     68
+                                      |||||||||||||||||||||||||||||||||
+asis              36 -----------------RCARSMHEFSAKDIDGHMVNLDKYRGFVCIVTN     68
+
+asis              69 VASQUGKTEVNYTQLVDLHARYAECGLRILAFPCNQFGKQEPGSNEEIKE    118
+                     |||| |||||||||||||||||||||||||||||||||||||||||||||
+asis              69 VASQGGKTEVNYTQLVDLHARYAECGLRILAFPCNQFGKQEPGSNEEIKE    118
+
+asis             119 FAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQPKGKGILGNAIKWNFTKF    168
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             119 FAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQPKGKGILGNAIKWNFTKF    168
+
+asis             169 LIDKNGCVVKRYGPMEEPLVIEKDLPHYF    197
+                     |||||||||||||||||||||||||||||
+asis             169 LIDKNGCVVKRYGPMEEPLVIEKDLPHYF    197
+
+
+#---------------------------------------
+#---------------------------------------

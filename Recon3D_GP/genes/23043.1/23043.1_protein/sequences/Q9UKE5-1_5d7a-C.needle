@@ -1,0 +1,146 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:51:33
+# Commandline: needle
+#    -outfile ./Recon3D/genes/23043.1/23043.1_protein/sequences/Q9UKE5-1_5d7a-C.needle
+#    -asequence asis::MASDSPARSLDEIDLSALRDPAGIFELVELVGNGTYGQVYKGRHVKTGQLAAIKVMDVTGDEEEEIKQEINMLKKYSHHRNIATYYGAFIKKNPPGMDDQLWLVMEFCGAGSVTDLIKNTKGNTLKEEWIAYICREILRGLSHLHQHKVIHRDIKGQNVLLTENAEVKLVDFGVSAQLDRTVGRRNTFIGTPYWMAPEVIACDENPDATYDFKSDLWSLGITAIEMAEGAPPLCDMHPMRALFLIPRNPAPRLKSKKWSKKFQSFIESCLVKNHSQRPATEQLMKHPFIRDQPNERQVRIQLKDHIDRTKKKRGEKDETEYEYSGSEEEEEENDSGEPSSILNLPGESTLRRDFLRLQLANKERSEALRRQQLEQQQRENEEHKRQLLAERQKRIEEQKEQRRRLEEQQRREKELRKQQEREQRRHYEEQMRREEERRRAEHEQEYIRRQLEEEQRQLEILQQQLLHEQALLLEYKRKQLEEQRQAERLQRQLKQERDYLVSLQHQRQEQRPVEKKPLYHYKEGMSPSEKPAWAKEVEERSRLNRQSSPAMPHKVANRISDPNLPPRSESFSISGVQPARTPPMLRPVDPQIPHLVAVKSQGPALTASQSVHEQPTKGLSGFQEALNVTSHRVEMPRQNSDPTSENPPLPTRIEKFDRSSWLRQEEDIPPKVPQRTTSISPALARKNSPGNGSALGPRLGSQPIRASNPDLRRTEPILESPLQRTSSGSSSSSSTPSSQPSSQGGSQPGSQAGSSERTRVRANSKSEGSPVLPHEPAKVKPEESRDITRPSRPASYKKAIDEDLTALAKELRELRIEETNRPMKKVTDYSSSSEESESSEEEEEDGESETHDGTVAVSDIPRLIPTGAPGSNEQYNVGMVGTHGLETSHADSFSGSISREGTLMIRETSGEKKRSGHSDSNGFAGHINLPDLVQQSHSPAGTPTEGLGRVSTHSQEMDSGTEYGMGSSTKASFTPFVDPRVYQTSPTDEDEEDEESSAAALFTSELLRQEQAKLNEARKISVVNVNPTNIRPHSDTPEIRKYKKRFNSEILCAALWGVNLLVGTENGLMLLDRSGQGKVYNLINRRRFQQMDVLEGLNVLVTISGKKNKLRVYYLSWLRNRILHNDPEVEKKQGWITVGDLEGCIHYKVVKYERIKFLVIALKNAVEIYAWAPKPYHKFMAFKSFADLQHKPLLVDLTVEEGQRLKVIFGSHTGFHVIDVDSGNSYDIYIPSHIQGNITPHAIVILPKTDGMEMLVCYEDEGVYVNTYGRITKDVVLQWGEMPTSVAYIHSNQIMGWGEKAIEIRSVETGHLDGVFMHKRAQRLKFLCERNDKVFFASVRSGGSSQVFFMTLNRNSMMNW
+#    -bsequence asis::XXXXXXXXXXXXIDLSALRDPAGIFELVELVGNGTYGQVYKGRHVKTGQLAAIKVMDVTGDEEEEIKQEINMLKKYSHHRNIATYYGAFIKKNPPGMDDQLWLVMEFCGAGSVTDLIKNTKGNTLKEEWIAYICREILRGLSHLHQHKVIHRDIKGQNVLLTENAEVKLVDFGXXXXXXXXXXXXNTFIGTPYWMAPEVIACDENPDATYDFKSDLWSLGITAIEMAEGAPPLCDMHPMRALFLIPRNPAPRLKSKKWSKKFQSFIESCLVKNHSQRPATEQLMKHPFIRDQPNERQVRIQLKDHIDRTK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/23043.1/23043.1_protein/sequences/Q9UKE5-1_5d7a-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1360
+# Identity:     286/1360 (21.0%)
+# Similarity:   286/1360 (21.0%)
+# Gaps:        1050/1360 (77.2%)
+# Score: 1509.0
+# 
+#
+#=======================================
+
+asis               1 MASDSPARSLDEIDLSALRDPAGIFELVELVGNGTYGQVYKGRHVKTGQL     50
+                     ............||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXIDLSALRDPAGIFELVELVGNGTYGQVYKGRHVKTGQL     50
+
+asis              51 AAIKVMDVTGDEEEEIKQEINMLKKYSHHRNIATYYGAFIKKNPPGMDDQ    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 AAIKVMDVTGDEEEEIKQEINMLKKYSHHRNIATYYGAFIKKNPPGMDDQ    100
+
+asis             101 LWLVMEFCGAGSVTDLIKNTKGNTLKEEWIAYICREILRGLSHLHQHKVI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 LWLVMEFCGAGSVTDLIKNTKGNTLKEEWIAYICREILRGLSHLHQHKVI    150
+
+asis             151 HRDIKGQNVLLTENAEVKLVDFGVSAQLDRTVGRRNTFIGTPYWMAPEVI    200
+                     |||||||||||||||||||||||............|||||||||||||||
+asis             151 HRDIKGQNVLLTENAEVKLVDFGXXXXXXXXXXXXNTFIGTPYWMAPEVI    200
+
+asis             201 ACDENPDATYDFKSDLWSLGITAIEMAEGAPPLCDMHPMRALFLIPRNPA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 ACDENPDATYDFKSDLWSLGITAIEMAEGAPPLCDMHPMRALFLIPRNPA    250
+
+asis             251 PRLKSKKWSKKFQSFIESCLVKNHSQRPATEQLMKHPFIRDQPNERQVRI    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 PRLKSKKWSKKFQSFIESCLVKNHSQRPATEQLMKHPFIRDQPNERQVRI    300
+
+asis             301 QLKDHIDRTKKKRGEKDETEYEYSGSEEEEEENDSGEPSSILNLPGESTL    350
+                     ||||||||||                                        
+asis             301 QLKDHIDRTK----------------------------------------    310
+
+asis             351 RRDFLRLQLANKERSEALRRQQLEQQQRENEEHKRQLLAERQKRIEEQKE    400
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             401 QRRRLEEQQRREKELRKQQEREQRRHYEEQMRREEERRRAEHEQEYIRRQ    450
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             451 LEEEQRQLEILQQQLLHEQALLLEYKRKQLEEQRQAERLQRQLKQERDYL    500
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             501 VSLQHQRQEQRPVEKKPLYHYKEGMSPSEKPAWAKEVEERSRLNRQSSPA    550
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             551 MPHKVANRISDPNLPPRSESFSISGVQPARTPPMLRPVDPQIPHLVAVKS    600
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             601 QGPALTASQSVHEQPTKGLSGFQEALNVTSHRVEMPRQNSDPTSENPPLP    650
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             651 TRIEKFDRSSWLRQEEDIPPKVPQRTTSISPALARKNSPGNGSALGPRLG    700
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             701 SQPIRASNPDLRRTEPILESPLQRTSSGSSSSSSTPSSQPSSQGGSQPGS    750
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             751 QAGSSERTRVRANSKSEGSPVLPHEPAKVKPEESRDITRPSRPASYKKAI    800
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             801 DEDLTALAKELRELRIEETNRPMKKVTDYSSSSEESESSEEEEEDGESET    850
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             851 HDGTVAVSDIPRLIPTGAPGSNEQYNVGMVGTHGLETSHADSFSGSISRE    900
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             901 GTLMIRETSGEKKRSGHSDSNGFAGHINLPDLVQQSHSPAGTPTEGLGRV    950
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             951 STHSQEMDSGTEYGMGSSTKASFTPFVDPRVYQTSPTDEDEEDEESSAAA   1000
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis            1001 LFTSELLRQEQAKLNEARKISVVNVNPTNIRPHSDTPEIRKYKKRFNSEI   1050
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis            1051 LCAALWGVNLLVGTENGLMLLDRSGQGKVYNLINRRRFQQMDVLEGLNVL   1100
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis            1101 VTISGKKNKLRVYYLSWLRNRILHNDPEVEKKQGWITVGDLEGCIHYKVV   1150
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis            1151 KYERIKFLVIALKNAVEIYAWAPKPYHKFMAFKSFADLQHKPLLVDLTVE   1200
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis            1201 EGQRLKVIFGSHTGFHVIDVDSGNSYDIYIPSHIQGNITPHAIVILPKTD   1250
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis            1251 GMEMLVCYEDEGVYVNTYGRITKDVVLQWGEMPTSVAYIHSNQIMGWGEK   1300
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis            1301 AIEIRSVETGHLDGVFMHKRAQRLKFLCERNDKVFFASVRSGGSSQVFFM   1350
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis            1351 TLNRNSMMNW   1360
+                               
+asis             310 ----------    310
+
+
+#---------------------------------------
+#---------------------------------------

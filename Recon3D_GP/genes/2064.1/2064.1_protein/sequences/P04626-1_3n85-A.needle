@@ -1,0 +1,138 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 18:08:09
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2064.1/2064.1_protein/sequences/P04626-1_3n85-A.needle
+#    -asequence asis::MELAALCRWGLLLALLPPGAASTQVCTGTDMKLRLPASPETHLDMLRHLYQGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLRIVRGTQLFEDNYALAVLDNGDPLNNTTPVTGASPGGLRELQLRSLTEILKGGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCKGSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHSDCLACLHFNHSGICELHCPALVTYNTDTFESMPNPEGRYTFGASCVTACPYNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHLREVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVFETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGISWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRPEDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPINCTHSCVDLDDKGCPAEQRASPLTSIISAVVGILLVVVLGVVFGILIKRRQQKIRKYTMRRLLQETELVEPLTPSGAMPNQAQMRILKETELRKVKVLGSGAFGTVYKGIWIPDGENVKIPVAIKVLRENTSPKANKEILDEAYVMAGVGSPYVSRLLGICLTSTVQLVTQLMPYGCLLDHVRENRGRLGSQDLLNWCMQIAKGMSYLEDVRLVHRDLAARNVLVKSPNHVKITDFGLARLLDIDETEYHADGGKVPIKWMALESILRRRFTHQSDVWSYGVTVWELMTFGAKPYDGIPAREIPDLLEKGERLPQPPICTIDVYMIMVKCWMIDSECRPRFRELVSEFSRMARDPQRFVVIQNEDLGPASPLDSTFYRSLLEDDDMGDLVDAEEYLVPQQGFFCPDPAPGAGGMVHHRHRSSSTRSGGGDLTLGLEPSEEEAPRSPLAPSEGAGSDVFDGDLGMGAAKGLQSLPTHDPSPLQRYSEDPTVPLPSETDGYVAPLTCSPQPEYVNQPDVRPQPPSPREGPLPAARPAGATLERPKTLSPGKNGVVKDVFAFGGAVENPEYLTPQGGAAPQPHPPPAFSPAFDNLYYWDQDPPERGAPPSTFKGTPTAENPEYLGLDVPV
+#    -bsequence asis::TQVCTGTDMKLRLPASPETHLDMLRHLYQGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLRIVRGTQLFEDNYALAVLDNGDPXXXXXXXXXXSPGGLRELQLRSLTEILKGGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCKGSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHSDCLACLHFNHSGICELHCPXXXXXNTDTFESMPNPEGRYTFGASCVTACPYNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHLREVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVFETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGISWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRPEDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPINCTHSCVDLDDKGC
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2064.1/2064.1_protein/sequences/P04626-1_3n85-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1255
+# Identity:     605/1255 (48.2%)
+# Similarity:   605/1255 (48.2%)
+# Gaps:         635/1255 (50.6%)
+# Score: 3375.0
+# 
+#
+#=======================================
+
+asis               1 MELAALCRWGLLLALLPPGAASTQVCTGTDMKLRLPASPETHLDMLRHLY     50
+                                           ||||||||||||||||||||||||||||
+asis               1 ----------------------TQVCTGTDMKLRLPASPETHLDMLRHLY     28
+
+asis              51 QGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              29 QGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLR     78
+
+asis             101 IVRGTQLFEDNYALAVLDNGDPLNNTTPVTGASPGGLRELQLRSLTEILK    150
+                     ||||||||||||||||||||||..........||||||||||||||||||
+asis              79 IVRGTQLFEDNYALAVLDNGDPXXXXXXXXXXSPGGLRELQLRSLTEILK    128
+
+asis             151 GGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCK    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             129 GGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCK    178
+
+asis             201 GSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHS    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             179 GSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHS    228
+
+asis             251 DCLACLHFNHSGICELHCPALVTYNTDTFESMPNPEGRYTFGASCVTACP    300
+                     |||||||||||||||||||.....||||||||||||||||||||||||||
+asis             229 DCLACLHFNHSGICELHCPXXXXXNTDTFESMPNPEGRYTFGASCVTACP    278
+
+asis             301 YNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHL    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             279 YNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHL    328
+
+asis             351 REVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVF    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             329 REVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVF    378
+
+asis             401 ETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGI    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             379 ETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGI    428
+
+asis             451 SWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRP    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             429 SWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRP    478
+
+asis             501 EDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGL    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             479 EDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGL    528
+
+asis             551 PREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARC    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             529 PREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARC    578
+
+asis             601 PSGVKPDLSYMPIWKFPDEEGACQPCPINCTHSCVDLDDKGCPAEQRASP    650
+                     ||||||||||||||||||||||||||||||||||||||||||        
+asis             579 PSGVKPDLSYMPIWKFPDEEGACQPCPINCTHSCVDLDDKGC--------    620
+
+asis             651 LTSIISAVVGILLVVVLGVVFGILIKRRQQKIRKYTMRRLLQETELVEPL    700
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis             701 TPSGAMPNQAQMRILKETELRKVKVLGSGAFGTVYKGIWIPDGENVKIPV    750
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis             751 AIKVLRENTSPKANKEILDEAYVMAGVGSPYVSRLLGICLTSTVQLVTQL    800
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis             801 MPYGCLLDHVRENRGRLGSQDLLNWCMQIAKGMSYLEDVRLVHRDLAARN    850
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis             851 VLVKSPNHVKITDFGLARLLDIDETEYHADGGKVPIKWMALESILRRRFT    900
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis             901 HQSDVWSYGVTVWELMTFGAKPYDGIPAREIPDLLEKGERLPQPPICTID    950
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis             951 VYMIMVKCWMIDSECRPRFRELVSEFSRMARDPQRFVVIQNEDLGPASPL   1000
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis            1001 DSTFYRSLLEDDDMGDLVDAEEYLVPQQGFFCPDPAPGAGGMVHHRHRSS   1050
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis            1051 STRSGGGDLTLGLEPSEEEAPRSPLAPSEGAGSDVFDGDLGMGAAKGLQS   1100
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis            1101 LPTHDPSPLQRYSEDPTVPLPSETDGYVAPLTCSPQPEYVNQPDVRPQPP   1150
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis            1151 SPREGPLPAARPAGATLERPKTLSPGKNGVVKDVFAFGGAVENPEYLTPQ   1200
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis            1201 GGAAPQPHPPPAFSPAFDNLYYWDQDPPERGAPPSTFKGTPTAENPEYLG   1250
+                                                                       
+asis             620 --------------------------------------------------    620
+
+asis            1251 LDVPV   1255
+                          
+asis             620 -----    620
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:02:46
+# Commandline: needle
+#    -outfile ./Recon3D/genes/112611.1/112611.1_protein/sequences/Q9UIY3-1_2daw-A.needle
+#    -asequence asis::MSASVKESLQLQLLEMEMLFSMFPNQGEVKLEDVNALTNIKRYLEGTREALPPKIEFVITLQIEEPKVKIDLQVTMPHSYPYVALQLFGRSSELDRHQQLLLNKGLTSYIGTFDPGELCVCAAIQWLQDNSASYFLNRKLVYEPSTQAKPVKNTFLRMWIYSHHIYQQDLRKKILDVGKRLDVTGFCMTGKPGIICVEGFKEHCEEFWHTIRYPNWKHISCKHAESVETEGNGEDLRLFHSFEELLLEAHGDYGLRNDYHMNLGQFLEFLKKHKSEHVFQILFGIESKSSDS
+#    -bsequence asis::GSSGSSGMSASVKESLQLQLLEMEMLFSMFPNQGEVKLEDVNALTNIKRYLEGTREALPPKIEFVITLQIEEPKVKIDLQVTMPHSYPYLALQLFGRSSELDRHQQLLLNKGLTSYIGTFDPGELCVCAAIQWLQDNSASYFLNRKLVSGPSSG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/112611.1/112611.1_protein/sequences/Q9UIY3-1_2daw-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 299
+# Identity:     142/299 (47.5%)
+# Similarity:   144/299 (48.2%)
+# Gaps:         152/299 (50.8%)
+# Score: 720.0
+# 
+#
+#=======================================
+
+asis               1 -------MSASVKESLQLQLLEMEMLFSMFPNQGEVKLEDVNALTNIKRY     43
+                            |||||||||||||||||||||||||||||||||||||||||||
+asis               1 GSSGSSGMSASVKESLQLQLLEMEMLFSMFPNQGEVKLEDVNALTNIKRY     50
+
+asis              44 LEGTREALPPKIEFVITLQIEEPKVKIDLQVTMPHSYPYVALQLFGRSSE     93
+                     |||||||||||||||||||||||||||||||||||||||:||||||||||
+asis              51 LEGTREALPPKIEFVITLQIEEPKVKIDLQVTMPHSYPYLALQLFGRSSE    100
+
+asis              94 LDRHQQLLLNKGLTSYIGTFDPGELCVCAAIQWLQDNSASYFLNRKLVYE    143
+                     ||||||||||||||||||||||||||||||||||||||||||||||||..
+asis             101 LDRHQQLLLNKGLTSYIGTFDPGELCVCAAIQWLQDNSASYFLNRKLVSG    150
+
+asis             144 PSTQAKPVKNTFLRMWIYSHHIYQQDLRKKILDVGKRLDVTGFCMTGKPG    193
+                     ||:.                                              
+asis             151 PSSG----------------------------------------------    154
+
+asis             194 IICVEGFKEHCEEFWHTIRYPNWKHISCKHAESVETEGNGEDLRLFHSFE    243
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             244 ELLLEAHGDYGLRNDYHMNLGQFLEFLKKHKSEHVFQILFGIESKSSDS    292
+                                                                      
+asis             154 -------------------------------------------------    154
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:45:02
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4482.1/4482.1_protein/sequences/Q9UJ68-1_1fva-A.needle
+#    -asequence asis::MLSATRRACQLLLLHSLFPVPRMGNSASNIVSPQEALPGRKEQTPVAAKHHVNGNRTVEPFPEGTQMAVFGMGCFWGAERKFWVLKGVYSTQVGFAGGYTSNPTYKEVCSEKTGHAEVVRVVYQPEHMSFEELLKVFWENHDPTQGMRQGNDHGTQYRSAIYPTSAKQMEAALSSKENYQKVLSEHGFGPITTDIREGQTFYYAEDYHQQYLSKNPNGYCGLGGTGVSCPVGIKK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXVSPQEALPGRKEPLVVAAKHHVNGNRTVEPFPEGTQMAVFGMGCFWGAERKFWTLKGVYSTQVGFAGGYTPNPTYKEVCSGKTGHAEVVRVVFQPEHISFEELLKVFWENHDPTQGMRQGNDHGSQYRSAIYPTSAEHVGAALKSKEDYQKVLSEHGFGLITTDIREGQTFYYAEDYHQQYLSKDPDGYCGLGGTGVSCP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4482.1/4482.1_protein/sequences/Q9UJ68-1_1fva-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 235
+# Identity:     182/235 (77.4%)
+# Similarity:   190/235 (80.9%)
+# Gaps:           7/235 ( 3.0%)
+# Score: 977.0
+# 
+#
+#=======================================
+
+asis               1 MLSATRRACQLLLLHSLFPVPRMGNSASNIVSPQEALPGRKEQTPVAAKH     50
+                       ............................||||||||||||...|||||
+asis               1 --XXXXXXXXXXXXXXXXXXXXXXXXXXXXVSPQEALPGRKEPLVVAAKH     48
+
+asis              51 HVNGNRTVEPFPEGTQMAVFGMGCFWGAERKFWVLKGVYSTQVGFAGGYT    100
+                     |||||||||||||||||||||||||||||||||.||||||||||||||||
+asis              49 HVNGNRTVEPFPEGTQMAVFGMGCFWGAERKFWTLKGVYSTQVGFAGGYT     98
+
+asis             101 SNPTYKEVCSEKTGHAEVVRVVYQPEHMSFEELLKVFWENHDPTQGMRQG    150
+                     .|||||||||.|||||||||||:||||:||||||||||||||||||||||
+asis              99 PNPTYKEVCSGKTGHAEVVRVVFQPEHISFEELLKVFWENHDPTQGMRQG    148
+
+asis             151 NDHGTQYRSAIYPTSAKQMEAALSSKENYQKVLSEHGFGPITTDIREGQT    200
+                     ||||:|||||||||||:.:.|||.|||:|||||||||||.||||||||||
+asis             149 NDHGSQYRSAIYPTSAEHVGAALKSKEDYQKVLSEHGFGLITTDIREGQT    198
+
+asis             201 FYYAEDYHQQYLSKNPNGYCGLGGTGVSCPVGIKK    235
+                     ||||||||||||||:|:|||||||||||||     
+asis             199 FYYAEDYHQQYLSKDPDGYCGLGGTGVSCP-----    228
+
+
+#---------------------------------------
+#---------------------------------------

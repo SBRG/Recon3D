@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:43:43
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8654.1/8654.1_protein/sequences/O76074-1_3lfv-B.needle
+#    -asequence asis::MERAGPSFGQQRQQQQPQQQKQQQRDQDSVEAWLDDHWDFTFSYFVRKATREMVNAWFAERVHTIPVCKEGIRGHTESCSCPLQQSPRADNSAPGTPTRKISASEFDRPLRPIVVKDSEGTVSFLSDSEKKEQMPLTPPRFDHDEGDQCSRLLELVKDISSHLDVTALCHKIFLHIHGLISADRYSLFLVCEDSSNDKFLISRLFDVAEGSTLEEVSNNCIRLEWNKGIVGHVAALGEPLNIKDAYEDPRFNAEVDQITGYKTQSILCMPIKNHREEVVGVAQAINKKSGNGGTFTEKDEKDFAAYLAFCGIVLHNAQLYETSLLENKRNQVLLDLASLIFEEQQSLEVILKKIAATIISFMQVQKCTIFIVDEDCSDSFSSVFHMECEELEKSSDTLTREHDANKINYMYAQYVKNTMEPLNIPDVSKDKRFPWTTENTGNVNQQCIRSLLCTPIKNGKKNKVIGVCQLVNKMEENTGKVKPFNRNDEQFLEAFVIFCGLGIQNTQMYEAVERAMAKQMVTLEVLSYHASAAEEETRELQSLAAAVVPSAQTLKITDFSFSDFELSDLETALCTIRMFTDLNLVQNFQMKHEVLCRWILSVKKNYRKNVAYHNWRHAFNTAQCMFAALKAGKIQNKLTDLEILALLIAALSHDLDHRGVNNSYIQRSEHPLAQLYCHSIMEHHHFDQCLMILNSPGNQILSGLSIEEYKTTLKIIKQAILATDLALYIKRRGEFFELIRKNQFNLEDPHQKELFLAMLMTACDLSAITKPWPIQQRIAELVATEFFDQGDRERKELNIEPTDLMNREKKNKIPSMQVGFIDAICLQLYEALTHVSEDCFPLLDGCRKNRQKWQALAEQQEKMLINGESGQAKRN
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAMEHMASMTRKISASEFDRPLRPIVVKDSEGTVSFLSDSEKXXXXXXXXXXXXXXXXDQSSRLLELVKDISSHLDVTALCHKIFLHIHGLISADRYSLFLVCEDSSNDKFLISRLFDVAXXXXXXXXXNNCIRLEWNKGIVGHVAALGEPLNIKDAYEDPRFNAEVDQITGYKTQSILCMPIKNHREEVVGVAQAINKKSGNGGTFTEKDEKDFAAYLAFCGIVLHNAQLYETSLLENKRNQVLLDLASLIFEEQQSLEVILKKIAATIISFMQVQKCTIFIVDEDCSDSFSSVFHMECEELEKSXXXXXXXXXXXXXXYMYAQYVKNTMEPLNIPDVSKDKRFPXXXXXXXXXXXXCIRSLLCTPIKNGKKNKVIGVCQLVNKMEENTGKVKPFNRNDEQFLEAFVIFCGLGIQNTQMYEAVERAMAKRN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8654.1/8654.1_protein/sequences/O76074-1_3lfv-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 965
+# Identity:     373/965 (38.7%)
+# Similarity:   374/965 (38.8%)
+# Gaps:         535/965 (55.4%)
+# Score: 1810.0
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               1 ----------------------------------------MERAGPSFGQ     10
+                                                             ||        
+asis              51 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAME--------     92
+
+asis              11 QRQQQQPQQQKQQQRDQDSVEAWLDDHWDFTFSYFVRKATREMVNAWFAE     60
+                                                                       
+asis              92 --------------------------------------------------     92
+
+asis              61 RVHTIPVCKEGIRGHTESCSCPLQQSPRADNSAPGTPTRKISASEFDRPL    110
+                                   |..|.                  |||||||||||||
+asis              93 --------------HMASM------------------TRKISASEFDRPL    110
+
+asis             111 RPIVVKDSEGTVSFLSDSEKKEQMPLTPPRFDHDEGDQCSRLLELVKDIS    160
+                     ||||||||||||||||||||................||.|||||||||||
+asis             111 RPIVVKDSEGTVSFLSDSEKXXXXXXXXXXXXXXXXDQSSRLLELVKDIS    160
+
+asis             161 SHLDVTALCHKIFLHIHGLISADRYSLFLVCEDSSNDKFLISRLFDVAEG    210
+                     ||||||||||||||||||||||||||||||||||||||||||||||||..
+asis             161 SHLDVTALCHKIFLHIHGLISADRYSLFLVCEDSSNDKFLISRLFDVAXX    210
+
+asis             211 STLEEVSNNCIRLEWNKGIVGHVAALGEPLNIKDAYEDPRFNAEVDQITG    260
+                     .......|||||||||||||||||||||||||||||||||||||||||||
+asis             211 XXXXXXXNNCIRLEWNKGIVGHVAALGEPLNIKDAYEDPRFNAEVDQITG    260
+
+asis             261 YKTQSILCMPIKNHREEVVGVAQAINKKSGNGGTFTEKDEKDFAAYLAFC    310
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             261 YKTQSILCMPIKNHREEVVGVAQAINKKSGNGGTFTEKDEKDFAAYLAFC    310
+
+asis             311 GIVLHNAQLYETSLLENKRNQVLLDLASLIFEEQQSLEVILKKIAATIIS    360
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             311 GIVLHNAQLYETSLLENKRNQVLLDLASLIFEEQQSLEVILKKIAATIIS    360
+
+asis             361 FMQVQKCTIFIVDEDCSDSFSSVFHMECEELEKSSDTLTREHDANKINYM    410
+                     ||||||||||||||||||||||||||||||||||..............||
+asis             361 FMQVQKCTIFIVDEDCSDSFSSVFHMECEELEKSXXXXXXXXXXXXXXYM    410
+
+asis             411 YAQYVKNTMEPLNIPDVSKDKRFPWTTENTGNVNQQCIRSLLCTPIKNGK    460
+                     ||||||||||||||||||||||||............||||||||||||||
+asis             411 YAQYVKNTMEPLNIPDVSKDKRFPXXXXXXXXXXXXCIRSLLCTPIKNGK    460
+
+asis             461 KNKVIGVCQLVNKMEENTGKVKPFNRNDEQFLEAFVIFCGLGIQNTQMYE    510
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             461 KNKVIGVCQLVNKMEENTGKVKPFNRNDEQFLEAFVIFCGLGIQNTQMYE    510
+
+asis             511 AVERAMAKQMVTLEVLSYHASAAEEETRELQSLAAAVVPSAQTLKITDFS    560
+                     ||||||||:.                                        
+asis             511 AVERAMAKRN----------------------------------------    520
+
+asis             561 FSDFELSDLETALCTIRMFTDLNLVQNFQMKHEVLCRWILSVKKNYRKNV    610
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             611 AYHNWRHAFNTAQCMFAALKAGKIQNKLTDLEILALLIAALSHDLDHRGV    660
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             661 NNSYIQRSEHPLAQLYCHSIMEHHHFDQCLMILNSPGNQILSGLSIEEYK    710
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             711 TTLKIIKQAILATDLALYIKRRGEFFELIRKNQFNLEDPHQKELFLAMLM    760
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             761 TACDLSAITKPWPIQQRIAELVATEFFDQGDRERKELNIEPTDLMNREKK    810
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             811 NKIPSMQVGFIDAICLQLYEALTHVSEDCFPLLDGCRKNRQKWQALAEQQ    860
+                                                                       
+asis             520 --------------------------------------------------    520
+
+asis             861 EKMLINGESGQAKRN    875
+                                    
+asis             520 ---------------    520
+
+
+#---------------------------------------
+#---------------------------------------

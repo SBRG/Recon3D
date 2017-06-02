@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:36:46
+# Commandline: needle
+#    -outfile ./Recon3D/genes/84693.1/84693.1_protein/sequences/Q96PE7-1_3rmu-A.needle
+#    -asequence asis::MARVLKAAAANAVGLFSRLQAPIPTVRASSTSQPLDQVTGSVWNLGRLNHVAIAVPDLEKAAAFYKNILGAQVSEAVPLPEHGVSVVFVNLGNTKMELLHPLGRDSPIAGFLQKNKAGGMHHICIEVDNINAAVMDLKKKKIRSLSEEVKIGAHGKPVIFLHPKDCGGVLVELEQA
+#    -bsequence asis::SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLGRLNHVAIAVPDLEKAAAFYKNILGAQVSEAVPLPEHGVSVVFVNLGNTKMELLHPLGLDSPIAGFLQKNKAGGMHHICIEVDNINAAVMDLKKKKIRSLSEEVKIGAHGKPVIFLHPKDCGGVLVELEQA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/84693.1/84693.1_protein/sequences/Q96PE7-1_3rmu-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 218
+# Identity:     132/218 (60.6%)
+# Similarity:   133/218 (61.0%)
+# Gaps:          82/218 (37.6%)
+# Score: 641.5
+# 
+#
+#=======================================
+
+asis               1 MARVLKAAAANAVGLFSRLQAPIPTVRASSTSQPLDQVTGSV--------     42
+                                                             |:        
+asis               1 ----------------------------------------SMXXXXXXXX     10
+
+asis              43 ----------------------------------WNLGRLNHVAIAVPDL     58
+                                                       ..||||||||||||||
+asis              11 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLGRLNHVAIAVPDL     60
+
+asis              59 EKAAAFYKNILGAQVSEAVPLPEHGVSVVFVNLGNTKMELLHPLGRDSPI    108
+                     |||||||||||||||||||||||||||||||||||||||||||||.||||
+asis              61 EKAAAFYKNILGAQVSEAVPLPEHGVSVVFVNLGNTKMELLHPLGLDSPI    110
+
+asis             109 AGFLQKNKAGGMHHICIEVDNINAAVMDLKKKKIRSLSEEVKIGAHGKPV    158
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             111 AGFLQKNKAGGMHHICIEVDNINAAVMDLKKKKIRSLSEEVKIGAHGKPV    160
+
+asis             159 IFLHPKDCGGVLVELEQA    176
+                     ||||||||||||||||||
+asis             161 IFLHPKDCGGVLVELEQA    178
+
+
+#---------------------------------------
+#---------------------------------------

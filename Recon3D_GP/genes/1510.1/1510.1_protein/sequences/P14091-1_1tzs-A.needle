@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:16:16
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1510.1/1510.1_protein/sequences/P14091-1_1tzs-A.needle
+#    -asequence asis::MKTLLLLLLVLLELGEAQGSLHRVPLRRHPSLKKKLRARSQLSEFWKSHNLDMIQFTESCSMDQSAKEPLINYLDMEYFGTISIGSPPQNFTVIFDTGSSNLWVPSVYCTSPACKTHSRFQPSQSSTYSQPGQSFSIQYGTGSLSGIIGADQVSVEGLTVVGQQFGESVTEPGQTFVDAEFDGILGLGYPSLAVGGVTPVFDNMMAQNLVDLPMFSVYMSSNPEGGAGSELIFGGYDHSHFSGSLNWVPVTKQAYWQIALDNIQVGGTVMFCSEGCQAIVDTGTSLITGPSDKIKQLQNAIGAAPVDGEYAVECANLNVMPDVTFTINGVPYTLSPTAYTLLDFVDGMQFCSSGFQGLDIHPPAGPLWILGDVFIRQFYSVFDRGNNRVGLAPAVP
+#    -bsequence asis::XXXXXXXXXXXXXKEPLINYLDMEYFGTISIGSPPQNFTVIFDTGSSNLWVPSVYCTSPACKTHSRFQPSQSSTYSQPGQSFSIQYGTGSLSGIIGADQVSVEGLTVVGQQFGESVTEPGQTFVDAEFDGILGLGYPSLAVGGVTPVFDNMMAQNLVDLPMFSVYMSSNPXXGAGSELIFGGYDHSHFSGSLNWVPVTKQAYWQIALDNIQVGGTVMFCSEGCQAIVDTGTSLITGPSDKIKQLQNAIGAAPVDGEYAVECANLNVMPDVTFTINGVPYTLSPTAYTLLDXXXXXQFCSSGFQGLDIHPPAGPLWILGDVFIRQFYSVFDRGNNRVGLAPAV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1510.1/1510.1_protein/sequences/P14091-1_1tzs-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 396
+# Identity:     322/396 (81.3%)
+# Similarity:   322/396 (81.3%)
+# Gaps:          54/396 (13.6%)
+# Score: 1690.0
+# 
+#
+#=======================================
+
+asis               1 MKTLLLLLLVLLELGEAQGSLHRVPLRRHPSLKKKLRARSQLSEFWKSHN     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 LDMIQFTESCSMDQSAKEPLINYLDMEYFGTISIGSPPQNFTVIFDTGSS    100
+                        .............||||||||||||||||||||||||||||||||||
+asis               1 ---XXXXXXXXXXXXXKEPLINYLDMEYFGTISIGSPPQNFTVIFDTGSS     47
+
+asis             101 NLWVPSVYCTSPACKTHSRFQPSQSSTYSQPGQSFSIQYGTGSLSGIIGA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              48 NLWVPSVYCTSPACKTHSRFQPSQSSTYSQPGQSFSIQYGTGSLSGIIGA     97
+
+asis             151 DQVSVEGLTVVGQQFGESVTEPGQTFVDAEFDGILGLGYPSLAVGGVTPV    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              98 DQVSVEGLTVVGQQFGESVTEPGQTFVDAEFDGILGLGYPSLAVGGVTPV    147
+
+asis             201 FDNMMAQNLVDLPMFSVYMSSNPEGGAGSELIFGGYDHSHFSGSLNWVPV    250
+                     |||||||||||||||||||||||..|||||||||||||||||||||||||
+asis             148 FDNMMAQNLVDLPMFSVYMSSNPXXGAGSELIFGGYDHSHFSGSLNWVPV    197
+
+asis             251 TKQAYWQIALDNIQVGGTVMFCSEGCQAIVDTGTSLITGPSDKIKQLQNA    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             198 TKQAYWQIALDNIQVGGTVMFCSEGCQAIVDTGTSLITGPSDKIKQLQNA    247
+
+asis             301 IGAAPVDGEYAVECANLNVMPDVTFTINGVPYTLSPTAYTLLDFVDGMQF    350
+                     |||||||||||||||||||||||||||||||||||||||||||.....||
+asis             248 IGAAPVDGEYAVECANLNVMPDVTFTINGVPYTLSPTAYTLLDXXXXXQF    297
+
+asis             351 CSSGFQGLDIHPPAGPLWILGDVFIRQFYSVFDRGNNRVGLAPAVP    396
+                     ||||||||||||||||||||||||||||||||||||||||||||| 
+asis             298 CSSGFQGLDIHPPAGPLWILGDVFIRQFYSVFDRGNNRVGLAPAV-    342
+
+
+#---------------------------------------
+#---------------------------------------

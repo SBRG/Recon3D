@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:59:49
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2880.1/2880.1_protein/sequences/O75715-1_2i3y-A.needle
+#    -asequence asis::MTTQLRVVHLLPLLLACFVQTSPKQEKMKMDCHKDEKGTIYDYEAIALNKNEYVSFKQYVGKHILFVNVATYCGLTAQYPELNALQEELKPYGLVVLGFPCNQFGKQEPGDNKEILPGLKYVRPGGGFVPSFQLFEKGDVNGEKEQKVFSFLKHSCPHPSEILGTFKSISWDPVKVHDIRWNFEKFLVGPDGIPVMRWSHRATVSSVKTDILAYLKQFKTK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDCHKDEKGTIYDYEAIALNKNEYVSFKQYVGKHILFVNVATYCGLTAQYPELNALQEELKPYGLVVLGFPCNQFGKQEPGDNKEILPGLKYVRPGGGFVPSFQLFEKGDVNGEKEQKVFSFLKHSCPHPSEILGTFKSISWDPVKVHDIRWNFEKFLVGPDGIPVMRWSHRATVSSVKTDILAYLKQF
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2880.1/2880.1_protein/sequences/O75715-1_2i3y-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 248
+# Identity:     188/248 (75.8%)
+# Similarity:   188/248 (75.8%)
+# Gaps:          57/248 (23.0%)
+# Score: 998.0
+# 
+#
+#=======================================
+
+asis               1 ---------------------------MTTQLRVVHLLPLLLACFVQTSP     23
+                                                ...                    
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX--------------------     30
+
+asis              24 KQEKMKMDCHKDEKGTIYDYEAIALNKNEYVSFKQYVGKHILFVNVATYC     73
+                            |||||||||||||||||||||||||||||||||||||||||||
+asis              31 -------DCHKDEKGTIYDYEAIALNKNEYVSFKQYVGKHILFVNVATYC     73
+
+asis              74 GLTAQYPELNALQEELKPYGLVVLGFPCNQFGKQEPGDNKEILPGLKYVR    123
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              74 GLTAQYPELNALQEELKPYGLVVLGFPCNQFGKQEPGDNKEILPGLKYVR    123
+
+asis             124 PGGGFVPSFQLFEKGDVNGEKEQKVFSFLKHSCPHPSEILGTFKSISWDP    173
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             124 PGGGFVPSFQLFEKGDVNGEKEQKVFSFLKHSCPHPSEILGTFKSISWDP    173
+
+asis             174 VKVHDIRWNFEKFLVGPDGIPVMRWSHRATVSSVKTDILAYLKQFKTK    221
+                     |||||||||||||||||||||||||||||||||||||||||||||   
+asis             174 VKVHDIRWNFEKFLVGPDGIPVMRWSHRATVSSVKTDILAYLKQF---    218
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:59:04
+# Commandline: needle
+#    -outfile ./Recon3D/genes/51079.1/51079.1_protein/sequences/Q9P0J0-1_5gup-W.needle
+#    -asequence asis::MAASKVKQDMPPPGGYGPIDYKRNLPRRGLSGYSMLAIGIGTLIYGHWSIMKWNRERRRLQIEDFEARIALLPLLQAETDRRTLQMLRENLEEEAIIMKDVPDWKVGESVFHTTRWVPPLIGELYGLRTTEEALHASHGFMWYT
+#    -bsequence asis::XXXXXXKQDMPPPGGYGPIDYKRNLPRRGLSGYSMFAVGIGTLLFGYWSMMKWNRERRRLQIEDFEARIALMPLFQAEKDRRVLQMLRENLEEEAIIMKDVPDWKVGESVFHTTRWVTPMMGELYGLRTNEEILSATYGFIWYT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/51079.1/51079.1_protein/sequences/Q9P0J0-1_5gup-W.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:     119/144 (82.6%)
+# Similarity:   130/144 (90.3%)
+# Gaps:           0/144 ( 0.0%)
+# Score: 659.0
+# 
+#
+#=======================================
+
+asis               1 MAASKVKQDMPPPGGYGPIDYKRNLPRRGLSGYSMLAIGIGTLIYGHWSI     50
+                     ......|||||||||||||||||||||||||||||.|:|||||::|:||:
+asis               1 XXXXXXKQDMPPPGGYGPIDYKRNLPRRGLSGYSMFAVGIGTLLFGYWSM     50
+
+asis              51 MKWNRERRRLQIEDFEARIALLPLLQAETDRRTLQMLRENLEEEAIIMKD    100
+                     |||||||||||||||||||||:||.|||.|||.|||||||||||||||||
+asis              51 MKWNRERRRLQIEDFEARIALMPLFQAEKDRRVLQMLRENLEEEAIIMKD    100
+
+asis             101 VPDWKVGESVFHTTRWVPPLIGELYGLRTTEEALHASHGFMWYT    144
+                     |||||||||||||||||.|::||||||||.||.|.|::||:|||
+asis             101 VPDWKVGESVFHTTRWVTPMMGELYGLRTNEEILSATYGFIWYT    144
+
+
+#---------------------------------------
+#---------------------------------------

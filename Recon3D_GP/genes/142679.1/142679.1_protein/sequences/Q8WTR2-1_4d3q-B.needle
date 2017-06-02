@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:28:55
+# Commandline: needle
+#    -outfile ./Recon3D/genes/142679.1/142679.1_protein/sequences/Q8WTR2-1_4d3q-B.needle
+#    -asequence asis::MYSLNQEIKAFSRNNLRKQCTRVTTLTGKKIIETWKDARIHVVEEVEPSSGGGCGYVQDLSSDLQVGVIKPWLLLGSQDAAHDLDTLKKNKVTHILNVAYGVENAFLSDFTYKSISILDLPETNILSYFPECFEFIEEAKRKDGVVLVHCNAGVSRAAAIVIGFLMNSEQTSFTSAFSLVKNARPSICPNSGFMEQLRTYQEGKESNKCDRIQENSS
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXVGVIKPWLLLGSQDAAHDLDTLKKNKVTHILNVAYGVENAFLSDFTYKSISILDLPETNILSYFPECFEFIEEAKRKDGVVLVHSNAGVSAAAAIVIGFLMNSEQTSFTSAFSLVKNARPSICPNSGFMEQLRTYQE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/142679.1/142679.1_protein/sequences/Q8WTR2-1_4d3q-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 282
+# Identity:     135/282 (47.9%)
+# Similarity:   135/282 (47.9%)
+# Gaps:         145/282 (51.4%)
+# Score: 645.0
+# 
+#
+#=======================================
+
+asis               1 MYSLNQEIKAFSRNNLRKQCTRVTTLTGKKIIETWKDARIHVVEEVEPSS     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 GGGCGYVQDLSSDLQ-----------------------------------     65
+                                                                       
+asis               1 ---------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     35
+
+asis              66 ------------------------------VGVIKPWLLLGSQDAAHDLD     85
+                                                   ||||||||||||||||||||
+asis              36 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXVGVIKPWLLLGSQDAAHDLD     85
+
+asis              86 TLKKNKVTHILNVAYGVENAFLSDFTYKSISILDLPETNILSYFPECFEF    135
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              86 TLKKNKVTHILNVAYGVENAFLSDFTYKSISILDLPETNILSYFPECFEF    135
+
+asis             136 IEEAKRKDGVVLVHCNAGVSRAAAIVIGFLMNSEQTSFTSAFSLVKNARP    185
+                     ||||||||||||||.|||||.|||||||||||||||||||||||||||||
+asis             136 IEEAKRKDGVVLVHSNAGVSAAAAIVIGFLMNSEQTSFTSAFSLVKNARP    185
+
+asis             186 SICPNSGFMEQLRTYQEGKESNKCDRIQENSS    217
+                     |||||||||||||||||               
+asis             186 SICPNSGFMEQLRTYQE---------------    202
+
+
+#---------------------------------------
+#---------------------------------------

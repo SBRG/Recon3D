@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:19:20
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2352.1/2352.1_protein/sequences/P41439-1_ENSP00000411161-X.needle
+#    -asequence asis::MAWQMMQLLLLALVTAAGSAQPRSARARTDLLNVCMNAKHHKTQPSPEDELYGQCSPWKKNACCTASTSQELHKDTSRLYNFNWDHCGKMEPTCKRHFIQDSCLYECSPNLGPWIRQVNQSWRKERILNVPLCKEDCERWWEDCRTSYTCKSNWHKGWNWTSGINECPAGALCSTFESYFPTPAALCEGLWSHSFKVSNYSRGSGRCIQMWFDSAQGNPNEEVAKFYAAAMNAGAPSRGIIDS
+#    -bsequence asis::MDMAWQMMQLLLLALVTAAGSAQPRSARARTDLLNVCMNAKHHKTQPSPEDELYGQCSPWKKNACCTASTSQELHKDTSRLYNFNWDHCGKMEPTCKRHFIQDSCLECSPNLGPWIRQVNQSWRKERILNVPLCKEDCERWWEDCRTSYTCKSNWHKGWNWTSGINECPAGALCSTFESYFPTPAALCEGLWSHSFKVSNYSRGSGRCIQMWFDSAQGNPNEEVAKFYAAAMNAGAPSRGIIDS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2352.1/2352.1_protein/sequences/P41439-1_ENSP00000411161-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:     242/245 (98.8%)
+# Similarity:   242/245 (98.8%)
+# Gaps:           3/245 ( 1.2%)
+# Score: 1365.0
+# 
+#
+#=======================================
+
+asis               1 --MAWQMMQLLLLALVTAAGSAQPRSARARTDLLNVCMNAKHHKTQPSPE     48
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MDMAWQMMQLLLLALVTAAGSAQPRSARARTDLLNVCMNAKHHKTQPSPE     50
+
+asis              49 DELYGQCSPWKKNACCTASTSQELHKDTSRLYNFNWDHCGKMEPTCKRHF     98
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 DELYGQCSPWKKNACCTASTSQELHKDTSRLYNFNWDHCGKMEPTCKRHF    100
+
+asis              99 IQDSCLYECSPNLGPWIRQVNQSWRKERILNVPLCKEDCERWWEDCRTSY    148
+                     |||||| |||||||||||||||||||||||||||||||||||||||||||
+asis             101 IQDSCL-ECSPNLGPWIRQVNQSWRKERILNVPLCKEDCERWWEDCRTSY    149
+
+asis             149 TCKSNWHKGWNWTSGINECPAGALCSTFESYFPTPAALCEGLWSHSFKVS    198
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             150 TCKSNWHKGWNWTSGINECPAGALCSTFESYFPTPAALCEGLWSHSFKVS    199
+
+asis             199 NYSRGSGRCIQMWFDSAQGNPNEEVAKFYAAAMNAGAPSRGIIDS    243
+                     |||||||||||||||||||||||||||||||||||||||||||||
+asis             200 NYSRGSGRCIQMWFDSAQGNPNEEVAKFYAAAMNAGAPSRGIIDS    244
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:20:50
+# Commandline: needle
+#    -outfile ./Recon3D/genes/52.3/52.3_protein/sequences/P24666-3_1c0e-B.needle
+#    -asequence asis::MAEQATKSVLFVCLGNICRSPIAEAVFRKLVTDQNISENWARQITKEDFATFDYILCMDESNLRDLNRKSNQVKTCKAKIELLGSYDPQKQLIIEDPYYGNDSDFETVYQQCVRCCRAFLEKAH
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXVTKSVLFVCLGNICRAPIAEAVFRKLVTDQNISDNWVIDSGAVSDWNVGRSPDPRAVSCLRNHGINTAHKARQVTKEDFVTFDYILCMDESNLRDLNRKSNQVKNCRAKIELLGSYDPQKQLIIEDPYYGNDADFETVYQQCVRCCRAFLEKVR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/52.3/52.3_protein/sequences/P24666-3_1c0e-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 357
+# Identity:     110/357 (30.8%)
+# Similarity:   115/357 (32.2%)
+# Gaps:         233/357 (65.3%)
+# Score: 570.5
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis              51 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    150
+
+asis               1 -------------------------------------------------M      1
+                                                                      .
+asis             151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    200
+
+asis               2 AEQATKSVLFVCLGNICRSPIAEAVFRKLVTDQNISENW-----------     40
+                     ....||||||||||||||:|||||||||||||||||:||           
+asis             201 XXXVTKSVLFVCLGNICRAPIAEAVFRKLVTDQNISDNWVIDSGAVSDWN    250
+
+asis              41 -----------------------ARQITKEDFATFDYILCMDESNLRDLN     67
+                                            |||:|||||.|||||||||||||||||
+asis             251 VGRSPDPRAVSCLRNHGINTAHKARQVTKEDFVTFDYILCMDESNLRDLN    300
+
+asis              68 RKSNQVKTCKAKIELLGSYDPQKQLIIEDPYYGNDSDFETVYQQCVRCCR    117
+                     |||||||.|:|||||||||||||||||||||||||:||||||||||||||
+asis             301 RKSNQVKNCRAKIELLGSYDPQKQLIIEDPYYGNDADFETVYQQCVRCCR    350
+
+asis             118 AFLEKAH    124
+                     |||||..
+asis             351 AFLEKVR    357
+
+
+#---------------------------------------
+#---------------------------------------

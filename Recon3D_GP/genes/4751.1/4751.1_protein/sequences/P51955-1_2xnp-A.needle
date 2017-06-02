@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:45:44
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4751.1/4751.1_protein/sequences/P51955-1_2xnp-A.needle
+#    -asequence asis::MPSRAEDYEVLYTIGTGSYGRCQKIRRKSDGKILVWKELDYGSMTEAEKQMLVSEVNLLRELKHPNIVRYYDRIIDRTNTTLYIVMEYCEGGDLASVITKGTKERQYLDEEFVLRVMTQLTLALKECHRRSDGGHTVLHRDLKPANVFLDGKQNVKLGDFGLARILNHDTSFAKTFVGTPYYMSPEQMNRMSYNEKSDIWSLGCLLYELCALMPPFTAFSQKELAGKIREGKFRRIPYRYSDELNEIITRMLNLKDYHRPSVEEILENPLIADLVADEQRRNLERRGRQLGEPEKSQDSSPVLSELKLKEIQLQERERALKAREERLEQKEQELCVRERLAEDKLARAENLLKNYSLLKERKFLSLASNPELLNLPSSVIKKKVHFSGESKENIMRSENSESQLTSKSKCKDLKKRLHAAQLRAQALSDIEKNYQLKSRQILGMR
+#    -bsequence asis::XXSRAEDYEVLYTIGTGXYGRCQKIRRKSDGKILVWKELDYGSMTEAEKQMLVSEVNLLRELKHPNIVRYYDRIIDRTNTTLYIVMEYCEGGDLASVITKGTKERQYLDEEFVLRVMTQLTLALKECHRRSXXXXXXXHRDLKPANVFLDGKQNVKLGDFGLXXXXXXXXXXXXXFVGTPYYMSPEQMNRXXXNEKSDIWSLGCLLYELCALMPPFTAFSQKELAGKIREGKFRRIPYRYSDELNEIITRMLNLKDYHRPSVEEILENPLILEHHHHHH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4751.1/4751.1_protein/sequences/P51955-1_2xnp-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 445
+# Identity:     245/445 (55.1%)
+# Similarity:   246/445 (55.3%)
+# Gaps:         166/445 (37.3%)
+# Score: 1258.0
+# 
+#
+#=======================================
+
+asis               1 MPSRAEDYEVLYTIGTGSYGRCQKIRRKSDGKILVWKELDYGSMTEAEKQ     50
+                     ..|||||||||||||||.||||||||||||||||||||||||||||||||
+asis               1 XXSRAEDYEVLYTIGTGXYGRCQKIRRKSDGKILVWKELDYGSMTEAEKQ     50
+
+asis              51 MLVSEVNLLRELKHPNIVRYYDRIIDRTNTTLYIVMEYCEGGDLASVITK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 MLVSEVNLLRELKHPNIVRYYDRIIDRTNTTLYIVMEYCEGGDLASVITK    100
+
+asis             101 GTKERQYLDEEFVLRVMTQLTLALKECHRRSDGGHTVLHRDLKPANVFLD    150
+                     |||||||||||||||||||||||||||||||.......||||||||||||
+asis             101 GTKERQYLDEEFVLRVMTQLTLALKECHRRSXXXXXXXHRDLKPANVFLD    150
+
+asis             151 GKQNVKLGDFGLARILNHDTSFAKTFVGTPYYMSPEQMNRMSYNEKSDIW    200
+                     ||||||||||||.............|||||||||||||||...|||||||
+asis             151 GKQNVKLGDFGLXXXXXXXXXXXXXFVGTPYYMSPEQMNRXXXNEKSDIW    200
+
+asis             201 SLGCLLYELCALMPPFTAFSQKELAGKIREGKFRRIPYRYSDELNEIITR    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 SLGCLLYELCALMPPFTAFSQKELAGKIREGKFRRIPYRYSDELNEIITR    250
+
+asis             251 MLNLKDYHRPSVEEILENPLIADLVADEQRRNLERRGRQLGEPEKSQDSS    300
+                     |||||||||||||||||||||.:......                     
+asis             251 MLNLKDYHRPSVEEILENPLILEHHHHHH---------------------    279
+
+asis             301 PVLSELKLKEIQLQERERALKAREERLEQKEQELCVRERLAEDKLARAEN    350
+                                                                       
+asis             279 --------------------------------------------------    279
+
+asis             351 LLKNYSLLKERKFLSLASNPELLNLPSSVIKKKVHFSGESKENIMRSENS    400
+                                                                       
+asis             279 --------------------------------------------------    279
+
+asis             401 ESQLTSKSKCKDLKKRLHAAQLRAQALSDIEKNYQLKSRQILGMR    445
+                                                                  
+asis             279 ---------------------------------------------    279
+
+
+#---------------------------------------
+#---------------------------------------

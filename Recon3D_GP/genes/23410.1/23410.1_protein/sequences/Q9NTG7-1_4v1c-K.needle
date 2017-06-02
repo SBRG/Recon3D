@@ -1,0 +1,78 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:16:53
+# Commandline: needle
+#    -outfile ./Recon3D/genes/23410.1/23410.1_protein/sequences/Q9NTG7-1_4v1c-K.needle
+#    -asequence asis::MAFWGWRAAAALRLWGRVVERVEAGGGVGPFQACGCRLVLGGRDDVSAGLRGSHGARGEPLDPARPLQRPPRPEVPRAFRRQPRAAAPSFFFSSIKGGRRSISFSVGASSVVGSGGSSDKGKLSLQDVAELIRARACQRVVVMVGAGISTPSGIPDFRSPGSGLYSNLQQYDLPYPEAIFELPFFFHNPKPFFTLAKELYPGNYKPNVTHYFLRLLHDKGLLLRLYTQNIDGLERVSGIPASKLVEAHGTFASATCTVCQRPFPGEDIRADVMADRVPRCPVCTGVVKPDIVFFGEPLPQRFLLHVVDFPMADLLLILGTSLEVEPFASLTEAVRSSVPRLLINRDLVGPLAWHPRSRDVAQLGDVVHGVESLVELLGWTEEMRDLVQRETGKLDGPDK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLSLQDVAELIRARACQRVVVMVGAGISTPSGIPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYKPNVTHYFLRLLHDKGLLLRLYTQNIDGLERVSGIPASKLVEAHGTFAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXVVKPDIVFFGEPLPQRFLLHVVDFPMADLLLILGTSLEVEPFASLTEAVRSSVPRLLINRDLVGPLAWHPRSRDVAQLGDVVHGVESLVELLGWTEEMRDLVQRETGKL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/23410.1/23410.1_protein/sequences/Q9NTG7-1_4v1c-K.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 521
+# Identity:     191/521 (36.7%)
+# Similarity:   191/521 (36.7%)
+# Gaps:         249/521 (47.8%)
+# Score: 814.5
+# 
+#
+#=======================================
+
+asis               1 MAFWGWRAAAALRLWGRVVERVEAGGGVGPFQACGCRLVLGGRDDVSAGL     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 RGSHGARGEPLDPARPLQRPPRPEVPRAFRRQPRAAAPSFFFSSIKGGRR    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 SISFSVGASSVVGSGGSSDKGK----------------------------    122
+                                                                       
+asis               1 ----------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXX     28
+
+asis             122 --------------------------------------------------    122
+                                                                       
+asis              29 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     78
+
+asis             123 --------------------------------------------LSLQDV    128
+                                                                 ||||||
+asis              79 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLSLQDV    128
+
+asis             129 AELIRARACQRVVVMVGAGISTPSGIPDFRSPGSGLYSNLQQYDLPYPEA    178
+                     |||||||||||||||||||||||||||.......................
+asis             129 AELIRARACQRVVVMVGAGISTPSGIPXXXXXXXXXXXXXXXXXXXXXXX    178
+
+asis             179 IFELPFFFHNPKPFFTLAKELYPGNYKPNVTHYFLRLLHDKGLLLRLYTQ    228
+                     .........................|||||||||||||||||||||||||
+asis             179 XXXXXXXXXXXXXXXXXXXXXXXXXYKPNVTHYFLRLLHDKGLLLRLYTQ    228
+
+asis             229 NIDGLERVSGIPASKLVEAHGTFASATCTVCQRPFPGEDIRADVMADRVP    278
+                     ||||||||||||||||||||||||..........................
+asis             229 NIDGLERVSGIPASKLVEAHGTFAXXXXXXXXXXXXXXXXXXXXXXXXXX    278
+
+asis             279 RCPVCTGVVKPDIVFFGEPLPQRFLLHVVDFPMADLLLILGTSLEVEPFA    328
+                     .......|||||||||||||||||||||||||||||||||||||||||||
+asis             279 XXXXXXXVVKPDIVFFGEPLPQRFLLHVVDFPMADLLLILGTSLEVEPFA    328
+
+asis             329 SLTEAVRSSVPRLLINRDLVGPLAWHPRSRDVAQLGDVVHGVESLVELLG    378
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             329 SLTEAVRSSVPRLLINRDLVGPLAWHPRSRDVAQLGDVVHGVESLVELLG    378
+
+asis             379 WTEEMRDLVQRETGKLDGPDK    399
+                     ||||||||||||||||     
+asis             379 WTEEMRDLVQRETGKL-----    394
+
+
+#---------------------------------------
+#---------------------------------------

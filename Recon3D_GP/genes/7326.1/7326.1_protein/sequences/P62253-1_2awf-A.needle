@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:38:02
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7326.1/7326.1_protein/sequences/P62253-1_2awf-A.needle
+#    -asequence asis::MTELQSALLLRRQLAELNKNPVEGFSAGLIDDNDLYRWEVLIIGPPDTLYEGGVFKAHLTFPKDYPLRPPKMKFITEIWHPNVDKNGDVCISILHEPGEDKYGYEKPEERWLPIHTVETIMISVISMLADPNGDSPANVDAAKEWREDRNGEFKRKVARCVRKSQETAFE
+#    -bsequence asis::GLVPRGSLLLRRQLAELNKNPVEGFSAGLIDDNDLYRWEVLIIGPPDTLYEGGVFKAHLTFPKDYPLRPPKMKFITEIWHPNVDKNGDVCISILHEPXXXXXXXXXPEERWLPIHTVETIMISVISMLADP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7326.1/7326.1_protein/sequences/P62253-1_2awf-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 172
+# Identity:     116/172 (67.4%)
+# Similarity:   118/172 (68.6%)
+# Gaps:          43/172 (25.0%)
+# Score: 606.5
+# 
+#
+#=======================================
+
+asis               1 MTEL--QSALLLRRQLAELNKNPVEGFSAGLIDDNDLYRWEVLIIGPPDT     48
+                       .|  :.:|||||||||||||||||||||||||||||||||||||||||
+asis               1 --GLVPRGSLLLRRQLAELNKNPVEGFSAGLIDDNDLYRWEVLIIGPPDT     48
+
+asis              49 LYEGGVFKAHLTFPKDYPLRPPKMKFITEIWHPNVDKNGDVCISILHEPG     98
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+asis              49 LYEGGVFKAHLTFPKDYPLRPPKMKFITEIWHPNVDKNGDVCISILHEPX     98
+
+asis              99 EDKYGYEKPEERWLPIHTVETIMISVISMLADPNGDSPANVDAAKEWRED    148
+                     ........|||||||||||||||||||||||||                 
+asis              99 XXXXXXXXPEERWLPIHTVETIMISVISMLADP-----------------    131
+
+asis             149 RNGEFKRKVARCVRKSQETAFE    170
+                                           
+asis             131 ----------------------    131
+
+
+#---------------------------------------
+#---------------------------------------

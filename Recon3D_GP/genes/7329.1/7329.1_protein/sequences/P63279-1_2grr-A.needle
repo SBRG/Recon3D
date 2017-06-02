@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:38:47
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7329.1/7329.1_protein/sequences/P63279-1_2grr-A.needle
+#    -asequence asis::MSGIALSRLAQERKAWRKDHPFGFVAVPTKNPDGTMNLMNWECAIPGKKGTPWEGGLFKLRMLFKDDYPSSPPKCKFEPPLFHPNVYPSGTVCLSILEEDKDWRPAITIKQILLGIQELLNEPNIQDPAQAEAYTIYCQNRVEYEKRVRAQAKKFAPS
+#    -bsequence asis::MSGIALSRLAQERKAWRKDHPFGFVAVPTKNPDGTMNLMNWECAIPGKKGTPWEGGLFKLRMLFKDDYPSSPPKCKFEPPLFHPNVYPSGTVCLSILEEDKDWRPAITIKQILLGIQELLNEPNIQSPAQAEAYTIYCQNRVEYEKRVRAQAKKFAP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7329.1/7329.1_protein/sequences/P63279-1_2grr-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:     156/158 (98.7%)
+# Similarity:   156/158 (98.7%)
+# Gaps:           1/158 ( 0.6%)
+# Score: 851.0
+# 
+#
+#=======================================
+
+asis               1 MSGIALSRLAQERKAWRKDHPFGFVAVPTKNPDGTMNLMNWECAIPGKKG     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MSGIALSRLAQERKAWRKDHPFGFVAVPTKNPDGTMNLMNWECAIPGKKG     50
+
+asis              51 TPWEGGLFKLRMLFKDDYPSSPPKCKFEPPLFHPNVYPSGTVCLSILEED    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 TPWEGGLFKLRMLFKDDYPSSPPKCKFEPPLFHPNVYPSGTVCLSILEED    100
+
+asis             101 KDWRPAITIKQILLGIQELLNEPNIQDPAQAEAYTIYCQNRVEYEKRVRA    150
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+asis             101 KDWRPAITIKQILLGIQELLNEPNIQSPAQAEAYTIYCQNRVEYEKRVRA    150
+
+asis             151 QAKKFAPS    158
+                     ||||||| 
+asis             151 QAKKFAP-    157
+
+
+#---------------------------------------
+#---------------------------------------

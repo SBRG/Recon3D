@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:11:02
+# Commandline: needle
+#    -outfile ./Recon3D/genes/11145.1/11145.1_protein/sequences/P53816-1_2kyt-A.needle
+#    -asequence asis::MRAPIPEPKPGDLIEIFRPFYRHWAIYVGDGYVVHLAPPSEVAGAGAASVMSALTDKAIVKKELLYDVAGSDKYQVNNKHDDKYSPLPCSKIIQRAEELVGQEVLYKLTSENCEHFVNELRYGVARSDQVRDVIIAASVAGMGLAAMSLIGVMFSRNKRQKQ
+#    -bsequence asis::MRAPIPEPKPGDLIEIFRPFYRHWAIYVGDGYVVHLAPPSEVAGAGAASVMSALTDKAIVKKELLYDVAGSDKYQVNNKHDDKYSPLPCSKIIQRAEELVGQEVLYKLTSENCEHFVNELRYGVA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/11145.1/11145.1_protein/sequences/P53816-1_2kyt-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 162
+# Identity:     125/162 (77.2%)
+# Similarity:   125/162 (77.2%)
+# Gaps:          37/162 (22.8%)
+# Score: 659.0
+# 
+#
+#=======================================
+
+asis               1 MRAPIPEPKPGDLIEIFRPFYRHWAIYVGDGYVVHLAPPSEVAGAGAASV     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MRAPIPEPKPGDLIEIFRPFYRHWAIYVGDGYVVHLAPPSEVAGAGAASV     50
+
+asis              51 MSALTDKAIVKKELLYDVAGSDKYQVNNKHDDKYSPLPCSKIIQRAEELV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 MSALTDKAIVKKELLYDVAGSDKYQVNNKHDDKYSPLPCSKIIQRAEELV    100
+
+asis             101 GQEVLYKLTSENCEHFVNELRYGVARSDQVRDVIIAASVAGMGLAAMSLI    150
+                     |||||||||||||||||||||||||                         
+asis             101 GQEVLYKLTSENCEHFVNELRYGVA-------------------------    125
+
+asis             151 GVMFSRNKRQKQ    162
+                                 
+asis             125 ------------    125
+
+
+#---------------------------------------
+#---------------------------------------

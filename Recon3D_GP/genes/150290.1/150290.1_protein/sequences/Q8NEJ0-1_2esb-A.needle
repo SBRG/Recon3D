@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:29:21
+# Commandline: needle
+#    -outfile ./Recon3D/genes/150290.1/150290.1_protein/sequences/Q8NEJ0-1_2esb-A.needle
+#    -asequence asis::MTAPSCAFPVQFRQPSVSGLSQITKSLYISNGVAANNKLMLSSNQITMVINVSVEVVNTLYEDIQYMQVPVADSPNSRLCDFFDPIADHIHSVEMKQGRTLLHCAAGVSRSAALCLAYLMKYHAMSLLDAHTWTKSCRPIIRPNSGFWEQLIHYEFQLFGKNTVHMVSSPVGMIPDIYEKEVRLMIPL
+#    -bsequence asis::XXXXXXXXXXXXXXXXXSGLSQITKSLYISNGVAANNKLMLSSNQITMVINVSVEVVNTLYEDIQYMQVPVADSPNSRLCDFFDPIADHIHSVEMKQGRTLLHCAAGVSRSAALCLAYLMKYHAMSLLDAHTWTKSCRPIIRPNSGFWEQLIHYEFQLFGKNTVHMVSSPVGMIPDIYE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/150290.1/150290.1_protein/sequences/Q8NEJ0-1_2esb-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:     162/188 (86.2%)
+# Similarity:   162/188 (86.2%)
+# Gaps:           9/188 ( 4.8%)
+# Score: 831.0
+# 
+#
+#=======================================
+
+asis               1 MTAPSCAFPVQFRQPSVSGLSQITKSLYISNGVAANNKLMLSSNQITMVI     50
+                     .................|||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXSGLSQITKSLYISNGVAANNKLMLSSNQITMVI     50
+
+asis              51 NVSVEVVNTLYEDIQYMQVPVADSPNSRLCDFFDPIADHIHSVEMKQGRT    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 NVSVEVVNTLYEDIQYMQVPVADSPNSRLCDFFDPIADHIHSVEMKQGRT    100
+
+asis             101 LLHCAAGVSRSAALCLAYLMKYHAMSLLDAHTWTKSCRPIIRPNSGFWEQ    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 LLHCAAGVSRSAALCLAYLMKYHAMSLLDAHTWTKSCRPIIRPNSGFWEQ    150
+
+asis             151 LIHYEFQLFGKNTVHMVSSPVGMIPDIYEKEVRLMIPL    188
+                     |||||||||||||||||||||||||||||         
+asis             151 LIHYEFQLFGKNTVHMVSSPVGMIPDIYE---------    179
+
+
+#---------------------------------------
+#---------------------------------------

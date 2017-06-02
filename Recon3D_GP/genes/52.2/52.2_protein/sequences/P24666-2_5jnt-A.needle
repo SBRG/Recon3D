@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:20:42
+# Commandline: needle
+#    -outfile ./Recon3D/genes/52.2/52.2_protein/sequences/P24666-2_5jnt-A.needle
+#    -asequence asis::MAEQATKSVLFVCLGNICRSPIAEAVFRKLVTDQNISENWVIDSGAVSDWNVGRSPDPRAVSCLRNHGIHTAHKARQITKEDFATFDYILCMDESNLRDLNRKSNQVKTCKAKIELLGSYDPQKQLIIEDPYYGNDSDFETVYQQCVRCCRAFLEKAH
+#    -bsequence asis::XXXVTKSVLFVCLGNICRSPIAEAVFRKLVTDQNISENWRVDSAATSGYEIGNPPDYRGQSCMKRHGIPMSHVARQITKEDFATFDYILCMDESNLRDLNRKSNQVKTCKAKIELLGSYDPQKQLIIEDPYYGNDSDFETVYQQCVRCCRAFLEKAH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/52.2/52.2_protein/sequences/P24666-2_5jnt-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:     133/158 (84.2%)
+# Similarity:   139/158 (88.0%)
+# Gaps:           1/158 ( 0.6%)
+# Score: 711.0
+# 
+#
+#=======================================
+
+asis               1 MAEQATKSVLFVCLGNICRSPIAEAVFRKLVTDQNISENWVIDSGAVSDW     50
+                      ....|||||||||||||||||||||||||||||||||||.:||.|.|.:
+asis               1 -XXXVTKSVLFVCLGNICRSPIAEAVFRKLVTDQNISENWRVDSAATSGY     49
+
+asis              51 NVGRSPDPRAVSCLRNHGIHTAHKARQITKEDFATFDYILCMDESNLRDL    100
+                     .:|..||.|..||::.|||..:|.||||||||||||||||||||||||||
+asis              50 EIGNPPDYRGQSCMKRHGIPMSHVARQITKEDFATFDYILCMDESNLRDL     99
+
+asis             101 NRKSNQVKTCKAKIELLGSYDPQKQLIIEDPYYGNDSDFETVYQQCVRCC    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             100 NRKSNQVKTCKAKIELLGSYDPQKQLIIEDPYYGNDSDFETVYQQCVRCC    149
+
+asis             151 RAFLEKAH    158
+                     ||||||||
+asis             150 RAFLEKAH    157
+
+
+#---------------------------------------
+#---------------------------------------

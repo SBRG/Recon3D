@@ -1,0 +1,94 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:18:49
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5429.1/5429.1_protein/sequences/Q9Y253-1_3si8-A.needle
+#    -asequence asis::MATGQDRVVALVDMDCFFVQVEQRQNPHLRNKPCAVVQYKSWKGGGIIAVSYEARAFGVTRSMWADDAKKLCPDLLLAQVRESRGKANLTKYREASVEVMEIMSRFAVIERASIDEAYVDLTSAVQERLQKLQGQPISADLLPSTYIEGLPQGPTTAEETVQKEGMRKQGLFQWLDSLQIDNLTSPDLQLTVGAVIVEEMRAAIERETGFQCSAGISHNKVLAKLACGLNKPNRQTLVSHGSVPQLFSQMPIRKIRSLGGKLGASVIEILGIEYMGELTQFTESQLQSHFGEKNGSWLYAMCRGIEHDPVKPRQLPKTIGCSKNFPGKTALATREQVQWWLLQLAQELEERLTKDRNDNDRVATQLVVSIRVQGDKRLSSLRRCCALTRYDAHKMSHDAFTVIKNCNTSGIQTEWSPPLTMLFLCATKFSASAPSSSTDITSFLSSDPSSLPKVPVTSSEAKTQGSGPAVTATKKATTSLESFFQKAAERQKVKEASLSSLTAPTQAPMSNSPSKPSLPFQTSQSTGTEPFFKQKSLLLKQKQLNNSSVSSPQQNPWSNCKALPNSLPTEYPGCVPVCEGVSKLEESSKATPAEMDLAHNSQSMHASSASKSVLEVTQKATPNPSLLAAEDQVPCEKCGSLVPVWDMPEHMDYHFALELQKSFLQPHSSNPQVVSAVSHQGKRNPKSPLACTNKRPRPEGMQTLESFFKPLTH
+#    -bsequence asis::PHMATGQDRVVALVDMDCFFVQVEQRQNPHLRNKPCAVVQYKSWKGGGIIAVSYEARAFGVTRSMWADDAKKLCPDLLLAQVRESRGKANLTKYREASVEVMEIMSRFAVIERASIDEAYVDLTSAVQERLQKLQGQPISADLLPSTYIEGLPQGXXXXXXXVQKEGMRKQGLFQWLDSLQIDNLTSPDLQLTVGAVIVEEMRAAIERETGFQCSAGISHNKVLAKLACGLNKPNRQTLVSHGSVPQLFSQMPIRKIRSLGGKLGASVIEILGIEYMGELTQFTESQLQSHFGEKNGSWLYAMCRGIEHDPVKPRQLPKTIGCSKNFPGKTALATREQVQWWLLQLAQELEERLTKDRNDNDRVATQLVVSIRVQGDKRLSSLRRCCALTRYDAHKMSHDAFTVIKNCNXXXIQTEWSPPLTMLFLCATKFS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5429.1/5429.1_protein/sequences/Q9Y253-1_3si8-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 715
+# Identity:     420/715 (58.7%)
+# Similarity:   420/715 (58.7%)
+# Gaps:         285/715 (39.9%)
+# Score: 2166.0
+# 
+#
+#=======================================
+
+asis               1 --MATGQDRVVALVDMDCFFVQVEQRQNPHLRNKPCAVVQYKSWKGGGII     48
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 PHMATGQDRVVALVDMDCFFVQVEQRQNPHLRNKPCAVVQYKSWKGGGII     50
+
+asis              49 AVSYEARAFGVTRSMWADDAKKLCPDLLLAQVRESRGKANLTKYREASVE     98
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 AVSYEARAFGVTRSMWADDAKKLCPDLLLAQVRESRGKANLTKYREASVE    100
+
+asis              99 VMEIMSRFAVIERASIDEAYVDLTSAVQERLQKLQGQPISADLLPSTYIE    148
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 VMEIMSRFAVIERASIDEAYVDLTSAVQERLQKLQGQPISADLLPSTYIE    150
+
+asis             149 GLPQGPTTAEETVQKEGMRKQGLFQWLDSLQIDNLTSPDLQLTVGAVIVE    198
+                     |||||.......||||||||||||||||||||||||||||||||||||||
+asis             151 GLPQGXXXXXXXVQKEGMRKQGLFQWLDSLQIDNLTSPDLQLTVGAVIVE    200
+
+asis             199 EMRAAIERETGFQCSAGISHNKVLAKLACGLNKPNRQTLVSHGSVPQLFS    248
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 EMRAAIERETGFQCSAGISHNKVLAKLACGLNKPNRQTLVSHGSVPQLFS    250
+
+asis             249 QMPIRKIRSLGGKLGASVIEILGIEYMGELTQFTESQLQSHFGEKNGSWL    298
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 QMPIRKIRSLGGKLGASVIEILGIEYMGELTQFTESQLQSHFGEKNGSWL    300
+
+asis             299 YAMCRGIEHDPVKPRQLPKTIGCSKNFPGKTALATREQVQWWLLQLAQEL    348
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             301 YAMCRGIEHDPVKPRQLPKTIGCSKNFPGKTALATREQVQWWLLQLAQEL    350
+
+asis             349 EERLTKDRNDNDRVATQLVVSIRVQGDKRLSSLRRCCALTRYDAHKMSHD    398
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             351 EERLTKDRNDNDRVATQLVVSIRVQGDKRLSSLRRCCALTRYDAHKMSHD    400
+
+asis             399 AFTVIKNCNTSGIQTEWSPPLTMLFLCATKFSASAPSSSTDITSFLSSDP    448
+                     |||||||||...||||||||||||||||||||                  
+asis             401 AFTVIKNCNXXXIQTEWSPPLTMLFLCATKFS------------------    432
+
+asis             449 SSLPKVPVTSSEAKTQGSGPAVTATKKATTSLESFFQKAAERQKVKEASL    498
+                                                                       
+asis             432 --------------------------------------------------    432
+
+asis             499 SSLTAPTQAPMSNSPSKPSLPFQTSQSTGTEPFFKQKSLLLKQKQLNNSS    548
+                                                                       
+asis             432 --------------------------------------------------    432
+
+asis             549 VSSPQQNPWSNCKALPNSLPTEYPGCVPVCEGVSKLEESSKATPAEMDLA    598
+                                                                       
+asis             432 --------------------------------------------------    432
+
+asis             599 HNSQSMHASSASKSVLEVTQKATPNPSLLAAEDQVPCEKCGSLVPVWDMP    648
+                                                                       
+asis             432 --------------------------------------------------    432
+
+asis             649 EHMDYHFALELQKSFLQPHSSNPQVVSAVSHQGKRNPKSPLACTNKRPRP    698
+                                                                       
+asis             432 --------------------------------------------------    432
+
+asis             699 EGMQTLESFFKPLTH    713
+                                    
+asis             432 ---------------    432
+
+
+#---------------------------------------
+#---------------------------------------

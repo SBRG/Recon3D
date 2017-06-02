@@ -1,0 +1,78 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:50:16
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5602.1/5602.1_protein/sequences/P53779-1_2ok1-A.needle
+#    -asequence asis::MSLHFLYYCSEPTLDVKIAFCQGFDKQVDVSYIAKHYNMSKSKVDNQFYSVEVGDSTFTVLKRYQNLKPIGSGAQGIVCAAYDAVLDRNVAIKKLSRPFQNQTHAKRAYRELVLMKCVNHKNIISLLNVFTPQKTLEEFQDVYLVMELMDANLCQVIQMELDHERMSYLLYQMLCGIKHLHSAGIIHRDLKPSNIVVKSDCTLKILDFGLARTAGTSFMMTPYVVTRYYRAPEVILGMGYKENVDIWSVGCIMGEMVRHKILFPGRDYIDQWNKVIEQLGTPCPEFMKKLQPTVRNYVENRPKYAGLTFPKLFPDSLFPADSEHNKLKASQARDLLSKMLVIDPAKRISVDDALQHPYINVWYDPAEVEAPPPQIYDKQLDEREHTIEEWKELIYKEVMNSEEKTKNGVVKGQPSPSGAAVNSSESLPPSSSVNDISSMSTDQTLASDTDSSLEASAGPLGCCR
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNQFYSVEVGDSTFTVLKRYQNLKPIXXGAQGIVCAAYDAVLDRNVAIKKLSRPFQNQTHAKRAYRELVLMKCVNHKNIISLLNVFTPQKTLEEFQDVYLVMELMDANLCQVIQMELDHERMSYLLYQMLCGIKHLHSAGIIHRDLKPSNIVVKSDCTLKILDFGLAXXXXXXXXXXXXXVTRYYRAPEVILGMGYKENVDIWSVGCIMGEMVRHKILFPGRDYIDQWNKVIEQLGTPCPEFMKKLQPTVRNYVENRPKYAGLTFPKLFPDSLFPADSEHNKLKASQARDLLSKMLVIDPAKRISVDDALQHPYINVWYDPAEVEAPPPXXXXXXXDEREHTIEEWKELIYKEVMN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5602.1/5602.1_protein/sequences/P53779-1_2ok1-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 509
+# Identity:     333/509 (65.4%)
+# Similarity:   333/509 (65.4%)
+# Gaps:         154/509 (30.3%)
+# Score: 1712.0
+# 
+#
+#=======================================
+
+asis               1 MSLHFLYYCSEPTLDVKIAFCQGFDKQVDVSYIAKHYNMSKSKVD-----     45
+                                                                       
+asis               1 ---------------------------------------------XXXXX      5
+
+asis              46 ----------------------------------------NQFYSVEVGD     55
+                                                             ||||||||||
+asis               6 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNQFYSVEVGD     55
+
+asis              56 STFTVLKRYQNLKPIGSGAQGIVCAAYDAVLDRNVAIKKLSRPFQNQTHA    105
+                     |||||||||||||||..|||||||||||||||||||||||||||||||||
+asis              56 STFTVLKRYQNLKPIXXGAQGIVCAAYDAVLDRNVAIKKLSRPFQNQTHA    105
+
+asis             106 KRAYRELVLMKCVNHKNIISLLNVFTPQKTLEEFQDVYLVMELMDANLCQ    155
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             106 KRAYRELVLMKCVNHKNIISLLNVFTPQKTLEEFQDVYLVMELMDANLCQ    155
+
+asis             156 VIQMELDHERMSYLLYQMLCGIKHLHSAGIIHRDLKPSNIVVKSDCTLKI    205
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             156 VIQMELDHERMSYLLYQMLCGIKHLHSAGIIHRDLKPSNIVVKSDCTLKI    205
+
+asis             206 LDFGLARTAGTSFMMTPYVVTRYYRAPEVILGMGYKENVDIWSVGCIMGE    255
+                     ||||||.............|||||||||||||||||||||||||||||||
+asis             206 LDFGLAXXXXXXXXXXXXXVTRYYRAPEVILGMGYKENVDIWSVGCIMGE    255
+
+asis             256 MVRHKILFPGRDYIDQWNKVIEQLGTPCPEFMKKLQPTVRNYVENRPKYA    305
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             256 MVRHKILFPGRDYIDQWNKVIEQLGTPCPEFMKKLQPTVRNYVENRPKYA    305
+
+asis             306 GLTFPKLFPDSLFPADSEHNKLKASQARDLLSKMLVIDPAKRISVDDALQ    355
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             306 GLTFPKLFPDSLFPADSEHNKLKASQARDLLSKMLVIDPAKRISVDDALQ    355
+
+asis             356 HPYINVWYDPAEVEAPPPQIYDKQLDEREHTIEEWKELIYKEVMNSEEKT    405
+                     ||||||||||||||||||.......||||||||||||||||||||     
+asis             356 HPYINVWYDPAEVEAPPPXXXXXXXDEREHTIEEWKELIYKEVMN-----    400
+
+asis             406 KNGVVKGQPSPSGAAVNSSESLPPSSSVNDISSMSTDQTLASDTDSSLEA    455
+                                                                       
+asis             400 --------------------------------------------------    400
+
+asis             456 SAGPLGCCR    464
+                              
+asis             400 ---------    400
+
+
+#---------------------------------------
+#---------------------------------------

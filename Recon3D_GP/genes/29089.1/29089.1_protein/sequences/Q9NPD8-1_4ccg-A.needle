@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:39:25
+# Commandline: needle
+#    -outfile ./Recon3D/genes/29089.1/29089.1_protein/sequences/Q9NPD8-1_4ccg-A.needle
+#    -asequence asis::MQRASRLKRELHMLATEPPPGITCWQDKDQMDDLRAQILGGANTPYEKGVFKLEVIIPERYPFEPPQIRFLTPIYHPNIDSAGRICLDVLKLPPKGAWRPSLNIATVLTSIQLLMSEPNPDDPLMADISSEFKYNKPAFLKNARQWTEKHARQKQKADEEEMLDNLPEAGDSRVHNSTQKRKASQLVGIEKKFHPDV
+#    -bsequence asis::YTQGMQRASRLKRELHMLATEPPPGITCWQDKDQMDDLRAQILGGANTPYEKGVFKLEVIIPERYPFEPPQIRFLTPIYHPNIDSAGRICLDVLKLPPKGAWRPSLNIATVLTSIQLLMSEPNPDDPLMADISSEFKYNKPAFLKNARQWTEKHARQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/29089.1/29089.1_protein/sequences/Q9NPD8-1_4ccg-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 201
+# Identity:     153/201 (76.1%)
+# Similarity:   153/201 (76.1%)
+# Gaps:          48/201 (23.9%)
+# Score: 819.0
+# 
+#
+#=======================================
+
+asis               1 ----MQRASRLKRELHMLATEPPPGITCWQDKDQMDDLRAQILGGANTPY     46
+                         ||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 YTQGMQRASRLKRELHMLATEPPPGITCWQDKDQMDDLRAQILGGANTPY     50
+
+asis              47 EKGVFKLEVIIPERYPFEPPQIRFLTPIYHPNIDSAGRICLDVLKLPPKG     96
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 EKGVFKLEVIIPERYPFEPPQIRFLTPIYHPNIDSAGRICLDVLKLPPKG    100
+
+asis              97 AWRPSLNIATVLTSIQLLMSEPNPDDPLMADISSEFKYNKPAFLKNARQW    146
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 AWRPSLNIATVLTSIQLLMSEPNPDDPLMADISSEFKYNKPAFLKNARQW    150
+
+asis             147 TEKHARQKQKADEEEMLDNLPEAGDSRVHNSTQKRKASQLVGIEKKFHPD    196
+                     |||||||                                           
+asis             151 TEKHARQ-------------------------------------------    157
+
+asis             197 V    197
+                      
+asis             157 -    157
+
+
+#---------------------------------------
+#---------------------------------------

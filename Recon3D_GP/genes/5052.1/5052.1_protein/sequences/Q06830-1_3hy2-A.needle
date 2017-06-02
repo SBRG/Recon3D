@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:23
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5052.1/5052.1_protein/sequences/Q06830-1_3hy2-A.needle
+#    -asequence asis::MSSGNAKIGHPAPNFKATAVMPDGQFKDISLSDYKGKYVVFFFYPLDFTFVCPTEIIAFSDRAEEFKKLNCQVIGASVDSHFCHLAWVNTPKKQGGLGPMNIPLVSDPKRTIAQDYGVLKADEGISFRGLFIIDDKGILRQITVNDLPVGRSVDETLRLVQAFQFTDKHGEVCPAGWKPGSDTIKPDVQKSKEYFSKQK
+#    -bsequence asis::XXSGNAKIGHPAPNFKATAVMPDGQFKDISLSDYKGKYVVFFFYPLDFTFVDPTEIIAFSDRAEEFKKLNSQVIGASVDSHFEHLEWVNTPKKQGGLGPMNIPLVSDPKRTIAQDYGVLKADEGISFRGLFIIDDKGILRQITVNDLPVGRSVDETLRLVQAFQFTDKHGEVSPAGWKPGSDTICPD
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5052.1/5052.1_protein/sequences/Q06830-1_3hy2-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 199
+# Identity:     179/199 (89.9%)
+# Similarity:   179/199 (89.9%)
+# Gaps:          12/199 ( 6.0%)
+# Score: 931.0
+# 
+#
+#=======================================
+
+asis               1 MSSGNAKIGHPAPNFKATAVMPDGQFKDISLSDYKGKYVVFFFYPLDFTF     50
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXSGNAKIGHPAPNFKATAVMPDGQFKDISLSDYKGKYVVFFFYPLDFTF     50
+
+asis              51 VCPTEIIAFSDRAEEFKKLNCQVIGASVDSHFCHLAWVNTPKKQGGLGPM    100
+                     |.||||||||||||||||||.|||||||||||.||.||||||||||||||
+asis              51 VDPTEIIAFSDRAEEFKKLNSQVIGASVDSHFEHLEWVNTPKKQGGLGPM    100
+
+asis             101 NIPLVSDPKRTIAQDYGVLKADEGISFRGLFIIDDKGILRQITVNDLPVG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 NIPLVSDPKRTIAQDYGVLKADEGISFRGLFIIDDKGILRQITVNDLPVG    150
+
+asis             151 RSVDETLRLVQAFQFTDKHGEVCPAGWKPGSDTIKPDVQKSKEYFSKQK    199
+                     ||||||||||||||||||||||.|||||||||||.||            
+asis             151 RSVDETLRLVQAFQFTDKHGEVSPAGWKPGSDTICPD------------    187
+
+
+#---------------------------------------
+#---------------------------------------

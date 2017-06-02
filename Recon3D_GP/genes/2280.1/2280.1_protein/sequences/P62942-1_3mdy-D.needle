@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:42:10
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2280.1/2280.1_protein/sequences/P62942-1_3mdy-D.needle
+#    -asequence asis::MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFMLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLVFDVELLKLE
+#    -bsequence asis::SMGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFMLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLVFDVELLKLE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2280.1/2280.1_protein/sequences/P62942-1_3mdy-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:     108/109 (99.1%)
+# Similarity:   108/109 (99.1%)
+# Gaps:           1/109 ( 0.9%)
+# Score: 573.0
+# 
+#
+#=======================================
+
+asis               1 -MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKF     49
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 SMGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKF     50
+
+asis              50 MLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLV     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 MLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLV    100
+
+asis             100 FDVELLKLE    108
+                     |||||||||
+asis             101 FDVELLKLE    109
+
+
+#---------------------------------------
+#---------------------------------------

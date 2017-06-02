@@ -1,0 +1,162 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:59:08
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1636.1/1636.1_protein/sequences/P12821-1_5am9-A.needle
+#    -asequence asis::MGAASGRRGPGLLLPLPLLLLLPPQPALALDPGLQPGNFSADEAGAQLFAQSYNSSAEQVLFQSVAASWAHDTNITAENARRQEEAALLSQEFAEAWGQKAKELYEPIWQNFTDPQLRRIIGAVRTLGSANLPLAKRQQYNALLSNMSRIYSTAKVCLPNKTATCWSLDPDLTNILASSRSYAMLLFAWEGWHNAAGIPLKPLYEDFTALSNEAYKQDGFTDTGAYWRSWYNSPTFEDDLEHLYQQLEPLYLNLHAFVRRALHRRYGDRYINLRGPIPAHLLGDMWAQSWENIYDMVVPFPDKPNLDVTSTMLQQGWNATHMFRVAEEFFTSLELSPMPPEFWEGSMLEKPADGREVVCHASAWDFYNRKDFRIKQCTRVTMDQLSTVHHEMGHIQYYLQYKDLPVSLRRGANPGFHEAIGDVLALSVSTPEHLHKIGLLDRVTNDTESDINYLLKMALEKIAFLPFGYLVDQWRWGVFSGRTPPSRYNFDWWYLRTKYQGICPPVTRNETHFDAGAKFHVPNVTPYIRYFVSFVLQFQFHEALCKEAGYEGPLHQCDIYRSTKAGAKLRKVLQAGSSRPWQEVLKDMVGLDALDAQPLLKYFQPVTQWLQEQNQQNGEVLGWPEYQWHPPLPDNYPEGIDLVTDEAEASKFVEEYDRTSQVVWNEYAEANWNYNTNITTETSKILLQKNMQIANHTLKYGTQARKFDVNQLQNTTIKRIIKKVQDLERAALPAQELEEYNKILLDMETTYSVATVCHPNGSCLQLEPDLTNVMATSRKYEDLLWAWEGWRDKAGRAILQFYPKYVELINQAARLNGYVDAGDSWRSMYETPSLEQDLERLFQELQPLYLNLHAYVRRALHRHYGAQHINLEGPIPAHLLGNMWAQTWSNIYDLVVPFPSAPSMDTTEAMLKQGWTPRRMFKEADDFFTSLGLLPVPPEFWNKSMLEKPTDGREVVCHASAWDFYNGKDFRIKQCTTVNLEDLVVAHHEMGHIQYFMQYKDLPVALREGANPGFHEAIGDVLALSVSTPKHLHSLNLLSSEGGSDEHDINFLMKMALDKIAFIPFSYLVDQWRWRVFDGSITKENYNQEWWSLRLKYQGLCPPVPRTQGDFDPGAKFHIPSSVPYIRYFVSFIIQFQFHEALCQAAGHTGPLHKCDIYQSKEAGQRLATAMKLGFSRPWPEAMQLITGQPNMSASAMLSYFKPLLDWLRTENELHGEKLGWPQYNWTPNSARSEGPLPDSGRVSFLGLDLDAQQARVGQWLLLFLGIALLVATLGLSQRLFSIRHRSLHRHSHGPQFGSEVELRHS
+#    -bsequence asis::LDPGLQPGQFSADEAGAQLFAQSYQSSAEQVLFQSVAASWAHDTNITAENARRQEEAALLSQEFAEAWGQKAKELYEPIWQQFTDPQLRRIIGAVRTLGSANLPLAKRQQYNALLSQMSRIYSTAKVCLXXXXXTCWSLDPDLTNILASSRSYAMLLFAWEGWHNAAGIPLKPLYEDFTALSNEAYKQDGFTDTGAYWRSWYNSPTFEDDLEHLYQQLEPLYLNLHAFVRRALHRRYGDRYINLRGPIPAHLLGDMWAQSWENIYDMVVPFPDKPNLDVTSTMLQQGWQATHMFRVAEEFFTSLELSPMPPEFWEGSMLEKPADGREVVCHASAWDFYNRKDFRIKQCTRVTMDQLSTVHHEMGHIQYYLQYKDLPVSLRRGANPGFHEAIGDVLALSVSTPEHLHKIGLLDRVTNDTESDINYLLKMALEKIAFLPFGYLVDQWRWGVFSGRTPPSRYNFDWWYLRTKYQGICPPVTRNETHFDAGAKFHVPNVTPYIRYFVSFVLQFQFHEALCKEAGYEGPLHQCDIYRSTKAGAKLRKVLRAGSSRPWQEVLKDMVGLDALDAQPLLKYFQLVTQWLQEQNQQNGEVLGWPEYQWHPPLPDNYPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXQK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1636.1/1636.1_protein/sequences/P12821-1_5am9-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1600
+# Identity:     597/1600 (37.3%)
+# Similarity:   598/1600 (37.4%)
+# Gaps:         978/1600 (61.1%)
+# Score: 3076.5
+# 
+#
+#=======================================
+
+asis               1 MGAASGRRGPGLLLPLPLLLLLPPQPALALDPGLQPGNFSADEAGAQLFA     50
+                                                  ||||||||.||||||||||||
+asis               1 -----------------------------LDPGLQPGQFSADEAGAQLFA     21
+
+asis              51 QSYNSSAEQVLFQSVAASWAHDTNITAENARRQEEAALLSQEFAEAWGQK    100
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+asis              22 QSYQSSAEQVLFQSVAASWAHDTNITAENARRQEEAALLSQEFAEAWGQK     71
+
+asis             101 AKELYEPIWQNFTDPQLRRIIGAVRTLGSANLPLAKRQQYNALLSNMSRI    150
+                     ||||||||||.||||||||||||||||||||||||||||||||||.||||
+asis              72 AKELYEPIWQQFTDPQLRRIIGAVRTLGSANLPLAKRQQYNALLSQMSRI    121
+
+asis             151 YSTAKVCLPNKTATCWSLDPDLTNILASSRSYAMLLFAWEGWHNAAGIPL    200
+                     ||||||||.....|||||||||||||||||||||||||||||||||||||
+asis             122 YSTAKVCLXXXXXTCWSLDPDLTNILASSRSYAMLLFAWEGWHNAAGIPL    171
+
+asis             201 KPLYEDFTALSNEAYKQDGFTDTGAYWRSWYNSPTFEDDLEHLYQQLEPL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             172 KPLYEDFTALSNEAYKQDGFTDTGAYWRSWYNSPTFEDDLEHLYQQLEPL    221
+
+asis             251 YLNLHAFVRRALHRRYGDRYINLRGPIPAHLLGDMWAQSWENIYDMVVPF    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             222 YLNLHAFVRRALHRRYGDRYINLRGPIPAHLLGDMWAQSWENIYDMVVPF    271
+
+asis             301 PDKPNLDVTSTMLQQGWNATHMFRVAEEFFTSLELSPMPPEFWEGSMLEK    350
+                     |||||||||||||||||.||||||||||||||||||||||||||||||||
+asis             272 PDKPNLDVTSTMLQQGWQATHMFRVAEEFFTSLELSPMPPEFWEGSMLEK    321
+
+asis             351 PADGREVVCHASAWDFYNRKDFRIKQCTRVTMDQLSTVHHEMGHIQYYLQ    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             322 PADGREVVCHASAWDFYNRKDFRIKQCTRVTMDQLSTVHHEMGHIQYYLQ    371
+
+asis             401 YKDLPVSLRRGANPGFHEAIGDVLALSVSTPEHLHKIGLLDRVTNDTESD    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             372 YKDLPVSLRRGANPGFHEAIGDVLALSVSTPEHLHKIGLLDRVTNDTESD    421
+
+asis             451 INYLLKMALEKIAFLPFGYLVDQWRWGVFSGRTPPSRYNFDWWYLRTKYQ    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             422 INYLLKMALEKIAFLPFGYLVDQWRWGVFSGRTPPSRYNFDWWYLRTKYQ    471
+
+asis             501 GICPPVTRNETHFDAGAKFHVPNVTPYIRYFVSFVLQFQFHEALCKEAGY    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             472 GICPPVTRNETHFDAGAKFHVPNVTPYIRYFVSFVLQFQFHEALCKEAGY    521
+
+asis             551 EGPLHQCDIYRSTKAGAKLRKVLQAGSSRPWQEVLKDMVGLDALDAQPLL    600
+                     |||||||||||||||||||||||:||||||||||||||||||||||||||
+asis             522 EGPLHQCDIYRSTKAGAKLRKVLRAGSSRPWQEVLKDMVGLDALDAQPLL    571
+
+asis             601 KYFQPVTQWLQEQNQQNGEVLGWPEYQWHPPLPDNYP-------------    637
+                     ||||.||||||||||||||||||||||||||||||||             
+asis             572 KYFQLVTQWLQEQNQQNGEVLGWPEYQWHPPLPDNYPXXXXXXXXXXXXX    621
+
+asis             637 --------------------------------------------------    637
+                                                                       
+asis             622 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    671
+
+asis             637 --------------------------------------------------    637
+                                                                       
+asis             672 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    721
+
+asis             637 --------------------------------------------------    637
+                                                                       
+asis             722 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    771
+
+asis             637 --------------------------------------------------    637
+                                                                       
+asis             772 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    821
+
+asis             637 --------------------------------------------------    637
+                                                                       
+asis             822 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    871
+
+asis             638 -------------------------------EGIDLVTDEAEASKFVEEY    656
+                                                    .............|     
+asis             872 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXQK-----    916
+
+asis             657 DRTSQVVWNEYAEANWNYNTNITTETSKILLQKNMQIANHTLKYGTQARK    706
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis             707 FDVNQLQNTTIKRIIKKVQDLERAALPAQELEEYNKILLDMETTYSVATV    756
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis             757 CHPNGSCLQLEPDLTNVMATSRKYEDLLWAWEGWRDKAGRAILQFYPKYV    806
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis             807 ELINQAARLNGYVDAGDSWRSMYETPSLEQDLERLFQELQPLYLNLHAYV    856
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis             857 RRALHRHYGAQHINLEGPIPAHLLGNMWAQTWSNIYDLVVPFPSAPSMDT    906
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis             907 TEAMLKQGWTPRRMFKEADDFFTSLGLLPVPPEFWNKSMLEKPTDGREVV    956
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis             957 CHASAWDFYNGKDFRIKQCTTVNLEDLVVAHHEMGHIQYFMQYKDLPVAL   1006
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis            1007 REGANPGFHEAIGDVLALSVSTPKHLHSLNLLSSEGGSDEHDINFLMKMA   1056
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis            1057 LDKIAFIPFSYLVDQWRWRVFDGSITKENYNQEWWSLRLKYQGLCPPVPR   1106
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis            1107 TQGDFDPGAKFHIPSSVPYIRYFVSFIIQFQFHEALCQAAGHTGPLHKCD   1156
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis            1157 IYQSKEAGQRLATAMKLGFSRPWPEAMQLITGQPNMSASAMLSYFKPLLD   1206
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis            1207 WLRTENELHGEKLGWPQYNWTPNSARSEGPLPDSGRVSFLGLDLDAQQAR   1256
+                                                                       
+asis             916 --------------------------------------------------    916
+
+asis            1257 VGQWLLLFLGIALLVATLGLSQRLFSIRHRSLHRHSHGPQFGSEVELRHS   1306
+                                                                       
+asis             916 --------------------------------------------------    916
+
+
+#---------------------------------------
+#---------------------------------------

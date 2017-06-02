@@ -1,0 +1,146 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:21:29
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3643.1/3643.1_protein/sequences/P06213-1_4xss-E.needle
+#    -asequence asis::MATGGRRGAAAAPLLVAVAALLLGAAGHLYPGEVCPGMDIRNNLTRLHELENCSVIEGHLQILLMFKTRPEDFRDLSFPKLIMITDYLLLFRVYGLESLKDLFPNLTVIRGSRLFFNYALVIFEMVHLKELGLYNLMNITRGSVRIEKNNELCYLATIDWSRILDSVEDNYIVLNKDDNEECGDICPGTAKGKTNCPATVINGQFVERCWTHSHCQKVCPTICKSHGCTAEGLCCHSECLGNCSQPDDPTKCVACRNFYLDGRCVETCPPPYYHFQDWRCVNFSFCQDLHHKCKNSRRQGCHQYVIHNNKCIPECPSGYTMNSSNLLCTPCLGPCPKVCHLLEGEKTIDSVTSAQELRGCTVINGSLIINIRGGNNLAAELEANLGLIEEISGYLKIRRSYALVSLSFFRKLRLIRGETLEIGNYSFYALDNQNLRQLWDWSKHNLTITQGKLFFHYNPKLCLSEIHKMEEVSGTKGRQERNDIALKTNGDQASCENELLKFSYIRTSFDKILLRWEPYWPPDFRDLLGFMLFYKEAPYQNVTEFDGQDACGSNSWTVVDIDPPLRSNDPKSQNHPGWLMRGLKPWTQYAIFVKTLVTFSDERRTYGAKSDIIYVQTDATNPSVPLDPISVSNSSSQIILKWKPPSDPNGNITHYLVFWERQAEDSELFELDYCLKGLKLPSRTWSPPFESEDSQKHNQSEYEDSAGECCSCPKTDSQILKELEESSFRKTFEDYLHNVVFVPRKTSSGTGAEDPRPSRKRRSLGDVGNVTVAVPTVAAFPNTSSTSVPTSPEEHRPFEKVVNKESLVISGLRHFTGYRIELQACNQDTPEERCSVAAYVSARTMPEAKADDIVGPVTHEIFENNVVHLMWQEPKEPNGLIVLYEVSYRRYGDEELHLCVSRKHFALERGCRLRGLSPGNYSVRIRATSLAGNGSWTEPTYFYVTDYLDVPSNIAKIIIGPLIFVFLFSVVIGSIYLFLRKRQPDGPLGPLYASSNPEYLSASDVFPCSVYVPDEWEVSREKITLLRELGQGSFGMVYEGNARDIIKGEAETRVAVKTVNESASLRERIEFLNEASVMKGFTCHHVVRLLGVVSKGQPTLVVMELMAHGDLKSYLRSLRPEAENNPGRPPPTLQEMIQMAAEIADGMAYLNAKKFVHRDLAARNCMVAHDFTVKIGDFGMTRDIYETDYYRKGGKGLLPVRWMAPESLKDGVFTTSSDMWSFGVVLWEITSLAEQPYQGLSNEQVLKFVMDGGYLDQPDNCPERVTDLMRMCWQFNPKMRPTFLEIVNLLKDDLHPSFPEVSFFHSEENKAPESEELEMEFEDMENVPLDRSSHCQREEAGGRDGGSSLGFKRSYEEHIPYTHMNGGKKNGRILTLPRSNPS
+#    -bsequence asis::HLYPGEVCPGMDIRNNLTRLHELENCSVIEGHLQILLMFKTRPEDFRDLSFPKLIMITDYLLLFRVYGLESLKDLFPNLTVIRGSRLFFNYALVIFEMVHLKELGLYNLMNITRGSVRIEKNNELCYLATIDWSRILDSVEDNHIVLNKDDNEECGDICPGTAKGKTNCPATVINGQFVERCWTHSHCQKVCPTICKSHGCTAEGLCCHSECLGNCSQPDDPTKCVACRNFYLDGRCVETCPPPYYHFQDWRCVNFSFCQDLHHKCKNSRRQGCHQYVIHNNKCIPECPSGYTMNSSNLLCTPCLGPCP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3643.1/3643.1_protein/sequences/P06213-1_4xss-E.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1382
+# Identity:     308/1382 (22.3%)
+# Similarity:   309/1382 (22.4%)
+# Gaps:        1073/1382 (77.6%)
+# Score: 1750.0
+# 
+#
+#=======================================
+
+asis               1 MATGGRRGAAAAPLLVAVAALLLGAAGHLYPGEVCPGMDIRNNLTRLHEL     50
+                                                |||||||||||||||||||||||
+asis               1 ---------------------------HLYPGEVCPGMDIRNNLTRLHEL     23
+
+asis              51 ENCSVIEGHLQILLMFKTRPEDFRDLSFPKLIMITDYLLLFRVYGLESLK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              24 ENCSVIEGHLQILLMFKTRPEDFRDLSFPKLIMITDYLLLFRVYGLESLK     73
+
+asis             101 DLFPNLTVIRGSRLFFNYALVIFEMVHLKELGLYNLMNITRGSVRIEKNN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              74 DLFPNLTVIRGSRLFFNYALVIFEMVHLKELGLYNLMNITRGSVRIEKNN    123
+
+asis             151 ELCYLATIDWSRILDSVEDNYIVLNKDDNEECGDICPGTAKGKTNCPATV    200
+                     ||||||||||||||||||||:|||||||||||||||||||||||||||||
+asis             124 ELCYLATIDWSRILDSVEDNHIVLNKDDNEECGDICPGTAKGKTNCPATV    173
+
+asis             201 INGQFVERCWTHSHCQKVCPTICKSHGCTAEGLCCHSECLGNCSQPDDPT    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             174 INGQFVERCWTHSHCQKVCPTICKSHGCTAEGLCCHSECLGNCSQPDDPT    223
+
+asis             251 KCVACRNFYLDGRCVETCPPPYYHFQDWRCVNFSFCQDLHHKCKNSRRQG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             224 KCVACRNFYLDGRCVETCPPPYYHFQDWRCVNFSFCQDLHHKCKNSRRQG    273
+
+asis             301 CHQYVIHNNKCIPECPSGYTMNSSNLLCTPCLGPCPKVCHLLEGEKTIDS    350
+                     ||||||||||||||||||||||||||||||||||||              
+asis             274 CHQYVIHNNKCIPECPSGYTMNSSNLLCTPCLGPCP--------------    309
+
+asis             351 VTSAQELRGCTVINGSLIINIRGGNNLAAELEANLGLIEEISGYLKIRRS    400
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             401 YALVSLSFFRKLRLIRGETLEIGNYSFYALDNQNLRQLWDWSKHNLTITQ    450
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             451 GKLFFHYNPKLCLSEIHKMEEVSGTKGRQERNDIALKTNGDQASCENELL    500
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             501 KFSYIRTSFDKILLRWEPYWPPDFRDLLGFMLFYKEAPYQNVTEFDGQDA    550
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             551 CGSNSWTVVDIDPPLRSNDPKSQNHPGWLMRGLKPWTQYAIFVKTLVTFS    600
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             601 DERRTYGAKSDIIYVQTDATNPSVPLDPISVSNSSSQIILKWKPPSDPNG    650
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             651 NITHYLVFWERQAEDSELFELDYCLKGLKLPSRTWSPPFESEDSQKHNQS    700
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             701 EYEDSAGECCSCPKTDSQILKELEESSFRKTFEDYLHNVVFVPRKTSSGT    750
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             751 GAEDPRPSRKRRSLGDVGNVTVAVPTVAAFPNTSSTSVPTSPEEHRPFEK    800
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             801 VVNKESLVISGLRHFTGYRIELQACNQDTPEERCSVAAYVSARTMPEAKA    850
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             851 DDIVGPVTHEIFENNVVHLMWQEPKEPNGLIVLYEVSYRRYGDEELHLCV    900
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             901 SRKHFALERGCRLRGLSPGNYSVRIRATSLAGNGSWTEPTYFYVTDYLDV    950
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis             951 PSNIAKIIIGPLIFVFLFSVVIGSIYLFLRKRQPDGPLGPLYASSNPEYL   1000
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis            1001 SASDVFPCSVYVPDEWEVSREKITLLRELGQGSFGMVYEGNARDIIKGEA   1050
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis            1051 ETRVAVKTVNESASLRERIEFLNEASVMKGFTCHHVVRLLGVVSKGQPTL   1100
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis            1101 VVMELMAHGDLKSYLRSLRPEAENNPGRPPPTLQEMIQMAAEIADGMAYL   1150
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis            1151 NAKKFVHRDLAARNCMVAHDFTVKIGDFGMTRDIYETDYYRKGGKGLLPV   1200
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis            1201 RWMAPESLKDGVFTTSSDMWSFGVVLWEITSLAEQPYQGLSNEQVLKFVM   1250
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis            1251 DGGYLDQPDNCPERVTDLMRMCWQFNPKMRPTFLEIVNLLKDDLHPSFPE   1300
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis            1301 VSFFHSEENKAPESEELEMEFEDMENVPLDRSSHCQREEAGGRDGGSSLG   1350
+                                                                       
+asis             309 --------------------------------------------------    309
+
+asis            1351 FKRSYEEHIPYTHMNGGKKNGRILTLPRSNPS   1382
+                                                     
+asis             309 --------------------------------    309
+
+
+#---------------------------------------
+#---------------------------------------

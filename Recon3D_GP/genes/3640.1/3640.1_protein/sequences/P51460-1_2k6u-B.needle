@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:17:21
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3640.1/3640.1_protein/sequences/P51460-1_2k6u-B.needle
+#    -asequence asis::MDPRLPAWALVLLGPALVFALGPAPTPEMREKLCGHHFVRALVRVCGGPRWSTEARRPATGGDRELLQWLERRHLLHGLVADSNLTLGPGLQPLPQTSHHHRHHRAAATNPARYCCLSGCTQQDLLTLCPY
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXPTPEMREKLCGHHFVRALVRVCGGPKW
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3640.1/3640.1_protein/sequences/P51460-1_2k6u-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:      26/154 (16.9%)
+# Similarity:    27/154 (17.5%)
+# Gaps:         126/154 (81.8%)
+# Score: 135.0
+# 
+#
+#=======================================
+
+asis               1 MDPRLPAWALVLLGPALVFALGP-----------------------APTP     27
+                                                                   .|||
+asis               1 -----------------------XXXXXXXXXXXXXXXXXXXXXXXXPTP     27
+
+asis              28 EMREKLCGHHFVRALVRVCGGPRWSTEARRPATGGDRELLQWLERRHLLH     77
+                     ||||||||||||||||||||||:|                          
+asis              28 EMREKLCGHHFVRALVRVCGGPKW--------------------------     51
+
+asis              78 GLVADSNLTLGPGLQPLPQTSHHHRHHRAAATNPARYCCLSGCTQQDLLT    127
+                                                                       
+asis              51 --------------------------------------------------     51
+
+asis             128 LCPY    131
+                         
+asis              51 ----     51
+
+
+#---------------------------------------
+#---------------------------------------

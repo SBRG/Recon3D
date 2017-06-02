@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:04:04
+# Commandline: needle
+#    -outfile ./Recon3D/genes/6792.1/6792.1_protein/sequences/O76039-1_4bgq-A.needle
+#    -asequence asis::MKIPNIGNVMNKFEILGVVGEGAYGVVLKCRHKETHEIVAIKKFKDSEENEEVKETTLRELKMLRTLKQENIVELKEAFRRRGKLYLVFEYVEKNMLELLEEMPNGVPPEKVKSYIYQLIKAIHWCHKNDIVHRDIKPENLLISHNDVLKLCDFGFARNLSEGNNANYTEYVATRWYRSPELLLGAPYGKSVDMWSVGCILGELSDGQPLFPGESEIDQLFTIQKVLGPLPSEQMKLFYSNPRFHGLRFPAVNHPQSLERRYLGILNSVLLDLMKNLLKLDPADRYLTEQCLNHPTFQTQRLLDRSPSRSAKRKPYHVESSTLSNRNQAGKSTALQSHHRSNSKDIQNLSVGLPRADEGLPANESFLNGNLAGASLSPLHTKTYQASSQPGSTSKDLTNNNIPHLLSPKEAKSKTEFDFNIDPKPSEGPGTKYLKSNSRSQQNRHSFMESSQSKAGTLQPNEKQSRHSYIDTIPQSSRSPSYRTKAKSHGALSDSKSVSNLSEARAQIAEPSTSRYFPSSCLDLNSPTSPTPTRHSDTRTLLSPSGRNNRNEGTLDSRRTTTRHSKTMEELKLPEHMDSSHSHSLSAPHESFSYGLGYTSPFSSQQRPHRHSMYVTRDKVRAKGLDGSLSIGQGMAARANSLQLLSPQPGEQLPPEMTVARSSVKETSREGTSSFHTRQKSEGGVYHDPHSDDGTAPKENRHLYNDPVPRRVGSFYRVPSPRPDNSFHENNVSTRVSSLPSESSSGTNHSKRQPAFDPWKSPENISHSEQLKEKEKQGFFRSMKKKKKKSQTVPNSDSPDLLTLQKSIHSASTPSSRPKEWRPEKISDLQTQSQPLKSLRKLLHLSSASNHPASSDPRFQPLTAQQTKNSFSEIRIHPLSQASGGSSNIRQEPAPKGRPALQLPDGGCDGRRQRHHSGPQDRRFMLRTTEQQGEYFCCGDPKKPHTPCVPNRALHRPISSPAPYPVLQVRGTSMCPTLQVRGTDAFSCPTQQSGFSFFVRHVMREALIHRAQVNQAALLTYHENAALTGK
+#    -bsequence asis::XXXXXXXXVMNKFEILGVVGEGAYGVVLKCRHKETHEIVAIKKFKXXXXXXXVKETTLRELKMLRTLKQENIVELKEAFRRRGKLYLVFEYVEKNMLELLEEMPNGVPPEKVKSYIYQLIKAIHWCHKNDIVHRDIKPENLLISHNDVLKLCDFGFARNLSEXXXXXXXXXXXTRWYRSPELLLGAPYGKSVDMWSVGCILGELSDGQPLFPGESEIDQLFTIQKVLGPLPSEQMKLFYSNPRFHGLRFPAVNHPQSLERRYLGILNSVLLDLMKNLLKLDPADRYLTEQCLNHPTFQTQRL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/6792.1/6792.1_protein/sequences/O76039-1_4bgq-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1030
+# Identity:     276/1030 (26.8%)
+# Similarity:   276/1030 (26.8%)
+# Gaps:         728/1030 (70.7%)
+# Score: 1429.0
+# 
+#
+#=======================================
+
+asis               1 MKIPNIGNVMNKFEILGVVGEGAYGVVLKCRHKETHEIVAIKKFKDSEEN     50
+                     ........|||||||||||||||||||||||||||||||||||||.....
+asis               1 XXXXXXXXVMNKFEILGVVGEGAYGVVLKCRHKETHEIVAIKKFKXXXXX     50
+
+asis              51 EEVKETTLRELKMLRTLKQENIVELKEAFRRRGKLYLVFEYVEKNMLELL    100
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 XXVKETTLRELKMLRTLKQENIVELKEAFRRRGKLYLVFEYVEKNMLELL    100
+
+asis             101 EEMPNGVPPEKVKSYIYQLIKAIHWCHKNDIVHRDIKPENLLISHNDVLK    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 EEMPNGVPPEKVKSYIYQLIKAIHWCHKNDIVHRDIKPENLLISHNDVLK    150
+
+asis             151 LCDFGFARNLSEGNNANYTEYVATRWYRSPELLLGAPYGKSVDMWSVGCI    200
+                     ||||||||||||...........|||||||||||||||||||||||||||
+asis             151 LCDFGFARNLSEXXXXXXXXXXXTRWYRSPELLLGAPYGKSVDMWSVGCI    200
+
+asis             201 LGELSDGQPLFPGESEIDQLFTIQKVLGPLPSEQMKLFYSNPRFHGLRFP    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 LGELSDGQPLFPGESEIDQLFTIQKVLGPLPSEQMKLFYSNPRFHGLRFP    250
+
+asis             251 AVNHPQSLERRYLGILNSVLLDLMKNLLKLDPADRYLTEQCLNHPTFQTQ    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 AVNHPQSLERRYLGILNSVLLDLMKNLLKLDPADRYLTEQCLNHPTFQTQ    300
+
+asis             301 RLLDRSPSRSAKRKPYHVESSTLSNRNQAGKSTALQSHHRSNSKDIQNLS    350
+                     ||                                                
+asis             301 RL------------------------------------------------    302
+
+asis             351 VGLPRADEGLPANESFLNGNLAGASLSPLHTKTYQASSQPGSTSKDLTNN    400
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             401 NIPHLLSPKEAKSKTEFDFNIDPKPSEGPGTKYLKSNSRSQQNRHSFMES    450
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             451 SQSKAGTLQPNEKQSRHSYIDTIPQSSRSPSYRTKAKSHGALSDSKSVSN    500
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             501 LSEARAQIAEPSTSRYFPSSCLDLNSPTSPTPTRHSDTRTLLSPSGRNNR    550
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             551 NEGTLDSRRTTTRHSKTMEELKLPEHMDSSHSHSLSAPHESFSYGLGYTS    600
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             601 PFSSQQRPHRHSMYVTRDKVRAKGLDGSLSIGQGMAARANSLQLLSPQPG    650
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             651 EQLPPEMTVARSSVKETSREGTSSFHTRQKSEGGVYHDPHSDDGTAPKEN    700
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             701 RHLYNDPVPRRVGSFYRVPSPRPDNSFHENNVSTRVSSLPSESSSGTNHS    750
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             751 KRQPAFDPWKSPENISHSEQLKEKEKQGFFRSMKKKKKKSQTVPNSDSPD    800
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             801 LLTLQKSIHSASTPSSRPKEWRPEKISDLQTQSQPLKSLRKLLHLSSASN    850
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             851 HPASSDPRFQPLTAQQTKNSFSEIRIHPLSQASGGSSNIRQEPAPKGRPA    900
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             901 LQLPDGGCDGRRQRHHSGPQDRRFMLRTTEQQGEYFCCGDPKKPHTPCVP    950
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis             951 NRALHRPISSPAPYPVLQVRGTSMCPTLQVRGTDAFSCPTQQSGFSFFVR   1000
+                                                                       
+asis             302 --------------------------------------------------    302
+
+asis            1001 HVMREALIHRAQVNQAALLTYHENAALTGK   1030
+                                                   
+asis             302 ------------------------------    302
+
+
+#---------------------------------------
+#---------------------------------------

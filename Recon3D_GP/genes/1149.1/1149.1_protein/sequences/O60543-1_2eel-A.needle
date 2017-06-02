@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:10:51
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1149.1/1149.1_protein/sequences/O60543-1_2eel-A.needle
+#    -asequence asis::MEAARDYAGALIRPLTFMGSQTKRVLFTPLMHPARPFRVSNHDRSSRRGVMASSLQELISKTLDALVIATGLVTLVLEEDGTVVDTEEFFQTLGDNTHFMILEKGQKWMPGSQHVPTCSPPKRSGIARVTFDLYRLNPKDFIGCLNVKATMYEMYSVSYDIRCTGLKGLLRSLLRFLSYSAQVTGQFLIYLGTYMLRVLDDKEERPSLRSQAKGRFTCG
+#    -bsequence asis::GSSGSSGPARPFRVSNHDRSSRRGVMASSLQELISKTLDALVIATGLVTLVLEEDGTVVDTEEFFQTLGDNTHFMILEKGQKWMPSGPSSG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1149.1/1149.1_protein/sequences/O60543-1_2eel-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 219
+# Identity:      81/219 (37.0%)
+# Similarity:    82/219 (37.4%)
+# Gaps:         128/219 (58.4%)
+# Score: 383.0
+# 
+#
+#=======================================
+
+asis               1 MEAARDYAGALIRPLTFMGSQTKRVLFTPLMHPARPFRVSNHDRSSRRGV     50
+                                       ||...       ..||||||||||||||||||
+asis               1 ------------------GSSGS-------SGPARPFRVSNHDRSSRRGV     25
+
+asis              51 MASSLQELISKTLDALVIATGLVTLVLEEDGTVVDTEEFFQTLGDNTHFM    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              26 MASSLQELISKTLDALVIATGLVTLVLEEDGTVVDTEEFFQTLGDNTHFM     75
+
+asis             101 ILEKGQKWMPGSQHVPTCSPPKRSGIARVTFDLYRLNPKDFIGCLNVKAT    150
+                     ||||||||||..   |:..                               
+asis              76 ILEKGQKWMPSG---PSSG-------------------------------     91
+
+asis             151 MYEMYSVSYDIRCTGLKGLLRSLLRFLSYSAQVTGQFLIYLGTYMLRVLD    200
+                                                                       
+asis              91 --------------------------------------------------     91
+
+asis             201 DKEERPSLRSQAKGRFTCG    219
+                                        
+asis              91 -------------------     91
+
+
+#---------------------------------------
+#---------------------------------------

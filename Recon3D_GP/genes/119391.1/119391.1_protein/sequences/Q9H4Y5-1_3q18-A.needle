@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:17:57
+# Commandline: needle
+#    -outfile ./Recon3D/genes/119391.1/119391.1_protein/sequences/Q9H4Y5-1_3q18-A.needle
+#    -asequence asis::MSGDATRTLGKGSQPPGPVPEGLIRIYSMRFCPYSHRTRLVLKAKDIRHEVVNINLRNKPEWYYTKHPFGHIPVLETSQCQLIYESVIACEYLDDAYPGRKLFPYDPYERARQKMLLELFCKVPHLTKECLVALRCGRECTNLKAALRQEFSNLEEILEYQNTTFFGGTCISMIDYLLWPWFERLDVYGILDCVSHTPALRLWISAMKWDPTVCALLMDKSIFQGFLNLYFQNNPNAFDFGLC
+#    -bsequence asis::XXXDATRTLGKGSQPPGPVPEGLIRIYSMRFCPYSHRTRLVLKAKDIRHEVVNINLRNKPEWYYTKHPFGHIPVLETSQSQLIYESVIACEYLDDAYPGRKLFPYDPYERARQKMLLELFSKVPHLTKECLVALRSGRESTNLKAALRQEFSNLEEILEYQNTTFFGGTSISMIDYLLWPWFERLDVYGILDCVSHTPALRLWISAMKWDPTVSALLMDKSIFQGFLNLYFQNNPNAFD
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/119391.1/119391.1_protein/sequences/Q9H4Y5-1_3q18-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 243
+# Identity:     230/243 (94.7%)
+# Similarity:   230/243 (94.7%)
+# Gaps:           4/243 ( 1.6%)
+# Score: 1233.0
+# 
+#
+#=======================================
+
+asis               1 MSGDATRTLGKGSQPPGPVPEGLIRIYSMRFCPYSHRTRLVLKAKDIRHE     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXDATRTLGKGSQPPGPVPEGLIRIYSMRFCPYSHRTRLVLKAKDIRHE     50
+
+asis              51 VVNINLRNKPEWYYTKHPFGHIPVLETSQCQLIYESVIACEYLDDAYPGR    100
+                     |||||||||||||||||||||||||||||.||||||||||||||||||||
+asis              51 VVNINLRNKPEWYYTKHPFGHIPVLETSQSQLIYESVIACEYLDDAYPGR    100
+
+asis             101 KLFPYDPYERARQKMLLELFCKVPHLTKECLVALRCGRECTNLKAALRQE    150
+                     ||||||||||||||||||||.||||||||||||||.|||.||||||||||
+asis             101 KLFPYDPYERARQKMLLELFSKVPHLTKECLVALRSGRESTNLKAALRQE    150
+
+asis             151 FSNLEEILEYQNTTFFGGTCISMIDYLLWPWFERLDVYGILDCVSHTPAL    200
+                     |||||||||||||||||||.||||||||||||||||||||||||||||||
+asis             151 FSNLEEILEYQNTTFFGGTSISMIDYLLWPWFERLDVYGILDCVSHTPAL    200
+
+asis             201 RLWISAMKWDPTVCALLMDKSIFQGFLNLYFQNNPNAFDFGLC    243
+                     |||||||||||||.|||||||||||||||||||||||||    
+asis             201 RLWISAMKWDPTVSALLMDKSIFQGFLNLYFQNNPNAFD----    239
+
+
+#---------------------------------------
+#---------------------------------------

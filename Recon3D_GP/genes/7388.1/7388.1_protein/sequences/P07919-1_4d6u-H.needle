@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:58:08
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7388.1/7388.1_protein/sequences/P07919-1_4d6u-H.needle
+#    -asequence asis::MGLEDEQKMLTESGDPEEEEEEEEELVDPLTTVREQCEQLEKCVKARERLELCDERVSSRSHTEEDCTEELFDFLHARDHCVAHKLFNNLK
+#    -bsequence asis::XXXXXXXXXXXXLVDPLTTVREQCEQLEKCVKARERLELCDERVSSRSQTEEDCTEELLDFLHARDHCVAHKLFNSL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7388.1/7388.1_protein/sequences/P07919-1_4d6u-H.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      62/91 (68.1%)
+# Similarity:    63/91 (69.2%)
+# Gaps:          14/91 (15.4%)
+# Score: 317.0
+# 
+#
+#=======================================
+
+asis               1 MGLEDEQKMLTESGDPEEEEEEEEELVDPLTTVREQCEQLEKCVKARERL     50
+                                  ............|||||||||||||||||||||||||
+asis               1 -------------XXXXXXXXXXXXLVDPLTTVREQCEQLEKCVKARERL     37
+
+asis              51 ELCDERVSSRSHTEEDCTEELFDFLHARDHCVAHKLFNNLK     91
+                     |||||||||||.|||||||||.||||||||||||||||:| 
+asis              38 ELCDERVSSRSQTEEDCTEELLDFLHARDHCVAHKLFNSL-     77
+
+
+#---------------------------------------
+#---------------------------------------

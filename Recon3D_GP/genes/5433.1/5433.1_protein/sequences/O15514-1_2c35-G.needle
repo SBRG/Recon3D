@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:21:27
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5433.1/5433.1_protein/sequences/O15514-1_2c35-G.needle
+#    -asequence asis::MAAGGSDPRAGDVEEDASQLIFPKEFETAETLLNSEVHMLLEHRKQQNESAEDEQELSEVFMKTLNYTARFSRFKNRETIASVRSLLLQKKLHKFELACLANLCPETAEESKALIPSLEGRFEDEELQQILDDIQTKRSFQY
+#    -bsequence asis::XXXXXXXXXXXXXEEDASQLIFPKEFETAETLLNSEVHMLLEHRKQQNESAEDEQELSEVFMKTLNYTARFSRFKNRETIASVRSLLLQKKLHKFELACLANLCPETAEESKALIPSLEGRFEDEELQQILDDIQTKRS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5433.1/5433.1_protein/sequences/O15514-1_2c35-G.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:     126/142 (88.7%)
+# Similarity:   126/142 (88.7%)
+# Gaps:           3/142 ( 2.1%)
+# Score: 618.0
+# 
+#
+#=======================================
+
+asis               1 MAAGGSDPRAGDVEEDASQLIFPKEFETAETLLNSEVHMLLEHRKQQNES     50
+                     .............|||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXEEDASQLIFPKEFETAETLLNSEVHMLLEHRKQQNES     50
+
+asis              51 AEDEQELSEVFMKTLNYTARFSRFKNRETIASVRSLLLQKKLHKFELACL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 AEDEQELSEVFMKTLNYTARFSRFKNRETIASVRSLLLQKKLHKFELACL    100
+
+asis             101 ANLCPETAEESKALIPSLEGRFEDEELQQILDDIQTKRSFQY    142
+                     |||||||||||||||||||||||||||||||||||||||   
+asis             101 ANLCPETAEESKALIPSLEGRFEDEELQQILDDIQTKRS---    139
+
+
+#---------------------------------------
+#---------------------------------------

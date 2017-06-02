@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:30:24
+# Commandline: needle
+#    -outfile ./Recon3D/genes/175.1/175.1_protein/sequences/P20933-1_1apy-C.needle
+#    -asequence asis::MARKSNLPVLLVPFLLCQALVRCSSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELGETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFINEDLSTTASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPPGILKQDIPIHKETEDDRGHDTIGMVVIHKTGHIAAGTSTNGIKFKIHGRVGDSPIPGAGAYADDTAGAAAATGNGDILMRFLPSYQAVEYMRRGEDPTIACQKVISRIQKHFPEFFGAVICANVTGSYGAACNKLSTFTQFSFMVYNSEKNQPTEEKVDCI
+#    -bsequence asis::XSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELGETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFINEDLSTSASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/175.1/175.1_protein/sequences/P20933-1_1apy-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 346
+# Identity:     160/346 (46.2%)
+# Similarity:   161/346 (46.5%)
+# Gaps:         184/346 (53.2%)
+# Score: 859.0
+# 
+#
+#=======================================
+
+asis               1 MARKSNLPVLLVPFLLCQALVRCSSPLPLVVNTWPFKNATEAAWRALASG     50
+                                            .||||||||||||||||||||||||||
+asis               1 -----------------------XSPLPLVVNTWPFKNATEAAWRALASG     27
+
+asis              51 GSALDAVESGCAMCEREQCDGSVGFGGSPDELGETTLDAMIMDGTTMDVG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              28 GSALDAVESGCAMCEREQCDGSVGFGGSPDELGETTLDAMIMDGTTMDVG     77
+
+asis             101 AVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFINEDLSTTA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||:|
+asis              78 AVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFINEDLSTSA    127
+
+asis             151 SQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPPGILKQDIPIHKETED    200
+                     |||||||||||||||||||||||||||||||||||               
+asis             128 SQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP---------------    162
+
+asis             201 DRGHDTIGMVVIHKTGHIAAGTSTNGIKFKIHGRVGDSPIPGAGAYADDT    250
+                                                                       
+asis             162 --------------------------------------------------    162
+
+asis             251 AGAAAATGNGDILMRFLPSYQAVEYMRRGEDPTIACQKVISRIQKHFPEF    300
+                                                                       
+asis             162 --------------------------------------------------    162
+
+asis             301 FGAVICANVTGSYGAACNKLSTFTQFSFMVYNSEKNQPTEEKVDCI    346
+                                                                   
+asis             162 ----------------------------------------------    162
+
+
+#---------------------------------------
+#---------------------------------------

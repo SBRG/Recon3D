@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:37:06
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7337.1/7337.1_protein/sequences/Q05086-1_4xr8-B.needle
+#    -asequence asis::MEKLHQCYWKSGEPQSDDIEASRMKRAAAKHLIERYYHQLTEGCGNEACTNEFCASCPTFLRMDNNAAAIKALELYKINAKLCDPHPSKKGASSAYLENSKGAPNNSCSEIKMNKKGARIDFKDVTYLTEEKVYEILELCREREDYSPLIRVIGRVFSSAEALVQSFRKVKQHTKEELKSLQAKDEDKDEDEKEKAACSAAAMEEDSEASSSRIGDSSQGDNNLQKLGPDDVSVDIDAIRRVYTRLLSNEKIETAFLNALVYLSPNVECDLTYHNVYSRDPNYLNLFIIVMENRNLHSPEYLEMALPLFCKAMSKLPLAAQGKLIRLWSKYNADQIRRMMETFQQLITYKVISNEFNSRNLVNDDDAIVAASKCLKMVYYANVVGGEVDTNHNEEDDEEPIPESSELTLQELLGEERRNKKGPRVDPLETELGVKTLDCRKPLIPFEEFINEPLNEVLEMDKDYTFFKVETENKFSFMTCPFILNAVTKNLGLYYDNRIRMYSERRITVLYSLVQGQQLNPYLRLKVRRDHIIDDALVRLEMIAMENPADLKKQLYVEFEGEQGVDEGGVSKEFFQLVVEEIFNPDIGMFTYDESTKLFWFNPSSFETEGQFTLIGIVLGLAIYNNCILDVHFPMVVYRKLMGKKGTFRDLGDSHPVLYQSLKDLLEYEGNVEDDMMITFQISQTDLFGNPMMYDLKENGDKIPITNENRKEFVNLYSDYILNKSVEKQFKAFRRGFHMVTNESPLKYLFRPEEIELLICGSRNLDFQALEETTEYDGGYTRDSVLIREFWEIVHSFTDEQKRLFLQFTTGTDRAPVGGLGKLKMIIAKNGPDTERLPTSHTCFNVLLLPEYSSKEKLKERLLKAITYAKGFGML
+#    -bsequence asis::XKIEEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPAAAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSAVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDAALAAAQTNAAAELTLQELLGEE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7337.1/7337.1_protein/sequences/Q05086-1_4xr8-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 980
+# Identity:      81/980 ( 8.3%)
+# Similarity:   146/980 (14.9%)
+# Gaps:         703/980 (71.7%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+asis               1 MEKLHQCYWKSGEPQSDDIEASRMKRAAAKHLIERYYHQLTEGCGNEACT     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 NEFCASCPTFLRMDNNAAAIKALELYKINAKLCDPHPSKKGASSAYLENS    100
+                                                        ...::|....::...
+asis               1 -----------------------------------XKIEEGKLVIWINGD     15
+
+asis             101 KGAPNNSCSEI------------------KMNKKGARI----DFKDVTYL    128
+                     ||  .|..:|:                  |:.:|..::    |..|:.:.
+asis              16 KG--YNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFW     63
+
+asis             129 TEEK---------VYEILELCREREDYSPL----IRVIGRVFS---SAEA    162
+                     ..::         :.||......::...|.    :|..|::.:   :.||
+asis              64 AHDRFGGYAQSGLLAEITPAAAFQDKLYPFTWDAVRYNGKLIAYPIAVEA    113
+
+asis             163 LVQSFRK----VKQHTKEELKSLQAKDEDKDEDEKEKAACSAAAMEEDSE    208
+                     |...:.|    ....|.||:.:|         |::.||...:|.|....|
+asis             114 LSLIYNKDLLPNPPKTWEEIPAL---------DKELKAKGKSALMFNLQE    154
+
+asis             209 ---------ASSSRIGDSSQGDNNLQKLGPDDVSVD------IDAIRRVY    243
+                              |..........|..:::.:|.|:....      :|.|:..:
+asis             155 PYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKH    204
+
+asis             244 TRLLSNEKIETAFLN----ALVYLSP----NVECDLTYHNV-----YSRD    280
+                     ....::..|..|..|    |:....|    |::.....:.|     :...
+asis             205 MNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSAVNYGVTVLPTFKGQ    254
+
+asis             281 PNYLNLFIIVME--------NRNLHSPEYLE-------------------    303
+                     |:  ..|:.|:.        |:.| :.|:||                   
+asis             255 PS--KPFVGVLSAGINAASPNKEL-AKEFLENYLLTDEGLEAVNKDKPLG    301
+
+asis             304 -MALPLFCKAMSKLPL-------AAQGKLIRLWSKYNADQIRRMMETFQQ    345
+                      :||..:.:.::|.|.       |.:|:::.     |..|    |..|..
+asis             302 AVALKSYEEELAKDPRIAATMENAQKGEIMP-----NIPQ----MSAFWY    342
+
+asis             346 LITYKVISNEFNSRNLVNDDDAIVAASKCLKMVYYANVVGGEVDTNHNEE    395
+                     .:...|| |..:.|..|   ||.:||::                ||    
+asis             343 AVRTAVI-NAASGRQTV---DAALAAAQ----------------TN----    368
+
+asis             396 DDEEPIPESSELTLQELLGEERRNKKGPRVDPLETELGVKTLDCRKPLIP    445
+                            .::|||||||||||                             
+asis             369 -------AAAELTLQELLGEE-----------------------------    382
+
+asis             446 FEEFINEPLNEVLEMDKDYTFFKVETENKFSFMTCPFILNAVTKNLGLYY    495
+                                                                       
+asis             382 --------------------------------------------------    382
+
+asis             496 DNRIRMYSERRITVLYSLVQGQQLNPYLRLKVRRDHIIDDALVRLEMIAM    545
+                                                                       
+asis             382 --------------------------------------------------    382
+
+asis             546 ENPADLKKQLYVEFEGEQGVDEGGVSKEFFQLVVEEIFNPDIGMFTYDES    595
+                                                                       
+asis             382 --------------------------------------------------    382
+
+asis             596 TKLFWFNPSSFETEGQFTLIGIVLGLAIYNNCILDVHFPMVVYRKLMGKK    645
+                                                                       
+asis             382 --------------------------------------------------    382
+
+asis             646 GTFRDLGDSHPVLYQSLKDLLEYEGNVEDDMMITFQISQTDLFGNPMMYD    695
+                                                                       
+asis             382 --------------------------------------------------    382
+
+asis             696 LKENGDKIPITNENRKEFVNLYSDYILNKSVEKQFKAFRRGFHMVTNESP    745
+                                                                       
+asis             382 --------------------------------------------------    382
+
+asis             746 LKYLFRPEEIELLICGSRNLDFQALEETTEYDGGYTRDSVLIREFWEIVH    795
+                                                                       
+asis             382 --------------------------------------------------    382
+
+asis             796 SFTDEQKRLFLQFTTGTDRAPVGGLGKLKMIIAKNGPDTERLPTSHTCFN    845
+                                                                       
+asis             382 --------------------------------------------------    382
+
+asis             846 VLLLPEYSSKEKLKERLLKAITYAKGFGML    875
+                                                   
+asis             382 ------------------------------    382
+
+
+#---------------------------------------
+#---------------------------------------

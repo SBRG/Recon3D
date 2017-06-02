@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:09:20
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4701.1/4701.1_protein/sequences/O95182-1_5gup-M.needle
+#    -asequence asis::MASATRLIQRLRNWASGHDLQGKLQLRYQEISKRTQPPPKLPVGPSHKLSNNYYCTRDGRRESVPPSIIMSSQKALVSGKPAESSAVAATEKKAVTPAPPIKRWELSSDQPYL
+#    -bsequence asis::XXXATRVIQLLRNWASGRDLQAKLQLRYQEISKRTQPPPKLPVGPSHKLSNNYYCTRDGRREAMPPSIVMSSQKXXXXXXXXXXXXXXXXEKKAVTPAPPIKRWELSKDQPYL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4701.1/4701.1_protein/sequences/O95182-1_5gup-M.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 113
+# Identity:      86/113 (76.1%)
+# Similarity:    90/113 (79.6%)
+# Gaps:           0/113 ( 0.0%)
+# Score: 457.0
+# 
+#
+#=======================================
+
+asis               1 MASATRLIQRLRNWASGHDLQGKLQLRYQEISKRTQPPPKLPVGPSHKLS     50
+                     ...|||:||.|||||||.|||.||||||||||||||||||||||||||||
+asis               1 XXXATRVIQLLRNWASGRDLQAKLQLRYQEISKRTQPPPKLPVGPSHKLS     50
+
+asis              51 NNYYCTRDGRRESVPPSIIMSSQKALVSGKPAESSAVAATEKKAVTPAPP    100
+                     ||||||||||||::||||:|||||................||||||||||
+asis              51 NNYYCTRDGRREAMPPSIVMSSQKXXXXXXXXXXXXXXXXEKKAVTPAPP    100
+
+asis             101 IKRWELSSDQPYL    113
+                     |||||||.|||||
+asis             101 IKRWELSKDQPYL    113
+
+
+#---------------------------------------
+#---------------------------------------

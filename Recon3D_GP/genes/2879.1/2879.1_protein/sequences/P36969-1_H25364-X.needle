@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:22
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2879.1/2879.1_protein/sequences/P36969-1_H25364-X.needle
+#    -asequence asis::MSLGRLCRLLKPALLCGALAAPGLAGTMCASRDDWRCARSMHEFSAKDIDGHMVNLDKYRGFVCIVTNVASQUGKTEVNYTQLVDLHARYAECGLRILAFPCNQFGKQEPGSNEEIKEFAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQPKGKGILGNAIKWNFTKFLIDKNGCVVKRYGPMEEPLVIEKDLPHYF
+#    -bsequence asis::MSLGRLCRLLKPALLCGALAAPGLAGTMCASRDDWRCARSMHEFSAKDIDGHMVNLDKYRGFVCIVTNVASQGKTEVNYTQLVDLHARYAECGLRILAFPCNQFGKQEPGSNEEIKEFAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQPKGKGILGNAIKWNFTKFLIDKNGCVVKRYGPMEEPLVIEKDLPHYF
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2879.1/2879.1_protein/sequences/P36969-1_H25364-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 197
+# Identity:     196/197 (99.5%)
+# Similarity:   196/197 (99.5%)
+# Gaps:           1/197 ( 0.5%)
+# Score: 1061.0
+# 
+#
+#=======================================
+
+asis               1 MSLGRLCRLLKPALLCGALAAPGLAGTMCASRDDWRCARSMHEFSAKDID     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MSLGRLCRLLKPALLCGALAAPGLAGTMCASRDDWRCARSMHEFSAKDID     50
+
+asis              51 GHMVNLDKYRGFVCIVTNVASQUGKTEVNYTQLVDLHARYAECGLRILAF    100
+                     |||||||||||||||||||||| |||||||||||||||||||||||||||
+asis              51 GHMVNLDKYRGFVCIVTNVASQ-GKTEVNYTQLVDLHARYAECGLRILAF     99
+
+asis             101 PCNQFGKQEPGSNEEIKEFAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQ    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             100 PCNQFGKQEPGSNEEIKEFAAGYNVKFDMFSKICVNGDDAHPLWKWMKIQ    149
+
+asis             151 PKGKGILGNAIKWNFTKFLIDKNGCVVKRYGPMEEPLVIEKDLPHYF    197
+                     |||||||||||||||||||||||||||||||||||||||||||||||
+asis             150 PKGKGILGNAIKWNFTKFLIDKNGCVVKRYGPMEEPLVIEKDLPHYF    196
+
+
+#---------------------------------------
+#---------------------------------------

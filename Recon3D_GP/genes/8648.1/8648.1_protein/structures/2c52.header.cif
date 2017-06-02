@@ -1,0 +1,2925 @@
+data_2C52
+# 
+_entry.id   2C52 
+# 
+_audit_conform.dict_name       mmcif_pdbx.dic 
+_audit_conform.dict_version    4.007 
+_audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
+# 
+loop_
+_database_2.database_id 
+_database_2.database_code 
+PDB  2C52      
+PDBE EBI-23743 
+# 
+loop_
+_database_PDB_rev.num 
+_database_PDB_rev.date 
+_database_PDB_rev.date_original 
+_database_PDB_rev.status 
+_database_PDB_rev.replaces 
+_database_PDB_rev.mod_type 
+1 2006-03-15 2005-10-25 ? 2C52 0 
+2 2006-05-24 ?          ? 2C52 1 
+3 2009-02-24 ?          ? 2C52 1 
+# 
+loop_
+_database_PDB_rev_record.rev_num 
+_database_PDB_rev_record.type 
+_database_PDB_rev_record.details 
+2 JRNL  ? 
+3 VERSN ? 
+# 
+loop_
+_pdbx_database_related.db_name 
+_pdbx_database_related.db_id 
+_pdbx_database_related.content_type 
+_pdbx_database_related.details 
+PDB  1F81 unspecified 'SOLUTION STRUCTURE OF THE TAZ2 DOMAIN OF THE TRANSCRIPTIONAL ADAPTOR PROTEIN CBP' 
+PDB  1JJS unspecified 'NMR STRUCTURE OF IBID, A DOMAIN OF CBP/P300' 
+PDB  1KBH unspecified 'MUTUAL SYNERGISTIC FOLDING IN THE INTERACTION BETWEEN NUCLEAR RECEPTOR COACTIVATORS CBP AND ACTR' 
+PDB  1KDX unspecified 
+;KIX DOMAIN OF MOUSE CBP (CREB BINDING PROTEIN) IN COMPLEXWITH PHOSPHORYLATED KINASE INDUCIBLE DOMAIN (PKID) OF RATCREB (CYCLIC AMP RESPONSE ELEMENT BINDING PROTEIN), NMR17 STRUCTURES
+;
+PDB  1L8C unspecified 'STRUCTURAL BASIS FOR HIF-1ALPHA/CBP RECOGNITION IN THECELLULAR HYPOXIC RESPONSE' 
+PDB  1R8U unspecified 'NMR STRUCTURE OF CBP TAZ1/CITED2 COMPLEX' 
+PDB  1SB0 unspecified 'SOLUTION STRUCTURE OF THE KIX DOMAIN OF CBP BOUND TO THETRANSACTIVATION DOMAIN OF C C-MYB' 
+PDB  1TOT unspecified 'ZZ DOMAIN OF CBP- A NOVEL FOLD FOR A PROTEIN INTERACTIONMODULE' 
+PDB  1U2N unspecified 'STRUCTURE CBP TAZ1 DOMAIN' 
+PDB  1XIU unspecified 'CRYSTAL STRUCTURE OF THE AGONIST-BOUND LIGAND-BINDING DOMAIN OF BIOMPHALARIA GLABRATA RXR' 
+PDB  2A3I unspecified 'STRUCTURAL AND BIOCHEMICAL MECHANISMS FOR THE SPECIFICITY OF HORMONE BINDING AND COACTIVATOR ASSEMBLY BY MINERALOCORTICOID RECEPTOR' 
+BMRB 6874 unspecified 'SHIFTS HAVE BEEN DEPOSITED AT BMRB UNDER ACCESSION NUMBER BMRB-6874' 
+# 
+_pdbx_database_status.status_code    REL 
+_pdbx_database_status.entry_id       2C52 
+_pdbx_database_status.deposit_site   PDBE 
+_pdbx_database_status.process_site   PDBE 
+_pdbx_database_status.SG_entry       . 
+# 
+loop_
+_audit_author.name 
+_audit_author.pdbx_ordinal 
+'Waters, L.C.'  1  
+'Yue, B.'       2  
+'Veverka, V.'   3  
+'Renshaw, P.S.' 4  
+'Bramham, J.'   5  
+'Matsuda, S.'   6  
+'Frenkiel, T.'  7  
+'Kelly, G.'     8  
+'Muskett, F.W.' 9  
+'Carr, M.D.'    10 
+'Heery, D.M.'   11 
+# 
+_citation.id                        primary 
+_citation.title                     'Structural Diversity in P160/CREB-Binding Protein Coactivator Complexes.' 
+_citation.journal_abbrev            J.Biol.Chem. 
+_citation.journal_volume            281 
+_citation.page_first                14787 
+_citation.page_last                 ? 
+_citation.year                      2006 
+_citation.journal_id_ASTM           JBCHA3 
+_citation.country                   US 
+_citation.journal_id_ISSN           0021-9258 
+_citation.journal_id_CSD            0071 
+_citation.book_publisher            ? 
+_citation.pdbx_database_id_PubMed   16540468 
+_citation.pdbx_database_id_DOI      10.1074/JBC.M600237200 
+# 
+loop_
+_citation_author.citation_id 
+_citation_author.name 
+_citation_author.ordinal 
+primary 'Waters, L.C.'  1  
+primary 'Yue, B.'       2  
+primary 'Veverka, V.'   3  
+primary 'Renshaw, P.S.' 4  
+primary 'Bramham, J.'   5  
+primary 'Matsuda, S.'   6  
+primary 'Frenkiel, T.'  7  
+primary 'Kelly, G.'     8  
+primary 'Muskett, F.W.' 9  
+primary 'Carr, M.D.'    10 
+primary 'Heery, D.M.'   11 
+# 
+_cell.entry_id           2C52 
+_cell.length_a           1.000 
+_cell.length_b           1.000 
+_cell.length_c           1.000 
+_cell.angle_alpha        90.00 
+_cell.angle_beta         90.00 
+_cell.angle_gamma        90.00 
+_cell.Z_PDB              1 
+_cell.pdbx_unique_axis   ? 
+# 
+_symmetry.entry_id                         2C52 
+_symmetry.space_group_name_H-M             'P 1' 
+_symmetry.pdbx_full_space_group_name_H-M   ? 
+_symmetry.cell_setting                     ? 
+_symmetry.Int_Tables_number                ? 
+# 
+loop_
+_entity.id 
+_entity.type 
+_entity.src_method 
+_entity.pdbx_description 
+_entity.formula_weight 
+_entity.pdbx_number_of_molecules 
+_entity.details 
+_entity.pdbx_mutation 
+_entity.pdbx_fragment 
+_entity.pdbx_ec 
+1 polymer man 'CREB-BINDING PROTEIN'           6568.623 1 ? ? 'SID, RESIDUES 2059-2117' 2.3.1.48 
+2 polymer man 'NUCLEAR RECEPTOR COACTIVATOR 1' 6299.186 1 ? ? 'AD1, RESIDUES 920-970'   2.3.1.48 
+# 
+loop_
+_entity_keywords.entity_id 
+_entity_keywords.text 
+1 ? 
+2 ? 
+# 
+loop_
+_entity_name_com.entity_id 
+_entity_name_com.name 
+1 ?                                                                      
+2 'STEROID RECEPTOR COACTIVATOR 1, NCOA-1, SRC-1, RIP160, HIN-2 PROTEIN' 
+# 
+loop_
+_entity_poly.entity_id 
+_entity_poly.type 
+_entity_poly.nstd_linkage 
+_entity_poly.nstd_monomer 
+_entity_poly.pdbx_seq_one_letter_code 
+_entity_poly.pdbx_seq_one_letter_code_can 
+_entity_poly.pdbx_strand_id 
+1 'polypeptide(L)' no no PNRSISPSALQDLLRTLKSPSSPQQQQQVLNILKSNPQLMAAFIKQRTAKYVANQPGMQ PNRSISPSALQDLLRTLKSPSSPQQQQQVLNILKSNPQLMAAFIKQRTAKYVANQPGMQ A 
+2 'polypeptide(L)' no no PTTVEGRNDEKALLEQLVSFLSGKDETELAELDRALGIDKLVQGGGLDVLSKLVPRGSL PTTVEGRNDEKALLEQLVSFLSGKDETELAELDRALGIDKLVQGGGLDVLSKLVPRGSL B 
+# 
+loop_
+_entity_poly_seq.entity_id 
+_entity_poly_seq.num 
+_entity_poly_seq.mon_id 
+_entity_poly_seq.hetero 
+1 1  PRO n 
+1 2  ASN n 
+1 3  ARG n 
+1 4  SER n 
+1 5  ILE n 
+1 6  SER n 
+1 7  PRO n 
+1 8  SER n 
+1 9  ALA n 
+1 10 LEU n 
+1 11 GLN n 
+1 12 ASP n 
+1 13 LEU n 
+1 14 LEU n 
+1 15 ARG n 
+1 16 THR n 
+1 17 LEU n 
+1 18 LYS n 
+1 19 SER n 
+1 20 PRO n 
+1 21 SER n 
+1 22 SER n 
+1 23 PRO n 
+1 24 GLN n 
+1 25 GLN n 
+1 26 GLN n 
+1 27 GLN n 
+1 28 GLN n 
+1 29 VAL n 
+1 30 LEU n 
+1 31 ASN n 
+1 32 ILE n 
+1 33 LEU n 
+1 34 LYS n 
+1 35 SER n 
+1 36 ASN n 
+1 37 PRO n 
+1 38 GLN n 
+1 39 LEU n 
+1 40 MET n 
+1 41 ALA n 
+1 42 ALA n 
+1 43 PHE n 
+1 44 ILE n 
+1 45 LYS n 
+1 46 GLN n 
+1 47 ARG n 
+1 48 THR n 
+1 49 ALA n 
+1 50 LYS n 
+1 51 TYR n 
+1 52 VAL n 
+1 53 ALA n 
+1 54 ASN n 
+1 55 GLN n 
+1 56 PRO n 
+1 57 GLY n 
+1 58 MET n 
+1 59 GLN n 
+2 1  PRO n 
+2 2  THR n 
+2 3  THR n 
+2 4  VAL n 
+2 5  GLU n 
+2 6  GLY n 
+2 7  ARG n 
+2 8  ASN n 
+2 9  ASP n 
+2 10 GLU n 
+2 11 LYS n 
+2 12 ALA n 
+2 13 LEU n 
+2 14 LEU n 
+2 15 GLU n 
+2 16 GLN n 
+2 17 LEU n 
+2 18 VAL n 
+2 19 SER n 
+2 20 PHE n 
+2 21 LEU n 
+2 22 SER n 
+2 23 GLY n 
+2 24 LYS n 
+2 25 ASP n 
+2 26 GLU n 
+2 27 THR n 
+2 28 GLU n 
+2 29 LEU n 
+2 30 ALA n 
+2 31 GLU n 
+2 32 LEU n 
+2 33 ASP n 
+2 34 ARG n 
+2 35 ALA n 
+2 36 LEU n 
+2 37 GLY n 
+2 38 ILE n 
+2 39 ASP n 
+2 40 LYS n 
+2 41 LEU n 
+2 42 VAL n 
+2 43 GLN n 
+2 44 GLY n 
+2 45 GLY n 
+2 46 GLY n 
+2 47 LEU n 
+2 48 ASP n 
+2 49 VAL n 
+2 50 LEU n 
+2 51 SER n 
+2 52 LYS n 
+2 53 LEU n 
+2 54 VAL n 
+2 55 PRO n 
+2 56 ARG n 
+2 57 GLY n 
+2 58 SER n 
+2 59 LEU n 
+# 
+loop_
+_entity_src_gen.entity_id 
+_entity_src_gen.gene_src_common_name 
+_entity_src_gen.gene_src_genus 
+_entity_src_gen.pdbx_gene_src_gene 
+_entity_src_gen.gene_src_species 
+_entity_src_gen.gene_src_strain 
+_entity_src_gen.gene_src_tissue 
+_entity_src_gen.gene_src_tissue_fraction 
+_entity_src_gen.gene_src_details 
+_entity_src_gen.pdbx_gene_src_fragment 
+_entity_src_gen.pdbx_gene_src_scientific_name 
+_entity_src_gen.pdbx_gene_src_ncbi_taxonomy_id 
+_entity_src_gen.pdbx_gene_src_variant 
+_entity_src_gen.pdbx_gene_src_cell_line 
+_entity_src_gen.pdbx_gene_src_atcc 
+_entity_src_gen.pdbx_gene_src_organ 
+_entity_src_gen.pdbx_gene_src_organelle 
+_entity_src_gen.pdbx_gene_src_cell 
+_entity_src_gen.pdbx_gene_src_cellular_location 
+_entity_src_gen.host_org_common_name 
+_entity_src_gen.pdbx_host_org_scientific_name 
+_entity_src_gen.pdbx_host_org_ncbi_taxonomy_id 
+_entity_src_gen.host_org_genus 
+_entity_src_gen.pdbx_host_org_gene 
+_entity_src_gen.pdbx_host_org_organ 
+_entity_src_gen.host_org_species 
+_entity_src_gen.pdbx_host_org_tissue 
+_entity_src_gen.pdbx_host_org_tissue_fraction 
+_entity_src_gen.pdbx_host_org_strain 
+_entity_src_gen.pdbx_host_org_variant 
+_entity_src_gen.pdbx_host_org_cell_line 
+_entity_src_gen.pdbx_host_org_atcc 
+_entity_src_gen.pdbx_host_org_culture_collection 
+_entity_src_gen.pdbx_host_org_cell 
+_entity_src_gen.pdbx_host_org_organelle 
+_entity_src_gen.pdbx_host_org_cellular_location 
+_entity_src_gen.pdbx_host_org_vector_type 
+_entity_src_gen.pdbx_host_org_vector 
+_entity_src_gen.plasmid_name 
+_entity_src_gen.plasmid_details 
+_entity_src_gen.pdbx_description 
+1 MOUSE ? ? ? ? ? ? ? ? 'MUS MUSCULUS' 10090 ? ? ? ? ? ? ? ? 'ESCHERICHIA COLI' 562 ? ? ? ? ? ? B834 ? ? ? ? ? ? ? PLASMID ? PET22B ? ? 
+2 HUMAN ? ? ? ? ? ? ? ? 'HOMO SAPIENS' 9606  ? ? ? ? ? ? ? ? 'ESCHERICHIA COLI' 562 ? ? ? ? ? ? B834 ? ? ? ? ? ? ? PLASMID ? PET22B ? ? 
+# 
+loop_
+_struct_ref.id 
+_struct_ref.db_name 
+_struct_ref.db_code 
+_struct_ref.entity_id 
+_struct_ref.pdbx_seq_one_letter_code 
+_struct_ref.pdbx_align_begin 
+_struct_ref.biol_id 
+_struct_ref.pdbx_db_accession 
+1 UNP CBP_MOUSE   1 ? ? . P45481 
+2 UNP NCOA1_HUMAN 2 ? ? . Q15788 
+3 PDB 2C52        2 ? ? . 2C52   
+# 
+loop_
+_struct_ref_seq.align_id 
+_struct_ref_seq.ref_id 
+_struct_ref_seq.pdbx_PDB_id_code 
+_struct_ref_seq.pdbx_strand_id 
+_struct_ref_seq.seq_align_beg 
+_struct_ref_seq.pdbx_seq_align_beg_ins_code 
+_struct_ref_seq.seq_align_end 
+_struct_ref_seq.pdbx_seq_align_end_ins_code 
+_struct_ref_seq.pdbx_db_accession 
+_struct_ref_seq.db_align_beg 
+_struct_ref_seq.pdbx_db_align_beg_ins_code 
+_struct_ref_seq.db_align_end 
+_struct_ref_seq.pdbx_db_align_end_ins_code 
+_struct_ref_seq.pdbx_auth_seq_align_beg 
+_struct_ref_seq.pdbx_auth_seq_align_end 
+1 1 2C52 A 1  ? 59 ? P45481 2059 ? 2117 ? 2   60  
+2 2 2C52 B 1  ? 51 ? Q15788 920  ? 970  ? 303 353 
+3 3 2C52 B 52 ? 59 ? 2C52   354  ? 361  ? 354 361 
+# 
+loop_
+_chem_comp.id 
+_chem_comp.type 
+_chem_comp.mon_nstd_flag 
+_chem_comp.name 
+_chem_comp.pdbx_synonyms 
+_chem_comp.formula 
+_chem_comp.formula_weight 
+PRO 'L-peptide linking' y PROLINE         ? 'C5 H9 N O2'     115.132 
+ASN 'L-peptide linking' y ASPARAGINE      ? 'C4 H8 N2 O3'    132.119 
+ARG 'L-peptide linking' y ARGININE        ? 'C6 H15 N4 O2 1' 175.210 
+SER 'L-peptide linking' y SERINE          ? 'C3 H7 N O3'     105.093 
+ILE 'L-peptide linking' y ISOLEUCINE      ? 'C6 H13 N O2'    131.174 
+ALA 'L-peptide linking' y ALANINE         ? 'C3 H7 N O2'     89.094  
+LEU 'L-peptide linking' y LEUCINE         ? 'C6 H13 N O2'    131.174 
+GLN 'L-peptide linking' y GLUTAMINE       ? 'C5 H10 N2 O3'   146.146 
+ASP 'L-peptide linking' y 'ASPARTIC ACID' ? 'C4 H7 N O4'     133.104 
+THR 'L-peptide linking' y THREONINE       ? 'C4 H9 N O3'     119.120 
+LYS 'L-peptide linking' y LYSINE          ? 'C6 H15 N2 O2 1' 147.197 
+VAL 'L-peptide linking' y VALINE          ? 'C5 H11 N O2'    117.147 
+MET 'L-peptide linking' y METHIONINE      ? 'C5 H11 N O2 S'  149.207 
+PHE 'L-peptide linking' y PHENYLALANINE   ? 'C9 H11 N O2'    165.191 
+TYR 'L-peptide linking' y TYROSINE        ? 'C9 H11 N O3'    181.191 
+GLY 'PEPTIDE LINKING'   y GLYCINE         ? 'C2 H5 N O2'     75.067  
+GLU 'L-peptide linking' y 'GLUTAMIC ACID' ? 'C5 H9 N O4'     147.130 
+# 
+loop_
+_pdbx_nmr_exptl.experiment_id 
+_pdbx_nmr_exptl.conditions_id 
+_pdbx_nmr_exptl.type 
+_pdbx_nmr_exptl.solution_id 
+1 1 '15N-1H HSQC 15N-13C-1H HNCACB 15N-13C-1H CBCACONH 15N-1H TOCSY-HSQC' 1 
+2 2 '15N-1H NOESYHSQC'                                                    2 
+3 3 '13C-1H HMQCNOESY'                                                    3 
+4 4 '13C-1H HCCHTOCSY NOESY TOCSY'                                        4 
+# 
+loop_
+_pdbx_nmr_exptl_sample_conditions.conditions_id 
+_pdbx_nmr_exptl_sample_conditions.temperature 
+_pdbx_nmr_exptl_sample_conditions.pressure_units 
+_pdbx_nmr_exptl_sample_conditions.pressure 
+_pdbx_nmr_exptl_sample_conditions.pH 
+_pdbx_nmr_exptl_sample_conditions.ionic_strength 
+1 298.0 ? ? 7.0 100MM 
+2 298.0 ? ? 7.0 100MM 
+3 298.0 ? ? 7.0 100MM 
+4 298.0 ? ? 7.0 100MM 
+# 
+loop_
+_pdbx_nmr_sample_details.solution_id 
+_pdbx_nmr_sample_details.contents 
+1 '90% WATER/10% D2O' 
+2 '90% WATER/10% D2O' 
+3 '100% D2O'          
+4 '100% D2O'          
+# 
+loop_
+_pdbx_nmr_spectrometer.spectrometer_id 
+_pdbx_nmr_spectrometer.model 
+_pdbx_nmr_spectrometer.manufacturer 
+_pdbx_nmr_spectrometer.field_strength 
+1 OTHER      BRUKER 600 
+2 UNITYINOVA VARIAN 800 
+3 UNITYINOVA VARIAN 800 
+4 OTHER      BRUKER 600 
+# 
+_pdbx_nmr_refine.entry_id   2C52 
+_pdbx_nmr_refine.method     CANDID 
+_pdbx_nmr_refine.details    'REFINEMENT DETAILS CAN BE FOUND IN THE JRNL CITATION ABOVE.' 
+# 
+_pdbx_nmr_details.entry_id   2C52 
+_pdbx_nmr_details.text       'THE STRUCTURE WAS DETERMINED USING TRIPLE-RESONANCE NMR SPECTROSCOPY ON 13C, 15N-LABELED CBP-SID SRC1-AD1.' 
+# 
+_pdbx_nmr_ensemble.entry_id                             2C52 
+_pdbx_nmr_ensemble.conformers_calculated_total_number   ? 
+_pdbx_nmr_ensemble.conformers_submitted_total_number    37 
+_pdbx_nmr_ensemble.conformer_selection_criteria         ? 
+# 
+_pdbx_nmr_representative.entry_id             2C52 
+_pdbx_nmr_representative.conformer_id         20 
+_pdbx_nmr_representative.selection_criteria   ? 
+# 
+loop_
+_pdbx_nmr_software.classification 
+_pdbx_nmr_software.name 
+_pdbx_nmr_software.version 
+_pdbx_nmr_software.authors 
+_pdbx_nmr_software.ordinal 
+refinement           CYANA ? GUNTERT,MUMENTHALER,WUTHRICH 1 
+'structure solution' CYANA ? ?                            2 
+# 
+_exptl.entry_id          2C52 
+_exptl.method            'SOLUTION NMR' 
+_exptl.crystals_number   ? 
+# 
+_struct.entry_id                  2C52 
+_struct.title                     'STRUCTURAL DIVERSITY IN CBP P160 COMPLEXES' 
+_struct.pdbx_descriptor           'CREB-BINDING PROTEIN (E.C.2.3.1.48), NUCLEAR RECEPTOR COACTIVATOR 1 (E.C.2.3.1.48)' 
+_struct.pdbx_model_details        ? 
+_struct.pdbx_CASP_flag            ? 
+_struct.pdbx_model_type_details   ? 
+# 
+_struct_keywords.entry_id        2C52 
+_struct_keywords.pdbx_keywords   TRANSFERASE 
+_struct_keywords.text            
+;TRANSFERASE, ACTIVATOR, BROMODOMAIN, METAL-BINDING, METHYLATION, NUCLEAR PROTEIN, TRANSCRIPTION, TRANSCRIPTION REGULATION, ZINC-FINGER, ACYLTRANSFERASE, CHROMOSOMAL TRANSLOCATION, PROTO-ONCOGENE
+;
+# 
+loop_
+_struct_asym.id 
+_struct_asym.pdbx_blank_PDB_chainid_flag 
+_struct_asym.pdbx_modified 
+_struct_asym.entity_id 
+_struct_asym.details 
+A N N 1 ? 
+B N N 2 ? 
+# 
+_struct_biol.id   1 
+# 
+loop_
+_struct_conf.conf_type_id 
+_struct_conf.id 
+_struct_conf.pdbx_PDB_helix_id 
+_struct_conf.beg_label_comp_id 
+_struct_conf.beg_label_asym_id 
+_struct_conf.beg_label_seq_id 
+_struct_conf.pdbx_beg_PDB_ins_code 
+_struct_conf.end_label_comp_id 
+_struct_conf.end_label_asym_id 
+_struct_conf.end_label_seq_id 
+_struct_conf.pdbx_end_PDB_ins_code 
+_struct_conf.beg_auth_comp_id 
+_struct_conf.beg_auth_asym_id 
+_struct_conf.beg_auth_seq_id 
+_struct_conf.end_auth_comp_id 
+_struct_conf.end_auth_asym_id 
+_struct_conf.end_auth_seq_id 
+_struct_conf.pdbx_PDB_helix_class 
+_struct_conf.details 
+_struct_conf.pdbx_PDB_helix_length 
+HELX_P HELX_P1 1 SER A 8  ? LYS A 18 ? SER A 9   LYS A 19  1 ? 11 
+HELX_P HELX_P2 2 GLN A 24 ? SER A 35 ? GLN A 25  SER A 36  1 ? 12 
+HELX_P HELX_P3 3 PRO A 37 ? THR A 48 ? PRO A 38  THR A 49  1 ? 12 
+HELX_P HELX_P4 4 TYR A 51 ? ASN A 54 ? TYR A 52  ASN A 55  1 ? 4  
+HELX_P HELX_P5 5 GLU B 10 ? SER B 22 ? GLU B 312 SER B 324 1 ? 13 
+HELX_P HELX_P6 6 GLU B 26 ? LEU B 29 ? GLU B 328 LEU B 331 1 ? 4  
+HELX_P HELX_P7 7 GLU B 31 ? LEU B 36 ? GLU B 333 LEU B 338 5 ? 6  
+HELX_P HELX_P8 8 ILE B 38 ? GLN B 43 ? ILE B 340 GLN B 345 1 ? 6  
+# 
+_struct_conf_type.id          HELX_P 
+_struct_conf_type.criteria    ? 
+_struct_conf_type.reference   ? 
+# 
+_database_PDB_matrix.entry_id          2C52 
+_database_PDB_matrix.origx[1][1]       1.000000 
+_database_PDB_matrix.origx[1][2]       0.000000 
+_database_PDB_matrix.origx[1][3]       0.000000 
+_database_PDB_matrix.origx[2][1]       0.000000 
+_database_PDB_matrix.origx[2][2]       1.000000 
+_database_PDB_matrix.origx[2][3]       0.000000 
+_database_PDB_matrix.origx[3][1]       0.000000 
+_database_PDB_matrix.origx[3][2]       0.000000 
+_database_PDB_matrix.origx[3][3]       1.000000 
+_database_PDB_matrix.origx_vector[1]   0.00000 
+_database_PDB_matrix.origx_vector[2]   0.00000 
+_database_PDB_matrix.origx_vector[3]   0.00000 
+# 
+_atom_sites.entry_id                    2C52 
+_atom_sites.Cartn_transform_axes        ? 
+_atom_sites.fract_transf_matrix[1][1]   1.000000 
+_atom_sites.fract_transf_matrix[1][2]   0.000000 
+_atom_sites.fract_transf_matrix[1][3]   0.000000 
+_atom_sites.fract_transf_matrix[2][1]   0.000000 
+_atom_sites.fract_transf_matrix[2][2]   1.000000 
+_atom_sites.fract_transf_matrix[2][3]   0.000000 
+_atom_sites.fract_transf_matrix[3][1]   0.000000 
+_atom_sites.fract_transf_matrix[3][2]   0.000000 
+_atom_sites.fract_transf_matrix[3][3]   1.000000 
+_atom_sites.fract_transf_vector[1]      0.00000 
+_atom_sites.fract_transf_vector[2]      0.00000 
+_atom_sites.fract_transf_vector[3]      0.00000 
+# 
+loop_
+_atom_type.symbol 
+N 
+C 
+O 
+H 
+S 
+# 
+loop_
+_pdbx_poly_seq_scheme.asym_id 
+_pdbx_poly_seq_scheme.entity_id 
+_pdbx_poly_seq_scheme.seq_id 
+_pdbx_poly_seq_scheme.mon_id 
+_pdbx_poly_seq_scheme.ndb_seq_num 
+_pdbx_poly_seq_scheme.pdb_seq_num 
+_pdbx_poly_seq_scheme.auth_seq_num 
+_pdbx_poly_seq_scheme.pdb_mon_id 
+_pdbx_poly_seq_scheme.auth_mon_id 
+_pdbx_poly_seq_scheme.pdb_strand_id 
+_pdbx_poly_seq_scheme.pdb_ins_code 
+_pdbx_poly_seq_scheme.hetero 
+A 1 1  PRO 1  2   2   PRO PRO A . n 
+A 1 2  ASN 2  3   3   ASN ASN A . n 
+A 1 3  ARG 3  4   4   ARG ARG A . n 
+A 1 4  SER 4  5   5   SER SER A . n 
+A 1 5  ILE 5  6   6   ILE ILE A . n 
+A 1 6  SER 6  7   7   SER SER A . n 
+A 1 7  PRO 7  8   8   PRO PRO A . n 
+A 1 8  SER 8  9   9   SER SER A . n 
+A 1 9  ALA 9  10  10  ALA ALA A . n 
+A 1 10 LEU 10 11  11  LEU LEU A . n 
+A 1 11 GLN 11 12  12  GLN GLN A . n 
+A 1 12 ASP 12 13  13  ASP ASP A . n 
+A 1 13 LEU 13 14  14  LEU LEU A . n 
+A 1 14 LEU 14 15  15  LEU LEU A . n 
+A 1 15 ARG 15 16  16  ARG ARG A . n 
+A 1 16 THR 16 17  17  THR THR A . n 
+A 1 17 LEU 17 18  18  LEU LEU A . n 
+A 1 18 LYS 18 19  19  LYS LYS A . n 
+A 1 19 SER 19 20  20  SER SER A . n 
+A 1 20 PRO 20 21  21  PRO PRO A . n 
+A 1 21 SER 21 22  22  SER SER A . n 
+A 1 22 SER 22 23  23  SER SER A . n 
+A 1 23 PRO 23 24  24  PRO PRO A . n 
+A 1 24 GLN 24 25  25  GLN GLN A . n 
+A 1 25 GLN 25 26  26  GLN GLN A . n 
+A 1 26 GLN 26 27  27  GLN GLN A . n 
+A 1 27 GLN 27 28  28  GLN GLN A . n 
+A 1 28 GLN 28 29  29  GLN GLN A . n 
+A 1 29 VAL 29 30  30  VAL VAL A . n 
+A 1 30 LEU 30 31  31  LEU LEU A . n 
+A 1 31 ASN 31 32  32  ASN ASN A . n 
+A 1 32 ILE 32 33  33  ILE ILE A . n 
+A 1 33 LEU 33 34  34  LEU LEU A . n 
+A 1 34 LYS 34 35  35  LYS LYS A . n 
+A 1 35 SER 35 36  36  SER SER A . n 
+A 1 36 ASN 36 37  37  ASN ASN A . n 
+A 1 37 PRO 37 38  38  PRO PRO A . n 
+A 1 38 GLN 38 39  39  GLN GLN A . n 
+A 1 39 LEU 39 40  40  LEU LEU A . n 
+A 1 40 MET 40 41  41  MET MET A . n 
+A 1 41 ALA 41 42  42  ALA ALA A . n 
+A 1 42 ALA 42 43  43  ALA ALA A . n 
+A 1 43 PHE 43 44  44  PHE PHE A . n 
+A 1 44 ILE 44 45  45  ILE ILE A . n 
+A 1 45 LYS 45 46  46  LYS LYS A . n 
+A 1 46 GLN 46 47  47  GLN GLN A . n 
+A 1 47 ARG 47 48  48  ARG ARG A . n 
+A 1 48 THR 48 49  49  THR THR A . n 
+A 1 49 ALA 49 50  50  ALA ALA A . n 
+A 1 50 LYS 50 51  51  LYS LYS A . n 
+A 1 51 TYR 51 52  52  TYR TYR A . n 
+A 1 52 VAL 52 53  53  VAL VAL A . n 
+A 1 53 ALA 53 54  54  ALA ALA A . n 
+A 1 54 ASN 54 55  55  ASN ASN A . n 
+A 1 55 GLN 55 56  56  GLN GLN A . n 
+A 1 56 PRO 56 57  57  PRO PRO A . n 
+A 1 57 GLY 57 58  58  GLY GLY A . n 
+A 1 58 MET 58 59  59  MET MET A . n 
+A 1 59 GLN 59 60  ?   ?   ?   A . n 
+B 2 1  PRO 1  303 303 PRO PRO B . n 
+B 2 2  THR 2  304 304 THR THR B . n 
+B 2 3  THR 3  305 305 THR THR B . n 
+B 2 4  VAL 4  306 306 VAL VAL B . n 
+B 2 5  GLU 5  307 307 GLU GLU B . n 
+B 2 6  GLY 6  308 308 GLY GLY B . n 
+B 2 7  ARG 7  309 309 ARG ARG B . n 
+B 2 8  ASN 8  310 310 ASN ASN B . n 
+B 2 9  ASP 9  311 311 ASP ASP B . n 
+B 2 10 GLU 10 312 312 GLU GLU B . n 
+B 2 11 LYS 11 313 313 LYS LYS B . n 
+B 2 12 ALA 12 314 314 ALA ALA B . n 
+B 2 13 LEU 13 315 315 LEU LEU B . n 
+B 2 14 LEU 14 316 316 LEU LEU B . n 
+B 2 15 GLU 15 317 317 GLU GLU B . n 
+B 2 16 GLN 16 318 318 GLN GLN B . n 
+B 2 17 LEU 17 319 319 LEU LEU B . n 
+B 2 18 VAL 18 320 320 VAL VAL B . n 
+B 2 19 SER 19 321 321 SER SER B . n 
+B 2 20 PHE 20 322 322 PHE PHE B . n 
+B 2 21 LEU 21 323 323 LEU LEU B . n 
+B 2 22 SER 22 324 324 SER SER B . n 
+B 2 23 GLY 23 325 325 GLY GLY B . n 
+B 2 24 LYS 24 326 326 LYS LYS B . n 
+B 2 25 ASP 25 327 327 ASP ASP B . n 
+B 2 26 GLU 26 328 328 GLU GLU B . n 
+B 2 27 THR 27 329 329 THR THR B . n 
+B 2 28 GLU 28 330 330 GLU GLU B . n 
+B 2 29 LEU 29 331 331 LEU LEU B . n 
+B 2 30 ALA 30 332 332 ALA ALA B . n 
+B 2 31 GLU 31 333 333 GLU GLU B . n 
+B 2 32 LEU 32 334 334 LEU LEU B . n 
+B 2 33 ASP 33 335 335 ASP ASP B . n 
+B 2 34 ARG 34 336 336 ARG ARG B . n 
+B 2 35 ALA 35 337 337 ALA ALA B . n 
+B 2 36 LEU 36 338 338 LEU LEU B . n 
+B 2 37 GLY 37 339 339 GLY GLY B . n 
+B 2 38 ILE 38 340 340 ILE ILE B . n 
+B 2 39 ASP 39 341 341 ASP ASP B . n 
+B 2 40 LYS 40 342 342 LYS LYS B . n 
+B 2 41 LEU 41 343 343 LEU LEU B . n 
+B 2 42 VAL 42 344 344 VAL VAL B . n 
+B 2 43 GLN 43 345 345 GLN GLN B . n 
+B 2 44 GLY 44 346 346 GLY GLY B . n 
+B 2 45 GLY 45 347 347 GLY GLY B . n 
+B 2 46 GLY 46 348 348 GLY GLY B . n 
+B 2 47 LEU 47 349 349 LEU LEU B . n 
+B 2 48 ASP 48 350 350 ASP ASP B . n 
+B 2 49 VAL 49 351 351 VAL VAL B . n 
+B 2 50 LEU 50 352 352 LEU LEU B . n 
+B 2 51 SER 51 353 353 SER SER B . n 
+B 2 52 LYS 52 354 354 LYS LYS B . n 
+B 2 53 LEU 53 355 355 LEU LEU B . n 
+B 2 54 VAL 54 356 356 VAL VAL B . n 
+B 2 55 PRO 55 357 357 PRO PRO B . n 
+B 2 56 ARG 56 358 358 ARG ARG B . n 
+B 2 57 GLY 57 359 359 GLY GLY B . n 
+B 2 58 SER 58 360 360 SER SER B . n 
+B 2 59 LEU 59 361 361 LEU LEU B . n 
+# 
+_pdbx_database_remark.id     650 
+_pdbx_database_remark.text   
+;
+HELIX
+DETERMINATION METHOD: AUTHOR PROVIDED.
+;
+# 
+loop_
+_pdbx_unobs_or_zero_occ_residues.id 
+_pdbx_unobs_or_zero_occ_residues.polymer_flag 
+_pdbx_unobs_or_zero_occ_residues.occupancy_flag 
+_pdbx_unobs_or_zero_occ_residues.PDB_model_num 
+_pdbx_unobs_or_zero_occ_residues.auth_asym_id 
+_pdbx_unobs_or_zero_occ_residues.auth_comp_id 
+_pdbx_unobs_or_zero_occ_residues.auth_seq_id 
+_pdbx_unobs_or_zero_occ_residues.PDB_ins_code 
+1  Y 1 1  A GLN 60 ? 
+2  Y 1 2  A GLN 60 ? 
+3  Y 1 3  A GLN 60 ? 
+4  Y 1 4  A GLN 60 ? 
+5  Y 1 5  A GLN 60 ? 
+6  Y 1 6  A GLN 60 ? 
+7  Y 1 7  A GLN 60 ? 
+8  Y 1 8  A GLN 60 ? 
+9  Y 1 9  A GLN 60 ? 
+10 Y 1 10 A GLN 60 ? 
+11 Y 1 11 A GLN 60 ? 
+12 Y 1 12 A GLN 60 ? 
+13 Y 1 13 A GLN 60 ? 
+14 Y 1 14 A GLN 60 ? 
+15 Y 1 15 A GLN 60 ? 
+16 Y 1 16 A GLN 60 ? 
+17 Y 1 17 A GLN 60 ? 
+18 Y 1 18 A GLN 60 ? 
+19 Y 1 19 A GLN 60 ? 
+20 Y 1 20 A GLN 60 ? 
+21 Y 1 21 A GLN 60 ? 
+22 Y 1 22 A GLN 60 ? 
+23 Y 1 23 A GLN 60 ? 
+24 Y 1 24 A GLN 60 ? 
+25 Y 1 25 A GLN 60 ? 
+26 Y 1 26 A GLN 60 ? 
+27 Y 1 27 A GLN 60 ? 
+28 Y 1 28 A GLN 60 ? 
+29 Y 1 29 A GLN 60 ? 
+30 Y 1 30 A GLN 60 ? 
+31 Y 1 31 A GLN 60 ? 
+32 Y 1 32 A GLN 60 ? 
+33 Y 1 33 A GLN 60 ? 
+34 Y 1 34 A GLN 60 ? 
+35 Y 1 35 A GLN 60 ? 
+36 Y 1 36 A GLN 60 ? 
+37 Y 1 37 A GLN 60 ? 
+# 
+loop_
+_pdbx_unobs_or_zero_occ_atoms.id 
+_pdbx_unobs_or_zero_occ_atoms.polymer_flag 
+_pdbx_unobs_or_zero_occ_atoms.occupancy_flag 
+_pdbx_unobs_or_zero_occ_atoms.PDB_model_num 
+_pdbx_unobs_or_zero_occ_atoms.auth_asym_id 
+_pdbx_unobs_or_zero_occ_atoms.auth_comp_id 
+_pdbx_unobs_or_zero_occ_atoms.auth_seq_id 
+_pdbx_unobs_or_zero_occ_atoms.PDB_ins_code 
+_pdbx_unobs_or_zero_occ_atoms.auth_atom_id 
+_pdbx_unobs_or_zero_occ_atoms.label_alt_id 
+1    Y 1 1  A ARG 4   ? HH21 ? 
+2    Y 1 1  A ARG 16  ? HH21 ? 
+3    Y 1 1  A LYS 19  ? HZ1  ? 
+4    Y 1 1  A LYS 19  ? HZ2  ? 
+5    Y 1 1  A LYS 19  ? HZ3  ? 
+6    Y 1 1  A LYS 35  ? HZ1  ? 
+7    Y 1 1  A LYS 35  ? HZ2  ? 
+8    Y 1 1  A LYS 35  ? HZ3  ? 
+9    Y 1 1  A LYS 46  ? HZ1  ? 
+10   Y 1 1  A LYS 46  ? HZ2  ? 
+11   Y 1 1  A LYS 46  ? HZ3  ? 
+12   Y 1 1  A ARG 48  ? HH21 ? 
+13   Y 1 1  A LYS 51  ? HZ1  ? 
+14   Y 1 1  A LYS 51  ? HZ2  ? 
+15   Y 1 1  A LYS 51  ? HZ3  ? 
+16   Y 1 1  B ARG 309 ? HH21 ? 
+17   Y 1 1  B LYS 313 ? HZ1  ? 
+18   Y 1 1  B LYS 313 ? HZ2  ? 
+19   Y 1 1  B LYS 313 ? HZ3  ? 
+20   Y 1 1  B LYS 326 ? HZ1  ? 
+21   Y 1 1  B LYS 326 ? HZ2  ? 
+22   Y 1 1  B LYS 326 ? HZ3  ? 
+23   Y 1 1  B ARG 336 ? HH21 ? 
+24   Y 1 1  B LYS 342 ? HZ1  ? 
+25   Y 1 1  B LYS 342 ? HZ2  ? 
+26   Y 1 1  B LYS 342 ? HZ3  ? 
+27   Y 1 1  B LYS 354 ? HZ1  ? 
+28   Y 1 1  B LYS 354 ? HZ2  ? 
+29   Y 1 1  B LYS 354 ? HZ3  ? 
+30   Y 1 1  B ARG 358 ? HH21 ? 
+31   Y 1 2  A ARG 4   ? HH21 ? 
+32   Y 1 2  A ARG 16  ? HH21 ? 
+33   Y 1 2  A LYS 19  ? HZ1  ? 
+34   Y 1 2  A LYS 19  ? HZ2  ? 
+35   Y 1 2  A LYS 19  ? HZ3  ? 
+36   Y 1 2  A LYS 35  ? HZ1  ? 
+37   Y 1 2  A LYS 35  ? HZ2  ? 
+38   Y 1 2  A LYS 35  ? HZ3  ? 
+39   Y 1 2  A LYS 46  ? HZ1  ? 
+40   Y 1 2  A LYS 46  ? HZ2  ? 
+41   Y 1 2  A LYS 46  ? HZ3  ? 
+42   Y 1 2  A ARG 48  ? HH21 ? 
+43   Y 1 2  A LYS 51  ? HZ1  ? 
+44   Y 1 2  A LYS 51  ? HZ2  ? 
+45   Y 1 2  A LYS 51  ? HZ3  ? 
+46   Y 1 2  B ARG 309 ? HH21 ? 
+47   Y 1 2  B LYS 313 ? HZ1  ? 
+48   Y 1 2  B LYS 313 ? HZ2  ? 
+49   Y 1 2  B LYS 313 ? HZ3  ? 
+50   Y 1 2  B LYS 326 ? HZ1  ? 
+51   Y 1 2  B LYS 326 ? HZ2  ? 
+52   Y 1 2  B LYS 326 ? HZ3  ? 
+53   Y 1 2  B ARG 336 ? HH21 ? 
+54   Y 1 2  B LYS 342 ? HZ1  ? 
+55   Y 1 2  B LYS 342 ? HZ2  ? 
+56   Y 1 2  B LYS 342 ? HZ3  ? 
+57   Y 1 2  B LYS 354 ? HZ1  ? 
+58   Y 1 2  B LYS 354 ? HZ2  ? 
+59   Y 1 2  B LYS 354 ? HZ3  ? 
+60   Y 1 2  B ARG 358 ? HH21 ? 
+61   Y 1 3  A ARG 4   ? HH21 ? 
+62   Y 1 3  A ARG 16  ? HH21 ? 
+63   Y 1 3  A LYS 19  ? HZ1  ? 
+64   Y 1 3  A LYS 19  ? HZ2  ? 
+65   Y 1 3  A LYS 19  ? HZ3  ? 
+66   Y 1 3  A LYS 35  ? HZ1  ? 
+67   Y 1 3  A LYS 35  ? HZ2  ? 
+68   Y 1 3  A LYS 35  ? HZ3  ? 
+69   Y 1 3  A LYS 46  ? HZ1  ? 
+70   Y 1 3  A LYS 46  ? HZ2  ? 
+71   Y 1 3  A LYS 46  ? HZ3  ? 
+72   Y 1 3  A ARG 48  ? HH21 ? 
+73   Y 1 3  A LYS 51  ? HZ1  ? 
+74   Y 1 3  A LYS 51  ? HZ2  ? 
+75   Y 1 3  A LYS 51  ? HZ3  ? 
+76   Y 1 3  B ARG 309 ? HH21 ? 
+77   Y 1 3  B LYS 313 ? HZ1  ? 
+78   Y 1 3  B LYS 313 ? HZ2  ? 
+79   Y 1 3  B LYS 313 ? HZ3  ? 
+80   Y 1 3  B LYS 326 ? HZ1  ? 
+81   Y 1 3  B LYS 326 ? HZ2  ? 
+82   Y 1 3  B LYS 326 ? HZ3  ? 
+83   Y 1 3  B ARG 336 ? HH21 ? 
+84   Y 1 3  B LYS 342 ? HZ1  ? 
+85   Y 1 3  B LYS 342 ? HZ2  ? 
+86   Y 1 3  B LYS 342 ? HZ3  ? 
+87   Y 1 3  B LYS 354 ? HZ1  ? 
+88   Y 1 3  B LYS 354 ? HZ2  ? 
+89   Y 1 3  B LYS 354 ? HZ3  ? 
+90   Y 1 3  B ARG 358 ? HH21 ? 
+91   Y 1 4  A ARG 4   ? HH21 ? 
+92   Y 1 4  A ARG 16  ? HH21 ? 
+93   Y 1 4  A LYS 19  ? HZ1  ? 
+94   Y 1 4  A LYS 19  ? HZ2  ? 
+95   Y 1 4  A LYS 19  ? HZ3  ? 
+96   Y 1 4  A LYS 35  ? HZ1  ? 
+97   Y 1 4  A LYS 35  ? HZ2  ? 
+98   Y 1 4  A LYS 35  ? HZ3  ? 
+99   Y 1 4  A LYS 46  ? HZ1  ? 
+100  Y 1 4  A LYS 46  ? HZ2  ? 
+101  Y 1 4  A LYS 46  ? HZ3  ? 
+102  Y 1 4  A ARG 48  ? HH21 ? 
+103  Y 1 4  A LYS 51  ? HZ1  ? 
+104  Y 1 4  A LYS 51  ? HZ2  ? 
+105  Y 1 4  A LYS 51  ? HZ3  ? 
+106  Y 1 4  B ARG 309 ? HH21 ? 
+107  Y 1 4  B LYS 313 ? HZ1  ? 
+108  Y 1 4  B LYS 313 ? HZ2  ? 
+109  Y 1 4  B LYS 313 ? HZ3  ? 
+110  Y 1 4  B LYS 326 ? HZ1  ? 
+111  Y 1 4  B LYS 326 ? HZ2  ? 
+112  Y 1 4  B LYS 326 ? HZ3  ? 
+113  Y 1 4  B ARG 336 ? HH21 ? 
+114  Y 1 4  B LYS 342 ? HZ1  ? 
+115  Y 1 4  B LYS 342 ? HZ2  ? 
+116  Y 1 4  B LYS 342 ? HZ3  ? 
+117  Y 1 4  B LYS 354 ? HZ1  ? 
+118  Y 1 4  B LYS 354 ? HZ2  ? 
+119  Y 1 4  B LYS 354 ? HZ3  ? 
+120  Y 1 4  B ARG 358 ? HH21 ? 
+121  Y 1 5  A ARG 4   ? HH21 ? 
+122  Y 1 5  A ARG 16  ? HH21 ? 
+123  Y 1 5  A LYS 19  ? HZ1  ? 
+124  Y 1 5  A LYS 19  ? HZ2  ? 
+125  Y 1 5  A LYS 19  ? HZ3  ? 
+126  Y 1 5  A LYS 35  ? HZ1  ? 
+127  Y 1 5  A LYS 35  ? HZ2  ? 
+128  Y 1 5  A LYS 35  ? HZ3  ? 
+129  Y 1 5  A LYS 46  ? HZ1  ? 
+130  Y 1 5  A LYS 46  ? HZ2  ? 
+131  Y 1 5  A LYS 46  ? HZ3  ? 
+132  Y 1 5  A ARG 48  ? HH21 ? 
+133  Y 1 5  A LYS 51  ? HZ1  ? 
+134  Y 1 5  A LYS 51  ? HZ2  ? 
+135  Y 1 5  A LYS 51  ? HZ3  ? 
+136  Y 1 5  B ARG 309 ? HH21 ? 
+137  Y 1 5  B LYS 313 ? HZ1  ? 
+138  Y 1 5  B LYS 313 ? HZ2  ? 
+139  Y 1 5  B LYS 313 ? HZ3  ? 
+140  Y 1 5  B LYS 326 ? HZ1  ? 
+141  Y 1 5  B LYS 326 ? HZ2  ? 
+142  Y 1 5  B LYS 326 ? HZ3  ? 
+143  Y 1 5  B ARG 336 ? HH21 ? 
+144  Y 1 5  B LYS 342 ? HZ1  ? 
+145  Y 1 5  B LYS 342 ? HZ2  ? 
+146  Y 1 5  B LYS 342 ? HZ3  ? 
+147  Y 1 5  B LYS 354 ? HZ1  ? 
+148  Y 1 5  B LYS 354 ? HZ2  ? 
+149  Y 1 5  B LYS 354 ? HZ3  ? 
+150  Y 1 5  B ARG 358 ? HH21 ? 
+151  Y 1 6  A ARG 4   ? HH21 ? 
+152  Y 1 6  A ARG 16  ? HH21 ? 
+153  Y 1 6  A LYS 19  ? HZ1  ? 
+154  Y 1 6  A LYS 19  ? HZ2  ? 
+155  Y 1 6  A LYS 19  ? HZ3  ? 
+156  Y 1 6  A LYS 35  ? HZ1  ? 
+157  Y 1 6  A LYS 35  ? HZ2  ? 
+158  Y 1 6  A LYS 35  ? HZ3  ? 
+159  Y 1 6  A LYS 46  ? HZ1  ? 
+160  Y 1 6  A LYS 46  ? HZ2  ? 
+161  Y 1 6  A LYS 46  ? HZ3  ? 
+162  Y 1 6  A ARG 48  ? HH21 ? 
+163  Y 1 6  A LYS 51  ? HZ1  ? 
+164  Y 1 6  A LYS 51  ? HZ2  ? 
+165  Y 1 6  A LYS 51  ? HZ3  ? 
+166  Y 1 6  B ARG 309 ? HH21 ? 
+167  Y 1 6  B LYS 313 ? HZ1  ? 
+168  Y 1 6  B LYS 313 ? HZ2  ? 
+169  Y 1 6  B LYS 313 ? HZ3  ? 
+170  Y 1 6  B LYS 326 ? HZ1  ? 
+171  Y 1 6  B LYS 326 ? HZ2  ? 
+172  Y 1 6  B LYS 326 ? HZ3  ? 
+173  Y 1 6  B ARG 336 ? HH21 ? 
+174  Y 1 6  B LYS 342 ? HZ1  ? 
+175  Y 1 6  B LYS 342 ? HZ2  ? 
+176  Y 1 6  B LYS 342 ? HZ3  ? 
+177  Y 1 6  B LYS 354 ? HZ1  ? 
+178  Y 1 6  B LYS 354 ? HZ2  ? 
+179  Y 1 6  B LYS 354 ? HZ3  ? 
+180  Y 1 6  B ARG 358 ? HH21 ? 
+181  Y 1 7  A ARG 4   ? HH21 ? 
+182  Y 1 7  A ARG 16  ? HH21 ? 
+183  Y 1 7  A LYS 19  ? HZ1  ? 
+184  Y 1 7  A LYS 19  ? HZ2  ? 
+185  Y 1 7  A LYS 19  ? HZ3  ? 
+186  Y 1 7  A LYS 35  ? HZ1  ? 
+187  Y 1 7  A LYS 35  ? HZ2  ? 
+188  Y 1 7  A LYS 35  ? HZ3  ? 
+189  Y 1 7  A LYS 46  ? HZ1  ? 
+190  Y 1 7  A LYS 46  ? HZ2  ? 
+191  Y 1 7  A LYS 46  ? HZ3  ? 
+192  Y 1 7  A ARG 48  ? HH21 ? 
+193  Y 1 7  A LYS 51  ? HZ1  ? 
+194  Y 1 7  A LYS 51  ? HZ2  ? 
+195  Y 1 7  A LYS 51  ? HZ3  ? 
+196  Y 1 7  B ARG 309 ? HH21 ? 
+197  Y 1 7  B LYS 313 ? HZ1  ? 
+198  Y 1 7  B LYS 313 ? HZ2  ? 
+199  Y 1 7  B LYS 313 ? HZ3  ? 
+200  Y 1 7  B LYS 326 ? HZ1  ? 
+201  Y 1 7  B LYS 326 ? HZ2  ? 
+202  Y 1 7  B LYS 326 ? HZ3  ? 
+203  Y 1 7  B ARG 336 ? HH21 ? 
+204  Y 1 7  B LYS 342 ? HZ1  ? 
+205  Y 1 7  B LYS 342 ? HZ2  ? 
+206  Y 1 7  B LYS 342 ? HZ3  ? 
+207  Y 1 7  B LYS 354 ? HZ1  ? 
+208  Y 1 7  B LYS 354 ? HZ2  ? 
+209  Y 1 7  B LYS 354 ? HZ3  ? 
+210  Y 1 7  B ARG 358 ? HH21 ? 
+211  Y 1 8  A ARG 4   ? HH21 ? 
+212  Y 1 8  A ARG 16  ? HH21 ? 
+213  Y 1 8  A LYS 19  ? HZ1  ? 
+214  Y 1 8  A LYS 19  ? HZ2  ? 
+215  Y 1 8  A LYS 19  ? HZ3  ? 
+216  Y 1 8  A LYS 35  ? HZ1  ? 
+217  Y 1 8  A LYS 35  ? HZ2  ? 
+218  Y 1 8  A LYS 35  ? HZ3  ? 
+219  Y 1 8  A LYS 46  ? HZ1  ? 
+220  Y 1 8  A LYS 46  ? HZ2  ? 
+221  Y 1 8  A LYS 46  ? HZ3  ? 
+222  Y 1 8  A ARG 48  ? HH21 ? 
+223  Y 1 8  A LYS 51  ? HZ1  ? 
+224  Y 1 8  A LYS 51  ? HZ2  ? 
+225  Y 1 8  A LYS 51  ? HZ3  ? 
+226  Y 1 8  B ARG 309 ? HH21 ? 
+227  Y 1 8  B LYS 313 ? HZ1  ? 
+228  Y 1 8  B LYS 313 ? HZ2  ? 
+229  Y 1 8  B LYS 313 ? HZ3  ? 
+230  Y 1 8  B LYS 326 ? HZ1  ? 
+231  Y 1 8  B LYS 326 ? HZ2  ? 
+232  Y 1 8  B LYS 326 ? HZ3  ? 
+233  Y 1 8  B ARG 336 ? HH21 ? 
+234  Y 1 8  B LYS 342 ? HZ1  ? 
+235  Y 1 8  B LYS 342 ? HZ2  ? 
+236  Y 1 8  B LYS 342 ? HZ3  ? 
+237  Y 1 8  B LYS 354 ? HZ1  ? 
+238  Y 1 8  B LYS 354 ? HZ2  ? 
+239  Y 1 8  B LYS 354 ? HZ3  ? 
+240  Y 1 8  B ARG 358 ? HH21 ? 
+241  Y 1 9  A ARG 4   ? HH21 ? 
+242  Y 1 9  A ARG 16  ? HH21 ? 
+243  Y 1 9  A LYS 19  ? HZ1  ? 
+244  Y 1 9  A LYS 19  ? HZ2  ? 
+245  Y 1 9  A LYS 19  ? HZ3  ? 
+246  Y 1 9  A LYS 35  ? HZ1  ? 
+247  Y 1 9  A LYS 35  ? HZ2  ? 
+248  Y 1 9  A LYS 35  ? HZ3  ? 
+249  Y 1 9  A LYS 46  ? HZ1  ? 
+250  Y 1 9  A LYS 46  ? HZ2  ? 
+251  Y 1 9  A LYS 46  ? HZ3  ? 
+252  Y 1 9  A ARG 48  ? HH21 ? 
+253  Y 1 9  A LYS 51  ? HZ1  ? 
+254  Y 1 9  A LYS 51  ? HZ2  ? 
+255  Y 1 9  A LYS 51  ? HZ3  ? 
+256  Y 1 9  B ARG 309 ? HH21 ? 
+257  Y 1 9  B LYS 313 ? HZ1  ? 
+258  Y 1 9  B LYS 313 ? HZ2  ? 
+259  Y 1 9  B LYS 313 ? HZ3  ? 
+260  Y 1 9  B LYS 326 ? HZ1  ? 
+261  Y 1 9  B LYS 326 ? HZ2  ? 
+262  Y 1 9  B LYS 326 ? HZ3  ? 
+263  Y 1 9  B ARG 336 ? HH21 ? 
+264  Y 1 9  B LYS 342 ? HZ1  ? 
+265  Y 1 9  B LYS 342 ? HZ2  ? 
+266  Y 1 9  B LYS 342 ? HZ3  ? 
+267  Y 1 9  B LYS 354 ? HZ1  ? 
+268  Y 1 9  B LYS 354 ? HZ2  ? 
+269  Y 1 9  B LYS 354 ? HZ3  ? 
+270  Y 1 9  B ARG 358 ? HH21 ? 
+271  Y 1 10 A ARG 4   ? HH21 ? 
+272  Y 1 10 A ARG 16  ? HH21 ? 
+273  Y 1 10 A LYS 19  ? HZ1  ? 
+274  Y 1 10 A LYS 19  ? HZ2  ? 
+275  Y 1 10 A LYS 19  ? HZ3  ? 
+276  Y 1 10 A LYS 35  ? HZ1  ? 
+277  Y 1 10 A LYS 35  ? HZ2  ? 
+278  Y 1 10 A LYS 35  ? HZ3  ? 
+279  Y 1 10 A LYS 46  ? HZ1  ? 
+280  Y 1 10 A LYS 46  ? HZ2  ? 
+281  Y 1 10 A LYS 46  ? HZ3  ? 
+282  Y 1 10 A ARG 48  ? HH21 ? 
+283  Y 1 10 A LYS 51  ? HZ1  ? 
+284  Y 1 10 A LYS 51  ? HZ2  ? 
+285  Y 1 10 A LYS 51  ? HZ3  ? 
+286  Y 1 10 B ARG 309 ? HH21 ? 
+287  Y 1 10 B LYS 313 ? HZ1  ? 
+288  Y 1 10 B LYS 313 ? HZ2  ? 
+289  Y 1 10 B LYS 313 ? HZ3  ? 
+290  Y 1 10 B LYS 326 ? HZ1  ? 
+291  Y 1 10 B LYS 326 ? HZ2  ? 
+292  Y 1 10 B LYS 326 ? HZ3  ? 
+293  Y 1 10 B ARG 336 ? HH21 ? 
+294  Y 1 10 B LYS 342 ? HZ1  ? 
+295  Y 1 10 B LYS 342 ? HZ2  ? 
+296  Y 1 10 B LYS 342 ? HZ3  ? 
+297  Y 1 10 B LYS 354 ? HZ1  ? 
+298  Y 1 10 B LYS 354 ? HZ2  ? 
+299  Y 1 10 B LYS 354 ? HZ3  ? 
+300  Y 1 10 B ARG 358 ? HH21 ? 
+301  Y 1 11 A ARG 4   ? HH21 ? 
+302  Y 1 11 A ARG 16  ? HH21 ? 
+303  Y 1 11 A LYS 19  ? HZ1  ? 
+304  Y 1 11 A LYS 19  ? HZ2  ? 
+305  Y 1 11 A LYS 19  ? HZ3  ? 
+306  Y 1 11 A LYS 35  ? HZ1  ? 
+307  Y 1 11 A LYS 35  ? HZ2  ? 
+308  Y 1 11 A LYS 35  ? HZ3  ? 
+309  Y 1 11 A LYS 46  ? HZ1  ? 
+310  Y 1 11 A LYS 46  ? HZ2  ? 
+311  Y 1 11 A LYS 46  ? HZ3  ? 
+312  Y 1 11 A ARG 48  ? HH21 ? 
+313  Y 1 11 A LYS 51  ? HZ1  ? 
+314  Y 1 11 A LYS 51  ? HZ2  ? 
+315  Y 1 11 A LYS 51  ? HZ3  ? 
+316  Y 1 11 B ARG 309 ? HH21 ? 
+317  Y 1 11 B LYS 313 ? HZ1  ? 
+318  Y 1 11 B LYS 313 ? HZ2  ? 
+319  Y 1 11 B LYS 313 ? HZ3  ? 
+320  Y 1 11 B LYS 326 ? HZ1  ? 
+321  Y 1 11 B LYS 326 ? HZ2  ? 
+322  Y 1 11 B LYS 326 ? HZ3  ? 
+323  Y 1 11 B ARG 336 ? HH21 ? 
+324  Y 1 11 B LYS 342 ? HZ1  ? 
+325  Y 1 11 B LYS 342 ? HZ2  ? 
+326  Y 1 11 B LYS 342 ? HZ3  ? 
+327  Y 1 11 B LYS 354 ? HZ1  ? 
+328  Y 1 11 B LYS 354 ? HZ2  ? 
+329  Y 1 11 B LYS 354 ? HZ3  ? 
+330  Y 1 11 B ARG 358 ? HH21 ? 
+331  Y 1 12 A ARG 4   ? HH21 ? 
+332  Y 1 12 A ARG 16  ? HH21 ? 
+333  Y 1 12 A LYS 19  ? HZ1  ? 
+334  Y 1 12 A LYS 19  ? HZ2  ? 
+335  Y 1 12 A LYS 19  ? HZ3  ? 
+336  Y 1 12 A LYS 35  ? HZ1  ? 
+337  Y 1 12 A LYS 35  ? HZ2  ? 
+338  Y 1 12 A LYS 35  ? HZ3  ? 
+339  Y 1 12 A LYS 46  ? HZ1  ? 
+340  Y 1 12 A LYS 46  ? HZ2  ? 
+341  Y 1 12 A LYS 46  ? HZ3  ? 
+342  Y 1 12 A ARG 48  ? HH21 ? 
+343  Y 1 12 A LYS 51  ? HZ1  ? 
+344  Y 1 12 A LYS 51  ? HZ2  ? 
+345  Y 1 12 A LYS 51  ? HZ3  ? 
+346  Y 1 12 B ARG 309 ? HH21 ? 
+347  Y 1 12 B LYS 313 ? HZ1  ? 
+348  Y 1 12 B LYS 313 ? HZ2  ? 
+349  Y 1 12 B LYS 313 ? HZ3  ? 
+350  Y 1 12 B LYS 326 ? HZ1  ? 
+351  Y 1 12 B LYS 326 ? HZ2  ? 
+352  Y 1 12 B LYS 326 ? HZ3  ? 
+353  Y 1 12 B ARG 336 ? HH21 ? 
+354  Y 1 12 B LYS 342 ? HZ1  ? 
+355  Y 1 12 B LYS 342 ? HZ2  ? 
+356  Y 1 12 B LYS 342 ? HZ3  ? 
+357  Y 1 12 B LYS 354 ? HZ1  ? 
+358  Y 1 12 B LYS 354 ? HZ2  ? 
+359  Y 1 12 B LYS 354 ? HZ3  ? 
+360  Y 1 12 B ARG 358 ? HH21 ? 
+361  Y 1 13 A ARG 4   ? HH21 ? 
+362  Y 1 13 A ARG 16  ? HH21 ? 
+363  Y 1 13 A LYS 19  ? HZ1  ? 
+364  Y 1 13 A LYS 19  ? HZ2  ? 
+365  Y 1 13 A LYS 19  ? HZ3  ? 
+366  Y 1 13 A LYS 35  ? HZ1  ? 
+367  Y 1 13 A LYS 35  ? HZ2  ? 
+368  Y 1 13 A LYS 35  ? HZ3  ? 
+369  Y 1 13 A LYS 46  ? HZ1  ? 
+370  Y 1 13 A LYS 46  ? HZ2  ? 
+371  Y 1 13 A LYS 46  ? HZ3  ? 
+372  Y 1 13 A ARG 48  ? HH21 ? 
+373  Y 1 13 A LYS 51  ? HZ1  ? 
+374  Y 1 13 A LYS 51  ? HZ2  ? 
+375  Y 1 13 A LYS 51  ? HZ3  ? 
+376  Y 1 13 B ARG 309 ? HH21 ? 
+377  Y 1 13 B LYS 313 ? HZ1  ? 
+378  Y 1 13 B LYS 313 ? HZ2  ? 
+379  Y 1 13 B LYS 313 ? HZ3  ? 
+380  Y 1 13 B LYS 326 ? HZ1  ? 
+381  Y 1 13 B LYS 326 ? HZ2  ? 
+382  Y 1 13 B LYS 326 ? HZ3  ? 
+383  Y 1 13 B ARG 336 ? HH21 ? 
+384  Y 1 13 B LYS 342 ? HZ1  ? 
+385  Y 1 13 B LYS 342 ? HZ2  ? 
+386  Y 1 13 B LYS 342 ? HZ3  ? 
+387  Y 1 13 B LYS 354 ? HZ1  ? 
+388  Y 1 13 B LYS 354 ? HZ2  ? 
+389  Y 1 13 B LYS 354 ? HZ3  ? 
+390  Y 1 13 B ARG 358 ? HH21 ? 
+391  Y 1 14 A ARG 4   ? HH21 ? 
+392  Y 1 14 A ARG 16  ? HH21 ? 
+393  Y 1 14 A LYS 19  ? HZ1  ? 
+394  Y 1 14 A LYS 19  ? HZ2  ? 
+395  Y 1 14 A LYS 19  ? HZ3  ? 
+396  Y 1 14 A LYS 35  ? HZ1  ? 
+397  Y 1 14 A LYS 35  ? HZ2  ? 
+398  Y 1 14 A LYS 35  ? HZ3  ? 
+399  Y 1 14 A LYS 46  ? HZ1  ? 
+400  Y 1 14 A LYS 46  ? HZ2  ? 
+401  Y 1 14 A LYS 46  ? HZ3  ? 
+402  Y 1 14 A ARG 48  ? HH21 ? 
+403  Y 1 14 A LYS 51  ? HZ1  ? 
+404  Y 1 14 A LYS 51  ? HZ2  ? 
+405  Y 1 14 A LYS 51  ? HZ3  ? 
+406  Y 1 14 B ARG 309 ? HH21 ? 
+407  Y 1 14 B LYS 313 ? HZ1  ? 
+408  Y 1 14 B LYS 313 ? HZ2  ? 
+409  Y 1 14 B LYS 313 ? HZ3  ? 
+410  Y 1 14 B LYS 326 ? HZ1  ? 
+411  Y 1 14 B LYS 326 ? HZ2  ? 
+412  Y 1 14 B LYS 326 ? HZ3  ? 
+413  Y 1 14 B ARG 336 ? HH21 ? 
+414  Y 1 14 B LYS 342 ? HZ1  ? 
+415  Y 1 14 B LYS 342 ? HZ2  ? 
+416  Y 1 14 B LYS 342 ? HZ3  ? 
+417  Y 1 14 B LYS 354 ? HZ1  ? 
+418  Y 1 14 B LYS 354 ? HZ2  ? 
+419  Y 1 14 B LYS 354 ? HZ3  ? 
+420  Y 1 14 B ARG 358 ? HH21 ? 
+421  Y 1 15 A ARG 4   ? HH21 ? 
+422  Y 1 15 A ARG 16  ? HH21 ? 
+423  Y 1 15 A LYS 19  ? HZ1  ? 
+424  Y 1 15 A LYS 19  ? HZ2  ? 
+425  Y 1 15 A LYS 19  ? HZ3  ? 
+426  Y 1 15 A LYS 35  ? HZ1  ? 
+427  Y 1 15 A LYS 35  ? HZ2  ? 
+428  Y 1 15 A LYS 35  ? HZ3  ? 
+429  Y 1 15 A LYS 46  ? HZ1  ? 
+430  Y 1 15 A LYS 46  ? HZ2  ? 
+431  Y 1 15 A LYS 46  ? HZ3  ? 
+432  Y 1 15 A ARG 48  ? HH21 ? 
+433  Y 1 15 A LYS 51  ? HZ1  ? 
+434  Y 1 15 A LYS 51  ? HZ2  ? 
+435  Y 1 15 A LYS 51  ? HZ3  ? 
+436  Y 1 15 B ARG 309 ? HH21 ? 
+437  Y 1 15 B LYS 313 ? HZ1  ? 
+438  Y 1 15 B LYS 313 ? HZ2  ? 
+439  Y 1 15 B LYS 313 ? HZ3  ? 
+440  Y 1 15 B LYS 326 ? HZ1  ? 
+441  Y 1 15 B LYS 326 ? HZ2  ? 
+442  Y 1 15 B LYS 326 ? HZ3  ? 
+443  Y 1 15 B ARG 336 ? HH21 ? 
+444  Y 1 15 B LYS 342 ? HZ1  ? 
+445  Y 1 15 B LYS 342 ? HZ2  ? 
+446  Y 1 15 B LYS 342 ? HZ3  ? 
+447  Y 1 15 B LYS 354 ? HZ1  ? 
+448  Y 1 15 B LYS 354 ? HZ2  ? 
+449  Y 1 15 B LYS 354 ? HZ3  ? 
+450  Y 1 15 B ARG 358 ? HH21 ? 
+451  Y 1 16 A ARG 4   ? HH21 ? 
+452  Y 1 16 A ARG 16  ? HH21 ? 
+453  Y 1 16 A LYS 19  ? HZ1  ? 
+454  Y 1 16 A LYS 19  ? HZ2  ? 
+455  Y 1 16 A LYS 19  ? HZ3  ? 
+456  Y 1 16 A LYS 35  ? HZ1  ? 
+457  Y 1 16 A LYS 35  ? HZ2  ? 
+458  Y 1 16 A LYS 35  ? HZ3  ? 
+459  Y 1 16 A LYS 46  ? HZ1  ? 
+460  Y 1 16 A LYS 46  ? HZ2  ? 
+461  Y 1 16 A LYS 46  ? HZ3  ? 
+462  Y 1 16 A ARG 48  ? HH21 ? 
+463  Y 1 16 A LYS 51  ? HZ1  ? 
+464  Y 1 16 A LYS 51  ? HZ2  ? 
+465  Y 1 16 A LYS 51  ? HZ3  ? 
+466  Y 1 16 B ARG 309 ? HH21 ? 
+467  Y 1 16 B LYS 313 ? HZ1  ? 
+468  Y 1 16 B LYS 313 ? HZ2  ? 
+469  Y 1 16 B LYS 313 ? HZ3  ? 
+470  Y 1 16 B LYS 326 ? HZ1  ? 
+471  Y 1 16 B LYS 326 ? HZ2  ? 
+472  Y 1 16 B LYS 326 ? HZ3  ? 
+473  Y 1 16 B ARG 336 ? HH21 ? 
+474  Y 1 16 B LYS 342 ? HZ1  ? 
+475  Y 1 16 B LYS 342 ? HZ2  ? 
+476  Y 1 16 B LYS 342 ? HZ3  ? 
+477  Y 1 16 B LYS 354 ? HZ1  ? 
+478  Y 1 16 B LYS 354 ? HZ2  ? 
+479  Y 1 16 B LYS 354 ? HZ3  ? 
+480  Y 1 16 B ARG 358 ? HH21 ? 
+481  Y 1 17 A ARG 4   ? HH21 ? 
+482  Y 1 17 A ARG 16  ? HH21 ? 
+483  Y 1 17 A LYS 19  ? HZ1  ? 
+484  Y 1 17 A LYS 19  ? HZ2  ? 
+485  Y 1 17 A LYS 19  ? HZ3  ? 
+486  Y 1 17 A LYS 35  ? HZ1  ? 
+487  Y 1 17 A LYS 35  ? HZ2  ? 
+488  Y 1 17 A LYS 35  ? HZ3  ? 
+489  Y 1 17 A LYS 46  ? HZ1  ? 
+490  Y 1 17 A LYS 46  ? HZ2  ? 
+491  Y 1 17 A LYS 46  ? HZ3  ? 
+492  Y 1 17 A ARG 48  ? HH21 ? 
+493  Y 1 17 A LYS 51  ? HZ1  ? 
+494  Y 1 17 A LYS 51  ? HZ2  ? 
+495  Y 1 17 A LYS 51  ? HZ3  ? 
+496  Y 1 17 B ARG 309 ? HH21 ? 
+497  Y 1 17 B LYS 313 ? HZ1  ? 
+498  Y 1 17 B LYS 313 ? HZ2  ? 
+499  Y 1 17 B LYS 313 ? HZ3  ? 
+500  Y 1 17 B LYS 326 ? HZ1  ? 
+501  Y 1 17 B LYS 326 ? HZ2  ? 
+502  Y 1 17 B LYS 326 ? HZ3  ? 
+503  Y 1 17 B ARG 336 ? HH21 ? 
+504  Y 1 17 B LYS 342 ? HZ1  ? 
+505  Y 1 17 B LYS 342 ? HZ2  ? 
+506  Y 1 17 B LYS 342 ? HZ3  ? 
+507  Y 1 17 B LYS 354 ? HZ1  ? 
+508  Y 1 17 B LYS 354 ? HZ2  ? 
+509  Y 1 17 B LYS 354 ? HZ3  ? 
+510  Y 1 17 B ARG 358 ? HH21 ? 
+511  Y 1 18 A ARG 4   ? HH21 ? 
+512  Y 1 18 A ARG 16  ? HH21 ? 
+513  Y 1 18 A LYS 19  ? HZ1  ? 
+514  Y 1 18 A LYS 19  ? HZ2  ? 
+515  Y 1 18 A LYS 19  ? HZ3  ? 
+516  Y 1 18 A LYS 35  ? HZ1  ? 
+517  Y 1 18 A LYS 35  ? HZ2  ? 
+518  Y 1 18 A LYS 35  ? HZ3  ? 
+519  Y 1 18 A LYS 46  ? HZ1  ? 
+520  Y 1 18 A LYS 46  ? HZ2  ? 
+521  Y 1 18 A LYS 46  ? HZ3  ? 
+522  Y 1 18 A ARG 48  ? HH21 ? 
+523  Y 1 18 A LYS 51  ? HZ1  ? 
+524  Y 1 18 A LYS 51  ? HZ2  ? 
+525  Y 1 18 A LYS 51  ? HZ3  ? 
+526  Y 1 18 B ARG 309 ? HH21 ? 
+527  Y 1 18 B LYS 313 ? HZ1  ? 
+528  Y 1 18 B LYS 313 ? HZ2  ? 
+529  Y 1 18 B LYS 313 ? HZ3  ? 
+530  Y 1 18 B LYS 326 ? HZ1  ? 
+531  Y 1 18 B LYS 326 ? HZ2  ? 
+532  Y 1 18 B LYS 326 ? HZ3  ? 
+533  Y 1 18 B ARG 336 ? HH21 ? 
+534  Y 1 18 B LYS 342 ? HZ1  ? 
+535  Y 1 18 B LYS 342 ? HZ2  ? 
+536  Y 1 18 B LYS 342 ? HZ3  ? 
+537  Y 1 18 B LYS 354 ? HZ1  ? 
+538  Y 1 18 B LYS 354 ? HZ2  ? 
+539  Y 1 18 B LYS 354 ? HZ3  ? 
+540  Y 1 18 B ARG 358 ? HH21 ? 
+541  Y 1 19 A ARG 4   ? HH21 ? 
+542  Y 1 19 A ARG 16  ? HH21 ? 
+543  Y 1 19 A LYS 19  ? HZ1  ? 
+544  Y 1 19 A LYS 19  ? HZ2  ? 
+545  Y 1 19 A LYS 19  ? HZ3  ? 
+546  Y 1 19 A LYS 35  ? HZ1  ? 
+547  Y 1 19 A LYS 35  ? HZ2  ? 
+548  Y 1 19 A LYS 35  ? HZ3  ? 
+549  Y 1 19 A LYS 46  ? HZ1  ? 
+550  Y 1 19 A LYS 46  ? HZ2  ? 
+551  Y 1 19 A LYS 46  ? HZ3  ? 
+552  Y 1 19 A ARG 48  ? HH21 ? 
+553  Y 1 19 A LYS 51  ? HZ1  ? 
+554  Y 1 19 A LYS 51  ? HZ2  ? 
+555  Y 1 19 A LYS 51  ? HZ3  ? 
+556  Y 1 19 B ARG 309 ? HH21 ? 
+557  Y 1 19 B LYS 313 ? HZ1  ? 
+558  Y 1 19 B LYS 313 ? HZ2  ? 
+559  Y 1 19 B LYS 313 ? HZ3  ? 
+560  Y 1 19 B LYS 326 ? HZ1  ? 
+561  Y 1 19 B LYS 326 ? HZ2  ? 
+562  Y 1 19 B LYS 326 ? HZ3  ? 
+563  Y 1 19 B ARG 336 ? HH21 ? 
+564  Y 1 19 B LYS 342 ? HZ1  ? 
+565  Y 1 19 B LYS 342 ? HZ2  ? 
+566  Y 1 19 B LYS 342 ? HZ3  ? 
+567  Y 1 19 B LYS 354 ? HZ1  ? 
+568  Y 1 19 B LYS 354 ? HZ2  ? 
+569  Y 1 19 B LYS 354 ? HZ3  ? 
+570  Y 1 19 B ARG 358 ? HH21 ? 
+571  Y 1 20 A ARG 4   ? HH21 ? 
+572  Y 1 20 A ARG 16  ? HH21 ? 
+573  Y 1 20 A LYS 19  ? HZ1  ? 
+574  Y 1 20 A LYS 19  ? HZ2  ? 
+575  Y 1 20 A LYS 19  ? HZ3  ? 
+576  Y 1 20 A LYS 35  ? HZ1  ? 
+577  Y 1 20 A LYS 35  ? HZ2  ? 
+578  Y 1 20 A LYS 35  ? HZ3  ? 
+579  Y 1 20 A LYS 46  ? HZ1  ? 
+580  Y 1 20 A LYS 46  ? HZ2  ? 
+581  Y 1 20 A LYS 46  ? HZ3  ? 
+582  Y 1 20 A ARG 48  ? HH21 ? 
+583  Y 1 20 A LYS 51  ? HZ1  ? 
+584  Y 1 20 A LYS 51  ? HZ2  ? 
+585  Y 1 20 A LYS 51  ? HZ3  ? 
+586  Y 1 20 B ARG 309 ? HH21 ? 
+587  Y 1 20 B LYS 313 ? HZ1  ? 
+588  Y 1 20 B LYS 313 ? HZ2  ? 
+589  Y 1 20 B LYS 313 ? HZ3  ? 
+590  Y 1 20 B LYS 326 ? HZ1  ? 
+591  Y 1 20 B LYS 326 ? HZ2  ? 
+592  Y 1 20 B LYS 326 ? HZ3  ? 
+593  Y 1 20 B ARG 336 ? HH21 ? 
+594  Y 1 20 B LYS 342 ? HZ1  ? 
+595  Y 1 20 B LYS 342 ? HZ2  ? 
+596  Y 1 20 B LYS 342 ? HZ3  ? 
+597  Y 1 20 B LYS 354 ? HZ1  ? 
+598  Y 1 20 B LYS 354 ? HZ2  ? 
+599  Y 1 20 B LYS 354 ? HZ3  ? 
+600  Y 1 20 B ARG 358 ? HH21 ? 
+601  Y 1 21 A ARG 4   ? HH21 ? 
+602  Y 1 21 A ARG 16  ? HH21 ? 
+603  Y 1 21 A LYS 19  ? HZ1  ? 
+604  Y 1 21 A LYS 19  ? HZ2  ? 
+605  Y 1 21 A LYS 19  ? HZ3  ? 
+606  Y 1 21 A LYS 35  ? HZ1  ? 
+607  Y 1 21 A LYS 35  ? HZ2  ? 
+608  Y 1 21 A LYS 35  ? HZ3  ? 
+609  Y 1 21 A LYS 46  ? HZ1  ? 
+610  Y 1 21 A LYS 46  ? HZ2  ? 
+611  Y 1 21 A LYS 46  ? HZ3  ? 
+612  Y 1 21 A ARG 48  ? HH21 ? 
+613  Y 1 21 A LYS 51  ? HZ1  ? 
+614  Y 1 21 A LYS 51  ? HZ2  ? 
+615  Y 1 21 A LYS 51  ? HZ3  ? 
+616  Y 1 21 B ARG 309 ? HH21 ? 
+617  Y 1 21 B LYS 313 ? HZ1  ? 
+618  Y 1 21 B LYS 313 ? HZ2  ? 
+619  Y 1 21 B LYS 313 ? HZ3  ? 
+620  Y 1 21 B LYS 326 ? HZ1  ? 
+621  Y 1 21 B LYS 326 ? HZ2  ? 
+622  Y 1 21 B LYS 326 ? HZ3  ? 
+623  Y 1 21 B ARG 336 ? HH21 ? 
+624  Y 1 21 B LYS 342 ? HZ1  ? 
+625  Y 1 21 B LYS 342 ? HZ2  ? 
+626  Y 1 21 B LYS 342 ? HZ3  ? 
+627  Y 1 21 B LYS 354 ? HZ1  ? 
+628  Y 1 21 B LYS 354 ? HZ2  ? 
+629  Y 1 21 B LYS 354 ? HZ3  ? 
+630  Y 1 21 B ARG 358 ? HH21 ? 
+631  Y 1 22 A ARG 4   ? HH21 ? 
+632  Y 1 22 A ARG 16  ? HH21 ? 
+633  Y 1 22 A LYS 19  ? HZ1  ? 
+634  Y 1 22 A LYS 19  ? HZ2  ? 
+635  Y 1 22 A LYS 19  ? HZ3  ? 
+636  Y 1 22 A LYS 35  ? HZ1  ? 
+637  Y 1 22 A LYS 35  ? HZ2  ? 
+638  Y 1 22 A LYS 35  ? HZ3  ? 
+639  Y 1 22 A LYS 46  ? HZ1  ? 
+640  Y 1 22 A LYS 46  ? HZ2  ? 
+641  Y 1 22 A LYS 46  ? HZ3  ? 
+642  Y 1 22 A ARG 48  ? HH21 ? 
+643  Y 1 22 A LYS 51  ? HZ1  ? 
+644  Y 1 22 A LYS 51  ? HZ2  ? 
+645  Y 1 22 A LYS 51  ? HZ3  ? 
+646  Y 1 22 B ARG 309 ? HH21 ? 
+647  Y 1 22 B LYS 313 ? HZ1  ? 
+648  Y 1 22 B LYS 313 ? HZ2  ? 
+649  Y 1 22 B LYS 313 ? HZ3  ? 
+650  Y 1 22 B LYS 326 ? HZ1  ? 
+651  Y 1 22 B LYS 326 ? HZ2  ? 
+652  Y 1 22 B LYS 326 ? HZ3  ? 
+653  Y 1 22 B ARG 336 ? HH21 ? 
+654  Y 1 22 B LYS 342 ? HZ1  ? 
+655  Y 1 22 B LYS 342 ? HZ2  ? 
+656  Y 1 22 B LYS 342 ? HZ3  ? 
+657  Y 1 22 B LYS 354 ? HZ1  ? 
+658  Y 1 22 B LYS 354 ? HZ2  ? 
+659  Y 1 22 B LYS 354 ? HZ3  ? 
+660  Y 1 22 B ARG 358 ? HH21 ? 
+661  Y 1 23 A ARG 4   ? HH21 ? 
+662  Y 1 23 A ARG 16  ? HH21 ? 
+663  Y 1 23 A LYS 19  ? HZ1  ? 
+664  Y 1 23 A LYS 19  ? HZ2  ? 
+665  Y 1 23 A LYS 19  ? HZ3  ? 
+666  Y 1 23 A LYS 35  ? HZ1  ? 
+667  Y 1 23 A LYS 35  ? HZ2  ? 
+668  Y 1 23 A LYS 35  ? HZ3  ? 
+669  Y 1 23 A LYS 46  ? HZ1  ? 
+670  Y 1 23 A LYS 46  ? HZ2  ? 
+671  Y 1 23 A LYS 46  ? HZ3  ? 
+672  Y 1 23 A ARG 48  ? HH21 ? 
+673  Y 1 23 A LYS 51  ? HZ1  ? 
+674  Y 1 23 A LYS 51  ? HZ2  ? 
+675  Y 1 23 A LYS 51  ? HZ3  ? 
+676  Y 1 23 B ARG 309 ? HH21 ? 
+677  Y 1 23 B LYS 313 ? HZ1  ? 
+678  Y 1 23 B LYS 313 ? HZ2  ? 
+679  Y 1 23 B LYS 313 ? HZ3  ? 
+680  Y 1 23 B LYS 326 ? HZ1  ? 
+681  Y 1 23 B LYS 326 ? HZ2  ? 
+682  Y 1 23 B LYS 326 ? HZ3  ? 
+683  Y 1 23 B ARG 336 ? HH21 ? 
+684  Y 1 23 B LYS 342 ? HZ1  ? 
+685  Y 1 23 B LYS 342 ? HZ2  ? 
+686  Y 1 23 B LYS 342 ? HZ3  ? 
+687  Y 1 23 B LYS 354 ? HZ1  ? 
+688  Y 1 23 B LYS 354 ? HZ2  ? 
+689  Y 1 23 B LYS 354 ? HZ3  ? 
+690  Y 1 23 B ARG 358 ? HH21 ? 
+691  Y 1 24 A ARG 4   ? HH21 ? 
+692  Y 1 24 A ARG 16  ? HH21 ? 
+693  Y 1 24 A LYS 19  ? HZ1  ? 
+694  Y 1 24 A LYS 19  ? HZ2  ? 
+695  Y 1 24 A LYS 19  ? HZ3  ? 
+696  Y 1 24 A LYS 35  ? HZ1  ? 
+697  Y 1 24 A LYS 35  ? HZ2  ? 
+698  Y 1 24 A LYS 35  ? HZ3  ? 
+699  Y 1 24 A LYS 46  ? HZ1  ? 
+700  Y 1 24 A LYS 46  ? HZ2  ? 
+701  Y 1 24 A LYS 46  ? HZ3  ? 
+702  Y 1 24 A ARG 48  ? HH21 ? 
+703  Y 1 24 A LYS 51  ? HZ1  ? 
+704  Y 1 24 A LYS 51  ? HZ2  ? 
+705  Y 1 24 A LYS 51  ? HZ3  ? 
+706  Y 1 24 B ARG 309 ? HH21 ? 
+707  Y 1 24 B LYS 313 ? HZ1  ? 
+708  Y 1 24 B LYS 313 ? HZ2  ? 
+709  Y 1 24 B LYS 313 ? HZ3  ? 
+710  Y 1 24 B LYS 326 ? HZ1  ? 
+711  Y 1 24 B LYS 326 ? HZ2  ? 
+712  Y 1 24 B LYS 326 ? HZ3  ? 
+713  Y 1 24 B ARG 336 ? HH21 ? 
+714  Y 1 24 B LYS 342 ? HZ1  ? 
+715  Y 1 24 B LYS 342 ? HZ2  ? 
+716  Y 1 24 B LYS 342 ? HZ3  ? 
+717  Y 1 24 B LYS 354 ? HZ1  ? 
+718  Y 1 24 B LYS 354 ? HZ2  ? 
+719  Y 1 24 B LYS 354 ? HZ3  ? 
+720  Y 1 24 B ARG 358 ? HH21 ? 
+721  Y 1 25 A ARG 4   ? HH21 ? 
+722  Y 1 25 A ARG 16  ? HH21 ? 
+723  Y 1 25 A LYS 19  ? HZ1  ? 
+724  Y 1 25 A LYS 19  ? HZ2  ? 
+725  Y 1 25 A LYS 19  ? HZ3  ? 
+726  Y 1 25 A LYS 35  ? HZ1  ? 
+727  Y 1 25 A LYS 35  ? HZ2  ? 
+728  Y 1 25 A LYS 35  ? HZ3  ? 
+729  Y 1 25 A LYS 46  ? HZ1  ? 
+730  Y 1 25 A LYS 46  ? HZ2  ? 
+731  Y 1 25 A LYS 46  ? HZ3  ? 
+732  Y 1 25 A ARG 48  ? HH21 ? 
+733  Y 1 25 A LYS 51  ? HZ1  ? 
+734  Y 1 25 A LYS 51  ? HZ2  ? 
+735  Y 1 25 A LYS 51  ? HZ3  ? 
+736  Y 1 25 B ARG 309 ? HH21 ? 
+737  Y 1 25 B LYS 313 ? HZ1  ? 
+738  Y 1 25 B LYS 313 ? HZ2  ? 
+739  Y 1 25 B LYS 313 ? HZ3  ? 
+740  Y 1 25 B LYS 326 ? HZ1  ? 
+741  Y 1 25 B LYS 326 ? HZ2  ? 
+742  Y 1 25 B LYS 326 ? HZ3  ? 
+743  Y 1 25 B ARG 336 ? HH21 ? 
+744  Y 1 25 B LYS 342 ? HZ1  ? 
+745  Y 1 25 B LYS 342 ? HZ2  ? 
+746  Y 1 25 B LYS 342 ? HZ3  ? 
+747  Y 1 25 B LYS 354 ? HZ1  ? 
+748  Y 1 25 B LYS 354 ? HZ2  ? 
+749  Y 1 25 B LYS 354 ? HZ3  ? 
+750  Y 1 25 B ARG 358 ? HH21 ? 
+751  Y 1 26 A ARG 4   ? HH21 ? 
+752  Y 1 26 A ARG 16  ? HH21 ? 
+753  Y 1 26 A LYS 19  ? HZ1  ? 
+754  Y 1 26 A LYS 19  ? HZ2  ? 
+755  Y 1 26 A LYS 19  ? HZ3  ? 
+756  Y 1 26 A LYS 35  ? HZ1  ? 
+757  Y 1 26 A LYS 35  ? HZ2  ? 
+758  Y 1 26 A LYS 35  ? HZ3  ? 
+759  Y 1 26 A LYS 46  ? HZ1  ? 
+760  Y 1 26 A LYS 46  ? HZ2  ? 
+761  Y 1 26 A LYS 46  ? HZ3  ? 
+762  Y 1 26 A ARG 48  ? HH21 ? 
+763  Y 1 26 A LYS 51  ? HZ1  ? 
+764  Y 1 26 A LYS 51  ? HZ2  ? 
+765  Y 1 26 A LYS 51  ? HZ3  ? 
+766  Y 1 26 B ARG 309 ? HH21 ? 
+767  Y 1 26 B LYS 313 ? HZ1  ? 
+768  Y 1 26 B LYS 313 ? HZ2  ? 
+769  Y 1 26 B LYS 313 ? HZ3  ? 
+770  Y 1 26 B LYS 326 ? HZ1  ? 
+771  Y 1 26 B LYS 326 ? HZ2  ? 
+772  Y 1 26 B LYS 326 ? HZ3  ? 
+773  Y 1 26 B ARG 336 ? HH21 ? 
+774  Y 1 26 B LYS 342 ? HZ1  ? 
+775  Y 1 26 B LYS 342 ? HZ2  ? 
+776  Y 1 26 B LYS 342 ? HZ3  ? 
+777  Y 1 26 B LYS 354 ? HZ1  ? 
+778  Y 1 26 B LYS 354 ? HZ2  ? 
+779  Y 1 26 B LYS 354 ? HZ3  ? 
+780  Y 1 26 B ARG 358 ? HH21 ? 
+781  Y 1 27 A ARG 4   ? HH21 ? 
+782  Y 1 27 A ARG 16  ? HH21 ? 
+783  Y 1 27 A LYS 19  ? HZ1  ? 
+784  Y 1 27 A LYS 19  ? HZ2  ? 
+785  Y 1 27 A LYS 19  ? HZ3  ? 
+786  Y 1 27 A LYS 35  ? HZ1  ? 
+787  Y 1 27 A LYS 35  ? HZ2  ? 
+788  Y 1 27 A LYS 35  ? HZ3  ? 
+789  Y 1 27 A LYS 46  ? HZ1  ? 
+790  Y 1 27 A LYS 46  ? HZ2  ? 
+791  Y 1 27 A LYS 46  ? HZ3  ? 
+792  Y 1 27 A ARG 48  ? HH21 ? 
+793  Y 1 27 A LYS 51  ? HZ1  ? 
+794  Y 1 27 A LYS 51  ? HZ2  ? 
+795  Y 1 27 A LYS 51  ? HZ3  ? 
+796  Y 1 27 B ARG 309 ? HH21 ? 
+797  Y 1 27 B LYS 313 ? HZ1  ? 
+798  Y 1 27 B LYS 313 ? HZ2  ? 
+799  Y 1 27 B LYS 313 ? HZ3  ? 
+800  Y 1 27 B LYS 326 ? HZ1  ? 
+801  Y 1 27 B LYS 326 ? HZ2  ? 
+802  Y 1 27 B LYS 326 ? HZ3  ? 
+803  Y 1 27 B ARG 336 ? HH21 ? 
+804  Y 1 27 B LYS 342 ? HZ1  ? 
+805  Y 1 27 B LYS 342 ? HZ2  ? 
+806  Y 1 27 B LYS 342 ? HZ3  ? 
+807  Y 1 27 B LYS 354 ? HZ1  ? 
+808  Y 1 27 B LYS 354 ? HZ2  ? 
+809  Y 1 27 B LYS 354 ? HZ3  ? 
+810  Y 1 27 B ARG 358 ? HH21 ? 
+811  Y 1 28 A ARG 4   ? HH21 ? 
+812  Y 1 28 A ARG 16  ? HH21 ? 
+813  Y 1 28 A LYS 19  ? HZ1  ? 
+814  Y 1 28 A LYS 19  ? HZ2  ? 
+815  Y 1 28 A LYS 19  ? HZ3  ? 
+816  Y 1 28 A LYS 35  ? HZ1  ? 
+817  Y 1 28 A LYS 35  ? HZ2  ? 
+818  Y 1 28 A LYS 35  ? HZ3  ? 
+819  Y 1 28 A LYS 46  ? HZ1  ? 
+820  Y 1 28 A LYS 46  ? HZ2  ? 
+821  Y 1 28 A LYS 46  ? HZ3  ? 
+822  Y 1 28 A ARG 48  ? HH21 ? 
+823  Y 1 28 A LYS 51  ? HZ1  ? 
+824  Y 1 28 A LYS 51  ? HZ2  ? 
+825  Y 1 28 A LYS 51  ? HZ3  ? 
+826  Y 1 28 B ARG 309 ? HH21 ? 
+827  Y 1 28 B LYS 313 ? HZ1  ? 
+828  Y 1 28 B LYS 313 ? HZ2  ? 
+829  Y 1 28 B LYS 313 ? HZ3  ? 
+830  Y 1 28 B LYS 326 ? HZ1  ? 
+831  Y 1 28 B LYS 326 ? HZ2  ? 
+832  Y 1 28 B LYS 326 ? HZ3  ? 
+833  Y 1 28 B ARG 336 ? HH21 ? 
+834  Y 1 28 B LYS 342 ? HZ1  ? 
+835  Y 1 28 B LYS 342 ? HZ2  ? 
+836  Y 1 28 B LYS 342 ? HZ3  ? 
+837  Y 1 28 B LYS 354 ? HZ1  ? 
+838  Y 1 28 B LYS 354 ? HZ2  ? 
+839  Y 1 28 B LYS 354 ? HZ3  ? 
+840  Y 1 28 B ARG 358 ? HH21 ? 
+841  Y 1 29 A ARG 4   ? HH21 ? 
+842  Y 1 29 A ARG 16  ? HH21 ? 
+843  Y 1 29 A LYS 19  ? HZ1  ? 
+844  Y 1 29 A LYS 19  ? HZ2  ? 
+845  Y 1 29 A LYS 19  ? HZ3  ? 
+846  Y 1 29 A LYS 35  ? HZ1  ? 
+847  Y 1 29 A LYS 35  ? HZ2  ? 
+848  Y 1 29 A LYS 35  ? HZ3  ? 
+849  Y 1 29 A LYS 46  ? HZ1  ? 
+850  Y 1 29 A LYS 46  ? HZ2  ? 
+851  Y 1 29 A LYS 46  ? HZ3  ? 
+852  Y 1 29 A ARG 48  ? HH21 ? 
+853  Y 1 29 A LYS 51  ? HZ1  ? 
+854  Y 1 29 A LYS 51  ? HZ2  ? 
+855  Y 1 29 A LYS 51  ? HZ3  ? 
+856  Y 1 29 B ARG 309 ? HH21 ? 
+857  Y 1 29 B LYS 313 ? HZ1  ? 
+858  Y 1 29 B LYS 313 ? HZ2  ? 
+859  Y 1 29 B LYS 313 ? HZ3  ? 
+860  Y 1 29 B LYS 326 ? HZ1  ? 
+861  Y 1 29 B LYS 326 ? HZ2  ? 
+862  Y 1 29 B LYS 326 ? HZ3  ? 
+863  Y 1 29 B ARG 336 ? HH21 ? 
+864  Y 1 29 B LYS 342 ? HZ1  ? 
+865  Y 1 29 B LYS 342 ? HZ2  ? 
+866  Y 1 29 B LYS 342 ? HZ3  ? 
+867  Y 1 29 B LYS 354 ? HZ1  ? 
+868  Y 1 29 B LYS 354 ? HZ2  ? 
+869  Y 1 29 B LYS 354 ? HZ3  ? 
+870  Y 1 29 B ARG 358 ? HH21 ? 
+871  Y 1 30 A ARG 4   ? HH21 ? 
+872  Y 1 30 A ARG 16  ? HH21 ? 
+873  Y 1 30 A LYS 19  ? HZ1  ? 
+874  Y 1 30 A LYS 19  ? HZ2  ? 
+875  Y 1 30 A LYS 19  ? HZ3  ? 
+876  Y 1 30 A LYS 35  ? HZ1  ? 
+877  Y 1 30 A LYS 35  ? HZ2  ? 
+878  Y 1 30 A LYS 35  ? HZ3  ? 
+879  Y 1 30 A LYS 46  ? HZ1  ? 
+880  Y 1 30 A LYS 46  ? HZ2  ? 
+881  Y 1 30 A LYS 46  ? HZ3  ? 
+882  Y 1 30 A ARG 48  ? HH21 ? 
+883  Y 1 30 A LYS 51  ? HZ1  ? 
+884  Y 1 30 A LYS 51  ? HZ2  ? 
+885  Y 1 30 A LYS 51  ? HZ3  ? 
+886  Y 1 30 B ARG 309 ? HH21 ? 
+887  Y 1 30 B LYS 313 ? HZ1  ? 
+888  Y 1 30 B LYS 313 ? HZ2  ? 
+889  Y 1 30 B LYS 313 ? HZ3  ? 
+890  Y 1 30 B LYS 326 ? HZ1  ? 
+891  Y 1 30 B LYS 326 ? HZ2  ? 
+892  Y 1 30 B LYS 326 ? HZ3  ? 
+893  Y 1 30 B ARG 336 ? HH21 ? 
+894  Y 1 30 B LYS 342 ? HZ1  ? 
+895  Y 1 30 B LYS 342 ? HZ2  ? 
+896  Y 1 30 B LYS 342 ? HZ3  ? 
+897  Y 1 30 B LYS 354 ? HZ1  ? 
+898  Y 1 30 B LYS 354 ? HZ2  ? 
+899  Y 1 30 B LYS 354 ? HZ3  ? 
+900  Y 1 30 B ARG 358 ? HH21 ? 
+901  Y 1 31 A ARG 4   ? HH21 ? 
+902  Y 1 31 A ARG 16  ? HH21 ? 
+903  Y 1 31 A LYS 19  ? HZ1  ? 
+904  Y 1 31 A LYS 19  ? HZ2  ? 
+905  Y 1 31 A LYS 19  ? HZ3  ? 
+906  Y 1 31 A LYS 35  ? HZ1  ? 
+907  Y 1 31 A LYS 35  ? HZ2  ? 
+908  Y 1 31 A LYS 35  ? HZ3  ? 
+909  Y 1 31 A LYS 46  ? HZ1  ? 
+910  Y 1 31 A LYS 46  ? HZ2  ? 
+911  Y 1 31 A LYS 46  ? HZ3  ? 
+912  Y 1 31 A ARG 48  ? HH21 ? 
+913  Y 1 31 A LYS 51  ? HZ1  ? 
+914  Y 1 31 A LYS 51  ? HZ2  ? 
+915  Y 1 31 A LYS 51  ? HZ3  ? 
+916  Y 1 31 B ARG 309 ? HH21 ? 
+917  Y 1 31 B LYS 313 ? HZ1  ? 
+918  Y 1 31 B LYS 313 ? HZ2  ? 
+919  Y 1 31 B LYS 313 ? HZ3  ? 
+920  Y 1 31 B LYS 326 ? HZ1  ? 
+921  Y 1 31 B LYS 326 ? HZ2  ? 
+922  Y 1 31 B LYS 326 ? HZ3  ? 
+923  Y 1 31 B ARG 336 ? HH21 ? 
+924  Y 1 31 B LYS 342 ? HZ1  ? 
+925  Y 1 31 B LYS 342 ? HZ2  ? 
+926  Y 1 31 B LYS 342 ? HZ3  ? 
+927  Y 1 31 B LYS 354 ? HZ1  ? 
+928  Y 1 31 B LYS 354 ? HZ2  ? 
+929  Y 1 31 B LYS 354 ? HZ3  ? 
+930  Y 1 31 B ARG 358 ? HH21 ? 
+931  Y 1 32 A ARG 4   ? HH21 ? 
+932  Y 1 32 A ARG 16  ? HH21 ? 
+933  Y 1 32 A LYS 19  ? HZ1  ? 
+934  Y 1 32 A LYS 19  ? HZ2  ? 
+935  Y 1 32 A LYS 19  ? HZ3  ? 
+936  Y 1 32 A LYS 35  ? HZ1  ? 
+937  Y 1 32 A LYS 35  ? HZ2  ? 
+938  Y 1 32 A LYS 35  ? HZ3  ? 
+939  Y 1 32 A LYS 46  ? HZ1  ? 
+940  Y 1 32 A LYS 46  ? HZ2  ? 
+941  Y 1 32 A LYS 46  ? HZ3  ? 
+942  Y 1 32 A ARG 48  ? HH21 ? 
+943  Y 1 32 A LYS 51  ? HZ1  ? 
+944  Y 1 32 A LYS 51  ? HZ2  ? 
+945  Y 1 32 A LYS 51  ? HZ3  ? 
+946  Y 1 32 B ARG 309 ? HH21 ? 
+947  Y 1 32 B LYS 313 ? HZ1  ? 
+948  Y 1 32 B LYS 313 ? HZ2  ? 
+949  Y 1 32 B LYS 313 ? HZ3  ? 
+950  Y 1 32 B LYS 326 ? HZ1  ? 
+951  Y 1 32 B LYS 326 ? HZ2  ? 
+952  Y 1 32 B LYS 326 ? HZ3  ? 
+953  Y 1 32 B ARG 336 ? HH21 ? 
+954  Y 1 32 B LYS 342 ? HZ1  ? 
+955  Y 1 32 B LYS 342 ? HZ2  ? 
+956  Y 1 32 B LYS 342 ? HZ3  ? 
+957  Y 1 32 B LYS 354 ? HZ1  ? 
+958  Y 1 32 B LYS 354 ? HZ2  ? 
+959  Y 1 32 B LYS 354 ? HZ3  ? 
+960  Y 1 32 B ARG 358 ? HH21 ? 
+961  Y 1 33 A ARG 4   ? HH21 ? 
+962  Y 1 33 A ARG 16  ? HH21 ? 
+963  Y 1 33 A LYS 19  ? HZ1  ? 
+964  Y 1 33 A LYS 19  ? HZ2  ? 
+965  Y 1 33 A LYS 19  ? HZ3  ? 
+966  Y 1 33 A LYS 35  ? HZ1  ? 
+967  Y 1 33 A LYS 35  ? HZ2  ? 
+968  Y 1 33 A LYS 35  ? HZ3  ? 
+969  Y 1 33 A LYS 46  ? HZ1  ? 
+970  Y 1 33 A LYS 46  ? HZ2  ? 
+971  Y 1 33 A LYS 46  ? HZ3  ? 
+972  Y 1 33 A ARG 48  ? HH21 ? 
+973  Y 1 33 A LYS 51  ? HZ1  ? 
+974  Y 1 33 A LYS 51  ? HZ2  ? 
+975  Y 1 33 A LYS 51  ? HZ3  ? 
+976  Y 1 33 B ARG 309 ? HH21 ? 
+977  Y 1 33 B LYS 313 ? HZ1  ? 
+978  Y 1 33 B LYS 313 ? HZ2  ? 
+979  Y 1 33 B LYS 313 ? HZ3  ? 
+980  Y 1 33 B LYS 326 ? HZ1  ? 
+981  Y 1 33 B LYS 326 ? HZ2  ? 
+982  Y 1 33 B LYS 326 ? HZ3  ? 
+983  Y 1 33 B ARG 336 ? HH21 ? 
+984  Y 1 33 B LYS 342 ? HZ1  ? 
+985  Y 1 33 B LYS 342 ? HZ2  ? 
+986  Y 1 33 B LYS 342 ? HZ3  ? 
+987  Y 1 33 B LYS 354 ? HZ1  ? 
+988  Y 1 33 B LYS 354 ? HZ2  ? 
+989  Y 1 33 B LYS 354 ? HZ3  ? 
+990  Y 1 33 B ARG 358 ? HH21 ? 
+991  Y 1 34 A ARG 4   ? HH21 ? 
+992  Y 1 34 A ARG 16  ? HH21 ? 
+993  Y 1 34 A LYS 19  ? HZ1  ? 
+994  Y 1 34 A LYS 19  ? HZ2  ? 
+995  Y 1 34 A LYS 19  ? HZ3  ? 
+996  Y 1 34 A LYS 35  ? HZ1  ? 
+997  Y 1 34 A LYS 35  ? HZ2  ? 
+998  Y 1 34 A LYS 35  ? HZ3  ? 
+999  Y 1 34 A LYS 46  ? HZ1  ? 
+1000 Y 1 34 A LYS 46  ? HZ2  ? 
+1001 Y 1 34 A LYS 46  ? HZ3  ? 
+1002 Y 1 34 A ARG 48  ? HH21 ? 
+1003 Y 1 34 A LYS 51  ? HZ1  ? 
+1004 Y 1 34 A LYS 51  ? HZ2  ? 
+1005 Y 1 34 A LYS 51  ? HZ3  ? 
+1006 Y 1 34 B ARG 309 ? HH21 ? 
+1007 Y 1 34 B LYS 313 ? HZ1  ? 
+1008 Y 1 34 B LYS 313 ? HZ2  ? 
+1009 Y 1 34 B LYS 313 ? HZ3  ? 
+1010 Y 1 34 B LYS 326 ? HZ1  ? 
+1011 Y 1 34 B LYS 326 ? HZ2  ? 
+1012 Y 1 34 B LYS 326 ? HZ3  ? 
+1013 Y 1 34 B ARG 336 ? HH21 ? 
+1014 Y 1 34 B LYS 342 ? HZ1  ? 
+1015 Y 1 34 B LYS 342 ? HZ2  ? 
+1016 Y 1 34 B LYS 342 ? HZ3  ? 
+1017 Y 1 34 B LYS 354 ? HZ1  ? 
+1018 Y 1 34 B LYS 354 ? HZ2  ? 
+1019 Y 1 34 B LYS 354 ? HZ3  ? 
+1020 Y 1 34 B ARG 358 ? HH21 ? 
+1021 Y 1 35 A ARG 4   ? HH21 ? 
+1022 Y 1 35 A ARG 16  ? HH21 ? 
+1023 Y 1 35 A LYS 19  ? HZ1  ? 
+1024 Y 1 35 A LYS 19  ? HZ2  ? 
+1025 Y 1 35 A LYS 19  ? HZ3  ? 
+1026 Y 1 35 A LYS 35  ? HZ1  ? 
+1027 Y 1 35 A LYS 35  ? HZ2  ? 
+1028 Y 1 35 A LYS 35  ? HZ3  ? 
+1029 Y 1 35 A LYS 46  ? HZ1  ? 
+1030 Y 1 35 A LYS 46  ? HZ2  ? 
+1031 Y 1 35 A LYS 46  ? HZ3  ? 
+1032 Y 1 35 A ARG 48  ? HH21 ? 
+1033 Y 1 35 A LYS 51  ? HZ1  ? 
+1034 Y 1 35 A LYS 51  ? HZ2  ? 
+1035 Y 1 35 A LYS 51  ? HZ3  ? 
+1036 Y 1 35 B ARG 309 ? HH21 ? 
+1037 Y 1 35 B LYS 313 ? HZ1  ? 
+1038 Y 1 35 B LYS 313 ? HZ2  ? 
+1039 Y 1 35 B LYS 313 ? HZ3  ? 
+1040 Y 1 35 B LYS 326 ? HZ1  ? 
+1041 Y 1 35 B LYS 326 ? HZ2  ? 
+1042 Y 1 35 B LYS 326 ? HZ3  ? 
+1043 Y 1 35 B ARG 336 ? HH21 ? 
+1044 Y 1 35 B LYS 342 ? HZ1  ? 
+1045 Y 1 35 B LYS 342 ? HZ2  ? 
+1046 Y 1 35 B LYS 342 ? HZ3  ? 
+1047 Y 1 35 B LYS 354 ? HZ1  ? 
+1048 Y 1 35 B LYS 354 ? HZ2  ? 
+1049 Y 1 35 B LYS 354 ? HZ3  ? 
+1050 Y 1 35 B ARG 358 ? HH21 ? 
+1051 Y 1 36 A ARG 4   ? HH21 ? 
+1052 Y 1 36 A ARG 16  ? HH21 ? 
+1053 Y 1 36 A LYS 19  ? HZ1  ? 
+1054 Y 1 36 A LYS 19  ? HZ2  ? 
+1055 Y 1 36 A LYS 19  ? HZ3  ? 
+1056 Y 1 36 A LYS 35  ? HZ1  ? 
+1057 Y 1 36 A LYS 35  ? HZ2  ? 
+1058 Y 1 36 A LYS 35  ? HZ3  ? 
+1059 Y 1 36 A LYS 46  ? HZ1  ? 
+1060 Y 1 36 A LYS 46  ? HZ2  ? 
+1061 Y 1 36 A LYS 46  ? HZ3  ? 
+1062 Y 1 36 A ARG 48  ? HH21 ? 
+1063 Y 1 36 A LYS 51  ? HZ1  ? 
+1064 Y 1 36 A LYS 51  ? HZ2  ? 
+1065 Y 1 36 A LYS 51  ? HZ3  ? 
+1066 Y 1 36 B ARG 309 ? HH21 ? 
+1067 Y 1 36 B LYS 313 ? HZ1  ? 
+1068 Y 1 36 B LYS 313 ? HZ2  ? 
+1069 Y 1 36 B LYS 313 ? HZ3  ? 
+1070 Y 1 36 B LYS 326 ? HZ1  ? 
+1071 Y 1 36 B LYS 326 ? HZ2  ? 
+1072 Y 1 36 B LYS 326 ? HZ3  ? 
+1073 Y 1 36 B ARG 336 ? HH21 ? 
+1074 Y 1 36 B LYS 342 ? HZ1  ? 
+1075 Y 1 36 B LYS 342 ? HZ2  ? 
+1076 Y 1 36 B LYS 342 ? HZ3  ? 
+1077 Y 1 36 B LYS 354 ? HZ1  ? 
+1078 Y 1 36 B LYS 354 ? HZ2  ? 
+1079 Y 1 36 B LYS 354 ? HZ3  ? 
+1080 Y 1 36 B ARG 358 ? HH21 ? 
+1081 Y 1 37 A ARG 4   ? HH21 ? 
+1082 Y 1 37 A ARG 16  ? HH21 ? 
+1083 Y 1 37 A LYS 19  ? HZ1  ? 
+1084 Y 1 37 A LYS 19  ? HZ2  ? 
+1085 Y 1 37 A LYS 19  ? HZ3  ? 
+1086 Y 1 37 A LYS 35  ? HZ1  ? 
+1087 Y 1 37 A LYS 35  ? HZ2  ? 
+1088 Y 1 37 A LYS 35  ? HZ3  ? 
+1089 Y 1 37 A LYS 46  ? HZ1  ? 
+1090 Y 1 37 A LYS 46  ? HZ2  ? 
+1091 Y 1 37 A LYS 46  ? HZ3  ? 
+1092 Y 1 37 A ARG 48  ? HH21 ? 
+1093 Y 1 37 A LYS 51  ? HZ1  ? 
+1094 Y 1 37 A LYS 51  ? HZ2  ? 
+1095 Y 1 37 A LYS 51  ? HZ3  ? 
+1096 Y 1 37 B ARG 309 ? HH21 ? 
+1097 Y 1 37 B LYS 313 ? HZ1  ? 
+1098 Y 1 37 B LYS 313 ? HZ2  ? 
+1099 Y 1 37 B LYS 313 ? HZ3  ? 
+1100 Y 1 37 B LYS 326 ? HZ1  ? 
+1101 Y 1 37 B LYS 326 ? HZ2  ? 
+1102 Y 1 37 B LYS 326 ? HZ3  ? 
+1103 Y 1 37 B ARG 336 ? HH21 ? 
+1104 Y 1 37 B LYS 342 ? HZ1  ? 
+1105 Y 1 37 B LYS 342 ? HZ2  ? 
+1106 Y 1 37 B LYS 342 ? HZ3  ? 
+1107 Y 1 37 B LYS 354 ? HZ1  ? 
+1108 Y 1 37 B LYS 354 ? HZ2  ? 
+1109 Y 1 37 B LYS 354 ? HZ3  ? 
+1110 Y 1 37 B ARG 358 ? HH21 ? 
+# 
+loop_
+_pdbx_version.entry_id 
+_pdbx_version.revision_date 
+_pdbx_version.major_version 
+_pdbx_version.minor_version 
+_pdbx_version.revision_type 
+_pdbx_version.details 
+2C52 2011-05-08 3 2    'Version format compliance' 'compliance with PDB format V.3.15'          
+2C52 2011-07-13 4 0000 'Version format compliance' 'compliance with PDB Exchange Dictionary V4' 
+# 
+_pdbx_entry_details.entry_id             2C52 
+_pdbx_entry_details.compound_details     
+;ACETYLATES HISTONES, GIVING A SPECIFIC TAG FOR TRANSCRIPTIONAL
+ ACTIVATION AND NUCLEAR RECEPTOR COACTIVATOR THAT DIRECTLY BINDS
+ NUCLEAR RECEPTORS AND STIMULATES THE TRANSCRIPTIONAL ACTIVITIES
+;
+_pdbx_entry_details.source_details       ? 
+_pdbx_entry_details.nonpolymer_details   ? 
+_pdbx_entry_details.sequence_details     ? 
+# 
+_pdbx_struct_assembly.id                   1 
+_pdbx_struct_assembly.details              author_defined_assembly 
+_pdbx_struct_assembly.method_details       ? 
+_pdbx_struct_assembly.oligomeric_details   dimeric 
+_pdbx_struct_assembly.oligomeric_count     2 
+# 
+_pdbx_struct_assembly_gen.assembly_id       1 
+_pdbx_struct_assembly_gen.oper_expression   1 
+_pdbx_struct_assembly_gen.asym_id_list      A,B 
+# 
+_pdbx_struct_oper_list.id                   1 
+_pdbx_struct_oper_list.type                 'identity operation' 
+_pdbx_struct_oper_list.name                 1_555 
+_pdbx_struct_oper_list.symmetry_operation   x,y,z 
+_pdbx_struct_oper_list.matrix[1][1]         1.0000000000 
+_pdbx_struct_oper_list.matrix[1][2]         0.0000000000 
+_pdbx_struct_oper_list.matrix[1][3]         0.0000000000 
+_pdbx_struct_oper_list.vector[1]            0.0000000000 
+_pdbx_struct_oper_list.matrix[2][1]         0.0000000000 
+_pdbx_struct_oper_list.matrix[2][2]         1.0000000000 
+_pdbx_struct_oper_list.matrix[2][3]         0.0000000000 
+_pdbx_struct_oper_list.vector[2]            0.0000000000 
+_pdbx_struct_oper_list.matrix[3][1]         0.0000000000 
+_pdbx_struct_oper_list.matrix[3][2]         0.0000000000 
+_pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
+_pdbx_struct_oper_list.vector[3]            0.0000000000 
+# 
+loop_
+_pdbx_validate_close_contact.id 
+_pdbx_validate_close_contact.PDB_model_num 
+_pdbx_validate_close_contact.auth_atom_id_1 
+_pdbx_validate_close_contact.auth_asym_id_1 
+_pdbx_validate_close_contact.auth_comp_id_1 
+_pdbx_validate_close_contact.auth_seq_id_1 
+_pdbx_validate_close_contact.PDB_ins_code_1 
+_pdbx_validate_close_contact.label_alt_id_1 
+_pdbx_validate_close_contact.auth_atom_id_2 
+_pdbx_validate_close_contact.auth_asym_id_2 
+_pdbx_validate_close_contact.auth_comp_id_2 
+_pdbx_validate_close_contact.auth_seq_id_2 
+_pdbx_validate_close_contact.PDB_ins_code_2 
+_pdbx_validate_close_contact.label_alt_id_2 
+_pdbx_validate_close_contact.dist 
+1   1  O   A MET 41  ? ? H    A ILE 45  ? ? 1.47 
+2   1  O   A THR 49  ? ? H    A VAL 53  ? ? 1.50 
+3   1  O   B GLU 328 ? ? H    B ALA 332 ? ? 1.51 
+4   1  O   B ILE 340 ? ? H    B LEU 343 ? ? 1.51 
+5   1  O   A TYR 52  ? ? H    A GLN 56  ? ? 1.51 
+6   1  O   B THR 329 ? ? HE   B ARG 336 ? ? 1.52 
+7   2  O   A MET 41  ? ? H    A ILE 45  ? ? 1.47 
+8   2  O   A TYR 52  ? ? H    A GLN 56  ? ? 1.51 
+9   2  O   B ASN 310 ? ? HD2  B ASP 311 ? ? 1.53 
+10  2  O   A THR 49  ? ? H    A VAL 53  ? ? 1.56 
+11  3  O   A PRO 8   ? ? H    A LEU 11  ? ? 1.43 
+12  3  O   B GLU 328 ? ? H    B ALA 332 ? ? 1.49 
+13  3  O   A TYR 52  ? ? H    A GLN 56  ? ? 1.50 
+14  3  O   A MET 41  ? ? H    A ILE 45  ? ? 1.57 
+15  3  O   A PHE 44  ? ? H    A ARG 48  ? ? 1.57 
+16  3  O   B ILE 340 ? ? H    B LEU 343 ? ? 1.58 
+17  3  O   A THR 49  ? ? H    A VAL 53  ? ? 1.59 
+18  4  O   B VAL 306 ? ? H    B ARG 309 ? ? 1.43 
+19  4  O   A TYR 52  ? ? H    A GLN 56  ? ? 1.47 
+20  4  O   A THR 49  ? ? H    A VAL 53  ? ? 1.56 
+21  4  O   A MET 41  ? ? H    A ILE 45  ? ? 1.57 
+22  4  O   B ILE 340 ? ? H    B LEU 343 ? ? 1.59 
+23  5  O   A PRO 8   ? ? H    A LEU 11  ? ? 1.42 
+24  5  O   A MET 41  ? ? H    A ILE 45  ? ? 1.45 
+25  5  O   A THR 49  ? ? H    A VAL 53  ? ? 1.46 
+26  5  O   A ASN 32  ? ? H    A SER 36  ? ? 1.51 
+27  5  O   A TYR 52  ? ? H    A GLN 56  ? ? 1.52 
+28  5  O   B ASP 327 ? ? H    B GLU 330 ? ? 1.57 
+29  6  O   A ILE 33  ? ? H    A ASN 37  ? ? 1.51 
+30  6  O   A TYR 52  ? ? H    A GLN 56  ? ? 1.51 
+31  6  O   A LEU 40  ? ? H    A PHE 44  ? ? 1.53 
+32  6  O   A MET 41  ? ? H    A ILE 45  ? ? 1.55 
+33  6  O   A THR 49  ? ? H    A VAL 53  ? ? 1.58 
+34  6  O   B LEU 338 ? ? H    B ILE 340 ? ? 1.59 
+35  6  O   B ILE 340 ? ? H    B LEU 343 ? ? 1.59 
+36  6  O   A ILE 33  ? ? N    A ASN 37  ? ? 2.18 
+37  7  O   A MET 41  ? ? H    A ILE 45  ? ? 1.50 
+38  7  O   B GLU 328 ? ? H    B ALA 332 ? ? 1.51 
+39  7  O   A TYR 52  ? ? H    A GLN 56  ? ? 1.53 
+40  7  O   A THR 49  ? ? H    A VAL 53  ? ? 1.54 
+41  8  O   A THR 49  ? ? H    A VAL 53  ? ? 1.44 
+42  8  O   A MET 41  ? ? H    A ILE 45  ? ? 1.48 
+43  8  O   B ILE 340 ? ? H    B LEU 343 ? ? 1.51 
+44  8  O   A VAL 30  ? ? H    A LEU 34  ? ? 1.56 
+45  9  O   B LEU 316 ? ? H    B VAL 320 ? ? 1.51 
+46  9  O   A ASN 32  ? ? H    A SER 36  ? ? 1.51 
+47  9  O   A MET 41  ? ? H    A ILE 45  ? ? 1.53 
+48  9  O   A THR 49  ? ? H    A VAL 53  ? ? 1.55 
+49  9  O   B ILE 340 ? ? H    B LEU 343 ? ? 1.55 
+50  9  O   A TYR 52  ? ? H    A GLN 56  ? ? 1.56 
+51  9  O   B ASP 311 ? ? H    B LEU 315 ? ? 1.57 
+52  10 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.46 
+53  10 O   A MET 41  ? ? H    A ILE 45  ? ? 1.47 
+54  10 O   B GLU 328 ? ? H    B ALA 332 ? ? 1.48 
+55  10 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.49 
+56  10 O   A THR 49  ? ? H    A VAL 53  ? ? 1.56 
+57  10 O   B ASP 327 ? ? H    B GLU 330 ? ? 1.59 
+58  11 O   A MET 41  ? ? H    A ILE 45  ? ? 1.52 
+59  11 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.54 
+60  11 O   A THR 49  ? ? H    A VAL 53  ? ? 1.54 
+61  11 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.56 
+62  11 O   A GLN 25  ? ? HE21 A GLN 29  ? ? 1.59 
+63  12 O   A THR 49  ? ? H    A VAL 53  ? ? 1.49 
+64  12 O   A MET 41  ? ? H    A ILE 45  ? ? 1.49 
+65  12 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.50 
+66  12 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.51 
+67  12 O   A THR 17  ? ? H    A SER 20  ? ? 1.51 
+68  12 O   B ASP 335 ? ? H    B GLY 339 ? ? 1.59 
+69  13 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.39 
+70  13 O   A ASN 32  ? ? H    A SER 36  ? ? 1.41 
+71  13 O   A MET 41  ? ? H    A ILE 45  ? ? 1.46 
+72  13 OD1 B ASP 327 ? ? HE2  B GLU 328 ? ? 1.50 
+73  13 O   B GLU 328 ? ? H    B ALA 332 ? ? 1.51 
+74  14 O   A MET 41  ? ? H    A ILE 45  ? ? 1.46 
+75  14 O   A THR 49  ? ? H    A VAL 53  ? ? 1.48 
+76  14 O   A ASN 32  ? ? H    A SER 36  ? ? 1.49 
+77  14 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.55 
+78  14 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.56 
+79  14 O   B ASP 311 ? ? H    B LEU 315 ? ? 1.58 
+80  15 O   A THR 49  ? ? H    A VAL 53  ? ? 1.46 
+81  15 O   A MET 41  ? ? H    A ILE 45  ? ? 1.49 
+82  15 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.51 
+83  15 O   A ASP 13  ? ? HG1  A THR 17  ? ? 1.52 
+84  16 O   A MET 41  ? ? H    A ILE 45  ? ? 1.44 
+85  16 O   A ASP 13  ? ? HG1  A THR 17  ? ? 1.48 
+86  16 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.50 
+87  16 O   A THR 49  ? ? H    A VAL 53  ? ? 1.53 
+88  16 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.53 
+89  16 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.57 
+90  16 O   B GLU 328 ? ? H    B ALA 332 ? ? 1.58 
+91  17 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.39 
+92  17 HG  A SER 20  ? ? OE1  A GLN 26  ? ? 1.45 
+93  17 O   B GLU 328 ? ? H    B ALA 332 ? ? 1.53 
+94  17 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.54 
+95  17 O   A GLN 26  ? ? H    A VAL 30  ? ? 1.56 
+96  17 O   B ASP 335 ? ? H    B GLY 339 ? ? 1.56 
+97  18 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.46 
+98  18 O   B GLU 328 ? ? H    B ALA 332 ? ? 1.49 
+99  18 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.49 
+100 18 O   A MET 41  ? ? H    A ILE 45  ? ? 1.53 
+101 18 O   A THR 49  ? ? H    A VAL 53  ? ? 1.54 
+102 18 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.57 
+103 18 O   B ASP 311 ? ? H    B LEU 315 ? ? 1.57 
+104 18 O   B ASP 335 ? ? H    B GLY 339 ? ? 1.59 
+105 19 O   A MET 41  ? ? H    A ILE 45  ? ? 1.44 
+106 19 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.51 
+107 19 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.51 
+108 19 O   A THR 49  ? ? H    A VAL 53  ? ? 1.55 
+109 20 O   A PRO 8   ? ? H    A LEU 11  ? ? 1.35 
+110 20 O   A MET 41  ? ? H    A ILE 45  ? ? 1.49 
+111 20 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.49 
+112 20 O   A THR 49  ? ? H    A VAL 53  ? ? 1.53 
+113 20 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.53 
+114 20 O   B GLU 307 ? ? H    B ASN 310 ? ? 1.58 
+115 20 O   B ASP 311 ? ? H    B ALA 314 ? ? 1.59 
+116 21 O   A MET 41  ? ? H    A ILE 45  ? ? 1.48 
+117 21 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.50 
+118 21 O   A THR 49  ? ? H    A VAL 53  ? ? 1.56 
+119 21 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.58 
+120 21 O   B GLU 328 ? ? H    B ALA 332 ? ? 1.58 
+121 22 O   A PRO 8   ? ? H    A LEU 11  ? ? 1.43 
+122 22 O   A THR 49  ? ? H    A VAL 53  ? ? 1.46 
+123 22 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.48 
+124 22 O   A VAL 30  ? ? H    A LEU 34  ? ? 1.49 
+125 22 HE  B ARG 309 ? ? O    B ASN 310 ? ? 1.54 
+126 22 O   A MET 41  ? ? H    A ILE 45  ? ? 1.55 
+127 22 O   B LEU 338 ? ? H    B ILE 340 ? ? 1.57 
+128 22 O   A GLN 26  ? ? H    A VAL 30  ? ? 1.58 
+129 22 O   B ASP 327 ? ? H    B GLU 330 ? ? 1.59 
+130 23 O   A THR 49  ? ? H    A VAL 53  ? ? 1.39 
+131 23 O   B ASP 335 ? ? H    B GLY 339 ? ? 1.51 
+132 23 O   A THR 17  ? ? H    A SER 20  ? ? 1.52 
+133 23 O   A GLN 26  ? ? H    A VAL 30  ? ? 1.53 
+134 23 O   A MET 41  ? ? H    A ILE 45  ? ? 1.54 
+135 23 O   B LEU 338 ? ? H    B ILE 340 ? ? 1.59 
+136 24 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.49 
+137 24 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.51 
+138 24 O   A THR 49  ? ? H    A VAL 53  ? ? 1.52 
+139 24 O   B LEU 338 ? ? H    B ILE 340 ? ? 1.54 
+140 24 O   B ASP 335 ? ? H    B GLY 339 ? ? 1.57 
+141 24 O   A MET 41  ? ? H    A ILE 45  ? ? 1.60 
+142 25 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.40 
+143 25 O   A MET 41  ? ? H    A ILE 45  ? ? 1.51 
+144 25 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.53 
+145 25 O   B ASP 311 ? ? H    B LEU 315 ? ? 1.55 
+146 25 O   A ILE 33  ? ? H    A ASN 37  ? ? 1.56 
+147 25 O   A ASP 13  ? ? HG1  A THR 17  ? ? 1.57 
+148 26 O   A THR 49  ? ? H    A VAL 53  ? ? 1.45 
+149 26 O   A MET 41  ? ? H    A ILE 45  ? ? 1.50 
+150 26 O   B ASP 311 ? ? H    B ALA 314 ? ? 1.54 
+151 26 O   B GLU 328 ? ? H    B ALA 332 ? ? 1.56 
+152 26 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.59 
+153 27 O   A THR 49  ? ? H    A VAL 53  ? ? 1.36 
+154 27 O   A MET 41  ? ? H    A ILE 45  ? ? 1.48 
+155 27 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.53 
+156 27 O   B VAL 306 ? ? H    B ASN 310 ? ? 1.53 
+157 28 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.33 
+158 28 O   A PRO 8   ? ? H    A LEU 11  ? ? 1.42 
+159 28 O   A MET 41  ? ? H    A ILE 45  ? ? 1.48 
+160 28 O   A THR 49  ? ? H    A VAL 53  ? ? 1.48 
+161 28 O   A PHE 44  ? ? H    A ARG 48  ? ? 1.52 
+162 28 O   B ASP 327 ? ? H    B GLU 330 ? ? 1.54 
+163 28 O   A PRO 21  ? ? HG   A SER 22  ? ? 1.56 
+164 28 O   A GLN 26  ? ? H    A VAL 30  ? ? 1.59 
+165 29 O   A MET 41  ? ? H    A ILE 45  ? ? 1.51 
+166 29 O   A THR 49  ? ? H    A VAL 53  ? ? 1.57 
+167 30 O   A PRO 8   ? ? H    A LEU 11  ? ? 1.42 
+168 30 O   A MET 41  ? ? H    A ILE 45  ? ? 1.47 
+169 30 O   B ASP 335 ? ? H    B GLY 339 ? ? 1.49 
+170 30 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.49 
+171 30 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.50 
+172 30 O   A THR 49  ? ? H    A VAL 53  ? ? 1.58 
+173 30 O   A GLN 25  ? ? HE21 A GLN 29  ? ? 1.59 
+174 30 O   B GLU 328 ? ? H    B ALA 332 ? ? 1.59 
+175 31 O   A MET 41  ? ? H    A ILE 45  ? ? 1.49 
+176 31 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.51 
+177 31 O   A THR 49  ? ? H    A VAL 53  ? ? 1.52 
+178 31 O   A GLN 26  ? ? H    A VAL 30  ? ? 1.57 
+179 32 O   A PRO 8   ? ? H    A LEU 11  ? ? 1.45 
+180 32 O   A THR 49  ? ? H    A VAL 53  ? ? 1.46 
+181 32 O   A MET 41  ? ? H    A ILE 45  ? ? 1.47 
+182 32 O   B ASP 335 ? ? H    B GLY 339 ? ? 1.50 
+183 32 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.53 
+184 32 O   A GLN 26  ? ? H    A VAL 30  ? ? 1.53 
+185 32 O   A VAL 30  ? ? H    A LEU 34  ? ? 1.58 
+186 32 O   A THR 17  ? ? H    A SER 20  ? ? 1.59 
+187 32 O   B GLU 307 ? ? H    B ASN 310 ? ? 1.59 
+188 33 O   A ASN 32  ? ? H    A SER 36  ? ? 1.47 
+189 33 O   A THR 49  ? ? H    A VAL 53  ? ? 1.49 
+190 33 O   B GLU 328 ? ? H    B ALA 332 ? ? 1.50 
+191 33 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.51 
+192 33 O   B ASP 311 ? ? H    B LEU 315 ? ? 1.53 
+193 33 O   A THR 17  ? ? H    A SER 20  ? ? 1.54 
+194 33 O   B LEU 338 ? ? H    B ILE 340 ? ? 1.60 
+195 34 O   A MET 41  ? ? H    A ILE 45  ? ? 1.45 
+196 34 O   A PRO 8   ? ? H    A LEU 11  ? ? 1.45 
+197 34 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.51 
+198 34 O   B ASP 327 ? ? H    B GLU 330 ? ? 1.54 
+199 34 O   A THR 49  ? ? H    A VAL 53  ? ? 1.54 
+200 34 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.55 
+201 34 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.59 
+202 35 O   A THR 49  ? ? H    A VAL 53  ? ? 1.43 
+203 35 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.49 
+204 35 O   A MET 41  ? ? H    A ILE 45  ? ? 1.52 
+205 35 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.55 
+206 35 HG  A SER 20  ? ? OE1  A GLN 26  ? ? 1.56 
+207 35 O   A TYR 52  ? ? H    A ASN 55  ? ? 1.56 
+208 35 O   A GLN 26  ? ? H    A VAL 30  ? ? 1.58 
+209 35 O   B ASP 327 ? ? H    B GLU 330 ? ? 1.59 
+210 36 O   A THR 49  ? ? H    A VAL 53  ? ? 1.42 
+211 36 O   B ASP 311 ? ? H    B LEU 315 ? ? 1.45 
+212 36 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.53 
+213 36 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.57 
+214 36 O   A MET 41  ? ? H    A ILE 45  ? ? 1.58 
+215 36 O   A TYR 52  ? ? H    A ASN 55  ? ? 1.59 
+216 37 O   B LEU 316 ? ? H    B VAL 320 ? ? 1.48 
+217 37 O   A PRO 8   ? ? H    A LEU 11  ? ? 1.49 
+218 37 O   A TYR 52  ? ? H    A GLN 56  ? ? 1.49 
+219 37 O   A MET 41  ? ? H    A ILE 45  ? ? 1.50 
+220 37 O   B GLU 328 ? ? H    B ALA 332 ? ? 1.53 
+221 37 O   A THR 49  ? ? H    A VAL 53  ? ? 1.53 
+222 37 O   B ASP 311 ? ? H    B LEU 315 ? ? 1.56 
+223 37 O   B ILE 340 ? ? H    B LEU 343 ? ? 1.59 
+# 
+loop_
+_pdbx_validate_torsion.id 
+_pdbx_validate_torsion.PDB_model_num 
+_pdbx_validate_torsion.auth_comp_id 
+_pdbx_validate_torsion.auth_asym_id 
+_pdbx_validate_torsion.auth_seq_id 
+_pdbx_validate_torsion.PDB_ins_code 
+_pdbx_validate_torsion.phi 
+_pdbx_validate_torsion.psi 
+1   1  SER A 5   ? -58.77  -92.14  
+2   1  SER A 20  ? -51.70  -174.19 
+3   1  SER A 22  ? 86.12   85.33   
+4   1  SER A 23  ? 160.79  -62.67  
+5   1  PRO A 24  ? -75.08  -96.64  
+6   1  GLN A 26  ? -29.90  -61.68  
+7   1  VAL A 53  ? -39.79  -32.12  
+8   1  THR B 305 ? -140.90 36.07   
+9   1  VAL B 306 ? -147.24 32.36   
+10  1  ARG B 309 ? -137.43 -64.14  
+11  1  ASN B 310 ? 61.20   134.08  
+12  1  ASP B 311 ? 156.31  167.74  
+13  1  GLN B 345 ? -28.96  -45.79  
+14  1  LEU B 349 ? -166.48 32.30   
+15  1  ASP B 350 ? 162.87  170.69  
+16  1  VAL B 351 ? -156.01 -79.48  
+17  1  LEU B 352 ? -144.38 -92.87  
+18  1  SER B 353 ? 154.94  48.36   
+19  1  LEU B 355 ? 55.10   93.95   
+20  1  VAL B 356 ? -34.55  95.47   
+21  1  ARG B 358 ? -132.46 -41.46  
+22  2  ASN A 3   ? -159.36 -54.56  
+23  2  SER A 5   ? 67.45   -71.15  
+24  2  ILE A 6   ? 176.41  144.45  
+25  2  SER A 20  ? -57.39  -173.77 
+26  2  SER A 22  ? 87.68   88.94   
+27  2  SER A 23  ? 157.33  -61.18  
+28  2  PRO A 24  ? -75.00  -98.98  
+29  2  ASN A 37  ? -163.41 105.01  
+30  2  THR B 304 ? 45.76   -160.15 
+31  2  THR B 305 ? -168.44 30.69   
+32  2  VAL B 306 ? -153.81 36.75   
+33  2  ARG B 309 ? -138.43 -64.11  
+34  2  ASN B 310 ? 61.49   137.50  
+35  2  ASP B 311 ? 155.08  166.54  
+36  2  ARG B 336 ? -37.88  -30.45  
+37  2  LEU B 349 ? -79.52  -89.66  
+38  2  ASP B 350 ? -136.88 -155.65 
+39  2  LEU B 352 ? 39.75   -99.72  
+40  2  SER B 353 ? 155.36  -47.30  
+41  2  LEU B 355 ? 66.71   75.52   
+42  2  VAL B 356 ? -43.11  102.29  
+43  2  SER B 360 ? -131.46 -53.04  
+44  3  ASN A 3   ? 62.77   137.29  
+45  3  ARG A 4   ? -46.40  163.99  
+46  3  SER A 9   ? -37.19  -39.09  
+47  3  SER A 20  ? -51.27  -177.04 
+48  3  SER A 22  ? 91.59   83.57   
+49  3  SER A 23  ? 163.12  -60.91  
+50  3  PRO A 24  ? -75.03  -102.85 
+51  3  VAL A 53  ? -39.27  -31.09  
+52  3  THR B 304 ? 37.34   -153.61 
+53  3  THR B 305 ? -164.02 40.97   
+54  3  VAL B 306 ? -157.75 38.37   
+55  3  ARG B 309 ? -143.60 -60.72  
+56  3  ASN B 310 ? 60.99   139.24  
+57  3  ASP B 311 ? 154.23  166.57  
+58  3  LEU B 349 ? 58.42   70.49   
+59  3  ASP B 350 ? -174.49 71.35   
+60  3  VAL B 351 ? -168.13 114.37  
+61  3  VAL B 356 ? 29.12   92.85   
+62  3  ARG B 358 ? -127.89 -67.98  
+63  3  SER B 360 ? 85.46   78.64   
+64  4  SER A 5   ? -149.58 -71.13  
+65  4  SER A 9   ? -33.79  -32.57  
+66  4  SER A 20  ? -50.32  -178.18 
+67  4  SER A 22  ? 89.49   84.36   
+68  4  SER A 23  ? 161.99  -61.22  
+69  4  PRO A 24  ? -74.92  -102.41 
+70  4  LEU A 34  ? -38.39  -33.66  
+71  4  PRO A 38  ? -75.00  -81.17  
+72  4  VAL A 53  ? -39.32  -33.98  
+73  4  THR B 305 ? 59.40   79.24   
+74  4  VAL B 306 ? 167.87  -23.36  
+75  4  ARG B 309 ? -120.92 -67.45  
+76  4  ASN B 310 ? 61.47   130.35  
+77  4  ASP B 311 ? 154.71  158.18  
+78  4  LEU B 349 ? -81.53  -71.72  
+79  4  VAL B 351 ? -136.28 -105.20 
+80  4  SER B 353 ? 64.04   -73.27  
+81  4  LYS B 354 ? -38.88  155.27  
+82  4  VAL B 356 ? -37.53  98.25   
+83  4  SER B 360 ? -169.49 87.28   
+84  5  SER A 5   ? 39.60   -148.13 
+85  5  SER A 20  ? -62.60  -176.76 
+86  5  SER A 22  ? 89.15   84.15   
+87  5  SER A 23  ? 162.44  -61.26  
+88  5  PRO A 24  ? -74.98  -101.91 
+89  5  ASN A 55  ? -149.92 -48.06  
+90  5  THR B 305 ? -160.85 -70.72  
+91  5  GLU B 307 ? -126.41 -51.68  
+92  5  ASN B 310 ? -95.12  -77.14  
+93  5  ASP B 311 ? -177.97 -151.00 
+94  5  ARG B 336 ? -39.53  -28.90  
+95  5  ILE B 340 ? -156.41 21.72   
+96  5  LEU B 349 ? -169.02 -50.13  
+97  5  ASP B 350 ? -174.50 -169.84 
+98  5  VAL B 351 ? -117.23 -132.07 
+99  5  SER B 353 ? 92.92   -53.25  
+100 5  LYS B 354 ? -40.41  -70.40  
+101 5  VAL B 356 ? -35.80  97.09   
+102 5  SER B 360 ? 83.08   81.43   
+103 6  SER A 5   ? 59.49   -176.70 
+104 6  ILE A 6   ? 173.92  140.37  
+105 6  SER A 20  ? -51.50  -175.17 
+106 6  SER A 22  ? 88.74   84.94   
+107 6  SER A 23  ? 160.23  -62.68  
+108 6  PRO A 24  ? -74.99  -95.63  
+109 6  LEU A 34  ? -39.00  -29.46  
+110 6  THR B 305 ? 45.22   -169.27 
+111 6  VAL B 306 ? 46.92   24.09   
+112 6  ASN B 310 ? 60.90   139.50  
+113 6  ASP B 311 ? 151.59  161.82  
+114 6  ARG B 336 ? -34.46  -36.06  
+115 6  LEU B 349 ? 165.17  78.49   
+116 6  ASP B 350 ? -156.25 52.84   
+117 6  LEU B 352 ? -107.86 52.10   
+118 6  SER B 353 ? 37.40   -99.42  
+119 6  LYS B 354 ? 42.24   -162.37 
+120 6  LEU B 355 ? -41.32  96.85   
+121 6  VAL B 356 ? -35.23  96.49   
+122 6  SER B 360 ? -158.93 88.23   
+123 7  ASN A 3   ? 80.86   -56.52  
+124 7  ARG A 4   ? 61.67   139.50  
+125 7  SER A 5   ? -44.51  -86.84  
+126 7  ILE A 6   ? -173.42 148.02  
+127 7  SER A 20  ? -58.60  -175.16 
+128 7  SER A 22  ? 86.82   84.84   
+129 7  SER A 23  ? 162.02  -62.16  
+130 7  PRO A 24  ? -74.97  -101.64 
+131 7  LEU A 34  ? -35.69  -34.77  
+132 7  VAL B 306 ? 41.99   28.63   
+133 7  ARG B 309 ? -120.54 -66.32  
+134 7  ASN B 310 ? 61.26   144.48  
+135 7  ASP B 311 ? 151.02  164.46  
+136 7  ARG B 336 ? -39.15  -29.36  
+137 7  LEU B 349 ? 56.59   78.18   
+138 7  ASP B 350 ? -177.39 112.46  
+139 7  VAL B 351 ? -139.50 -136.88 
+140 7  SER B 353 ? 36.60   39.94   
+141 7  LEU B 355 ? 40.10   83.27   
+142 7  VAL B 356 ? -37.21  97.75   
+143 8  ASN A 3   ? 65.11   165.04  
+144 8  SER A 5   ? -99.27  -71.45  
+145 8  ILE A 6   ? 171.72  170.80  
+146 8  LEU A 14  ? -62.28  -72.42  
+147 8  SER A 20  ? -49.97  -177.81 
+148 8  SER A 22  ? 88.35   82.98   
+149 8  SER A 23  ? 164.15  -61.60  
+150 8  PRO A 24  ? -75.01  -104.62 
+151 8  ASN A 55  ? -164.55 21.34   
+152 8  THR B 305 ? 44.98   -170.23 
+153 8  VAL B 306 ? 46.74   24.78   
+154 8  ASN B 310 ? 61.66   131.59  
+155 8  ASP B 311 ? 156.88  163.04  
+156 8  LEU B 349 ? 43.81   72.57   
+157 8  VAL B 351 ? 39.65   -101.90 
+158 8  SER B 353 ? 61.92   -71.67  
+159 8  LYS B 354 ? -36.70  151.81  
+160 8  VAL B 356 ? -37.25  97.69   
+161 8  ARG B 358 ? -134.64 -67.04  
+162 8  SER B 360 ? 89.78   76.90   
+163 9  ASN A 3   ? -153.05 86.98   
+164 9  ARG A 4   ? -69.77  -179.07 
+165 9  ILE A 6   ? 78.37   170.94  
+166 9  SER A 20  ? -50.49  -178.13 
+167 9  SER A 22  ? 87.98   83.46   
+168 9  SER A 23  ? 162.94  -61.15  
+169 9  PRO A 24  ? -74.99  -100.14 
+170 9  ASN A 37  ? -163.56 114.26  
+171 9  VAL A 53  ? -38.78  -31.39  
+172 9  THR B 305 ? 71.57   -59.05  
+173 9  VAL B 306 ? -68.48  67.95   
+174 9  ASN B 310 ? 61.66   133.82  
+175 9  ASP B 311 ? 151.38  164.44  
+176 9  LYS B 326 ? -41.21  102.20  
+177 9  ARG B 336 ? -39.10  -30.61  
+178 9  GLN B 345 ? -35.65  -34.53  
+179 9  LEU B 349 ? -83.76  49.85   
+180 9  ASP B 350 ? 58.32   -177.70 
+181 9  SER B 353 ? -44.30  169.22  
+182 9  LEU B 355 ? -82.17  -102.95 
+183 9  SER B 360 ? -130.63 -51.68  
+184 10 ASN A 3   ? -174.84 -53.97  
+185 10 SER A 5   ? -43.40  -78.00  
+186 10 SER A 20  ? -52.50  -174.82 
+187 10 SER A 22  ? 88.84   84.40   
+188 10 SER A 23  ? 161.67  -62.05  
+189 10 PRO A 24  ? -75.01  -97.67  
+190 10 VAL A 53  ? -39.54  -30.67  
+191 10 THR B 304 ? -63.83  -167.42 
+192 10 THR B 305 ? -176.31 34.38   
+193 10 GLU B 307 ? -35.37  114.93  
+194 10 ASN B 310 ? 60.02   147.14  
+195 10 ASP B 311 ? 151.87  161.69  
+196 10 ALA B 332 ? -80.67  49.87   
+197 10 ARG B 336 ? -38.24  -30.57  
+198 10 GLN B 345 ? -28.57  -44.15  
+199 10 LEU B 349 ? 172.46  -33.74  
+200 10 ASP B 350 ? 81.83   163.64  
+201 10 LEU B 352 ? -151.36 53.52   
+202 10 SER B 353 ? 39.06   -151.27 
+203 10 LYS B 354 ? 61.75   122.86  
+204 10 LEU B 355 ? 39.90   45.93   
+205 10 VAL B 356 ? -12.23  109.53  
+206 10 ARG B 358 ? -120.53 -78.18  
+207 10 SER B 360 ? -163.06 88.15   
+208 11 ARG A 4   ? 61.85   134.71  
+209 11 SER A 5   ? -39.60  -75.50  
+210 11 ILE A 6   ? -178.36 142.71  
+211 11 SER A 20  ? -49.86  -177.94 
+212 11 SER A 22  ? 85.99   84.00   
+213 11 SER A 23  ? 162.88  -61.65  
+214 11 PRO A 24  ? -75.04  -100.73 
+215 11 ASN A 37  ? -160.62 109.01  
+216 11 THR B 305 ? -150.08 22.86   
+217 11 VAL B 306 ? -160.63 -117.55 
+218 11 GLU B 307 ? 67.96   137.90  
+219 11 ARG B 309 ? -132.90 -43.28  
+220 11 ASP B 311 ? 150.41  -173.61 
+221 11 LYS B 326 ? -40.97  108.48  
+222 11 ILE B 340 ? -146.36 16.82   
+223 11 GLN B 345 ? -29.45  -46.67  
+224 11 VAL B 351 ? -135.27 -142.54 
+225 11 SER B 353 ? 34.50   -152.11 
+226 11 LYS B 354 ? 50.97   99.91   
+227 11 LEU B 355 ? 66.52   95.23   
+228 11 VAL B 356 ? -55.12  108.25  
+229 11 ARG B 358 ? -125.78 -63.42  
+230 11 SER B 360 ? -154.90 81.44   
+231 12 ASN A 3   ? -173.44 97.09   
+232 12 ARG A 4   ? 58.12   95.54   
+233 12 ILE A 6   ? 179.10  140.63  
+234 12 SER A 20  ? -60.04  -173.99 
+235 12 SER A 22  ? 88.00   84.38   
+236 12 SER A 23  ? 161.67  -63.02  
+237 12 PRO A 24  ? -75.05  -95.89  
+238 12 GLN A 26  ? -29.90  -62.06  
+239 12 ASN A 37  ? -162.15 111.39  
+240 12 THR B 304 ? 83.17   157.29  
+241 12 THR B 305 ? -145.22 43.04   
+242 12 VAL B 306 ? -152.27 29.91   
+243 12 ARG B 309 ? -146.45 -60.86  
+244 12 ASN B 310 ? 61.11   138.44  
+245 12 ASP B 311 ? 152.88  163.34  
+246 12 GLU B 330 ? -64.41  -71.35  
+247 12 GLN B 345 ? -32.17  -38.94  
+248 12 LEU B 349 ? 72.62   -77.16  
+249 12 ASP B 350 ? 157.55  175.84  
+250 12 SER B 353 ? 35.88   -141.99 
+251 12 LYS B 354 ? 69.36   -169.08 
+252 12 LEU B 355 ? -38.93  97.48   
+253 12 VAL B 356 ? -38.63  99.49   
+254 12 ARG B 358 ? -132.45 -49.29  
+255 13 SER A 20  ? -49.41  -178.75 
+256 13 SER A 22  ? 86.86   84.20   
+257 13 SER A 23  ? 162.84  -60.92  
+258 13 PRO A 24  ? -74.99  -101.49 
+259 13 THR B 304 ? 49.89   -173.17 
+260 13 ARG B 309 ? -137.25 -56.58  
+261 13 ASN B 310 ? 61.13   141.51  
+262 13 ASP B 311 ? 151.34  166.34  
+263 13 ARG B 336 ? -38.60  -29.02  
+264 13 ILE B 340 ? -140.83 16.24   
+265 13 GLN B 345 ? -33.54  -36.88  
+266 13 LEU B 349 ? 58.82   113.49  
+267 13 ASP B 350 ? 172.57  -36.13  
+268 13 SER B 353 ? 84.12   -60.99  
+269 13 LYS B 354 ? -39.16  137.56  
+270 13 LEU B 355 ? 62.43   -165.46 
+271 13 ARG B 358 ? -128.61 -75.98  
+272 13 SER B 360 ? 92.81   -69.81  
+273 14 ASN A 3   ? 70.14   -62.40  
+274 14 SER A 5   ? -70.93  -71.84  
+275 14 LEU A 14  ? -63.93  -70.18  
+276 14 SER A 20  ? -51.37  -178.12 
+277 14 SER A 22  ? 77.98   84.08   
+278 14 SER A 23  ? 163.86  -61.76  
+279 14 PRO A 24  ? -75.00  -102.89 
+280 14 ASN A 37  ? -160.72 107.04  
+281 14 THR B 304 ? -92.60  -158.23 
+282 14 THR B 305 ? -176.34 35.17   
+283 14 ARG B 309 ? -115.77 -70.36  
+284 14 ASN B 310 ? 62.75   133.04  
+285 14 ASP B 311 ? 155.01  159.57  
+286 14 ALA B 332 ? -81.01  49.89   
+287 14 ARG B 336 ? -38.23  -29.63  
+288 14 ILE B 340 ? -155.93 21.60   
+289 14 LEU B 349 ? 172.12  86.46   
+290 14 ASP B 350 ? -154.91 34.21   
+291 14 SER B 353 ? 29.16   51.83   
+292 14 VAL B 356 ? 43.09   94.84   
+293 14 ARG B 358 ? -120.19 -67.41  
+294 14 SER B 360 ? 89.68   76.45   
+295 15 ARG A 4   ? -105.91 69.51   
+296 15 SER A 5   ? -155.96 -150.55 
+297 15 SER A 20  ? -50.20  -178.21 
+298 15 SER A 22  ? 85.86   82.97   
+299 15 SER A 23  ? 164.31  -60.90  
+300 15 PRO A 24  ? -74.99  -102.30 
+301 15 ASN A 37  ? -162.62 111.49  
+302 15 VAL B 306 ? -175.09 43.47   
+303 15 ASN B 310 ? 61.35   131.68  
+304 15 ASP B 311 ? 151.87  166.34  
+305 15 GLN B 345 ? -29.02  -46.45  
+306 15 LEU B 349 ? -177.33 109.51  
+307 15 ASP B 350 ? 176.02  -38.33  
+308 15 LYS B 354 ? -49.12  -82.98  
+309 15 LEU B 355 ? -69.48  60.86   
+310 15 VAL B 356 ? -38.38  98.62   
+311 15 SER B 360 ? -134.37 -50.51  
+312 16 ASN A 3   ? 179.02  -51.38  
+313 16 SER A 5   ? -126.94 -72.28  
+314 16 ILE A 6   ? 177.13  170.28  
+315 16 SER A 20  ? -49.55  -178.82 
+316 16 SER A 22  ? 86.38   83.33   
+317 16 SER A 23  ? 163.64  -61.09  
+318 16 PRO A 24  ? -74.97  -102.67 
+319 16 ASN A 37  ? -163.24 113.42  
+320 16 THR B 304 ? -66.32  -136.77 
+321 16 VAL B 306 ? 42.07   -140.85 
+322 16 GLU B 307 ? 71.72   152.52  
+323 16 ARG B 309 ? -148.18 -50.41  
+324 16 ASN B 310 ? -86.79  -79.11  
+325 16 ASP B 311 ? -174.64 -179.10 
+326 16 ARG B 336 ? -37.37  -31.50  
+327 16 ILE B 340 ? -155.58 22.21   
+328 16 GLN B 345 ? -36.57  -31.59  
+329 16 ASP B 350 ? 170.03  -176.13 
+330 16 SER B 353 ? 84.04   -56.91  
+331 16 LYS B 354 ? -40.65  109.39  
+332 16 LEU B 355 ? 66.21   79.49   
+333 16 VAL B 356 ? -39.86  101.18  
+334 17 ASN A 3   ? 60.64   159.29  
+335 17 ARG A 4   ? 60.63   150.55  
+336 17 SER A 5   ? 47.32   -168.00 
+337 17 SER A 9   ? -34.86  -31.79  
+338 17 SER A 20  ? -58.51  -173.75 
+339 17 SER A 22  ? 89.42   74.53   
+340 17 SER A 23  ? 171.70  -62.33  
+341 17 PRO A 24  ? -75.03  -95.88  
+342 17 GLN A 26  ? -28.48  -62.46  
+343 17 ASN A 37  ? -163.16 111.89  
+344 17 THR B 304 ? -174.64 -54.21  
+345 17 THR B 305 ? 39.67   39.31   
+346 17 VAL B 306 ? -156.25 25.12   
+347 17 ARG B 309 ? -123.66 -64.48  
+348 17 ASN B 310 ? 63.03   150.26  
+349 17 ASP B 311 ? 150.38  159.25  
+350 17 ARG B 336 ? -35.90  -31.93  
+351 17 ILE B 340 ? -156.08 22.31   
+352 17 GLN B 345 ? -39.20  -29.85  
+353 17 LEU B 349 ? 177.67  129.83  
+354 17 ASP B 350 ? 64.40   179.87  
+355 17 SER B 353 ? -50.31  -179.09 
+356 17 LEU B 355 ? -110.02 -99.52  
+357 17 ARG B 358 ? -121.19 -51.32  
+358 17 SER B 360 ? -155.09 86.25   
+359 18 ASN A 3   ? 60.21   171.38  
+360 18 ARG A 4   ? -42.80  151.97  
+361 18 SER A 20  ? -60.30  -171.69 
+362 18 SER A 22  ? 85.20   84.34   
+363 18 SER A 23  ? 162.44  -62.22  
+364 18 PRO A 24  ? -75.00  -96.20  
+365 18 GLN A 26  ? -29.21  -62.22  
+366 18 THR B 304 ? 39.31   -160.03 
+367 18 ASN B 310 ? 56.69   161.32  
+368 18 ASP B 311 ? 148.99  162.07  
+369 18 LYS B 326 ? -41.57  107.81  
+370 18 ILE B 340 ? -152.55 21.90   
+371 18 LEU B 349 ? 58.32   82.93   
+372 18 ASP B 350 ? 177.89  104.80  
+373 18 SER B 353 ? -45.55  171.86  
+374 18 LEU B 355 ? -105.99 -108.48 
+375 18 ARG B 358 ? -117.78 -70.11  
+376 18 SER B 360 ? 86.20   80.01   
+377 19 SER A 5   ? -77.20  -111.96 
+378 19 ILE A 6   ? 176.77  151.96  
+379 19 PRO A 8   ? -74.98  -75.93  
+380 19 SER A 9   ? -22.38  -51.95  
+381 19 SER A 20  ? -51.35  -175.62 
+382 19 SER A 22  ? 90.48   86.07   
+383 19 SER A 23  ? 159.75  -62.65  
+384 19 PRO A 24  ? -75.01  -97.43  
+385 19 LEU A 34  ? -38.32  -34.51  
+386 19 VAL A 53  ? -39.09  -36.10  
+387 19 VAL B 306 ? 170.56  -32.65  
+388 19 ARG B 309 ? -139.00 -63.22  
+389 19 ASN B 310 ? 64.73   127.53  
+390 19 ASP B 311 ? 146.40  160.19  
+391 19 GLN B 345 ? -36.94  -32.42  
+392 19 LEU B 349 ? 49.97   83.64   
+393 19 ASP B 350 ? 170.23  81.29   
+394 19 LEU B 352 ? 28.83   -97.43  
+395 19 SER B 353 ? 152.00  -45.22  
+396 19 LYS B 354 ? -56.96  -82.71  
+397 19 LEU B 355 ? -68.92  63.20   
+398 19 VAL B 356 ? -39.61  99.92   
+399 19 SER B 360 ? -122.43 -61.47  
+400 20 ASN A 3   ? 60.02   102.59  
+401 20 SER A 5   ? -67.60  -154.95 
+402 20 PRO A 8   ? -74.99  -84.38  
+403 20 SER A 9   ? -33.28  -38.38  
+404 20 SER A 20  ? -52.26  -174.63 
+405 20 SER A 22  ? 88.94   82.91   
+406 20 SER A 23  ? 162.37  -63.13  
+407 20 PRO A 24  ? -74.94  -95.64  
+408 20 GLN A 26  ? -29.95  -61.34  
+409 20 GLU B 307 ? -114.96 -136.69 
+410 20 ASN B 310 ? -111.62 -167.70 
+411 20 ILE B 340 ? -154.36 22.00   
+412 20 LEU B 349 ? 50.00   96.98   
+413 20 ASP B 350 ? 174.16  -158.79 
+414 20 VAL B 351 ? 47.57   -169.53 
+415 20 VAL B 356 ? 40.31   80.74   
+416 20 ARG B 358 ? -130.30 -42.99  
+417 20 SER B 360 ? -152.93 86.26   
+418 21 ASN A 3   ? 62.57   163.70  
+419 21 SER A 5   ? 54.98   -88.82  
+420 21 ILE A 6   ? 179.31  150.26  
+421 21 SER A 20  ? -50.82  -176.42 
+422 21 SER A 22  ? 85.82   86.06   
+423 21 SER A 23  ? 160.08  -62.18  
+424 21 PRO A 24  ? -75.00  -95.74  
+425 21 GLN A 26  ? -28.44  -62.26  
+426 21 VAL A 53  ? -39.95  -33.54  
+427 21 THR B 304 ? -172.52 -50.35  
+428 21 THR B 305 ? 65.39   -68.16  
+429 21 ASN B 310 ? 59.63   154.25  
+430 21 ASP B 311 ? 150.07  157.80  
+431 21 ARG B 336 ? -35.49  -34.05  
+432 21 GLN B 345 ? -33.60  -34.39  
+433 21 LEU B 349 ? -172.53 -49.05  
+434 21 LEU B 352 ? -103.62 54.73   
+435 21 SER B 353 ? 34.96   -147.71 
+436 21 LYS B 354 ? 54.97   105.68  
+437 21 LEU B 355 ? 60.83   62.57   
+438 21 VAL B 356 ? -31.38  102.86  
+439 21 SER B 360 ? 90.52   -72.54  
+440 22 SER A 5   ? -62.83  -87.04  
+441 22 ILE A 6   ? 178.74  141.27  
+442 22 SER A 9   ? -38.69  -38.27  
+443 22 SER A 20  ? -51.42  -177.33 
+444 22 SER A 22  ? 91.56   83.21   
+445 22 SER A 23  ? 161.98  -60.93  
+446 22 PRO A 24  ? -75.02  -95.59  
+447 22 GLN A 26  ? -29.93  -60.05  
+448 22 ASN B 310 ? 55.41   160.64  
+449 22 ASP B 311 ? 152.59  160.73  
+450 22 ALA B 332 ? -81.36  48.41   
+451 22 ARG B 336 ? -37.66  -29.18  
+452 22 LEU B 349 ? 42.64   85.54   
+453 22 ASP B 350 ? 170.60  89.48   
+454 22 VAL B 351 ? -179.51 134.03  
+455 22 SER B 353 ? 57.54   -154.55 
+456 22 LYS B 354 ? 63.42   -76.35  
+457 22 VAL B 356 ? -19.50  99.67   
+458 22 ARG B 358 ? -131.74 -72.22  
+459 22 SER B 360 ? -160.37 80.40   
+460 23 SER A 20  ? -57.92  -171.53 
+461 23 SER A 22  ? 87.78   81.32   
+462 23 SER A 23  ? 164.35  -62.32  
+463 23 PRO A 24  ? -75.01  -93.25  
+464 23 GLN A 26  ? -29.09  -62.67  
+465 23 ASN A 37  ? -164.13 112.49  
+466 23 ASN A 55  ? 179.86  50.34   
+467 23 VAL B 306 ? -144.76 -42.25  
+468 23 GLU B 307 ? -28.89  140.13  
+469 23 ASN B 310 ? 60.07   153.23  
+470 23 ASP B 311 ? 152.65  157.18  
+471 23 GLU B 330 ? -63.73  -71.03  
+472 23 ARG B 336 ? -36.09  -31.49  
+473 23 LEU B 349 ? 40.82   86.08   
+474 23 ASP B 350 ? 155.41  93.41   
+475 23 LEU B 352 ? 39.99   -103.64 
+476 23 SER B 353 ? 147.19  -53.60  
+477 23 LYS B 354 ? -39.33  -87.56  
+478 23 LEU B 355 ? -69.05  64.70   
+479 23 VAL B 356 ? -38.26  98.59   
+480 23 SER B 360 ? 84.92   79.26   
+481 24 SER A 5   ? -102.07 -154.93 
+482 24 PRO A 8   ? -74.99  -74.01  
+483 24 SER A 9   ? -31.87  -35.11  
+484 24 SER A 20  ? -50.43  -177.86 
+485 24 SER A 22  ? 85.31   84.19   
+486 24 SER A 23  ? 162.57  -61.66  
+487 24 PRO A 24  ? -75.02  -102.70 
+488 24 LEU A 34  ? -36.69  -34.39  
+489 24 PRO A 38  ? -74.96  -79.65  
+490 24 THR B 305 ? -151.80 -52.28  
+491 24 GLU B 307 ? -49.25  166.10  
+492 24 ARG B 309 ? -132.98 -66.24  
+493 24 ALA B 332 ? -80.99  48.68   
+494 24 ARG B 336 ? -32.66  -36.58  
+495 24 LEU B 349 ? -163.12 79.03   
+496 24 ASP B 350 ? -164.95 81.70   
+497 24 VAL B 351 ? -160.30 116.33  
+498 24 SER B 353 ? 76.28   62.80   
+499 24 VAL B 356 ? 40.32   92.84   
+500 24 ARG B 358 ? -132.12 -67.98  
+501 24 SER B 360 ? 86.19   80.24   
+502 25 SER A 5   ? -70.17  -149.88 
+503 25 SER A 20  ? -50.40  -178.28 
+504 25 SER A 22  ? 88.08   83.95   
+505 25 SER A 23  ? 162.88  -61.02  
+506 25 PRO A 24  ? -74.97  -101.56 
+507 25 LEU A 34  ? -39.71  -29.47  
+508 25 VAL A 53  ? -39.70  -27.83  
+509 25 THR B 304 ? -61.75  -166.10 
+510 25 THR B 305 ? -167.95 76.56   
+511 25 VAL B 306 ? -177.79 -30.11  
+512 25 GLU B 307 ? -29.92  104.99  
+513 25 ARG B 309 ? -100.00 -72.04  
+514 25 ASN B 310 ? 59.50   128.06  
+515 25 ASP B 311 ? 152.40  165.02  
+516 25 ARG B 336 ? -38.77  -31.95  
+517 25 GLN B 345 ? -32.61  -38.87  
+518 25 LEU B 349 ? 63.42   68.97   
+519 25 SER B 353 ? 82.66   -58.61  
+520 25 LYS B 354 ? -39.86  131.58  
+521 25 VAL B 356 ? -37.72  102.93  
+522 25 SER B 360 ? 78.69   65.91   
+523 26 ARG A 4   ? -56.85  96.11   
+524 26 SER A 5   ? 53.84   -88.41  
+525 26 SER A 20  ? -52.56  -173.21 
+526 26 SER A 22  ? 87.61   85.26   
+527 26 SER A 23  ? 160.76  -62.59  
+528 26 PRO A 24  ? -75.00  -95.79  
+529 26 GLN A 26  ? -29.44  -61.16  
+530 26 LEU A 34  ? -37.10  -35.06  
+531 26 ASN A 55  ? -143.51 -46.93  
+532 26 THR B 305 ? -158.27 49.21   
+533 26 VAL B 306 ? 175.85  -28.06  
+534 26 GLU B 307 ? -43.87  -84.78  
+535 26 ARG B 309 ? -136.24 -41.99  
+536 26 ASN B 310 ? -109.16 -162.53 
+537 26 ILE B 340 ? -152.86 21.90   
+538 26 GLN B 345 ? -34.04  -36.58  
+539 26 LEU B 349 ? 65.58   -77.40  
+540 26 VAL B 351 ? -45.20  169.35  
+541 26 SER B 353 ? 71.70   -66.10  
+542 26 LEU B 355 ? 58.91   154.81  
+543 26 ARG B 358 ? -131.03 -42.54  
+544 26 SER B 360 ? 87.28   84.44   
+545 27 ILE A 6   ? 173.80  143.43  
+546 27 SER A 20  ? -51.92  -177.20 
+547 27 SER A 22  ? 88.94   83.56   
+548 27 SER A 23  ? 163.01  -60.82  
+549 27 PRO A 24  ? -75.00  -100.59 
+550 27 LEU A 34  ? -36.79  -34.22  
+551 27 ARG B 309 ? -131.35 -59.20  
+552 27 ASN B 310 ? 64.14   144.95  
+553 27 ASP B 311 ? 152.20  166.72  
+554 27 ARG B 336 ? -39.87  -27.65  
+555 27 ILE B 340 ? -161.36 25.15   
+556 27 GLN B 345 ? -29.85  -44.55  
+557 27 SER B 353 ? 88.75   -51.89  
+558 27 LYS B 354 ? -49.21  -78.43  
+559 27 LEU B 355 ? -69.66  64.21   
+560 27 VAL B 356 ? -33.75  98.31   
+561 27 ARG B 358 ? -124.50 -57.84  
+562 27 SER B 360 ? 84.63   79.99   
+563 28 SER A 5   ? -78.27  -164.77 
+564 28 PRO A 8   ? -75.04  -72.55  
+565 28 SER A 9   ? -18.96  -55.13  
+566 28 SER A 20  ? -51.63  -174.88 
+567 28 SER A 22  ? 87.17   85.39   
+568 28 SER A 23  ? 161.07  -62.00  
+569 28 PRO A 24  ? -74.96  -97.99  
+570 28 PRO A 38  ? -75.00  -70.09  
+571 28 THR B 304 ? -177.34 -40.58  
+572 28 VAL B 306 ? -169.89 44.11   
+573 28 ARG B 309 ? -135.52 -64.98  
+574 28 ASN B 310 ? 61.49   139.14  
+575 28 ASP B 311 ? 153.75  166.83  
+576 28 GLN B 345 ? -28.87  -46.82  
+577 28 ASP B 350 ? -174.12 -157.18 
+578 28 VAL B 351 ? 48.37   169.74  
+579 28 SER B 353 ? 62.94   -72.37  
+580 28 LYS B 354 ? -45.35  172.18  
+581 28 VAL B 356 ? -37.38  98.25   
+582 28 SER B 360 ? -160.31 93.03   
+583 29 ARG A 4   ? -48.46  165.30  
+584 29 ILE A 6   ? 175.60  147.37  
+585 29 SER A 20  ? -51.35  -176.10 
+586 29 SER A 22  ? 89.07   82.97   
+587 29 SER A 23  ? 162.92  -60.82  
+588 29 PRO A 24  ? -75.01  -96.76  
+589 29 GLN A 26  ? -29.47  -60.30  
+590 29 LEU A 34  ? -37.75  -34.80  
+591 29 THR B 304 ? -74.55  -166.19 
+592 29 THR B 305 ? -170.48 46.73   
+593 29 VAL B 306 ? -175.34 45.55   
+594 29 ARG B 309 ? -127.36 -59.52  
+595 29 ASN B 310 ? 57.87   163.79  
+596 29 ASP B 311 ? 137.92  161.57  
+597 29 GLU B 330 ? -55.84  -71.71  
+598 29 ARG B 336 ? -36.56  -31.43  
+599 29 ILE B 340 ? -156.45 22.23   
+600 29 ASP B 350 ? 43.50   -161.46 
+601 29 VAL B 351 ? -145.45 -108.65 
+602 29 SER B 353 ? -59.68  -149.27 
+603 29 LYS B 354 ? 56.13   -88.08  
+604 29 VAL B 356 ? -38.23  102.11  
+605 30 SER A 5   ? -56.66  -74.41  
+606 30 PRO A 8   ? -75.05  -78.80  
+607 30 SER A 9   ? -36.09  -39.67  
+608 30 SER A 20  ? -60.36  -175.64 
+609 30 SER A 22  ? 86.96   89.84   
+610 30 SER A 23  ? 156.31  -60.81  
+611 30 PRO A 24  ? -74.94  -102.02 
+612 30 LEU A 34  ? -37.56  -30.41  
+613 30 PRO A 38  ? -75.02  -77.02  
+614 30 VAL B 306 ? 39.68   -141.02 
+615 30 GLU B 307 ? 76.35   157.92  
+616 30 ARG B 309 ? -145.72 -50.93  
+617 30 ASN B 310 ? -90.12  -83.53  
+618 30 ASP B 311 ? -173.96 -154.28 
+619 30 ARG B 336 ? -36.15  -32.74  
+620 30 ILE B 340 ? -156.20 22.68   
+621 30 GLN B 345 ? -37.38  -31.63  
+622 30 LEU B 349 ? -168.01 -54.41  
+623 30 LEU B 352 ? 15.71   -103.40 
+624 30 SER B 353 ? 165.53  -46.74  
+625 30 LEU B 355 ? 56.17   72.15   
+626 30 VAL B 356 ? -41.83  103.96  
+627 30 SER B 360 ? -162.33 87.17   
+628 31 SER A 5   ? -95.99  -141.41 
+629 31 LEU A 14  ? -65.60  -70.39  
+630 31 SER A 20  ? -53.54  -172.34 
+631 31 SER A 22  ? 87.96   71.80   
+632 31 SER A 23  ? 175.20  -63.18  
+633 31 PRO A 24  ? -74.97  -98.62  
+634 31 GLN A 26  ? -26.60  -62.41  
+635 31 THR B 304 ? 62.51   132.83  
+636 31 VAL B 306 ? 36.57   -141.59 
+637 31 GLU B 307 ? 72.09   135.61  
+638 31 ARG B 309 ? -128.74 -67.88  
+639 31 ASN B 310 ? -65.93  -76.06  
+640 31 ASP B 311 ? -177.37 -174.45 
+641 31 ARG B 336 ? -39.56  -28.77  
+642 31 ILE B 340 ? -148.17 16.32   
+643 31 GLN B 345 ? -38.48  -30.00  
+644 31 LEU B 349 ? -91.87  37.81   
+645 31 VAL B 351 ? 43.27   -169.03 
+646 31 SER B 353 ? 88.29   -50.64  
+647 31 LYS B 354 ? -40.63  102.50  
+648 31 LEU B 355 ? 67.21   89.02   
+649 31 VAL B 356 ? -37.88  102.67  
+650 32 SER A 5   ? -81.50  -155.60 
+651 32 SER A 9   ? -38.25  -37.57  
+652 32 SER A 20  ? -52.58  -173.08 
+653 32 SER A 22  ? 88.10   79.04   
+654 32 SER A 23  ? 167.07  -62.76  
+655 32 PRO A 24  ? -74.99  -96.39  
+656 32 GLN A 26  ? -27.85  -62.85  
+657 32 ASN A 37  ? -160.37 114.28  
+658 32 ASN A 55  ? 174.15  49.72   
+659 32 THR B 304 ? -64.01  -153.44 
+660 32 VAL B 306 ? 47.64   -77.88  
+661 32 GLU B 307 ? 48.27   -139.03 
+662 32 ASP B 311 ? -66.39  -174.27 
+663 32 GLU B 330 ? -65.62  -75.40  
+664 32 ARG B 336 ? -36.60  -32.47  
+665 32 GLN B 345 ? -36.14  -32.11  
+666 32 LEU B 349 ? 175.04  -35.56  
+667 32 ASP B 350 ? 84.20   -175.80 
+668 32 LEU B 352 ? -36.66  -70.06  
+669 32 SER B 353 ? 159.39  -61.21  
+670 32 LYS B 354 ? -49.50  152.52  
+671 32 VAL B 356 ? -39.07  98.98   
+672 32 SER B 360 ? 85.52   -73.59  
+673 33 ASN A 3   ? -166.68 -50.79  
+674 33 ARG A 4   ? 62.92   87.83   
+675 33 SER A 5   ? 69.99   -73.10  
+676 33 SER A 20  ? -51.10  -176.73 
+677 33 SER A 22  ? 89.35   84.26   
+678 33 SER A 23  ? 161.74  -61.79  
+679 33 PRO A 24  ? -75.03  -99.83  
+680 33 PRO A 38  ? -74.94  -72.19  
+681 33 THR B 305 ? 50.89   -176.87 
+682 33 ARG B 309 ? -134.52 -62.03  
+683 33 ASN B 310 ? 61.56   138.44  
+684 33 ASP B 311 ? 149.30  164.87  
+685 33 GLU B 317 ? -38.96  -38.33  
+686 33 ALA B 332 ? -80.68  48.61   
+687 33 ARG B 336 ? -37.64  -30.46  
+688 33 LEU B 349 ? 49.69   70.38   
+689 33 ASP B 350 ? -162.27 68.49   
+690 33 LYS B 354 ? -38.89  149.09  
+691 33 VAL B 356 ? -37.03  97.80   
+692 33 ARG B 358 ? -128.75 -64.45  
+693 33 SER B 360 ? 88.39   76.20   
+694 34 ASN A 3   ? 178.57  95.05   
+695 34 ILE A 6   ? 80.87   159.23  
+696 34 SER A 9   ? -38.83  -38.24  
+697 34 SER A 20  ? -50.60  -177.84 
+698 34 SER A 22  ? 88.79   83.65   
+699 34 SER A 23  ? 162.74  -61.30  
+700 34 PRO A 24  ? -75.02  -103.38 
+701 34 THR B 304 ? 69.55   147.43  
+702 34 VAL B 306 ? 169.39  -28.20  
+703 34 GLU B 307 ? -45.32  151.71  
+704 34 ASN B 310 ? -118.27 -165.53 
+705 34 LEU B 349 ? 51.89   93.39   
+706 34 ASP B 350 ? 178.93  -150.17 
+707 34 VAL B 351 ? 49.34   152.20  
+708 34 SER B 353 ? 62.64   -76.33  
+709 34 LYS B 354 ? -42.42  159.02  
+710 34 VAL B 356 ? -38.48  98.72   
+711 34 SER B 360 ? 84.70   76.01   
+712 35 ASN A 3   ? 177.17  109.26  
+713 35 ARG A 4   ? 57.23   160.55  
+714 35 SER A 5   ? -142.65 -148.84 
+715 35 SER A 20  ? -52.23  -172.48 
+716 35 SER A 22  ? 85.65   74.76   
+717 35 SER A 23  ? 172.07  -61.77  
+718 35 PRO A 24  ? -75.00  -95.00  
+719 35 GLN A 26  ? -28.35  -62.10  
+720 35 THR B 304 ? -66.04  -167.32 
+721 35 VAL B 306 ? 40.07   -112.44 
+722 35 GLU B 307 ? 74.70   135.77  
+723 35 ASN B 310 ? -69.97  -70.30  
+724 35 ASP B 311 ? 171.62  -173.96 
+725 35 ARG B 336 ? -38.73  -29.89  
+726 35 ILE B 340 ? -154.96 20.85   
+727 35 LEU B 349 ? 67.00   81.11   
+728 35 ASP B 350 ? 173.96  86.01   
+729 35 VAL B 351 ? -115.39 -112.75 
+730 35 SER B 353 ? 37.33   51.25   
+731 35 LEU B 355 ? 40.15   76.73   
+732 35 VAL B 356 ? -37.17  97.89   
+733 36 SER A 5   ? -65.69  -83.07  
+734 36 SER A 20  ? -54.72  -170.25 
+735 36 SER A 22  ? 83.10   86.29   
+736 36 SER A 23  ? 160.94  -62.62  
+737 36 PRO A 24  ? -75.04  -96.54  
+738 36 ASN A 37  ? -160.91 108.05  
+739 36 ASN A 55  ? -136.53 -46.77  
+740 36 THR B 304 ? 44.24   -168.40 
+741 36 THR B 305 ? -156.29 61.35   
+742 36 VAL B 306 ? -172.74 31.51   
+743 36 ASN B 310 ? -35.48  156.44  
+744 36 ASP B 311 ? 156.83  163.47  
+745 36 ASP B 350 ? 43.09   -154.44 
+746 36 LEU B 352 ? 37.65   -103.97 
+747 36 SER B 353 ? 170.33  -65.00  
+748 36 LYS B 354 ? -43.19  153.44  
+749 36 LEU B 355 ? 39.22   54.56   
+750 36 VAL B 356 ? -38.34  109.87  
+751 36 SER B 360 ? 79.01   67.31   
+752 37 SER A 5   ? 43.95   -158.58 
+753 37 PRO A 8   ? -74.95  -73.43  
+754 37 SER A 20  ? -49.95  -179.18 
+755 37 SER A 22  ? 88.50   83.98   
+756 37 SER A 23  ? 162.78  -61.16  
+757 37 PRO A 24  ? -75.00  -105.75 
+758 37 ASN A 37  ? -163.56 114.01  
+759 37 THR B 304 ? 83.49   151.29  
+760 37 THR B 305 ? -148.51 40.38   
+761 37 ARG B 309 ? -111.43 -71.28  
+762 37 ASN B 310 ? 60.63   130.54  
+763 37 ASP B 311 ? 154.00  155.15  
+764 37 GLU B 317 ? -38.81  -34.89  
+765 37 ARG B 336 ? -37.17  -31.98  
+766 37 GLN B 345 ? -29.29  -43.27  
+767 37 LEU B 349 ? -177.50 -57.42  
+768 37 ASP B 350 ? 156.88  -173.60 
+769 37 VAL B 356 ? 39.17   90.45   
+770 37 ARG B 358 ? -121.98 -68.34  
+771 37 SER B 360 ? 93.30   77.35   
+# 

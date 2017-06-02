@@ -1,0 +1,82 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:14:53
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8565.1/8565.1_protein/sequences/P54577-1_5thh-A.needle
+#    -asequence asis::MGDAPSPEEKLHLITRNLQEVLGEEKLKEILKERELKIYWGTATTGKPHVAYFVPMSKIADFLKAGCEVTILFADLHAYLDNMKAPWELLELRVSYYENVIKAMLESIGVPLEKLKFIKGTDYQLSKEYTLDVYRLSSVVTQHDSKKAGAEVVKQVEHPLLSGLLYPGLQALDEEYLKVDAQFGGIDQRKIFTFAEKYLPALGYSKRVHLMNPMVPGLTGSKMSSSEEESKIDLLDRKEDVKKKLKKAFCEPGNVENNGVLSFIKHVLFPLKSEFVILRDEKWGGNKTYTAYVDLEKDFAAEVVHPGDLKNSVEVALNKLLDPIREKFNTPALKKLASAAYPDPSKQKPMAKGPAKNSEPEEVIPSRLDIRVGKIITVEKHPDADSLYVEKIDVGEAEPRTVVSGLVQFVPKEELQDRLVVVLCNLKPQKMRGVESQGMLLCASIEGINRQVEPLDPPAGSAPGEHVFVKGYEKGQPDEELKPKKKVFEKLQADFKISEECIAQWKQTNFMTKLGSISCKSLKGGNIS
+#    -bsequence asis::XXXAPSPEEKLHLITRNLQEVLGEEKLKEILKERELKIYWGTATTGKPHVAYFVPMSKIADFLKAGCEVTILFADLHAYLDNMKAPWELLELRVSYYENVIKAMLESIGVPLEKLKFIKGTDYQLSKEYTLDVYRLSSVVTQHDSKKAGAEVVKQVEHPLLSGLLYPGLQALDEEYLKVDAQFGGIDQRKIFTFAKKYLPALGYSKRVHLMNPMVPGLTGXXXXXXXXXXKIDLLDRKEDVKKKLKKAFCEPGNVENNGVLSFIKHVLFPLKSEFVILRDEKWGGNKTYTAYVDLEKDFAAEVVHPGDLKNSVEVALNKLLDPIREKFNTPALKKLASAAYPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXY
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8565.1/8565.1_protein/sequences/P54577-1_5thh-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 586
+# Identity:     328/586 (56.0%)
+# Similarity:   329/586 (56.1%)
+# Gaps:         243/586 (41.5%)
+# Score: 1642.5
+# 
+#
+#=======================================
+
+asis               1 MGDAPSPEEKLHLITRNLQEVLGEEKLKEILKERELKIYWGTATTGKPHV     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXAPSPEEKLHLITRNLQEVLGEEKLKEILKERELKIYWGTATTGKPHV     50
+
+asis              51 AYFVPMSKIADFLKAGCEVTILFADLHAYLDNMKAPWELLELRVSYYENV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 AYFVPMSKIADFLKAGCEVTILFADLHAYLDNMKAPWELLELRVSYYENV    100
+
+asis             101 IKAMLESIGVPLEKLKFIKGTDYQLSKEYTLDVYRLSSVVTQHDSKKAGA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 IKAMLESIGVPLEKLKFIKGTDYQLSKEYTLDVYRLSSVVTQHDSKKAGA    150
+
+asis             151 EVVKQVEHPLLSGLLYPGLQALDEEYLKVDAQFGGIDQRKIFTFAEKYLP    200
+                     |||||||||||||||||||||||||||||||||||||||||||||:||||
+asis             151 EVVKQVEHPLLSGLLYPGLQALDEEYLKVDAQFGGIDQRKIFTFAKKYLP    200
+
+asis             201 ALGYSKRVHLMNPMVPGLTGSKMSSSEEESKIDLLDRKEDVKKKLKKAFC    250
+                     ||||||||||||||||||||..........||||||||||||||||||||
+asis             201 ALGYSKRVHLMNPMVPGLTGXXXXXXXXXXKIDLLDRKEDVKKKLKKAFC    250
+
+asis             251 EPGNVENNGVLSFIKHVLFPLKSEFVILRDEKWGGNKTYTAYVDLEKDFA    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 EPGNVENNGVLSFIKHVLFPLKSEFVILRDEKWGGNKTYTAYVDLEKDFA    300
+
+asis             301 AEVVHPGDLKNSVEVALNKLLDPIREKFNTPALKKLASAAYPD-------    343
+                     ||||||||||||||||||||||||||||||||||||||||||.       
+asis             301 AEVVHPGDLKNSVEVALNKLLDPIREKFNTPALKKLASAAYPXXXXXXXX    350
+
+asis             343 --------------------------------------------------    343
+                                                                       
+asis             351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    400
+
+asis             344 -PSKQKPMAKGPAKNSEPEEVIPSRLDIRVGKIITVEKHPDADSLYVEKI    392
+                                                                       
+asis             401 Y-------------------------------------------------    401
+
+asis             393 DVGEAEPRTVVSGLVQFVPKEELQDRLVVVLCNLKPQKMRGVESQGMLLC    442
+                                                                       
+asis             401 --------------------------------------------------    401
+
+asis             443 ASIEGINRQVEPLDPPAGSAPGEHVFVKGYEKGQPDEELKPKKKVFEKLQ    492
+                                                                       
+asis             401 --------------------------------------------------    401
+
+asis             493 ADFKISEECIAQWKQTNFMTKLGSISCKSLKGGNIS    528
+                                                         
+asis             401 ------------------------------------    401
+
+
+#---------------------------------------
+#---------------------------------------

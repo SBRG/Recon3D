@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:34:37
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4056.1/4056.1_protein/sequences/Q16873-1_3pcv-A.needle
+#    -asequence asis::MKDEVALLAAVTLLGVLLQAYFSLQVISARRAFRVSPPLTTGPPEFERVYRAQVNCSEYFPLFLATLWVAGIFFHEGAAALCGLVYLFARLRYFQGYARSAQLRLAPLYASARALWLLVALAALGLLAHFLPAALRAALLGRLRTLLPWA
+#    -bsequence asis::MKDEVALLAAVTLLGVLLQAYFSLQVISARRAFRVSPPLTTGPPEFERVYRAQVNCSEYFPLFLATLWVAGIFFHEGAAALCGLVYLFARLRYFQGYARSAQLRLAPLYASARALWLLVALAALGLLAHFLPAALRAALLGRLRTL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4056.1/4056.1_protein/sequences/Q16873-1_3pcv-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 150
+# Identity:     146/150 (97.3%)
+# Similarity:   146/150 (97.3%)
+# Gaps:           4/150 ( 2.7%)
+# Score: 728.0
+# 
+#
+#=======================================
+
+asis               1 MKDEVALLAAVTLLGVLLQAYFSLQVISARRAFRVSPPLTTGPPEFERVY     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MKDEVALLAAVTLLGVLLQAYFSLQVISARRAFRVSPPLTTGPPEFERVY     50
+
+asis              51 RAQVNCSEYFPLFLATLWVAGIFFHEGAAALCGLVYLFARLRYFQGYARS    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 RAQVNCSEYFPLFLATLWVAGIFFHEGAAALCGLVYLFARLRYFQGYARS    100
+
+asis             101 AQLRLAPLYASARALWLLVALAALGLLAHFLPAALRAALLGRLRTLLPWA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||    
+asis             101 AQLRLAPLYASARALWLLVALAALGLLAHFLPAALRAALLGRLRTL----    146
+
+
+#---------------------------------------
+#---------------------------------------

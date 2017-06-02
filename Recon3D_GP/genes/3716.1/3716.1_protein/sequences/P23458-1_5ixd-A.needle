@@ -1,0 +1,130 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 18:11:21
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3716.1/3716.1_protein/sequences/P23458-1_5ixd-A.needle
+#    -asequence asis::MQYLNIKEDCNAMAFCAKMRSSKKTEVNLEAPEPGVEVIFYLSDREPLRLGSGEYTAEELCIRAAQACRISPLCHNLFALYDENTKLWYAPNRTITVDDKMSLRLHYRMRFYFTNWHGTNDNEQSVWRHSPKKQKNGYEKKKIPDATPLLDASSLEYLFAQGQYDLVKCLAPIRDPKTEQDGHDIENECLGMAVLAISHYAMMKKMQLPELPKDISYKRYIPETLNKSIRQRNLLTRMRINNVFKDFLKEFNNKTICDSSVSTHDLKVKYLATLETLTKHYGAEIFETSMLLISSENEMNWFHSNDGGNVLYYEVMVTGNLGIQWRHKPNVVSVEKEKNKLKRKKLENKHKKDEEKNKIREEWNNFSYFPEITHIVIKESVVSINKQDNKKMELKLSSHEEALSFVSLVDGYFRLTADAHHYLCTDVAPPLIVHNIQNGCHGPICTEYAINKLRQEGSEEGMYVLRWSCTDFDNILMTVTCFEKSEQVQGAQKQFKNFQIEVQKGRYSLHGSDRSFPSLGDLMSHLKKQILRTDNISFMLKRCCQPKPREISNLLVATKKAQEWQPVYPMSQLSFDRILKKDLVQGEHLGRGTRTHIYSGTLMDYKDDEGTSEEKKIKVILKVLDPSHRDISLAFFEAASMMRQVSHKHIVYLYGVCVRDVENIMVEEFVEGGPLDLFMHRKSDVLTTPWKFKVAKQLASALSYLEDKDLVHGNVCTKNLLLAREGIDSECGPFIKLSDPGIPITVLSRQECIERIPWIAPECVEDSKNLSVAADKWSFGTTLWEICYNGEIPLKDKTLIEKERFYESRCRPVTPSCKELADLMTRCMNYDPNQRPFFRAIMRDINKLEEQNPDIVSEKKPATEVDPTHFEKRFLKRIRDLGEGHFGKVELCRYDPEGDNTGEQVAVKSLKPESGGNHIADLKKEIEILRNLYHENIVKYKGICTEDGGNGIKLIMEFLPSGSLKEYLPKNKNKINLKQQLKYAVQICKGMDYLGSRQYVHRDLAARNVLVESEHQVKIGDFGLTKAIETDKEYYTVKDDRDSPVFWYAPECLMQSKFYIASDVWSFGVTLHELLTYCDSDSSPMALFLKMIGPTHGQMTVTRLVNTLKEGKRLPCPPNCPDEVYQLMRKCWEFQPSNRTSFQNLIEGFEALLK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXVEVIFYLSDREPLRLGSGEYTAEELCIRAAQACRISPLCHNLFALYDENTKLWYAPNRTITVXXXMSLRLHYRMRFYFTNWHGTNDNEQSVWRHSPXXXXXXXXXXXXXXXTPLLDASSLEYLFAQGQYDLVKCLAPIRDPKTEQDGHDIENECLGMAVLAISHYAMMKKMQLPELPXXISYKRYIPETLNKSIRQRNLLTRMRINNVFKDFLKEFNNKTICDSSVSTHDLKVKYLATLETLTKHYGAEIFETSMLLISSENEMNWFHSXXXXXXLYYEVMVTGNLGIQWRHKPNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEEWNNFSFFPEITHIVIKESVVSINKQDNKKMELKLSSHEEALSFVSLVDGYFRLTADAHHYLCTDVAPPLIVHNIQNGCHGPICTEYAINKLRQEXXXXXXYVLRWSCTDFDNILXXXXXXXXXXXXXXXXXXXXXXXIEVQKXRYSLHGSDRSFPSLGDLMSHLXXXXXXXXXXXXXXXXXCQPKPREISNLLVAT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3716.1/3716.1_protein/sequences/P23458-1_5ixd-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1189
+# Identity:     419/1189 (35.2%)
+# Similarity:   420/1189 (35.3%)
+# Gaps:         666/1189 (56.0%)
+# Score: 2118.0
+# 
+#
+#=======================================
+
+asis               1 MQYLNIKEDCNAMAFCAKMRSSKKTEVNLEAPEPG---------------     35
+                                                                       
+asis               1 -----------------------------------XXXXXXXXXXXXXXX     15
+
+asis              36 --------------------VEVIFYLSDREPLRLGSGEYTAEELCIRAA     65
+                                         ||||||||||||||||||||||||||||||
+asis              16 XXXXXXXXXXXXXXXXXXXXVEVIFYLSDREPLRLGSGEYTAEELCIRAA     65
+
+asis              66 QACRISPLCHNLFALYDENTKLWYAPNRTITVDDKMSLRLHYRMRFYFTN    115
+                     ||||||||||||||||||||||||||||||||...|||||||||||||||
+asis              66 QACRISPLCHNLFALYDENTKLWYAPNRTITVXXXMSLRLHYRMRFYFTN    115
+
+asis             116 WHGTNDNEQSVWRHSPKKQKNGYEKKKIPDATPLLDASSLEYLFAQGQYD    165
+                     ||||||||||||||||...............|||||||||||||||||||
+asis             116 WHGTNDNEQSVWRHSPXXXXXXXXXXXXXXXTPLLDASSLEYLFAQGQYD    165
+
+asis             166 LVKCLAPIRDPKTEQDGHDIENECLGMAVLAISHYAMMKKMQLPELPKDI    215
+                     |||||||||||||||||||||||||||||||||||||||||||||||..|
+asis             166 LVKCLAPIRDPKTEQDGHDIENECLGMAVLAISHYAMMKKMQLPELPXXI    215
+
+asis             216 SYKRYIPETLNKSIRQRNLLTRMRINNVFKDFLKEFNNKTICDSSVSTHD    265
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             216 SYKRYIPETLNKSIRQRNLLTRMRINNVFKDFLKEFNNKTICDSSVSTHD    265
+
+asis             266 LKVKYLATLETLTKHYGAEIFETSMLLISSENEMNWFHSNDGGNVLYYEV    315
+                     |||||||||||||||||||||||||||||||||||||||......|||||
+asis             266 LKVKYLATLETLTKHYGAEIFETSMLLISSENEMNWFHSXXXXXXLYYEV    315
+
+asis             316 MVTGNLGIQWRHKPNVVSVEKEKNKLKRKKLENKHKKDEEKNKIREEWNN    365
+                     |||||||||||||||..............................|||||
+asis             316 MVTGNLGIQWRHKPNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEEWNN    365
+
+asis             366 FSYFPEITHIVIKESVVSINKQDNKKMELKLSSHEEALSFVSLVDGYFRL    415
+                     ||:|||||||||||||||||||||||||||||||||||||||||||||||
+asis             366 FSFFPEITHIVIKESVVSINKQDNKKMELKLSSHEEALSFVSLVDGYFRL    415
+
+asis             416 TADAHHYLCTDVAPPLIVHNIQNGCHGPICTEYAINKLRQEGSEEGMYVL    465
+                     |||||||||||||||||||||||||||||||||||||||||......|||
+asis             416 TADAHHYLCTDVAPPLIVHNIQNGCHGPICTEYAINKLRQEXXXXXXYVL    465
+
+asis             466 RWSCTDFDNILMTVTCFEKSEQVQGAQKQFKNFQIEVQKGRYSLHGSDRS    515
+                     |||||||||||.......................|||||.||||||||||
+asis             466 RWSCTDFDNILXXXXXXXXXXXXXXXXXXXXXXXIEVQKXRYSLHGSDRS    515
+
+asis             516 FPSLGDLMSHLKKQILRTDNISFMLKRCCQPKPREISNLLVATKKAQEWQ    565
+                     |||||||||||.................|||||||||||||||       
+asis             516 FPSLGDLMSHLXXXXXXXXXXXXXXXXXCQPKPREISNLLVAT-------    558
+
+asis             566 PVYPMSQLSFDRILKKDLVQGEHLGRGTRTHIYSGTLMDYKDDEGTSEEK    615
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis             616 KIKVILKVLDPSHRDISLAFFEAASMMRQVSHKHIVYLYGVCVRDVENIM    665
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis             666 VEEFVEGGPLDLFMHRKSDVLTTPWKFKVAKQLASALSYLEDKDLVHGNV    715
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis             716 CTKNLLLAREGIDSECGPFIKLSDPGIPITVLSRQECIERIPWIAPECVE    765
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis             766 DSKNLSVAADKWSFGTTLWEICYNGEIPLKDKTLIEKERFYESRCRPVTP    815
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis             816 SCKELADLMTRCMNYDPNQRPFFRAIMRDINKLEEQNPDIVSEKKPATEV    865
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis             866 DPTHFEKRFLKRIRDLGEGHFGKVELCRYDPEGDNTGEQVAVKSLKPESG    915
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis             916 GNHIADLKKEIEILRNLYHENIVKYKGICTEDGGNGIKLIMEFLPSGSLK    965
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis             966 EYLPKNKNKINLKQQLKYAVQICKGMDYLGSRQYVHRDLAARNVLVESEH   1015
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis            1016 QVKIGDFGLTKAIETDKEYYTVKDDRDSPVFWYAPECLMQSKFYIASDVW   1065
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis            1066 SFGVTLHELLTYCDSDSSPMALFLKMIGPTHGQMTVTRLVNTLKEGKRLP   1115
+                                                                       
+asis             558 --------------------------------------------------    558
+
+asis            1116 CPPNCPDEVYQLMRKCWEFQPSNRTSFQNLIEGFEALLK   1154
+                                                            
+asis             558 ---------------------------------------    558
+
+
+#---------------------------------------
+#---------------------------------------

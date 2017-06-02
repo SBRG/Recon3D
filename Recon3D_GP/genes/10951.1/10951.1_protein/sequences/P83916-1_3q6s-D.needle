@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:10:49
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10951.1/10951.1_protein/sequences/P83916-1_3q6s-D.needle
+#    -asequence asis::MGKKQNKKKVEEVLEEEEEEYVVEKVLDRRVVKGKVEYLLKWKGFSDEDNTWEPEENLDCPDLIAEFLQSQKTAHETDKSEGGKRKADSDSEDKGEESKPKKKKEESEKPRGFARGLEPERIIGATDSSGELMFLMKWKNSDEADLVPAKEANVKCPQVVISFYEERLTWHSYPSEDDDKKDDKN
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXPRGFARGLEPERIIGATDSSGELMFLMKWKNSDEADLVPAKEANVKCPQVVISFYEERLTWHSYP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10951.1/10951.1_protein/sequences/P83916-1_3q6s-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 294
+# Identity:      65/294 (22.1%)
+# Similarity:    65/294 (22.1%)
+# Gaps:         229/294 (77.9%)
+# Score: 284.0
+# 
+#
+#=======================================
+
+asis               1 MGKKQNKKKVEEVLEEEEEEYVVEKVLDRRVVKGKVEYLLKWKGFSDEDN     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 TWEPEENLDCPDLIAEFLQSQKTAHETDKSEGGKRKADSDSEDKGEESKP    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 KKKKEESEK-----------------------------------------    109
+                                                                       
+asis               1 ---------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     41
+
+asis             109 --------------------------------------------------    109
+                                                                       
+asis              42 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     91
+
+asis             110 ------------------PRGFARGLEPERIIGATDSSGELMFLMKWKNS    141
+                                       ||||||||||||||||||||||||||||||||
+asis              92 XXXXXXXXXXXXXXXXXXPRGFARGLEPERIIGATDSSGELMFLMKWKNS    141
+
+asis             142 DEADLVPAKEANVKCPQVVISFYEERLTWHSYPSEDDDKKDDKN    185
+                     |||||||||||||||||||||||||||||||||           
+asis             142 DEADLVPAKEANVKCPQVVISFYEERLTWHSYP-----------    174
+
+
+#---------------------------------------
+#---------------------------------------

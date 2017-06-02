@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:34:30
+# Commandline: needle
+#    -outfile ./Recon3D/genes/11343.2/11343.2_protein/sequences/Q99685-2_3jwe-A.needle
+#    -asequence asis::METGPEDPSSMPEESSPRRTPQSIPYQDLPHLVNADGQYLFCRYWKPTGTPKALIFVSHGAGEHSGRYEELARMLMGLDLLVFAHDHVGHGQSEGERMVVSDFHVFVRDVLQHVDSMQKDYPGLPVFLLGHSMGGAIAILTAAERPGHFAGMVLISPLVLANPESATTFKVDIYNSDPLICRAGLKVCFGIQLLNAVSRVERALPKLTVPFLLLQGSADRLCDSKGAYLLMELAKSQDKTLKIYEGAYHVLHKELPEVTNSVFHEINMWVSQRTATAGTASPP
+#    -bsequence asis::XXXXXXXXXXXXXXXSPRRTPQSIPYQDLPHLVNADGQYLFCRYWKPTGTPKALIFVSHGAGEHSGRYEELARMLMGLDLLVFAHDHVGHGQSEGERMVVSDFHVFVRDVLQHVDSMQKDYPGLPVFLLGHSMGGAIAILTAAERPGHFAGMVLISPLVLAXXXXXXXXXXXXXXXXXXXLPNLSLGPIDSSVLSRNKTEVDIYNSDPLICRAGLKVCFGIQLLNAVSRVERALPKLTVPFLLLQGSADRLCDSKGAYLLMELAKSQDKTLKIYEGAYHVLHKELPEVTNSVFHEINMWVSQRTA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/11343.2/11343.2_protein/sequences/Q99685-2_3jwe-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 313
+# Identity:     253/313 (80.8%)
+# Similarity:   254/313 (81.2%)
+# Gaps:          38/313 (12.1%)
+# Score: 1275.0
+# 
+#
+#=======================================
+
+asis               1 METGPEDPSSMPEESSPRRTPQSIPYQDLPHLVNADGQYLFCRYWKPTGT     50
+                     ...............|||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXSPRRTPQSIPYQDLPHLVNADGQYLFCRYWKPTGT     50
+
+asis              51 PKALIFVSHGAGEHSGRYEELARMLMGLDLLVFAHDHVGHGQSEGERMVV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 PKALIFVSHGAGEHSGRYEELARMLMGLDLLVFAHDHVGHGQSEGERMVV    100
+
+asis             101 SDFHVFVRDVLQHVDSMQKDYPGLPVFLLGHSMGGAIAILTAAERPGHFA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 SDFHVFVRDVLQHVDSMQKDYPGLPVFLLGHSMGGAIAILTAAERPGHFA    150
+
+asis             151 GMVLISPLVLAN-------------------PE-----------SATTFK    170
+                     |||||||||||.                   |.           |....:
+asis             151 GMVLISPLVLAXXXXXXXXXXXXXXXXXXXLPNLSLGPIDSSVLSRNKTE    200
+
+asis             171 VDIYNSDPLICRAGLKVCFGIQLLNAVSRVERALPKLTVPFLLLQGSADR    220
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 VDIYNSDPLICRAGLKVCFGIQLLNAVSRVERALPKLTVPFLLLQGSADR    250
+
+asis             221 LCDSKGAYLLMELAKSQDKTLKIYEGAYHVLHKELPEVTNSVFHEINMWV    270
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 LCDSKGAYLLMELAKSQDKTLKIYEGAYHVLHKELPEVTNSVFHEINMWV    300
+
+asis             271 SQRTATAGTASPP    283
+                     |||||        
+asis             301 SQRTA--------    305
+
+
+#---------------------------------------
+#---------------------------------------

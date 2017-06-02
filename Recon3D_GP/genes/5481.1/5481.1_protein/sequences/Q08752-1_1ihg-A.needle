@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:42:39
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5481.1/5481.1_protein/sequences/Q08752-1_1ihg-A.needle
+#    -asequence asis::MSHPSPQAKPSNPSNPRVFFDVDIGGERVGRIVLELFADIVPKTAENFRALCTGEKGIGHTTGKPLHFKGCPFHRIIKKFMIQGGDFSNQNGTGGESIYGEKFEDENFHYKHDREGLLSMANAGRNTNGSQFFITTVPTPHLDGKHVVFGQVIKGIGVARILENVEVKGEKPAKLCVIAECGELKEGDDGGIFPKDGSGDSHPDFPEDADIDLKDVDKILLITEDLKNIGNTFFKSQNWEMAIKKYAEVLRYVDSSKAVIETADRAKLQPIALSCVLNIGACKLKMSNWQGAIDSCLEALELDPSNTKALYRRAQGWQGLKEYDQALADLKKAQGIAPEDKAIQAELLKVKQKIKAQKDKEKAVYAKMFA
+#    -bsequence asis::XSHPSPQAKPSNPSNPRVFFDVDIGGERVGRIVLELFADIVPKTAENFRALCTGEKGIGPTTGKPLHFKGCPFHRIIKKFMIQGGDFSNQNGTGGESIYGEKFEDENFHYKHDKEGLLSMANAGSNTNGSQFFITTVPTPHLDGKHVVFGQVIKGMGVAKILENVEVKGEKPAKLCVIAECGELKEGDDWGIFPKDGSGDSHPDFPEDADVDLKDVDKILLISEDLKNIGNTFFKSQNWEMAIKKYTKVLRYVEGSRAAAEDADGAKLQPVALSCVLNIGACKLKMSDWQGAVDSCLEALEIDPSNTKALYRRAQGWQGLKEYDQALADLKKAQEIAPEDKAIQAELLKVKQKIKAQKDKEKAAY
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5481.1/5481.1_protein/sequences/Q08752-1_1ihg-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 370
+# Identity:     341/370 (92.2%)
+# Similarity:   353/370 (95.4%)
+# Gaps:           5/370 ( 1.4%)
+# Score: 1813.0
+# 
+#
+#=======================================
+
+asis               1 MSHPSPQAKPSNPSNPRVFFDVDIGGERVGRIVLELFADIVPKTAENFRA     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XSHPSPQAKPSNPSNPRVFFDVDIGGERVGRIVLELFADIVPKTAENFRA     50
+
+asis              51 LCTGEKGIGHTTGKPLHFKGCPFHRIIKKFMIQGGDFSNQNGTGGESIYG    100
+                     |||||||||.||||||||||||||||||||||||||||||||||||||||
+asis              51 LCTGEKGIGPTTGKPLHFKGCPFHRIIKKFMIQGGDFSNQNGTGGESIYG    100
+
+asis             101 EKFEDENFHYKHDREGLLSMANAGRNTNGSQFFITTVPTPHLDGKHVVFG    150
+                     |||||||||||||:||||||||||.|||||||||||||||||||||||||
+asis             101 EKFEDENFHYKHDKEGLLSMANAGSNTNGSQFFITTVPTPHLDGKHVVFG    150
+
+asis             151 QVIKGIGVARILENVEVKGEKPAKLCVIAECGELKEGDDGGIFPKDGSGD    200
+                     |||||:|||:|||||||||||||||||||||||||||||.||||||||||
+asis             151 QVIKGMGVAKILENVEVKGEKPAKLCVIAECGELKEGDDWGIFPKDGSGD    200
+
+asis             201 SHPDFPEDADIDLKDVDKILLITEDLKNIGNTFFKSQNWEMAIKKYAEVL    250
+                     ||||||||||:|||||||||||:|||||||||||||||||||||||.:||
+asis             201 SHPDFPEDADVDLKDVDKILLISEDLKNIGNTFFKSQNWEMAIKKYTKVL    250
+
+asis             251 RYVDSSKAVIETADRAKLQPIALSCVLNIGACKLKMSNWQGAIDSCLEAL    300
+                     |||:.|:|..|.||.|||||:||||||||||||||||:||||:|||||||
+asis             251 RYVEGSRAAAEDADGAKLQPVALSCVLNIGACKLKMSDWQGAVDSCLEAL    300
+
+asis             301 ELDPSNTKALYRRAQGWQGLKEYDQALADLKKAQGIAPEDKAIQAELLKV    350
+                     |:||||||||||||||||||||||||||||||||.|||||||||||||||
+asis             301 EIDPSNTKALYRRAQGWQGLKEYDQALADLKKAQEIAPEDKAIQAELLKV    350
+
+asis             351 KQKIKAQKDKEKAVYAKMFA    370
+                     |||||||||||||.|     
+asis             351 KQKIKAQKDKEKAAY-----    365
+
+
+#---------------------------------------
+#---------------------------------------

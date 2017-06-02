@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:24
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2882.1/2882.1_protein/sequences/Q96SL4-1_2p31-A.needle
+#    -asequence asis::MVAATVAAAWLLLWAAACAQQEQDFYDFKAVNIRGKLVSLEKYRGSVSLVVNVASECGFTDQHYRALQQLQRDLGPHHFNVLAFPCNQFGQQEPDSNKEIESFARRTYSVSFPMFSKIAVTGTGAHPAFKYLAQTSGKEPTWNFWKYLVAPDGKVVGAWDPTVSVEEVRPQITALVRKLILLKREDL
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXQDFYDFKAVNIRGKLVSLEKYRGSVSLVVNVASECGFTDQHYRALQQLQRDLGPHHFNVLAFPCNQFGQQEPDSNKEIESFARRTYSVSFPMFSKIAVTGTGAHPAFKYLAQTSGKEPTWNFWKYLVAPDGKVVGAWDPTVSVEEVRPQITALVR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2882.1/2882.1_protein/sequences/Q96SL4-1_2p31-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 187
+# Identity:     155/187 (82.9%)
+# Similarity:   155/187 (82.9%)
+# Gaps:          10/187 ( 5.3%)
+# Score: 809.0
+# 
+#
+#=======================================
+
+asis               1 MVAATVAAAWLLLWAAACAQQEQDFYDFKAVNIRGKLVSLEKYRGSVSLV     50
+                     ......................||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXXXQDFYDFKAVNIRGKLVSLEKYRGSVSLV     50
+
+asis              51 VNVASECGFTDQHYRALQQLQRDLGPHHFNVLAFPCNQFGQQEPDSNKEI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 VNVASECGFTDQHYRALQQLQRDLGPHHFNVLAFPCNQFGQQEPDSNKEI    100
+
+asis             101 ESFARRTYSVSFPMFSKIAVTGTGAHPAFKYLAQTSGKEPTWNFWKYLVA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 ESFARRTYSVSFPMFSKIAVTGTGAHPAFKYLAQTSGKEPTWNFWKYLVA    150
+
+asis             151 PDGKVVGAWDPTVSVEEVRPQITALVRKLILLKREDL    187
+                     |||||||||||||||||||||||||||          
+asis             151 PDGKVVGAWDPTVSVEEVRPQITALVR----------    177
+
+
+#---------------------------------------
+#---------------------------------------

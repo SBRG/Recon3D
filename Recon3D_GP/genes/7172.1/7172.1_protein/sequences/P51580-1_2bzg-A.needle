@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:44:05
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7172.1/7172.1_protein/sequences/P51580-1_2bzg-A.needle
+#    -asequence asis::MDGTRTSLDIEEYSDTEVQKNQVLTLEEWQDKWVNGKTAFHQEQGHQLLKKHLDTFLKGKSGLRVFFPLCGKAVEMKWFADRGHSVVGVEISELGIQEFFTEQNLSYSEEPITEIPGTKVFKSSSGNISLYCCSIFDLPRTNIGKFDMIWDRGALVAINPGDRKCYADTMFSLLGKKFQYLLCVLSYDPTKHPGPPFYVPHAEIERLFGKICNIRCLEKVDAFEERHKSWGIDCLFEKLYLLTEK
+#    -bsequence asis::XXXXXXXXXXXXXXXXEVQKNQVLTLEEWQDKWVNGKTAFHQEQGHQLLKKHLDTFLKGKSGLRVFFPLCGKAVEXKWFADRGHSVVGVEISELGIQEFFTEQNLSYSEEPITEIPGTKVFKSSSGNISLYCCSIFDLPRTNIGKFDXIWDRGALVAINPGDRKCYADTXFSLLGKKFQYLLCVLSYDPTKHPGPPFYVPHAEIERLFGKICNIRCLEKVDAFEERHKSWGIDCLFEKLYLLTEK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7172.1/7172.1_protein/sequences/P51580-1_2bzg-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:     226/245 (92.2%)
+# Similarity:   226/245 (92.2%)
+# Gaps:           0/245 ( 0.0%)
+# Score: 1213.0
+# 
+#
+#=======================================
+
+asis               1 MDGTRTSLDIEEYSDTEVQKNQVLTLEEWQDKWVNGKTAFHQEQGHQLLK     50
+                     ................||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXEVQKNQVLTLEEWQDKWVNGKTAFHQEQGHQLLK     50
+
+asis              51 KHLDTFLKGKSGLRVFFPLCGKAVEMKWFADRGHSVVGVEISELGIQEFF    100
+                     |||||||||||||||||||||||||.||||||||||||||||||||||||
+asis              51 KHLDTFLKGKSGLRVFFPLCGKAVEXKWFADRGHSVVGVEISELGIQEFF    100
+
+asis             101 TEQNLSYSEEPITEIPGTKVFKSSSGNISLYCCSIFDLPRTNIGKFDMIW    150
+                     |||||||||||||||||||||||||||||||||||||||||||||||.||
+asis             101 TEQNLSYSEEPITEIPGTKVFKSSSGNISLYCCSIFDLPRTNIGKFDXIW    150
+
+asis             151 DRGALVAINPGDRKCYADTMFSLLGKKFQYLLCVLSYDPTKHPGPPFYVP    200
+                     |||||||||||||||||||.||||||||||||||||||||||||||||||
+asis             151 DRGALVAINPGDRKCYADTXFSLLGKKFQYLLCVLSYDPTKHPGPPFYVP    200
+
+asis             201 HAEIERLFGKICNIRCLEKVDAFEERHKSWGIDCLFEKLYLLTEK    245
+                     |||||||||||||||||||||||||||||||||||||||||||||
+asis             201 HAEIERLFGKICNIRCLEKVDAFEERHKSWGIDCLFEKLYLLTEK    245
+
+
+#---------------------------------------
+#---------------------------------------

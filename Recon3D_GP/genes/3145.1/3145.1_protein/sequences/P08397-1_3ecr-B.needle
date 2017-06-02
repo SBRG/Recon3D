@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:01:16
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3145.1/3145.1_protein/sequences/P08397-1_3ecr-B.needle
+#    -asequence asis::MSGNGNAAATAEENSPKMRVIRVGTRKSQLARIQTDSVVATLKASYPGLQFEIIAMSTTGDKILDTALSKIGEKSLFTKELEHALEKNEVDLVVHSLKDLPTVLPPGFTIGAICKRENPHDAVVFHPKFVGKTLETLPEKSVVGTSSLRRAAQLQRKFPHLEFRSIRGNLNTRLRKLDEQQEFSAIILATAGLQRMGWHNRVGQILHPEECMYAVGQGALGVEVRAKDQDILDLVGVLHDPETLLRCIAERAFLRHLEGGCSVPVAVHTAMKDGQLYLTGGVWSLDGSDSIQETMQATIHVPAQHEDGPEDDPQLVGITARNIPRGPQLAAQNLGISLANLLLSKGAKNILDVARQLNDAH
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXRVIRVGTRKSQLARIQTDSVVATLKASYPGLQFEIIAMXXXXXXXXXXXXXKIGEKSLFTKELEHALEKNEVDLVVHSLKDLPTVLPPGFTIGAICKRENPHDAVVFHPKFVGKTLETLPEKSVVGTSSLRRAAQLQRKFPHLEFRSIRGNLNTRLRKLDEQQEFSAIILATAGLQRMGWHNRVGQILHPEECMYAVGQGALGVEVRAKDQDILDLVGVLHDPETLLRCIAERAFLRHLEXXCSVPVAVHTAMKDGQLYLTGGVWSLDGSDSIQETMQATIHXXXXXXXXXXXXPQLVGITARNIPRGPQLAAQNLGISLANLLLSKGAKNILDVAR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3145.1/3145.1_protein/sequences/P08397-1_3ecr-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 364
+# Identity:     310/364 (85.2%)
+# Similarity:   310/364 (85.2%)
+# Gaps:           9/364 ( 2.5%)
+# Score: 1539.0
+# 
+#
+#=======================================
+
+asis               1 ---MSGNGNAAATAEENSPKMRVIRVGTRKSQLARIQTDSVVATLKASYP     47
+                        ..................|||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXXRVIRVGTRKSQLARIQTDSVVATLKASYP     50
+
+asis              48 GLQFEIIAMSTTGDKILDTALSKIGEKSLFTKELEHALEKNEVDLVVHSL     97
+                     |||||||||.............||||||||||||||||||||||||||||
+asis              51 GLQFEIIAMXXXXXXXXXXXXXKIGEKSLFTKELEHALEKNEVDLVVHSL    100
+
+asis              98 KDLPTVLPPGFTIGAICKRENPHDAVVFHPKFVGKTLETLPEKSVVGTSS    147
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 KDLPTVLPPGFTIGAICKRENPHDAVVFHPKFVGKTLETLPEKSVVGTSS    150
+
+asis             148 LRRAAQLQRKFPHLEFRSIRGNLNTRLRKLDEQQEFSAIILATAGLQRMG    197
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 LRRAAQLQRKFPHLEFRSIRGNLNTRLRKLDEQQEFSAIILATAGLQRMG    200
+
+asis             198 WHNRVGQILHPEECMYAVGQGALGVEVRAKDQDILDLVGVLHDPETLLRC    247
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 WHNRVGQILHPEECMYAVGQGALGVEVRAKDQDILDLVGVLHDPETLLRC    250
+
+asis             248 IAERAFLRHLEGGCSVPVAVHTAMKDGQLYLTGGVWSLDGSDSIQETMQA    297
+                     |||||||||||..|||||||||||||||||||||||||||||||||||||
+asis             251 IAERAFLRHLEXXCSVPVAVHTAMKDGQLYLTGGVWSLDGSDSIQETMQA    300
+
+asis             298 TIHVPAQHEDGPEDDPQLVGITARNIPRGPQLAAQNLGISLANLLLSKGA    347
+                     |||............|||||||||||||||||||||||||||||||||||
+asis             301 TIHXXXXXXXXXXXXPQLVGITARNIPRGPQLAAQNLGISLANLLLSKGA    350
+
+asis             348 KNILDVARQLNDAH    361
+                     ||||||||      
+asis             351 KNILDVAR------    358
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:25
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10935.2/10935.2_protein/sequences/P30048-2_5jcg-C.needle
+#    -asequence asis::MAAAVGRLLRASVARHVSAIPWGISATAALRPAACGRTSLTNLLCSGSSQAPYFKGTAVVNGEFKDLSLDDFKGKYLVLFFYPLDFTFVCPTEIVAFSDKANEFHDVNCEVVAVSVDSHFSHLAWINTPRKNGGLGHMNIALLSDLTKQISRDYGVLLEGSGLALRGLFIIDPNGVIKHLSVNDLPVGRSVEETLRLVKAFQYVETHGEVCPANWTPDSPTIKPSPAASKEYFQKVNQ
+#    -bsequence asis::TAPAVTQHAPYFKGTAVVNGEFKDLSLDDFKGKYLVLFFYPLDFTFVCPTEIVAFSDKANEFHDVNCEVVAVSVDSHFSHLAWINTPRKNGGLGHMNIALLSDLTKQISRDYGVLLEGSGLALRGLFIIDPNGVIKHLSVNDLPVGRSVEETLRLVKAFQYVETHGEVCPANWTPDSPTIKPSPAASKEYFQKVN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10935.2/10935.2_protein/sequences/P30048-2_5jcg-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 238
+# Identity:     187/238 (78.6%)
+# Similarity:   189/238 (79.4%)
+# Gaps:          43/238 (18.1%)
+# Score: 982.0
+# 
+#
+#=======================================
+
+asis               1 MAAAVGRLLRASVARHVSAIPWGISATAALRPAACGRTSLTNLLCSGSSQ     50
+                                                               ...:.:..
+asis               1 ------------------------------------------TAPAVTQH      8
+
+asis              51 APYFKGTAVVNGEFKDLSLDDFKGKYLVLFFYPLDFTFVCPTEIVAFSDK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               9 APYFKGTAVVNGEFKDLSLDDFKGKYLVLFFYPLDFTFVCPTEIVAFSDK     58
+
+asis             101 ANEFHDVNCEVVAVSVDSHFSHLAWINTPRKNGGLGHMNIALLSDLTKQI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              59 ANEFHDVNCEVVAVSVDSHFSHLAWINTPRKNGGLGHMNIALLSDLTKQI    108
+
+asis             151 SRDYGVLLEGSGLALRGLFIIDPNGVIKHLSVNDLPVGRSVEETLRLVKA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             109 SRDYGVLLEGSGLALRGLFIIDPNGVIKHLSVNDLPVGRSVEETLRLVKA    158
+
+asis             201 FQYVETHGEVCPANWTPDSPTIKPSPAASKEYFQKVNQ    238
+                     ||||||||||||||||||||||||||||||||||||| 
+asis             159 FQYVETHGEVCPANWTPDSPTIKPSPAASKEYFQKVN-    195
+
+
+#---------------------------------------
+#---------------------------------------

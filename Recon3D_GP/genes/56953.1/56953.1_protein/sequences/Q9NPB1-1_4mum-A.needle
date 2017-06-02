@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:38:35
+# Commandline: needle
+#    -outfile ./Recon3D/genes/56953.1/56953.1_protein/sequences/Q9NPB1-1_4mum-A.needle
+#    -asequence asis::MIRLGGWCARRLCSAAVPAGRRGAAGGLGLAGGRALRVLVDMDGVLADFEGGFLRKFRARFPDQPFIALEDRRGFWVSEQYGRLRPGLSEKAISIWESKNFFFELEPLPGAVEAVKEMASLQNTDVFICTSPIKMFKYCPYEKYAWVEKYFGPDFLEQIVLTRDKTVVSADLLIDDRPDITGAEPTPSWEHVLFTACHNQHLQLQPPRRRLHSWADDWKAILDSKRPC
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXSNXXXXXRALRVLVDMDGVLADFEGGFLRKFRARFPDQPFIALEDRRGFWVSEQYGRLRPGLSEKAISIWESKNFFFELEPLPGAVEAVKEMASLQNTDVFICTSPIKMFKYCPYEKYAWVEKYFGPDFLEQIVLTRDKTVVSADLLIDDRPDITGXXXXTGAEPTPSWEHVLFTACHNQHLQLQPPRRRLHSWADDWKAILDSKRP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/56953.1/56953.1_protein/sequences/Q9NPB1-1_4mum-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 267
+# Identity:     194/267 (72.7%)
+# Similarity:   194/267 (72.7%)
+# Gaps:          73/267 (27.3%)
+# Score: 1006.5
+# 
+#
+#=======================================
+
+asis               1 MIRLGGWCARRLCSAAVPAGRRGAAGGLGLAGG-----------------     33
+                                                                       
+asis               1 ---------------------------------XXXXXXXXXXXXXXXXX     17
+
+asis              34 ----------------RALRVLVDMDGVLADFEGGFLRKFRARFPDQPFI     67
+                                     ||||||||||||||||||||||||||||||||||
+asis              18 XXXXXXXXXSNXXXXXRALRVLVDMDGVLADFEGGFLRKFRARFPDQPFI     67
+
+asis              68 ALEDRRGFWVSEQYGRLRPGLSEKAISIWESKNFFFELEPLPGAVEAVKE    117
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              68 ALEDRRGFWVSEQYGRLRPGLSEKAISIWESKNFFFELEPLPGAVEAVKE    117
+
+asis             118 MASLQNTDVFICTSPIKMFKYCPYEKYAWVEKYFGPDFLEQIVLTRDKTV    167
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             118 MASLQNTDVFICTSPIKMFKYCPYEKYAWVEKYFGPDFLEQIVLTRDKTV    167
+
+asis             168 VSADLLIDDRPDI------TGAEPTPSWEHVLFTACHNQHLQLQPPRRRL    211
+                     |||||||||||||      |||||||||||||||||||||||||||||||
+asis             168 VSADLLIDDRPDITGXXXXTGAEPTPSWEHVLFTACHNQHLQLQPPRRRL    217
+
+asis             212 HSWADDWKAILDSKRPC    228
+                     |||||||||||||||| 
+asis             218 HSWADDWKAILDSKRP-    233
+
+
+#---------------------------------------
+#---------------------------------------

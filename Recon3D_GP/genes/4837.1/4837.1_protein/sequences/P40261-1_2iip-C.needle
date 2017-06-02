@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:37:18
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4837.1/4837.1_protein/sequences/P40261-1_2iip-C.needle
+#    -asequence asis::MESGFTSKDTYLSHFNPRDYLEKYYKFGSRHSAESQILKHLLKNLFKIFCLDGVKGDLLIDIGSGPTIYQLLSACESFKEIVVTDYSDQNLQELEKWLKKEPEAFDWSPVVTYVCDLEGNRVKGPEKEEKLRQAVKQVLKCDVTQSQPLGAVPLPPADCVLSTLCLDAACPDLPTYCRALRNLGSLLKPGGFLVIMDALKSSYYMIGEQKFSSLPLGREAVEAAVKEAGYTIEWFEVISQSYSSTMANNEGLFSLVARKLSRPL
+#    -bsequence asis::XXXXFTSKDTYLSHFNPRDYLEKYYKXXXXXSAESQILKHLLKNLFKIFCLDGVKGDLLIDIGSGPTIYQLLSACESFKEIVVTDYSDQNLQELEKWLKAAPAAFDWSPVVTYVCDLEGNRVKGPEKEEKLRQAVKQVLKCDVTQSQPLGAVPLPPADCVLSTLCLDAACPDLPTYCRALRNLGSLLKPGGFLVIMDALKSSYYMIGEQKFSSLPLGREAVEAAVKEAGYTIEWFEVISQSYSSTMANNEGLFSLVARKL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4837.1/4837.1_protein/sequences/P40261-1_2iip-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 264
+# Identity:     248/264 (93.9%)
+# Similarity:   248/264 (93.9%)
+# Gaps:           4/264 ( 1.5%)
+# Score: 1283.0
+# 
+#
+#=======================================
+
+asis               1 MESGFTSKDTYLSHFNPRDYLEKYYKFGSRHSAESQILKHLLKNLFKIFC     50
+                     ....||||||||||||||||||||||.....|||||||||||||||||||
+asis               1 XXXXFTSKDTYLSHFNPRDYLEKYYKXXXXXSAESQILKHLLKNLFKIFC     50
+
+asis              51 LDGVKGDLLIDIGSGPTIYQLLSACESFKEIVVTDYSDQNLQELEKWLKK    100
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+asis              51 LDGVKGDLLIDIGSGPTIYQLLSACESFKEIVVTDYSDQNLQELEKWLKA    100
+
+asis             101 EPEAFDWSPVVTYVCDLEGNRVKGPEKEEKLRQAVKQVLKCDVTQSQPLG    150
+                     .|.|||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 APAAFDWSPVVTYVCDLEGNRVKGPEKEEKLRQAVKQVLKCDVTQSQPLG    150
+
+asis             151 AVPLPPADCVLSTLCLDAACPDLPTYCRALRNLGSLLKPGGFLVIMDALK    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 AVPLPPADCVLSTLCLDAACPDLPTYCRALRNLGSLLKPGGFLVIMDALK    200
+
+asis             201 SSYYMIGEQKFSSLPLGREAVEAAVKEAGYTIEWFEVISQSYSSTMANNE    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 SSYYMIGEQKFSSLPLGREAVEAAVKEAGYTIEWFEVISQSYSSTMANNE    250
+
+asis             251 GLFSLVARKLSRPL    264
+                     ||||||||||    
+asis             251 GLFSLVARKL----    260
+
+
+#---------------------------------------
+#---------------------------------------

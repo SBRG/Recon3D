@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:45
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3028.1/3028.1_protein/sequences/Q99714-1_2o23-A.needle
+#    -asequence asis::MAAACRSVKGLVAVITGGASGLGLATAERLVGQGASAVLLDLPNSGGEAQAKKLGNNCVFAPADVTSEKDVQTALALAKGKFGRVDVAVNCAGIAVASKTYNLKKGQTHTLEDFQRVLDVNLMGTFNVIRLVAGEMGQNEPDQGGQRGVIINTASVAAFEGQVGQAAYSASKGGIVGMTLPIARDLAPIGIRVMTIAPGLFGTPLLTSLPEKVCNFLASQVPFPSRLGDPAEYAHLVQAIIENPFLNGEVIRLDGAIRMQP
+#    -bsequence asis::XXXXXRSVKGLVAVITGGASGLGLATAERLVGQGASAVLLDLPNSGGEAQAKKLGNNCVFAPADVTSEKDVQTALALAKGKFGRVDVAVNCAGIAVASKTYNLKKGQTHTLEDFQRVLDVNLMGTFNVIRLVAGEMGQNEPDQGGQRGVIINTASVAAFEGQVGQAAYSASKGGIVGMTLPIARDLAPIGIRVMTIAPGLFGTPXXXXXXXXXXNFLASQVPFPSRLGDPAEYAHLVQAIIENPFLNGEVIRLDGAIRMQPGS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3028.1/3028.1_protein/sequences/Q99714-1_2o23-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:     246/263 (93.5%)
+# Similarity:   246/263 (93.5%)
+# Gaps:           2/263 ( 0.8%)
+# Score: 1219.0
+# 
+#
+#=======================================
+
+asis               1 MAAACRSVKGLVAVITGGASGLGLATAERLVGQGASAVLLDLPNSGGEAQ     50
+                     .....|||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXRSVKGLVAVITGGASGLGLATAERLVGQGASAVLLDLPNSGGEAQ     50
+
+asis              51 AKKLGNNCVFAPADVTSEKDVQTALALAKGKFGRVDVAVNCAGIAVASKT    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 AKKLGNNCVFAPADVTSEKDVQTALALAKGKFGRVDVAVNCAGIAVASKT    100
+
+asis             101 YNLKKGQTHTLEDFQRVLDVNLMGTFNVIRLVAGEMGQNEPDQGGQRGVI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 YNLKKGQTHTLEDFQRVLDVNLMGTFNVIRLVAGEMGQNEPDQGGQRGVI    150
+
+asis             151 INTASVAAFEGQVGQAAYSASKGGIVGMTLPIARDLAPIGIRVMTIAPGL    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 INTASVAAFEGQVGQAAYSASKGGIVGMTLPIARDLAPIGIRVMTIAPGL    200
+
+asis             201 FGTPLLTSLPEKVCNFLASQVPFPSRLGDPAEYAHLVQAIIENPFLNGEV    250
+                     ||||..........||||||||||||||||||||||||||||||||||||
+asis             201 FGTPXXXXXXXXXXNFLASQVPFPSRLGDPAEYAHLVQAIIENPFLNGEV    250
+
+asis             251 IRLDGAIRMQP--    261
+                     |||||||||||  
+asis             251 IRLDGAIRMQPGS    263
+
+
+#---------------------------------------
+#---------------------------------------

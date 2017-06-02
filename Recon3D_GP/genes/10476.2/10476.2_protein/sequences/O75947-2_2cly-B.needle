@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:57:37
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10476.2/10476.2_protein/sequences/O75947-2_2cly-B.needle
+#    -asequence asis::MAGRKLALKTIDWVAFAEIIPQNQKAIASSLKSWNETLTSRLAALPENPPAIDWAYYKANVAKAGLVDDFEKKVKSCAEWVSLSKARIVEYEKEMEKMKNLIPFDQMTIEDLNEAFPETKLDKKKYPYWPHQPIENL
+#    -bsequence asis::XXXKLALKTIDWVAFGEIIPRNQKAVANSLKSWNETLTSRLATLPEKPPAIDWAYYKANVAKAGLVDDFEKKFNALKVPIPEDKYTAQVDAEEKEDVKSCAEFLTQSKTRIQEYEKELEKMRN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10476.2/10476.2_protein/sequences/O75947-2_2cly-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:      82/161 (50.9%)
+# Similarity:    90/161 (55.9%)
+# Gaps:          62/161 (38.5%)
+# Score: 409.5
+# 
+#
+#=======================================
+
+asis               1 MAGRKLALKTIDWVAFAEIIPQNQKAIASSLKSWNETLTSRLAALPENPP     50
+                      ...||||||||||||.||||:||||:|:||||||||||||||.|||.||
+asis               1 -XXXKLALKTIDWVAFGEIIPRNQKAVANSLKSWNETLTSRLATLPEKPP     49
+
+asis              51 AIDWAYYKANVAKAGLVDDFEKK------------------------VKS     76
+                     |||||||||||||||||||||||                        |||
+asis              50 AIDWAYYKANVAKAGLVDDFEKKFNALKVPIPEDKYTAQVDAEEKEDVKS     99
+
+asis              77 CAEWVSLSKARIVEYEKEMEKMKNLIPFDQMTIEDLNEAFPETKLDKKKY    126
+                     |||:::.||.||.|||||:|||:|                          
+asis             100 CAEFLTQSKTRIQEYEKELEKMRN--------------------------    123
+
+asis             127 PYWPHQPIENL    137
+                                
+asis             123 -----------    123
+
+
+#---------------------------------------
+#---------------------------------------

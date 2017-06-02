@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:27:52
+# Commandline: needle
+#    -outfile ./Recon3D/genes/78986.1/78986.1_protein/sequences/Q9BV47-1_4b04-C.needle
+#    -asequence asis::MCPGNWLWASMTFMARFSRSSSRSPVRTRGTLEEMPTVQHPFLNVFELERLLYTGKTACNHADEVWPGLYLGDQDMANNRRELRRLGITHVLNASHSRWRGTPEAYEGLGIRYLGVEAHDSPAFDMSIHFQTAADFIHRALSQPGGKILVHCAVGVSRSATLVLAYLMLYHHLTLVEAIKKVKDHRGIIPNRGFLRQLLALDRRLRQGLEA
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMHADEVWPGLYLGDQDMANNRRELRRLGITHVLNASHXXXXGTPEAYEGLGIRYLGVEAHDSPAFDMSIHFQTAADFIHRALSQPGGKILVHSAVGVSRSATLVLAYLMLYHHLTLVEAIKKVKDHRGIIPNRGFLRQLLALDRRLRQGLEALE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/78986.1/78986.1_protein/sequences/Q9BV47-1_4b04-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 272
+# Identity:     147/272 (54.0%)
+# Similarity:   147/272 (54.0%)
+# Gaps:         120/272 (44.1%)
+# Score: 717.0
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               1 ---------MCPGNWLWASMTFMARFSRSSSRSPVRTRGTLEEMPTVQHP     41
+                              |                                        
+asis              51 XXXXXXXXXM----------------------------------------     60
+
+asis              42 FLNVFELERLLYTGKTACNHADEVWPGLYLGDQDMANNRRELRRLGITHV     91
+                                        |||||||||||||||||||||||||||||||
+asis              61 -------------------HADEVWPGLYLGDQDMANNRRELRRLGITHV     91
+
+asis              92 LNASHSRWRGTPEAYEGLGIRYLGVEAHDSPAFDMSIHFQTAADFIHRAL    141
+                     |||||....|||||||||||||||||||||||||||||||||||||||||
+asis              92 LNASHXXXXGTPEAYEGLGIRYLGVEAHDSPAFDMSIHFQTAADFIHRAL    141
+
+asis             142 SQPGGKILVHCAVGVSRSATLVLAYLMLYHHLTLVEAIKKVKDHRGIIPN    191
+                     ||||||||||.|||||||||||||||||||||||||||||||||||||||
+asis             142 SQPGGKILVHSAVGVSRSATLVLAYLMLYHHLTLVEAIKKVKDHRGIIPN    191
+
+asis             192 RGFLRQLLALDRRLRQGLEA--    211
+                     ||||||||||||||||||||  
+asis             192 RGFLRQLLALDRRLRQGLEALE    213
+
+
+#---------------------------------------
+#---------------------------------------

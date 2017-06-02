@@ -1,0 +1,130 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:22:03
+# Commandline: needle
+#    -outfile ./Recon3D/genes/27.1/27.1_protein/sequences/P42684-1_2ecd-A.needle
+#    -asequence asis::MGQQVGRVGEAPGLQQPQPRGIRGSSAARPSGRRRDPAGRTTETGFNIFTQHDHFASCVEDGFEGDKTGGSSPEALHRPYGCDVEPQALNEAIRWSSKENLLGATESDPNLFVALYDFVASGDNTLSITKGEKLRVLGYNQNGEWSEVRSKNGQGWVPSNYITPVNSLEKHSWYHGPVSRSAAEYLLSSLINGSFLVRESESSPGQLSISLRYEGRVYHYRINTTADGKVYVTAESRFSTLAELVHHHSTVADGLVTTLHYPAPKCNKPTVYGVSPIHDKWEMERTDITMKHKLGGGQYGEVYVGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQLLGVCTLEPPFYIVTEYMPYGNLLDYLRECNREEVTAVVLLYMATQISSAMEYLEKKNFIHRDLAARNCLVGENHVVKVADFGLSRLMTGDTYTAHAGAKFPIKWTAPESLAYNTFSIKSDVWAFGVLLWEIATYGMSPYPGIDLSQVYDLLEKGYRMEQPEGCPPKVYELMRACWKWSPADRPSFAETHQAFETMFHDSSISEEVAEELGRAASSSSVVPYLPRLPILPSKTRTLKKQVENKENIEGAQDATENSASSLAPGFIRGAQASSGSPALPRKQRDKSPSSLLEDAKETCFTRDRKGGFFSSFMKKRNAPTPPKRSSSFREMENQPHKKYELTGNFSSVASLQHADGFSFTPAQQEANLVPPKCYGGSFAQRNLCNDDGGGGGGSGTAGGGWSGITGFFTPRLIKKTLGLRAGKPTASDDTSKPFPRSNSTSSMSSGLPEQDRMAMTLPRNCQRSKLQLERTVSTSSQPEENVDRANDMLPKKSEESAAPSRERPKAKLLPRGATALPLRTPSGDLAITEKDPPGVGVAGVAAAPKGKEKNGGARLGMAGVPEDGEQPGWPSPAKAAPVLPTTHNHKVPVLISPTLKHTPADVQLIGTDSQGNKFKLLSEHQVTSSGDKDRPRRVKPKCAPPPPPVMRLLQHPSICSDPTEEPTALTAGQSTSETQEGGKKAALGAVPISGKAGRPVMPPPQVPLPTSSISPAKMANGTAGTKVALRKTKQAAEKISADKISKEALLECADLLSSALTEPVPNSQLVDTGHQLLDYCSGYVDCIPQTRNKFAFREAVSKLELSLQELQVSSAAAGVPGTNPVLNNLLSCVQEISDVVQR
+#    -bsequence asis::GSSGSSGTPVNSLEKHSWYHGPVSRSAAEYLLSSLINGSFLVRESESSPGQLSISLRYEGRVYHYRINTTADGKVYVTAESRFSTLAELVHHHSTVADGLVTTLHYPAPKCNKSGPSSG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/27.1/27.1_protein/sequences/P42684-1_2ecd-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1184
+# Identity:     109/1184 ( 9.2%)
+# Similarity:   110/1184 ( 9.3%)
+# Gaps:        1067/1184 (90.1%)
+# Score: 541.5
+# 
+#
+#=======================================
+
+asis               1 MGQQVGRVGEAPGLQQPQPRGIRGSSAARPSGRRRDPAGRTTETGFNIFT     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 QHDHFASCVEDGFEGDKTGGSSPEALHRPYGCDVEPQALNEAIRWSSKEN    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 LLGATESDPNLFVALYDFVASGDNTLSITKGEKLRVLGYNQNGEWSEVRS    150
+                                                                     .|
+asis               1 ------------------------------------------------GS      2
+
+asis             151 KNGQGWVPSNYITPVNSLEKHSWYHGPVSRSAAEYLLSSLINGSFLVRES    200
+                     ....|       ||||||||||||||||||||||||||||||||||||||
+asis               3 SGSSG-------TPVNSLEKHSWYHGPVSRSAAEYLLSSLINGSFLVRES     45
+
+asis             201 ESSPGQLSISLRYEGRVYHYRINTTADGKVYVTAESRFSTLAELVHHHST    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              46 ESSPGQLSISLRYEGRVYHYRINTTADGKVYVTAESRFSTLAELVHHHST     95
+
+asis             251 VADGLVTTLHYPAPKCNK--PTVYGVSPIHDKWEMERTDITMKHKLGGGQ    298
+                     ||||||||||||||||||  |:..                          
+asis              96 VADGLVTTLHYPAPKCNKSGPSSG--------------------------    119
+
+asis             299 YGEVYVGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQLL    348
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             349 GVCTLEPPFYIVTEYMPYGNLLDYLRECNREEVTAVVLLYMATQISSAME    398
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             399 YLEKKNFIHRDLAARNCLVGENHVVKVADFGLSRLMTGDTYTAHAGAKFP    448
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             449 IKWTAPESLAYNTFSIKSDVWAFGVLLWEIATYGMSPYPGIDLSQVYDLL    498
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             499 EKGYRMEQPEGCPPKVYELMRACWKWSPADRPSFAETHQAFETMFHDSSI    548
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             549 SEEVAEELGRAASSSSVVPYLPRLPILPSKTRTLKKQVENKENIEGAQDA    598
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             599 TENSASSLAPGFIRGAQASSGSPALPRKQRDKSPSSLLEDAKETCFTRDR    648
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             649 KGGFFSSFMKKRNAPTPPKRSSSFREMENQPHKKYELTGNFSSVASLQHA    698
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             699 DGFSFTPAQQEANLVPPKCYGGSFAQRNLCNDDGGGGGGSGTAGGGWSGI    748
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             749 TGFFTPRLIKKTLGLRAGKPTASDDTSKPFPRSNSTSSMSSGLPEQDRMA    798
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             799 MTLPRNCQRSKLQLERTVSTSSQPEENVDRANDMLPKKSEESAAPSRERP    848
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             849 KAKLLPRGATALPLRTPSGDLAITEKDPPGVGVAGVAAAPKGKEKNGGAR    898
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             899 LGMAGVPEDGEQPGWPSPAKAAPVLPTTHNHKVPVLISPTLKHTPADVQL    948
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             949 IGTDSQGNKFKLLSEHQVTSSGDKDRPRRVKPKCAPPPPPVMRLLQHPSI    998
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis             999 CSDPTEEPTALTAGQSTSETQEGGKKAALGAVPISGKAGRPVMPPPQVPL   1048
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis            1049 PTSSISPAKMANGTAGTKVALRKTKQAAEKISADKISKEALLECADLLSS   1098
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis            1099 ALTEPVPNSQLVDTGHQLLDYCSGYVDCIPQTRNKFAFREAVSKLELSLQ   1148
+                                                                       
+asis             119 --------------------------------------------------    119
+
+asis            1149 ELQVSSAAAGVPGTNPVLNNLLSCVQEISDVVQR   1182
+                                                       
+asis             119 ----------------------------------    119
+
+
+#---------------------------------------
+#---------------------------------------

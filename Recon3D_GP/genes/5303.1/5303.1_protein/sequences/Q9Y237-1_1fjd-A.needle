@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:41:45
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5303.1/5303.1_protein/sequences/Q9Y237-1_1fjd-A.needle
+#    -asequence asis::MPPKGKSGSGKAGKGGAASGSDSADKKAQGPKGGGNAVKVRHILCEKHGKIMEAMEKLKSGMRFNEVAAQYSEDKARQGGDLGWMTRGSMVGPFQEAAFALPVSGMDKPVFTDPPVKTKFGYHIIMVEGRK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXGSGPKGGGNAVKVRHILCEKHGKIMEAMEKLKSGMRFNEVAAQYSEDKARQGGDLGWMTRGSMVGPFQEAAFALPVSGMDKPVFTDPPVKTKFGYHIIMVEGRK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5303.1/5303.1_protein/sequences/Q9Y237-1_1fjd-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:     104/151 (68.9%)
+# Similarity:   104/151 (68.9%)
+# Gaps:          40/151 (26.5%)
+# Score: 524.5
+# 
+#
+#=======================================
+
+asis               1 --------------------MPPKGKSGSGKAGKGGAASGSDSADKKAQG     30
+                                         .......||                    |
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXGS--------------------G     30
+
+asis              31 PKGGGNAVKVRHILCEKHGKIMEAMEKLKSGMRFNEVAAQYSEDKARQGG     80
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              31 PKGGGNAVKVRHILCEKHGKIMEAMEKLKSGMRFNEVAAQYSEDKARQGG     80
+
+asis              81 DLGWMTRGSMVGPFQEAAFALPVSGMDKPVFTDPPVKTKFGYHIIMVEGR    130
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              81 DLGWMTRGSMVGPFQEAAFALPVSGMDKPVFTDPPVKTKFGYHIIMVEGR    130
+
+asis             131 K    131
+                     |
+asis             131 K    131
+
+
+#---------------------------------------
+#---------------------------------------

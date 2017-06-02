@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:10:53
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2172.1/2172.1_protein/sequences/P51161-1_5l8i-A.needle
+#    -asequence asis::MAFTGKFEMESEKNYDEFMKLLGISSDVIEKARNFKIVTEVQQDGQDFTWSQHYSGGHTMTNKFTVGKESNIQTMGGKTFKATVQMEGGKLVVNFPNYHQTSEIVGDKLVEVSTIGGVTYERVSKRLA
+#    -bsequence asis::XXFTGKFEMESEKNYDEFMKLLGISSDVIEKARNFKIVTEVQQDGQDFTWSQHYSGGHTMTNKFTVGKESNIQTMGGKTFKATVQMEGGKLVVNFPNYHQTSEIVGDKLVEVSTIGGVTYERVSKRL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2172.1/2172.1_protein/sequences/P51161-1_5l8i-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:     125/128 (97.7%)
+# Similarity:   125/128 (97.7%)
+# Gaps:           1/128 ( 0.8%)
+# Score: 647.0
+# 
+#
+#=======================================
+
+asis               1 MAFTGKFEMESEKNYDEFMKLLGISSDVIEKARNFKIVTEVQQDGQDFTW     50
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXFTGKFEMESEKNYDEFMKLLGISSDVIEKARNFKIVTEVQQDGQDFTW     50
+
+asis              51 SQHYSGGHTMTNKFTVGKESNIQTMGGKTFKATVQMEGGKLVVNFPNYHQ    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 SQHYSGGHTMTNKFTVGKESNIQTMGGKTFKATVQMEGGKLVVNFPNYHQ    100
+
+asis             101 TSEIVGDKLVEVSTIGGVTYERVSKRLA    128
+                     ||||||||||||||||||||||||||| 
+asis             101 TSEIVGDKLVEVSTIGGVTYERVSKRL-    127
+
+
+#---------------------------------------
+#---------------------------------------

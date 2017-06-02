@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:59:49
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10728.1/10728.1_protein/sequences/Q15185-1_1ejf-A.needle
+#    -asequence asis::MQPASAKWYDRRDYVFIEFCVEDSKDVNVNFEKSKLTFSCLGGSDNFKHLNEIDLFHCIDPNDSKHKRTDRSILCCLRKGESGQSWPRLTKERAKLNWLSVDFNNWKDWEDDSDEDMSNFDRFSEMMNNMGGDEDVDLPEVDGADDDSQDSDDEKMPDLE
+#    -bsequence asis::MQPASAKWYDRRDYVFIEFCVEDSKDVNVNFEKSKLTFSCLGGSDNFKHLNEIDLFHCIDPNDSKHKRTDRSILCCLRKGESGQSWPRLTKERAKLNWLSVDFNNWKDWE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10728.1/10728.1_protein/sequences/Q15185-1_1ejf-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:     110/160 (68.8%)
+# Similarity:   110/160 (68.8%)
+# Gaps:          50/160 (31.2%)
+# Score: 618.0
+# 
+#
+#=======================================
+
+asis               1 MQPASAKWYDRRDYVFIEFCVEDSKDVNVNFEKSKLTFSCLGGSDNFKHL     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MQPASAKWYDRRDYVFIEFCVEDSKDVNVNFEKSKLTFSCLGGSDNFKHL     50
+
+asis              51 NEIDLFHCIDPNDSKHKRTDRSILCCLRKGESGQSWPRLTKERAKLNWLS    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 NEIDLFHCIDPNDSKHKRTDRSILCCLRKGESGQSWPRLTKERAKLNWLS    100
+
+asis             101 VDFNNWKDWEDDSDEDMSNFDRFSEMMNNMGGDEDVDLPEVDGADDDSQD    150
+                     ||||||||||                                        
+asis             101 VDFNNWKDWE----------------------------------------    110
+
+asis             151 SDDEKMPDLE    160
+                               
+asis             110 ----------    110
+
+
+#---------------------------------------
+#---------------------------------------

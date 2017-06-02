@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:38:38
+# Commandline: needle
+#    -outfile ./Recon3D/genes/997.1/997.1_protein/sequences/P49427-1_4mdk-A.needle
+#    -asequence asis::MARPLVPSSQKALLLELKGLQEEPVEGFRVTLVDEGDLYNWEVAIFGPPNTYYEGGYFKARLKFPIDYPYSPPAFRFLTKMWHPNIYETGDVCISILHPPVDDPQSGELPSERWNPTQNVRTILLSVISLLNEPNTFSPANVDASVMYRKWKESKGKDREYTDIIRKQVLGTKVDAERDGVKVPTTLAEYCVKTKAPAPDEGSDLFYDDYYEDGEVEEEADSCFGDDEDDSGTEES
+#    -bsequence asis::XXXXXXPSSQKALLLELKGLQEEPVEGFRVTLVDEGDLYNWEVAIFGPPNTYYEGGYFKARLKFPIDYPYSPPAFRFLTKMWHPNIYETGDVCISILHPXXXXXXXXXXPSERWNPTQNVRTILLSVISLLNEPNTFSPANVDASVMYRKWKESKGKDREYTDIIRKQVLGTKVDAERDGVKVP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/997.1/997.1_protein/sequences/P49427-1_4mdk-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:     168/236 (71.2%)
+# Similarity:   168/236 (71.2%)
+# Gaps:          52/236 (22.0%)
+# Score: 885.0
+# 
+#
+#=======================================
+
+asis               1 MARPLVPSSQKALLLELKGLQEEPVEGFRVTLVDEGDLYNWEVAIFGPPN     50
+                     ......||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXPSSQKALLLELKGLQEEPVEGFRVTLVDEGDLYNWEVAIFGPPN     50
+
+asis              51 TYYEGGYFKARLKFPIDYPYSPPAFRFLTKMWHPNIYETGDVCISILHPP    100
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+asis              51 TYYEGGYFKARLKFPIDYPYSPPAFRFLTKMWHPNIYETGDVCISILHPX    100
+
+asis             101 VDDPQSGELPSERWNPTQNVRTILLSVISLLNEPNTFSPANVDASVMYRK    150
+                     .........|||||||||||||||||||||||||||||||||||||||||
+asis             101 XXXXXXXXXPSERWNPTQNVRTILLSVISLLNEPNTFSPANVDASVMYRK    150
+
+asis             151 WKESKGKDREYTDIIRKQVLGTKVDAERDGVKVPTTLAEYCVKTKAPAPD    200
+                     ||||||||||||||||||||||||||||||||||                
+asis             151 WKESKGKDREYTDIIRKQVLGTKVDAERDGVKVP----------------    184
+
+asis             201 EGSDLFYDDYYEDGEVEEEADSCFGDDEDDSGTEES    236
+                                                         
+asis             184 ------------------------------------    184
+
+
+#---------------------------------------
+#---------------------------------------

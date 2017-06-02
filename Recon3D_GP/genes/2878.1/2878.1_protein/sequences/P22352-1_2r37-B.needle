@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:24
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2878.1/2878.1_protein/sequences/P22352-1_2r37-B.needle
+#    -asequence asis::MARLLQASCLLSLLLAGFVSQSRGQEKSKMDCHGGISGTIYEYGALTIDGEEYIPFKQYAGKYVLFVNVASYUGLTGQYIELNALQEELAPFGLVILGFPCNQFGKQEPGENSEILPTLKYVRPGGGFVPNFQLFEKGDVNGEKEQKFYTFLKNSCPPTSELLGTSDRLFWEPMKVHDIRWNFEKFLVGPDGIPIMRWHHRTTVSNVKMDILSYMRRQAALGVKRK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXISGTIYEYGALTIDGEEYIPFKQYAGKYVLFVNVASYGGLTGQYIELNALQEELAPFGLVILGFPCNQFGKQEPGENSEILPTLKYVRPGGGFVPNFQLFEKGDVNGEKEQKFYTFLKNSCPPTSELLGTSDRLFWEPMKVHDIRWNFEKFLVGPDGIPIMRWHHRTTVSNVKMDILSYMRRQAALGV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2878.1/2878.1_protein/sequences/P22352-1_2r37-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 261
+# Identity:     187/261 (71.6%)
+# Similarity:   187/261 (71.6%)
+# Gaps:          73/261 (28.0%)
+# Score: 978.0
+# 
+#
+#=======================================
+
+asis               1 MARLLQASCLLSLLLAGFVSQSRGQEKSKMDCHGG---------------     35
+                                                                       
+asis               1 -----------------------------------XXXXXXXXXXXXXXX     15
+
+asis              36 --------------------ISGTIYEYGALTIDGEEYIPFKQYAGKYVL     65
+                                         ||||||||||||||||||||||||||||||
+asis              16 XXXXXXXXXXXXXXXXXXXXISGTIYEYGALTIDGEEYIPFKQYAGKYVL     65
+
+asis              66 FVNVASYUGLTGQYIELNALQEELAPFGLVILGFPCNQFGKQEPGENSEI    115
+                     ||||||| ||||||||||||||||||||||||||||||||||||||||||
+asis              66 FVNVASYGGLTGQYIELNALQEELAPFGLVILGFPCNQFGKQEPGENSEI    115
+
+asis             116 LPTLKYVRPGGGFVPNFQLFEKGDVNGEKEQKFYTFLKNSCPPTSELLGT    165
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             116 LPTLKYVRPGGGFVPNFQLFEKGDVNGEKEQKFYTFLKNSCPPTSELLGT    165
+
+asis             166 SDRLFWEPMKVHDIRWNFEKFLVGPDGIPIMRWHHRTTVSNVKMDILSYM    215
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             166 SDRLFWEPMKVHDIRWNFEKFLVGPDGIPIMRWHHRTTVSNVKMDILSYM    215
+
+asis             216 RRQAALGVKRK    226
+                     ||||||||   
+asis             216 RRQAALGV---    223
+
+
+#---------------------------------------
+#---------------------------------------

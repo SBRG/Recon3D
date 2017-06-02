@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:41:23
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7332.1/7332.1_protein/sequences/P68036-1_4q5e-C.needle
+#    -asequence asis::MAASRRLMKELEEIRKCGMKNFRNIQVDEANLLTWQGLIVPDNPPYDKGAFRIEINFPAEYPFKPPKITFKTKIYHPNIDEKGQVCLPVISAENWKPATKTDQVIQSLIALVNDPQPEHPLRADLAEEYSKDRKKFCKNAEEFTKKYGEKRPVD
+#    -bsequence asis::HMAASRRLMKELEEIRKSGMKNFRNIQVDEANLLTWQGLIVPDNPPYDKGAFRIEINFPAEYPFKPPKITFKTKIYHPNIDEKGQVCLPVISAENWKPATKTDQVIQSLIALVNDPQPEHPLRADLAEEYSKDRKKFSKNAEEFTKKYGEKRPVD
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7332.1/7332.1_protein/sequences/P68036-1_4q5e-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:     152/155 (98.1%)
+# Similarity:   152/155 (98.1%)
+# Gaps:           1/155 ( 0.6%)
+# Score: 805.0
+# 
+#
+#=======================================
+
+asis               1 -MAASRRLMKELEEIRKCGMKNFRNIQVDEANLLTWQGLIVPDNPPYDKG     49
+                      ||||||||||||||||.||||||||||||||||||||||||||||||||
+asis               1 HMAASRRLMKELEEIRKSGMKNFRNIQVDEANLLTWQGLIVPDNPPYDKG     50
+
+asis              50 AFRIEINFPAEYPFKPPKITFKTKIYHPNIDEKGQVCLPVISAENWKPAT     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 AFRIEINFPAEYPFKPPKITFKTKIYHPNIDEKGQVCLPVISAENWKPAT    100
+
+asis             100 KTDQVIQSLIALVNDPQPEHPLRADLAEEYSKDRKKFCKNAEEFTKKYGE    149
+                     |||||||||||||||||||||||||||||||||||||.||||||||||||
+asis             101 KTDQVIQSLIALVNDPQPEHPLRADLAEEYSKDRKKFSKNAEEFTKKYGE    150
+
+asis             150 KRPVD    154
+                     |||||
+asis             151 KRPVD    155
+
+
+#---------------------------------------
+#---------------------------------------

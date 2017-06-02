@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:29:22
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2593.2/2593.2_protein/sequences/Q14353-2_3orh-B.needle
+#    -asequence asis::MSAPSATPIFAPGENCSPAWGAAPAAYDAADTHLRILGKPVMERWETPYMHALAAAASSKGGRVLEVGFGMAIAASKVQEAPIDEHWIIECNDGVFQRLRDWAPRQTHKVIPLKGLWEDVAPTLPDGHFDGILYDTYPLSEETWHTHQFNFIKNHAFRLLKPGGVLTYCNLTSWGELMKSKYSDITIMFEVRPPEVPHGSPGSDLGWGWEGAAGATLLPGEGPFLTPWVGWTVLVHLEIKVLCLAQWLPGAVAQVYNPSTVEGRGGQIA
+#    -bsequence asis::XXXXXXXPIFAPGENCSPAWGAAPAAYDAADTHLRILGKPVMERWETPYMHALAAAASSKGGRVLEVGFGMAIAASKVQEAPIDEHWIIECNDGVFQRLRDWAPRQTHKVIPLKGLWEDVAPTLPDGHFDGILYDTYPLSEETWHTHQFNFIKNHAFRLLKPGGVLTYCNLTSWGELMKSKYSDITIMFEETQVPALLEAGFRRENIRTEVMALVPPADCRYYAFPQMITPLVTKG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2593.2/2593.2_protein/sequences/Q14353-2_3orh-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 274
+# Identity:     196/274 (71.5%)
+# Similarity:   203/274 (74.1%)
+# Gaps:          43/274 (15.7%)
+# Score: 989.5
+# 
+#
+#=======================================
+
+asis               1 MSAPSATPIFAPGENCSPAWGAAPAAYDAADTHLRILGKPVMERWETPYM     50
+                     .......|||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXPIFAPGENCSPAWGAAPAAYDAADTHLRILGKPVMERWETPYM     50
+
+asis              51 HALAAAASSKGGRVLEVGFGMAIAASKVQEAPIDEHWIIECNDGVFQRLR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 HALAAAASSKGGRVLEVGFGMAIAASKVQEAPIDEHWIIECNDGVFQRLR    100
+
+asis             101 DWAPRQTHKVIPLKGLWEDVAPTLPDGHFDGILYDTYPLSEETWHTHQFN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 DWAPRQTHKVIPLKGLWEDVAPTLPDGHFDGILYDTYPLSEETWHTHQFN    150
+
+asis             151 FIKNHAFRLLKPGGVLTYCNLTSWGELMKSKYSDITIMFEVRPPEVPHGS    200
+                     ||||||||||||||||||||||||||||||||||||||||  ..:||   
+asis             151 FIKNHAFRLLKPGGVLTYCNLTSWGELMKSKYSDITIMFE--ETQVP---    195
+
+asis             201 PGSDLGWGWEGAAGATLLPGEGPFLTPWVGWTVLVHLEIKVLCLAQWLPG    250
+                                    .||  |..|...        ::..:|:.|..  |.
+asis             196 ---------------ALL--EAGFRRE--------NIRTEVMALVP--PA    218
+
+asis             251 -----AVAQVYNPSTVEGRGGQIA    269
+                          |..|:..|...:|      
+asis             219 DCRYYAFPQMITPLVTKG------    236
+
+
+#---------------------------------------
+#---------------------------------------

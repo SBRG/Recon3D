@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:56:38
+# Commandline: needle
+#    -outfile ./Recon3D/genes/344.1/344.1_protein/sequences/P02655-1_1o8t-A.needle
+#    -asequence asis::MGTRLLPALFLVLLVLGFEVQGTQQPQQDEMPSPTFLTQVKESLSSYWESAKTAAQNLYEKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE
+#    -bsequence asis::TQQPQQDEMPSPTFLTQVKESLSSYWESAKTAAQNLYEKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/344.1/344.1_protein/sequences/P02655-1_1o8t-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      79/101 (78.2%)
+# Similarity:    79/101 (78.2%)
+# Gaps:          22/101 (21.8%)
+# Score: 400.0
+# 
+#
+#=======================================
+
+asis               1 MGTRLLPALFLVLLVLGFEVQGTQQPQQDEMPSPTFLTQVKESLSSYWES     50
+                                           ||||||||||||||||||||||||||||
+asis               1 ----------------------TQQPQQDEMPSPTFLTQVKESLSSYWES     28
+
+asis              51 AKTAAQNLYEKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              29 AKTAAQNLYEKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGE     78
+
+asis             101 E    101
+                     |
+asis              79 E     79
+
+
+#---------------------------------------
+#---------------------------------------

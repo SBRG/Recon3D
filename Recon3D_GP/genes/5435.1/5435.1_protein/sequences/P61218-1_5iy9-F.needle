@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:20:58
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5435.1/5435.1_protein/sequences/P61218-1_5iy9-F.needle
+#    -asequence asis::MSDNEDNFDGDDFDDVEEDEGLDDLENAEEEGQENVEILPSGERPQANQKRITTPYMTKYERARVLGTRALQIAMCAPVMVELEGETDPLLIAMKELKARKIPIIIRRYLPDGSYEDWGVDELIITD
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGERPQANQKRITTPYMTKYERARVLGTRALQIAMCAPVMVELEGETDPLLIAMKELKARKIPIIIRRYLPDGSYEDWGVDELIITD
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5435.1/5435.1_protein/sequences/P61218-1_5iy9-F.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 167
+# Identity:      86/167 (51.5%)
+# Similarity:    86/167 (51.5%)
+# Gaps:          80/167 (47.9%)
+# Score: 412.5
+# 
+#
+#=======================================
+
+asis               1 MSDNEDNFDGDDFDDVEEDEGLDDLENAEEEGQENVEILP----------     40
+                                                                       
+asis               1 ----------------------------------------XXXXXXXXXX     10
+
+asis              41 ------------------------------SGERPQANQKRITTPYMTKY     60
+                                                   .|||||||||||||||||||
+asis              11 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGERPQANQKRITTPYMTKY     60
+
+asis              61 ERARVLGTRALQIAMCAPVMVELEGETDPLLIAMKELKARKIPIIIRRYL    110
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              61 ERARVLGTRALQIAMCAPVMVELEGETDPLLIAMKELKARKIPIIIRRYL    110
+
+asis             111 PDGSYEDWGVDELIITD    127
+                     |||||||||||||||||
+asis             111 PDGSYEDWGVDELIITD    127
+
+
+#---------------------------------------
+#---------------------------------------

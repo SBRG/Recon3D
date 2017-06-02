@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:10:13
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4729.1/4729.1_protein/sequences/P19404-1_5lc5-E.needle
+#    -asequence asis::MFFSAALRARAAGLTAHWGRHVRNLHKTVMQNGAGGALFVHRDTPENNPDTPFDFTPENYKRIEAIVKNYPEGHKAAAVLPVLDLAQRQNGWLPISAMNKVAEVLQVPPMRVYEVATFYTMYNRKPVGKYHIQVCTTTPCMLRNSDSILEAIQKKLGIKVGETTPDKLFTLIEVECLGACVNAPMVQINDNYYEDLTAKDIEEIIDELKAGKIPKPGPRSGRFSCEPAGGLTSLTEPPKGPGFGVQAGL
+#    -bsequence asis::XXXXXXXVHRDTPENNPETPFDFTPENYKRIEAIVKNYPEGHKAAAVLPVLDLAQRQNGWLPISAMNKVAEILQVPPMRVYEVATFYTMYNRKPVGKYHIQVCTTTPCMLRNSDSILEAIQKKLGIKVGETTPDKLFTLIEVECLGACVNAPMVQINDNYYEDLTPKDIEEIIDELKAGKIPKPGPRSGRFSC
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4729.1/4729.1_protein/sequences/P19404-1_5lc5-E.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 249
+# Identity:     183/249 (73.5%)
+# Similarity:   185/249 (74.3%)
+# Gaps:          56/249 (22.5%)
+# Score: 974.0
+# 
+#
+#=======================================
+
+asis               1 MFFSAALRARAAGLTAHWGRHVRNLHKTVMQNGAGGALFVHRDTPENNPD     50
+                                                     .......||||||||||:
+asis               1 --------------------------------XXXXXXXVHRDTPENNPE     18
+
+asis              51 TPFDFTPENYKRIEAIVKNYPEGHKAAAVLPVLDLAQRQNGWLPISAMNK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              19 TPFDFTPENYKRIEAIVKNYPEGHKAAAVLPVLDLAQRQNGWLPISAMNK     68
+
+asis             101 VAEVLQVPPMRVYEVATFYTMYNRKPVGKYHIQVCTTTPCMLRNSDSILE    150
+                     |||:||||||||||||||||||||||||||||||||||||||||||||||
+asis              69 VAEILQVPPMRVYEVATFYTMYNRKPVGKYHIQVCTTTPCMLRNSDSILE    118
+
+asis             151 AIQKKLGIKVGETTPDKLFTLIEVECLGACVNAPMVQINDNYYEDLTAKD    200
+                     |||||||||||||||||||||||||||||||||||||||||||||||.||
+asis             119 AIQKKLGIKVGETTPDKLFTLIEVECLGACVNAPMVQINDNYYEDLTPKD    168
+
+asis             201 IEEIIDELKAGKIPKPGPRSGRFSCEPAGGLTSLTEPPKGPGFGVQAGL    249
+                     |||||||||||||||||||||||||                        
+asis             169 IEEIIDELKAGKIPKPGPRSGRFSC------------------------    193
+
+
+#---------------------------------------
+#---------------------------------------

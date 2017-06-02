@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:01:16
+# Commandline: needle
+#    -outfile ./Recon3D/genes/362.1/362.1_protein/sequences/P55064-1_5dye-C.needle
+#    -asequence asis::MKKEVCSVAFLKAVFAEFLATLIFVFFGLGSALKWPSALPTILQIALAFGLAIGTLAQALGPVSGGHINPAITLALLVGNQISLLRAFFYVAAQLVGAIAGAGILYGVAPLNARGNLAVNALNNNTTQGQAMVVELILTFQLALCIFASTDSRRTSPVGSPALSIGLSVTLGHLVGIYFTGCSMNPARSFGPAVVMNRFSPAHWVFWVGPIVGAVLAAILYFYLLFPNSLSLSERVAIIKGTYEPDEDWEEQREERKKTMELTTR
+#    -bsequence asis::XXXEVCSVAFLKAVFAEFLATLIFVFFGLGSALKWPSALPTILQIALAFGLAIGTLAQALGPVSGGHINPAITLALLVGNQISLLRAFFYVAAQLVGAIAGAGILYGVAPLNARGNLAVNALNNNTTQGQAMVVELILTFQLALCIFASTDSRRTEPVGSPALSIGLSVTLGHLVGIYFTGCSMNPARSFGPAVVMNRFSPAHWVFWVGPIVGAVLAAILYFYLLFPNSLSLSERVAIIKGTYEP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/362.1/362.1_protein/sequences/P55064-1_5dye-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 265
+# Identity:     241/265 (90.9%)
+# Similarity:   241/265 (90.9%)
+# Gaps:          20/265 ( 7.5%)
+# Score: 1207.0
+# 
+#
+#=======================================
+
+asis               1 MKKEVCSVAFLKAVFAEFLATLIFVFFGLGSALKWPSALPTILQIALAFG     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXEVCSVAFLKAVFAEFLATLIFVFFGLGSALKWPSALPTILQIALAFG     50
+
+asis              51 LAIGTLAQALGPVSGGHINPAITLALLVGNQISLLRAFFYVAAQLVGAIA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 LAIGTLAQALGPVSGGHINPAITLALLVGNQISLLRAFFYVAAQLVGAIA    100
+
+asis             101 GAGILYGVAPLNARGNLAVNALNNNTTQGQAMVVELILTFQLALCIFAST    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 GAGILYGVAPLNARGNLAVNALNNNTTQGQAMVVELILTFQLALCIFAST    150
+
+asis             151 DSRRTSPVGSPALSIGLSVTLGHLVGIYFTGCSMNPARSFGPAVVMNRFS    200
+                     |||||.||||||||||||||||||||||||||||||||||||||||||||
+asis             151 DSRRTEPVGSPALSIGLSVTLGHLVGIYFTGCSMNPARSFGPAVVMNRFS    200
+
+asis             201 PAHWVFWVGPIVGAVLAAILYFYLLFPNSLSLSERVAIIKGTYEPDEDWE    250
+                     |||||||||||||||||||||||||||||||||||||||||||||     
+asis             201 PAHWVFWVGPIVGAVLAAILYFYLLFPNSLSLSERVAIIKGTYEP-----    245
+
+asis             251 EQREERKKTMELTTR    265
+                                    
+asis             245 ---------------    245
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:46:36
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8428.1/8428.1_protein/sequences/Q9Y6E0-1_3ckx-A.needle
+#    -asequence asis::MDSRAQLWGLALNKRRATLPHPGGSTNLKADPEELFTKLEKIGKGSFGEVFKGIDNRTQKVVAIKIIDLEEAEDEIEDIQQEITVLSQCDSPYVTKYYGSYLKDTKLWIIMEYLGGGSALDLLEPGPLDETQIATILREILKGLDYLHSEKKIHRDIKAANVLLSEHGEVKLADFGVAGQLTDTQIKRNTFVGTPFWMAPEVIKQSAYDSKADIWSLGITAIELARGEPPHSELHPMKVLFLIPKNNPPTLEGNYSKPLKEFVEACLNKEPSFRPTAKELLKHKFILRNAKKTSYLTELIDRYKRWKAEQSHDDSSSEDSDAETDGQASGGSDSGDWIFTIREKDPKNLENGALQPSDLDRNKMKDIPKRPFSQCLSTIISPLFAELKEKSQACGGNLGSIEELRGAIYLAEEACPGISDTMVAQLVQRLQRYSLSGGGTSSH
+#    -bsequence asis::XXXXPEELFTKLEKIGKGSFGEVFKGIDNRTQKVVAIKIIDLEEXXDEIEDIQQEITVLSQCDSPYVTKYYGSYLKDTKLWIIMEYLGGGSALDLLEPGPLDETQIATILREILKGLDYLHSEKKIHRDIKAANVLLSEHGEVKLADFGVAGQLTDTQIKRNXFVGTPFWMAPEVIKQSAYDSKADIWSLGITAIELARGEPPHSELHPMKVLFLIPKNNPPTLEGNYSKPLKEFVEACLNKEPSFRPTAKELLKHKFILRNAKKTSYLTELIDRYKRWKAEQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8428.1/8428.1_protein/sequences/Q9Y6E0-1_3ckx-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 443
+# Identity:     276/443 (62.3%)
+# Similarity:   276/443 (62.3%)
+# Gaps:         160/443 (36.1%)
+# Score: 1429.0
+# 
+#
+#=======================================
+
+asis               1 MDSRAQLWGLALNKRRATLPHPGGSTNLKADPEELFTKLEKIGKGSFGEV     50
+                                                ....|||||||||||||||||||
+asis               1 ---------------------------XXXXPEELFTKLEKIGKGSFGEV     23
+
+asis              51 FKGIDNRTQKVVAIKIIDLEEAEDEIEDIQQEITVLSQCDSPYVTKYYGS    100
+                     |||||||||||||||||||||..|||||||||||||||||||||||||||
+asis              24 FKGIDNRTQKVVAIKIIDLEEXXDEIEDIQQEITVLSQCDSPYVTKYYGS     73
+
+asis             101 YLKDTKLWIIMEYLGGGSALDLLEPGPLDETQIATILREILKGLDYLHSE    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              74 YLKDTKLWIIMEYLGGGSALDLLEPGPLDETQIATILREILKGLDYLHSE    123
+
+asis             151 KKIHRDIKAANVLLSEHGEVKLADFGVAGQLTDTQIKRNTFVGTPFWMAP    200
+                     |||||||||||||||||||||||||||||||||||||||.||||||||||
+asis             124 KKIHRDIKAANVLLSEHGEVKLADFGVAGQLTDTQIKRNXFVGTPFWMAP    173
+
+asis             201 EVIKQSAYDSKADIWSLGITAIELARGEPPHSELHPMKVLFLIPKNNPPT    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             174 EVIKQSAYDSKADIWSLGITAIELARGEPPHSELHPMKVLFLIPKNNPPT    223
+
+asis             251 LEGNYSKPLKEFVEACLNKEPSFRPTAKELLKHKFILRNAKKTSYLTELI    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             224 LEGNYSKPLKEFVEACLNKEPSFRPTAKELLKHKFILRNAKKTSYLTELI    273
+
+asis             301 DRYKRWKAEQSHDDSSSEDSDAETDGQASGGSDSGDWIFTIREKDPKNLE    350
+                     ||||||||||                                        
+asis             274 DRYKRWKAEQ----------------------------------------    283
+
+asis             351 NGALQPSDLDRNKMKDIPKRPFSQCLSTIISPLFAELKEKSQACGGNLGS    400
+                                                                       
+asis             283 --------------------------------------------------    283
+
+asis             401 IEELRGAIYLAEEACPGISDTMVAQLVQRLQRYSLSGGGTSSH    443
+                                                                
+asis             283 -------------------------------------------    283
+
+
+#---------------------------------------
+#---------------------------------------

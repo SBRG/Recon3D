@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:36:20
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10273.1/10273.1_protein/sequences/Q9UNE7-1_4kbq-A.needle
+#    -asequence asis::MKGKEEKEGGARLGAGGGSPEKSPSAQELKEQGNRLFVGRKYPEAAACYGRAITRNPLVAVYYTNRALCYLKMQQHEQALADCRRALELDGQSVKAHFFLGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKKKRWNSIEERRIHQESELHSYLSRLIAAERERELEECQRNHEGDEDDSHVRAQQACIEAKHDKYMADMDELFSQVDEKRKKRDIPDYLCGKISFELMREPCITPSGITYDRKDIEEHLQRVGHFDPVTRSPLTQEQLIPNLAMKEVIDAFISENGWVEDY
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXPSAQELKEQGNRLFVGRKYPEAAACYGRAITRNPLVAVYYTNRALCYLKMQQHEQALADCRRALELDGQSVKAHFFLGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKKKRWNSIEER
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10273.1/10273.1_protein/sequences/Q9UNE7-1_4kbq-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 303
+# Identity:     130/303 (42.9%)
+# Similarity:   130/303 (42.9%)
+# Gaps:         150/303 (49.5%)
+# Score: 655.0
+# 
+#
+#=======================================
+
+asis               1 MKGKEEKEGGARLGAGGGSPEKSPSAQELKEQGNRLFVGRKYPEAAACYG     50
+                     .......................|||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXPSAQELKEQGNRLFVGRKYPEAAACYG     50
+
+asis              51 RAITRNPLVAVYYTNRALCYLKMQQHEQALADCRRALELDGQSVKAHFFL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 RAITRNPLVAVYYTNRALCYLKMQQHEQALADCRRALELDGQSVKAHFFL    100
+
+asis             101 GQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKKKRWNSI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 GQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKKKRWNSI    150
+
+asis             151 EERRIHQESELHSYLSRLIAAERERELEECQRNHEGDEDDSHVRAQQACI    200
+                     |||                                               
+asis             151 EER-----------------------------------------------    153
+
+asis             201 EAKHDKYMADMDELFSQVDEKRKKRDIPDYLCGKISFELMREPCITPSGI    250
+                                                                       
+asis             153 --------------------------------------------------    153
+
+asis             251 TYDRKDIEEHLQRVGHFDPVTRSPLTQEQLIPNLAMKEVIDAFISENGWV    300
+                                                                       
+asis             153 --------------------------------------------------    153
+
+asis             301 EDY    303
+                        
+asis             153 ---    153
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:10:22
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4707.1/4707.1_protein/sequences/O75438-1_H20705-X.needle
+#    -asequence asis::MVNLLQIVRDHWVHVLVPMGFVIGCYLDRKSDERLTAFRNKSMLFKRELQPSEEVTWK
+#    -bsequence asis::MICWRHPSAPCGRGEWQVPRSQLPLARVEFPVALGLGVAVGAEAAAIMVNLLQIVRDHWVHVLVPMGFVIGCYLDRKSDERLTAFRNKSMLFKRELQPSEEVTWK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4707.1/4707.1_protein/sequences/O75438-1_H20705-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      58/105 (55.2%)
+# Similarity:    58/105 (55.2%)
+# Gaps:          47/105 (44.8%)
+# Score: 308.0
+# 
+#
+#=======================================
+
+asis               1 -----------------------------------------------MVN      3
+                                                                    |||
+asis               1 MICWRHPSAPCGRGEWQVPRSQLPLARVEFPVALGLGVAVGAEAAAIMVN     50
+
+asis               4 LLQIVRDHWVHVLVPMGFVIGCYLDRKSDERLTAFRNKSMLFKRELQPSE     53
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 LLQIVRDHWVHVLVPMGFVIGCYLDRKSDERLTAFRNKSMLFKRELQPSE    100
+
+asis              54 EVTWK     58
+                     |||||
+asis             101 EVTWK    105
+
+
+#---------------------------------------
+#---------------------------------------

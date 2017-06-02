@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:55:33
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2495.1/2495.1_protein/sequences/P02794-1_4y08-A.needle
+#    -asequence asis::MTTASTSQVRQNYHQDSEAAINRQINLELYASYVYLSMSYYFDRDDVALKNFAKYFLHQSHEEREHAEKLMKLQNQRGGRIFLQDIKKPDCDDWESGLNAMECALHLEKNVNQSLLELHKLATDKNDPHLCDFIETHYLNEQVKAIKELGDHVTNLRKMGAPESGLAEYLFDKHTLGDSDNES
+#    -bsequence asis::XXXXTSQVRQNYHQDSEAAINRQINLELYASYVYLSMSYYFDRDDVALKNFAKYFLHQSHEEREHAEKLMKLQNQRGGRIFLQDIKKPDCDDWESGLNAMECALHLEKNVNQSLLELHKLATDKNDPHLCDFIETHYLNEQVKAIKELGDHVTNLRKMGAPESGLAEYLFDKHTLG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2495.1/2495.1_protein/sequences/P02794-1_4y08-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 183
+# Identity:     172/183 (94.0%)
+# Similarity:   172/183 (94.0%)
+# Gaps:           7/183 ( 3.8%)
+# Score: 914.0
+# 
+#
+#=======================================
+
+asis               1 MTTASTSQVRQNYHQDSEAAINRQINLELYASYVYLSMSYYFDRDDVALK     50
+                      ....|||||||||||||||||||||||||||||||||||||||||||||
+asis               1 -XXXXTSQVRQNYHQDSEAAINRQINLELYASYVYLSMSYYFDRDDVALK     49
+
+asis              51 NFAKYFLHQSHEEREHAEKLMKLQNQRGGRIFLQDIKKPDCDDWESGLNA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              50 NFAKYFLHQSHEEREHAEKLMKLQNQRGGRIFLQDIKKPDCDDWESGLNA     99
+
+asis             101 MECALHLEKNVNQSLLELHKLATDKNDPHLCDFIETHYLNEQVKAIKELG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             100 MECALHLEKNVNQSLLELHKLATDKNDPHLCDFIETHYLNEQVKAIKELG    149
+
+asis             151 DHVTNLRKMGAPESGLAEYLFDKHTLGDSDNES    183
+                     |||||||||||||||||||||||||||      
+asis             150 DHVTNLRKMGAPESGLAEYLFDKHTLG------    176
+
+
+#---------------------------------------
+#---------------------------------------

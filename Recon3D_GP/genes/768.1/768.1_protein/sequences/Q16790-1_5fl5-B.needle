@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:57:52
+# Commandline: needle
+#    -outfile ./Recon3D/genes/768.1/768.1_protein/sequences/Q16790-1_5fl5-B.needle
+#    -asequence asis::MAPLCPSPWLPLLIPAPAPGLTVQLLLSLLLLVPVHPQRLPRMQEDSPLGGGSSGEDDPLGEEDLPSEEDSPREEDPPGEEDLPGEEDLPGEEDLPEVKPKSEEEGSLKLEDLPTVEAPGDPQEPQNNAHRDKEGDDQSHWRYGGDPPWPRVSPACAGRFQSPVDIRPQLAAFCPALRPLELLGFQLPPLPELRLRNNGHSVQLTLPPGLEMALGPGREYRALQLHLHWGAAGRPGSEHTVEGHRFPAEIHVVHLSTAFARVDEALGRPGGLAVLAAFLEEGPEENSAYEQLLSRLEEIAEEGSETQVPGLDISALLPSDFSRYFQYEGSLTTPPCAQGVIWTVFNQTVMLSAKQLHTLSDTLWGPGDSRLQLNFRATQPLNGRVIEASFPAGVDSSPRAAEPVQLNSCLAAGDILALVFGLLFAVTSVAFLVQMRRQHRRGTKGGVSYRPAEVAETGA
+#    -bsequence asis::XXXXXXXXWRYGGDPPWPRVSPACAGRFQSPVDIRPQLAAFSPALRPLELLGFQLPPLPELRLRNNGHSVQLTLPPGLEMALGPGREYRALQLHLHWGAAGRPGSEHTVEGHRFPAEIHVVHLSTAFARVDEALGRPGGLAVLAAFLEEGPEENSAYEQLLSRLEEIAEEGSETQVPGLDISALLPSDFSRYFQYEGSLTTPPCAQGVIWTVFNQTVMLSAKQLHTLSDTLWGPGDSRLQLNFRATQPLNGRVIEASFP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/768.1/768.1_protein/sequences/Q16790-1_5fl5-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 459
+# Identity:     250/459 (54.5%)
+# Similarity:   250/459 (54.5%)
+# Gaps:         200/459 (43.6%)
+# Score: 1318.0
+# 
+#
+#=======================================
+
+asis               1 MAPLCPSPWLPLLIPAPAPGLTVQLLLSLLLLVPVHPQRLPRMQEDSPLG     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 GGSSGEDDPLGEEDLPSEEDSPREEDPPGEEDLPGEEDLPGEEDLPEVKP    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 KSEEEGSLKLEDLPTVEAPGDPQEPQNNAHRDKEGDDQSHWRYGGDPPWP    150
+                                                     ........||||||||||
+asis               1 --------------------------------XXXXXXXXWRYGGDPPWP     18
+
+asis             151 RVSPACAGRFQSPVDIRPQLAAFCPALRPLELLGFQLPPLPELRLRNNGH    200
+                     |||||||||||||||||||||||.||||||||||||||||||||||||||
+asis              19 RVSPACAGRFQSPVDIRPQLAAFSPALRPLELLGFQLPPLPELRLRNNGH     68
+
+asis             201 SVQLTLPPGLEMALGPGREYRALQLHLHWGAAGRPGSEHTVEGHRFPAEI    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              69 SVQLTLPPGLEMALGPGREYRALQLHLHWGAAGRPGSEHTVEGHRFPAEI    118
+
+asis             251 HVVHLSTAFARVDEALGRPGGLAVLAAFLEEGPEENSAYEQLLSRLEEIA    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             119 HVVHLSTAFARVDEALGRPGGLAVLAAFLEEGPEENSAYEQLLSRLEEIA    168
+
+asis             301 EEGSETQVPGLDISALLPSDFSRYFQYEGSLTTPPCAQGVIWTVFNQTVM    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             169 EEGSETQVPGLDISALLPSDFSRYFQYEGSLTTPPCAQGVIWTVFNQTVM    218
+
+asis             351 LSAKQLHTLSDTLWGPGDSRLQLNFRATQPLNGRVIEASFPAGVDSSPRA    400
+                     |||||||||||||||||||||||||||||||||||||||||         
+asis             219 LSAKQLHTLSDTLWGPGDSRLQLNFRATQPLNGRVIEASFP---------    259
+
+asis             401 AEPVQLNSCLAAGDILALVFGLLFAVTSVAFLVQMRRQHRRGTKGGVSYR    450
+                                                                       
+asis             259 --------------------------------------------------    259
+
+asis             451 PAEVAETGA    459
+                              
+asis             259 ---------    259
+
+
+#---------------------------------------
+#---------------------------------------

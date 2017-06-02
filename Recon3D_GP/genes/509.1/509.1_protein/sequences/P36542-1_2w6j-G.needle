@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:08:48
+# Commandline: needle
+#    -outfile ./Recon3D/genes/509.1/509.1_protein/sequences/P36542-1_2w6j-G.needle
+#    -asequence asis::MFSRAGVAGLSAWTLQPQWIQVRNMATLKDITRRLKSIKNIQKITKSMKMVAAAKYARAERELKPARIYGLGSLALYEKADIKGPEDKKKHLLIGVSSDRGLCGAIHSSIAKQMKSEVATLTAAGKEVMLVGIGDKIRGILYRTHSDQFLVAFKEVGRKPPTFGDASVIALELLNSGYEFDEGSIIFNKFRSVISYKTEEKPIFSLNTVASADSMSIYDDIDADVLQNYQEYNLANIIYYSLKESTTSEQSARMTAMDNASKNASEMIDKLTLTFNRTRQAVITKELIEIISGAAALD
+#    -bsequence asis::ATLKDITRRLKSIKNIQKITKSMKMVAAAKYARAERELKPARVYGVGXXXXXXXXXXXXXXXXXXXLIIGVSSDRGLCGAIHSSVAXXXXXXXXXXXXXXXXXXIIGVGDKIRSILXXXXXXXXXXTFKEVGRRPPTFGDASVIALELXXXXXXXXXXSIIFNRFRSVISYKTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEYSLANIIYYSLKESTTSEQSARMTAMDNASKNASEMIDKLTLTFNRTRQAVITKELIEIISGAAA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/509.1/509.1_protein/sequences/P36542-1_2w6j-G.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 298
+# Identity:     170/298 (57.0%)
+# Similarity:   180/298 (60.4%)
+# Gaps:          27/298 ( 9.1%)
+# Score: 778.0
+# 
+#
+#=======================================
+
+asis               1 MFSRAGVAGLSAWTLQPQWIQVRNMATLKDITRRLKSIKNIQKITKSMKM     50
+                                              |||||||||||||||||||||||||
+asis               1 -------------------------ATLKDITRRLKSIKNIQKITKSMKM     25
+
+asis              51 VAAAKYARAERELKPARIYGLGSLALYEKADIKGPEDKKKHLLIGVSSDR    100
+                     |||||||||||||||||:||:|...................|:|||||||
+asis              26 VAAAKYARAERELKPARVYGVGXXXXXXXXXXXXXXXXXXXLIIGVSSDR     75
+
+asis             101 GLCGAIHSSIAKQMKSEVATLTAAGKEVMLVGIGDKIRGILYRTHSDQFL    150
+                     |||||||||:|..................::|:|||||.||.........
+asis              76 GLCGAIHSSVAXXXXXXXXXXXXXXXXXXIIGVGDKIRSILXXXXXXXXX    125
+
+asis             151 VAFKEVGRKPPTFGDASVIALELLNSGYEFDEGSIIFNKFRSVISYKTEE    200
+                     ..||||||:||||||||||||||..........|||||:|||||||||..
+asis             126 XTFKEVGRRPPTFGDASVIALELXXXXXXXXXXSIIFNRFRSVISYKTXX    175
+
+asis             201 KPIFSLNTVASADSMSIYDDIDADVLQNYQEYNLANIIYYSLKESTTSEQ    250
+                     ..............................||:|||||||||||||||||
+asis             176 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEYSLANIIYYSLKESTTSEQ    225
+
+asis             251 SARMTAMDNASKNASEMIDKLTLTFNRTRQAVITKELIEIISGAAALD    298
+                     ||||||||||||||||||||||||||||||||||||||||||||||  
+asis             226 SARMTAMDNASKNASEMIDKLTLTFNRTRQAVITKELIEIISGAAA--    271
+
+
+#---------------------------------------
+#---------------------------------------

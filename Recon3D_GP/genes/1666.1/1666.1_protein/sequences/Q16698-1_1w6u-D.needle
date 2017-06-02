@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:59:46
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1666.1/1666.1_protein/sequences/Q16698-1_1w6u-D.needle
+#    -asequence asis::MKLPARVFFTLGSRLPCGLAPRRFFSYGTKILYQNTEALQSKFFSPLQKAMLPPNSFQGKVAFITGGGTGLGKGMTTLLSSLGAQCVIASRKMDVLKATAEQISSQTGNKVHAIQCDVRDPDMVQNTVSELIKVAGHPNIVINNAAGNFISPTERLSPNAWKTITDIVLNGTAFVTLEIGKQLIKAQKGAAFLSITTIYAETGSGFVVPSASAKAGVEAMSKSLAAEWGKYGMRFNVIQPGPIKTKGAFSRLDPTGTFEKEMIGRIPCGRLGTVEELANLAAFLCSDYASWINGAVIKFDGGEEVLISGEFNDLRKVTKEQWDTIEELIRKTKGS
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMNTEALQSKFFSPLQKAMLPPNSFQGKVAFITGGGTGLGKGMTTLLSSLGAQCVIASRKMDVLKATAEQISSQTGNKVHAIQCDVRDPDMVQNTVSELIKVAGHPNIVINNAAGNFISPTERLSPNAWKTITDIVLNGTAFVTLEIGKQLIKAQKGAAFLSITTIYAETGSGFVVPSASAKAGVEAMSKSLAAEWGKYGMRFNVIQPGPIKTXXXXXXXXXXXXFEKEMIGRIPCGRLGTVEELANLAAFLCSDYASWINGAVIKFDGGEEVLISGEFNDLRKVTKEQWDTIEE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1666.1/1666.1_protein/sequences/Q16698-1_1w6u-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 368
+# Identity:     282/368 (76.6%)
+# Similarity:   282/368 (76.6%)
+# Gaps:          74/368 (20.1%)
+# Score: 1402.0
+# 
+#
+#=======================================
+
+asis               1 ---------------------------------MKLPARVFFTLGSRLPC     17
+                                                      |                
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXM----------------     34
+
+asis              18 GLAPRRFFSYGTKILYQNTEALQSKFFSPLQKAMLPPNSFQGKVAFITGG     67
+                                      |||||||||||||||||||||||||||||||||
+asis              35 -----------------NTEALQSKFFSPLQKAMLPPNSFQGKVAFITGG     67
+
+asis              68 GTGLGKGMTTLLSSLGAQCVIASRKMDVLKATAEQISSQTGNKVHAIQCD    117
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              68 GTGLGKGMTTLLSSLGAQCVIASRKMDVLKATAEQISSQTGNKVHAIQCD    117
+
+asis             118 VRDPDMVQNTVSELIKVAGHPNIVINNAAGNFISPTERLSPNAWKTITDI    167
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             118 VRDPDMVQNTVSELIKVAGHPNIVINNAAGNFISPTERLSPNAWKTITDI    167
+
+asis             168 VLNGTAFVTLEIGKQLIKAQKGAAFLSITTIYAETGSGFVVPSASAKAGV    217
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             168 VLNGTAFVTLEIGKQLIKAQKGAAFLSITTIYAETGSGFVVPSASAKAGV    217
+
+asis             218 EAMSKSLAAEWGKYGMRFNVIQPGPIKTKGAFSRLDPTGTFEKEMIGRIP    267
+                     ||||||||||||||||||||||||||||............||||||||||
+asis             218 EAMSKSLAAEWGKYGMRFNVIQPGPIKTXXXXXXXXXXXXFEKEMIGRIP    267
+
+asis             268 CGRLGTVEELANLAAFLCSDYASWINGAVIKFDGGEEVLISGEFNDLRKV    317
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             268 CGRLGTVEELANLAAFLCSDYASWINGAVIKFDGGEEVLISGEFNDLRKV    317
+
+asis             318 TKEQWDTIEELIRKTKGS    335
+                     ||||||||||        
+asis             318 TKEQWDTIEE--------    327
+
+
+#---------------------------------------
+#---------------------------------------

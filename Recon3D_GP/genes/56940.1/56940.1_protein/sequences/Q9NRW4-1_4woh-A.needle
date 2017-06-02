@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:28:48
+# Commandline: needle
+#    -outfile ./Recon3D/genes/56940.1/56940.1_protein/sequences/Q9NRW4-1_4woh-A.needle
+#    -asequence asis::MGNGMNKILPGLYIGNFKDARDAEQLSKNKVTHILSVHDSARPMLEGVKYLCIPAADSPSQNLTRHFKESIKFIHECRLRGESCLVHCLAGVSRSVTLVIAYIMTVTDFGWEDALHTVRAGRSCANPNVGFQRQLQEFEKHEVHQYRQWLKEEYGESPLQDAEEAKNILAAPGILKFWAFLRRL
+#    -bsequence asis::GGPXMGNGMNKILPGLYIGNFKDARDAAQLSANAVTHILSVHDSARPMLEGVKYLCIPAADSPSQNLTRHFKESIKFIHECRLRGESCLVHSLAGVSRSVTLVIAYIMTVTDFGWEDALHTVRAGRSCANPNVGFQRQLQEFEKHEVHQYRQWLKEEYG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/56940.1/56940.1_protein/sequences/Q9NRW4-1_4woh-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:     151/188 (80.3%)
+# Similarity:   151/188 (80.3%)
+# Gaps:          33/188 (17.6%)
+# Score: 800.0
+# 
+#
+#=======================================
+
+asis               1 ----MGNGMNKILPGLYIGNFKDARDAEQLSKNKVTHILSVHDSARPMLE     46
+                         |||||||||||||||||||||||.|||.|.||||||||||||||||
+asis               1 GGPXMGNGMNKILPGLYIGNFKDARDAAQLSANAVTHILSVHDSARPMLE     50
+
+asis              47 GVKYLCIPAADSPSQNLTRHFKESIKFIHECRLRGESCLVHCLAGVSRSV     96
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+asis              51 GVKYLCIPAADSPSQNLTRHFKESIKFIHECRLRGESCLVHSLAGVSRSV    100
+
+asis              97 TLVIAYIMTVTDFGWEDALHTVRAGRSCANPNVGFQRQLQEFEKHEVHQY    146
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 TLVIAYIMTVTDFGWEDALHTVRAGRSCANPNVGFQRQLQEFEKHEVHQY    150
+
+asis             147 RQWLKEEYGESPLQDAEEAKNILAAPGILKFWAFLRRL    184
+                     |||||||||                             
+asis             151 RQWLKEEYG-----------------------------    159
+
+
+#---------------------------------------
+#---------------------------------------

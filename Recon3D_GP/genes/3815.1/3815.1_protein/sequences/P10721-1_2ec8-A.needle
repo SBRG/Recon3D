@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 18:10:07
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3815.1/3815.1_protein/sequences/P10721-1_2ec8-A.needle
+#    -asequence asis::MRGARGAWDFLCVLLLLLRVQTGSSQPSVSPGEPSPPSIHPGKSDLIVRVGDEIRLLCTDPGFVKWTFEILDETNENKQNEWITEKAEATNTGKYTCTNKHGLSNSIYVFVRDPAKLFLVDRSLYGKEDNDTLVRCPLTDPEVTNYSLKGCQGKPLPKDLRFIPDPKAGIMIKSVKRAYHRLCLHCSVDQEGKSVLSEKFILKVRPAFKAVPVVSVSKASYLLREGEEFTVTCTIKDVSSSVYSTWKRENSQTKLQEKYNSWHHGDFNYERQATLTISSARVNDSGVFMCYANNTFGSANVTTTLEVVDKGFINIFPMINTTVFVNDGENVDLIVEYEAFPKPEHQQWIYMNRTFTDKWEDYPKSENESNIRYVSELHLTRLKGTEGGTYTFLVSNSDVNAAIAFNVYVNTKPEILTYDRLVNGMLQCVAAGFPEPTIDWYFCPGTEQRCSASVLPVDVQTLNSSGPPFGKLVVQSSIDSSAFKHNGTVECKAYNDVGKTSAYFNFAFKGNNKEQIHPHTLFTPLLIGFVIVAGMMCIIVMILTYKYLQKPMYEVQWKVVEEINGNNYVYIDPTQLPYDHKWEFPRNRLSFGKTLGAGAFGKVVEATAYGLIKSDAAMTVAVKMLKPSAHLTEREALMSELKVLSYLGNHMNIVNLLGACTIGGPTLVITEYCCYGDLLNFLRRKRDSFICSKQEDHAEAALYKNLLHSKESSCSDSTNEYMDMKPGVSYVVPTKADKRRSVRIGSYIERDVTPAIMEDDELALDLEDLLSFSYQVAKGMAFLASKNCIHRDLAARNILLTHGRITKICDFGLARDIKNDSNYVVKGNARLPVKWMAPESIFNCVYTFESDVWSYGIFLWELFSLGSSPYPGMPVDSKFYKMIKEGFRMLSPEHAPAEMYDIMKTCWDADPLKRPTFKQIVQLIEKQISESTNHIYSNLANCSPNRQKPVVDHSVRINSVGSTASSSQPLLVHDDV
+#    -bsequence asis::XXXXXXXXXXLCVLLLLLXXXXXXXXXXXXXXEPSPPSIHPGKSDLIVRVGDEIRLLCTDPGFVKWTFEILDETNENKQNEWITEKAEATNTGKYTCTNKHGLSNSIYVFVRDPAKLFLVDRSLYGKEDNDTLVRCPLTDPEVTNYSLKGCQGKPLPKDLRFIPDPKAGIMIKSVKRAYHRLCLHCSVDXXXXSVLSEKFILKVRPAFKAVPVVSVSKASYLLREGEEFTVTCTIKDVSSSVYSTWKRENSQTKLQEKYNSWHHGDFNYERQATLTISSARVNDSGVFMCYANNTFGSANVTTTLEVVDKGFINIFPMINTTVFVNDGENVDLIVEYEAFPKPEHQQWIYMNRTFTDKWEDYPKSENESNIRYVSELHLTRLKGTEGGTYTFLVSNSDVNAAIAFNVYVNTKPEILTYDRLVNGMLQCVAAGFPEPTIDWYFCXXXXXXXXXXVLPVDVQTLNSXGPPFGKLVVQSSIDSSAFKHXXXXXCKAYNDVGKTSAYFNFAF
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3815.1/3815.1_protein/sequences/P10721-1_2ec8-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 976
+# Identity:     464/976 (47.5%)
+# Similarity:   464/976 (47.5%)
+# Gaps:         468/976 (48.0%)
+# Score: 2433.0
+# 
+#
+#=======================================
+
+asis               1 MRGARGAWDFLCVLLLLLRVQTGSSQPSVSPGEPSPPSIHPGKSDLIVRV     50
+                     ..........||||||||..............||||||||||||||||||
+asis               1 XXXXXXXXXXLCVLLLLLXXXXXXXXXXXXXXEPSPPSIHPGKSDLIVRV     50
+
+asis              51 GDEIRLLCTDPGFVKWTFEILDETNENKQNEWITEKAEATNTGKYTCTNK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 GDEIRLLCTDPGFVKWTFEILDETNENKQNEWITEKAEATNTGKYTCTNK    100
+
+asis             101 HGLSNSIYVFVRDPAKLFLVDRSLYGKEDNDTLVRCPLTDPEVTNYSLKG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 HGLSNSIYVFVRDPAKLFLVDRSLYGKEDNDTLVRCPLTDPEVTNYSLKG    150
+
+asis             151 CQGKPLPKDLRFIPDPKAGIMIKSVKRAYHRLCLHCSVDQEGKSVLSEKF    200
+                     |||||||||||||||||||||||||||||||||||||||....|||||||
+asis             151 CQGKPLPKDLRFIPDPKAGIMIKSVKRAYHRLCLHCSVDXXXXSVLSEKF    200
+
+asis             201 ILKVRPAFKAVPVVSVSKASYLLREGEEFTVTCTIKDVSSSVYSTWKREN    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 ILKVRPAFKAVPVVSVSKASYLLREGEEFTVTCTIKDVSSSVYSTWKREN    250
+
+asis             251 SQTKLQEKYNSWHHGDFNYERQATLTISSARVNDSGVFMCYANNTFGSAN    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 SQTKLQEKYNSWHHGDFNYERQATLTISSARVNDSGVFMCYANNTFGSAN    300
+
+asis             301 VTTTLEVVDKGFINIFPMINTTVFVNDGENVDLIVEYEAFPKPEHQQWIY    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             301 VTTTLEVVDKGFINIFPMINTTVFVNDGENVDLIVEYEAFPKPEHQQWIY    350
+
+asis             351 MNRTFTDKWEDYPKSENESNIRYVSELHLTRLKGTEGGTYTFLVSNSDVN    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             351 MNRTFTDKWEDYPKSENESNIRYVSELHLTRLKGTEGGTYTFLVSNSDVN    400
+
+asis             401 AAIAFNVYVNTKPEILTYDRLVNGMLQCVAAGFPEPTIDWYFCPGTEQRC    450
+                     |||||||||||||||||||||||||||||||||||||||||||.......
+asis             401 AAIAFNVYVNTKPEILTYDRLVNGMLQCVAAGFPEPTIDWYFCXXXXXXX    450
+
+asis             451 SASVLPVDVQTLNSSGPPFGKLVVQSSIDSSAFKHNGTVECKAYNDVGKT    500
+                     ...|||||||||||.||||||||||||||||||||.....||||||||||
+asis             451 XXXVLPVDVQTLNSXGPPFGKLVVQSSIDSSAFKHXXXXXCKAYNDVGKT    500
+
+asis             501 SAYFNFAFKGNNKEQIHPHTLFTPLLIGFVIVAGMMCIIVMILTYKYLQK    550
+                     ||||||||                                          
+asis             501 SAYFNFAF------------------------------------------    508
+
+asis             551 PMYEVQWKVVEEINGNNYVYIDPTQLPYDHKWEFPRNRLSFGKTLGAGAF    600
+                                                                       
+asis             508 --------------------------------------------------    508
+
+asis             601 GKVVEATAYGLIKSDAAMTVAVKMLKPSAHLTEREALMSELKVLSYLGNH    650
+                                                                       
+asis             508 --------------------------------------------------    508
+
+asis             651 MNIVNLLGACTIGGPTLVITEYCCYGDLLNFLRRKRDSFICSKQEDHAEA    700
+                                                                       
+asis             508 --------------------------------------------------    508
+
+asis             701 ALYKNLLHSKESSCSDSTNEYMDMKPGVSYVVPTKADKRRSVRIGSYIER    750
+                                                                       
+asis             508 --------------------------------------------------    508
+
+asis             751 DVTPAIMEDDELALDLEDLLSFSYQVAKGMAFLASKNCIHRDLAARNILL    800
+                                                                       
+asis             508 --------------------------------------------------    508
+
+asis             801 THGRITKICDFGLARDIKNDSNYVVKGNARLPVKWMAPESIFNCVYTFES    850
+                                                                       
+asis             508 --------------------------------------------------    508
+
+asis             851 DVWSYGIFLWELFSLGSSPYPGMPVDSKFYKMIKEGFRMLSPEHAPAEMY    900
+                                                                       
+asis             508 --------------------------------------------------    508
+
+asis             901 DIMKTCWDADPLKRPTFKQIVQLIEKQISESTNHIYSNLANCSPNRQKPV    950
+                                                                       
+asis             508 --------------------------------------------------    508
+
+asis             951 VDHSVRINSVGSTASSSQPLLVHDDV    976
+                                               
+asis             508 --------------------------    508
+
+
+#---------------------------------------
+#---------------------------------------

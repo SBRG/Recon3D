@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:10
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2877.1/2877.1_protein/sequences/P18283-1_2he3-A.needle
+#    -asequence asis::MAFIAKSFYDLSAISLDGEKVDFNTFRGRAVLIENVASLUGTTTRDFTQLNELQCRFPRRLVVLGFPCNQFGHQENCQNEEILNSLKYVRPGGGYQPTFTLVQKCEVNGQNEHPVFAYLKDKLPYPYDDPFSLMTDPKLIIWSPVRRSDVAWNFEKFLIGPEGEPFRRYSRTFPTINIEPDIKRLLKVAI
+#    -bsequence asis::XXMIAKSFYDLSAINLDGEKVDFNTFRGRAVLIENVASLCGTTTRDFTQLNELQCRFPRRLVVLGFPCNQFGHQENCQNEEILNSLKYVRPGGGYQPTFTLVQKCEVNGQNEHPVFAYLKDKLPYPYDDPFSLMTDPKLIIWSPVRRSDVAWNFEKFLIGPEGEPFRRYSRTFPTINIEPDIKRLLK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2877.1/2877.1_protein/sequences/P18283-1_2he3-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 190
+# Identity:     182/190 (95.8%)
+# Similarity:   183/190 (96.3%)
+# Gaps:           3/190 ( 1.6%)
+# Score: 979.0
+# 
+#
+#=======================================
+
+asis               1 MAFIAKSFYDLSAISLDGEKVDFNTFRGRAVLIENVASLUGTTTRDFTQL     50
+                     ...|||||||||||:|||||||||||||||||||||||| ||||||||||
+asis               1 XXMIAKSFYDLSAINLDGEKVDFNTFRGRAVLIENVASLCGTTTRDFTQL     50
+
+asis              51 NELQCRFPRRLVVLGFPCNQFGHQENCQNEEILNSLKYVRPGGGYQPTFT    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 NELQCRFPRRLVVLGFPCNQFGHQENCQNEEILNSLKYVRPGGGYQPTFT    100
+
+asis             101 LVQKCEVNGQNEHPVFAYLKDKLPYPYDDPFSLMTDPKLIIWSPVRRSDV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 LVQKCEVNGQNEHPVFAYLKDKLPYPYDDPFSLMTDPKLIIWSPVRRSDV    150
+
+asis             151 AWNFEKFLIGPEGEPFRRYSRTFPTINIEPDIKRLLKVAI    190
+                     |||||||||||||||||||||||||||||||||||||   
+asis             151 AWNFEKFLIGPEGEPFRRYSRTFPTINIEPDIKRLLK---    187
+
+
+#---------------------------------------
+#---------------------------------------

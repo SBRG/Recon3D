@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:17:26
+# Commandline: needle
+#    -outfile ./Recon3D/genes/29085.1/29085.1_protein/sequences/Q9NRX4-1_2nmm-A.needle
+#    -asequence asis::MAVADLALIPDVDIDSDGVFKYVLIRVHSAPRSGAPAAESKEIVRGYKWAEYHADIYDKVSGDMQKQGCDCECLGGGRISHQSQDKKIHVYGYSMAYGPAQHAISTEKIKAKYPDYEVTWANDGY
+#    -bsequence asis::XAVADLALIPDVDIDSDGVFKYVLIRVHSAPXXXXXXXESKEIVRGYKWAEYHADIYDKVSGDXQKQGCDCECLGGGRISHQSQDKKIHVYGYSXAYGPAQHAISTEKIKAKYPDYEVTWA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/29085.1/29085.1_protein/sequences/Q9NRX4-1_2nmm-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:     111/125 (88.8%)
+# Similarity:   111/125 (88.8%)
+# Gaps:           4/125 ( 3.2%)
+# Score: 593.0
+# 
+#
+#=======================================
+
+asis               1 MAVADLALIPDVDIDSDGVFKYVLIRVHSAPRSGAPAAESKEIVRGYKWA     50
+                     .||||||||||||||||||||||||||||||.......||||||||||||
+asis               1 XAVADLALIPDVDIDSDGVFKYVLIRVHSAPXXXXXXXESKEIVRGYKWA     50
+
+asis              51 EYHADIYDKVSGDMQKQGCDCECLGGGRISHQSQDKKIHVYGYSMAYGPA    100
+                     |||||||||||||.||||||||||||||||||||||||||||||.|||||
+asis              51 EYHADIYDKVSGDXQKQGCDCECLGGGRISHQSQDKKIHVYGYSXAYGPA    100
+
+asis             101 QHAISTEKIKAKYPDYEVTWANDGY    125
+                     |||||||||||||||||||||    
+asis             101 QHAISTEKIKAKYPDYEVTWA----    121
+
+
+#---------------------------------------
+#---------------------------------------

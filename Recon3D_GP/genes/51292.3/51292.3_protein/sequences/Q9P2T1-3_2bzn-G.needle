@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:01:03
+# Commandline: needle
+#    -outfile ./Recon3D/genes/51292.3/51292.3_protein/sequences/Q9P2T1-3_2bzn-G.needle
+#    -asequence asis::MPHIDNDVKLDFKDVLLRPKRSTLKSRSEVDLTRSFSFRNSKQTYSGVPIIAANMDTVGTFEMAKVLCKHLAASSGTGSSDFEQLEQILEAIPQVKYICLDVANGYSEHFVEFVKDVRKRFPQHTIMAGNVVTGEMVEELILSGADIIKVGIGPGSVCTTRKKTGVGYPQLSAVMECADAAHGLKGHIISDGGCSCPGDVAKAFGAGADFVMLGGMLAGHSESGGELIERDGKKYKLFYGMSSEMAMKKYAGGVAEYRASEGKTVEVPFKGDVEHTIRDILGGIRSTCTYVGAAKLKELSRRTTFIRVTQQVNPIFSEAC
+#    -bsequence asis::XXXXXXXXSLDFKDVLLRPKRSTLXXXXEVDLTRSFSFRNSKQTYSGVPIIAANMDTVGTFEMAKVLCKFSLFTAVHKHYSLVQWQEFAGQNPDCLEHLAASSGTGSSDFEQLEQILEAIPQVKYICLDVANGYSEHFVEFVKDVRKRFPQHTIMAGNVVTGEMVEELILSGADIIKVGIGPGSVCTTRKKTGVGYPQLSAVMECADAAHGLKGHIISDGGCSCPGDVAKAFGAGADFVMLGGMLAGHSESGGELIERDGKKYKLFYGMSSEMAMKKYXXXXXXXXASEGKTVEVPFKGDVEHTIRDILGGIRSTCTYVGAAKLKELSRRTTFIRVT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/51292.3/51292.3_protein/sequences/Q9P2T1-3_2bzn-G.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 348
+# Identity:     288/348 (82.8%)
+# Similarity:   288/348 (82.8%)
+# Gaps:          39/348 (11.2%)
+# Score: 1438.5
+# 
+#
+#=======================================
+
+asis               1 MPHIDNDVKLDFKDVLLRPKRSTLKSRSEVDLTRSFSFRNSKQTYSGVPI     50
+                     .........|||||||||||||||....||||||||||||||||||||||
+asis               1 XXXXXXXXSLDFKDVLLRPKRSTLXXXXEVDLTRSFSFRNSKQTYSGVPI     50
+
+asis              51 IAANMDTVGTFEMAKVLCK----------------------------HLA     72
+                     |||||||||||||||||||                            |||
+asis              51 IAANMDTVGTFEMAKVLCKFSLFTAVHKHYSLVQWQEFAGQNPDCLEHLA    100
+
+asis              73 ASSGTGSSDFEQLEQILEAIPQVKYICLDVANGYSEHFVEFVKDVRKRFP    122
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 ASSGTGSSDFEQLEQILEAIPQVKYICLDVANGYSEHFVEFVKDVRKRFP    150
+
+asis             123 QHTIMAGNVVTGEMVEELILSGADIIKVGIGPGSVCTTRKKTGVGYPQLS    172
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 QHTIMAGNVVTGEMVEELILSGADIIKVGIGPGSVCTTRKKTGVGYPQLS    200
+
+asis             173 AVMECADAAHGLKGHIISDGGCSCPGDVAKAFGAGADFVMLGGMLAGHSE    222
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 AVMECADAAHGLKGHIISDGGCSCPGDVAKAFGAGADFVMLGGMLAGHSE    250
+
+asis             223 SGGELIERDGKKYKLFYGMSSEMAMKKYAGGVAEYRASEGKTVEVPFKGD    272
+                     ||||||||||||||||||||||||||||........||||||||||||||
+asis             251 SGGELIERDGKKYKLFYGMSSEMAMKKYXXXXXXXXASEGKTVEVPFKGD    300
+
+asis             273 VEHTIRDILGGIRSTCTYVGAAKLKELSRRTTFIRVTQQVNPIFSEAC    320
+                     |||||||||||||||||||||||||||||||||||||           
+asis             301 VEHTIRDILGGIRSTCTYVGAAKLKELSRRTTFIRVT-----------    337
+
+
+#---------------------------------------
+#---------------------------------------

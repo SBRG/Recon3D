@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:40:30
+# Commandline: needle
+#    -outfile ./Recon3D/genes/23624.1/23624.1_protein/sequences/Q9ULV8-1_3vrq-B.needle
+#    -asequence asis::MALAVAPWGRQWEEARALGRAVRMLQRLEEQCVDPRLSVSPPSLRDLLPRTAQLLREVAHSRRAAGGGGPGGPGGSGDFLLIYLANLEAKSRQVAALLPPRGRRSANDELFRAGSRLRRQLAKLAIIFSHMHAELHALFPGGKYCGHMYQLTKAPAHTFWRESCGARCVLPWAEFESLLGTCHPVEPGCTALALRTTIDLTCSGHVSIFEFDVFTRLFQPWPTLLKNWQLLAVNHPGYMAFLTYDEVQERLQACRDKPGSYIFRPSCTRLGQWAIGYVSSDGSILQTIPANKPLSQVLLEGQKDGFYLYPDGKTHNPDLTELGQAEPQQRIHVSEEQLQLYWAMDSTFELCKICAESNKDVKIEPCGHLLCSCCLAAWQHSDSQTCPFCRCEIKGWEAVSIYQFHGQATAEDSGNSSDQEGRELELGQVPLSAPPLPPRPDLPPRKPRNAQPKVRLLKGNSPPAALGPQDPAPA
+#    -bsequence asis::XXXXXXXXXXXWEEARALGRAVRMLQRLEEQCVXXXXXXSPPSLRDLLPRTAQLLREVAHSRRAXXXXXPGGPGGSGDFLLIYLANLEAKSRQVAALXXXXXXXXXXXXXXXXXXRLRRQLAKLAIIFSHMHAELHALFPGGKYCGHMYQLTKAPAHTFWRESCGARCVLPWAEFESLLGTCHPXXXXXTALALRTTIDLTCSGHVSIFEFDVFTRLFQPWPTLLKNWQLLAVNHPGYMAFLTYDEVQERLQACRDKPGSYIFRLSCTRLGQWAIGYVSSDGSILQTIPANKPLSQVLLEGQKDGFYLYPDGKTHNPDLT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/23624.1/23624.1_protein/sequences/Q9ULV8-1_3vrq-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 474
+# Identity:     274/474 (57.8%)
+# Similarity:   274/474 (57.8%)
+# Gaps:         154/474 (32.5%)
+# Score: 1421.0
+# 
+#
+#=======================================
+
+asis               1 MALAVAPWGRQWEEARALGRAVRMLQRLEEQCVDPRLSVSPPSLRDLLPR     50
+                     ...........||||||||||||||||||||||......|||||||||||
+asis               1 XXXXXXXXXXXWEEARALGRAVRMLQRLEEQCVXXXXXXSPPSLRDLLPR     50
+
+asis              51 TAQLLREVAHSRRAAGGGGPGGPGGSGDFLLIYLANLEAKSRQVAALLPP    100
+                     ||||||||||||||.....||||||||||||||||||||||||||||...
+asis              51 TAQLLREVAHSRRAXXXXXPGGPGGSGDFLLIYLANLEAKSRQVAALXXX    100
+
+asis             101 RGRRSANDELFRAGSRLRRQLAKLAIIFSHMHAELHALFPGGKYCGHMYQ    150
+                     ...............|||||||||||||||||||||||||||||||||||
+asis             101 XXXXXXXXXXXXXXXRLRRQLAKLAIIFSHMHAELHALFPGGKYCGHMYQ    150
+
+asis             151 LTKAPAHTFWRESCGARCVLPWAEFESLLGTCHPVEPGCTALALRTTIDL    200
+                     ||||||||||||||||||||||||||||||||||.....|||||||||||
+asis             151 LTKAPAHTFWRESCGARCVLPWAEFESLLGTCHPXXXXXTALALRTTIDL    200
+
+asis             201 TCSGHVSIFEFDVFTRLFQPWPTLLKNWQLLAVNHPGYMAFLTYDEVQER    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 TCSGHVSIFEFDVFTRLFQPWPTLLKNWQLLAVNHPGYMAFLTYDEVQER    250
+
+asis             251 LQACRDKPGSYIFRPSCTRLGQWAIGYVSSDGSILQTIPANKPLSQVLLE    300
+                     ||||||||||||||.|||||||||||||||||||||||||||||||||||
+asis             251 LQACRDKPGSYIFRLSCTRLGQWAIGYVSSDGSILQTIPANKPLSQVLLE    300
+
+asis             301 GQKDGFYLYPDGKTHNPDLTELGQAEPQQRIHVSEEQLQLYWAMDSTFEL    350
+                     ||||||||||||||||||||                              
+asis             301 GQKDGFYLYPDGKTHNPDLT------------------------------    320
+
+asis             351 CKICAESNKDVKIEPCGHLLCSCCLAAWQHSDSQTCPFCRCEIKGWEAVS    400
+                                                                       
+asis             320 --------------------------------------------------    320
+
+asis             401 IYQFHGQATAEDSGNSSDQEGRELELGQVPLSAPPLPPRPDLPPRKPRNA    450
+                                                                       
+asis             320 --------------------------------------------------    320
+
+asis             451 QPKVRLLKGNSPPAALGPQDPAPA    474
+                                             
+asis             320 ------------------------    320
+
+
+#---------------------------------------
+#---------------------------------------

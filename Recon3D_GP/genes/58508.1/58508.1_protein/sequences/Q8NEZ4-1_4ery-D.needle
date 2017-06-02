@@ -1,0 +1,806 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:34:45
+# Commandline: needle
+#    -outfile ./Recon3D/genes/58508.1/58508.1_protein/sequences/Q8NEZ4-1_4ery-D.needle
+#    -asequence asis::MSSEEDKSVEQPQPPPPPPEEPGAPAPSPAAADKRPRGRPRKDGASPFQRARKKPRSRGKTAVEDEDSMDGLETTETETIVETEIKEQSAEEDAEAEVDNSKQLIPTLQRSVSEESANSLVSVGVEAKISEQLCAFCYCGEKSSLGQGDLKQFRITPGFILPWRNQPSNKKDIDDNSNGTYEKMQNSAPRKQRGQRKERSPQQNIVSCVSVSTQTASDDQAGKLWDELSLVGLPDAIDIQALFDSTGTCWAHHRCVEWSLGVCQMEEPLLVNVDKAVVSGSTERCAFCKHLGATIKCCEEKCTQMYHYPCAAGAGTFQDFSHIFLLCPEHIDQAPERSKEDANCAVCDSPGDLLDQFFCTTCGQHYHGMCLDIAVTPLKRAGWQCPECKVCQNCKQSGEDSKMLVCDTCDKGYHTFCLQPVMKSVPTNGWKCKNCRICIECGTRSSSQWHHNCLICDNCYQQQDNLCPFCGKCYHPELQKDMLHCNMCKRWVHLECDKPTDHELDTQLKEEYICMYCKHLGAEMDRLQPGEEVEIAELTTDYNNEMEVEGPEDQMVFSEQAANKDVNGQESTPGIVPDAVQVHTEEQQKSHPSESLDTDSLLIAVSSQHTVNTELEKQISNEVDSEDLKMSSEVKHICGEDQIEDKMEVTENIEVVTHQITVQQEQLQLLEEPETVVSREESRPPKLVMESVTLPLETLVSPHEESISLCPEEQLVIERLQGEKEQKENSELSTGLMDSEMTPTIEGCVKDVSYQGGKSIKLSSETESSFSSSADISKADVSSSPTPSSDLPSHDMLHNYPSALSSSAGNIMPTTYISVTPKIGMGKPAITKRKFSPGRPRSKQGAWSTHNTVSPPSWSPDISEGREIFKPRQLPGSAIWSIKVGRGSGFPGKRRPRGAGLSGRGGRGRSKLKSGIGAVVLPGVSTADISSNKDDEENSMHNTVVLFSSSDKFTLNQDMCVVCGSFGQGAEGRLLACSQCGQCYHPYCVSIKITKVVLSKGWRCLECTVCEACGKATDPGRLLLCDDCDISYHTYCLDPPLQTVPKGGWKCKWCVWCRHCGATSAGLRCEWQNNYTQCAPCASLSSCPVCYRNYREEDLILQCRQCDRWMHAVCQNLNTEEEVENVADIGFDCSMCRPYMPASNVPSSDCCESSLVAQIVTKVKELDPPKTYTQDGVCLTESGMTQLQSLTVTVPRRKRSKPKLKLKIINQNSVAVLQTPPDIQSEHSRDGEMDDSREGELMDCDGKSESSPEREAVDDETKGVEGTDGVKKRKRKPYRPGIGGFMVRQRSRTGQGKTKRSVIRKDSSGSISEQLPCRDDGWSEQLPDTLVDESVSVTESTEKIKKRYRKRKNKLEETFPAYLQEAFFGKDLLDTSRQSKISLDNLSEDGAQLLYKTNMNTGFLDPSLDPLLSSSSAPTKSGTHGPADDPLADISEVLNTDDDILGIISDDLAKSVDHSDIGPVTDDPSSLPQPNVNQSSRPLSEEQLDGILSPELDKMVTDGAILGKLYKIPELGGKDVEDLFTAVLSPANTQPTPLPQPPPPTQLLPIHNQDAFSRMPLMNGLIGSSPHLPHNSLPPGSGLGTFSAIAQSSYPDARDKNSAFNPMASDPNNSWTSSAPTVEGENDTMSNAQRSTLKWEKEEALGEMATVAPVLYTNINFPNLKEEFPDWTTRVKQIAKLWRKASSQERAPYVQKARDNRAALRINKVQMSNDSMKRQQQQDSIDPSSRIDSELFKDPLKQRESEHEQEWKFRQQMRQKSKQQAKIEATQKLEQVKNEQQQQQQQQFGSQHLLVQSGSDTPSSGIQSPLTPQPGNGNMSPAQSFHKELFTKQPPSTPTSTSSDDVFVKPQAPPPPPAPSRIPIQDSLSQAQTSQPPSPQVFSPGSSNSRPPSPMDPYAKMVGTPRPPPVGHSFSRRNSAAPVENCTPLSSVSRPLQMNETTANRPSPVRDLCSSSTTNNDPYAKPPDTPRPVMTDQFPKSLGLSRSPVVSEQTAKGPIAAGTSDHFTKPSPRADVFQRQRIPDSYARPLLTPAPLDSGPGPFKTPMQPPPSSQDPYGSVSQASRRLSVDPYERPALTPRPIDNFSHNQSNDPYSQPPLTPHPAVNESFAHPSRAFSQPGTISRPTSQDPYSQPPGTPRPVVDSYSQSSGTARSNTDPYSQPPGTPRPTTVDPYSQQPQTPRPSTQTDLFVTPVTNQRHSDPYAHPPGTPRPGISVPYSQPPATPRPRISEGFTRSSMTRPVLMPNQDPFLQAAQNRGPALPGPLVRPPDTCSQTPRPPGPGLSDTFSRVSPSAARDPYDQSPMTPRSQSDSFGTSQTAHDVADQPRPGSEGSFCASSNSPMHSQGQQFSGVSQLPGPVPTSGVTDTQNTVNMAQADTEKLRQRQKLREIILQQQQQKKIAGRQEKGSQDSPAVPHPGPLQHWQPENVNQAFTRPPPPYPGNIRSPVAPPLGPRYAVFPKDQRGPYPPDVASMGMRPHGFRFGFPGGSHGTMPSQERFLVPPQQIQGSGVSPQLRRSVSVDMPRPLNNSQMNNPVGLPQHFSPQSLPVQQHNILGQAYIELRHRAPDGRQRLPFSAPPGSVVEASSNLRHGNFIPRPDFPGPRHTDPMRRPPQGLPNQLPVHPDLEQVPPSQQEQGHSVHSSSMVMRTLNHPLGGEFSEAPLSTSVPSETTSDNLQITTQPSDGLEEKLDSDDPSVKELDVKDLEGVEVKDLDDEDLENLNLDTEDGKVVELDTLDNLETNDPNLDDLLRSGEFDIIAYTDPELDMGDKKSMFNEELDLPIDDKLDNQCVSVEPKKKEQENKTLVLSDKHSPQKKSTVTNEVKTEVLSPNSKVESKCETEKNDENKDNVDTPCSQASAHSDLNDGEKTSLHPCDPDLFEKRTNRETAGPSANVIQASTQLPAQDVINSCGITGSTPVLSSLLANEKSDNSDIRPSGSPPPPTLPASPSNHVSSLPPFIAPPGRVLDNAMNSNVTVVSRVNHVFSQGVQVNPGLIPGQSTVNHSLGTGKPATQTGPQTSQSGTSSMSGPQQLMIPQTLAQQNRERPLLLEEQPLLLQDLLDQERQEQQQQRQMQAMIRQRSEPFFPNIDFDAITDPIMKAKMVALKGINKVMAQNNLGMPPMVMSRFPFMGQVVTGTQNSEGQNLGPQAIPQDGSITHQISRPNPPNFGPGFVNDSQRKQYEEWLQETQQLLQMQQKYLEEQIGAHRKSKKALSAKQRTAKKAGREFPEEDAEQLKHVTEQQSMVQKQLEQIRKQQKEHAELIEDYRIKQQQQCAMAPPTMMPSVQPQPPLIPGATPPTMSQPTFPMVPQQLQHQQHTTVISGHTSPVRMPSLPGWQPNSAPAHLPLNPPRIQPPIAQLPIKTCTPAPGTVSNANPQSGPPPRVEFDDNNPFSESFQERERKERLREQQERQRIQLMQEVDRQRALQQRMEMEQHGMVGSEISSSRTSVSQIPFYSSDLPCDFMQPLGPLQQSPQHQQQMGQVLQQQNIQQGSINSPSTQTFMQTNERRQVGPPSFVPDSPSIPVGSPNFSSVKQGHGNLSGTSFQQSPVRPSFTPALPAAPPVANSSLPCGQDSTITHGHSYPGSTQSLIQLYSDIIPEEKGKKKRTRKKKRDDDAESTKAPSTPHSDITAPPTPGISETTSTPAVSTPSELPQQADQESVEPVGPSTPNMAAGQLCTELENKLPNSDFSQATPNQQTYANSEVDKLSMETPAKTEEIKLEKAETESCPGQEEPKLEEQNGSKVEGNAVACPVSSAQSPPHSAGAPAAKGDSGNELLKHLLKNKKSSSLLNQKPEGSICSEDDCTKDNKLVEKQNPAEGLQTLGAQMQGGFGCGNQLPKTDGGSETKKQRSKRTQRTGEKAAPRSKKRKKDEEEKQAMYSSTDTFTHLKQQNNLSNPPTPPASLPPTPPPMACQKMANGFATTEELAGKAGVLVSHEVTKTLGPKPFQLPFRPQDDLLARALAQGPKTVDVPASLPTPPHNNQEELRIQDHCGDRDTPDSFVPSSSPESVVGVEVSRYPDLSLVKEEPPEPVPSPIIPILPSTAGKSSESRRNDIKTEPGTLYFASPFGPSPNGPRSGLISVAITLHPTAAENISSVVAAFSDLLHVRIPNSYEVSSAPDVPSMGLVSSHRINPGLEYRQHLLLRGPPPGSANPPRLVSSYRLKQPNVPFPPTSNGLSGYKDSSHGIAESAALRPQWCCHCKVVILGSGVRKSFKDLTLLNKDSRESTKRVEKDIVFCSNNCFILYSSTAQAKNSENKESIPSLPQSPMRETPSKAFHQYSNNISTLDVHCLPQLPEKASPPASPPIAFPPAFEAAQVEAKPDELKVTVKLKPRLRAVHGGFEDCRPLNKKWRGMKWKKWSIHIVIPKGTFKPPCEDEIDEFLKKLGTSLKPDPVPKDYRKCCFCHEEGDGLTDGPARLLNLDLDLWVHLNCALWSTEVYETQAGALINVELALRRGLQMKCVFCHKTGATSGCHRFRCTNIYHFTCAIKAQCMFFKDKTMLCPMHKPKGIHEQELSYFAVFRRVYVQRDEVRQIASIVQRGERDHTFRVGSLIFHTIGQLLPQQMQAFHSPKALFPVGYEASRLYWSTRYANRRCRYLCSIEEKDGRPVFVIRIVEQGHEDLVLSDISPKGVWDKILEPVACVRKKSEMLQLFPAYLKGEDLFGLTVSAVARIAESLPGVEACENYTFRYGRNPLMELPLAVNPTGCARSEPKMSAHVKRFVLRPHTLNSTSTSKSFQSTVTGELNAPYSKQFVHSKSSQYRKMKTEWKSNVYLARSRIQGLGLYAARDIEKHTMVIEYIGTIIRNEVANRKEKLYESQNRGVYMFRMDNDHVIDATLTGGPARYINHSCAPNCVAEVVTFERGHKIIISSSRRIQKGEELCYDYKFDFEDDQHKIPCHCGAVNCRKWMN
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXVNPTGCARSEPKMS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/58508.1/58508.1_protein/sequences/Q8NEZ4-1_4ery-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9625
+# Identity:       2/9625 ( 0.0%)
+# Similarity:     2/9625 ( 0.0%)
+# Gaps:        9623/9625 (100.0%)
+# Score: 9.0
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis              51 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    350
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    400
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    450
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    500
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    550
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    600
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    650
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    700
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    750
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    800
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    850
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    900
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    950
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis             951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1000
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1001 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1050
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1051 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1350
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1400
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1450
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1500
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1550
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1600
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1650
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1700
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1750
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1800
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1850
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1900
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1950
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            1951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2000
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2001 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2050
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2051 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2350
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2400
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2450
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2500
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2550
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2600
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2650
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2700
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2750
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2800
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2850
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2900
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   2950
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            2951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3000
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3001 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3050
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3051 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3350
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3400
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3450
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3500
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3550
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3600
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3650
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3700
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3750
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3800
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3850
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3900
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   3950
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            3951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4000
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4001 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4050
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4051 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4100
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4150
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4151 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4200
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4250
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4300
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4350
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4400
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4450
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4500
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4550
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4600
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4650
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis            4651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   4700
+
+asis               1 --------------MSSEEDKSVEQPQPPPPPPEEPGAPAPSPAAADKRP     36
+                                   ||                                  
+asis            4701 XXVNPTGCARSEPKMS----------------------------------   4716
+
+asis              37 RGRPRKDGASPFQRARKKPRSRGKTAVEDEDSMDGLETTETETIVETEIK     86
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis              87 EQSAEEDAEAEVDNSKQLIPTLQRSVSEESANSLVSVGVEAKISEQLCAF    136
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             137 CYCGEKSSLGQGDLKQFRITPGFILPWRNQPSNKKDIDDNSNGTYEKMQN    186
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             187 SAPRKQRGQRKERSPQQNIVSCVSVSTQTASDDQAGKLWDELSLVGLPDA    236
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             237 IDIQALFDSTGTCWAHHRCVEWSLGVCQMEEPLLVNVDKAVVSGSTERCA    286
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             287 FCKHLGATIKCCEEKCTQMYHYPCAAGAGTFQDFSHIFLLCPEHIDQAPE    336
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             337 RSKEDANCAVCDSPGDLLDQFFCTTCGQHYHGMCLDIAVTPLKRAGWQCP    386
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             387 ECKVCQNCKQSGEDSKMLVCDTCDKGYHTFCLQPVMKSVPTNGWKCKNCR    436
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             437 ICIECGTRSSSQWHHNCLICDNCYQQQDNLCPFCGKCYHPELQKDMLHCN    486
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             487 MCKRWVHLECDKPTDHELDTQLKEEYICMYCKHLGAEMDRLQPGEEVEIA    536
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             537 ELTTDYNNEMEVEGPEDQMVFSEQAANKDVNGQESTPGIVPDAVQVHTEE    586
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             587 QQKSHPSESLDTDSLLIAVSSQHTVNTELEKQISNEVDSEDLKMSSEVKH    636
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             637 ICGEDQIEDKMEVTENIEVVTHQITVQQEQLQLLEEPETVVSREESRPPK    686
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             687 LVMESVTLPLETLVSPHEESISLCPEEQLVIERLQGEKEQKENSELSTGL    736
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             737 MDSEMTPTIEGCVKDVSYQGGKSIKLSSETESSFSSSADISKADVSSSPT    786
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             787 PSSDLPSHDMLHNYPSALSSSAGNIMPTTYISVTPKIGMGKPAITKRKFS    836
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             837 PGRPRSKQGAWSTHNTVSPPSWSPDISEGREIFKPRQLPGSAIWSIKVGR    886
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             887 GSGFPGKRRPRGAGLSGRGGRGRSKLKSGIGAVVLPGVSTADISSNKDDE    936
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             937 ENSMHNTVVLFSSSDKFTLNQDMCVVCGSFGQGAEGRLLACSQCGQCYHP    986
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis             987 YCVSIKITKVVLSKGWRCLECTVCEACGKATDPGRLLLCDDCDISYHTYC   1036
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1037 LDPPLQTVPKGGWKCKWCVWCRHCGATSAGLRCEWQNNYTQCAPCASLSS   1086
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1087 CPVCYRNYREEDLILQCRQCDRWMHAVCQNLNTEEEVENVADIGFDCSMC   1136
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1137 RPYMPASNVPSSDCCESSLVAQIVTKVKELDPPKTYTQDGVCLTESGMTQ   1186
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1187 LQSLTVTVPRRKRSKPKLKLKIINQNSVAVLQTPPDIQSEHSRDGEMDDS   1236
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1237 REGELMDCDGKSESSPEREAVDDETKGVEGTDGVKKRKRKPYRPGIGGFM   1286
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1287 VRQRSRTGQGKTKRSVIRKDSSGSISEQLPCRDDGWSEQLPDTLVDESVS   1336
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1337 VTESTEKIKKRYRKRKNKLEETFPAYLQEAFFGKDLLDTSRQSKISLDNL   1386
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1387 SEDGAQLLYKTNMNTGFLDPSLDPLLSSSSAPTKSGTHGPADDPLADISE   1436
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1437 VLNTDDDILGIISDDLAKSVDHSDIGPVTDDPSSLPQPNVNQSSRPLSEE   1486
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1487 QLDGILSPELDKMVTDGAILGKLYKIPELGGKDVEDLFTAVLSPANTQPT   1536
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1537 PLPQPPPPTQLLPIHNQDAFSRMPLMNGLIGSSPHLPHNSLPPGSGLGTF   1586
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1587 SAIAQSSYPDARDKNSAFNPMASDPNNSWTSSAPTVEGENDTMSNAQRST   1636
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1637 LKWEKEEALGEMATVAPVLYTNINFPNLKEEFPDWTTRVKQIAKLWRKAS   1686
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1687 SQERAPYVQKARDNRAALRINKVQMSNDSMKRQQQQDSIDPSSRIDSELF   1736
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1737 KDPLKQRESEHEQEWKFRQQMRQKSKQQAKIEATQKLEQVKNEQQQQQQQ   1786
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1787 QFGSQHLLVQSGSDTPSSGIQSPLTPQPGNGNMSPAQSFHKELFTKQPPS   1836
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1837 TPTSTSSDDVFVKPQAPPPPPAPSRIPIQDSLSQAQTSQPPSPQVFSPGS   1886
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1887 SNSRPPSPMDPYAKMVGTPRPPPVGHSFSRRNSAAPVENCTPLSSVSRPL   1936
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1937 QMNETTANRPSPVRDLCSSSTTNNDPYAKPPDTPRPVMTDQFPKSLGLSR   1986
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            1987 SPVVSEQTAKGPIAAGTSDHFTKPSPRADVFQRQRIPDSYARPLLTPAPL   2036
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2037 DSGPGPFKTPMQPPPSSQDPYGSVSQASRRLSVDPYERPALTPRPIDNFS   2086
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2087 HNQSNDPYSQPPLTPHPAVNESFAHPSRAFSQPGTISRPTSQDPYSQPPG   2136
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2137 TPRPVVDSYSQSSGTARSNTDPYSQPPGTPRPTTVDPYSQQPQTPRPSTQ   2186
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2187 TDLFVTPVTNQRHSDPYAHPPGTPRPGISVPYSQPPATPRPRISEGFTRS   2236
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2237 SMTRPVLMPNQDPFLQAAQNRGPALPGPLVRPPDTCSQTPRPPGPGLSDT   2286
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2287 FSRVSPSAARDPYDQSPMTPRSQSDSFGTSQTAHDVADQPRPGSEGSFCA   2336
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2337 SSNSPMHSQGQQFSGVSQLPGPVPTSGVTDTQNTVNMAQADTEKLRQRQK   2386
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2387 LREIILQQQQQKKIAGRQEKGSQDSPAVPHPGPLQHWQPENVNQAFTRPP   2436
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2437 PPYPGNIRSPVAPPLGPRYAVFPKDQRGPYPPDVASMGMRPHGFRFGFPG   2486
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2487 GSHGTMPSQERFLVPPQQIQGSGVSPQLRRSVSVDMPRPLNNSQMNNPVG   2536
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2537 LPQHFSPQSLPVQQHNILGQAYIELRHRAPDGRQRLPFSAPPGSVVEASS   2586
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2587 NLRHGNFIPRPDFPGPRHTDPMRRPPQGLPNQLPVHPDLEQVPPSQQEQG   2636
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2637 HSVHSSSMVMRTLNHPLGGEFSEAPLSTSVPSETTSDNLQITTQPSDGLE   2686
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2687 EKLDSDDPSVKELDVKDLEGVEVKDLDDEDLENLNLDTEDGKVVELDTLD   2736
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2737 NLETNDPNLDDLLRSGEFDIIAYTDPELDMGDKKSMFNEELDLPIDDKLD   2786
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2787 NQCVSVEPKKKEQENKTLVLSDKHSPQKKSTVTNEVKTEVLSPNSKVESK   2836
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2837 CETEKNDENKDNVDTPCSQASAHSDLNDGEKTSLHPCDPDLFEKRTNRET   2886
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2887 AGPSANVIQASTQLPAQDVINSCGITGSTPVLSSLLANEKSDNSDIRPSG   2936
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2937 SPPPPTLPASPSNHVSSLPPFIAPPGRVLDNAMNSNVTVVSRVNHVFSQG   2986
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            2987 VQVNPGLIPGQSTVNHSLGTGKPATQTGPQTSQSGTSSMSGPQQLMIPQT   3036
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3037 LAQQNRERPLLLEEQPLLLQDLLDQERQEQQQQRQMQAMIRQRSEPFFPN   3086
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3087 IDFDAITDPIMKAKMVALKGINKVMAQNNLGMPPMVMSRFPFMGQVVTGT   3136
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3137 QNSEGQNLGPQAIPQDGSITHQISRPNPPNFGPGFVNDSQRKQYEEWLQE   3186
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3187 TQQLLQMQQKYLEEQIGAHRKSKKALSAKQRTAKKAGREFPEEDAEQLKH   3236
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3237 VTEQQSMVQKQLEQIRKQQKEHAELIEDYRIKQQQQCAMAPPTMMPSVQP   3286
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3287 QPPLIPGATPPTMSQPTFPMVPQQLQHQQHTTVISGHTSPVRMPSLPGWQ   3336
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3337 PNSAPAHLPLNPPRIQPPIAQLPIKTCTPAPGTVSNANPQSGPPPRVEFD   3386
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3387 DNNPFSESFQERERKERLREQQERQRIQLMQEVDRQRALQQRMEMEQHGM   3436
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3437 VGSEISSSRTSVSQIPFYSSDLPCDFMQPLGPLQQSPQHQQQMGQVLQQQ   3486
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3487 NIQQGSINSPSTQTFMQTNERRQVGPPSFVPDSPSIPVGSPNFSSVKQGH   3536
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3537 GNLSGTSFQQSPVRPSFTPALPAAPPVANSSLPCGQDSTITHGHSYPGST   3586
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3587 QSLIQLYSDIIPEEKGKKKRTRKKKRDDDAESTKAPSTPHSDITAPPTPG   3636
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3637 ISETTSTPAVSTPSELPQQADQESVEPVGPSTPNMAAGQLCTELENKLPN   3686
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3687 SDFSQATPNQQTYANSEVDKLSMETPAKTEEIKLEKAETESCPGQEEPKL   3736
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3737 EEQNGSKVEGNAVACPVSSAQSPPHSAGAPAAKGDSGNELLKHLLKNKKS   3786
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3787 SSLLNQKPEGSICSEDDCTKDNKLVEKQNPAEGLQTLGAQMQGGFGCGNQ   3836
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3837 LPKTDGGSETKKQRSKRTQRTGEKAAPRSKKRKKDEEEKQAMYSSTDTFT   3886
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3887 HLKQQNNLSNPPTPPASLPPTPPPMACQKMANGFATTEELAGKAGVLVSH   3936
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3937 EVTKTLGPKPFQLPFRPQDDLLARALAQGPKTVDVPASLPTPPHNNQEEL   3986
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            3987 RIQDHCGDRDTPDSFVPSSSPESVVGVEVSRYPDLSLVKEEPPEPVPSPI   4036
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4037 IPILPSTAGKSSESRRNDIKTEPGTLYFASPFGPSPNGPRSGLISVAITL   4086
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4087 HPTAAENISSVVAAFSDLLHVRIPNSYEVSSAPDVPSMGLVSSHRINPGL   4136
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4137 EYRQHLLLRGPPPGSANPPRLVSSYRLKQPNVPFPPTSNGLSGYKDSSHG   4186
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4187 IAESAALRPQWCCHCKVVILGSGVRKSFKDLTLLNKDSRESTKRVEKDIV   4236
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4237 FCSNNCFILYSSTAQAKNSENKESIPSLPQSPMRETPSKAFHQYSNNIST   4286
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4287 LDVHCLPQLPEKASPPASPPIAFPPAFEAAQVEAKPDELKVTVKLKPRLR   4336
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4337 AVHGGFEDCRPLNKKWRGMKWKKWSIHIVIPKGTFKPPCEDEIDEFLKKL   4386
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4387 GTSLKPDPVPKDYRKCCFCHEEGDGLTDGPARLLNLDLDLWVHLNCALWS   4436
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4437 TEVYETQAGALINVELALRRGLQMKCVFCHKTGATSGCHRFRCTNIYHFT   4486
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4487 CAIKAQCMFFKDKTMLCPMHKPKGIHEQELSYFAVFRRVYVQRDEVRQIA   4536
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4537 SIVQRGERDHTFRVGSLIFHTIGQLLPQQMQAFHSPKALFPVGYEASRLY   4586
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4587 WSTRYANRRCRYLCSIEEKDGRPVFVIRIVEQGHEDLVLSDISPKGVWDK   4636
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4637 ILEPVACVRKKSEMLQLFPAYLKGEDLFGLTVSAVARIAESLPGVEACEN   4686
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4687 YTFRYGRNPLMELPLAVNPTGCARSEPKMSAHVKRFVLRPHTLNSTSTSK   4736
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4737 SFQSTVTGELNAPYSKQFVHSKSSQYRKMKTEWKSNVYLARSRIQGLGLY   4786
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4787 AARDIEKHTMVIEYIGTIIRNEVANRKEKLYESQNRGVYMFRMDNDHVID   4836
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4837 ATLTGGPARYINHSCAPNCVAEVVTFERGHKIIISSSRRIQKGEELCYDY   4886
+                                                                       
+asis            4716 --------------------------------------------------   4716
+
+asis            4887 KFDFEDDQHKIPCHCGAVNCRKWMN   4911
+                                              
+asis            4716 -------------------------   4716
+
+
+#---------------------------------------
+#---------------------------------------

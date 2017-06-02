@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:27:25
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1788.3/1788.3_protein/sequences/Q9Y6K1-3_3llr-D.needle
+#    -asequence asis::MPAMPSSGPGDTSSSAAEREEDRKDGEEQEEPRGKEERQEPSTTARKVGRPGRKRKHPPVESGDTPKDPAVISKSPSMAQDSGASELLPNGDLEKRSEPQPEEGSPAGGQKGGAPAEGEGAAETLPEASRAVENGCCTPKEGRGAPAEAGESSAPGAASSGPTSIP
+#    -bsequence asis::XXXXXXXXEYEDGRGFGIGELVWGKLRGFSWWPGRIVSWWMTGRSRAAEGTRWVMWFGDGKFSVVCVEKLMPLSSFCSAFHQATYNKQPMYRKAIYEVLQVASSRAGKLFPVCHDSDESDTAKAVEVQNKPMIEWALGGFQPSGPKGLEPP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1788.3/1788.3_protein/sequences/Q9Y6K1-3_3llr-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 279
+# Identity:       8/279 ( 2.9%)
+# Similarity:    15/279 ( 5.4%)
+# Gaps:         241/279 (86.4%)
+# Score: 20.5
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXEYEDGRGFGIGELVWGKLRGFSWWPGRIVSWWMTGRSRAAEG     50
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis              51 TRWVMWFGDGKFSVVCVEKLMPLSSFCSAFHQATYNKQPMYRKAIYEVLQ    100
+
+asis               1 ---------MPAMPSSGPGDTSSSAAEREEDRKD----GEEQEEPRGKEE     37
+                              .|....|...||:.:...:.:...:    |.:...|:|.|.
+asis             101 VASSRAGKLFPVCHDSDESDTAKAVEVQNKPMIEWALGGFQPSGPKGLEP    150
+
+asis              38 RQEPSTTARKVGRPGRKRKHPPVESGDTPKDPAVISKSPSMAQDSGASEL     87
+                     .                                                 
+asis             151 P-------------------------------------------------    151
+
+asis              88 LPNGDLEKRSEPQPEEGSPAGGQKGGAPAEGEGAAETLPEASRAVENGCC    137
+                                                                       
+asis             151 --------------------------------------------------    151
+
+asis             138 TPKEGRGAPAEAGESSAPGAASSGPTSIP    166
+                                                  
+asis             151 -----------------------------    151
+
+
+#---------------------------------------
+#---------------------------------------

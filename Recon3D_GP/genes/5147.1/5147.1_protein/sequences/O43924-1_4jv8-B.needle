@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:43:41
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5147.1/5147.1_protein/sequences/O43924-1_4jv8-B.needle
+#    -asequence asis::MSAKDERAREILRGFKLNWMNLRDAETGKILWQGTEDLSVPGVEHEARVPKKILKCKAVSRELNFSSTEQMEKFRLEQKVYFKGQCLEEWFFEFGFVIPNSTNTWQSLIEAAPESQMMPASVLTGNVIIETKFFDDDLLVSTSRVRLFYV
+#    -bsequence asis::XSAKDERAREILRGFKLNWMNLRDAETGKILWQGTEDLSVPGVEHEARVPKKILKCKAVSRELNFSSTEQMEKFRLEQKVYFKGQCLEEWFFEFGFVIPNSTNTWQSLIEAAXXSQMMPASVLTGNVIIETKFFDDDLLVSTSRVRLFYV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5147.1/5147.1_protein/sequences/O43924-1_4jv8-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 150
+# Identity:     147/150 (98.0%)
+# Similarity:   147/150 (98.0%)
+# Gaps:           0/150 ( 0.0%)
+# Score: 757.0
+# 
+#
+#=======================================
+
+asis               1 MSAKDERAREILRGFKLNWMNLRDAETGKILWQGTEDLSVPGVEHEARVP     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XSAKDERAREILRGFKLNWMNLRDAETGKILWQGTEDLSVPGVEHEARVP     50
+
+asis              51 KKILKCKAVSRELNFSSTEQMEKFRLEQKVYFKGQCLEEWFFEFGFVIPN    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 KKILKCKAVSRELNFSSTEQMEKFRLEQKVYFKGQCLEEWFFEFGFVIPN    100
+
+asis             101 STNTWQSLIEAAPESQMMPASVLTGNVIIETKFFDDDLLVSTSRVRLFYV    150
+                     ||||||||||||..||||||||||||||||||||||||||||||||||||
+asis             101 STNTWQSLIEAAXXSQMMPASVLTGNVIIETKFFDDDLLVSTSRVRLFYV    150
+
+
+#---------------------------------------
+#---------------------------------------

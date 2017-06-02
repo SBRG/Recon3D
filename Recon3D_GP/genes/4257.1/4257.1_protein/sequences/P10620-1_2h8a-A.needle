@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:11:02
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4257.1/4257.1_protein/sequences/P10620-1_2h8a-A.needle
+#    -asequence asis::MVDLTQVMDDEVFMAFASYATIILSKMMLMSTATAFYRLTRKVFANPEDCVAFGKGENAKKYLRTDDRVERVRRAHLNDLENIIPFLGIGLLYSLSGPDPSTAILHFRLFVGARIYHTIAYLTPLPQPNRALSFFVGYGVTLSMAYRLLKSKLYL
+#    -bsequence asis::XXXXXXXXNEVLMAFTSYATIILAKMMFLSSATAFQRLTNKVFXXXXXXXXXXXXXXXXXXLRTDEKVERVRRAHLNDLENIVPFLGIGLLYSLSGPDLSTALIHFRIFVGARIYHTIAYLTPLPQPNRGLAFFVGYGVTLSMAYRL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4257.1/4257.1_protein/sequences/P10620-1_2h8a-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:     103/155 (66.5%)
+# Similarity:   114/155 (73.5%)
+# Gaps:           8/155 ( 5.2%)
+# Score: 515.0
+# 
+#
+#=======================================
+
+asis               1 MVDLTQVMDDEVFMAFASYATIILSKMMLMSTATAFYRLTRKVFANPEDC     50
+                      ........:||.|||.|||||||:|||.:|:||||.|||.|||......
+asis               1 -XXXXXXXXNEVLMAFTSYATIILAKMMFLSSATAFQRLTNKVFXXXXXX     49
+
+asis              51 VAFGKGENAKKYLRTDDRVERVRRAHLNDLENIIPFLGIGLLYSLSGPDP    100
+                     ............||||::|||||||||||||||:|||||||||||||||.
+asis              50 XXXXXXXXXXXXLRTDEKVERVRRAHLNDLENIVPFLGIGLLYSLSGPDL     99
+
+asis             101 STAILHFRLFVGARIYHTIAYLTPLPQPNRALSFFVGYGVTLSMAYRLLK    150
+                     |||::|||:|||||||||||||||||||||.|:|||||||||||||||  
+asis             100 STALIHFRIFVGARIYHTIAYLTPLPQPNRGLAFFVGYGVTLSMAYRL--    147
+
+asis             151 SKLYL    155
+                          
+asis             147 -----    147
+
+
+#---------------------------------------
+#---------------------------------------

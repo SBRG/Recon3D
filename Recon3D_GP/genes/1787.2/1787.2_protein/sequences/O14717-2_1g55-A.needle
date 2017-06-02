@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:27:19
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1787.2/1787.2_protein/sequences/O14717-2_1g55-A.needle
+#    -asequence asis::MEPLRVLELYSGVGGMHHALRESCIPAQVVAAIDVNTVANEVYKYNFPHTQLLAKTIEGITLEEFDRLSFDMILMSPPCQPFTRLQKLPKYILLENVKGFEVSSTRDLLIQTIENCGFQYQEFLLSPTSLGIPNSRLRYFLIAKLQSEPLPFQAPGQVLMEFPKIESVHPQKYAMDVENKIQEKNVEPNISFDGSIQCSGKDAILFKLETAEEIHRKNQQDSDLSVKMLKDFLEDDTDVNQYLLPPKSLLRYALLLDIVQPTCRRSVCFTKGYGSYIEGTGSVLQTAEDVQVENIYKSLTNLSQEEQITKLLILKLRYFTPKEIANLLGFPPEFGFPEKITVKQRYRLLGNSLNVHVVAKLIKILYE
+#    -bsequence asis::XEPLRVLELYSGVGGMHHALRESCIPAQVVAAIDVNTVANEVYKYNFPHTQLLAKTIEGITLEEFDRLSFDMILMSPPXXXXXXXXXXXXXXXXXXNSFLHILDILPRLQKLPKYILLENVKGFEVSSTRDLLIQTIENXGFQYQEFLLSPTSLGIPNSRLRYFLIAKLQSEPLPFQAPGQVLMEFPKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLSVKMLKDFLEDDTDVNQYLLPPKSLLRYALLLDIVQPTXRRSVCFTKGYGSYIEGTGSVLQTAEDVQVENIYKSLTNLSQEEQITKLLILKLRYFTPKEIANLLGFPPEFGFPEKITVKQRYRLLGNSLNVHVVAKLIKILYE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1787.2/1787.2_protein/sequences/O14717-2_1g55-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 391
+# Identity:     300/391 (76.7%)
+# Similarity:   300/391 (76.7%)
+# Gaps:          24/391 ( 6.1%)
+# Score: 1436.5
+# 
+#
+#=======================================
+
+asis               1 MEPLRVLELYSGVGGMHHALRESCIPAQVVAAIDVNTVANEVYKYNFPHT     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XEPLRVLELYSGVGGMHHALRESCIPAQVVAAIDVNTVANEVYKYNFPHT     50
+
+asis              51 QLLAKTIEGITLEEFDRLSFDMILMSPP----------------------     78
+                     ||||||||||||||||||||||||||||                      
+asis              51 QLLAKTIEGITLEEFDRLSFDMILMSPPXXXXXXXXXXXXXXXXXXNSFL    100
+
+asis              79 --CQPFTRLQKLPKYILLENVKGFEVSSTRDLLIQTIENCGFQYQEFLLS    126
+                       .....||||||||||||||||||||||||||||||||.||||||||||
+asis             101 HILDILPRLQKLPKYILLENVKGFEVSSTRDLLIQTIENXGFQYQEFLLS    150
+
+asis             127 PTSLGIPNSRLRYFLIAKLQSEPLPFQAPGQVLMEFPKIESVHPQKYAMD    176
+                     ||||||||||||||||||||||||||||||||||||||............
+asis             151 PTSLGIPNSRLRYFLIAKLQSEPLPFQAPGQVLMEFPKXXXXXXXXXXXX    200
+
+asis             177 VENKIQEKNVEPNISFDGSIQCSGKDAILFKLETAEEIHRKNQQDSDLSV    226
+                     ...............................................|||
+asis             201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLSV    250
+
+asis             227 KMLKDFLEDDTDVNQYLLPPKSLLRYALLLDIVQPTCRRSVCFTKGYGSY    276
+                     ||||||||||||||||||||||||||||||||||||.|||||||||||||
+asis             251 KMLKDFLEDDTDVNQYLLPPKSLLRYALLLDIVQPTXRRSVCFTKGYGSY    300
+
+asis             277 IEGTGSVLQTAEDVQVENIYKSLTNLSQEEQITKLLILKLRYFTPKEIAN    326
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             301 IEGTGSVLQTAEDVQVENIYKSLTNLSQEEQITKLLILKLRYFTPKEIAN    350
+
+asis             327 LLGFPPEFGFPEKITVKQRYRLLGNSLNVHVVAKLIKILYE    367
+                     |||||||||||||||||||||||||||||||||||||||||
+asis             351 LLGFPPEFGFPEKITVKQRYRLLGNSLNVHVVAKLIKILYE    391
+
+
+#---------------------------------------
+#---------------------------------------

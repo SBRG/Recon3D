@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:26:04
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1716.3/1716.3_protein/sequences/Q16854-3_2ocp-H.needle
+#    -asequence asis::MAAGRLFLSRLRAPFSSMAKSPLEGVSSSRGLHAGRGPRRLSIEGNIACTAQSLGNLLDMMYREPARWSYTFQTFSFLSRLKVQLEPFPEKLLQARKPVQIFERSVYSDRYIFAKNLFENGSLSDIEWHIYQDWHSFLLWEFASRITLHGFIYLQASPQVCLKRLYQRAREEEKGIELAYLEQLHGQHEAWLIHKTTKLHFEALMNIPVLVLDVNDDFSEEVTKQEDLMREVNTFVKNL
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGPRRLSIEGNIAVGKSTFVKLLTKTYPEWHVATEPVATWQNIQXXXXXXXXXXXXLGNLLDMMYREPARWSYTFQTFSFLSRLKVQLEPFPEKLLQARKPVQIFERSVYSDRYIFAKNLFENGSLSDIEWHIYQDWHSFLLWEFASRITLHGFIYLQASPQVCLKRLYQRAREEEKGIELAYLEQLHGQHEAWLIHKTTKLHFEALMNIPVLVLDVNDDFSEEVTKQEDLMREVNTFVKNL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1716.3/1716.3_protein/sequences/Q16854-3_2ocp-H.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 277
+# Identity:     200/277 (72.2%)
+# Similarity:   201/277 (72.6%)
+# Gaps:          38/277 (13.7%)
+# Score: 985.0
+# 
+#
+#=======================================
+
+asis               1 MAAGRLFLSRLRAPFSSMAKSPLEGVSSSRGLHAGRGPRRLSIEGNIA--     48
+                     ....................................||||||||||||  
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXGPRRLSIEGNIAVG     50
+
+asis              49 ----------------------CTAQS--------------LGNLLDMMY     62
+                                           .|.|:              |||||||||
+asis              51 KSTFVKLLTKTYPEWHVATEPVATWQNIQXXXXXXXXXXXXLGNLLDMMY    100
+
+asis              63 REPARWSYTFQTFSFLSRLKVQLEPFPEKLLQARKPVQIFERSVYSDRYI    112
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 REPARWSYTFQTFSFLSRLKVQLEPFPEKLLQARKPVQIFERSVYSDRYI    150
+
+asis             113 FAKNLFENGSLSDIEWHIYQDWHSFLLWEFASRITLHGFIYLQASPQVCL    162
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 FAKNLFENGSLSDIEWHIYQDWHSFLLWEFASRITLHGFIYLQASPQVCL    200
+
+asis             163 KRLYQRAREEEKGIELAYLEQLHGQHEAWLIHKTTKLHFEALMNIPVLVL    212
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 KRLYQRAREEEKGIELAYLEQLHGQHEAWLIHKTTKLHFEALMNIPVLVL    250
+
+asis             213 DVNDDFSEEVTKQEDLMREVNTFVKNL    239
+                     |||||||||||||||||||||||||||
+asis             251 DVNDDFSEEVTKQEDLMREVNTFVKNL    277
+
+
+#---------------------------------------
+#---------------------------------------

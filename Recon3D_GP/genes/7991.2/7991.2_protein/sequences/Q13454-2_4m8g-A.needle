@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:09:59
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7991.2/7991.2_protein/sequences/Q13454-2_4m8g-A.needle
+#    -asequence asis::MGARGAPSRRRQAGRRLRYLPTGSFPFLLLLLLLCIQLGGGQKKKENLLAEKVEQLMEWSSRRSIFRMNGDKFRKFIKAPPRNYSMIVMFTALQPQRQCSVCRQANEEYQILANSWRYSSAFCNKLFFSMVDYDEGTDVFQQLNMNSAPTFMHFPPKGRPKRADTFDLQRIGFAAEQLAKWIADRTDVHIRVFRPPNYSGTIALALLVSLVGGLLYLRRNNLEFIYNKTGWAMVSLCIVFAMTSGQMWNHIRGPPYAHKNPHNGQVSYIHGSSQAQFVAESHIILVLNAAITMGMVLLNEAATSKGDVGKRRIICLVGLGLVVFFFSFLLSIFRSKYHGYPYSFLIK
+#    -bsequence asis::XXXXXXXXXXXXEQLXEWSSRRSIFRXNGDKFRKFIKAPPRNYSXIVXFTALQPQRQCSVCRQANEEYQILANSWRYSSXXXNKLFFSXVDYDEGTDVFQQLNXNSAPTFXHFPPKGRPKRADTFDLQRIGFAAEQLAKWIADRTDVHIRVFRL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7991.2/7991.2_protein/sequences/Q13454-2_4m8g-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 347
+# Identity:     131/347 (37.8%)
+# Similarity:   131/347 (37.8%)
+# Gaps:         193/347 (55.6%)
+# Score: 676.0
+# 
+#
+#=======================================
+
+asis               1 MGARGAPSRRRQAGRRLRYLPTGSFPFLLLLLLLCIQLGGGQKKKENLLA     50
+                                                              .........
+asis               1 -----------------------------------------XXXXXXXXX      9
+
+asis              51 EKVEQLMEWSSRRSIFRMNGDKFRKFIKAPPRNYSMIVMFTALQPQRQCS    100
+                     ...|||.||||||||||.|||||||||||||||||.||.|||||||||||
+asis              10 XXXEQLXEWSSRRSIFRXNGDKFRKFIKAPPRNYSXIVXFTALQPQRQCS     59
+
+asis             101 VCRQANEEYQILANSWRYSSAFCNKLFFSMVDYDEGTDVFQQLNMNSAPT    150
+                     ||||||||||||||||||||...||||||.||||||||||||||.|||||
+asis              60 VCRQANEEYQILANSWRYSSXXXNKLFFSXVDYDEGTDVFQQLNXNSAPT    109
+
+asis             151 FMHFPPKGRPKRADTFDLQRIGFAAEQLAKWIADRTDVHIRVFRPPNYSG    200
+                     |.||||||||||||||||||||||||||||||||||||||||||.     
+asis             110 FXHFPPKGRPKRADTFDLQRIGFAAEQLAKWIADRTDVHIRVFRL-----    154
+
+asis             201 TIALALLVSLVGGLLYLRRNNLEFIYNKTGWAMVSLCIVFAMTSGQMWNH    250
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             251 IRGPPYAHKNPHNGQVSYIHGSSQAQFVAESHIILVLNAAITMGMVLLNE    300
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             301 AATSKGDVGKRRIICLVGLGLVVFFFSFLLSIFRSKYHGYPYSFLIK    347
+                                                                    
+asis             154 -----------------------------------------------    154
+
+
+#---------------------------------------
+#---------------------------------------

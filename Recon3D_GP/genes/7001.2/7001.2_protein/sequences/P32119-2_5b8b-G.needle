@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:20
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7001.2/7001.2_protein/sequences/P32119-2_5b8b-G.needle
+#    -asequence asis::MASGNARIGKPAPDFKATAVVDGAFKEVKLSDYKGKYVVLFFYPLDFTFVCPTEIIAFSNRAEDFRKLGCEVLGVSVDSQFTHLAWYEQGPKREVAAKLTPSGPSSVASWPLLNLWNLRFPIVKIMETLPPKSLRMMTVISI
+#    -bsequence asis::MSLINTKIKPFKNQAFKNGEFIEITEKDTEGRWSVFFFYPADFTFVCPTELGDVADHYEELQKLGVDVYAVSTDTHFTHKAWHSSSETIAKIKYAMIGDPTGALTRNFDNMREDEGLADRATFVVDPQGIIQAIEVTAEGIGRDASDLLRKIKAAQYVASHP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7001.2/7001.2_protein/sequences/P32119-2_5b8b-G.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:      51/180 (28.3%)
+# Similarity:    74/180 (41.1%)
+# Gaps:          56/180 (31.1%)
+# Score: 182.0
+# 
+#
+#=======================================
+
+asis               1 MASGNARIGKPAPDFKATAVVDGAFKEVKLSDYKGKYVVLFFYPLDFTFV     50
+                     |:..|.:| ||   ||..|..:|.|.|:...|.:|::.|.||||.|||||
+asis               1 MSLINTKI-KP---FKNQAFKNGEFIEITEKDTEGRWSVFFFYPADFTFV     46
+
+asis              51 CPTEIIAFSNRAEDFRKLGCEVLGVSVDSQFTHLAWYEQGPKREVAAKL-     99
+                     ||||:...::..|:.:|||.:|..||.|:.|||.||:...   |..||: 
+asis              47 CPTELGDVADHYEELQKLGVDVYAVSTDTHFTHKAWHSSS---ETIAKIK     93
+
+asis             100 -----TPSGPSSVASWPLLNLWNLRFPIVKIMETLPPKSLRMMTVISI--    142
+                          .|:|..:      .|..|:|..     |.|..::..::....|  
+asis              94 YAMIGDPTGALT------RNFDNMRED-----EGLADRATFVVDPQGIIQ    132
+
+asis             142 ------------------------------    142
+                                                   
+asis             133 AIEVTAEGIGRDASDLLRKIKAAQYVASHP    162
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:53:51
+# Commandline: needle
+#    -outfile ./Recon3D/genes/11185.1/11185.1_protein/sequences/O95050-1_2a14-A.needle
+#    -asequence asis::MKGGFTGGDEYQKHFLPRDYLATYYSFDGSPSPEAEMLKFNLECLHKTFGPGGLQGDTLIDIGSGPTIYQVLAACDSFQDITLSDFTDRNREELEKWLKKEPGAYDWTPAVKFACELEGNSGRWEEKEEKLRAAVKRVLKCDVHLGNPLAPAVLPLADCVLTLLAMECACCSLDAYRAALCNLASLLKPGGHLVTTVTLRLPSYMVGKREFSCVALEKEEVEQAVLDAGFDIEQLLHSPQSYSVTNAANNGVCFIVARKKPGP
+#    -bsequence asis::XXXXFTGGDEYQKHFLPRDYLATYYSFDGSPSPEAEMLKFNLECLHKTFGPGGLQGDTLIDIGSGPTIYQVLAACDSFQDITLSDFTDRNREELEKWLKKEPGAYDWTPAVKFACELEGNSGRWEEKEEKLRAAVKRVLKCDVHLGNPLAPAVLPLADCVLTLLAMECACCSLDAYRAALCNLASLLKPGGHLVTTVTLRLPSYMVGKREFSCVALEKGEVEQAVLDAGFDIEQLLHSPQSYSVTNAANNGVCCIVARKKP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/11185.1/11185.1_protein/sequences/O95050-1_2a14-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:     255/263 (97.0%)
+# Similarity:   255/263 (97.0%)
+# Gaps:           2/263 ( 0.8%)
+# Score: 1348.0
+# 
+#
+#=======================================
+
+asis               1 MKGGFTGGDEYQKHFLPRDYLATYYSFDGSPSPEAEMLKFNLECLHKTFG     50
+                     ....||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXFTGGDEYQKHFLPRDYLATYYSFDGSPSPEAEMLKFNLECLHKTFG     50
+
+asis              51 PGGLQGDTLIDIGSGPTIYQVLAACDSFQDITLSDFTDRNREELEKWLKK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 PGGLQGDTLIDIGSGPTIYQVLAACDSFQDITLSDFTDRNREELEKWLKK    100
+
+asis             101 EPGAYDWTPAVKFACELEGNSGRWEEKEEKLRAAVKRVLKCDVHLGNPLA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 EPGAYDWTPAVKFACELEGNSGRWEEKEEKLRAAVKRVLKCDVHLGNPLA    150
+
+asis             151 PAVLPLADCVLTLLAMECACCSLDAYRAALCNLASLLKPGGHLVTTVTLR    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 PAVLPLADCVLTLLAMECACCSLDAYRAALCNLASLLKPGGHLVTTVTLR    200
+
+asis             201 LPSYMVGKREFSCVALEKEEVEQAVLDAGFDIEQLLHSPQSYSVTNAANN    250
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
+asis             201 LPSYMVGKREFSCVALEKGEVEQAVLDAGFDIEQLLHSPQSYSVTNAANN    250
+
+asis             251 GVCFIVARKKPGP    263
+                     |||.|||||||  
+asis             251 GVCCIVARKKP--    261
+
+
+#---------------------------------------
+#---------------------------------------

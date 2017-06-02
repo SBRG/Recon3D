@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:04:15
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1432.1/1432.1_protein/sequences/Q16539-1_3oef-X.needle
+#    -asequence asis::MSQERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKCQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDCELKILDFGLARHTDDEMTGYVATRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSFESRDLLIDEWKSLTYDEVISFVPPPLDQEEMES
+#    -bsequence asis::XXXXRPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKCQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDCELKILDFGLARXXXXXXXXXXXTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTXXXKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPFDQSFESRDLLIDEWKSLTYDEVISFVPPP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1432.1/1432.1_protein/sequences/Q16539-1_3oef-X.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 360
+# Identity:     333/360 (92.5%)
+# Similarity:   334/360 (92.8%)
+# Gaps:           8/360 ( 2.2%)
+# Score: 1728.0
+# 
+#
+#=======================================
+
+asis               1 MSQERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRV     50
+                     ....||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXRPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRV     50
+
+asis              51 AVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFN    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 AVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFN    100
+
+asis             101 DVYLVTHLMGADLNNIVKCQKLTDDHVQFLIYQILRGLKYIHSADIIHRD    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 DVYLVTHLMGADLNNIVKCQKLTDDHVQFLIYQILRGLKYIHSADIIHRD    150
+
+asis             151 LKPSNLAVNEDCELKILDFGLARHTDDEMTGYVATRWYRAPEIMLNWMHY    200
+                     |||||||||||||||||||||||...........||||||||||||||||
+asis             151 LKPSNLAVNEDCELKILDFGLARXXXXXXXXXXXTRWYRAPEIMLNWMHY    200
+
+asis             201 NQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKI    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 NQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKI    250
+
+asis             251 SSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAA    300
+                     |||||||||||||...||||||||||||||||||||||||||||||||||
+asis             251 SSESARNYIQSLTXXXKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAA    300
+
+asis             301 QALAHAYFAQYHDPDDEPVADPYDQSFESRDLLIDEWKSLTYDEVISFVP    350
+                     ||||||||||||||||||||||:|||||||||||||||||||||||||||
+asis             301 QALAHAYFAQYHDPDDEPVADPFDQSFESRDLLIDEWKSLTYDEVISFVP    350
+
+asis             351 PPLDQEEMES    360
+                     ||        
+asis             351 PP--------    352
+
+
+#---------------------------------------
+#---------------------------------------

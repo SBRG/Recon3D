@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:54:34
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1025.1/1025.1_protein/sequences/P50750-1_4ec8-A.needle
+#    -asequence asis::MAKQYDSVECPFCDEVSKYEKLAKIGQGTFGEVFKARHRKTGQKVALKKVLMENEKEGFPITALREIKILQLLKHENVVNLIEICRTKASPYNRCKGSIYLVFDFCEHDLAGLLSNVLVKFTLSEIKRVMQMLLNGLYYIHRNKILHRDMKAANVLITRDGVLKLADFGLARAFSLAKNSQPNRYTNRVVTLWYRPPELLLGERDYGPPIDLWGAGCIMAEMWTRSPIMQGNTEQHQLALISQLCGSITPEVWPNVDNYELYEKLELVKGQKRKVKDRLKAYVRDPYALDLIDKLLVLDPAQRIDSDDALNHDFFWSDPMPSDLKGMLSTHLTSMFEYLAPPRRKGSQITQQSTNQSRNPATTNQTEFERVF
+#    -bsequence asis::XXXXXDSVECPFCDEVSKYEKLAKIGQGTFGEVFKARHRKTGQKVALKKVLMENEKEGFPITALREIKILQLLKHENVVNLIEICRTKXXXXXXXKGSIYLVFDFCEHDLAGLLSNVLVKFTLSEIKRVMQMLLNGLYYIHRNKILHRDMKAANVLITRDGVLKLADFGLARAFSLAKNSQPNRYXNRVVTLWYRPPELLLGERDYGPPIDLWGAGCIMAEMWTRSPIMQGNTEQHQLALISQLCGSITPEVWPNVDNYELYEKLELVKGQKRKVKDRLKAYVRDPYALDLIDKLLVLDPAQRIDSDDALNHDFFWSDPMPSDLKGMLSTHLTSMFEY
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1025.1/1025.1_protein/sequences/P50750-1_4ec8-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 372
+# Identity:     325/372 (87.4%)
+# Similarity:   325/372 (87.4%)
+# Gaps:          34/372 ( 9.1%)
+# Score: 1693.0
+# 
+#
+#=======================================
+
+asis               1 MAKQYDSVECPFCDEVSKYEKLAKIGQGTFGEVFKARHRKTGQKVALKKV     50
+                     .....|||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXDSVECPFCDEVSKYEKLAKIGQGTFGEVFKARHRKTGQKVALKKV     50
+
+asis              51 LMENEKEGFPITALREIKILQLLKHENVVNLIEICRTKASPYNRCKGSIY    100
+                     ||||||||||||||||||||||||||||||||||||||.......|||||
+asis              51 LMENEKEGFPITALREIKILQLLKHENVVNLIEICRTKXXXXXXXKGSIY    100
+
+asis             101 LVFDFCEHDLAGLLSNVLVKFTLSEIKRVMQMLLNGLYYIHRNKILHRDM    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 LVFDFCEHDLAGLLSNVLVKFTLSEIKRVMQMLLNGLYYIHRNKILHRDM    150
+
+asis             151 KAANVLITRDGVLKLADFGLARAFSLAKNSQPNRYTNRVVTLWYRPPELL    200
+                     |||||||||||||||||||||||||||||||||||.||||||||||||||
+asis             151 KAANVLITRDGVLKLADFGLARAFSLAKNSQPNRYXNRVVTLWYRPPELL    200
+
+asis             201 LGERDYGPPIDLWGAGCIMAEMWTRSPIMQGNTEQHQLALISQLCGSITP    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 LGERDYGPPIDLWGAGCIMAEMWTRSPIMQGNTEQHQLALISQLCGSITP    250
+
+asis             251 EVWPNVDNYELYEKLELVKGQKRKVKDRLKAYVRDPYALDLIDKLLVLDP    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 EVWPNVDNYELYEKLELVKGQKRKVKDRLKAYVRDPYALDLIDKLLVLDP    300
+
+asis             301 AQRIDSDDALNHDFFWSDPMPSDLKGMLSTHLTSMFEYLAPPRRKGSQIT    350
+                     ||||||||||||||||||||||||||||||||||||||            
+asis             301 AQRIDSDDALNHDFFWSDPMPSDLKGMLSTHLTSMFEY------------    338
+
+asis             351 QQSTNQSRNPATTNQTEFERVF    372
+                                           
+asis             338 ----------------------    338
+
+
+#---------------------------------------
+#---------------------------------------

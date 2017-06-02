@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:28:47
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1848.1/1848.1_protein/sequences/Q16828-1_1hzm-A.needle
+#    -asequence asis::MIDTLRPVPFASEMAISKTVAWLNEQLELGNERLLLMDCRPQELYESSHIESAINVAIPGIMLRRLQKGNLPVRALFTRGEDRDRFTRRCGTDTVVLYDESSSDWNENTGGESVLGLLLKKLKDEGCRAFYLEGGFSKFQAEFSLHCETNLDGSCSSSSPPLPVLGLGGLRISSDSSSDIESDLDRDPNSATDSDGSPLSNSQPSFPVEILPFLYLGCAKDSTNLDVLEEFGIKYILNVTPNLPNLFENAGEFKYKQIPISDHWSQNLSQFFPEAISFIDEARGKNCGVLVHCLAGISRSVTVTVAYLMQKLNLSMNDAYDIVKMKKSNISPNFNFMGQLLDFERTLGLSSPCDNRVPAQQLYFTTPSNQNVYQVDSLQST
+#    -bsequence asis::MIDTLRPVPFASEMAISKTVAWLNEQLELGNERLLLMDCRPQELYESSHIESAINVAIPGIMLRRLQKGNLPVRALFTRGEDRDRFTRRCGTDTVVLYDESSSDWNENTGGESLLGLLLKKLKDEGCRAFYLEGGFSKFQAEFSLHCETNLDGS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1848.1/1848.1_protein/sequences/Q16828-1_1hzm-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 381
+# Identity:     153/381 (40.2%)
+# Similarity:   154/381 (40.4%)
+# Gaps:         227/381 (59.6%)
+# Score: 798.0
+# 
+#
+#=======================================
+
+asis               1 MIDTLRPVPFASEMAISKTVAWLNEQLELGNERLLLMDCRPQELYESSHI     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 MIDTLRPVPFASEMAISKTVAWLNEQLELGNERLLLMDCRPQELYESSHI     50
+
+asis              51 ESAINVAIPGIMLRRLQKGNLPVRALFTRGEDRDRFTRRCGTDTVVLYDE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 ESAINVAIPGIMLRRLQKGNLPVRALFTRGEDRDRFTRRCGTDTVVLYDE    100
+
+asis             101 SSSDWNENTGGESVLGLLLKKLKDEGCRAFYLEGGFSKFQAEFSLHCETN    150
+                     |||||||||||||:||||||||||||||||||||||||||||||||||||
+asis             101 SSSDWNENTGGESLLGLLLKKLKDEGCRAFYLEGGFSKFQAEFSLHCETN    150
+
+asis             151 LDGSCSSSSPPLPVLGLGGLRISSDSSSDIESDLDRDPNSATDSDGSPLS    200
+                     ||||                                              
+asis             151 LDGS----------------------------------------------    154
+
+asis             201 NSQPSFPVEILPFLYLGCAKDSTNLDVLEEFGIKYILNVTPNLPNLFENA    250
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             251 GEFKYKQIPISDHWSQNLSQFFPEAISFIDEARGKNCGVLVHCLAGISRS    300
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             301 VTVTVAYLMQKLNLSMNDAYDIVKMKKSNISPNFNFMGQLLDFERTLGLS    350
+                                                                       
+asis             154 --------------------------------------------------    154
+
+asis             351 SPCDNRVPAQQLYFTTPSNQNVYQVDSLQST    381
+                                                    
+asis             154 -------------------------------    154
+
+
+#---------------------------------------
+#---------------------------------------

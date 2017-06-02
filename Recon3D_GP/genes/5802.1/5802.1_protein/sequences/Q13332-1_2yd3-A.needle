@@ -1,0 +1,194 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:29:17
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5802.1/5802.1_protein/sequences/Q13332-1_2yd3-A.needle
+#    -asequence asis::MAPTWGPGMVSVVGPMGLLVVLLVGGCAAEEPPRFIKEPKDQIGVSGGVASFVCQATGDPKPRVTWNKKGKKVNSQRFETIEFDESAGAVLRIQPLRTPRDENVYECVAQNSVGEITVHAKLTVLREDQLPSGFPNIDMGPQLKVVERTRTATMLCAASGNPDPEITWFKDFLPVDPSASNGRIKQLRSETFESTPIRGALQIESSEETDQGKYECVATNSAGVRYSSPANLYVRELREVRRVAPRFSILPMSHEIMPGGNVNITCVAVGSPMPYVKWMQGAEDLTPEDDMPVGRNVLELTDVKDSANYTCVAMSSLGVIEAVAQITVKSLPKAPGTPMVTENTATSITITWDSGNPDPVSYYVIEYKSKSQDGPYQIKEDITTTRYSIGGLSPNSEYEIWVSAVNSIGQGPPSESVVTRTGEQAPASAPRNVQARMLSATTMIVQWEEPVEPNGLIRGYRVYYTMEPEHPVGNWQKHNVDDSLLTTVGSLLEDETYTVRVLAFTSVGDGPLSDPIQVKTQQGVPGQPMNLRAEARSETSITLSWSPPRQESIIKYELLFREGDHGREVGRTFDPTTSYVVEDLKPNTEYAFRLAARSPQGLGAFTPVVRQRTLQSKPSAPPQDVKCVSVRSTAILVSWRPPPPETHNGALVGYSVRYRPLGSEDPEPKEVNGIPPTTTQILLEALEKWTQYRITTVAHTEVGPGPESSPVVVRTDEDVPSAPPRKVEAEALNATAIRVLWRSPAPGRQHGQIRGYQVHYVRMEGAEARGPPRIKDVMLADAQWETDDTAEYEMVITNLQPETAYSITVAAYTMKGDGARSKPKVVVTKGAVLGRPTLSVQQTPEGSLLARWEPPAGTAEDQVLGYRLQFGREDSTPLATLEFPPSEDRYTASGVHKGATYVFRLAARSRGGLGEEAAEVLSIPEDTPRGHPQILEAAGNASAGTVLLRWLPPVPAERNGAIVKYTVAVREAGALGPARETELPAAAEPGAENALTLQGLKPDTAYDLQVRAHTRRGPGPFSPPVRYRTFLRDQVSPKNFKVKMIMKTSVLLSWEFPDNYNSPTPYKIQYNGLTLDVDGRTTKKLITHLKPHTFYNFVLTNRGSSLGGLQQTVTAWTAFNLLNGKPSVAPKPDADGFIMVYLPDGQSPVPVQSYFIVMVPLRKSRGGQFLTPLGSPEDMDLEELIQDISRLQRRSLRHSRQLEVPRPYIAARFSVLPPTFHPGDQKQYGGFDNRGLEPGHRYVLFVLAVLQKSEPTFAASPFSDPFQLDNPDPQPIVDGEEGLIWVIGPVLAVVFIICIVIAILLYKNKPDSKRKDSEPRTKCLLNNADLAPHHPKDPVEMRRINFQTPDSGLRSPLREPGFHFESMLSHPPIPIADMAEHTERLKANDSLKLSQEYESIDPGQQFTWEHSNLEVNKPKNRYANVIAYDHSRVILQPIEGIMGSDYINANYVDGYRCQNAYIATQGPLPETFGDFWRMVWEQRSATIVMMTRLEEKSRIKCDQYWPNRGTETYGFIQVTLLDTIELATFCVRTFSLHKNGSSEKREVRQFQFTAWPDHGVPEYPTPFLAFLRRVKTCNPPDAGPIVVHCSAGVGRTGCFIVIDAMLERIKPEKTVDVYGHVTLMRSQRNYMVQTEDQYSFIHEALLEAVGCGNTEVPARSLYAYIQKLAQVEPGEHVTGMELEFKRLANSKAHTSRFISANLPCNKFKNRLVNIMPYESTRVCLQPIRGVEGSDYINASFIDGYRQQKAYIATQGPLAETTEDFWRMLWENNSTIVVMLTKLREMGREKCHQYWPAERSARYQYFVVDPMAEYNMPQYILREFKVTDARDGQSRTVRQFQFTDWPEQGVPKSGEGFIDFIGQVHKTKEQFGQDGPISVHCSAGVGRTGVFITLSIVLERMRYEGVVDIFQTVKMLRTQRPAMVQTEDEYQFCYQAALEYLGSFDHYAT
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXGEEPPRFIKEPKDQIGVSGGVASFVCQATGDPKPRVTWNKKGKKVNSQRFETIEFDESAGAVLRIQPLRTPRDENVYECVAQNSVGEITVHAKLTVLREDQLPSGFPNIDMGPQLKVVERTRTATMLCAASGNPDPEITWFKDFLPVDPSASNGRIKQLRSGALQIESSEETDQGKYECVATNSAGVRYSSPANLYVRVR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5802.1/5802.1_protein/sequences/Q13332-1_2yd3-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1971
+# Identity:     200/1971 (10.1%)
+# Similarity:   200/1971 (10.1%)
+# Gaps:        1766/1971 (89.6%)
+# Score: 991.5
+# 
+#
+#=======================================
+
+asis               1 -----------------------MAPTWGPGMVSVVGPMGLLVVLLVGGC     27
+                                            .....|                     
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXG---------------------     29
+
+asis              28 AAEEPPRFIKEPKDQIGVSGGVASFVCQATGDPKPRVTWNKKGKKVNSQR     77
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+asis              30 --EEPPRFIKEPKDQIGVSGGVASFVCQATGDPKPRVTWNKKGKKVNSQR     77
+
+asis              78 FETIEFDESAGAVLRIQPLRTPRDENVYECVAQNSVGEITVHAKLTVLRE    127
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              78 FETIEFDESAGAVLRIQPLRTPRDENVYECVAQNSVGEITVHAKLTVLRE    127
+
+asis             128 DQLPSGFPNIDMGPQLKVVERTRTATMLCAASGNPDPEITWFKDFLPVDP    177
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             128 DQLPSGFPNIDMGPQLKVVERTRTATMLCAASGNPDPEITWFKDFLPVDP    177
+
+asis             178 SASNGRIKQLRSETFESTPIRGALQIESSEETDQGKYECVATNSAGVRYS    227
+                     ||||||||||||         |||||||||||||||||||||||||||||
+asis             178 SASNGRIKQLRS---------GALQIESSEETDQGKYECVATNSAGVRYS    218
+
+asis             228 SPANLYVRELREVRRVAPRFSILPMSHEIMPGGNVNITCVAVGSPMPYVK    277
+                     ||||||||    ||                                    
+asis             219 SPANLYVR----VR------------------------------------    228
+
+asis             278 WMQGAEDLTPEDDMPVGRNVLELTDVKDSANYTCVAMSSLGVIEAVAQIT    327
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             328 VKSLPKAPGTPMVTENTATSITITWDSGNPDPVSYYVIEYKSKSQDGPYQ    377
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             378 IKEDITTTRYSIGGLSPNSEYEIWVSAVNSIGQGPPSESVVTRTGEQAPA    427
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             428 SAPRNVQARMLSATTMIVQWEEPVEPNGLIRGYRVYYTMEPEHPVGNWQK    477
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             478 HNVDDSLLTTVGSLLEDETYTVRVLAFTSVGDGPLSDPIQVKTQQGVPGQ    527
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             528 PMNLRAEARSETSITLSWSPPRQESIIKYELLFREGDHGREVGRTFDPTT    577
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             578 SYVVEDLKPNTEYAFRLAARSPQGLGAFTPVVRQRTLQSKPSAPPQDVKC    627
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             628 VSVRSTAILVSWRPPPPETHNGALVGYSVRYRPLGSEDPEPKEVNGIPPT    677
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             678 TTQILLEALEKWTQYRITTVAHTEVGPGPESSPVVVRTDEDVPSAPPRKV    727
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             728 EAEALNATAIRVLWRSPAPGRQHGQIRGYQVHYVRMEGAEARGPPRIKDV    777
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             778 MLADAQWETDDTAEYEMVITNLQPETAYSITVAAYTMKGDGARSKPKVVV    827
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             828 TKGAVLGRPTLSVQQTPEGSLLARWEPPAGTAEDQVLGYRLQFGREDSTP    877
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             878 LATLEFPPSEDRYTASGVHKGATYVFRLAARSRGGLGEEAAEVLSIPEDT    927
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             928 PRGHPQILEAAGNASAGTVLLRWLPPVPAERNGAIVKYTVAVREAGALGP    977
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis             978 ARETELPAAAEPGAENALTLQGLKPDTAYDLQVRAHTRRGPGPFSPPVRY   1027
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1028 RTFLRDQVSPKNFKVKMIMKTSVLLSWEFPDNYNSPTPYKIQYNGLTLDV   1077
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1078 DGRTTKKLITHLKPHTFYNFVLTNRGSSLGGLQQTVTAWTAFNLLNGKPS   1127
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1128 VAPKPDADGFIMVYLPDGQSPVPVQSYFIVMVPLRKSRGGQFLTPLGSPE   1177
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1178 DMDLEELIQDISRLQRRSLRHSRQLEVPRPYIAARFSVLPPTFHPGDQKQ   1227
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1228 YGGFDNRGLEPGHRYVLFVLAVLQKSEPTFAASPFSDPFQLDNPDPQPIV   1277
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1278 DGEEGLIWVIGPVLAVVFIICIVIAILLYKNKPDSKRKDSEPRTKCLLNN   1327
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1328 ADLAPHHPKDPVEMRRINFQTPDSGLRSPLREPGFHFESMLSHPPIPIAD   1377
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1378 MAEHTERLKANDSLKLSQEYESIDPGQQFTWEHSNLEVNKPKNRYANVIA   1427
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1428 YDHSRVILQPIEGIMGSDYINANYVDGYRCQNAYIATQGPLPETFGDFWR   1477
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1478 MVWEQRSATIVMMTRLEEKSRIKCDQYWPNRGTETYGFIQVTLLDTIELA   1527
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1528 TFCVRTFSLHKNGSSEKREVRQFQFTAWPDHGVPEYPTPFLAFLRRVKTC   1577
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1578 NPPDAGPIVVHCSAGVGRTGCFIVIDAMLERIKPEKTVDVYGHVTLMRSQ   1627
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1628 RNYMVQTEDQYSFIHEALLEAVGCGNTEVPARSLYAYIQKLAQVEPGEHV   1677
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1678 TGMELEFKRLANSKAHTSRFISANLPCNKFKNRLVNIMPYESTRVCLQPI   1727
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1728 RGVEGSDYINASFIDGYRQQKAYIATQGPLAETTEDFWRMLWENNSTIVV   1777
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1778 MLTKLREMGREKCHQYWPAERSARYQYFVVDPMAEYNMPQYILREFKVTD   1827
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1828 ARDGQSRTVRQFQFTDWPEQGVPKSGEGFIDFIGQVHKTKEQFGQDGPIS   1877
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1878 VHCSAGVGRTGVFITLSIVLERMRYEGVVDIFQTVKMLRTQRPAMVQTED   1927
+                                                                       
+asis             228 --------------------------------------------------    228
+
+asis            1928 EYQFCYQAALEYLGSFDHYAT   1948
+                                          
+asis             228 ---------------------    228
+
+
+#---------------------------------------
+#---------------------------------------

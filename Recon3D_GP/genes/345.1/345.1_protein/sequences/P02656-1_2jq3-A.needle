@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:56:39
+# Commandline: needle
+#    -outfile ./Recon3D/genes/345.1/345.1_protein/sequences/P02656-1_2jq3-A.needle
+#    -asequence asis::MQPRVLLVVALLALLASARASEAEDASLLSFMQGYMKHATKTAKDALSSVQESQVAQQARGWVTDGFSSLKDYWSTVKDKFSEFWDLDPEVRPTSAVAA
+#    -bsequence asis::SEAEDASLLSFMQGYMKHATKTAKDALSSVQESQVAQQARGWVTDGFSSLKDYWSTVKDKFSEFWDLDPEVRPTSAVAA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/345.1/345.1_protein/sequences/P02656-1_2jq3-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      79/99 (79.8%)
+# Similarity:    79/99 (79.8%)
+# Gaps:          20/99 (20.2%)
+# Score: 406.0
+# 
+#
+#=======================================
+
+asis               1 MQPRVLLVVALLALLASARASEAEDASLLSFMQGYMKHATKTAKDALSSV     50
+                                         ||||||||||||||||||||||||||||||
+asis               1 --------------------SEAEDASLLSFMQGYMKHATKTAKDALSSV     30
+
+asis              51 QESQVAQQARGWVTDGFSSLKDYWSTVKDKFSEFWDLDPEVRPTSAVAA     99
+                     |||||||||||||||||||||||||||||||||||||||||||||||||
+asis              31 QESQVAQQARGWVTDGFSSLKDYWSTVKDKFSEFWDLDPEVRPTSAVAA     79
+
+
+#---------------------------------------
+#---------------------------------------

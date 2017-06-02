@@ -1,0 +1,78 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:59:20
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8767.1/8767.1_protein/sequences/O43353-1_5ar4-A.needle
+#    -asequence asis::MNGEAICSALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGLSKWRMMSLSQSRSSKSAPEGGTIIYMPPENYEPGQKSRASIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQSVSSAIHLCDKKKMELSLNIPVNHGPQEESCGSSQLHENSGSPETSRSLPAPQDNDFLSRKAQDCYFMKLHHCPGNHSWDSTISGSQRAAFCDHKTTPCSSAIINPLSTAGNSERLQPGIAQQWIQSKREDIVNQMTEACLNQSLDALLSRDLIMKEDYELVSTKPTRTSKVRQLLDTTDIQGEEFAKVIVQKLKDNKQMGLQPYPEILVVSRSPSLNLLQNKSM
+#    -bsequence asis::XXXXAICSALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHXXXXXLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGLXXXXXXXXXXXXXXXXXXXXXTIIYMPPENYEXXXXXXASIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8767.1/8767.1_protein/sequences/O43353-1_5ar4-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 540
+# Identity:     274/540 (50.7%)
+# Similarity:   274/540 (50.7%)
+# Gaps:         230/540 (42.6%)
+# Score: 1413.0
+# 
+#
+#=======================================
+
+asis               1 MNGEAICSALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLH     50
+                     ....||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXAICSALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLH     50
+
+asis              51 IHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPN    100
+                     .....|||||||||||||||||||||||||||||||||||||||||||||
+asis              51 XXXXXLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPN    100
+
+asis             101 GSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQ    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 GSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQ    150
+
+asis             151 NILLDNEFHVKIADFGLSKWRMMSLSQSRSSKSAPEGGTIIYMPPENYEP    200
+                     |||||||||||||||||.....................|||||||||||.
+asis             151 NILLDNEFHVKIADFGLXXXXXXXXXXXXXXXXXXXXXTIIYMPPENYEX    200
+
+asis             201 GQKSRASIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVI    250
+                     .....|||||||||||||||||||||||||||||||||||||||||||||
+asis             201 XXXXXASIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVI    250
+
+asis             251 NEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEI    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 NEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEI    300
+
+asis             301 TFLEAVIQLKKTKLQSVSSAIHLCDKKKMELSLNIPVNHGPQEESCGSSQ    350
+                     ||||||||||                                        
+asis             301 TFLEAVIQLK----------------------------------------    310
+
+asis             351 LHENSGSPETSRSLPAPQDNDFLSRKAQDCYFMKLHHCPGNHSWDSTISG    400
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             401 SQRAAFCDHKTTPCSSAIINPLSTAGNSERLQPGIAQQWIQSKREDIVNQ    450
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             451 MTEACLNQSLDALLSRDLIMKEDYELVSTKPTRTSKVRQLLDTTDIQGEE    500
+                                                                       
+asis             310 --------------------------------------------------    310
+
+asis             501 FAKVIVQKLKDNKQMGLQPYPEILVVSRSPSLNLLQNKSM    540
+                                                             
+asis             310 ----------------------------------------    310
+
+
+#---------------------------------------
+#---------------------------------------

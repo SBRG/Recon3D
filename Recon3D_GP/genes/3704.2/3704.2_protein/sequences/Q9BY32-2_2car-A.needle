@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:38:38
+# Commandline: needle
+#    -outfile ./Recon3D/genes/3704.2/3704.2_protein/sequences/Q9BY32-2_2car-A.needle
+#    -asequence asis::MAASLVVQILGDKFPCTLVAQKIDLPEYQGEPDEISIQKCQEAVRQVQGPVLVEDTCLCFNALGGLPGPYIKWFLEKLKPEGLHQLLAGFEDKSAYALCTFALSTGDPSQPVRLFRGRTSGRIVAPRGCQDFGWDPCFQPDGYEQTYAEMPKAEKNAVSHRFRALLELQEYFGSLAA
+#    -bsequence asis::GSMAASLVGKKIVFVTGNAKKLEEVVQILGDKFPCTLVAQKIDLPEYQGEPDEISIQKCQEAVRQVQGPVLVEDTCLCFNALGGLPGPYIKWFLEKLKPEGLHQLLAGFEDKSAYALCTFALSTGDPSQPVRLFRGRTSGRIVAPRGCQDFGWDPCFQPDGYEQTYAEMPKAEKNAVSHRFRALLELQEYFGSLAA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/3704.2/3704.2_protein/sequences/Q9BY32-2_2car-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 196
+# Identity:     177/196 (90.3%)
+# Similarity:   177/196 (90.3%)
+# Gaps:          19/196 ( 9.7%)
+# Score: 927.0
+# 
+#
+#=======================================
+
+asis               1 --MAASL-----------------VVQILGDKFPCTLVAQKIDLPEYQGE     31
+                       |||||                 ||||||||||||||||||||||||||
+asis               1 GSMAASLVGKKIVFVTGNAKKLEEVVQILGDKFPCTLVAQKIDLPEYQGE     50
+
+asis              32 PDEISIQKCQEAVRQVQGPVLVEDTCLCFNALGGLPGPYIKWFLEKLKPE     81
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 PDEISIQKCQEAVRQVQGPVLVEDTCLCFNALGGLPGPYIKWFLEKLKPE    100
+
+asis              82 GLHQLLAGFEDKSAYALCTFALSTGDPSQPVRLFRGRTSGRIVAPRGCQD    131
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 GLHQLLAGFEDKSAYALCTFALSTGDPSQPVRLFRGRTSGRIVAPRGCQD    150
+
+asis             132 FGWDPCFQPDGYEQTYAEMPKAEKNAVSHRFRALLELQEYFGSLAA    177
+                     ||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 FGWDPCFQPDGYEQTYAEMPKAEKNAVSHRFRALLELQEYFGSLAA    196
+
+
+#---------------------------------------
+#---------------------------------------

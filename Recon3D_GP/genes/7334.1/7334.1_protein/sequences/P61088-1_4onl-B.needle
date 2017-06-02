@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:38:59
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7334.1/7334.1_protein/sequences/P61088-1_4onl-B.needle
+#    -asequence asis::MAGLPRRIIKETQRLLAEPVPGIKAEPDESNARYFHVVIAGPQDSPFEGGTFKLELFLPEEYPMAAPKVRFMTKIYHPNVDKLGRICLDILKDKWSPALQIRTVLLSIQALLSAPNPDDPLANDVAEQWKTNEAQAIETARAWTRLYAMNNI
+#    -bsequence asis::XAGLPRRIIKETQRLLAEPVPGIKAEPDESNARYFHVVIAGPQDSPFEGGTFKLELFLPEEYPMAAPKVRFMTKIYHPNVNKLGSICLDILKDKWSPALQIRTVLLSIQALLSAPNPDDPLVPDVAEQWKTNEAQAIETARAWTRLYAMN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7334.1/7334.1_protein/sequences/P61088-1_4onl-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:     145/152 (95.4%)
+# Similarity:   146/152 (96.1%)
+# Gaps:           2/152 ( 1.3%)
+# Score: 755.0
+# 
+#
+#=======================================
+
+asis               1 MAGLPRRIIKETQRLLAEPVPGIKAEPDESNARYFHVVIAGPQDSPFEGG     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XAGLPRRIIKETQRLLAEPVPGIKAEPDESNARYFHVVIAGPQDSPFEGG     50
+
+asis              51 TFKLELFLPEEYPMAAPKVRFMTKIYHPNVDKLGRICLDILKDKWSPALQ    100
+                     ||||||||||||||||||||||||||||||:|||.|||||||||||||||
+asis              51 TFKLELFLPEEYPMAAPKVRFMTKIYHPNVNKLGSICLDILKDKWSPALQ    100
+
+asis             101 IRTVLLSIQALLSAPNPDDPLANDVAEQWKTNEAQAIETARAWTRLYAMN    150
+                     |||||||||||||||||||||..|||||||||||||||||||||||||||
+asis             101 IRTVLLSIQALLSAPNPDDPLVPDVAEQWKTNEAQAIETARAWTRLYAMN    150
+
+asis             151 NI    152
+                       
+asis             150 --    150
+
+
+#---------------------------------------
+#---------------------------------------

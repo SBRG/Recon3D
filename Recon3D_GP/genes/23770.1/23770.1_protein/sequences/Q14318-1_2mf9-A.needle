@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:42:34
+# Commandline: needle
+#    -outfile ./Recon3D/genes/23770.1/23770.1_protein/sequences/Q14318-1_2mf9-A.needle
+#    -asequence asis::MASCAEPSEPSAPLPAGVPPLEDFEVLDGVEDAEGEEEEEEEEEEEDDLSELPPLEDMGQPPAEEAEQPGALAREFLAAMEPEPAPAPAPEEWLDILGNGLLRKKTLVPGPPGSSRPVKGQVVTVHLQTSLENGTRVQEEPELVFTLGDCDVIQALDLSVPLMDVGETAMVTADSKYCYGPQGRSPYIPPHAALCLEVTLKTAVDGPDLEMLTGQERVALANRKRECGNAHYQRADFVLAANSYDLAIKAITSSAKVDMTFEEEAQLLQLKVKCLNNLAASQLKLDHYRAALRSCSLVLEHQPDNIKALFRKGKVLAQQGEYSEAIPILRAALKLEPSNKTIHAELSKLVKKHAAQRSTETALYRKMLGNPSRLPAKCPGKGAWSIPWKWLFGATAVALGGVALSVVIAARN
+#    -bsequence asis::MGQPPAEEAEQPGALAREFLAAMEPEPAPAPAPEEWLDILGNGLLRKKTLVPGPPGSSRPVKGQVVTVHLQTSLENGTRVQEEPELVFTLGDCDVIQALDLSVPLMDVGETAMVTADSKYCYGPQGSRSPYIPPHAALCLEVTLKTAVDLEHHHHHH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/23770.1/23770.1_protein/sequences/Q14318-1_2mf9-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 413
+# Identity:     150/413 (36.3%)
+# Similarity:   150/413 (36.3%)
+# Gaps:         257/413 (62.2%)
+# Score: 754.0
+# 
+#
+#=======================================
+
+asis               1 MASCAEPSEPSAPLPAGVPPLEDFEVLDGVEDAEGEEEEEEEEEEEDDLS     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 ELPPLEDMGQPPAEEAEQPGALAREFLAAMEPEPAPAPAPEEWLDILGNG    100
+                            |||||||||||||||||||||||||||||||||||||||||||
+asis               1 -------MGQPPAEEAEQPGALAREFLAAMEPEPAPAPAPEEWLDILGNG     43
+
+asis             101 LLRKKTLVPGPPGSSRPVKGQVVTVHLQTSLENGTRVQEEPELVFTLGDC    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              44 LLRKKTLVPGPPGSSRPVKGQVVTVHLQTSLENGTRVQEEPELVFTLGDC     93
+
+asis             151 DVIQALDLSVPLMDVGETAMVTADSKYCYGPQG-RSPYIPPHAALCLEVT    199
+                     ||||||||||||||||||||||||||||||||| ||||||||||||||||
+asis              94 DVIQALDLSVPLMDVGETAMVTADSKYCYGPQGSRSPYIPPHAALCLEVT    143
+
+asis             200 LKTAVDGPDLEMLTGQERVALANRKRECGNAHYQRADFVLAANSYDLAIK    249
+                     |||||   |||......                                 
+asis             144 LKTAV---DLEHHHHHH---------------------------------    157
+
+asis             250 AITSSAKVDMTFEEEAQLLQLKVKCLNNLAASQLKLDHYRAALRSCSLVL    299
+                                                                       
+asis             157 --------------------------------------------------    157
+
+asis             300 EHQPDNIKALFRKGKVLAQQGEYSEAIPILRAALKLEPSNKTIHAELSKL    349
+                                                                       
+asis             157 --------------------------------------------------    157
+
+asis             350 VKKHAAQRSTETALYRKMLGNPSRLPAKCPGKGAWSIPWKWLFGATAVAL    399
+                                                                       
+asis             157 --------------------------------------------------    157
+
+asis             400 GGVALSVVIAARN    412
+                                  
+asis             157 -------------    157
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:09:33
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4706.1/4706.1_protein/sequences/O14561-1_5gpn-t.needle
+#    -asequence asis::MASRVLSAYVSRLPAAFAPLPRVRMLAVARPLSTALCSAGTQTRLGTLQPALVLAQVPGRVTQLCRQYSDMPPLTLEGIQDRVLYVLKLYDKIDPEKLSVNSHFMKDLGLDSLDQVEIIMAMEDEFGFEIPDIDAEKLMCPQEIVDYIADKKDVYE
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLTLEAIKDRVLYVLKLYDKIDPEKLSVNSHFMKDLGLDSLDQVEIIMAMEDEFGFEIPDIDAEKLMCPQEIVDYIADKKDV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4706.1/4706.1_protein/sequences/O14561-1_5gpn-t.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 226
+# Identity:      79/226 (35.0%)
+# Similarity:    80/226 (35.4%)
+# Gaps:         142/226 (62.8%)
+# Score: 357.5
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               1 --------------------MASRVLSAYVSRLPAAFAPLPRVRMLAVAR     30
+                                         ...                           
+asis              51 XXXXXXXXXXXXXXXXXXXXXXX---------------------------     73
+
+asis              31 PLSTALCSAGTQTRLGTLQPALVLAQVPGRVTQLCRQYSDMPPLTLEGIQ     80
+                                                                ||||.|:
+asis              74 -------------------------------------------LTLEAIK     80
+
+asis              81 DRVLYVLKLYDKIDPEKLSVNSHFMKDLGLDSLDQVEIIMAMEDEFGFEI    130
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              81 DRVLYVLKLYDKIDPEKLSVNSHFMKDLGLDSLDQVEIIMAMEDEFGFEI    130
+
+asis             131 PDIDAEKLMCPQEIVDYIADKKDVYE    156
+                     ||||||||||||||||||||||||  
+asis             131 PDIDAEKLMCPQEIVDYIADKKDV--    154
+
+
+#---------------------------------------
+#---------------------------------------

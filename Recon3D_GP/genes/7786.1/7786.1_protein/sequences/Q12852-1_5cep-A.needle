@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:02:08
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7786.1/7786.1_protein/sequences/Q12852-1_5cep-A.needle
+#    -asequence asis::MACLHETRTPSPSFGGFVSTLSEASMRKLDPDTSDCTPEKDLTPTHVLQLHEQDAGGPGGAAGSPESRASRVRADEVRLQCQSGSGFLEGLFGCLRPVWTMIGKAYSTEHKQQQEDLWEVPFEEILDLQWVGSGAQGAVFLGRFHGEEVAVKKVRDLKETDIKHLRKLKHPNIITFKGVCTQAPCYCILMEFCAQGQLYEVLRAGRPVTPSLLVDWSMGIAGGMNYLHLHKIIHRDLKSPNMLITYDDVVKISDFGTSKELSDKSTKMSFAGTVAWMAPEVIRNEPVSEKVDIWSFGVVLWELLTGEIPYKDVDSSAIIWGVGSNSLHLPVPSSCPDGFKILLRQCWNSKPRNRPSFRQILLHLDIASADVLSTPQETYFKSQAEWREEVKLHFEKIKSEGTCLHRLEEELVMRRREELRHALDIREHYERKLERANNLYMELNALMLQLELKERELLRREQALERRCPGLLKPHPSRGLLHGNTMEKLIKKRNVPQKLSPHSKRPDILKTESLLPKLDAALSGVGLPGCPKGPPSPGRSRRGKTRHRKASAKGSCGDLPGLRTAVPPHEPGGPGSPGGLGGGPSAWEACPPALRGLHHDLLLRKMSSSSPDLLSAALGSRGRGATGGAGDPGSPPPARGDTPPSEGSAPGSTSPDSPGGAKGEPPPPVGPGEGVGLLGTGREGTSGRGGSRAGSQHLTPAALLYRAAVTRSQKRGISSEEEEGEVDSEVELTSSQRWPQSLNMRQSLSTFSSENPSDGEEGTASEPSPSGTPEVGSTNTDERPDERSDDMCSQGSEIPLDPPPSEVIPGPEPSSLPIPHQELLRERGPPNSEDSDCDSTELDNSNSVDALRPPASLPP
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLWEVPFEEILDLQWVGSGAQGAVFLGRFHGEEVAVKKVRDLKETDIKHLRKLKHPNIITFKGVCTQAPCYCILMEFCAQGQLYEVLRAGRPVTPSLLVDWSMGIAGGMNYLHLHKIIHRDLKSPNMLITYDDVVKISDFGXXXXXXXXXXXXXFAGTVAWMAPEVIRNEPVSEKVDIWSFGVVLWELLTGEIPYKDVDSSAIIWGVGSNSLHLPVPSSCPDGFKILLRQCWNSKPRNRPSFRQILLHLDIASADVLSTPQETYFKSQAEWREEVKLHFEKIK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7786.1/7786.1_protein/sequences/Q12852-1_5cep-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 975
+# Identity:     269/975 (27.6%)
+# Similarity:   269/975 (27.6%)
+# Gaps:         693/975 (71.1%)
+# Score: 1366.5
+# 
+#
+#=======================================
+
+asis               1 MACLHETRTPSPSFGGFVSTLSEASMRKLDPDTSDCTPEKDLTPTHVLQL     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 HEQDAGGPGGAAGSPESRASRVRADEVRLQCQSGSGFLEGLFGCLRPVWT    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 MIGKAYSTEHKQQQED----------------------------------    116
+                                                                       
+asis               1 ----------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     34
+
+asis             116 --------------------------------------------------    116
+                                                                       
+asis              35 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     84
+
+asis             117 --------------------------------LWEVPFEEILDLQWVGSG    134
+                                                     ||||||||||||||||||
+asis              85 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLWEVPFEEILDLQWVGSG    134
+
+asis             135 AQGAVFLGRFHGEEVAVKKVRDLKETDIKHLRKLKHPNIITFKGVCTQAP    184
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             135 AQGAVFLGRFHGEEVAVKKVRDLKETDIKHLRKLKHPNIITFKGVCTQAP    184
+
+asis             185 CYCILMEFCAQGQLYEVLRAGRPVTPSLLVDWSMGIAGGMNYLHLHKIIH    234
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             185 CYCILMEFCAQGQLYEVLRAGRPVTPSLLVDWSMGIAGGMNYLHLHKIIH    234
+
+asis             235 RDLKSPNMLITYDDVVKISDFGTSKELSDKSTKMSFAGTVAWMAPEVIRN    284
+                     ||||||||||||||||||||||.............|||||||||||||||
+asis             235 RDLKSPNMLITYDDVVKISDFGXXXXXXXXXXXXXFAGTVAWMAPEVIRN    284
+
+asis             285 EPVSEKVDIWSFGVVLWELLTGEIPYKDVDSSAIIWGVGSNSLHLPVPSS    334
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             285 EPVSEKVDIWSFGVVLWELLTGEIPYKDVDSSAIIWGVGSNSLHLPVPSS    334
+
+asis             335 CPDGFKILLRQCWNSKPRNRPSFRQILLHLDIASADVLSTPQETYFKSQA    384
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             335 CPDGFKILLRQCWNSKPRNRPSFRQILLHLDIASADVLSTPQETYFKSQA    384
+
+asis             385 EWREEVKLHFEKIKSEGTCLHRLEEELVMRRREELRHALDIREHYERKLE    434
+                     ||||||||||||||                                    
+asis             385 EWREEVKLHFEKIK------------------------------------    398
+
+asis             435 RANNLYMELNALMLQLELKERELLRREQALERRCPGLLKPHPSRGLLHGN    484
+                                                                       
+asis             398 --------------------------------------------------    398
+
+asis             485 TMEKLIKKRNVPQKLSPHSKRPDILKTESLLPKLDAALSGVGLPGCPKGP    534
+                                                                       
+asis             398 --------------------------------------------------    398
+
+asis             535 PSPGRSRRGKTRHRKASAKGSCGDLPGLRTAVPPHEPGGPGSPGGLGGGP    584
+                                                                       
+asis             398 --------------------------------------------------    398
+
+asis             585 SAWEACPPALRGLHHDLLLRKMSSSSPDLLSAALGSRGRGATGGAGDPGS    634
+                                                                       
+asis             398 --------------------------------------------------    398
+
+asis             635 PPPARGDTPPSEGSAPGSTSPDSPGGAKGEPPPPVGPGEGVGLLGTGREG    684
+                                                                       
+asis             398 --------------------------------------------------    398
+
+asis             685 TSGRGGSRAGSQHLTPAALLYRAAVTRSQKRGISSEEEEGEVDSEVELTS    734
+                                                                       
+asis             398 --------------------------------------------------    398
+
+asis             735 SQRWPQSLNMRQSLSTFSSENPSDGEEGTASEPSPSGTPEVGSTNTDERP    784
+                                                                       
+asis             398 --------------------------------------------------    398
+
+asis             785 DERSDDMCSQGSEIPLDPPPSEVIPGPEPSSLPIPHQELLRERGPPNSED    834
+                                                                       
+asis             398 --------------------------------------------------    398
+
+asis             835 SDCDSTELDNSNSVDALRPPASLPP    859
+                                              
+asis             398 -------------------------    398
+
+
+#---------------------------------------
+#---------------------------------------

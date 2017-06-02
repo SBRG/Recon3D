@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:39:01
+# Commandline: needle
+#    -outfile ./Recon3D/genes/594.2/594.2_protein/sequences/P21953-2_1olu-B.needle
+#    -asequence asis::MAVVAAAAGWLLRLRAAGAEGHWRRLPGAGLARGFLHPAATVEDAAQRRQVAHFTFQPDPEPREYGQTQKMNLFQSVTSALDNSLAKDPTAVIFGEDVAFGGVFRCTVGLRDKYGKDRVFNTPLCEQGIVGFGIGIAVTGATAIAEIQFADYIFPAFDQIVNEAAKYRYRSGDLFNCGSLTIRSPWGCVGHGALYHSQSPEAFFAHCPGIKIKVISLS
+#    -bsequence asis::XAHFTFQPXXXXXEYGQTQKMNLFQSVTSALDNSLAKDPTAVIFGEDVAFGGVFRCTVGLRDKYGKDRVFNTPLCEQGIVGFGIGIAVTGATAIAEIQFADYIFPAFDQIVNEAAKYRYRSGDLFNCGSLTIRSPWGCVGHGALYHSQSPEAFFAHCPGIKVVIPRSPFQAKGLLLSCIEDKNPCIFFEPKILYRAAAEEVPIEPYNIPLSQAEVIQEGSDVTLVAWGTQVHVIREVASMAKEKLGVSCEVIDLRTIIPWDVDTICKSVIKTGRLLISHEAPLTGGFASEISSTVQEECFLNLEAPISRVCGYDTPFPHIFEPFYIPDKWKCYDALRKMINY
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/594.2/594.2_protein/sequences/P21953-2_1olu-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 393
+# Identity:     158/393 (40.2%)
+# Similarity:   159/393 (40.5%)
+# Gaps:         226/393 (57.5%)
+# Score: 825.0
+# 
+#
+#=======================================
+
+asis               1 MAVVAAAAGWLLRLRAAGAEGHWRRLPGAGLARGFLHPAATVEDAAQRRQ     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 VAHFTFQPDPEPREYGQTQKMNLFQSVTSALDNSLAKDPTAVIFGEDVAF    100
+                     .|||||||.....|||||||||||||||||||||||||||||||||||||
+asis               1 XAHFTFQPXXXXXEYGQTQKMNLFQSVTSALDNSLAKDPTAVIFGEDVAF     50
+
+asis             101 GGVFRCTVGLRDKYGKDRVFNTPLCEQGIVGFGIGIAVTGATAIAEIQFA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 GGVFRCTVGLRDKYGKDRVFNTPLCEQGIVGFGIGIAVTGATAIAEIQFA    100
+
+asis             151 DYIFPAFDQIVNEAAKYRYRSGDLFNCGSLTIRSPWGCVGHGALYHSQSP    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 DYIFPAFDQIVNEAAKYRYRSGDLFNCGSLTIRSPWGCVGHGALYHSQSP    150
+
+asis             201 EAFFAHCPGIKIKVISLS--------------------------------    218
+                     |||||||||||: ||..|                                
+asis             151 EAFFAHCPGIKV-VIPRSPFQAKGLLLSCIEDKNPCIFFEPKILYRAAAE    199
+
+asis             218 --------------------------------------------------    218
+                                                                       
+asis             200 EVPIEPYNIPLSQAEVIQEGSDVTLVAWGTQVHVIREVASMAKEKLGVSC    249
+
+asis             218 --------------------------------------------------    218
+                                                                       
+asis             250 EVIDLRTIIPWDVDTICKSVIKTGRLLISHEAPLTGGFASEISSTVQEEC    299
+
+asis             218 -------------------------------------------    218
+                                                                
+asis             300 FLNLEAPISRVCGYDTPFPHIFEPFYIPDKWKCYDALRKMINY    342
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,158 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:15:11
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2058.1/2058.1_protein/sequences/P07814-1_5a5h-G.needle
+#    -asequence asis::MATLSLTVNSGDPPLGALLAVEHVKDDVSISVEEGKENILHVSENVIFTDVNSILRYLARVATTAGLYGSNLMEHTEIDHWLEFSATKLSSCDSFTSTINELNHCLSLRTYLVGNSLSLADLCVWATLKGNAAWQEQLKQKKAPVHVKRWFGFLEAQQAFQSVGTKWDVSTTKARVAPEKKQDVGKFVELPGAEMGKVTVRFPPEASGYLHIGHAKAALLNQHYQVNFKGKLIMRFDDTNPEKEKEDFEKVILEDVAMLHIKPDQFTYTSDHFETIMKYAEKLIQEGKAYVDDTPAEQMKAEREQRIDSKHRKNPIEKNLQMWEEMKKGSQFGQSCCLRAKIDMSSNNGCMRDPTLYRCKIQPHPRTGNKYNVYPTYDFACPIVDSIEGVTHALRTTEYHDRDEQFYWIIEALGIRKPYIWEYSRLNLNNTVLSKRKLTWFVNEGLVDGWDDPRFPTVRGVLRRGMTVEGLKQFIAAQGSSRSVVNMEWDKIWAFNKKVIDPVAPRYVALLKKEVIPVNVPEAQEEMKEVAKHPKNPEVGLKPVWYSPKVFIEGADAETFSEGEMVTFINWGNLNITKIHKNADGKIISLDAKLNLENKDYKKTTKVTWLAETTHALPIPVICVTYEHLITKPVLGKDEDFKQYVNKNSKHEELMLGDPCLKDLKKGDIIQLQRRGFFICDQPYEPVSPYSCKEAPCVLIYIPDGHTKEMPTSGSKEKTKVEATKNETSAPFKERPTPSLNNNCTTSEDSLVLYNRVAVQGDVVRELKAKKAPKEDVDAAVKQLLSLKAEYKEKTGQEYKPGNPPAEIGQNISSNSSASILESKSLYDEVAAQGEVVRKLKAEKSPKAKINEAVECLLSLKAQYKEKTGKEYIPGQPPLSQSSDSSPTRNSEPAGLETPEAKVLFDKVASQGEVVRKLKTEKAPKDQVDIAVQELLQLKAQYKSLIGVEYKPVSATGAEDKDKKKKEKENKSEKQNKPQKQNDGQRKDPSKNQGGGLSSSGAGEGQGPKKQTRLGLEAKKEENLADWYSQVITKSEMIEYHDISGCYILRPWAYAIWEAIKDFFDAEIKKLGVENCYFPMFVSQSALEKEKTHVADFAPEVAWVTRSGKTELAEPIAIRPTSETVMYPAYAKWVQSHRDLPIKLNQWCNVVRWEFKHPQPFLRTREFLWQEGHSAFATMEEAAEEVLQILDLYAQVYEELLAIPVVKGRKTEKEKFAGGDYTTTIEAFISASGRAIQGGTSHHLGQNFSKMFEIVFEDPKIPGEKQFAYQNSWGLTTRTIGVMTMVHGDNMGLVLPPRVACVQVVIIPCGITNALSEEDKEALIAKCNDYRRRLLSVNIRVRADLRDNYSPGWKFNHWELKGVPIRLEVGPRDMKSCQFVAVRRDTGEKLTVAENEAETKLQAILEDIQVTLFTRASEDLKTHMVVANTMEDFQKILDSGKIVQIPFCGEIDCEDWIKKTTARDQDLEPGAPSMGAKSLCIPFKPLCELQPGAKCVCGKNPAKYYTLFGRSY
+#    -bsequence asis::XXTLSLTVNSGDPPLGALLAVEHVKDDVSISVEEGKENILHVSENVIFTDVNSILRYLARVATTAGLYGSNLXEHTEIDHWLEFSATKLSSSDSFTSTINELNHSLSLRTYLVGNSLSLADLSVWATLKGNAAWQEQLKQKKAPVHVKRWFGFLEAQQAFQSVGTKWDVST
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2058.1/2058.1_protein/sequences/P07814-1_5a5h-G.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1512
+# Identity:     165/1512 (10.9%)
+# Similarity:   165/1512 (10.9%)
+# Gaps:        1341/1512 (88.7%)
+# Score: 839.0
+# 
+#
+#=======================================
+
+asis               1 MATLSLTVNSGDPPLGALLAVEHVKDDVSISVEEGKENILHVSENVIFTD     50
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXTLSLTVNSGDPPLGALLAVEHVKDDVSISVEEGKENILHVSENVIFTD     50
+
+asis              51 VNSILRYLARVATTAGLYGSNLMEHTEIDHWLEFSATKLSSCDSFTSTIN    100
+                     ||||||||||||||||||||||.||||||||||||||||||.||||||||
+asis              51 VNSILRYLARVATTAGLYGSNLXEHTEIDHWLEFSATKLSSSDSFTSTIN    100
+
+asis             101 ELNHCLSLRTYLVGNSLSLADLCVWATLKGNAAWQEQLKQKKAPVHVKRW    150
+                     ||||.|||||||||||||||||.|||||||||||||||||||||||||||
+asis             101 ELNHSLSLRTYLVGNSLSLADLSVWATLKGNAAWQEQLKQKKAPVHVKRW    150
+
+asis             151 FGFLEAQQAFQSVGTKWDVSTTKARVAPEKKQDVGKFVELPGAEMGKVTV    200
+                     |||||||||||||||||||||                             
+asis             151 FGFLEAQQAFQSVGTKWDVST-----------------------------    171
+
+asis             201 RFPPEASGYLHIGHAKAALLNQHYQVNFKGKLIMRFDDTNPEKEKEDFEK    250
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             251 VILEDVAMLHIKPDQFTYTSDHFETIMKYAEKLIQEGKAYVDDTPAEQMK    300
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             301 AEREQRIDSKHRKNPIEKNLQMWEEMKKGSQFGQSCCLRAKIDMSSNNGC    350
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             351 MRDPTLYRCKIQPHPRTGNKYNVYPTYDFACPIVDSIEGVTHALRTTEYH    400
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             401 DRDEQFYWIIEALGIRKPYIWEYSRLNLNNTVLSKRKLTWFVNEGLVDGW    450
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             451 DDPRFPTVRGVLRRGMTVEGLKQFIAAQGSSRSVVNMEWDKIWAFNKKVI    500
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             501 DPVAPRYVALLKKEVIPVNVPEAQEEMKEVAKHPKNPEVGLKPVWYSPKV    550
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             551 FIEGADAETFSEGEMVTFINWGNLNITKIHKNADGKIISLDAKLNLENKD    600
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             601 YKKTTKVTWLAETTHALPIPVICVTYEHLITKPVLGKDEDFKQYVNKNSK    650
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             651 HEELMLGDPCLKDLKKGDIIQLQRRGFFICDQPYEPVSPYSCKEAPCVLI    700
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             701 YIPDGHTKEMPTSGSKEKTKVEATKNETSAPFKERPTPSLNNNCTTSEDS    750
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             751 LVLYNRVAVQGDVVRELKAKKAPKEDVDAAVKQLLSLKAEYKEKTGQEYK    800
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             801 PGNPPAEIGQNISSNSSASILESKSLYDEVAAQGEVVRKLKAEKSPKAKI    850
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             851 NEAVECLLSLKAQYKEKTGKEYIPGQPPLSQSSDSSPTRNSEPAGLETPE    900
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             901 AKVLFDKVASQGEVVRKLKTEKAPKDQVDIAVQELLQLKAQYKSLIGVEY    950
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             951 KPVSATGAEDKDKKKKEKENKSEKQNKPQKQNDGQRKDPSKNQGGGLSSS   1000
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1001 GAGEGQGPKKQTRLGLEAKKEENLADWYSQVITKSEMIEYHDISGCYILR   1050
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1051 PWAYAIWEAIKDFFDAEIKKLGVENCYFPMFVSQSALEKEKTHVADFAPE   1100
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1101 VAWVTRSGKTELAEPIAIRPTSETVMYPAYAKWVQSHRDLPIKLNQWCNV   1150
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1151 VRWEFKHPQPFLRTREFLWQEGHSAFATMEEAAEEVLQILDLYAQVYEEL   1200
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1201 LAIPVVKGRKTEKEKFAGGDYTTTIEAFISASGRAIQGGTSHHLGQNFSK   1250
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1251 MFEIVFEDPKIPGEKQFAYQNSWGLTTRTIGVMTMVHGDNMGLVLPPRVA   1300
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1301 CVQVVIIPCGITNALSEEDKEALIAKCNDYRRRLLSVNIRVRADLRDNYS   1350
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1351 PGWKFNHWELKGVPIRLEVGPRDMKSCQFVAVRRDTGEKLTVAENEAETK   1400
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1401 LQAILEDIQVTLFTRASEDLKTHMVVANTMEDFQKILDSGKIVQIPFCGE   1450
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1451 IDCEDWIKKTTARDQDLEPGAPSMGAKSLCIPFKPLCELQPGAKCVCGKN   1500
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis            1501 PAKYYTLFGRSY   1512
+                                 
+asis             171 ------------    171
+
+
+#---------------------------------------
+#---------------------------------------

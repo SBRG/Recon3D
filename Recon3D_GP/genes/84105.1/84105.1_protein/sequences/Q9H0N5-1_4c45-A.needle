@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:58:44
+# Commandline: needle
+#    -outfile ./Recon3D/genes/84105.1/84105.1_protein/sequences/Q9H0N5-1_4c45-A.needle
+#    -asequence asis::MAAVLGALGATRRLLAALRGQSLGLAAMSSGTHRLTAEERNQAILDLKAAGWSELSERDAIYKEFSFHNFNQAFGFMSRVALQAEKMNHHPEWFNVYNKVQITLTSHDCGELTKKDVKLAKFIEKAAASV
+#    -bsequence asis::XXXXXTHRLTAEERNQAILDLKAAGWSELSERDAIYKEFSFHNFNQAFGFMSRVALQAEKMNHHPEWFNVYNKVQITLTSHDCGELTKKDVKLAKFIEKAAASV
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/84105.1/84105.1_protein/sequences/Q9H0N5-1_4c45-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      99/130 (76.2%)
+# Similarity:    99/130 (76.2%)
+# Gaps:          26/130 (20.0%)
+# Score: 515.0
+# 
+#
+#=======================================
+
+asis               1 MAAVLGALGATRRLLAALRGQSLGLAAMSSGTHRLTAEERNQAILDLKAA     50
+                                               .....|||||||||||||||||||
+asis               1 --------------------------XXXXXTHRLTAEERNQAILDLKAA     24
+
+asis              51 GWSELSERDAIYKEFSFHNFNQAFGFMSRVALQAEKMNHHPEWFNVYNKV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              25 GWSELSERDAIYKEFSFHNFNQAFGFMSRVALQAEKMNHHPEWFNVYNKV     74
+
+asis             101 QITLTSHDCGELTKKDVKLAKFIEKAAASV    130
+                     ||||||||||||||||||||||||||||||
+asis              75 QITLTSHDCGELTKKDVKLAKFIEKAAASV    104
+
+
+#---------------------------------------
+#---------------------------------------

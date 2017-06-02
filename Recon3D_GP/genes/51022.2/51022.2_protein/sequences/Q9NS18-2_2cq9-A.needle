@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:25:46
+# Commandline: needle
+#    -outfile ./Recon3D/genes/51022.2/51022.2_protein/sequences/Q9NS18-2_2cq9-A.needle
+#    -asequence asis::MNPRDKQVSRFSPLKDVYTWVALAGIQRSGSPGRTRSAARRMESNTSSSLENLATAPVNQIQETISDNCVVIFSKTSCSYCTMAKKLFHDMNVNYKVVELDLLEYGNQFQDALYKMTGERTVPRIFVNGTFIGGATDTHRLHKEGKLLPLVHQCYLKKSKRKEFQ
+#    -bsequence asis::GSSGSSGSLENLATAPVNQIQETISDNCVVIFSKTSCSYCTMAKKLFHDMNVNYKVVELDLLEYGNQFQDALYKMTGERTVPRIFVNGTFIGGATDTHRLHKEGKLLPLVHQCYLKKSKRKEFQSGPSSG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/51022.2/51022.2_protein/sequences/Q9NS18-2_2cq9-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:     119/171 (69.6%)
+# Similarity:   120/171 (70.2%)
+# Gaps:          47/171 (27.5%)
+# Score: 622.0
+# 
+#
+#=======================================
+
+asis               1 MNPRDKQVSRFSPLKDVYTWVALAGIQRSGSPGRTRSAARRMESNTSSSL     50
+                                                              ..|.:|.||
+asis               1 -----------------------------------------GSSGSSGSL      9
+
+asis              51 ENLATAPVNQIQETISDNCVVIFSKTSCSYCTMAKKLFHDMNVNYKVVEL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              10 ENLATAPVNQIQETISDNCVVIFSKTSCSYCTMAKKLFHDMNVNYKVVEL     59
+
+asis             101 DLLEYGNQFQDALYKMTGERTVPRIFVNGTFIGGATDTHRLHKEGKLLPL    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              60 DLLEYGNQFQDALYKMTGERTVPRIFVNGTFIGGATDTHRLHKEGKLLPL    109
+
+asis             151 VHQCYLKKSKRKEFQ------    165
+                     |||||||||||||||      
+asis             110 VHQCYLKKSKRKEFQSGPSSG    130
+
+
+#---------------------------------------
+#---------------------------------------

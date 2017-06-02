@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:37:13
+# Commandline: needle
+#    -outfile ./Recon3D/genes/349565.1/349565.1_protein/sequences/Q96T66-1_1nup-B.needle
+#    -asequence asis::MKSRIPVVLLACGSFNPITNMHLRMFEVARDHLHQTGMYQVIQGIISPVNDTYGKKDLAASHHRVAMARLALQTSDWIRVDPWESEQAQWMETVKVLRHHHSKLLRSPPQMEGPDHGKALFSTPAAVPELKLLCGADVLKTFQTPNLWKDAHIQEIVEKFGLVCVGRVGHDPKGYIAESPILRMHQHNIHLAKEPVQNEISATYIRRALGQGQSVKYLIPDAVITYIKDHGLYTKGSTWKGKSTQSTEGKTS
+#    -bsequence asis::XXSRIPVVLLACGSFNPITNMHLRMFEVARDHLHQTGMYQVIQGIISPVNDTYGKKDLAASHHRVAMARLALQTSDWIRVDPWESEQAQWMETVKVLRHHHSKLLRXXXXXXXXXXXXXXXXXXXXVPELKLLCGADVLKTFQTPNLWKDAHIQEIVEKFGLVCVGRVSHDPKGYIAESPILRMHQHNIHLAKEPVQNEISATYIRRALGQGQSVKYLIPDAVITYIKDHGLYT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/349565.1/349565.1_protein/sequences/Q96T66-1_1nup-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 252
+# Identity:     211/252 (83.7%)
+# Similarity:   211/252 (83.7%)
+# Gaps:          18/252 ( 7.1%)
+# Score: 1098.0
+# 
+#
+#=======================================
+
+asis               1 MKSRIPVVLLACGSFNPITNMHLRMFEVARDHLHQTGMYQVIQGIISPVN     50
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXSRIPVVLLACGSFNPITNMHLRMFEVARDHLHQTGMYQVIQGIISPVN     50
+
+asis              51 DTYGKKDLAASHHRVAMARLALQTSDWIRVDPWESEQAQWMETVKVLRHH    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 DTYGKKDLAASHHRVAMARLALQTSDWIRVDPWESEQAQWMETVKVLRHH    100
+
+asis             101 HSKLLRSPPQMEGPDHGKALFSTPAAVPELKLLCGADVLKTFQTPNLWKD    150
+                     ||||||....................||||||||||||||||||||||||
+asis             101 HSKLLRXXXXXXXXXXXXXXXXXXXXVPELKLLCGADVLKTFQTPNLWKD    150
+
+asis             151 AHIQEIVEKFGLVCVGRVGHDPKGYIAESPILRMHQHNIHLAKEPVQNEI    200
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
+asis             151 AHIQEIVEKFGLVCVGRVSHDPKGYIAESPILRMHQHNIHLAKEPVQNEI    200
+
+asis             201 SATYIRRALGQGQSVKYLIPDAVITYIKDHGLYTKGSTWKGKSTQSTEGK    250
+                     ||||||||||||||||||||||||||||||||||                
+asis             201 SATYIRRALGQGQSVKYLIPDAVITYIKDHGLYT----------------    234
+
+asis             251 TS    252
+                       
+asis             234 --    234
+
+
+#---------------------------------------
+#---------------------------------------

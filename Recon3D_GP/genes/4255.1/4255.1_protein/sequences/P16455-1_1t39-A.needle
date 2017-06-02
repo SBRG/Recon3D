@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:44:00
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4255.1/4255.1_protein/sequences/P16455-1_1t39-A.needle
+#    -asequence asis::MDKDCEMKRTTLDSPLGKLELSGCEQGLHEIKLLGKGTSAADAVEVPAPAAVLGGPEPLMQCTAWLNAYFHQPEAIEEFPVPALHHPVFQQESFTRQVLWKLLKVVKFGEVISYQQLAALAGNPKAARAVGGAMRGNPVPILIPCHRVVCSSGAVGNYSGGLAVKEWLLAHEGHRLGKPGLGGSSGLAGAWLKGAGATSGSPPAGRN
+#    -bsequence asis::XXXXCEMKRTTLDSPLGKLELSGCEQGLHEIKLLGXXXXXXXXXXXXXXXXXXXXPEPLMQCTAWLNAYFHQPEAIEEFPVPALHHPVFQQESFTRQVLWKLLKVVKFGEVISYQQLAALAGNPKAARAVGGAMRGNPVPILIPCHRVVCSSGAVGNYSGGLAVKEWLLAHEGHR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4255.1/4255.1_protein/sequences/P16455-1_1t39-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 207
+# Identity:     151/207 (72.9%)
+# Similarity:   151/207 (72.9%)
+# Gaps:          32/207 (15.5%)
+# Score: 791.0
+# 
+#
+#=======================================
+
+asis               1 MDKDCEMKRTTLDSPLGKLELSGCEQGLHEIKLLGKGTSAADAVEVPAPA     50
+                     ....|||||||||||||||||||||||||||||||...............
+asis               1 XXXXCEMKRTTLDSPLGKLELSGCEQGLHEIKLLGXXXXXXXXXXXXXXX     50
+
+asis              51 AVLGGPEPLMQCTAWLNAYFHQPEAIEEFPVPALHHPVFQQESFTRQVLW    100
+                     .....|||||||||||||||||||||||||||||||||||||||||||||
+asis              51 XXXXXPEPLMQCTAWLNAYFHQPEAIEEFPVPALHHPVFQQESFTRQVLW    100
+
+asis             101 KLLKVVKFGEVISYQQLAALAGNPKAARAVGGAMRGNPVPILIPCHRVVC    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 KLLKVVKFGEVISYQQLAALAGNPKAARAVGGAMRGNPVPILIPCHRVVC    150
+
+asis             151 SSGAVGNYSGGLAVKEWLLAHEGHRLGKPGLGGSSGLAGAWLKGAGATSG    200
+                     |||||||||||||||||||||||||                         
+asis             151 SSGAVGNYSGGLAVKEWLLAHEGHR-------------------------    175
+
+asis             201 SPPAGRN    207
+                            
+asis             175 -------    175
+
+
+#---------------------------------------
+#---------------------------------------

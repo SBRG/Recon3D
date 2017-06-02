@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:00:31
+# Commandline: needle
+#    -outfile ./Recon3D/genes/203.1/203.1_protein/sequences/P00568-1_2c95-A.needle
+#    -asequence asis::MEEKLKKTKIIFVVGGPGSGKGTQCEKIVQKYGYTHLSTGDLLRSEVSSGSARGKKLSEIMEKGQLVPLETVLDMLRDAMVAKVNTSKGFLIDGYPREVQQGEEFERRIGQPTLLLYVDAGPETMTQRLLKRGETSGRVDDNEETIKKRLETYYKATEPVIAFYEKRGIVRKVNAEGSVDSVFSQVCTHLDALK
+#    -bsequence asis::SMEEKLKKTNIIFVVGGPGSGKGTQCEKIVQKYGYTHLSTGDLLRSEVSSGSARGKKLSEIMEKGQLVPLETVLDMLRDAMVAKVNTSKGFLIDGYPREVQQGEEFERRIGQPTLLLYVDAGPETMTQRLLKRGETSGRVDDNEETIKKRLETYYKATEPVIAFYEKRGIVRKVNAEGSVDSVFSQVCTHLDALL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/203.1/203.1_protein/sequences/P00568-1_2c95-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 195
+# Identity:     192/195 (98.5%)
+# Similarity:   192/195 (98.5%)
+# Gaps:           1/195 ( 0.5%)
+# Score: 970.0
+# 
+#
+#=======================================
+
+asis               1 -MEEKLKKTKIIFVVGGPGSGKGTQCEKIVQKYGYTHLSTGDLLRSEVSS     49
+                      ||||||||.||||||||||||||||||||||||||||||||||||||||
+asis               1 SMEEKLKKTNIIFVVGGPGSGKGTQCEKIVQKYGYTHLSTGDLLRSEVSS     50
+
+asis              50 GSARGKKLSEIMEKGQLVPLETVLDMLRDAMVAKVNTSKGFLIDGYPREV     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 GSARGKKLSEIMEKGQLVPLETVLDMLRDAMVAKVNTSKGFLIDGYPREV    100
+
+asis             100 QQGEEFERRIGQPTLLLYVDAGPETMTQRLLKRGETSGRVDDNEETIKKR    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 QQGEEFERRIGQPTLLLYVDAGPETMTQRLLKRGETSGRVDDNEETIKKR    150
+
+asis             150 LETYYKATEPVIAFYEKRGIVRKVNAEGSVDSVFSQVCTHLDALK    194
+                     ||||||||||||||||||||||||||||||||||||||||||||.
+asis             151 LETYYKATEPVIAFYEKRGIVRKVNAEGSVDSVFSQVCTHLDALL    195
+
+
+#---------------------------------------
+#---------------------------------------

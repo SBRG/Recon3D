@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:12:35
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4284.1/4284.1_protein/sequences/P30301-1_2b6o-A.needle
+#    -asequence asis::MWELRSASFWRAIFAEFFATLFYVFFGLGSSLRWAPGPLHVLQVAMAFGLALATLVQSVGHISGAHVNPAVTFAFLVGSQMSLLRAFCYMAAQLLGAVAGAAVLYSVTPPAVRGNLALNTLHPAVSVGQATTVEIFLTLQFVLCIFATYDERRNGQLGSVALAVGFSLALGHLFGMYYTGAGMNPARSFAPAILTGNFTNHWVYWVGPIIGGGLGSLLYDFLLFPRLKSISERLSVLKGAKPDVSNGQPEVTGEPVELNTQAL
+#    -bsequence asis::XXXXRSASFWRAIFAEFFATLFYVFFGLGASLRWAPGPLHVLQVALAFGLALATLVQAVGHISGAHVNPAVTFAFLVGSQMSLLRAICYVVAQLLGAVAGAAVLYSVTPPAVRGNLALNTLHPGVSVGQATIVEIFLTLQFVLCIFATYDERRNGRLGSVALAVGFSLTLGHLFGMYYTGAGMNPARSFAPAILTRNFTNHWVYWVGPVIGAGLGSLLYDFLLFPRLKSVSERLSILKG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4284.1/4284.1_protein/sequences/P30301-1_2b6o-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:     220/263 (83.7%)
+# Similarity:   228/263 (86.7%)
+# Gaps:          24/263 ( 9.1%)
+# Score: 1141.0
+# 
+#
+#=======================================
+
+asis               1 MWELRSASFWRAIFAEFFATLFYVFFGLGSSLRWAPGPLHVLQVAMAFGL     50
+                     ....|||||||||||||||||||||||||:|||||||||||||||:||||
+asis               1 XXXXRSASFWRAIFAEFFATLFYVFFGLGASLRWAPGPLHVLQVALAFGL     50
+
+asis              51 ALATLVQSVGHISGAHVNPAVTFAFLVGSQMSLLRAFCYMAAQLLGAVAG    100
+                     |||||||:||||||||||||||||||||||||||||.||:.|||||||||
+asis              51 ALATLVQAVGHISGAHVNPAVTFAFLVGSQMSLLRAICYVVAQLLGAVAG    100
+
+asis             101 AAVLYSVTPPAVRGNLALNTLHPAVSVGQATTVEIFLTLQFVLCIFATYD    150
+                     |||||||||||||||||||||||.|||||||.||||||||||||||||||
+asis             101 AAVLYSVTPPAVRGNLALNTLHPGVSVGQATIVEIFLTLQFVLCIFATYD    150
+
+asis             151 ERRNGQLGSVALAVGFSLALGHLFGMYYTGAGMNPARSFAPAILTGNFTN    200
+                     |||||:||||||||||||.||||||||||||||||||||||||||.||||
+asis             151 ERRNGRLGSVALAVGFSLTLGHLFGMYYTGAGMNPARSFAPAILTRNFTN    200
+
+asis             201 HWVYWVGPIIGGGLGSLLYDFLLFPRLKSISERLSVLKGAKPDVSNGQPE    250
+                     ||||||||:||.|||||||||||||||||:|||||:|||           
+asis             201 HWVYWVGPVIGAGLGSLLYDFLLFPRLKSVSERLSILKG-----------    239
+
+asis             251 VTGEPVELNTQAL    263
+                                  
+asis             239 -------------    239
+
+
+#---------------------------------------
+#---------------------------------------

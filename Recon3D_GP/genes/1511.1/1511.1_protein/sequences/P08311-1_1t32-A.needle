@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:16:21
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1511.1/1511.1_protein/sequences/P08311-1_1t32-A.needle
+#    -asequence asis::MQPLLLLLAFLLPTGAEAGEIIGGRESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSRRVRRNRNVNPVALPRAQEGLRPGTLCTVAGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSFKLLDQMETPL
+#    -bsequence asis::XXXXXXXXXXXXXXXIIGGRESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSXNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSRRVRRNRNVNPVALPRAQEGLRPGTLCTVAGWGRVSMRRXXGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVXXXXAHGIVSYGKSSGVXXPPEVFTRVSSFLPWIRTTMRS
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1511.1/1511.1_protein/sequences/P08311-1_1t32-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 264
+# Identity:     224/264 (84.8%)
+# Similarity:   224/264 (84.8%)
+# Gaps:          25/264 ( 9.5%)
+# Score: 1130.5
+# 
+#
+#=======================================
+
+asis               1 MQPLLLLLAFLLPTGAEAGEIIGGRESRPHSRPYMAYLQIQSPAGQSRCG     50
+                          ...............||||||||||||||||||||||||||||||
+asis               1 -----XXXXXXXXXXXXXXXIIGGRESRPHSRPYMAYLQIQSPAGQSRCG     45
+
+asis              51 GFLVREDFVLTAAHCWGS-NINVTLGAHNIQRRENTQQHITARRAIRHPQ     99
+                     |||||||||||||||||| |||||||||||||||||||||||||||||||
+asis              46 GFLVREDFVLTAAHCWGSXNINVTLGAHNIQRRENTQQHITARRAIRHPQ     95
+
+asis             100 YNQRTIQNDIMLLQLSRRVRRNRNVNPVALPRAQEGLRPGTLCTVAGWGR    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              96 YNQRTIQNDIMLLQLSRRVRRNRNVNPVALPRAQEGLRPGTLCTVAGWGR    145
+
+asis             150 VSMRR--GTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAF    197
+                     |||||  |||||||||||||||||||||||||||||||||||||||||||
+asis             146 VSMRRXXGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAF    195
+
+asis             198 KGDSGGPLLCNNV----AHGIVSYGKSSGV--PPEVFTRVSSFLPWIRTT    241
+                     |||||||||||||    |||||||||||||  ||||||||||||||||||
+asis             196 KGDSGGPLLCNNVXXXXAHGIVSYGKSSGVXXPPEVFTRVSSFLPWIRTT    245
+
+asis             242 MRSFKLLDQMETPL    255
+                     |||           
+asis             246 MRS-----------    248
+
+
+#---------------------------------------
+#---------------------------------------

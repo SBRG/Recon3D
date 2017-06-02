@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:02:42
+# Commandline: needle
+#    -outfile ./Recon3D/genes/97.2/97.2_protein/sequences/P07311-2_2w4p-A.needle
+#    -asequence asis::MAEGNTLISVDYEIFGKVQGVFFRKHTQEMTVENRIAETHSKSCVPVSFATSYAG
+#    -bsequence asis::XXGNTLISVDYEIFGKVQGVFFRKHTQAEGKKLGLVGWVQNTDRGTVQGQLQGPISKVRHMQEWLETRGSPKSHIDKANFNNEKVILKLDYSDFQIVG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/97.2/97.2_protein/sequences/P07311-2_2w4p-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      29/116 (25.0%)
+# Similarity:    29/116 (25.0%)
+# Gaps:          79/116 (68.1%)
+# Score: 115.5
+# 
+#
+#=======================================
+
+asis               1 MAEGNTLISVDYEIFGKVQGVFFRKHTQEMTVENRIAETHSKSCVPVSFA     50
+                      ..|||||||||||||||||||||||||        ||......|     
+asis               1 -XXGNTLISVDYEIFGKVQGVFFRKHTQ--------AEGKKLGLV-----     36
+
+asis              51 TSYAG---------------------------------------------     55
+                         |                                             
+asis              37 ----GWVQNTDRGTVQGQLQGPISKVRHMQEWLETRGSPKSHIDKANFNN     82
+
+asis              55 ----------------     55
+                                     
+asis              83 EKVILKLDYSDFQIVG     98
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:10:53
+# Commandline: needle
+#    -outfile ./Recon3D/genes/2173.1/2173.1_protein/sequences/O15540-1_1fdq-A.needle
+#    -asequence asis::MVEAFCATWKLTNSQNFDEYMKALGVGFATRQVGNVTKPTVIISQEGDKVVIRTLSTFKNTEISFQLGEEFDETTADDRNCKSVVSLDGDKLVHIQKWDGKETNFVREIKDGKMVMTLTFGDVVAVRHYEKA
+#    -bsequence asis::VEAFCATWKLTNSQNFDEYMKALGVGFATRQVGNVTKPTVIISQEGDKVVIRTLSTFKNTEISFQLGEEFDETTADDRNCKSVVSLDGDKLVHIQKWDGKETNFVREIKDGKMVMTLTFGDVVAVRHYEKA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/2173.1/2173.1_protein/sequences/O15540-1_1fdq-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 132
+# Identity:     131/132 (99.2%)
+# Similarity:   131/132 (99.2%)
+# Gaps:           1/132 ( 0.8%)
+# Score: 679.0
+# 
+#
+#=======================================
+
+asis               1 MVEAFCATWKLTNSQNFDEYMKALGVGFATRQVGNVTKPTVIISQEGDKV     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 -VEAFCATWKLTNSQNFDEYMKALGVGFATRQVGNVTKPTVIISQEGDKV     49
+
+asis              51 VIRTLSTFKNTEISFQLGEEFDETTADDRNCKSVVSLDGDKLVHIQKWDG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              50 VIRTLSTFKNTEISFQLGEEFDETTADDRNCKSVVSLDGDKLVHIQKWDG     99
+
+asis             101 KETNFVREIKDGKMVMTLTFGDVVAVRHYEKA    132
+                     ||||||||||||||||||||||||||||||||
+asis             100 KETNFVREIKDGKMVMTLTFGDVVAVRHYEKA    131
+
+
+#---------------------------------------
+#---------------------------------------

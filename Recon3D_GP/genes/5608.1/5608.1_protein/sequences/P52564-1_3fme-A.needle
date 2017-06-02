@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:23:11
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5608.1/5608.1_protein/sequences/P52564-1_3fme-A.needle
+#    -asequence asis::MSQSKGKKRNPGLKIPKEAFEQPQTSSTPPRDLDSKACISIGNQNFEVKADDLEPIMELGRGAYGVVEKMRHVPSGQIMAVKRIRATVNSQEQKRLLMDLDISMRTVDCPFTVTFYGALFREGDVWICMELMDTSLDKFYKQVIDKGQTIPEDILGKIAVSIVKALEHLHSKLSVIHRDVKPSNVLINALGQVKMCDFGISGYLVDSVAKTIDAGCKPYMAPERINPELNQKGYSVKSDIWSLGITMIELAILRFPYDSWGTPFQQLKQVVEEPSPQLPADKFSAEFVDFTSQCLKKNSKERPTYPELMQHPFFTLHESKGTDVASFVKLILGD
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMEVKADDLEPIMELGRGAYGVVEKMRHVPSGQIMAVKRIRXXXNSQEQKRLLMDLDISMRTVDCPFTVTFYGALFREGDVWICMELMDTSLDKFYKQVIDKGQTIPEDILGKIAVSIVKALEHLHSKLSVIHRDVKPSNVLINALGQVKMCDFXXXXXXXXXXXXXXXAGCKPYMAPERINPELNQXXYSVKSDIWSLGITMIELAILRFPYDSWGTPFQQLKQVVEEPSPQLPADKFSAEFVDFTSQCLKKNSKERPTYPELMQHPFFTLHESKGTDVASFVKLILG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5608.1/5608.1_protein/sequences/P52564-1_3fme-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 379
+# Identity:     268/379 (70.7%)
+# Similarity:   268/379 (70.7%)
+# Gaps:          91/379 (24.0%)
+# Score: 1351.0
+# 
+#
+#=======================================
+
+asis               1 ---------------------------------------------MSQSK      5
+                                                                  |    
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXM----     46
+
+asis               6 GKKRNPGLKIPKEAFEQPQTSSTPPRDLDSKACISIGNQNFEVKADDLEP     55
+                                                              |||||||||
+asis              47 -----------------------------------------EVKADDLEP     55
+
+asis              56 IMELGRGAYGVVEKMRHVPSGQIMAVKRIRATVNSQEQKRLLMDLDISMR    105
+                     ||||||||||||||||||||||||||||||...|||||||||||||||||
+asis              56 IMELGRGAYGVVEKMRHVPSGQIMAVKRIRXXXNSQEQKRLLMDLDISMR    105
+
+asis             106 TVDCPFTVTFYGALFREGDVWICMELMDTSLDKFYKQVIDKGQTIPEDIL    155
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             106 TVDCPFTVTFYGALFREGDVWICMELMDTSLDKFYKQVIDKGQTIPEDIL    155
+
+asis             156 GKIAVSIVKALEHLHSKLSVIHRDVKPSNVLINALGQVKMCDFGISGYLV    205
+                     |||||||||||||||||||||||||||||||||||||||||||.......
+asis             156 GKIAVSIVKALEHLHSKLSVIHRDVKPSNVLINALGQVKMCDFXXXXXXX    205
+
+asis             206 DSVAKTIDAGCKPYMAPERINPELNQKGYSVKSDIWSLGITMIELAILRF    255
+                     ........||||||||||||||||||..||||||||||||||||||||||
+asis             206 XXXXXXXXAGCKPYMAPERINPELNQXXYSVKSDIWSLGITMIELAILRF    255
+
+asis             256 PYDSWGTPFQQLKQVVEEPSPQLPADKFSAEFVDFTSQCLKKNSKERPTY    305
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             256 PYDSWGTPFQQLKQVVEEPSPQLPADKFSAEFVDFTSQCLKKNSKERPTY    305
+
+asis             306 PELMQHPFFTLHESKGTDVASFVKLILGD    334
+                     |||||||||||||||||||||||||||| 
+asis             306 PELMQHPFFTLHESKGTDVASFVKLILG-    333
+
+
+#---------------------------------------
+#---------------------------------------

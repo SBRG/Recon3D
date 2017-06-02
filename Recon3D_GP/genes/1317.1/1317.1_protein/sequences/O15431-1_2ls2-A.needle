@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:07:10
+# Commandline: needle
+#    -outfile ./Recon3D/genes/1317.1/1317.1_protein/sequences/O15431-1_2ls2-A.needle
+#    -asequence asis::MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFGFKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVSIRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLMLIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH
+#    -bsequence asis::KNTAGEMAGAFVAVFLLAMFYEGLK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/1317.1/1317.1_protein/sequences/O15431-1_2ls2-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 190
+# Identity:      24/190 (12.6%)
+# Similarity:    24/190 (12.6%)
+# Gaps:         165/190 (86.8%)
+# Score: 116.0
+# 
+#
+#=======================================
+
+asis               1 MDHSHHMGMSYMDSNSTMQPSHHHPTTSASHSHGGGDSSMMMMPMTFYFG     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 FKNVELLFSGLVINTAGEMAGAFVAVFLLAMFYEGLKIARESLLRKSQVS    100
+                                 .||||||||||||||||||||||||             
+asis               1 ------------KNTAGEMAGAFVAVFLLAMFYEGLK-------------     25
+
+asis             101 IRYNSMPVPGPNGTILMETHKTVGQQMLSFPHLLQTVLHIIQVVISYFLM    150
+                                                                       
+asis              25 --------------------------------------------------     25
+
+asis             151 LIFMTYNGYLCIAVAAGAGTGYFLFSWKKAVVVDITEHCH    190
+                                                             
+asis              25 ----------------------------------------     25
+
+
+#---------------------------------------
+#---------------------------------------

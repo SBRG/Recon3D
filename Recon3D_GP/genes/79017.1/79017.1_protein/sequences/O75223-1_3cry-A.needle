@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:30:53
+# Commandline: needle
+#    -outfile ./Recon3D/genes/79017.1/79017.1_protein/sequences/O75223-1_3cry-A.needle
+#    -asequence asis::MANSGCKDVTGPDEESFLYFAYGSNLLTERIHLRNPSAAFFCVARLQDFKLDFGNSQGKTSQTWHGGIATIFQSPGDEVWGVVWKMNKSNLNSLDEQEGVKSGMYVVIEVKVATQEGKEITCRSYLMTNYESAPPSPQYKKIICMGAKENGLPLEYQEKLKAIEPNDYTGKVSEEIEDIIKKGETQTL
+#    -bsequence asis::XXXXXXXXXXXXXEESFLYFAYGSNLLTERIHLRNPSAAFFCVARLQDFKLDFGNSQGKTSQTWHGGIATIFQSPGDEVWGVVWKMNKSNLNSLDEQQGVKSGMYVVIEVKVATQEGKEITCRSYLMTNYESAPPSPQYKKIICMGAKENGLPLEYQEKLKAIEPNDYTGKVSEEIEDIIKK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/79017.1/79017.1_protein/sequences/O75223-1_3cry-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:     168/188 (89.4%)
+# Similarity:   169/188 (89.9%)
+# Gaps:           6/188 ( 3.2%)
+# Score: 876.0
+# 
+#
+#=======================================
+
+asis               1 MANSGCKDVTGPDEESFLYFAYGSNLLTERIHLRNPSAAFFCVARLQDFK     50
+                     .............|||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXEESFLYFAYGSNLLTERIHLRNPSAAFFCVARLQDFK     50
+
+asis              51 LDFGNSQGKTSQTWHGGIATIFQSPGDEVWGVVWKMNKSNLNSLDEQEGV    100
+                     |||||||||||||||||||||||||||||||||||||||||||||||:||
+asis              51 LDFGNSQGKTSQTWHGGIATIFQSPGDEVWGVVWKMNKSNLNSLDEQQGV    100
+
+asis             101 KSGMYVVIEVKVATQEGKEITCRSYLMTNYESAPPSPQYKKIICMGAKEN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 KSGMYVVIEVKVATQEGKEITCRSYLMTNYESAPPSPQYKKIICMGAKEN    150
+
+asis             151 GLPLEYQEKLKAIEPNDYTGKVSEEIEDIIKKGETQTL    188
+                     ||||||||||||||||||||||||||||||||      
+asis             151 GLPLEYQEKLKAIEPNDYTGKVSEEIEDIIKK------    182
+
+
+#---------------------------------------
+#---------------------------------------

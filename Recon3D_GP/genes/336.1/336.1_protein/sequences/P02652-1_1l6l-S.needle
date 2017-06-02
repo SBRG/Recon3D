@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:10:39
+# Commandline: needle
+#    -outfile ./Recon3D/genes/336.1/336.1_protein/sequences/P02652-1_1l6l-S.needle
+#    -asequence asis::MKLLAATVLLLTICSLEGALVRRQAKEPCVESLVSQYFQTVTDYGKDLMEKVKSPELQAEAKSYFEKSKEQLTPLIKKAGTELVNFLSYFVELGTQPATQ
+#    -bsequence asis::XXXEPCVESLVSQYFQTVTDYGKDLMEKVKSPELQAEAKSYFEKSKEQLTPLIKKAGTELVNFLSYFVELGTQPATQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/336.1/336.1_protein/sequences/P02652-1_1l6l-S.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 100
+# Identity:      74/100 (74.0%)
+# Similarity:    74/100 (74.0%)
+# Gaps:          23/100 (23.0%)
+# Score: 373.0
+# 
+#
+#=======================================
+
+asis               1 MKLLAATVLLLTICSLEGALVRRQAKEPCVESLVSQYFQTVTDYGKDLME     50
+                                            ...||||||||||||||||||||||||
+asis               1 -----------------------XXXEPCVESLVSQYFQTVTDYGKDLME     27
+
+asis              51 KVKSPELQAEAKSYFEKSKEQLTPLIKKAGTELVNFLSYFVELGTQPATQ    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              28 KVKSPELQAEAKSYFEKSKEQLTPLIKKAGTELVNFLSYFVELGTQPATQ     77
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,134 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 20:03:08
+# Commandline: needle
+#    -outfile ./Recon3D/genes/9748.1/9748.1_protein/sequences/Q9H2G2-1_2jfm-A.needle
+#    -asequence asis::MSFFNFRKIFKLGSEKKKKQYEHVKRDLNPEDFWEIIGELGDGAFGKVYKAQNKETSVLAAAKVIDTKSEEELEDYMVEIDILASCDHPNIVKLLDAFYYENNLWILIEFCAGGAVDAVMLELERPLTESQIQVVCKQTLDALNYLHDNKIIHRDLKAGNILFTLDGDIKLADFGVSAKNTRTIQRRDSFIGTPYWMAPEVVMCETSKDRPYDYKADVWSLGITLIEMAEIEPPHHELNPMRVLLKIAKSEPPTLAQPSRWSSNFKDFLKKCLEKNVDARWTTSQLLQHPFVTVDSNKPIRELIAEAKAEVTEEVEDGKEEDEEEETENSLPIPASKRASSDLSIASSEEDKLSQNACILESVSEKTERSNSEDKLNSKILNEKPTTDEPEKAVEDINEHITDAQLEAMTELHDRTAVIKENEREKRPKLENLPDTEDQETVDINSVSEGKENNIMITLETNIEHNLKSEEEKDQEKQQMFENKLIKSEEIKDTILQTVDLVSQETGEKEANIQAVDSEVGLTKEDTQEKLGEDDKTQKDVISNTSDVIGTCEAADVAQKVDEDSAEDTQSNDGKEVVEVGQKLINKPMVGPEAGGTKEVPIKEIVEMNEIEEGKNKEQAINSSENIMDINEEPGTTEGEEITESSSTEEMEVRSVVADTDQKALGSEVQDASKVTTQIDKEKKEIPVSIKKEPEVTVVSQPTEPQPVLIPSININSDSGENKEEIGSLSKTETILPPESENPKENDNDSGTGSTADTSSIDLNLSISSFLSKTKDSGSISLQETRRQKKTLKKTRKFIVDGVEVSVTTSKIVTDSDSKTEELRFLRRQELRELRFLQKEEQRAQQQLNSKLQQQREQIFRRFEQEMMSKKRQYDQEIENLEKQQKQTIERLEQEHTNRLRDEAKRIKGEQEKELSKFQNMLKNRKKEVINEVEKAPKELRKELMKRRKEELAQSQHAQEQEFVQKQQQELDGSLKKIIQQQKAELANIERECLNNKQQLMRAREAAIWELEERHLQEKHQLLKQQLKDQYFMQRHQLLKRHEKETEQMQRYNQRLIEELKNRQTQERARLPKIQRSEAKTRMAMFKKSLRINSTATPDQDRDKIKQFAAQEEKRQKNERMAQHQKHENQMRDLQLQCEANVRELHQLQNEKCHLLVEHETQKLKELDEEHSQELKEWREKLRPRKKTLEEEFARKLQEQEVFFKMTGESECLNPSTQSRISKFYPIPSLHSTGS
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXYEHVTRDLNPEDFWEIIGELGDGAFGKVYKAQNKETSVLAAAKVIDTKSEEELEDYMVEIDILASCDHPNIVKLLDAFYYENNLWILIEFCAGGAVDAVMLELERPLTESQIQVVCKQTLDALNYLHDNKIIHRDLKAGNILFTLDGDIKLADFGVSAKNTRXIQRRDSFIGTPYWMAPEVVMCETSKDRPYDYKADVWSLGITLIEMAEIEPPHHELNPMRVLLKIAKSEPPTLAQPSRWSSNFKDFLKKCLEKNVDARWTTSQLLQHPFVTVDSNKPIRELIAEAK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/9748.1/9748.1_protein/sequences/Q9H2G2-1_2jfm-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1235
+# Identity:     286/1235 (23.2%)
+# Similarity:   286/1235 (23.2%)
+# Gaps:         927/1235 (75.1%)
+# Score: 1485.0
+# 
+#
+#=======================================
+
+asis               1 MSFFNFRKIFKLGSEKKKKQYEHVKRDLNPEDFWEIIGELGDGAFGKVYK     50
+                     ....................||||.|||||||||||||||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXYEHVTRDLNPEDFWEIIGELGDGAFGKVYK     50
+
+asis              51 AQNKETSVLAAAKVIDTKSEEELEDYMVEIDILASCDHPNIVKLLDAFYY    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 AQNKETSVLAAAKVIDTKSEEELEDYMVEIDILASCDHPNIVKLLDAFYY    100
+
+asis             101 ENNLWILIEFCAGGAVDAVMLELERPLTESQIQVVCKQTLDALNYLHDNK    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 ENNLWILIEFCAGGAVDAVMLELERPLTESQIQVVCKQTLDALNYLHDNK    150
+
+asis             151 IIHRDLKAGNILFTLDGDIKLADFGVSAKNTRTIQRRDSFIGTPYWMAPE    200
+                     ||||||||||||||||||||||||||||||||.|||||||||||||||||
+asis             151 IIHRDLKAGNILFTLDGDIKLADFGVSAKNTRXIQRRDSFIGTPYWMAPE    200
+
+asis             201 VVMCETSKDRPYDYKADVWSLGITLIEMAEIEPPHHELNPMRVLLKIAKS    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 VVMCETSKDRPYDYKADVWSLGITLIEMAEIEPPHHELNPMRVLLKIAKS    250
+
+asis             251 EPPTLAQPSRWSSNFKDFLKKCLEKNVDARWTTSQLLQHPFVTVDSNKPI    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 EPPTLAQPSRWSSNFKDFLKKCLEKNVDARWTTSQLLQHPFVTVDSNKPI    300
+
+asis             301 RELIAEAKAEVTEEVEDGKEEDEEEETENSLPIPASKRASSDLSIASSEE    350
+                     ||||||||                                          
+asis             301 RELIAEAK------------------------------------------    308
+
+asis             351 DKLSQNACILESVSEKTERSNSEDKLNSKILNEKPTTDEPEKAVEDINEH    400
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             401 ITDAQLEAMTELHDRTAVIKENEREKRPKLENLPDTEDQETVDINSVSEG    450
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             451 KENNIMITLETNIEHNLKSEEEKDQEKQQMFENKLIKSEEIKDTILQTVD    500
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             501 LVSQETGEKEANIQAVDSEVGLTKEDTQEKLGEDDKTQKDVISNTSDVIG    550
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             551 TCEAADVAQKVDEDSAEDTQSNDGKEVVEVGQKLINKPMVGPEAGGTKEV    600
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             601 PIKEIVEMNEIEEGKNKEQAINSSENIMDINEEPGTTEGEEITESSSTEE    650
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             651 MEVRSVVADTDQKALGSEVQDASKVTTQIDKEKKEIPVSIKKEPEVTVVS    700
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             701 QPTEPQPVLIPSININSDSGENKEEIGSLSKTETILPPESENPKENDNDS    750
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             751 GTGSTADTSSIDLNLSISSFLSKTKDSGSISLQETRRQKKTLKKTRKFIV    800
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             801 DGVEVSVTTSKIVTDSDSKTEELRFLRRQELRELRFLQKEEQRAQQQLNS    850
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             851 KLQQQREQIFRRFEQEMMSKKRQYDQEIENLEKQQKQTIERLEQEHTNRL    900
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             901 RDEAKRIKGEQEKELSKFQNMLKNRKKEVINEVEKAPKELRKELMKRRKE    950
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis             951 ELAQSQHAQEQEFVQKQQQELDGSLKKIIQQQKAELANIERECLNNKQQL   1000
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis            1001 MRAREAAIWELEERHLQEKHQLLKQQLKDQYFMQRHQLLKRHEKETEQMQ   1050
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis            1051 RYNQRLIEELKNRQTQERARLPKIQRSEAKTRMAMFKKSLRINSTATPDQ   1100
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis            1101 DRDKIKQFAAQEEKRQKNERMAQHQKHENQMRDLQLQCEANVRELHQLQN   1150
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis            1151 EKCHLLVEHETQKLKELDEEHSQELKEWREKLRPRKKTLEEEFARKLQEQ   1200
+                                                                       
+asis             308 --------------------------------------------------    308
+
+asis            1201 EVFFKMTGESECLNPSTQSRISKFYPIPSLHSTGS   1235
+                                                        
+asis             308 -----------------------------------    308
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:55:01
+# Commandline: needle
+#    -outfile ./Recon3D/genes/80146.1/80146.1_protein/sequences/Q8NBZ7-1_2b69-A.needle
+#    -asequence asis::MVSKALLRLVSAVNRRRMKLLLGIALLAYVASVWGNFVNMRSIQENGELKIESKIEEMVEPLREKIRDLEKSFTQKYPPVKFLSEKDRKRILITGGAGFVGSHLTDKLMMDGHEVTVVDNFFTGRKRNVEHWIGHENFELINHDVVEPLYIEVDQIYHLASPASPPNYMYNPIKTLKTNTIGTLNMLGLAKRVGARLLLASTSEVYGDPEVHPQSEDYWGHVNPIGPRACYDEGKRVAETMCYAYMKQEGVEVRVARIFNTFGPRMHMNDGRVVSNFILQALQGEPLTVYGSGSQTRAFQYVSDLVNGLVALMNSNVSSPVNLGNPEEHTILEFAQLIKNLVGSGSEIQFLSEAQDDPQKRKPDIKKAKLMLGWEPVVPLEEGLNKAIHYFRKELEYQANNQYIPKPKPARIKKGRTRHS
+#    -bsequence asis::XXXRKRILITGGAGFVGSHLTDKLXXDGHEVTVVDNFFTGRKRNVEHWIGHENFELINHDVVEPLYIEVDQIYHLASPASPPNYXYNPIKTLKTNTIGTLNXLGLAKRVGARLLLASTSEVYGDPEVHPQSEDYWGHVNPIGPRACYDEGKRVAETXCYAYXKQEGVEVRVARIFNTFGPRXHXNDGRVVSNFILQALQGEPLTVYGSGSQTRAFQYVSDLVNGLVALXNSNVSSPVNLGNPEEHTILEFAQLIKNLVGSGSEIQFLSEAQDDPQKRKPDIKKAKLXLGWEPVVPLEEGLNKAIHYFRKELEYQA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/80146.1/80146.1_protein/sequences/Q8NBZ7-1_2b69-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 420
+# Identity:     302/420 (71.9%)
+# Similarity:   302/420 (71.9%)
+# Gaps:         105/420 (25.0%)
+# Score: 1579.0
+# 
+#
+#=======================================
+
+asis               1 MVSKALLRLVSAVNRRRMKLLLGIALLAYVASVWGNFVNMRSIQENGELK     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 IESKIEEMVEPLREKIRDLEKSFTQKYPPVKFLSEKDRKRILITGGAGFV    100
+                                                       ...|||||||||||||
+asis               1 ----------------------------------XXXRKRILITGGAGFV     16
+
+asis             101 GSHLTDKLMMDGHEVTVVDNFFTGRKRNVEHWIGHENFELINHDVVEPLY    150
+                     ||||||||..||||||||||||||||||||||||||||||||||||||||
+asis              17 GSHLTDKLXXDGHEVTVVDNFFTGRKRNVEHWIGHENFELINHDVVEPLY     66
+
+asis             151 IEVDQIYHLASPASPPNYMYNPIKTLKTNTIGTLNMLGLAKRVGARLLLA    200
+                     ||||||||||||||||||.||||||||||||||||.||||||||||||||
+asis              67 IEVDQIYHLASPASPPNYXYNPIKTLKTNTIGTLNXLGLAKRVGARLLLA    116
+
+asis             201 STSEVYGDPEVHPQSEDYWGHVNPIGPRACYDEGKRVAETMCYAYMKQEG    250
+                     ||||||||||||||||||||||||||||||||||||||||.||||.||||
+asis             117 STSEVYGDPEVHPQSEDYWGHVNPIGPRACYDEGKRVAETXCYAYXKQEG    166
+
+asis             251 VEVRVARIFNTFGPRMHMNDGRVVSNFILQALQGEPLTVYGSGSQTRAFQ    300
+                     |||||||||||||||.|.||||||||||||||||||||||||||||||||
+asis             167 VEVRVARIFNTFGPRXHXNDGRVVSNFILQALQGEPLTVYGSGSQTRAFQ    216
+
+asis             301 YVSDLVNGLVALMNSNVSSPVNLGNPEEHTILEFAQLIKNLVGSGSEIQF    350
+                     ||||||||||||.|||||||||||||||||||||||||||||||||||||
+asis             217 YVSDLVNGLVALXNSNVSSPVNLGNPEEHTILEFAQLIKNLVGSGSEIQF    266
+
+asis             351 LSEAQDDPQKRKPDIKKAKLMLGWEPVVPLEEGLNKAIHYFRKELEYQAN    400
+                     ||||||||||||||||||||.|||||||||||||||||||||||||||| 
+asis             267 LSEAQDDPQKRKPDIKKAKLXLGWEPVVPLEEGLNKAIHYFRKELEYQA-    315
+
+asis             401 NQYIPKPKPARIKKGRTRHS    420
+                                         
+asis             315 --------------------    315
+
+
+#---------------------------------------
+#---------------------------------------

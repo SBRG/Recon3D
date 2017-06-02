@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:34:01
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7923.1/7923.1_protein/sequences/Q92506-1_4cqm-L.needle
+#    -asequence asis::MASQLQNRLRSALALVTGAGSGIGRAVSVRLAGEGATVAACDLDRAAAQETVRLLGGPGSKEGPPRGNHAAFQADVSEARAARCLLEQVQACFSRPPSVVVSCAGITQDEFLLHMSEDDWDKVIAVNLKGTFLVTQAAAQALVSNGCRGSIINISSIVGKVGNVGQTNYAASKAGVIGLTQTAARELGRHGIRCNSVLPGFIATPMTQKVPQKVVDKITEMIPMGHLGDPEDVADVVAFLASEDSGYITGTSVEVTGGLFM
+#    -bsequence asis::XXXQLQNRLRSALALVTGAGSGIGRAVSVRLAGEGATVAACDLDRAAAQETVRLLXXXXXXXXXXXXNHAAFQADVSEARAARCLLEQVQACFSRPPSVVVSCAGITQDEFLLHMSEDDWDKVIAVNLKGTFLVTQAAAQALVSNGCRGSIINISSIVGKVGNVGQTNYAASKAGVIGLTQTAARELGRHGIRCNSVLPGFIATPMTQKVPQKVVDKITEMIPMGHLGDPEDVADVVAFLASEDSGYITGTSVEVTGGLFM
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7923.1/7923.1_protein/sequences/Q92506-1_4cqm-L.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 261
+# Identity:     246/261 (94.3%)
+# Similarity:   246/261 (94.3%)
+# Gaps:           0/261 ( 0.0%)
+# Score: 1215.0
+# 
+#
+#=======================================
+
+asis               1 MASQLQNRLRSALALVTGAGSGIGRAVSVRLAGEGATVAACDLDRAAAQE     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXQLQNRLRSALALVTGAGSGIGRAVSVRLAGEGATVAACDLDRAAAQE     50
+
+asis              51 TVRLLGGPGSKEGPPRGNHAAFQADVSEARAARCLLEQVQACFSRPPSVV    100
+                     |||||............|||||||||||||||||||||||||||||||||
+asis              51 TVRLLXXXXXXXXXXXXNHAAFQADVSEARAARCLLEQVQACFSRPPSVV    100
+
+asis             101 VSCAGITQDEFLLHMSEDDWDKVIAVNLKGTFLVTQAAAQALVSNGCRGS    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 VSCAGITQDEFLLHMSEDDWDKVIAVNLKGTFLVTQAAAQALVSNGCRGS    150
+
+asis             151 IINISSIVGKVGNVGQTNYAASKAGVIGLTQTAARELGRHGIRCNSVLPG    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 IINISSIVGKVGNVGQTNYAASKAGVIGLTQTAARELGRHGIRCNSVLPG    200
+
+asis             201 FIATPMTQKVPQKVVDKITEMIPMGHLGDPEDVADVVAFLASEDSGYITG    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 FIATPMTQKVPQKVVDKITEMIPMGHLGDPEDVADVVAFLASEDSGYITG    250
+
+asis             251 TSVEVTGGLFM    261
+                     |||||||||||
+asis             251 TSVEVTGGLFM    261
+
+
+#---------------------------------------
+#---------------------------------------

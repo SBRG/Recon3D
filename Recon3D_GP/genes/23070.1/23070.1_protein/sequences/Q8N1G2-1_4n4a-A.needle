@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:44:36
+# Commandline: needle
+#    -outfile ./Recon3D/genes/23070.1/23070.1_protein/sequences/Q8N1G2-1_4n4a-A.needle
+#    -asequence asis::MKRRTDPECTAPIKKQKKRVAELALSLSSTSDDEPPSSVSHGAKASTTSLSGSDSETEGKQHSSDSFDDAFKADSLVEGTSSRYSMYNSVSQKLMAKMGFREGEGLGKYSQGRKDIVEASSQKGRRGLGLTLRGFDQELNVDWRDEPEPSACEQVSWFPECTTEIPDTQEMSDWMVVGKRKMIIEDETEFCGEELLHSVLQCKSVFDVLDGEEMRRARTRANPYEMIRGVFFLNRAAMKMANMDFVFDRMFTNPRDSYGKPLVKDREAELLYFADVCAGPGGFSEYVLWRKKWHAKGFGMTLKGPNDFKLEDFYSASSELFEPYYGEGGIDGDGDITRPENISAFRNFVLDNTDRKGVHFLMADGGFSVEGQENLQEILSKQLLLCQFLMALSIVRTGGHFICKTFDLFTPFSVGLVYLLYCCFERVCLFKPITSRPANSERYVVCKGLKVGIDDVRDYLFAVNIKLNQLRNTDSDVNLVVPLEVIKGDHEFTDYMIRSNESHCSLQIKALAKIHAFVQDTTLSEPRQAEIRKECLRLWGIPDQARVAPSSSDPKSKFFELIQGTEIDIFSYKPTLLTSKTLEKIRPVFDYRCMVSGSEQKFLIGLGKSQIYTWDGRQSDRWIKLDLKTELPRDTLLSVEIVHELKGEGKAQRKISAIHILDVLVLNGTDVREQHFNQRIQLAEKFVKAVSKPSRPDMNPIRVKEVYRLEEMEKIFVRLEMKIIKGSSGTPKLSYTGRDDRHFVPMGLYIVRTVNEPWTMGFSKSFKKKFFYNKKTKDSTFDLPADSIAPFHICYYGRLFWEWGDGIRVHDSQKPQDQDKLSKEDVLSFIQMHRA
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNVDWRDEPEPSACEQVSWFPECTTEIPDTQEMSDWMVVGKRKMIIEDETEFCGEELLHSVLQCKSVFDVLDGEEMRRARTRANPYEMIRGVFFLNRAAMKMANMDFVFDRMFTNPRDSYGKPLVKDREAELLYFADVCAGPGGFSEYVLWRKKWHAKGFGMTLKGPNDFKLEDFYSASSELFEPYYXXXXXXXXGDITRPENISAFRNFVLDNTDRKGVHFLMADGGFSVEGQENLQEILSKQLLLCQFLMALSIVRTGGHFICKTFDLFTPFSVGLVYLLYCCFERVCLFKPITSRPANSERYVVCKGLKVGIDDVRDYLFAVNIKLNQLRNTDSDVNLVVPLEVIKGDHEFTDYMIRSNESHCSLQIKALAKIHAFVQDTTLSEPRQAEIRKECLRLWGIPDQA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/23070.1/23070.1_protein/sequences/Q8N1G2-1_4n4a-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 974
+# Identity:     398/974 (40.9%)
+# Similarity:   398/974 (40.9%)
+# Gaps:         568/974 (58.3%)
+# Score: 2038.0
+# 
+#
+#=======================================
+
+asis               1 MKRRTDPECTAPIKKQKKRVAELALSLSSTSDDEPPSSVSHGAKASTTSL     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 SGSDSETEGKQHSSDSFDDAFKADSLVEGTSSRYSMYNSVSQKLMAKMGF    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 REGEGLGKYSQGRKDIVEASSQKGRRGLGLTLRGFDQEL-----------    139
+                                                                       
+asis               1 ---------------------------------------XXXXXXXXXXX     11
+
+asis             139 --------------------------------------------------    139
+                                                                       
+asis              12 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     61
+
+asis             139 --------------------------------------------------    139
+                                                                       
+asis              62 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    111
+
+asis             140 ----------------------------NVDWRDEPEPSACEQVSWFPEC    161
+                                                 ||||||||||||||||||||||
+asis             112 XXXXXXXXXXXXXXXXXXXXXXXXXXXXNVDWRDEPEPSACEQVSWFPEC    161
+
+asis             162 TTEIPDTQEMSDWMVVGKRKMIIEDETEFCGEELLHSVLQCKSVFDVLDG    211
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             162 TTEIPDTQEMSDWMVVGKRKMIIEDETEFCGEELLHSVLQCKSVFDVLDG    211
+
+asis             212 EEMRRARTRANPYEMIRGVFFLNRAAMKMANMDFVFDRMFTNPRDSYGKP    261
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             212 EEMRRARTRANPYEMIRGVFFLNRAAMKMANMDFVFDRMFTNPRDSYGKP    261
+
+asis             262 LVKDREAELLYFADVCAGPGGFSEYVLWRKKWHAKGFGMTLKGPNDFKLE    311
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             262 LVKDREAELLYFADVCAGPGGFSEYVLWRKKWHAKGFGMTLKGPNDFKLE    311
+
+asis             312 DFYSASSELFEPYYGEGGIDGDGDITRPENISAFRNFVLDNTDRKGVHFL    361
+                     ||||||||||||||........||||||||||||||||||||||||||||
+asis             312 DFYSASSELFEPYYXXXXXXXXGDITRPENISAFRNFVLDNTDRKGVHFL    361
+
+asis             362 MADGGFSVEGQENLQEILSKQLLLCQFLMALSIVRTGGHFICKTFDLFTP    411
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             362 MADGGFSVEGQENLQEILSKQLLLCQFLMALSIVRTGGHFICKTFDLFTP    411
+
+asis             412 FSVGLVYLLYCCFERVCLFKPITSRPANSERYVVCKGLKVGIDDVRDYLF    461
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             412 FSVGLVYLLYCCFERVCLFKPITSRPANSERYVVCKGLKVGIDDVRDYLF    461
+
+asis             462 AVNIKLNQLRNTDSDVNLVVPLEVIKGDHEFTDYMIRSNESHCSLQIKAL    511
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             462 AVNIKLNQLRNTDSDVNLVVPLEVIKGDHEFTDYMIRSNESHCSLQIKAL    511
+
+asis             512 AKIHAFVQDTTLSEPRQAEIRKECLRLWGIPDQARVAPSSSDPKSKFFEL    561
+                     ||||||||||||||||||||||||||||||||||                
+asis             512 AKIHAFVQDTTLSEPRQAEIRKECLRLWGIPDQA----------------    545
+
+asis             562 IQGTEIDIFSYKPTLLTSKTLEKIRPVFDYRCMVSGSEQKFLIGLGKSQI    611
+                                                                       
+asis             545 --------------------------------------------------    545
+
+asis             612 YTWDGRQSDRWIKLDLKTELPRDTLLSVEIVHELKGEGKAQRKISAIHIL    661
+                                                                       
+asis             545 --------------------------------------------------    545
+
+asis             662 DVLVLNGTDVREQHFNQRIQLAEKFVKAVSKPSRPDMNPIRVKEVYRLEE    711
+                                                                       
+asis             545 --------------------------------------------------    545
+
+asis             712 MEKIFVRLEMKIIKGSSGTPKLSYTGRDDRHFVPMGLYIVRTVNEPWTMG    761
+                                                                       
+asis             545 --------------------------------------------------    545
+
+asis             762 FSKSFKKKFFYNKKTKDSTFDLPADSIAPFHICYYGRLFWEWGDGIRVHD    811
+                                                                       
+asis             545 --------------------------------------------------    545
+
+asis             812 SQKPQDQDKLSKEDVLSFIQMHRA    835
+                                             
+asis             545 ------------------------    545
+
+
+#---------------------------------------
+#---------------------------------------

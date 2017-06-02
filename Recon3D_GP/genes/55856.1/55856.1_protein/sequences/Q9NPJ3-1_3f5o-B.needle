@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:03:58
+# Commandline: needle
+#    -outfile ./Recon3D/genes/55856.1/55856.1_protein/sequences/Q9NPJ3-1_3f5o-B.needle
+#    -asequence asis::MTSMTQSLREVIKAMTKARNFERVLGKITLVSAAPGKVICEMKVEEEHTNAIGTLHGGLTATLVDNISTMALLCTERGAPGVSVDMNITYMSPAKLGEDIVITAHVLKQGKTLAFTSVDLTNKATGKLIAQGRHTKHLGN
+#    -bsequence asis::XXXMTQSLREVIKAMTKARNFERVLGKITLVSAAPGKVICEMKVEEEHTNAIGTLHGGLTATLVDNISTMALLCTERGAPGVSVDMNITYMSPAKLGEDIVITAHVLKQGKTLAFTSVDLTNKATGKLIAQGRHTKHLG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/55856.1/55856.1_protein/sequences/Q9NPJ3-1_3f5o-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 140
+# Identity:     136/140 (97.1%)
+# Similarity:   136/140 (97.1%)
+# Gaps:           1/140 ( 0.7%)
+# Score: 680.0
+# 
+#
+#=======================================
+
+asis               1 MTSMTQSLREVIKAMTKARNFERVLGKITLVSAAPGKVICEMKVEEEHTN     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXMTQSLREVIKAMTKARNFERVLGKITLVSAAPGKVICEMKVEEEHTN     50
+
+asis              51 AIGTLHGGLTATLVDNISTMALLCTERGAPGVSVDMNITYMSPAKLGEDI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 AIGTLHGGLTATLVDNISTMALLCTERGAPGVSVDMNITYMSPAKLGEDI    100
+
+asis             101 VITAHVLKQGKTLAFTSVDLTNKATGKLIAQGRHTKHLGN    140
+                     ||||||||||||||||||||||||||||||||||||||| 
+asis             101 VITAHVLKQGKTLAFTSVDLTNKATGKLIAQGRHTKHLG-    139
+
+
+#---------------------------------------
+#---------------------------------------

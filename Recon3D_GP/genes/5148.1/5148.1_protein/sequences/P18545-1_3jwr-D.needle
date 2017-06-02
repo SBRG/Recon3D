@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:46:20
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5148.1/5148.1_protein/sequences/P18545-1_3jwr-D.needle
+#    -asequence asis::MNLEPPKAEFRSATRVAGGPVTPRKGPPKFKQRQTRQFKSKPPKKGVQGFGDDIPGMEGLGTDITVICPWEAFNHLELHELAQYGII
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEAFNHLELHELAQYGII
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5148.1/5148.1_protein/sequences/P18545-1_3jwr-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 157
+# Identity:      17/157 (10.8%)
+# Similarity:    17/157 (10.8%)
+# Gaps:         140/157 (89.2%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+asis               1 MNLEPPKAEFRSATRVAGGPVTPRKGPPKFKQRQTRQFKSKPPKKGVQGF     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 GDDIPGMEGLGTDITVICPW------------------------------     70
+                                                                       
+asis               1 --------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     30
+
+asis              71 ----------------------------------------EAFNHLELHE     80
+                                                             ||||||||||
+asis              31 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEAFNHLELHE     80
+
+asis              81 LAQYGII     87
+                     |||||||
+asis              81 LAQYGII     87
+
+
+#---------------------------------------
+#---------------------------------------

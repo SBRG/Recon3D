@@ -1,0 +1,98 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:30:40
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5782.1/5782.1_protein/sequences/Q05209-1_5j8r-D.needle
+#    -asequence asis::MEQVEILRKFIQRVQAMKSPDHNGEDNFARDFMRLRRLSTKYRTEKIYPTATGEKEENVKKNRYKDILPFDHSRVKLTLKTPSQDSDYINANFIKGVYGPKAYVATQGPLANTVIDFWRMIWEYNVVIIVMACREFEMGRKKCERYWPLYGEDPITFAPFKISCEDEQARTDYFIRTLLLEFQNESRRLYQFHYVNWPDHDVPSSFDSILDMISLMRKYQEHEDVPICIHCSAGCGRTGAICAIDYTWNLLKAGKIPEEFNVFNLIQEMRTQRHSAVQTKEQYELVHRAIAQLFEKQLQLYEIHGAQKIADGVNEINTENMVSSIEPEKQDSPPPKPPRTRSCLVEGDAKEEILQPPEPHPVPPILTPSPPSAFPTVTTVWQDNDRYHPKPVLHMVSSEQHSADLNRNYSKSTELPGKNESTIEQIDKKLERNLSFEIKKVPLQEGPKSFDGNTLLNRGHAIKIKSASPCIADKISKPQELSSDLNVGDTSQNSCVDCSVTQSNKVSVTPPEESQNSDTPPRPDRLPLDEKGHVTWSFHGPENAIPIPDLSEGNSSDINYQTRKTVSLTPSPTTQVETPDLVDHDNTSPLFRTPLSFTNPLHSDDSDSDERNSDGAVTQNKTNISTASATVSAATSTESISTRKVLPMSIARHNIAGTTHSGAEKDVDVSEDSPPPLPERTPESFVLASEHNTPVRSEWSELQSQERSEQKKSEGLITSENEKCDHPAGGIHYEMCIECPPTFSDKREQISENPTEATDIGFGNRCGKPKGPRDPPSEWT
+#    -bsequence asis::MEQVEILRKFIQRVQAMXXXXXXXXDNFARDFMRLRRLSTKYRTEKIYPTATGEKEENVKRNRYKDILPFDHSRVKLTLXTPSXDSDYINANFIKGVYGPKAYVATQGPLANTVIDFWRMIWEYNVVIIVMACREFEMGRKKCERYWPLYGEDPITFAPFKISCEDEQARTDYFIRTLLLEFQNESRRLYQFHYVNWPDHXXXXXFDSILDMISLMRKYQEHEDVPICIHCSAGCGRTGAICAIDYTWNLLKAGKIPEEFNVFNLIQEMRTQRHSAVQTKEQYELVHRAIAQLFEKQLQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5782.1/5782.1_protein/sequences/Q05209-1_5j8r-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 780
+# Identity:     283/780 (36.3%)
+# Similarity:   284/780 (36.4%)
+# Gaps:         481/780 (61.7%)
+# Score: 1503.0
+# 
+#
+#=======================================
+
+asis               1 MEQVEILRKFIQRVQAMKSPDHNGEDNFARDFMRLRRLSTKYRTEKIYPT     50
+                     |||||||||||||||||........|||||||||||||||||||||||||
+asis               1 MEQVEILRKFIQRVQAMXXXXXXXXDNFARDFMRLRRLSTKYRTEKIYPT     50
+
+asis              51 ATGEKEENVKKNRYKDILPFDHSRVKLTLKTPSQDSDYINANFIKGVYGP    100
+                     ||||||||||:||||||||||||||||||.|||.||||||||||||||||
+asis              51 ATGEKEENVKRNRYKDILPFDHSRVKLTLXTPSXDSDYINANFIKGVYGP    100
+
+asis             101 KAYVATQGPLANTVIDFWRMIWEYNVVIIVMACREFEMGRKKCERYWPLY    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 KAYVATQGPLANTVIDFWRMIWEYNVVIIVMACREFEMGRKKCERYWPLY    150
+
+asis             151 GEDPITFAPFKISCEDEQARTDYFIRTLLLEFQNESRRLYQFHYVNWPDH    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 GEDPITFAPFKISCEDEQARTDYFIRTLLLEFQNESRRLYQFHYVNWPDH    200
+
+asis             201 DVPSSFDSILDMISLMRKYQEHEDVPICIHCSAGCGRTGAICAIDYTWNL    250
+                     .....|||||||||||||||||||||||||||||||||||||||||||||
+asis             201 XXXXXFDSILDMISLMRKYQEHEDVPICIHCSAGCGRTGAICAIDYTWNL    250
+
+asis             251 LKAGKIPEEFNVFNLIQEMRTQRHSAVQTKEQYELVHRAIAQLFEKQLQL    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||| 
+asis             251 LKAGKIPEEFNVFNLIQEMRTQRHSAVQTKEQYELVHRAIAQLFEKQLQ-    299
+
+asis             301 YEIHGAQKIADGVNEINTENMVSSIEPEKQDSPPPKPPRTRSCLVEGDAK    350
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             351 EEILQPPEPHPVPPILTPSPPSAFPTVTTVWQDNDRYHPKPVLHMVSSEQ    400
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             401 HSADLNRNYSKSTELPGKNESTIEQIDKKLERNLSFEIKKVPLQEGPKSF    450
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             451 DGNTLLNRGHAIKIKSASPCIADKISKPQELSSDLNVGDTSQNSCVDCSV    500
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             501 TQSNKVSVTPPEESQNSDTPPRPDRLPLDEKGHVTWSFHGPENAIPIPDL    550
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             551 SEGNSSDINYQTRKTVSLTPSPTTQVETPDLVDHDNTSPLFRTPLSFTNP    600
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             601 LHSDDSDSDERNSDGAVTQNKTNISTASATVSAATSTESISTRKVLPMSI    650
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             651 ARHNIAGTTHSGAEKDVDVSEDSPPPLPERTPESFVLASEHNTPVRSEWS    700
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             701 ELQSQERSEQKKSEGLITSENEKCDHPAGGIHYEMCIECPPTFSDKREQI    750
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             751 SENPTEATDIGFGNRCGKPKGPRDPPSEWT    780
+                                                   
+asis             299 ------------------------------    299
+
+
+#---------------------------------------
+#---------------------------------------

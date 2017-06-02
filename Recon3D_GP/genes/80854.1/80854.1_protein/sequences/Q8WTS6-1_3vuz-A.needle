@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:35:44
+# Commandline: needle
+#    -outfile ./Recon3D/genes/80854.1/80854.1_protein/sequences/Q8WTS6-1_3vuz-A.needle
+#    -asequence asis::MDSDDEMVEEAVEGHLDDDGLPHGFCTVTYSSTDRFEGNFVHGEKNGRGKFFFFDGSTLEGYYVDDALQGQGVYTYEDGGVLQGTYVDGELNGPAQEYDTDGRLIFKGQYKDNIRHGVCWIYYPDGGSLVGEVNEDGEMTGEKIAYVYPDERTALYGKFIDGEMIEGKLATLMSTEEGRPHFELMPGNSVYHFDKSTSSCISTNALLPDPYESERVYVAESLISSAGEGLFSKVAVGPNTVMSFYNGVRITHQEVDSRDWALNGNTLSLDEETVIDVPEPYNHVSKYCASLGHKANHSFTPNCIYDMFVHPRFGPIKCIRTLRAVEADEELTVAYGYDHSPPGKSGPEAPEWYQVELKAFQATQQK
+#    -bsequence asis::GSSGSSGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXHGVCWIYYPDGGSLVGEVNEDGEMTGEKIAYVYPDERTALYGKFIDGEMIEGKLATLMSTEEGRPHFELMPGNSVYHFDKSTSSCISTNALLPDPYESERVYVAESLISSAGEGLFSKVAVGPNTVMSFYNGVRITHQEVDSRDWALNGNTLSLDEETVIDVPEPYNHVSKYCASLGHKANHSFTPNCIYDMFVHPRFGPIKCIRTLRAVEADEELTVAYGYDHXXXXXXXXEAPEWYQVELKAFQA
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/80854.1/80854.1_protein/sequences/Q8WTS6-1_3vuz-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 473
+# Identity:     240/473 (50.7%)
+# Similarity:   241/473 (51.0%)
+# Gaps:         218/473 (46.1%)
+# Score: 1216.0
+# 
+#
+#=======================================
+
+asis               1 MDSDDEMVEEAVEGHLDDDGLPHGFCTVTYSSTDRFEGNFVHGEKNGRGK     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 FFFFDGSTLEGYYVDDALQGQGVYTYEDGGVLQGTYVDGELNGPAQEYDT    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 DGRLIFKGQYKDN-------------------------------------    113
+                            |....:                                     
+asis               1 -------GSSGSSGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     43
+
+asis             113 --------------------------------------------------    113
+                                                                       
+asis              44 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     93
+
+asis             114 --------------------IRHGVCWIYYPDGGSLVGEVNEDGEMTGEK    143
+                                         ..||||||||||||||||||||||||||||
+asis              94 XXXXXXXXXXXXXXXXXXXXXXHGVCWIYYPDGGSLVGEVNEDGEMTGEK    143
+
+asis             144 IAYVYPDERTALYGKFIDGEMIEGKLATLMSTEEGRPHFELMPGNSVYHF    193
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             144 IAYVYPDERTALYGKFIDGEMIEGKLATLMSTEEGRPHFELMPGNSVYHF    193
+
+asis             194 DKSTSSCISTNALLPDPYESERVYVAESLISSAGEGLFSKVAVGPNTVMS    243
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             194 DKSTSSCISTNALLPDPYESERVYVAESLISSAGEGLFSKVAVGPNTVMS    243
+
+asis             244 FYNGVRITHQEVDSRDWALNGNTLSLDEETVIDVPEPYNHVSKYCASLGH    293
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             244 FYNGVRITHQEVDSRDWALNGNTLSLDEETVIDVPEPYNHVSKYCASLGH    293
+
+asis             294 KANHSFTPNCIYDMFVHPRFGPIKCIRTLRAVEADEELTVAYGYDHSPPG    343
+                     ||||||||||||||||||||||||||||||||||||||||||||||....
+asis             294 KANHSFTPNCIYDMFVHPRFGPIKCIRTLRAVEADEELTVAYGYDHXXXX    343
+
+asis             344 KSGPEAPEWYQVELKAFQATQQK    366
+                     ....|||||||||||||||    
+asis             344 XXXXEAPEWYQVELKAFQA----    362
+
+
+#---------------------------------------
+#---------------------------------------

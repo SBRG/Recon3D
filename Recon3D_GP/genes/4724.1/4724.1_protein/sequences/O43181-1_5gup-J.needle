@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:58:53
+# Commandline: needle
+#    -outfile ./Recon3D/genes/4724.1/4724.1_protein/sequences/O43181-1_5gup-J.needle
+#    -asequence asis::MAAVSMSVVLRQTLWRRRAVAVAALSVSRVPTRSLRTSTWRLAQDQTQDTQLITVDEKLDITTLTGVPEEHIKTRKVRIFVPARNNMQSGVNNTKKWKMEFDTRERWENPLMGWASTADPLSNMVLTFSTKEDAVSFAEKNGWSYDIEERKVPKPKSKSYGANFSWNKRTRVSTK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKLDITTLTGVPEEHIKTRKVRIFVPARNNMQSGVNNTKKWKMEFDTRERWENPLMGWSSTADPLSNLVLTFSTKEDAVAFAEKNGWSFDVEERKVPKPKSKSYGANFSW
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/4724.1/4724.1_protein/sequences/O43181-1_5gup-J.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:     104/229 (45.4%)
+# Similarity:   109/229 (47.6%)
+# Gaps:         117/229 (51.1%)
+# Score: 534.5
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               1 ----MAAVSMSVVLRQTLWRRRAVAVAALSVSRVPTRSLRTSTWRLAQDQ     46
+                         ...                                           
+asis              51 XXXXXXX-------------------------------------------     57
+
+asis              47 TQDTQLITVDEKLDITTLTGVPEEHIKTRKVRIFVPARNNMQSGVNNTKK     96
+                                |||||||||||||||||||||||||||||||||||||||
+asis              58 -----------KLDITTLTGVPEEHIKTRKVRIFVPARNNMQSGVNNTKK     96
+
+asis              97 WKMEFDTRERWENPLMGWASTADPLSNMVLTFSTKEDAVSFAEKNGWSYD    146
+                     ||||||||||||||||||:||||||||:|||||||||||:||||||||:|
+asis              97 WKMEFDTRERWENPLMGWSSTADPLSNLVLTFSTKEDAVAFAEKNGWSFD    146
+
+asis             147 IEERKVPKPKSKSYGANFSWNKRTRVSTK    175
+                     :|||||||||||||||||||         
+asis             147 VEERKVPKPKSKSYGANFSW---------    166
+
+
+#---------------------------------------
+#---------------------------------------

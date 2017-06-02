@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:32:15
+# Commandline: needle
+#    -outfile ./Recon3D/genes/7001.2/7001.2_protein/sequences/P32119-2_1qmv-I.needle
+#    -asequence asis::MASGNARIGKPAPDFKATAVVDGAFKEVKLSDYKGKYVVLFFYPLDFTFVCPTEIIAFSNRAEDFRKLGCEVLGVSVDSQFTHLAWYEQGPKREVAAKLTPSGPSSVASWPLLNLWNLRFPIVKIMETLPPKSLRMMTVISI
+#    -bsequence asis::XXSGNARIGKPAPDFKATAVVDGAFKEVKLSDYKGKYVVLFFYPLDFTFVXPTEIIAFSNRAEDFRKLGCEVLGVSVDSQFTHLAWINTPRKEGGLGPLNIPLLADVTRRLSEDYGVLKTDEGIAYRGLFIIDGKGVLRQITVNDLPVGRSVDEALRLVQAFQYTDEHGEVCPAGWKPGSDTIKPNVDDSKEYFSKHN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/7001.2/7001.2_protein/sequences/P32119-2_1qmv-I.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 207
+# Identity:      97/207 (46.9%)
+# Similarity:   108/207 (52.2%)
+# Gaps:          74/207 (35.7%)
+# Score: 433.5
+# 
+#
+#=======================================
+
+asis               1 MASGNARIGKPAPDFKATAVVDGAFKEVKLSDYKGKYVVLFFYPLDFTFV     50
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXSGNARIGKPAPDFKATAVVDGAFKEVKLSDYKGKYVVLFFYPLDFTFV     50
+
+asis              51 CPTEIIAFSNRAEDFRKLGCEVLGVSVDSQFTHLAWYEQGPKREVAAKLT    100
+                     .|||||||||||||||||||||||||||||||||||... |::|...   
+asis              51 XPTEIIAFSNRAEDFRKLGCEVLGVSVDSQFTHLAWINT-PRKEGGL---     96
+
+asis             101 PSGPSSVASWPLLNLWNLR----FPIVKIMETLPPKS---------LRMM    137
+                       ||.::   |||.....|    :.::|..|.:..:.         ||.:
+asis              97 --GPLNI---PLLADVTRRLSEDYGVLKTDEGIAYRGLFIIDGKGVLRQI    141
+
+asis             138 TVISI---------------------------------------------    142
+                     ||..:                                             
+asis             142 TVNDLPVGRSVDEALRLVQAFQYTDEHGEVCPAGWKPGSDTIKPNVDDSK    191
+
+asis             142 -------    142
+                            
+asis             192 EYFSKHN    198
+
+
+#---------------------------------------
+#---------------------------------------

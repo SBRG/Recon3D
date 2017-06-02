@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 11:56:53
+# Commandline: needle
+#    -outfile ./Recon3D/genes/8801.1/8801.1_protein/sequences/Q96I99-1_5cae-B.needle
+#    -asequence asis::MASPVAAQAGKLLRALALRPRFLAAGSQAVQLTSRRWLNLQEYQSKKLMSDNGVRVQRFFVADTANEALEAAKRLNAKEIVLKAQILAGGRGKGVFNSGLKGGVHLTKDPNVVGQLAKQMIGYNLATKQTPKEGVKVNKVMVAEALDISRETYLAILMDRSCNGPVLVGSPQGGVDIEEVAASNPELIFKEQIDIFEGIKDSQAQRMAENLGFVGPLKSQAADQITKLYNLFLKIDATQVEVNPFGETPEGQVVCFDAKINFDDNAEFRQKDIFAMDDKSENEPIENEAAKYDLKYIGLDGNIACFVNGAGLAMATCDIIFLNGGKPANFLDLGGGVKEAQVYQAFKLLTADPKVEAILVNIFGGIVNCAIIANGITKACRELELKVPLVVRLEGTNVQEAQKILNNSGLPITSAIDLEDAAKKAVASVAKK
+#    -bsequence asis::MNLQEYQSKKLMSDNGVKVQRFFVADTANEALEAAKRLNAKEIVLKAQILAGGRGKGVFSSGLKGGVHLTKDPEVVGQLAKQMIGYNLATKQTPKEGVKVNKVMVAEALDISRETYLAILMDRSXNGPVLVGSPQGGVDIEEVAASNPELIFKEQIDIIEGIKDSQAQRMAENLGFLGPLQNQAADQIKKLYNLFLKIDATQVEVNPFGETPEGQVVCFDAKINFDDNAEFRQKDIFAMDDKSENEPIENEAAKYDLKYIGLDGNIACFVNGAGLAMATCDIIFLNGGKPANFLDLGGGVKESQVYQAFKLLTADPKVEAILVNIFGGIVNCAIIANGITKACRELELKVPLVVRLEGTNVHEAQNILTNSGLPITSAVDLEDAAKKAVASVT
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/8801.1/8801.1_protein/sequences/Q96I99-1_5cae-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 432
+# Identity:     377/432 (87.3%)
+# Similarity:   385/432 (89.1%)
+# Gaps:          39/432 ( 9.0%)
+# Score: 1905.0
+# 
+#
+#=======================================
+
+asis               1 MASPVAAQAGKLLRALALRPRFLAAGSQAVQLTSRRWLNLQEYQSKKLMS     50
+                                                          :||||||||||||
+asis               1 -------------------------------------MNLQEYQSKKLMS     13
+
+asis              51 DNGVRVQRFFVADTANEALEAAKRLNAKEIVLKAQILAGGRGKGVFNSGL    100
+                     ||||:|||||||||||||||||||||||||||||||||||||||||:|||
+asis              14 DNGVKVQRFFVADTANEALEAAKRLNAKEIVLKAQILAGGRGKGVFSSGL     63
+
+asis             101 KGGVHLTKDPNVVGQLAKQMIGYNLATKQTPKEGVKVNKVMVAEALDISR    150
+                     ||||||||||.|||||||||||||||||||||||||||||||||||||||
+asis              64 KGGVHLTKDPEVVGQLAKQMIGYNLATKQTPKEGVKVNKVMVAEALDISR    113
+
+asis             151 ETYLAILMDRSCNGPVLVGSPQGGVDIEEVAASNPELIFKEQIDIFEGIK    200
+                     |||||||||||.|||||||||||||||||||||||||||||||||.||||
+asis             114 ETYLAILMDRSXNGPVLVGSPQGGVDIEEVAASNPELIFKEQIDIIEGIK    163
+
+asis             201 DSQAQRMAENLGFVGPLKSQAADQITKLYNLFLKIDATQVEVNPFGETPE    250
+                     |||||||||||||:|||::||||||.||||||||||||||||||||||||
+asis             164 DSQAQRMAENLGFLGPLQNQAADQIKKLYNLFLKIDATQVEVNPFGETPE    213
+
+asis             251 GQVVCFDAKINFDDNAEFRQKDIFAMDDKSENEPIENEAAKYDLKYIGLD    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             214 GQVVCFDAKINFDDNAEFRQKDIFAMDDKSENEPIENEAAKYDLKYIGLD    263
+
+asis             301 GNIACFVNGAGLAMATCDIIFLNGGKPANFLDLGGGVKEAQVYQAFKLLT    350
+                     |||||||||||||||||||||||||||||||||||||||:||||||||||
+asis             264 GNIACFVNGAGLAMATCDIIFLNGGKPANFLDLGGGVKESQVYQAFKLLT    313
+
+asis             351 ADPKVEAILVNIFGGIVNCAIIANGITKACRELELKVPLVVRLEGTNVQE    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+asis             314 ADPKVEAILVNIFGGIVNCAIIANGITKACRELELKVPLVVRLEGTNVHE    363
+
+asis             401 AQKILNNSGLPITSAIDLEDAAKKAVASVAKK    432
+                     ||.||.|||||||||:|||||||||||||.  
+asis             364 AQNILTNSGLPITSAVDLEDAAKKAVASVT--    393
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:41:24
+# Commandline: needle
+#    -outfile ./Recon3D/genes/27338.1/27338.1_protein/sequences/Q16763-1_5l9t-T.needle
+#    -asequence asis::MNSNVENLPPHIIRLVYKEVTTLTADPPDGIKVFPNEEDLTDLQVTIEGPEGTPYAGGLFRMKLLLGKDFPASPPKGYFLTKIFHPNVGANGEICVNVLKRDWTAELGIRHVLLTIKCLLIHPNPESALNEEAGRLLLENYEEYAARARLLTEIHGGAGGPSGRAEAGRALASGTEASSTDPGAPGGPGGAEGPMAKKHAGERDKKLAAKKKTDKKRALRRL
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXTIEGPEGTPYAGGLFRMKLLXXXXXXXXPPKGYFLTKIFHPNVGANGEICVNVLKRDXXXXXXIRHVLLTIKFLLIHPNPESALNEEAGRLLLENYEEYAARARLLTEIHG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/27338.1/27338.1_protein/sequences/Q16763-1_5l9t-T.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 267
+# Identity:      96/267 (36.0%)
+# Similarity:    96/267 (36.0%)
+# Gaps:         156/267 (58.4%)
+# Score: 457.0
+# 
+#
+#=======================================
+
+asis               1 MNSNVENLPPHIIRLVYKEVTTLTADPPDGIKVFPNEEDLTDLQV-----     45
+                                                                       
+asis               1 ---------------------------------------------XXXXX      5
+
+asis              46 ----------------------------------------TIEGPEGTPY     55
+                                                             ||||||||||
+asis               6 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXTIEGPEGTPY     55
+
+asis              56 AGGLFRMKLLLGKDFPASPPKGYFLTKIFHPNVGANGEICVNVLKRDWTA    105
+                     ||||||||||........|||||||||||||||||||||||||||||...
+asis              56 AGGLFRMKLLXXXXXXXXPPKGYFLTKIFHPNVGANGEICVNVLKRDXXX    105
+
+asis             106 ELGIRHVLLTIKCLLIHPNPESALNEEAGRLLLENYEEYAARARLLTEIH    155
+                     ...|||||||||.|||||||||||||||||||||||||||||||||||||
+asis             106 XXXIRHVLLTIKFLLIHPNPESALNEEAGRLLLENYEEYAARARLLTEIH    155
+
+asis             156 GGAGGPSGRAEAGRALASGTEASSTDPGAPGGPGGAEGPMAKKHAGERDK    205
+                     |                                                 
+asis             156 G-------------------------------------------------    156
+
+asis             206 KLAAKKKTDKKRALRRL    222
+                                      
+asis             156 -----------------    156
+
+
+#---------------------------------------
+#---------------------------------------

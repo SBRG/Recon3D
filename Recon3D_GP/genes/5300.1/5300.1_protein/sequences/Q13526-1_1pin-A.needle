@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:42:39
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5300.1/5300.1_protein/sequences/Q13526-1_1pin-A.needle
+#    -asequence asis::MADEEKLPPGWEKRMSRSSGRVYYFNHITNASQWERPSGNSSSGGKNGQGEPARVRCSHLLVKHSQSRRPSSWRQEKITRTKEEALELINGYIQKIKSGEEDFESLASQFSDCSSAKARGDLGAFSRGQMQKPFEDASFALRTGEMSGPVFTDSGIHIILRTE
+#    -bsequence asis::XXXXXKLPPGWEKRMSRSSGRVYYFNHITNASQWERPSGXXXXXGKNGQGEPARVRCSHLLVKHSQSRRPSSWRQEKITRTKEEALELINGYIQKIKSGEEDFESLASQFSDCSSAKARGDLGAFSRGQMQKPFEDASFALRTGEMSGPVFTDSGIHIILRTEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5300.1/5300.1_protein/sequences/Q13526-1_1pin-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 202
+# Identity:     153/202 (75.7%)
+# Similarity:   153/202 (75.7%)
+# Gaps:          39/202 (19.3%)
+# Score: 797.0
+# 
+#
+#=======================================
+
+asis               1 MADEEKLPPGWEKRMSRSSGRVYYFNHITNASQWERPSGNSSSGGKNGQG     50
+                     .....||||||||||||||||||||||||||||||||||.....||||||
+asis               1 XXXXXKLPPGWEKRMSRSSGRVYYFNHITNASQWERPSGXXXXXGKNGQG     50
+
+asis              51 EPARVRCSHLLVKHSQSRRPSSWRQEKITRTKEEALELINGYIQKIKSGE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 EPARVRCSHLLVKHSQSRRPSSWRQEKITRTKEEALELINGYIQKIKSGE    100
+
+asis             101 EDFESLASQFSDCSSAKARGDLGAFSRGQMQKPFEDASFALRTGEMSGPV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 EDFESLASQFSDCSSAKARGDLGAFSRGQMQKPFEDASFALRTGEMSGPV    150
+
+asis             151 FTDSGIHIILRTE-------------------------------------    163
+                     |||||||||||||                                     
+asis             151 FTDSGIHIILRTEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    200
+
+asis             163 --    163
+                       
+asis             201 AP    202
+
+
+#---------------------------------------
+#---------------------------------------

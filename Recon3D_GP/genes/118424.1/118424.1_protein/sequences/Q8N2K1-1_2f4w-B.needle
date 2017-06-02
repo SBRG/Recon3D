@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:37:34
+# Commandline: needle
+#    -outfile ./Recon3D/genes/118424.1/118424.1_protein/sequences/Q8N2K1-1_2f4w-B.needle
+#    -asequence asis::MSSTSSKRAPTTATQRLKQDYLRIKKDPVPYICAEPLPSNILEWHYVVRGPEMTPYEGGYYHGKLIFPREFPFKPPSIYMITPNGRFKCNTRLCLSITDFHPDTWNPAWSVSTILTGLLSFMVEKGPTLGSIETSDFTKRQLAVQSLAFNLKDKVFCELFPEVVEEIKQKQKAQDELSSRPQTLPLPDVVPDGETHLVQNGIQLLNGHAPGAVPNLAGLQQANRHHGLLGGALANLFVIVGFAAFAYTVKYVLRSIAQE
+#    -bsequence asis::XXXXXXXXXXTTATQRLKQDYLRIKKDPVPYICAEPLPSNILEWHYVVRGPEMTPYEGGYYHGKLIFPREFPFKPPSIYMITPNGRFKCNTRLCLXXXXXXXXXWNPAWSVSTILTGLLSFMVEKGPTLGSIETSDFTKRQLAVQSLAFNLKDKVFCELFPEVVEEIKQKQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/118424.1/118424.1_protein/sequences/Q8N2K1-1_2f4w-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 259
+# Identity:     152/259 (58.7%)
+# Similarity:   152/259 (58.7%)
+# Gaps:          88/259 (34.0%)
+# Score: 810.0
+# 
+#
+#=======================================
+
+asis               1 MSSTSSKRAPTTATQRLKQDYLRIKKDPVPYICAEPLPSNILEWHYVVRG     50
+                     ..........||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXXXXTTATQRLKQDYLRIKKDPVPYICAEPLPSNILEWHYVVRG     50
+
+asis              51 PEMTPYEGGYYHGKLIFPREFPFKPPSIYMITPNGRFKCNTRLCLSITDF    100
+                     |||||||||||||||||||||||||||||||||||||||||||||.....
+asis              51 PEMTPYEGGYYHGKLIFPREFPFKPPSIYMITPNGRFKCNTRLCLXXXXX    100
+
+asis             101 HPDTWNPAWSVSTILTGLLSFMVEKGPTLGSIETSDFTKRQLAVQSLAFN    150
+                     ....||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 XXXXWNPAWSVSTILTGLLSFMVEKGPTLGSIETSDFTKRQLAVQSLAFN    150
+
+asis             151 LKDKVFCELFPEVVEEIKQKQKAQDELSSRPQTLPLPDVVPDGETHLVQN    200
+                     |||||||||||||||||||||                             
+asis             151 LKDKVFCELFPEVVEEIKQKQ-----------------------------    171
+
+asis             201 GIQLLNGHAPGAVPNLAGLQQANRHHGLLGGALANLFVIVGFAAFAYTVK    250
+                                                                       
+asis             171 --------------------------------------------------    171
+
+asis             251 YVLRSIAQE    259
+                              
+asis             171 ---------    171
+
+
+#---------------------------------------
+#---------------------------------------

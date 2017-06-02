@@ -1,0 +1,82 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:28:39
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5781.1/5781.1_protein/sequences/Q06124-1_5df6-A.needle
+#    -asequence asis::MTSRRWFHPNITGVEAENLLLTRGVDGSFLARPSKSNPGDFTLSVRRNGAVTHIKIQNTGDYYDLYGGEKFATLAELVQYYMEHHGQLKEKNGDVIELKYPLNCADPTSERWFHGHLSGKEAEKLLTEKGKHGSFLVRESQSHPGDFVLSVRTGDDKGESNDGKSKVTHVMIRCQELKYDVGGGERFDSLTDLVEHYKKNPMVETLGTVLQLKQPLNTTRINAAEIESRVRELSKLAETTDKVKQGFWEEFETLQQQECKLLYSRKEGQRQENKNKNRYKNILPFDHTRVVLHDGDPNEPVSDYINANIIMPEFETKCNNSKPKKSYIATQGCLQNTVNDFWRMVFQENSRVIVMTTKEVERGKSKCVKYWPDEYALKEYGVMRVRNVKESAAHDYTLRELKLSKVGQALLQGNTERTVWQYHFRTWPDHGVPSDPGGVLDFLEEVHHKQESIMDAGPVVVHCSAGIGRTGTFIVIDILIDIIREKGVDCDIDVPKTIQMVRSQRSGMVQTEAQYRFIYMAVQHYIETLQRRIEEEQKSKRKGHEYTNIKYSLADQTSGDQSPLPPCTPTPPCAEMREDSARVYENVGLMQQQKSFR
+#    -bsequence asis::XXXRRWFHPNITGVEAENLLLTRGVDGSFLARPSKSNPGDFTLSVRRNGAVTHIKIQNTGDYYDLYGGEKFATLAELVQYYMEHHGQLKEKNGDVIELKYPLNCADPTSERWFHGHLSGKEAEKLLTEKGKHGSFLVRESQSHPGDFVLSVRTGDDKGESXXXKSKVTHVMIRCQXXKYDVGGGERFDSLTDLVEHYKKNPMVETLGTVLQLKQPLNTTR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5781.1/5781.1_protein/sequences/Q06124-1_5df6-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 597
+# Identity:     212/597 (35.5%)
+# Similarity:   212/597 (35.5%)
+# Gaps:         377/597 (63.1%)
+# Score: 1124.0
+# 
+#
+#=======================================
+
+asis               1 MTSRRWFHPNITGVEAENLLLTRGVDGSFLARPSKSNPGDFTLSVRRNGA     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXRRWFHPNITGVEAENLLLTRGVDGSFLARPSKSNPGDFTLSVRRNGA     50
+
+asis              51 VTHIKIQNTGDYYDLYGGEKFATLAELVQYYMEHHGQLKEKNGDVIELKY    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 VTHIKIQNTGDYYDLYGGEKFATLAELVQYYMEHHGQLKEKNGDVIELKY    100
+
+asis             101 PLNCADPTSERWFHGHLSGKEAEKLLTEKGKHGSFLVRESQSHPGDFVLS    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 PLNCADPTSERWFHGHLSGKEAEKLLTEKGKHGSFLVRESQSHPGDFVLS    150
+
+asis             151 VRTGDDKGESNDGKSKVTHVMIRCQELKYDVGGGERFDSLTDLVEHYKKN    200
+                     ||||||||||...||||||||||||..|||||||||||||||||||||||
+asis             151 VRTGDDKGESXXXKSKVTHVMIRCQXXKYDVGGGERFDSLTDLVEHYKKN    200
+
+asis             201 PMVETLGTVLQLKQPLNTTRINAAEIESRVRELSKLAETTDKVKQGFWEE    250
+                     ||||||||||||||||||||                              
+asis             201 PMVETLGTVLQLKQPLNTTR------------------------------    220
+
+asis             251 FETLQQQECKLLYSRKEGQRQENKNKNRYKNILPFDHTRVVLHDGDPNEP    300
+                                                                       
+asis             220 --------------------------------------------------    220
+
+asis             301 VSDYINANIIMPEFETKCNNSKPKKSYIATQGCLQNTVNDFWRMVFQENS    350
+                                                                       
+asis             220 --------------------------------------------------    220
+
+asis             351 RVIVMTTKEVERGKSKCVKYWPDEYALKEYGVMRVRNVKESAAHDYTLRE    400
+                                                                       
+asis             220 --------------------------------------------------    220
+
+asis             401 LKLSKVGQALLQGNTERTVWQYHFRTWPDHGVPSDPGGVLDFLEEVHHKQ    450
+                                                                       
+asis             220 --------------------------------------------------    220
+
+asis             451 ESIMDAGPVVVHCSAGIGRTGTFIVIDILIDIIREKGVDCDIDVPKTIQM    500
+                                                                       
+asis             220 --------------------------------------------------    220
+
+asis             501 VRSQRSGMVQTEAQYRFIYMAVQHYIETLQRRIEEEQKSKRKGHEYTNIK    550
+                                                                       
+asis             220 --------------------------------------------------    220
+
+asis             551 YSLADQTSGDQSPLPPCTPTPPCAEMREDSARVYENVGLMQQQKSFR    597
+                                                                    
+asis             220 -----------------------------------------------    220
+
+
+#---------------------------------------
+#---------------------------------------

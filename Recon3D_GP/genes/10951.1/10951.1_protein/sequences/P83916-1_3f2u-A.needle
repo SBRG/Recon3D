@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:10:49
+# Commandline: needle
+#    -outfile ./Recon3D/genes/10951.1/10951.1_protein/sequences/P83916-1_3f2u-A.needle
+#    -asequence asis::MGKKQNKKKVEEVLEEEEEEYVVEKVLDRRVVKGKVEYLLKWKGFSDEDNTWEPEENLDCPDLIAEFLQSQKTAHETDKSEGGKRKADSDSEDKGEESKPKKKKEESEKPRGFARGLEPERIIGATDSSGELMFLMKWKNSDEADLVPAKEANVKCPQVVISFYEERLTWHSYPSEDDDKKDDKN
+#    -bsequence asis::GEYVVEKVLDRRVVKGKVEYLLKWKGFSDEDNTWEPEENLDCPDLIAEFLQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/10951.1/10951.1_protein/sequences/P83916-1_3f2u-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:      50/185 (27.0%)
+# Similarity:    50/185 (27.0%)
+# Gaps:         134/185 (72.4%)
+# Score: 268.0
+# 
+#
+#=======================================
+
+asis               1 MGKKQNKKKVEEVLEEEEEEYVVEKVLDRRVVKGKVEYLLKWKGFSDEDN     50
+                                       .|||||||||||||||||||||||||||||||
+asis               1 ------------------GEYVVEKVLDRRVVKGKVEYLLKWKGFSDEDN     32
+
+asis              51 TWEPEENLDCPDLIAEFLQSQKTAHETDKSEGGKRKADSDSEDKGEESKP    100
+                     |||||||||||||||||||                               
+asis              33 TWEPEENLDCPDLIAEFLQ-------------------------------     51
+
+asis             101 KKKKEESEKPRGFARGLEPERIIGATDSSGELMFLMKWKNSDEADLVPAK    150
+                                                                       
+asis              51 --------------------------------------------------     51
+
+asis             151 EANVKCPQVVISFYEERLTWHSYPSEDDDKKDDKN    185
+                                                        
+asis              51 -----------------------------------     51
+
+
+#---------------------------------------
+#---------------------------------------

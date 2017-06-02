@@ -1,0 +1,78 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:04:18
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5660.1/5660.1_protein/sequences/P07602-1_1n69-C.needle
+#    -asequence asis::MYALFLLASLLGAALAGPVLGLKECTRGSAVWCQNVKTASDCGAVKHCLQTVWNKPTVKSLPCDICKDVVTAAGDMLKDNATEEEILVYLEKTCDWLPKPNMSASCKEIVDSYLPVILDIIKGEMSRPGEVCSALNLCESLQKHLAELNHQKQLESNKIPELDMTEVVAPFMANIPLLLYPQDGPRSKPQPKDNGDVCQDCIQMVTDIQTAVRTNSTFVQALVEHVKEECDRLGPGMADICKNYISQYSEIAIQMMMHMQPKEICALVGFCDEVKEMPMQTLVPAKVASKNVIPALELVEPIKKHEVPAKSDVYCEVCEFLVKEVTKLIDNNKTEKEILDAFDKMCSKLPKSLSEECQEVVDTYGSSILSILLEEVSPELVCSMLHLCSGTRLPALTVHVTQPKDGGFCEVCKKLVGYLDRNLEKNSTKQEILAALEKGCSFLPDPYQKQCDQFVAEYEPVLIEILVEVMDPSFVCLKIGACPSAHKPLLGTEKCIWGPSYWCQNTETAAQCNAVEHCKRHVWN
+#    -bsequence asis::GDVCQDCIQMVTDIQTAVRTNSTFVQALVEHVKEECDRLGPGMADICKNYISQYSEIAIQMMMHMQPKEICALVGFCD
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5660.1/5660.1_protein/sequences/P07602-1_1n69-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 524
+# Identity:      78/524 (14.9%)
+# Similarity:    78/524 (14.9%)
+# Gaps:         446/524 (85.1%)
+# Score: 417.0
+# 
+#
+#=======================================
+
+asis               1 MYALFLLASLLGAALAGPVLGLKECTRGSAVWCQNVKTASDCGAVKHCLQ     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 TVWNKPTVKSLPCDICKDVVTAAGDMLKDNATEEEILVYLEKTCDWLPKP    100
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             101 NMSASCKEIVDSYLPVILDIIKGEMSRPGEVCSALNLCESLQKHLAELNH    150
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis             151 QKQLESNKIPELDMTEVVAPFMANIPLLLYPQDGPRSKPQPKDNGDVCQD    200
+                                                                 ||||||
+asis               1 --------------------------------------------GDVCQD      6
+
+asis             201 CIQMVTDIQTAVRTNSTFVQALVEHVKEECDRLGPGMADICKNYISQYSE    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis               7 CIQMVTDIQTAVRTNSTFVQALVEHVKEECDRLGPGMADICKNYISQYSE     56
+
+asis             251 IAIQMMMHMQPKEICALVGFCDEVKEMPMQTLVPAKVASKNVIPALELVE    300
+                     ||||||||||||||||||||||                            
+asis              57 IAIQMMMHMQPKEICALVGFCD----------------------------     78
+
+asis             301 PIKKHEVPAKSDVYCEVCEFLVKEVTKLIDNNKTEKEILDAFDKMCSKLP    350
+                                                                       
+asis              78 --------------------------------------------------     78
+
+asis             351 KSLSEECQEVVDTYGSSILSILLEEVSPELVCSMLHLCSGTRLPALTVHV    400
+                                                                       
+asis              78 --------------------------------------------------     78
+
+asis             401 TQPKDGGFCEVCKKLVGYLDRNLEKNSTKQEILAALEKGCSFLPDPYQKQ    450
+                                                                       
+asis              78 --------------------------------------------------     78
+
+asis             451 CDQFVAEYEPVLIEILVEVMDPSFVCLKIGACPSAHKPLLGTEKCIWGPS    500
+                                                                       
+asis              78 --------------------------------------------------     78
+
+asis             501 YWCQNTETAAQCNAVEHCKRHVWN    524
+                                             
+asis              78 ------------------------     78
+
+
+#---------------------------------------
+#---------------------------------------

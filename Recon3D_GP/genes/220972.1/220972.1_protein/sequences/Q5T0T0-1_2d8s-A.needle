@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:39:42
+# Commandline: needle
+#    -outfile ./Recon3D/genes/220972.1/220972.1_protein/sequences/Q5T0T0-1_2d8s-A.needle
+#    -asequence asis::MSMPLHQISAIPSQDAISARVYRSKTKEKEREEQNEKTLGHFMSHSSNISKAGSPPSASAPAPVSSFSRTSITPSSQDICRICHCEGDDESPLITPCHCTGSLHFVHQACLQQWIKSSDTRCCELCKYEFIMETKLKPLRKWEKLQMTSSERRKIMCSVTFHVIAITCVVWSLYVLIDRTAEEIKQGQATGILEWPFWTKLVVVAIGFTGGLLFMYVQCKVYVQLWKRLKAYNRVIYVQNCPETSKKNIFEKSPLTEPNFENKHGYGICHSDTNSSCCTEPEDTGAEIIHV
+#    -bsequence asis::GSSGSSGTSITPSSQDICRICHCEGDDESPLITPCHCTGSLHFVHQACLQQWIKSSDTRCCELCKYEFIMETKLSGPSSG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/220972.1/220972.1_protein/sequences/Q5T0T0-1_2d8s-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 292
+# Identity:      70/292 (24.0%)
+# Similarity:    70/292 (24.0%)
+# Gaps:         213/292 (72.9%)
+# Score: 377.0
+# 
+#
+#=======================================
+
+asis               1 MSMPLHQISAIPSQDAISARVYRSKTKEKEREEQNEKTLGHFMSHSSNIS     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 KAGSPPSASAPAPVSSFSRTSITPSSQDICRICHCEGDDESPLITPCHCT    100
+                                 ..|..|.|||||||||||||||||||||||||||||||
+asis               1 ------------GSSGSSGTSITPSSQDICRICHCEGDDESPLITPCHCT     38
+
+asis             101 GSLHFVHQACLQQWIKSSDTRCCELCKYEFIMETKLK-PLRKWEKLQMTS    149
+                     ||||||||||||||||||||||||||||||||||||. |...        
+asis              39 GSLHFVHQACLQQWIKSSDTRCCELCKYEFIMETKLSGPSSG--------     80
+
+asis             150 SERRKIMCSVTFHVIAITCVVWSLYVLIDRTAEEIKQGQATGILEWPFWT    199
+                                                                       
+asis              80 --------------------------------------------------     80
+
+asis             200 KLVVVAIGFTGGLLFMYVQCKVYVQLWKRLKAYNRVIYVQNCPETSKKNI    249
+                                                                       
+asis              80 --------------------------------------------------     80
+
+asis             250 FEKSPLTEPNFENKHGYGICHSDTNSSCCTEPEDTGAEIIHV    291
+                                                               
+asis              80 ------------------------------------------     80
+
+
+#---------------------------------------
+#---------------------------------------

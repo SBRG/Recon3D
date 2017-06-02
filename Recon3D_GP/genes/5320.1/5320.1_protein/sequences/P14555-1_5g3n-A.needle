@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:51:16
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5320.1/5320.1_protein/sequences/P14555-1_5g3n-A.needle
+#    -asequence asis::MKTLLLLAVIMIFGLLQAHGNLVNFHRMIKLTTGKEAALSYGFYGCHCGVGGRGSPKDATDRCCVTHDCCYKRLEKRGCGTKFLSYKFSNSGSRITCAKQDSCRSQLCECDKAAATCFARNKTTYNKKYQYYSNKHCRGSTPRC
+#    -bsequence asis::ALVNFHRMIKLTTGKEAALSYGFYGCHCGVGGRGSPKDATDRCCVTHDCCYKRLEKRGCGTKFLSYKFSNSGSRISCAKQDSCRSQLCECDKAAATCFARNKTTYNKKYQYYSNKHCRGSTPRCGHH
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5320.1/5320.1_protein/sequences/P14555-1_5g3n-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 147
+# Identity:     122/147 (83.0%)
+# Similarity:   123/147 (83.7%)
+# Gaps:          23/147 (15.6%)
+# Score: 694.0
+# 
+#
+#=======================================
+
+asis               1 MKTLLLLAVIMIFGLLQAHGNLVNFHRMIKLTTGKEAALSYGFYGCHCGV     50
+                                         .|||||||||||||||||||||||||||||
+asis               1 --------------------ALVNFHRMIKLTTGKEAALSYGFYGCHCGV     30
+
+asis              51 GGRGSPKDATDRCCVTHDCCYKRLEKRGCGTKFLSYKFSNSGSRITCAKQ    100
+                     |||||||||||||||||||||||||||||||||||||||||||||:||||
+asis              31 GGRGSPKDATDRCCVTHDCCYKRLEKRGCGTKFLSYKFSNSGSRISCAKQ     80
+
+asis             101 DSCRSQLCECDKAAATCFARNKTTYNKKYQYYSNKHCRGSTPRC---    144
+                     ||||||||||||||||||||||||||||||||||||||||||||   
+asis              81 DSCRSQLCECDKAAATCFARNKTTYNKKYQYYSNKHCRGSTPRCGHH    127
+
+
+#---------------------------------------
+#---------------------------------------

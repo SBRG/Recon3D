@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 29 May 2017 19:27:50
+# Commandline: needle
+#    -outfile ./Recon3D/genes/78986.1/78986.1_protein/sequences/Q9BV47-1_5gtj-B.needle
+#    -asequence asis::MCPGNWLWASMTFMARFSRSSSRSPVRTRGTLEEMPTVQHPFLNVFELERLLYTGKTACNHADEVWPGLYLGDQDMANNRRELRRLGITHVLNASHSRWRGTPEAYEGLGIRYLGVEAHDSPAFDMSIHFQTAADFIHRALSQPGGKILVHCAVGVSRSATLVLAYLMLYHHLTLVEAIKKVKDHRGIIPNRGFLRQLLALDRRLRQGLEA
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXPFLNVFELERLLYTGKTACNHADEVWPGLYLGDQDMANNRRELRRLGITHVLNASHSRWRGTPEAYEGLGIRYLGVEAHDSPAFDMSIHFQTAADFIHRALSQPGGKILVHSAVGVSRSATLVLAYLMLYHHLTLVEAIKKVKDHRGIIPNRGFLRQLLALDRRLRQG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/78986.1/78986.1_protein/sequences/Q9BV47-1_5gtj-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:     167/251 (66.5%)
+# Similarity:   167/251 (66.5%)
+# Gaps:          83/251 (33.1%)
+# Score: 844.5
+# 
+#
+#=======================================
+
+asis               1 MCPGNWLWASMTFMARFSRSSSRSPVRTRGTLEEMPTVQH----------     40
+                                                                       
+asis               1 ----------------------------------------XXXXXXXXXX     10
+
+asis              41 ------------------------------PFLNVFELERLLYTGKTACN     60
+                                                   ||||||||||||||||||||
+asis              11 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXPFLNVFELERLLYTGKTACN     60
+
+asis              61 HADEVWPGLYLGDQDMANNRRELRRLGITHVLNASHSRWRGTPEAYEGLG    110
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              61 HADEVWPGLYLGDQDMANNRRELRRLGITHVLNASHSRWRGTPEAYEGLG    110
+
+asis             111 IRYLGVEAHDSPAFDMSIHFQTAADFIHRALSQPGGKILVHCAVGVSRSA    160
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+asis             111 IRYLGVEAHDSPAFDMSIHFQTAADFIHRALSQPGGKILVHSAVGVSRSA    160
+
+asis             161 TLVLAYLMLYHHLTLVEAIKKVKDHRGIIPNRGFLRQLLALDRRLRQGLE    210
+                     ||||||||||||||||||||||||||||||||||||||||||||||||  
+asis             161 TLVLAYLMLYHHLTLVEAIKKVKDHRGIIPNRGFLRQLLALDRRLRQG--    208
+
+asis             211 A    211
+                      
+asis             208 -    208
+
+
+#---------------------------------------
+#---------------------------------------

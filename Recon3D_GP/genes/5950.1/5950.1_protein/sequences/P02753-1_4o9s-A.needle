@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 14:00:24
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5950.1/5950.1_protein/sequences/P02753-1_4o9s-A.needle
+#    -asequence asis::MKWVWALLLLAALGSGRAERDCRVSSFRVKENFDKARFSGTWYAMAKKDPEGLFLQDNIVAEFSVDETGQMSATAKGRVRLLNNWDVCADMVGTFTDTEDPAKFKMKYWGVASFLQKGNDDHWIVDTDYDTYAVQYSCRLLNLDGTCADSYSFVFSRDPNGLPPEAQKIVRQRQEELCLARQYRLIVHNGYCDGRSERNLL
+#    -bsequence asis::ERDCRVSSFRVKENFDKARFSGTWYAMAKKDPEGLFLQDNIVAEFSVDETGQMSATAKGRVRLLNNWDVCADMVGTFTDTEDPAKFKMKYWGVASFLQKGNDDHWIVDTDYDTYAVQYSCRLLNLDGTCADSYSFVFSRDPNGLPPEAQKIVRQRQEELCLARQYRLIVHNGYCD
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5950.1/5950.1_protein/sequences/P02753-1_4o9s-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 201
+# Identity:     175/201 (87.1%)
+# Similarity:   175/201 (87.1%)
+# Gaps:          26/201 (12.9%)
+# Score: 949.0
+# 
+#
+#=======================================
+
+asis               1 MKWVWALLLLAALGSGRAERDCRVSSFRVKENFDKARFSGTWYAMAKKDP     50
+                                       ||||||||||||||||||||||||||||||||
+asis               1 ------------------ERDCRVSSFRVKENFDKARFSGTWYAMAKKDP     32
+
+asis              51 EGLFLQDNIVAEFSVDETGQMSATAKGRVRLLNNWDVCADMVGTFTDTED    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              33 EGLFLQDNIVAEFSVDETGQMSATAKGRVRLLNNWDVCADMVGTFTDTED     82
+
+asis             101 PAKFKMKYWGVASFLQKGNDDHWIVDTDYDTYAVQYSCRLLNLDGTCADS    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              83 PAKFKMKYWGVASFLQKGNDDHWIVDTDYDTYAVQYSCRLLNLDGTCADS    132
+
+asis             151 YSFVFSRDPNGLPPEAQKIVRQRQEELCLARQYRLIVHNGYCDGRSERNL    200
+                     |||||||||||||||||||||||||||||||||||||||||||       
+asis             133 YSFVFSRDPNGLPPEAQKIVRQRQEELCLARQYRLIVHNGYCD-------    175
+
+asis             201 L    201
+                      
+asis             175 -    175
+
+
+#---------------------------------------
+#---------------------------------------

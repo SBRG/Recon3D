@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Wed 31 May 2017 12:59:42
+# Commandline: needle
+#    -outfile ./Recon3D/genes/374291.1/374291.1_protein/sequences/O75251-1_5gpn-a.needle
+#    -asequence asis::MAVLSAPGLRGFRILGLRSSVGPAVQARGVHQSVATDGPSSTQPALPKARAVAPKPSSRGEYVVAKLDDLVNWARRSSLWPMTFGLACCAVEMMHMAAPRYDMDRFGVVFRASPRQSDVMIVAGTLTNKMAPALRKVYDQMPEPRYVVSMGSCANGGGYYHYSYSVVRGCDRIVPVDIYIPGCPPTAEALLYGILQLQRKIKRERRLQIWYRR
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXSRGEYVVAKLDDLVNWARRSSLWPMTFGLACCAVEMMHMAAPRYDMDRFGVVFRASPRQSDVMIVAGTLTNKMAPALRKVYDQMPEPRYVVSMGSCANGGGYYHYSYSVVRGCDRIVPVDIYVPGCPPTAEALLYGILQLQRKIKRE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/374291.1/374291.1_protein/sequences/O75251-1_5gpn-a.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 272
+# Identity:     146/272 (53.7%)
+# Similarity:   147/272 (54.0%)
+# Gaps:         124/272 (45.6%)
+# Score: 746.5
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               1 ---------MAVLSAPGLRGFRILGLRSSVGPAVQARGVHQSVATDGPSS     41
+                                                                       
+asis              51 XXXXXXXXX-----------------------------------------     59
+
+asis              42 TQPALPKARAVAPKPSSRGEYVVAKLDDLVNWARRSSLWPMTFGLACCAV     91
+                                    .||||||||||||||||||||||||||||||||||
+asis              60 ---------------XSRGEYVVAKLDDLVNWARRSSLWPMTFGLACCAV     94
+
+asis              92 EMMHMAAPRYDMDRFGVVFRASPRQSDVMIVAGTLTNKMAPALRKVYDQM    141
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              95 EMMHMAAPRYDMDRFGVVFRASPRQSDVMIVAGTLTNKMAPALRKVYDQM    144
+
+asis             142 PEPRYVVSMGSCANGGGYYHYSYSVVRGCDRIVPVDIYIPGCPPTAEALL    191
+                     ||||||||||||||||||||||||||||||||||||||:|||||||||||
+asis             145 PEPRYVVSMGSCANGGGYYHYSYSVVRGCDRIVPVDIYVPGCPPTAEALL    194
+
+asis             192 YGILQLQRKIKRERRLQIWYRR    213
+                     |||||||||||||         
+asis             195 YGILQLQRKIKRE---------    207
+
+
+#---------------------------------------
+#---------------------------------------

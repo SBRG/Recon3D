@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Sat 27 May 2017 13:40:43
+# Commandline: needle
+#    -outfile ./Recon3D/genes/5050.1/5050.1_protein/sequences/Q15102-1_1wab-A.needle
+#    -asequence asis::MSGEENPASKPTPVQDVQGDGRWMSLHHRFVADSKDKEPEVVFIGDSLVQLMHQCEIWRELFSPLHALNFGIGGDGTQHVLWRLENGELEHIRPKIVVVWVGTNNHGHTAEQVTGGIKAIVQLVNERQPQARVVVLGLLPRGQHPNPLREKNRQVNELVRAALAGHPRAHFLDADPGFVHSDGTISHHDMYDYLHLSRLGYTPVCRALHSLLLRLLAQDQGQGAPLLEPAP
+#    -bsequence asis::XXXXENPASKPTPVQDVQGDGRWMSLHHRFVADSKDKEPEVVFIGDSLVQLMHQCEIWRELFSPLHALNFGIGGDSTQHVLWRLENGELEHIRPKIVVVWVGTNNHGHTAEQVTGGIKAIVQLVNERQPQARVVVLGLLPRGQHPNPLREKNRRVNELVRAALAGHPRAHFLDADPGFVHSDGTISHHDMYDYLHLSRLGYTPVCRALHSLLLRLL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D/genes/5050.1/5050.1_protein/sequences/Q15102-1_1wab-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 231
+# Identity:     210/231 (90.9%)
+# Similarity:   211/231 (91.3%)
+# Gaps:          15/231 ( 6.5%)
+# Score: 1127.0
+# 
+#
+#=======================================
+
+asis               1 MSGEENPASKPTPVQDVQGDGRWMSLHHRFVADSKDKEPEVVFIGDSLVQ     50
+                     ....||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXENPASKPTPVQDVQGDGRWMSLHHRFVADSKDKEPEVVFIGDSLVQ     50
+
+asis              51 LMHQCEIWRELFSPLHALNFGIGGDGTQHVLWRLENGELEHIRPKIVVVW    100
+                     |||||||||||||||||||||||||.||||||||||||||||||||||||
+asis              51 LMHQCEIWRELFSPLHALNFGIGGDSTQHVLWRLENGELEHIRPKIVVVW    100
+
+asis             101 VGTNNHGHTAEQVTGGIKAIVQLVNERQPQARVVVLGLLPRGQHPNPLRE    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 VGTNNHGHTAEQVTGGIKAIVQLVNERQPQARVVVLGLLPRGQHPNPLRE    150
+
+asis             151 KNRQVNELVRAALAGHPRAHFLDADPGFVHSDGTISHHDMYDYLHLSRLG    200
+                     |||:||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 KNRRVNELVRAALAGHPRAHFLDADPGFVHSDGTISHHDMYDYLHLSRLG    200
+
+asis             201 YTPVCRALHSLLLRLLAQDQGQGAPLLEPAP    231
+                     ||||||||||||||||               
+asis             201 YTPVCRALHSLLLRLL---------------    216
+
+
+#---------------------------------------
+#---------------------------------------
