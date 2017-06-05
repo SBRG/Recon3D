@@ -34,3 +34,22 @@ git clone https://github.com/SBRG/Recon3D
 ### Citation
 
 TBD
+
+
+## Single gene deletion simulations (sgd)
+
+The description of these simulations is made available through the Supplementary Information.
+
+### Instructions
+ 
+**Requirements**
+- MATLAB R2015B+
+- R 3.4.0 and R libraries gplots (3.0.1) and RColorBrewer (1.1-2)
+- Mosek v.7+
+- [RAVEN v.1.08+](https://github.com/SysBioChalmers/RAVEN)
+
+**Workflow**
+- Set /sgd as working directory 
+- Convert Recond3D model into RAVEN-format and save it to models/Recon3d_toRaven.mat) by running convertRecon3toRaven.m
+- Simulate in silico library of sgds for HMR2, Recon3d, and HMR2-derived GBM models under 2 different media composition (described in media/) by running main.m. Medium-constrained wild-type models are saved in models/constrained/.
+- Analyze in silico sgd results by running main.R. Plots are saved in /plots
