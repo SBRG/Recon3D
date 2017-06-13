@@ -31,10 +31,7 @@ git clone https://github.com/SBRG/Recon3D
 **Updating**
 - Launch and run the notebook `Recon3D - Updating the GEM-PRO.ipynb` from a Jupyter instance
 
-### Citation
-
-TBD
-
+*****************************************
 
 ## Single gene deletion simulations (sgd)
 
