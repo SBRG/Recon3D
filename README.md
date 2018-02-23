@@ -53,8 +53,10 @@ The description of these simulations is made available through the Supplementary
 
 ******************************************
 
-The manuscript for Recon3D can be found and cited at [1]_.
+## Citation
 
-.. [1] Brunk E, Sahoo S, Zielinski DC, Altunkaya A, Dräger A, Mih N, Gatto F, Nilsson A, Preciat Gonzalez GA, Aurich MK, Prlić A, Sastry A, Danielsdottir AD, Heinken A, Noronha A, Rose PW, Burley SK, Fleming RMT, Nielsen J, Thiele I, Palsson BO. 2018. Recon3D enables a three-dimensional view of gene variation in human metabolism. Nat. Biotechnol. http://dx.doi.org/10.1038/nbt.4072.
+The manuscript for Recon3D can be found and cited at:
+
+Brunk E, Sahoo S, Zielinski DC, Altunkaya A, Dräger A, Mih N, Gatto F, Nilsson A, Preciat Gonzalez GA, Aurich MK, Prlić A, Sastry A, Danielsdottir AD, Heinken A, Noronha A, Rose PW, Burley SK, Fleming RMT, Nielsen J, Thiele I, Palsson BO. 2018. **Recon3D enables a three-dimensional view of gene variation in human metabolism.** *Nat. Biotechnol.* http://dx.doi.org/10.1038/nbt.4072.
 
 
