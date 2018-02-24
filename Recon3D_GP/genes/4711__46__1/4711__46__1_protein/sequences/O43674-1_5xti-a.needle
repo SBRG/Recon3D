@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:12:18
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/4711.1/4711.1_protein/sequences/O43674-1_5xti-a.needle
+#    -asequence asis::MAAMSLLRRVSVTAVAALSGRPLGTRLGFGGFLTRGFPKAAAPVRHSGDHGKRLFVIRPSRFYDRRFLKLLRFYIALTGIPVAIFITLVNVFIGQAELAEIPEGYVPEHWEYYKHPISRWIARNFYDSPEKIYERTMAVLQIEAEKAELRVKELEVRKLMHVRGDGPWYYYETIDKELIDHSPKATPDN
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKRLFVIRPSRFYDRRFLKLLRFYIALTGIPVAIFITLVNVFIGQAELAEIPEGYVPEHWEYYKHPISRWIARNFYDSPEKIYERTMAVLQIEAEKAELRVKELEVRKLMHVRGDGPWYYYETIDKELIDHSPKATPDN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/4711.1/4711.1_protein/sequences/O43674-1_5xti-a.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 237
+# Identity:     138/237 (58.2%)
+# Similarity:   138/237 (58.2%)
+# Gaps:          96/237 (40.5%)
+# Score: 697.5
+# 
+#
+#=======================================
+
+asis               1 ------------------------------------------------MA      2
+                                                                     ..
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               3 AMSLLRRVSVTAVAALSGRPLGTRLGFGGFLTRGFPKAAAPVRHSGDHGK     52
+                     .                                                |
+asis              51 X------------------------------------------------K     52
+
+asis              53 RLFVIRPSRFYDRRFLKLLRFYIALTGIPVAIFITLVNVFIGQAELAEIP    102
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              53 RLFVIRPSRFYDRRFLKLLRFYIALTGIPVAIFITLVNVFIGQAELAEIP    102
+
+asis             103 EGYVPEHWEYYKHPISRWIARNFYDSPEKIYERTMAVLQIEAEKAELRVK    152
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             103 EGYVPEHWEYYKHPISRWIARNFYDSPEKIYERTMAVLQIEAEKAELRVK    152
+
+asis             153 ELEVRKLMHVRGDGPWYYYETIDKELIDHSPKATPDN    189
+                     |||||||||||||||||||||||||||||||||||||
+asis             153 ELEVRKLMHVRGDGPWYYYETIDKELIDHSPKATPDN    189
+
+
+#---------------------------------------
+#---------------------------------------

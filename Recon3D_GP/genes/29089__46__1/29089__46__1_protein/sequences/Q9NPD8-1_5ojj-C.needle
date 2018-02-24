@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:14:32
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/29089.1/29089.1_protein/sequences/Q9NPD8-1_5ojj-C.needle
+#    -asequence asis::MQRASRLKRELHMLATEPPPGITCWQDKDQMDDLRAQILGGANTPYEKGVFKLEVIIPERYPFEPPQIRFLTPIYHPNIDSAGRICLDVLKLPPKGAWRPSLNIATVLTSIQLLMSEPNPDDPLMADISSEFKYNKPAFLKNARQWTEKHARQKQKADEEEMLDNLPEAGDSRVHNSTQKRKASQLVGIEKKFHPDV
+#    -bsequence asis::XXXASRLKRELHMLATEPPPGITCWQDKDQMDDLRAQILGGANTPYEKGVFKLEVIIPERYPFEPPQIRFLTPIYHPNIDSAGRICLDVLKLPPKGAWRPSLNIATVLTSIQLLMSEPNPDDPLMADISSEFKYNKPAFLKNARQWTEKHAR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/29089.1/29089.1_protein/sequences/Q9NPD8-1_5ojj-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 197
+# Identity:     149/197 (75.6%)
+# Similarity:   149/197 (75.6%)
+# Gaps:          45/197 (22.8%)
+# Score: 796.0
+# 
+#
+#=======================================
+
+asis               1 MQRASRLKRELHMLATEPPPGITCWQDKDQMDDLRAQILGGANTPYEKGV     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXASRLKRELHMLATEPPPGITCWQDKDQMDDLRAQILGGANTPYEKGV     50
+
+asis              51 FKLEVIIPERYPFEPPQIRFLTPIYHPNIDSAGRICLDVLKLPPKGAWRP    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 FKLEVIIPERYPFEPPQIRFLTPIYHPNIDSAGRICLDVLKLPPKGAWRP    100
+
+asis             101 SLNIATVLTSIQLLMSEPNPDDPLMADISSEFKYNKPAFLKNARQWTEKH    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 SLNIATVLTSIQLLMSEPNPDDPLMADISSEFKYNKPAFLKNARQWTEKH    150
+
+asis             151 ARQKQKADEEEMLDNLPEAGDSRVHNSTQKRKASQLVGIEKKFHPDV    197
+                     ||                                             
+asis             151 AR---------------------------------------------    152
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:13:23
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/4700.1/4700.1_protein/sequences/P56556-1_5xti-E.needle
+#    -asequence asis::MGKDIRPRSARAACKGVGLWSGCFGKMAGSGVRQATSTASTFVKPIFSRDMNEAKRRVRELYRAWYREVPNTVHQFQLDITVKMGRDKVREMFMKNAHVTDPRVVDLLVIKGKIELEETIKVWKQRTHVMRFFHETEAPRPKDFLSKFYVGHDP
+#    -bsequence asis::XXXXXXXXXXXXXXXFVKPIFSRDMNEAKRRVRELYRAWYREVPNTVHQFQLDITVKMGRDKVREMFMKNAHVTDPRVVDLLVIKGKIELEETIKVWKQRTHVMRFFHETEAPRPKDFLSKFYVGHDP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/4700.1/4700.1_protein/sequences/P56556-1_5xti-E.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:     113/154 (73.4%)
+# Similarity:   113/154 (73.4%)
+# Gaps:          26/154 (16.9%)
+# Score: 595.0
+# 
+#
+#=======================================
+
+asis               1 MGKDIRPRSARAACKGVGLWSGCFGKMAGSGVRQATSTASTFVKPIFSRD     50
+                                               ...............|||||||||
+asis               1 --------------------------XXXXXXXXXXXXXXXFVKPIFSRD     24
+
+asis              51 MNEAKRRVRELYRAWYREVPNTVHQFQLDITVKMGRDKVREMFMKNAHVT    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              25 MNEAKRRVRELYRAWYREVPNTVHQFQLDITVKMGRDKVREMFMKNAHVT     74
+
+asis             101 DPRVVDLLVIKGKIELEETIKVWKQRTHVMRFFHETEAPRPKDFLSKFYV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              75 DPRVVDLLVIKGKIELEETIKVWKQRTHVMRFFHETEAPRPKDFLSKFYV    124
+
+asis             151 GHDP    154
+                     ||||
+asis             125 GHDP    128
+
+
+#---------------------------------------
+#---------------------------------------

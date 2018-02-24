@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:01:53
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/1798.2/1798.2_protein/sequences/Q9H3H5-2_6bw6-D.needle
+#    -asequence asis::MPLLINLIVSLLGFVATVTLIPAFRGHFIAARLCGQDLNKTSRQQIPESQGVISGAVFLIILFCFIPFPFLNCFVKEQCKAFPHHEFVALIGALLAICCMIFLGFADDVLNLRWRHKLLLPTAASLPLLMVYFTNFGNTTIVVPKPFRPILGLHLDLGILYYVYMGLLAVFCTNAINILAGINGLEAGQSLVISASIIVFNLVELEGDCRDDHVFSLYFMIPFFFTTLGLLYHNWYPSRVFVGDTFCYFAGMTFAVVGILGHFSKTMLLFFMPQVFNFLYSLPQLLHIIPCPRHRIPRLNIKTGKLEMSYSKFKTKSLSFLGTFILKVAESLQLVTVHQSETEDGEFTECNNMTLINLLLKVLGPIHERNLTLLLLLLQILGSAITFSIRYQLVRLFYDV
+#    -bsequence asis::XXXXXXXPMPLLINLIVSLLGFVATVTLIPAFRGHFIAARLCGQDLNKTSRQQIPESQGVISGAVFLIILFCFIPFPFLNCXXXXXXXAFPHHEFVALIGALLAICCMIFLGFADDVLNLRWRHKLLLHTAASLPLLMVYFTNFGNTTIVVXXXXXXXXXXHLDLGILYYVYMGLLAVFCTNAINILAGINGLEAGQSLVISASIIVFNLVELEGDCRDDHVFSLYFMIPFFFTTLGLLYHNWYPSRVFVGDTFCYFAGMTFAVVGILGHFSKTMLLFFMPQVFNFLYSLPQLLHIIPCPRHRIPRLNIKTGKLEMSYSKFKTKSLSFLGTFILKVAESLQLVTVHQXXXXXXXXTECNNMTLINLLLKVLGPIHERNLTLLLLLLQILGSAITFSIRYQL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/1798.2/1798.2_protein/sequences/Q9H3H5-2_6bw6-D.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 408
+# Identity:     367/408 (90.0%)
+# Similarity:   367/408 (90.0%)
+# Gaps:          15/408 ( 3.7%)
+# Score: 1866.0
+# 
+#
+#=======================================
+
+asis               1 --------MPLLINLIVSLLGFVATVTLIPAFRGHFIAARLCGQDLNKTS     42
+                             ||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXXXXPMPLLINLIVSLLGFVATVTLIPAFRGHFIAARLCGQDLNKTS     50
+
+asis              43 RQQIPESQGVISGAVFLIILFCFIPFPFLNCFVKEQCKAFPHHEFVALIG     92
+                     |||||||||||||||||||||||||||||||.......||||||||||||
+asis              51 RQQIPESQGVISGAVFLIILFCFIPFPFLNCXXXXXXXAFPHHEFVALIG    100
+
+asis              93 ALLAICCMIFLGFADDVLNLRWRHKLLLPTAASLPLLMVYFTNFGNTTIV    142
+                     ||||||||||||||||||||||||||||.|||||||||||||||||||||
+asis             101 ALLAICCMIFLGFADDVLNLRWRHKLLLHTAASLPLLMVYFTNFGNTTIV    150
+
+asis             143 VPKPFRPILGLHLDLGILYYVYMGLLAVFCTNAINILAGINGLEAGQSLV    192
+                     |..........|||||||||||||||||||||||||||||||||||||||
+asis             151 VXXXXXXXXXXHLDLGILYYVYMGLLAVFCTNAINILAGINGLEAGQSLV    200
+
+asis             193 ISASIIVFNLVELEGDCRDDHVFSLYFMIPFFFTTLGLLYHNWYPSRVFV    242
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 ISASIIVFNLVELEGDCRDDHVFSLYFMIPFFFTTLGLLYHNWYPSRVFV    250
+
+asis             243 GDTFCYFAGMTFAVVGILGHFSKTMLLFFMPQVFNFLYSLPQLLHIIPCP    292
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             251 GDTFCYFAGMTFAVVGILGHFSKTMLLFFMPQVFNFLYSLPQLLHIIPCP    300
+
+asis             293 RHRIPRLNIKTGKLEMSYSKFKTKSLSFLGTFILKVAESLQLVTVHQSET    342
+                     |||||||||||||||||||||||||||||||||||||||||||||||...
+asis             301 RHRIPRLNIKTGKLEMSYSKFKTKSLSFLGTFILKVAESLQLVTVHQXXX    350
+
+asis             343 EDGEFTECNNMTLINLLLKVLGPIHERNLTLLLLLLQILGSAITFSIRYQ    392
+                     .....|||||||||||||||||||||||||||||||||||||||||||||
+asis             351 XXXXXTECNNMTLINLLLKVLGPIHERNLTLLLLLLQILGSAITFSIRYQ    400
+
+asis             393 LVRLFYDV    400
+                     |       
+asis             401 L-------    401
+
+
+#---------------------------------------
+#---------------------------------------

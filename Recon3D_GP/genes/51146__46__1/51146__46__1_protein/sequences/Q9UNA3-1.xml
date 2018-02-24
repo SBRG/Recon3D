@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2002-11-25" modified="2017-09-27" version="130">
+<accession>Q9UNA3</accession>
+<accession>Q0VDK1</accession>
+<accession>Q0VDK2</accession>
+<name>A4GCT_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Alpha-1,4-N-acetylglucosaminyltransferase</fullName>
+<shortName>Alpha4GnT</shortName>
+<ecNumber evidence="4">2.4.1.-</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">A4GNT</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1999" name="Proc. Natl. Acad. Sci. U.S.A." volume="96" first="8991" last="8996">
+<title>Expression cloning of a human alpha1, 4-N-acetylglucosaminyltransferase that forms GlcNAcalpha1-->4Galbeta-->R, a glycan specifically expressed in the gastric gland mucous cell-type mucin.</title>
+<authorList>
+<person name="Nakayama J."/>
+<person name="Yeh J.-C."/>
+<person name="Misra A.K."/>
+<person name="Ito S."/>
+<person name="Katsuyama T."/>
+<person name="Fukuda M."/>
+</authorList>
+<dbReference type="PubMed" id="10430883"/>
+<dbReference type="DOI" id="10.1073/pnas.96.16.8991"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>PATHWAY</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<source>
+<tissue>Stomach</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<scope>VARIANT ASP-218</scope>
+</reference>
+<comment type="function">
+<text evidence="1 4">Catalyzes the transfer of N-acetylglucosamine (GlcNAc) to core 2 branched O-glycans (PubMed:10430883). Necessary for the synthesis of type III mucin which is specifically produced in the stomach, duodenum, and pancreatic duct (PubMed:10430883). May protect against inflammation-associated gastric adenocarcinomas (By similarity).</text>
+</comment>
+<comment type="pathway" evidence="7">
+<text>Protein modification; protein glycosylation.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="6">Golgi apparatus membrane</location>
+<topology evidence="3">Single-pass type II membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4">Detected in stomach and pancreas.</text>
+</comment>
+<comment type="domain">
+<text evidence="2">The conserved DXD motif is involved in enzyme activity.</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the glycosyltransferase 32 family.</text>
+</comment>
+<comment type="online information" name="Functional Glycomics Gateway - GTase">
+<link uri="http://www.functionalglycomics.org/glycomics/molecule/jsp/glycoEnzyme/viewGlycoEnzyme.jsp?gbpId=gt_hum_532"/>
+<text>Alpha-1,4-N-acetylglucosaminyltransferase</text>
+</comment>
+<dbReference type="EC" id="2.4.1.-" evidence="4"/>
+<dbReference type="EMBL" id="AF141315">
+<property type="protein sequence ID" value="AAD48406.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC119639">
+<property type="protein sequence ID" value="AAI19640.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC119640">
+<property type="protein sequence ID" value="AAI19641.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS3097.1"/>
+<dbReference type="RefSeq" id="NP_057245.1">
+<property type="nucleotide sequence ID" value="NM_016161.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_016862032.1">
+<property type="nucleotide sequence ID" value="XM_017006543.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_016862033.1">
+<property type="nucleotide sequence ID" value="XM_017006544.1"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.278960"/>
+<dbReference type="ProteinModelPortal" id="Q9UNA3"/>
+<dbReference type="SMR" id="Q9UNA3"/>
+<dbReference type="BioGrid" id="119330">
+<property type="interactions" value="21"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000236709"/>
+<dbReference type="CAZy" id="GT32">
+<property type="family name" value="Glycosyltransferase Family 32"/>
+</dbReference>
+<dbReference type="PhosphoSitePlus" id="Q9UNA3"/>
+<dbReference type="BioMuta" id="A4GNT"/>
+<dbReference type="DMDM" id="25452797"/>
+<dbReference type="PaxDb" id="Q9UNA3"/>
+<dbReference type="PRIDE" id="Q9UNA3"/>
+<dbReference type="DNASU" id="51146"/>
+<dbReference type="Ensembl" id="ENST00000236709">
+<property type="protein sequence ID" value="ENSP00000236709"/>
+<property type="gene ID" value="ENSG00000118017"/>
+</dbReference>
+<dbReference type="GeneID" id="51146"/>
+<dbReference type="KEGG" id="hsa:51146"/>
+<dbReference type="UCSC" id="uc003ers.2">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="51146"/>
+<dbReference type="DisGeNET" id="51146"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000118017.3"/>
+<dbReference type="GeneCards" id="A4GNT"/>
+<dbReference type="HGNC" id="HGNC:17968">
+<property type="gene designation" value="A4GNT"/>
+</dbReference>
+<dbReference type="HPA" id="HPA008017"/>
+<dbReference type="neXtProt" id="NX_Q9UNA3"/>
+<dbReference type="OpenTargets" id="ENSG00000118017"/>
+<dbReference type="PharmGKB" id="PA134960042"/>
+<dbReference type="eggNOG" id="KOG1928">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4111PD8">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00510000047981"/>
+<dbReference type="HOGENOM" id="HOG000254772"/>
+<dbReference type="HOVERGEN" id="HBG106704"/>
+<dbReference type="InParanoid" id="Q9UNA3"/>
+<dbReference type="KO" id="K08251"/>
+<dbReference type="OMA" id="DTEPSFN"/>
+<dbReference type="OrthoDB" id="EOG091G08S2"/>
+<dbReference type="PhylomeDB" id="Q9UNA3"/>
+<dbReference type="TreeFam" id="TF324053"/>
+<dbReference type="Reactome" id="R-HSA-913709">
+<property type="pathway name" value="O-linked glycosylation of mucins"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00378"/>
+<dbReference type="GenomeRNAi" id="51146"/>
+<dbReference type="PRO" id="PR:Q9UNA3"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 3"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000118017"/>
+<dbReference type="CleanEx" id="HS_A4GNT"/>
+<dbReference type="Genevisible" id="Q9UNA3">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000139">
+<property type="term" value="C:Golgi membrane"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016020">
+<property type="term" value="C:membrane"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008375">
+<property type="term" value="F:acetylglucosaminyltransferase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005975">
+<property type="term" value="P:carbohydrate metabolic process"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009101">
+<property type="term" value="P:glycoprotein biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050680">
+<property type="term" value="P:negative regulation of epithelial cell proliferation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016266">
+<property type="term" value="P:O-glycan processing"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006493">
+<property type="term" value="P:protein O-linked glycosylation"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007652">
+<property type="entry name" value="A1-4-GlycosylTfrase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007577">
+<property type="entry name" value="GlycoTrfase_DXD_sugar-bd_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029044">
+<property type="entry name" value="Nucleotide-diphossugar_trans"/>
+</dbReference>
+<dbReference type="Pfam" id="PF04572">
+<property type="entry name" value="Gb3_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF04488">
+<property type="entry name" value="Gly_transf_sug"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53448">
+<property type="entry name" value="SSF53448"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0328">Glycosyltransferase</keyword>
+<keyword id="KW-0333">Golgi apparatus</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0735">Signal-anchor</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Alpha-1,4-N-acetylglucosaminyltransferase" id="PRO_0000080583">
+<location>
+<begin position="1"/>
+<end position="340"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="1"/>
+<end position="4"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Signal-anchor for type II membrane protein" evidence="3">
+<location>
+<begin position="5"/>
+<end position="25"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="3">
+<location>
+<begin position="26"/>
+<end position="340"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DXD motif" evidence="2">
+<location>
+<begin position="167"/>
+<end position="169"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="99"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="138"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="251"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="282"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs2246945." id="VAR_022096" evidence="5">
+<original>A</original>
+<variation>D</variation>
+<location>
+<position position="218"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q14BT6"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q9JI93"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10430883"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15489334"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<evidence key="7" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="10430883"/>
+</source>
+</evidence>
+<sequence length="340" mass="39497" checksum="00D667A8394300AB" modified="2000-05-01" version="1">
+MRKELQLSLSVTLLLVCGFLYQFTLKSSCLFCLPSFKSHQGLEALLSHRRGIVFLETSER
+MEPPHLVSCSVESAAKIYPEWPVVFFMKGLTDSTPMPSNSTYPAFSFLSAIDNVFLFPLD
+MKRLLEDTPLFSWYNQINASAERNWLHISSDASRLAIIWKYGGIYMDTDVISIRPIPEEN
+FLAAQASRYSSNGIFGFLPHHPFLWECMENFVEHYNSAIWGNQGPELMTRMLRVWCKLED
+FQEVSDLRCLNISFLHPQRFYPISYREWRRYYEVWDTEPSFNVSYALHLWNHMNQEGRAV
+IRGSNTLVENLYRKHCPRTYRDLIKGPEGSVTGELGPGNK
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

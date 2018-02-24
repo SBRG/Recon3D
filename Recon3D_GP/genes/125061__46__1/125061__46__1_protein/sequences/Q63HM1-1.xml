@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2006-09-05" modified="2017-09-27" version="105">
+<accession>Q63HM1</accession>
+<accession>A2RUB3</accession>
+<name>KFA_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Kynurenine formamidase</fullName>
+<shortName evidence="1">KFA</shortName>
+<shortName evidence="1">KFase</shortName>
+<ecNumber evidence="1">3.5.1.9</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1">Arylformamidase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="1">N-formylkynurenine formamidase</fullName>
+<shortName evidence="1">FKF</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="1">AFMID</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2007" name="BMC Genomics" volume="8" first="399" last="399">
+<title>The full-ORF clone resource of the German cDNA consortium.</title>
+<authorList>
+<person name="Bechtel S."/>
+<person name="Rosenfelder H."/>
+<person name="Duda A."/>
+<person name="Schmidt C.P."/>
+<person name="Ernst U."/>
+<person name="Wellenreuther R."/>
+<person name="Mehrle A."/>
+<person name="Schuster C."/>
+<person name="Bahr A."/>
+<person name="Bloecker H."/>
+<person name="Heubner D."/>
+<person name="Hoerlein A."/>
+<person name="Michel G."/>
+<person name="Wedler H."/>
+<person name="Koehrer K."/>
+<person name="Ottenwaelder B."/>
+<person name="Poustka A."/>
+<person name="Wiemann S."/>
+<person name="Schupp I."/>
+</authorList>
+<dbReference type="PubMed" id="17974005"/>
+<dbReference type="DOI" id="10.1186/1471-2164-8-399"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)</scope>
+<source>
+<tissue>Salivary gland</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the hydrolysis of N-formyl-L-kynurenine to L-kynurenine, the second step in the kynurenine pathway of tryptophan degradation. Kynurenine may be further oxidized to nicotinic acid, NAD(H) and NADP(H). Required for elimination of toxic metabolites.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="1">N-formyl-L-kynurenine + H(2)O = formate + L-kynurenine.</text>
+</comment>
+<comment type="pathway" evidence="1">
+<text>Amino-acid degradation; L-tryptophan degradation via kynurenine pathway; L-kynurenine from L-tryptophan: step 2/2.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homodimer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+<location evidence="1">cytosol</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="1">Nucleus</location>
+</subcellularLocation>
+<text evidence="1">Predominantly cytosolic. Some fraction is nuclear.</text>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>Q63HM1-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>Q63HM1-2</id>
+<name>2</name>
+<sequence type="described" ref="VSP_038002"/>
+<text>No experimental confirmation available.</text>
+</isoform>
+</comment>
+<comment type="domain">
+<text evidence="1">The main chain amide nitrogen atoms of the second glycine and its adjacent residue in the HGGXW motif define the oxyanion hole, and stabilize the oxyanion that forms during the nucleophilic attack by the catalytic serine during substrate cleavage.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the kynurenine formamidase family.</text>
+</comment>
+<dbReference type="EC" id="3.5.1.9" evidence="1"/>
+<dbReference type="EMBL" id="BX648442">
+<property type="protein sequence ID" value="CAH56149.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC132824">
+<property type="protein sequence ID" value="AAI32825.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS32750.2">
+<molecule id="Q63HM1-1"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS45801.1">
+<molecule id="Q63HM1-2"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001010982.2">
+<molecule id="Q63HM1-1"/>
+<property type="nucleotide sequence ID" value="NM_001010982.4"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001138998.1">
+<molecule id="Q63HM1-2"/>
+<property type="nucleotide sequence ID" value="NM_001145526.2"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.558614"/>
+<dbReference type="ProteinModelPortal" id="Q63HM1"/>
+<dbReference type="SMR" id="Q63HM1"/>
+<dbReference type="BioGrid" id="125914">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="IntAct" id="Q63HM1">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000328938"/>
+<dbReference type="ESTHER" id="human-AFMID">
+<property type="family name" value="Kynurenine-formamidase"/>
+</dbReference>
+<dbReference type="MEROPS" id="S09.977"/>
+<dbReference type="iPTMnet" id="Q63HM1"/>
+<dbReference type="PhosphoSitePlus" id="Q63HM1"/>
+<dbReference type="BioMuta" id="AFMID"/>
+<dbReference type="DMDM" id="259016175"/>
+<dbReference type="MaxQB" id="Q63HM1"/>
+<dbReference type="PaxDb" id="Q63HM1"/>
+<dbReference type="PeptideAtlas" id="Q63HM1"/>
+<dbReference type="PRIDE" id="Q63HM1"/>
+<dbReference type="DNASU" id="125061"/>
+<dbReference type="Ensembl" id="ENST00000327898">
+<molecule id="Q63HM1-2"/>
+<property type="protein sequence ID" value="ENSP00000328938"/>
+<property type="gene ID" value="ENSG00000183077"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000409257">
+<molecule id="Q63HM1-1"/>
+<property type="protein sequence ID" value="ENSP00000386890"/>
+<property type="gene ID" value="ENSG00000183077"/>
+</dbReference>
+<dbReference type="GeneID" id="125061"/>
+<dbReference type="KEGG" id="hsa:125061"/>
+<dbReference type="UCSC" id="uc002juz.4">
+<molecule id="Q63HM1-1"/>
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="125061"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000183077.15"/>
+<dbReference type="GeneCards" id="AFMID"/>
+<dbReference type="HGNC" id="HGNC:20910">
+<property type="gene designation" value="AFMID"/>
+</dbReference>
+<dbReference type="HPA" id="HPA023861"/>
+<dbReference type="HPA" id="HPA026536"/>
+<dbReference type="neXtProt" id="NX_Q63HM1"/>
+<dbReference type="OpenTargets" id="ENSG00000183077"/>
+<dbReference type="PharmGKB" id="PA134958475"/>
+<dbReference type="eggNOG" id="KOG4627">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0657">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000011093"/>
+<dbReference type="HOGENOM" id="HOG000260457"/>
+<dbReference type="HOVERGEN" id="HBG100436"/>
+<dbReference type="InParanoid" id="Q63HM1"/>
+<dbReference type="KO" id="K01432"/>
+<dbReference type="OMA" id="KEESGFM"/>
+<dbReference type="OrthoDB" id="EOG091G0KT8"/>
+<dbReference type="PhylomeDB" id="Q63HM1"/>
+<dbReference type="TreeFam" id="TF315112"/>
+<dbReference type="Reactome" id="R-HSA-71240">
+<property type="pathway name" value="Tryptophan catabolism"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00333">
+<property type="reaction ID" value="UER00454"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="AFMID">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="GenomeRNAi" id="125061"/>
+<dbReference type="PRO" id="PR:Q63HM1"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 17"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000183077"/>
+<dbReference type="CleanEx" id="HS_AFMID"/>
+<dbReference type="ExpressionAtlas" id="Q63HM1">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004061">
+<property type="term" value="F:arylformamidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016787">
+<property type="term" value="F:hydrolase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019441">
+<property type="term" value="P:tryptophan catabolic process to kynurenine"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1820">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_03014">
+<property type="entry name" value="KFase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029058">
+<property type="entry name" value="AB_hydrolase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013094">
+<property type="entry name" value="AB_hydrolase_3"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027519">
+<property type="entry name" value="KFase_ver/fungi-typ"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07859">
+<property type="entry name" value="Abhydrolase_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53474">
+<property type="entry name" value="SSF53474"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0539">Nucleus</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0823">Tryptophan catabolism</keyword>
+<feature type="chain" description="Kynurenine formamidase" id="PRO_0000248308">
+<location>
+<begin position="1"/>
+<end position="303"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="HGGXW">
+<location>
+<begin position="95"/>
+<end position="99"/>
+</location>
+</feature>
+<feature type="active site" description="Nucleophile" evidence="1">
+<location>
+<position position="164"/>
+</location>
+</feature>
+<feature type="active site" evidence="1">
+<location>
+<position position="247"/>
+</location>
+</feature>
+<feature type="active site" evidence="1">
+<location>
+<position position="279"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_038002" evidence="2">
+<original>Q</original>
+<variation>QVLPVQ</variation>
+<location>
+<position position="260"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAH56149." ref="1" evidence="3">
+<original>S</original>
+<variation>N</variation>
+<location>
+<position position="222"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_03014"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="17974005"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="303" mass="33992" checksum="6E329218366C027D" modified="2009-09-22" version="2">
+MMDVSGVGFPSKVPWKKMSAEELENQYCPSRWVVRLGAEEALRTYSQIGIEATTRARATR
+KSLLHVPYGDGEGEKVDIYFPDESSEALPFFLFFHGGYWQSGSKDESAFMVHPLTAQGVA
+VVIVAYGIAPKGTLDHMVDQVTRSVAFVQKRYPSNKGIYLCGHSAGAHLAAMMLLADWTK
+HGVTPNLRGFFLVSGVFDLEPIVYTSQNVALQLTLEDAQRNSPQLKVAQAQPVDPTCRVL
+VVVGQFDSPEFHRQSWEFYQTLCQGEWKASFEELHDVDHFEIVENLTQKDNVLTQIILKT
+IFQ
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

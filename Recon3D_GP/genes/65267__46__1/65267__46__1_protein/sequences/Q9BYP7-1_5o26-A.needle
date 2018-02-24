@@ -1,0 +1,190 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:09:26
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/65267.1/65267.1_protein/sequences/Q9BYP7-1_5o26-A.needle
+#    -asequence asis::MATDSGDPASTEDSEKPDGISFENRVPQVAATLTVEARLKEKNSTFSASGETVERKRFFRKSVEMTEDDKVAESSPKDERIKAAMNIPRVDKLPSNVLRGGQEVKYEQCSKSTSEISKDCFKEKNEKEMEEEAEMKAVATSPSGRFLKFDIELGRGAFKTVYKGLDTETWVEVAWCELQDRKLTKAEQQRFKEEAEMLKGLQHPNIVRFYDSWESILKGKKCIVLVTELMTSGTLKTYLKRFKVMKPKVLRSWCRQILKGLQFLHTRTPPIIHRDLKCDNIFITGPTGSVKIGDLGLATLMRTSFAKSVIGTPEFMAPEMYEEHYDESVDVYAFGMCMLEMATSEYPYSECQNAAQIYRKVTSGIKPASFNKVTDPEVKEIIEGCIRQNKSERLSIRDLLNHAFFAEDTGLRVELAEEDDCSNSSLALRLWVEDPKKLKGKHKDNEAIEFSFNLETDTPEEVAYEMVKSGFFHESDSKAVAKSIRDRVTPIKKTREKKPAGCLEERRDSQCKSMGNVFPQPQNTTLPLAPAQQTGAECEETEVDQHVRQQLLQRKPQQHCSSVTGDNLSEAGAASVIHSDTSSQPSVAYSSNQTMGSQMVSNIPQAEVNVPGQIYSSQQLVGHYQQVSGLQKHSKLTQPQILPLVQGQSTVLPVHVLGPTVVSQPQVSPLTVQKVPQIKPVSQPVGAEQQAALLKPDLVRSLNQDVATTKENVSSPDNPSGNGKQDRIKQRRASCPRPEKGTKFQLTVLQVSTSGDNMVECQLETHNNKMVTFKFDVDGDAPEDIADYMVEDNFVLESEKEKFVEELRAIVGQAQEILHVHFATERATGVDSITVDSNSSQTGSSEQVQINSTSTQTSNESAPQSSPVGRWRFCINQTIRNRETQSPPSLQHSMSAVPGRHPLPSPKNTSNKEISRDTLLTIENNPCHRALFTSKSEHKDVVDGKISECASVETKQPAILYQVEDNRQIMAPVTNSSSYSTTSVRAVPAECEGLTKQASIFIPVYPCHQTASQADALMSHPGESTQTSGNSLTTLAFDQKPQTLSVQQPAMDAEFISQEGETTVNTEASSPKTVIPTQTPGLEPTTLQPTTVLESDGERPPKLEFADNRIKTLDEKLRNLLYQEHSISSIYPESQKDTQSIDSPFSSSAEDTLSCPVTEVIAISHCGIKDSPVQSPNFQQTGSKLLSNVAASQPANISVFKRDLNVITSVPSELCLHEMSSDASLPGDPEAYPAAVSSGGAIHLQTGGGYFGLSFTCPSLKNPISKKSWTRKLKSWAYRLRQSTSFFKRSKVRQVETEEMRSAIAPDPIPLTRESTADTRALNRCKAMSGSFQRGRFQVITIPQQQSAKMTSFGIEHISVFSETNHSSEEAFIKTAKSQLVEIEPATQNPKTSFSYEKLQALQETCKENKGVPKQGDNFLSFSAACETDVSSVTPEKEFEETSATGSSMQSGSELLLKEREILTAGKQPSSDSEFSASLAGSGKSVAKTGPESNQCLPHHEEQAYAQTQSSLFYSPSSPMSSDDESEIEDEDLKVELQRLREKHIQEVVNLQTQQNKELQELYERLRSIKDSKTQSTEIPLPPASPRRPRSFKSKLRSRPQSLTHVDNGIVATGKSCLINELENPLCVESNAASCQQSPASKKGMFTDDLHKLVDDWTKEAVGNSLIKPSLNQLKQSQHKLETENWNKVSENTPSTMGYTSTWISSLSQIRGAVPTSLPQGLSLPSFPGPLSSYGMPHVCQYNAVAGAGYPVQWVGISGTTQQSVVIPAQSGGPFQPGMNMQAFPTSSVQNPATIPPGPK
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMKAVATSPSGRFLKFDIELGRGAFKTVYKGLDTETWVEVAWCELQDXXXTKAEQQRFKEEAEMLKGLQHPNIVRFYDSWESIXXXXKCIVLVTELMTSGTLKTYLKRFKVMKPKVLRSWCRQILKGLQFLHTRTPPIIHRDLKCDNIFITGPTGSVKIGDLGLATLMRTXFAKXVIGTPEFMAPEMYEEHYDESVDVYAFGMCMLEMATSEYPYSECQNAAQIYRKVTSGIKPASFNKVTDPEVKEIIEGCIRQNKSERLSIRDLLNHAFFAEDTGLRVE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/65267.1/65267.1_protein/sequences/Q9BYP7-1_5o26-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1929
+# Identity:     271/1929 (14.0%)
+# Similarity:   271/1929 (14.0%)
+# Gaps:        1644/1929 (85.2%)
+# Score: 1340.0
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis              51 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    100
+
+asis               1 -----------------------------MATDSGDPASTEDSEKPDGIS     21
+                                                  ...                  
+asis             101 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX------------------    132
+
+asis              22 FENRVPQVAATLTVEARLKEKNSTFSASGETVERKRFFRKSVEMTEDDKV     71
+                                                                       
+asis             132 --------------------------------------------------    132
+
+asis              72 AESSPKDERIKAAMNIPRVDKLPSNVLRGGQEVKYEQCSKSTSEISKDCF    121
+                                                                       
+asis             132 --------------------------------------------------    132
+
+asis             122 KEKNEKEMEEEAEMKAVATSPSGRFLKFDIELGRGAFKTVYKGLDTETWV    171
+                                ..|||||||||||||||||||||||||||||||||||||
+asis             133 -----------XXMKAVATSPSGRFLKFDIELGRGAFKTVYKGLDTETWV    171
+
+asis             172 EVAWCELQDRKLTKAEQQRFKEEAEMLKGLQHPNIVRFYDSWESILKGKK    221
+                     |||||||||...|||||||||||||||||||||||||||||||||....|
+asis             172 EVAWCELQDXXXTKAEQQRFKEEAEMLKGLQHPNIVRFYDSWESIXXXXK    221
+
+asis             222 CIVLVTELMTSGTLKTYLKRFKVMKPKVLRSWCRQILKGLQFLHTRTPPI    271
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             222 CIVLVTELMTSGTLKTYLKRFKVMKPKVLRSWCRQILKGLQFLHTRTPPI    271
+
+asis             272 IHRDLKCDNIFITGPTGSVKIGDLGLATLMRTSFAKSVIGTPEFMAPEMY    321
+                     ||||||||||||||||||||||||||||||||.|||.|||||||||||||
+asis             272 IHRDLKCDNIFITGPTGSVKIGDLGLATLMRTXFAKXVIGTPEFMAPEMY    321
+
+asis             322 EEHYDESVDVYAFGMCMLEMATSEYPYSECQNAAQIYRKVTSGIKPASFN    371
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             322 EEHYDESVDVYAFGMCMLEMATSEYPYSECQNAAQIYRKVTSGIKPASFN    371
+
+asis             372 KVTDPEVKEIIEGCIRQNKSERLSIRDLLNHAFFAEDTGLRVELAEEDDC    421
+                     |||||||||||||||||||||||||||||||||||||||||||       
+asis             372 KVTDPEVKEIIEGCIRQNKSERLSIRDLLNHAFFAEDTGLRVE-------    414
+
+asis             422 SNSSLALRLWVEDPKKLKGKHKDNEAIEFSFNLETDTPEEVAYEMVKSGF    471
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             472 FHESDSKAVAKSIRDRVTPIKKTREKKPAGCLEERRDSQCKSMGNVFPQP    521
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             522 QNTTLPLAPAQQTGAECEETEVDQHVRQQLLQRKPQQHCSSVTGDNLSEA    571
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             572 GAASVIHSDTSSQPSVAYSSNQTMGSQMVSNIPQAEVNVPGQIYSSQQLV    621
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             622 GHYQQVSGLQKHSKLTQPQILPLVQGQSTVLPVHVLGPTVVSQPQVSPLT    671
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             672 VQKVPQIKPVSQPVGAEQQAALLKPDLVRSLNQDVATTKENVSSPDNPSG    721
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             722 NGKQDRIKQRRASCPRPEKGTKFQLTVLQVSTSGDNMVECQLETHNNKMV    771
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             772 TFKFDVDGDAPEDIADYMVEDNFVLESEKEKFVEELRAIVGQAQEILHVH    821
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             822 FATERATGVDSITVDSNSSQTGSSEQVQINSTSTQTSNESAPQSSPVGRW    871
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             872 RFCINQTIRNRETQSPPSLQHSMSAVPGRHPLPSPKNTSNKEISRDTLLT    921
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             922 IENNPCHRALFTSKSEHKDVVDGKISECASVETKQPAILYQVEDNRQIMA    971
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis             972 PVTNSSSYSTTSVRAVPAECEGLTKQASIFIPVYPCHQTASQADALMSHP   1021
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1022 GESTQTSGNSLTTLAFDQKPQTLSVQQPAMDAEFISQEGETTVNTEASSP   1071
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1072 KTVIPTQTPGLEPTTLQPTTVLESDGERPPKLEFADNRIKTLDEKLRNLL   1121
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1122 YQEHSISSIYPESQKDTQSIDSPFSSSAEDTLSCPVTEVIAISHCGIKDS   1171
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1172 PVQSPNFQQTGSKLLSNVAASQPANISVFKRDLNVITSVPSELCLHEMSS   1221
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1222 DASLPGDPEAYPAAVSSGGAIHLQTGGGYFGLSFTCPSLKNPISKKSWTR   1271
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1272 KLKSWAYRLRQSTSFFKRSKVRQVETEEMRSAIAPDPIPLTRESTADTRA   1321
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1322 LNRCKAMSGSFQRGRFQVITIPQQQSAKMTSFGIEHISVFSETNHSSEEA   1371
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1372 FIKTAKSQLVEIEPATQNPKTSFSYEKLQALQETCKENKGVPKQGDNFLS   1421
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1422 FSAACETDVSSVTPEKEFEETSATGSSMQSGSELLLKEREILTAGKQPSS   1471
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1472 DSEFSASLAGSGKSVAKTGPESNQCLPHHEEQAYAQTQSSLFYSPSSPMS   1521
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1522 SDDESEIEDEDLKVELQRLREKHIQEVVNLQTQQNKELQELYERLRSIKD   1571
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1572 SKTQSTEIPLPPASPRRPRSFKSKLRSRPQSLTHVDNGIVATGKSCLINE   1621
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1622 LENPLCVESNAASCQQSPASKKGMFTDDLHKLVDDWTKEAVGNSLIKPSL   1671
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1672 NQLKQSQHKLETENWNKVSENTPSTMGYTSTWISSLSQIRGAVPTSLPQG   1721
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1722 LSLPSFPGPLSSYGMPHVCQYNAVAGAGYPVQWVGISGTTQQSVVIPAQS   1771
+                                                                       
+asis             414 --------------------------------------------------    414
+
+asis            1772 GGPFQPGMNMQAFPTSSVQNPATIPPGPK   1800
+                                                  
+asis             414 -----------------------------    414
+
+
+#---------------------------------------
+#---------------------------------------

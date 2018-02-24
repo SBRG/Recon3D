@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-01-15" modified="2017-12-20" version="120">
+<accession>Q9UQ10</accession>
+<name>DHDH_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Trans-1,2-dihydrobenzene-1,2-diol dehydrogenase</fullName>
+<ecNumber>1.3.1.20</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>D-xylose 1-dehydrogenase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>D-xylose-NADP dehydrogenase</fullName>
+<ecNumber>1.1.1.179</ecNumber>
+</alternativeName>
+<alternativeName>
+<fullName>Dimeric dihydrodiol dehydrogenase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Hum2DD</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">DHDH</name>
+<name type="synonym">2DD</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1999" name="Biochem. J." volume="342" first="721" last="728">
+<title>Cloning and sequencing of the cDNA species for mammalian dimeric dihydrodiol dehydrogenases.</title>
+<authorList>
+<person name="Arimitsu E."/>
+<person name="Aoki S."/>
+<person name="Ishikura S."/>
+<person name="Nakanishi K."/>
+<person name="Matsuura K."/>
+<person name="Hara A."/>
+</authorList>
+<dbReference type="PubMed" id="10477285"/>
+<dbReference type="DOI" id="10.1042/bj3420721"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>SUBUNIT</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<source>
+<tissue>Small intestine</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="submission" date="2005-07" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Mural R.J."/>
+<person name="Istrail S."/>
+<person name="Sutton G.G."/>
+<person name="Florea L."/>
+<person name="Halpern A.L."/>
+<person name="Mobarry C.M."/>
+<person name="Lippert R."/>
+<person name="Walenz B."/>
+<person name="Shatkay H."/>
+<person name="Dew I."/>
+<person name="Miller J.R."/>
+<person name="Flanigan M.J."/>
+<person name="Edwards N.J."/>
+<person name="Bolanos R."/>
+<person name="Fasulo D."/>
+<person name="Halldorsson B.V."/>
+<person name="Hannenhalli S."/>
+<person name="Turner R."/>
+<person name="Yooseph S."/>
+<person name="Lu F."/>
+<person name="Nusskern D.R."/>
+<person name="Shue B.C."/>
+<person name="Zheng X.H."/>
+<person name="Zhong F."/>
+<person name="Delcher A.L."/>
+<person name="Huson D.H."/>
+<person name="Kravitz S.A."/>
+<person name="Mouchard L."/>
+<person name="Reinert K."/>
+<person name="Remington K.A."/>
+<person name="Clark A.G."/>
+<person name="Waterman M.S."/>
+<person name="Eichler E.E."/>
+<person name="Adams M.D."/>
+<person name="Hunkapiller M.W."/>
+<person name="Myers E.W."/>
+<person name="Venter J.C."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Uterus</tissue>
+</source>
+</reference>
+<comment type="catalytic activity">
+<text>Trans-1,2-dihydrobenzene-1,2-diol + NADP(+) = catechol + NADPH.</text>
+</comment>
+<comment type="catalytic activity">
+<text>D-xylose + NADP(+) = D-xylono-1,5-lactone + NADPH.</text>
+</comment>
+<comment type="subunit">
+<text evidence="2">Homodimer.</text>
+</comment>
+<comment type="tissue specificity">
+<text evidence="2">Small intestine.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the Gfo/Idh/MocA family.</text>
+</comment>
+<dbReference type="EC" id="1.3.1.20"/>
+<dbReference type="EC" id="1.1.1.179"/>
+<dbReference type="EMBL" id="BC032730">
+<property type="protein sequence ID" value="AAH32730.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB021933">
+<property type="protein sequence ID" value="BAA83490.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CH471177">
+<property type="protein sequence ID" value="EAW52414.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS12741.1"/>
+<dbReference type="RefSeq" id="NP_055290.1">
+<property type="nucleotide sequence ID" value="NM_014475.3"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.631555"/>
+<dbReference type="ProteinModelPortal" id="Q9UQ10"/>
+<dbReference type="SMR" id="Q9UQ10"/>
+<dbReference type="BioGrid" id="118118">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000221403"/>
+<dbReference type="PhosphoSitePlus" id="Q9UQ10"/>
+<dbReference type="BioMuta" id="DHDH"/>
+<dbReference type="DMDM" id="74735193"/>
+<dbReference type="PaxDb" id="Q9UQ10"/>
+<dbReference type="PRIDE" id="Q9UQ10"/>
+<dbReference type="DNASU" id="27294"/>
+<dbReference type="Ensembl" id="ENST00000221403">
+<property type="protein sequence ID" value="ENSP00000221403"/>
+<property type="gene ID" value="ENSG00000104808"/>
+</dbReference>
+<dbReference type="GeneID" id="27294"/>
+<dbReference type="KEGG" id="hsa:27294"/>
+<dbReference type="UCSC" id="uc002ple.1">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="27294"/>
+<dbReference type="DisGeNET" id="27294"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000104808.7"/>
+<dbReference type="GeneCards" id="DHDH"/>
+<dbReference type="HGNC" id="HGNC:17887">
+<property type="gene designation" value="DHDH"/>
+</dbReference>
+<dbReference type="HPA" id="HPA044131"/>
+<dbReference type="MIM" id="606377">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q9UQ10"/>
+<dbReference type="OpenTargets" id="ENSG00000104808"/>
+<dbReference type="PharmGKB" id="PA27322"/>
+<dbReference type="eggNOG" id="KOG2741">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0673">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000007946"/>
+<dbReference type="HOGENOM" id="HOG000227440"/>
+<dbReference type="HOVERGEN" id="HBG105348"/>
+<dbReference type="InParanoid" id="Q9UQ10"/>
+<dbReference type="KO" id="K00078"/>
+<dbReference type="OMA" id="INYCQYS"/>
+<dbReference type="OrthoDB" id="EOG091G0DNU"/>
+<dbReference type="PhylomeDB" id="Q9UQ10"/>
+<dbReference type="TreeFam" id="TF324504"/>
+<dbReference type="GenomeRNAi" id="27294"/>
+<dbReference type="PRO" id="PR:Q9UQ10"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 19"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000104808"/>
+<dbReference type="CleanEx" id="HS_DHDH"/>
+<dbReference type="ExpressionAtlas" id="Q9UQ10">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q9UQ10">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0047837">
+<property type="term" value="F:D-xylose 1-dehydrogenase (NADP+) activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009055">
+<property type="term" value="F:electron transfer activity"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008746">
+<property type="term" value="F:NAD(P)+ transhydrogenase activity"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0047115">
+<property type="term" value="F:trans-1,2-dihydrobenzene-1,2-diol dehydrogenase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005975">
+<property type="term" value="P:carbohydrate metabolic process"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042843">
+<property type="term" value="P:D-xylose catabolic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036291">
+<property type="entry name" value="NAD(P)-bd_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000683">
+<property type="entry name" value="Oxidoreductase_N"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01408">
+<property type="entry name" value="GFO_IDH_MocA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51735">
+<property type="entry name" value="SSF51735"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Trans-1,2-dihydrobenzene-1,2-diol dehydrogenase" id="PRO_0000315361">
+<location>
+<begin position="1"/>
+<end position="334"/>
+</location>
+</feature>
+<feature type="site" description="May play an important role in coenzyme binding" evidence="1">
+<location>
+<position position="71"/>
+</location>
+</feature>
+<feature type="site" description="May play an important role in coenzyme binding" evidence="1">
+<location>
+<position position="79"/>
+</location>
+</feature>
+<feature type="site" description="May play an important role in coenzyme binding" evidence="1">
+<location>
+<position position="97"/>
+</location>
+</feature>
+<feature type="site" description="May play an important role for the adaptation of the alcohol substrate into the binding site" evidence="1">
+<location>
+<position position="176"/>
+</location>
+</feature>
+<feature type="site" description="May play an important role in catalytic activity" evidence="1">
+<location>
+<position position="180"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs10401800." id="VAR_038174">
+<original>A</original>
+<variation>P</variation>
+<location>
+<position position="2"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs2270941." id="VAR_038175">
+<original>S</original>
+<variation>N</variation>
+<location>
+<position position="66"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs35453148." id="VAR_038176">
+<original>V</original>
+<variation>M</variation>
+<location>
+<position position="200"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs11666105." id="VAR_038177">
+<original>V</original>
+<variation>A</variation>
+<location>
+<position position="247"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs3765148." id="VAR_038178">
+<original>G</original>
+<variation>R</variation>
+<location>
+<position position="282"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10477285"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="334" mass="36382" checksum="1E2E11DF0B55214B" modified="2000-05-01" version="1">
+MALRWGIVSVGLISSDFTAVLQTLPRSEHQVVAVAARDLSRAKEFAQKHDIPKAYGSYEE
+LAKDPSVEVAYIGTQHPQHKAAVMLCLAAGKAVLCEKPTGVNAAEVREMVAEARSRALFL
+MEAIWTRFFPASEALRSVLAQGTLGDLRVARAEFGKNLIHVPRAVDRAQAGGALLDIGIY
+CVQFTSMVFGGQKPEKISVVGRRHETGVDDTVTVLLQYPGEVHGSFTCSITVQLSNTASV
+SGTKGMVQLLNPCWCPTELVVKGEHKEFPLPPVPKDCNFDNGAGMSYEAKHVWECLRKGM
+KESPVIPLSESELLADILEEVRKAIGVTFPQDKR
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

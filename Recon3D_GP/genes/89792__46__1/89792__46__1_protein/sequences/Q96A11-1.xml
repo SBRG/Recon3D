@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2004-05-10" modified="2017-09-27" version="120">
+<accession>Q96A11</accession>
+<accession>Q14D05</accession>
+<name>G3ST3_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Galactose-3-O-sulfotransferase 3</fullName>
+<shortName>Gal3ST-3</shortName>
+<ecNumber>2.8.2.-</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Beta-galactose-3-O-sulfotransferase 3</fullName>
+<shortName>Gal3ST3</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>Gal-beta-1, 3-GalNAc 3'-sulfotransferase 3</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">GAL3ST3</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2001" name="J. Biol. Chem." volume="276" first="26988" last="26994">
+<title>A novel human Gal-3-O-sulfotransferase: molecular cloning, characterization, and its implications in biosynthesis of (SO4-3)Galbeta 1-4(Fucalpha 1-3)GlcNAc.</title>
+<authorList>
+<person name="El-Fasakhany F.M."/>
+<person name="Uchimura K."/>
+<person name="Kannagi R."/>
+<person name="Muramatsu T."/>
+</authorList>
+<dbReference type="PubMed" id="11356829"/>
+<dbReference type="DOI" id="10.1074/jbc.M100348200"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<source>
+<tissue>Fetal brain</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2001" name="J. Biol. Chem." volume="276" first="24388" last="24395">
+<title>Molecular cloning and expression of a novel human beta-Gal-3-O-sulfotransferase that acts preferentially on N-acetyllactosamine in N- and O-glycans.</title>
+<authorList>
+<person name="Suzuki A."/>
+<person name="Hiraoka N."/>
+<person name="Suzuki M."/>
+<person name="Angata K."/>
+<person name="Misra A.K."/>
+<person name="McAuliffe J."/>
+<person name="Hindsgaul O."/>
+<person name="Fukuda M."/>
+</authorList>
+<dbReference type="PubMed" id="11323440"/>
+<dbReference type="DOI" id="10.1074/jbc.M103135200"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Brain</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2 3">Transfers a sulfate to position 3 of non-reducing beta-galactosyl residues in N-glycans and core2-branched O-glycans. Has high activity towards Gal-beta-1,4-GlcNAc, Gal-beta-1,4(Fuc-alpha-1,3)GlcNAc and lower activity towards Gal-beta-1,3(Fuc-alpha-1,4)GlcNAc.</text>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="biophysicochemical properties">
+<phDependence>
+<text>Optimum pH is 7.0-8.0.</text>
+</phDependence>
+</comment>
+<comment type="pathway">
+<text>Protein modification; carbohydrate sulfation.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Golgi apparatus</location>
+<location evidence="4">Golgi stack membrane</location>
+<topology evidence="4">Single-pass type II membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="2 3">Highly expressed in thyroid, brain, kidney, heart and spinal cord.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the galactose-3-O-sulfotransferase family.</text>
+</comment>
+<dbReference type="EC" id="2.8.2.-"/>
+<dbReference type="EMBL" id="AB053232">
+<property type="protein sequence ID" value="BAB61900.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY026481">
+<property type="protein sequence ID" value="AAK01945.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC113552">
+<property type="protein sequence ID" value="AAI13553.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC113554">
+<property type="protein sequence ID" value="AAI13555.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS8128.1"/>
+<dbReference type="RefSeq" id="NP_149025.1">
+<property type="nucleotide sequence ID" value="NM_033036.2"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.208343"/>
+<dbReference type="ProteinModelPortal" id="Q96A11"/>
+<dbReference type="SMR" id="Q96A11"/>
+<dbReference type="STRING" id="9606.ENSP00000308591"/>
+<dbReference type="iPTMnet" id="Q96A11"/>
+<dbReference type="PhosphoSitePlus" id="Q96A11"/>
+<dbReference type="BioMuta" id="GAL3ST3"/>
+<dbReference type="DMDM" id="47116425"/>
+<dbReference type="EPD" id="Q96A11"/>
+<dbReference type="PaxDb" id="Q96A11"/>
+<dbReference type="PeptideAtlas" id="Q96A11"/>
+<dbReference type="PRIDE" id="Q96A11"/>
+<dbReference type="Ensembl" id="ENST00000312006">
+<property type="protein sequence ID" value="ENSP00000308591"/>
+<property type="gene ID" value="ENSG00000175229"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000527878">
+<property type="protein sequence ID" value="ENSP00000434829"/>
+<property type="gene ID" value="ENSG00000175229"/>
+</dbReference>
+<dbReference type="GeneID" id="89792"/>
+<dbReference type="KEGG" id="hsa:89792"/>
+<dbReference type="UCSC" id="uc001ogv.4">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="89792"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000175229.6"/>
+<dbReference type="GeneCards" id="GAL3ST3"/>
+<dbReference type="HGNC" id="HGNC:24144">
+<property type="gene designation" value="GAL3ST3"/>
+</dbReference>
+<dbReference type="MIM" id="608234">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q96A11"/>
+<dbReference type="OpenTargets" id="ENSG00000175229"/>
+<dbReference type="PharmGKB" id="PA134864180"/>
+<dbReference type="eggNOG" id="ENOG410IIE9">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4110RXY">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000013505"/>
+<dbReference type="HOGENOM" id="HOG000232148"/>
+<dbReference type="HOVERGEN" id="HBG051681"/>
+<dbReference type="InParanoid" id="Q96A11"/>
+<dbReference type="KO" id="K09676"/>
+<dbReference type="OMA" id="FSYYNQY"/>
+<dbReference type="OrthoDB" id="EOG091G0N28"/>
+<dbReference type="PhylomeDB" id="Q96A11"/>
+<dbReference type="TreeFam" id="TF314802"/>
+<dbReference type="UniPathway" id="UPA00353"/>
+<dbReference type="GeneWiki" id="GAL3ST3"/>
+<dbReference type="GenomeRNAi" id="89792"/>
+<dbReference type="PRO" id="PR:Q96A11"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 11"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000175229"/>
+<dbReference type="CleanEx" id="HS_GAL3ST3"/>
+<dbReference type="Genevisible" id="Q96A11">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032580">
+<property type="term" value="C:Golgi cisterna membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050656">
+<property type="term" value="F:3'-phosphoadenosine 5'-phosphosulfate binding"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030246">
+<property type="term" value="F:carbohydrate binding"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050694">
+<property type="term" value="F:galactose 3-O-sulfotransferase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001733">
+<property type="term" value="F:galactosylceramide sulfotransferase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050698">
+<property type="term" value="F:proteoglycan sulfotransferase activity"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009247">
+<property type="term" value="P:glycolipid biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005996">
+<property type="term" value="P:monosaccharide metabolic process"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009311">
+<property type="term" value="P:oligosaccharide metabolic process"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030309">
+<property type="term" value="P:poly-N-acetyllactosamine metabolic process"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030166">
+<property type="term" value="P:proteoglycan biosynthetic process"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006790">
+<property type="term" value="P:sulfur compound metabolic process"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009729">
+<property type="entry name" value="Gal-3-0_sulfotransfrase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14647">
+<property type="entry name" value="PTHR14647"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF06990">
+<property type="entry name" value="Gal-3-0_sulfotr"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0333">Golgi apparatus</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0735">Signal-anchor</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Galactose-3-O-sulfotransferase 3" id="PRO_0000085206">
+<location>
+<begin position="1"/>
+<end position="431"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="1"/>
+<end position="19"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Signal-anchor for type II membrane protein" evidence="1">
+<location>
+<begin position="20"/>
+<end position="40"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="1">
+<location>
+<begin position="41"/>
+<end position="431"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="1">
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="1">
+<location>
+<position position="110"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="1">
+<location>
+<position position="177"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="1">
+<location>
+<position position="302"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs35285455." id="VAR_053988">
+<original>A</original>
+<variation>D</variation>
+<location>
+<position position="221"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs4565902." id="VAR_053989">
+<original>E</original>
+<variation>A</variation>
+<location>
+<position position="410"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11323440"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11356829"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="431" mass="48956" checksum="3E1B8418A72A5EB6" modified="2001-12-01" version="1">
+MPPILQRLQQATKMMSRRKILLLVLGCSTVSLLIHQGAQLSWYPKLFPLSCPPLRNSPPR
+PKHMTVAFLKTHKTAGTTVQNILFRFAERHNLTVALPHPSCEHQFCYPRNFSAHFVHPAT
+RPPHVLASHLRFDRAELERLMPPSTVYVTILREPAAMFESLFSYYNQYCPAFRRVPNASL
+EAFLRAPEAYYRAGEHFAMFAHNTLAYDLGGDNERSPRDDAAYLAGLIRQVEEVFSLVMI
+AEYFDESLVLLRRLLAWDLDDVLYAKLNARAASSRLAAIPAALARAARTWNALDAGLYDH
+FNATFWRHVARAGRACVEREARELREARQRLLRRCFGDEPLLRPAAQIRTKQLQPWQPSR
+KVDIMGYDLPGGGAGPATEACLKLAMPEVQYSNYLLRKQKRRGGARARPEPVLDNPPPRP
+IRVLPRGPQGP
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

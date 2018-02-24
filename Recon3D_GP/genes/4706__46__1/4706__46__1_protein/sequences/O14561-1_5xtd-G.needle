@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:02:57
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/4706.1/4706.1_protein/sequences/O14561-1_5xtd-G.needle
+#    -asequence asis::MASRVLSAYVSRLPAAFAPLPRVRMLAVARPLSTALCSAGTQTRLGTLQPALVLAQVPGRVTQLCRQYSDMPPLTLEGIQDRVLYVLKLYDKIDPEKLSVNSHFMKDLGLDSLDQVEIIMAMEDEFGFEIPDIDAEKLMCPQEIVDYIADKKDVYE
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXPPLTLEGIQDRVLYVLKLYDKIDPEKLSVNSHFMKDLGLDSLDQVEIIMAMEDEFGFEIPDIDAEKLMCPQEIVDYIADKKDVYE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/4706.1/4706.1_protein/sequences/O14561-1_5xtd-G.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 224
+# Identity:      85/224 (37.9%)
+# Similarity:    85/224 (37.9%)
+# Gaps:         136/224 (60.7%)
+# Score: 394.5
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               1 ------------------MASRVLSAYVSRLPAAFAPLPRVRMLAVARPL     32
+                                       ...                             
+asis              51 XXXXXXXXXXXXXXXXXXXXX-----------------------------     71
+
+asis              33 STALCSAGTQTRLGTLQPALVLAQVPGRVTQLCRQYSDMPPLTLEGIQDR     82
+                                                            |||||||||||
+asis              72 ---------------------------------------PPLTLEGIQDR     82
+
+asis              83 VLYVLKLYDKIDPEKLSVNSHFMKDLGLDSLDQVEIIMAMEDEFGFEIPD    132
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              83 VLYVLKLYDKIDPEKLSVNSHFMKDLGLDSLDQVEIIMAMEDEFGFEIPD    132
+
+asis             133 IDAEKLMCPQEIVDYIADKKDVYE    156
+                     ||||||||||||||||||||||||
+asis             133 IDAEKLMCPQEIVDYIADKKDVYE    156
+
+
+#---------------------------------------
+#---------------------------------------

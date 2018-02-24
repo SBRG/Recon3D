@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:12:05
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/4712.2/4712.2_protein/sequences/O95139-2_5xtc-b.needle
+#    -asequence asis::MTGYTPDEKLRLQQLRELRRRWLKDQELSPREPVLPPQKMGPMEKFWNKFLENKSPWRKMVHGVYKKSIFVFTHVLVPVWIIHYYMKYHVSGDTILETGEVIPPMKEFPDQHH
+#    -bsequence asis::XXGYTPDEKLRLQQLRELRRRWLKDQELSPREPVLPPQKMGPMEKFWNKFLENKSPWRKMVHGVYKKSIFVFTHVLVPVWIIHYYMKYHVSEKPYGIVEKKSRIFPGDTILETGEVIPPMKEFPDQ
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/4712.2/4712.2_protein/sequences/O95139-2_5xtc-b.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:     109/128 (85.2%)
+# Similarity:   109/128 (85.2%)
+# Gaps:          17/128 (13.3%)
+# Score: 583.0
+# 
+#
+#=======================================
+
+asis               1 MTGYTPDEKLRLQQLRELRRRWLKDQELSPREPVLPPQKMGPMEKFWNKF     50
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXGYTPDEKLRLQQLRELRRRWLKDQELSPREPVLPPQKMGPMEKFWNKF     50
+
+asis              51 LENKSPWRKMVHGVYKKSIFVFTHVLVPVWIIHYYMKYHVS---------     91
+                     |||||||||||||||||||||||||||||||||||||||||         
+asis              51 LENKSPWRKMVHGVYKKSIFVFTHVLVPVWIIHYYMKYHVSEKPYGIVEK    100
+
+asis              92 ------GDTILETGEVIPPMKEFPDQHH    113
+                           ||||||||||||||||||||  
+asis             101 KSRIFPGDTILETGEVIPPMKEFPDQ--    126
+
+
+#---------------------------------------
+#---------------------------------------

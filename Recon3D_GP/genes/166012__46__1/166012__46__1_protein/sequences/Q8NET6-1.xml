@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-03-15" modified="2017-09-27" version="119">
+<accession>Q8NET6</accession>
+<accession>Q3SYA3</accession>
+<accession>Q3SYA5</accession>
+<name>CHSTD_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Carbohydrate sulfotransferase 13</fullName>
+<ecNumber>2.8.2.5</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Chondroitin 4-O-sulfotransferase 3</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Chondroitin 4-sulfotransferase 3</fullName>
+<shortName>C4ST-3</shortName>
+<shortName>C4ST3</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">CHST13</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2002" name="J. Biol. Chem." volume="277" first="34766" last="34772">
+<title>Molecular cloning and characterization of chondroitin-4-O-sulfotransferase-3. A novel member of the HNK-1 family of sulfotransferases.</title>
+<authorList>
+<person name="Kang H.-G."/>
+<person name="Evers M.R."/>
+<person name="Xia G."/>
+<person name="Baenziger J.U."/>
+<person name="Schachner M."/>
+</authorList>
+<dbReference type="PubMed" id="12080076"/>
+<dbReference type="DOI" id="10.1074/jbc.M204907200"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+<scope>ENZYME ACTIVITY</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)</scope>
+<scope>VARIANTS VAL-271 AND GLN-317</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+<title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+<authorList>
+<person name="Bian Y."/>
+<person name="Song C."/>
+<person name="Cheng K."/>
+<person name="Dong M."/>
+<person name="Wang F."/>
+<person name="Huang J."/>
+<person name="Sun D."/>
+<person name="Wang L."/>
+<person name="Ye M."/>
+<person name="Zou H."/>
+</authorList>
+<dbReference type="PubMed" id="24275569"/>
+<dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+</citation>
+<scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-139</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Liver</tissue>
+</source>
+</reference>
+<comment type="function">
+<text>Catalyzes the transfer of sulfate to position 4 of the N-acetylgalactosamine (GalNAc) residue of chondroitin. Chondroitin sulfate constitutes the predominant proteoglycan present in cartilage and is distributed on the surfaces of many cells and extracellular matrices. Transfers sulfate to the C4 hydroxyl of beta1,4-linked GalNAc that is substituted with a beta-linked glucuronic acid at the C-3 hydroxyl. No activity toward dermatan.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="4">3'-phosphoadenylyl sulfate + chondroitin = adenosine 3',5'-bisphosphate + chondroitin 4'-sulfate.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Golgi apparatus membrane</location>
+<topology evidence="2">Single-pass type II membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>Q8NET6-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>Q8NET6-2</id>
+<name>2</name>
+<sequence type="described" ref="VSP_057175 VSP_057176"/>
+<text>No experimental confirmation available.</text>
+</isoform>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4">Highly expressed in adult liver. Expressed at lower level in kidney, lymph nodes and fetal kidney.</text>
+</comment>
+<comment type="similarity">
+<text evidence="7">Belongs to the sulfotransferase 2 family.</text>
+</comment>
+<dbReference type="EC" id="2.8.2.5"/>
+<dbReference type="EMBL" id="AY120869">
+<property type="protein sequence ID" value="AAM55481.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC103895">
+<property type="protein sequence ID" value="AAI03896.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC103896">
+<property type="protein sequence ID" value="AAI03897.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC103897">
+<property type="protein sequence ID" value="AAI03898.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS3039.1">
+<molecule id="Q8NET6-1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_690849.1">
+<molecule id="Q8NET6-1"/>
+<property type="nucleotide sequence ID" value="NM_152889.2"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.292375"/>
+<dbReference type="ProteinModelPortal" id="Q8NET6"/>
+<dbReference type="BioGrid" id="127923">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="IntAct" id="Q8NET6">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000317404"/>
+<dbReference type="iPTMnet" id="Q8NET6"/>
+<dbReference type="PhosphoSitePlus" id="Q8NET6"/>
+<dbReference type="BioMuta" id="CHST13"/>
+<dbReference type="EPD" id="Q8NET6"/>
+<dbReference type="MaxQB" id="Q8NET6"/>
+<dbReference type="PaxDb" id="Q8NET6"/>
+<dbReference type="PeptideAtlas" id="Q8NET6"/>
+<dbReference type="PRIDE" id="Q8NET6"/>
+<dbReference type="Ensembl" id="ENST00000319340">
+<molecule id="Q8NET6-1"/>
+<property type="protein sequence ID" value="ENSP00000317404"/>
+<property type="gene ID" value="ENSG00000180767"/>
+</dbReference>
+<dbReference type="GeneID" id="166012"/>
+<dbReference type="KEGG" id="hsa:166012"/>
+<dbReference type="UCSC" id="uc003eja.4">
+<molecule id="Q8NET6-1"/>
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="166012"/>
+<dbReference type="DisGeNET" id="166012"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000180767.9"/>
+<dbReference type="GeneCards" id="CHST13"/>
+<dbReference type="HGNC" id="HGNC:21755">
+<property type="gene designation" value="CHST13"/>
+</dbReference>
+<dbReference type="MIM" id="610124">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q8NET6"/>
+<dbReference type="OpenTargets" id="ENSG00000180767"/>
+<dbReference type="PharmGKB" id="PA134976803"/>
+<dbReference type="eggNOG" id="KOG4651">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4111GJR">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00760000119214"/>
+<dbReference type="HOGENOM" id="HOG000132921"/>
+<dbReference type="HOVERGEN" id="HBG050952"/>
+<dbReference type="InParanoid" id="Q8NET6"/>
+<dbReference type="KO" id="K07779"/>
+<dbReference type="OMA" id="EFVYYLV"/>
+<dbReference type="OrthoDB" id="EOG091G0FZO"/>
+<dbReference type="PhylomeDB" id="Q8NET6"/>
+<dbReference type="TreeFam" id="TF325581"/>
+<dbReference type="BioCyc" id="MetaCyc:HS11524-MONOMER"/>
+<dbReference type="BRENDA" id="2.8.2.5">
+<property type="organism ID" value="2681"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-2022870">
+<property type="pathway name" value="Chondroitin sulfate biosynthesis"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="CHST13">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="GenomeRNAi" id="166012"/>
+<dbReference type="PRO" id="PR:Q8NET6"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 3"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000180767"/>
+<dbReference type="CleanEx" id="HS_CHST13"/>
+<dbReference type="ExpressionAtlas" id="Q8NET6">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q8NET6">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000139">
+<property type="term" value="C:Golgi membrane"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0047756">
+<property type="term" value="F:chondroitin 4-sulfotransferase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001537">
+<property type="term" value="F:N-acetylgalactosamine 4-O-sulfotransferase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016051">
+<property type="term" value="P:carbohydrate biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030206">
+<property type="term" value="P:chondroitin sulfate biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018011">
+<property type="entry name" value="Carb_sulfotrans_8-10"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005331">
+<property type="entry name" value="Sulfotransferase"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR12137">
+<property type="entry name" value="PTHR12137"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03567">
+<property type="entry name" value="Sulfotransfer_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0119">Carbohydrate metabolism</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0333">Golgi apparatus</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0735">Signal-anchor</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Carbohydrate sulfotransferase 13" id="PRO_0000189671">
+<location>
+<begin position="1"/>
+<end position="341"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="1"/>
+<end position="9"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Signal-anchor for type II membrane protein" evidence="3">
+<location>
+<begin position="10"/>
+<end position="30"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="3">
+<location>
+<begin position="31"/>
+<end position="341"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="PAPS" evidence="2">
+<location>
+<begin position="113"/>
+<end position="119"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="PAPS" evidence="2">
+<location>
+<begin position="174"/>
+<end position="182"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="Cell attachment site" evidence="3">
+<location>
+<begin position="132"/>
+<end position="134"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="1">
+<location>
+<position position="139"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="331"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_057175" evidence="6">
+<original>PYSAAFQRRYGARIVQRLRPRALPDARARGHDVRF</original>
+<variation>TRSATRVASATTSWASSRRWRRTRPSCWAWRAHPT</variation>
+<location>
+<begin position="191"/>
+<end position="225"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_057176" evidence="6">
+<location>
+<begin position="226"/>
+<end position="341"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs34311016." id="VAR_053698">
+<original>P</original>
+<variation>S</variation>
+<location>
+<position position="146"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs1056523." id="VAR_021477" evidence="5">
+<original>A</original>
+<variation>V</variation>
+<location>
+<position position="271"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs1056522." id="VAR_021478" evidence="5">
+<original>R</original>
+<variation>Q</variation>
+<location>
+<position position="317"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PubMed" id="24275569"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12080076"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15489334"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="15489334"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000305"/>
+<sequence length="341" mass="38920" checksum="A372134675D661F6" modified="2002-10-01" version="1">
+MGRRCCRRRVLAAACLGAALLLLCAAPRSLRPAFGNRALGSSWLGGEKRSPLQKLYDLDQ
+DPRSTLAKVHRQRRDLLNSACSRHSRRQRLLQPEDLRHVLVDDAHGLLYCYVPKVACTNW
+KRVLLALSGQARGDPRAISAQEAHAPGRLPSLADFSPAEINRRLRAYLAFLFVREPFERL
+ASAYRNKLARPYSAAFQRRYGARIVQRLRPRALPDARARGHDVRFAEFLAYLLDPRTRRE
+EPFNEHWERAHALCHPCRLRYDVVGKFETLAEDAAFVLGLAGASDLSFPGPPRPRGAAAS
+RDLAARLFRDISPFYQRRLFDLYKMDFLLFNYSAPSYLRLL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

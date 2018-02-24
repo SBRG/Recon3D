@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:11:23
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/29796.2/29796.2_protein/sequences/Q9UDW1-2_5xti-AQ.needle
+#    -asequence asis::MAAATLTSKLYSLLFRRTSTFALTIIVGVMFFERAFDQGADAIYDHINEGVRACAIPDLGPA
+#    -bsequence asis::XAAATLTSKLYSLLFRRTSTFALTIIVGVMFFERAFDQGADAIYDHINEGKLWKHIKHKYENK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/29796.2/29796.2_protein/sequences/Q9UDW1-2_5xti-AQ.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      50/70 (71.4%)
+# Similarity:    50/70 (71.4%)
+# Gaps:          15/70 (21.4%)
+# Score: 227.0
+# 
+#
+#=======================================
+
+asis               1 MAAATLTSKLYSLLFRRTSTFALTIIVGVMFFERAFDQGADAIYDHINEG     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XAAATLTSKLYSLLFRRTSTFALTIIVGVMFFERAFDQGADAIYDHINEG     50
+
+asis              51 VRACAIPDLGPA--------     62
+                            .|...        
+asis              51 -------KLWKHIKHKYENK     63
+
+
+#---------------------------------------
+#---------------------------------------

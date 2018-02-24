@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-10-02" modified="2017-09-27" version="97">
+<accession>Q08AH1</accession>
+<accession>Q08AH2</accession>
+<accession>Q96A20</accession>
+<name>ACSM1_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Acyl-coenzyme A synthetase ACSM1, mitochondrial</fullName>
+<ecNumber>6.2.1.2</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Acyl-CoA synthetase medium-chain family member 1</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Butyrate--CoA ligase 1</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Butyryl-coenzyme A synthetase 1</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Lipoate-activating enzyme</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Middle-chain acyl-CoA synthetase 1</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">ACSM1</name>
+<name type="synonym">BUCS1</name>
+<name type="synonym">LAE</name>
+<name type="synonym">MACS1</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2001" name="J. Biol. Chem." volume="276" first="35961" last="35966">
+<title>Molecular identification and characterization of two medium-chain acyl-CoA synthetases, MACS1 and the Sa gene product.</title>
+<authorList>
+<person name="Fujino T."/>
+<person name="Takei Y.A."/>
+<person name="Sone H."/>
+<person name="Ioka R.X."/>
+<person name="Kamataki A."/>
+<person name="Magoori K."/>
+<person name="Takahashi S."/>
+<person name="Sakai J."/>
+<person name="Yamamoto T.T."/>
+</authorList>
+<dbReference type="PubMed" id="11470804"/>
+<dbReference type="DOI" id="10.1074/jbc.M106651200"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA] (ISOFORM 1)</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+<title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+<authorList>
+<person name="Bian Y."/>
+<person name="Song C."/>
+<person name="Cheng K."/>
+<person name="Dong M."/>
+<person name="Wang F."/>
+<person name="Huang J."/>
+<person name="Sun D."/>
+<person name="Wang L."/>
+<person name="Ye M."/>
+<person name="Zou H."/>
+</authorList>
+<dbReference type="PubMed" id="24275569"/>
+<dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Liver</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Has medium-chain fatty acid:CoA ligase activity with broad substrate specificity (in vitro). Acts on acids from C(4) to C(11) and on the corresponding 3-hydroxy- and 2,3- or 3,4-unsaturated acids (in vitro). Functions as GTP-dependent lipoate-activating enzyme that generates the substrate for lipoyltransferase (By similarity).</text>
+</comment>
+<comment type="catalytic activity">
+<text>ATP + a carboxylate + CoA = AMP + diphosphate + an acyl-CoA.</text>
+</comment>
+<comment type="catalytic activity">
+<text>GTP + lipoate = diphosphate + lipoyl-GMP.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="subunit">
+<text evidence="1">Monomer.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2818055"/>
+<interactant intactId="EBI-5650739">
+<id>P43356</id>
+<label>MAGEA2B</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2818055"/>
+<interactant intactId="EBI-11522433">
+<id>Q5JR59-3</id>
+<label>MTUS2</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Mitochondrion matrix</location>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>Q08AH1-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>Q08AH1-2</id>
+<name>2</name>
+<sequence type="described" ref="VSP_028391"/>
+</isoform>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the ATP-dependent AMP-binding enzyme family.</text>
+</comment>
+<dbReference type="EC" id="6.2.1.2"/>
+<dbReference type="EMBL" id="AB059429">
+<property type="protein sequence ID" value="BAB64535.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB062503">
+<property type="protein sequence ID" value="BAB68363.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC125177">
+<property type="protein sequence ID" value="AAI25178.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC125178">
+<property type="protein sequence ID" value="AAI25179.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS10587.1">
+<molecule id="Q08AH1-1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001305819.1">
+<molecule id="Q08AH1-1"/>
+<property type="nucleotide sequence ID" value="NM_001318890.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_443188.2">
+<molecule id="Q08AH1-1"/>
+<property type="nucleotide sequence ID" value="NM_052956.2"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.306812"/>
+<dbReference type="ProteinModelPortal" id="Q08AH1"/>
+<dbReference type="SMR" id="Q08AH1"/>
+<dbReference type="BioGrid" id="125496">
+<property type="interactions" value="4"/>
+</dbReference>
+<dbReference type="IntAct" id="Q08AH1">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000301956"/>
+<dbReference type="SwissLipids" id="SLP:000000449"/>
+<dbReference type="iPTMnet" id="Q08AH1"/>
+<dbReference type="PhosphoSitePlus" id="Q08AH1"/>
+<dbReference type="BioMuta" id="ACSM1"/>
+<dbReference type="DMDM" id="121940002"/>
+<dbReference type="PaxDb" id="Q08AH1"/>
+<dbReference type="PeptideAtlas" id="Q08AH1"/>
+<dbReference type="PRIDE" id="Q08AH1"/>
+<dbReference type="TopDownProteomics" id="Q08AH1-1">
+<molecule id="Q08AH1-1"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000307493">
+<molecule id="Q08AH1-1"/>
+<property type="protein sequence ID" value="ENSP00000301956"/>
+<property type="gene ID" value="ENSG00000166743"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000519745">
+<molecule id="Q08AH1-2"/>
+<property type="protein sequence ID" value="ENSP00000428650"/>
+<property type="gene ID" value="ENSG00000166743"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000520010">
+<molecule id="Q08AH1-1"/>
+<property type="protein sequence ID" value="ENSP00000428047"/>
+<property type="gene ID" value="ENSG00000166743"/>
+</dbReference>
+<dbReference type="GeneID" id="116285"/>
+<dbReference type="KEGG" id="hsa:116285"/>
+<dbReference type="UCSC" id="uc002dhm.1">
+<molecule id="Q08AH1-1"/>
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="116285"/>
+<dbReference type="DisGeNET" id="116285"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000166743.9"/>
+<dbReference type="GeneCards" id="ACSM1"/>
+<dbReference type="H-InvDB" id="HIX0012861"/>
+<dbReference type="H-InvDB" id="HIX0022577"/>
+<dbReference type="HGNC" id="HGNC:18049">
+<property type="gene designation" value="ACSM1"/>
+</dbReference>
+<dbReference type="HPA" id="HPA046291"/>
+<dbReference type="MIM" id="614357">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q08AH1"/>
+<dbReference type="OpenTargets" id="ENSG00000166743"/>
+<dbReference type="PharmGKB" id="PA25468"/>
+<dbReference type="eggNOG" id="KOG1175">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0365">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00760000119178"/>
+<dbReference type="HOGENOM" id="HOG000229982"/>
+<dbReference type="HOVERGEN" id="HBG053031"/>
+<dbReference type="InParanoid" id="Q08AH1"/>
+<dbReference type="KO" id="K01896"/>
+<dbReference type="OMA" id="FTSIRFP"/>
+<dbReference type="OrthoDB" id="EOG091G03NW"/>
+<dbReference type="PhylomeDB" id="Q08AH1"/>
+<dbReference type="TreeFam" id="TF354287"/>
+<dbReference type="Reactome" id="R-HSA-177135">
+<property type="pathway name" value="Conjugation of benzoate with glycine"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-177162">
+<property type="pathway name" value="Conjugation of phenylacetate with glutamine"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="ACSM1">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="GenomeRNAi" id="116285"/>
+<dbReference type="PRO" id="PR:Q08AH1"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 16"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000166743"/>
+<dbReference type="CleanEx" id="HS_ACSM1"/>
+<dbReference type="ExpressionAtlas" id="Q08AH1">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q08AH1">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0072562">
+<property type="term" value="C:blood microparticle"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070062">
+<property type="term" value="C:extracellular exosome"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005759">
+<property type="term" value="C:mitochondrial matrix"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003996">
+<property type="term" value="F:acyl-CoA ligase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0047760">
+<property type="term" value="F:butyrate-CoA ligase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016405">
+<property type="term" value="F:CoA-ligase activity"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015645">
+<property type="term" value="F:fatty acid ligase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004321">
+<property type="term" value="F:fatty-acyl-CoA synthase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005525">
+<property type="term" value="F:GTP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006637">
+<property type="term" value="P:acyl-CoA metabolic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0018874">
+<property type="term" value="P:benzoate metabolic process"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019605">
+<property type="term" value="P:butyrate metabolic process"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042632">
+<property type="term" value="P:cholesterol homeostasis"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015980">
+<property type="term" value="P:energy derivation by oxidation of organic compounds"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006633">
+<property type="term" value="P:fatty acid biosynthetic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019395">
+<property type="term" value="P:fatty acid oxidation"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006805">
+<property type="term" value="P:xenobiotic metabolic process"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025110">
+<property type="entry name" value="AMP-bd_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020845">
+<property type="entry name" value="AMP-binding_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000873">
+<property type="entry name" value="AMP-dep_Synth/Lig"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00501">
+<property type="entry name" value="AMP-binding"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13193">
+<property type="entry name" value="AMP-binding_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00455">
+<property type="entry name" value="AMP_BINDING"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0007">Acetylation</keyword>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0276">Fatty acid metabolism</keyword>
+<keyword id="KW-0342">GTP-binding</keyword>
+<keyword id="KW-0436">Ligase</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0496">Mitochondrion</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Mitochondrion" evidence="1">
+<location>
+<begin position="1"/>
+<end position="31"/>
+</location>
+</feature>
+<feature type="chain" description="Acyl-coenzyme A synthetase ACSM1, mitochondrial" id="PRO_0000306091">
+<location>
+<begin position="32"/>
+<end position="577"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP" evidence="1">
+<location>
+<begin position="226"/>
+<end position="234"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP" evidence="1">
+<location>
+<position position="452"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP" evidence="1">
+<location>
+<position position="467"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP" evidence="1">
+<location>
+<position position="563"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-succinyllysine" evidence="2">
+<location>
+<position position="85"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-acetyllysine; alternate" evidence="2">
+<location>
+<position position="146"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-succinyllysine; alternate" evidence="2">
+<location>
+<position position="146"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-succinyllysine" evidence="2">
+<location>
+<position position="183"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-acetyllysine; alternate" evidence="2">
+<location>
+<position position="204"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-succinyllysine; alternate" evidence="2">
+<location>
+<position position="204"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-acetyllysine" evidence="2">
+<location>
+<position position="214"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-succinyllysine" evidence="2">
+<location>
+<position position="237"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-acetyllysine; alternate" evidence="2">
+<location>
+<position position="356"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-succinyllysine; alternate" evidence="2">
+<location>
+<position position="356"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-acetyllysine; alternate" evidence="2">
+<location>
+<position position="391"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-succinyllysine; alternate" evidence="2">
+<location>
+<position position="391"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-acetyllysine" evidence="2">
+<location>
+<position position="531"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-acetyllysine; alternate" evidence="2">
+<location>
+<position position="538"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-succinyllysine; alternate" evidence="2">
+<location>
+<position position="538"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-acetyllysine" evidence="2">
+<location>
+<position position="549"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_028391" evidence="3">
+<location>
+<begin position="205"/>
+<end position="577"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs16970511." id="VAR_048238">
+<original>I</original>
+<variation>M</variation>
+<location>
+<position position="272"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs8056709." id="VAR_035245">
+<original>I</original>
+<variation>V</variation>
+<location>
+<position position="479"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs16970453." id="VAR_035246">
+<original>I</original>
+<variation>T</variation>
+<location>
+<position position="515"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; BAB64535/BAB68363." ref="1" evidence="4">
+<original>K</original>
+<variation>N</variation>
+<location>
+<position position="549"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q91VA0"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="15489334"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="577" mass="65273" checksum="380BF4B8944B0E34" modified="2006-10-31" version="1" precursor="true">
+MQWLMRFRTLWGIHKSFHNIHPAPSQLRCRSLSEFGAPRWNDYEVPEEFNFASYVLDYWA
+QKEKEGKRGPNPAFWWVNGQGDEVKWSFREMGDLTRRVANVFTQTCGLQQGDHLALMLPR
+VPEWWLVAVGCMRTGIIFIPATILLKAKDILYRLQLSKAKGIVTIDALASEVDSIASQCP
+SLKTKLLVSDHSREGWLDFRSLVKSASPEHTCVKSKTLDPMVIFFTSGTTGFPKMAKHSH
+GLALQPSFPGSRKLRSLKTSDVSWCLSDSGWIVATIWTLVEPWTAGCTVFIHHLPQFDTK
+VIIQTLLKYPINHFWGVSSIYRMILQQDFTSIRFPALEHCYTGGEVVLPKDQEEWKRRTG
+LLLYENYGQSETGLICATYWGMKIKPGFMGKATPPYDVQVIDDKGSILPPNTEGNIGIRI
+KPVRPVSLFMCYEGDPEKTAKVECGDFYNTGDRGKMDEEGYICFLGRSDDIINASGYRIG
+PAEVESALVEHPAVAESAVVGSPDPIRGEVVKAFIVLTPQFLSHDKDQLTKELQQHVKSV
+TAPYKYPRKVEFVSELPKTITGKIERKELRKKETGQM
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

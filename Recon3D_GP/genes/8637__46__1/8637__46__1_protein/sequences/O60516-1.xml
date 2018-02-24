@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-09-19" modified="2017-10-25" version="126">
+<accession>O60516</accession>
+<name>4EBP3_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Eukaryotic translation initiation factor 4E-binding protein 3</fullName>
+<shortName>4E-BP3</shortName>
+<shortName>eIF4E-binding protein 3</shortName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">EIF4EBP3</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1998" name="J. Biol. Chem." volume="273" first="14002" last="14007">
+<title>4E-BP3, a new member of the eukaryotic initiation factor 4E-binding protein family.</title>
+<authorList>
+<person name="Poulin F."/>
+<person name="Gingras A.-C."/>
+<person name="Olsen H."/>
+<person name="Chevalier S."/>
+<person name="Sonenberg N."/>
+</authorList>
+<dbReference type="PubMed" id="9593750"/>
+<dbReference type="DOI" id="10.1074/jbc.273.22.14002"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>INTERACTION WITH EIF4E</scope>
+<scope>MUTAGENESIS OF TYR-40 AND LEU-45</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>PHOSPHORYLATION</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Lymph</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Repressor of translation initiation that regulates EIF4E activity by preventing its assembly into the eIF4F complex: hypophosphorylated form competes with EIF4G1/EIF4G3 and strongly binds to EIF4E, leading to repress translation. In contrast, hyperphosphorylated form dissociates from EIF4E, allowing interaction between EIF4G1/EIF4G3 and EIF4E, leading to initiation of translation.</text>
+</comment>
+<comment type="subunit">
+<text evidence="2">EIF4EBP3 interacts with EIF4E.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-746950"/>
+<interactant intactId="EBI-73440">
+<id>P06730</id>
+<label>EIF4E</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>5</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-746950"/>
+<interactant intactId="EBI-934970">
+<id>Q80ZJ3</id>
+<label>Eif4e2</label>
+</interactant>
+<organismsDiffer>true</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-746950"/>
+<interactant intactId="EBI-621404">
+<id>P15927</id>
+<label>RPA2</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="tissue specificity">
+<text evidence="2">Expression is highest in skeletal muscle, heart, kidney, and pancreas, whereas there is very little expression in brain and thymus.</text>
+</comment>
+<comment type="PTM">
+<text evidence="2">Phosphorylated.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the eIF4E-binding protein family.</text>
+</comment>
+<dbReference type="EMBL" id="AF038869">
+<property type="protein sequence ID" value="AAC39761.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC010881">
+<property type="protein sequence ID" value="AAH10881.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC069293">
+<property type="protein sequence ID" value="AAH69293.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC073751">
+<property type="protein sequence ID" value="AAH73751.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS4226.1"/>
+<dbReference type="RefSeq" id="NP_003723.1">
+<property type="nucleotide sequence ID" value="NM_003732.2"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.594084"/>
+<dbReference type="ProteinModelPortal" id="O60516"/>
+<dbReference type="SMR" id="O60516"/>
+<dbReference type="BioGrid" id="114190">
+<property type="interactions" value="8"/>
+</dbReference>
+<dbReference type="ELM" id="O60516"/>
+<dbReference type="IntAct" id="O60516">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="MINT" id="MINT-1535204"/>
+<dbReference type="STRING" id="9606.ENSP00000308472"/>
+<dbReference type="iPTMnet" id="O60516"/>
+<dbReference type="PhosphoSitePlus" id="O60516"/>
+<dbReference type="BioMuta" id="EIF4EBP3"/>
+<dbReference type="EPD" id="O60516"/>
+<dbReference type="PaxDb" id="O60516"/>
+<dbReference type="PeptideAtlas" id="O60516"/>
+<dbReference type="PRIDE" id="O60516"/>
+<dbReference type="Ensembl" id="ENST00000310331">
+<property type="protein sequence ID" value="ENSP00000308472"/>
+<property type="gene ID" value="ENSG00000243056"/>
+</dbReference>
+<dbReference type="GeneID" id="8637"/>
+<dbReference type="KEGG" id="hsa:8637"/>
+<dbReference type="UCSC" id="uc003lfy.1">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="8637"/>
+<dbReference type="DisGeNET" id="8637"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000243056.1"/>
+<dbReference type="GeneCards" id="EIF4EBP3"/>
+<dbReference type="HGNC" id="HGNC:3290">
+<property type="gene designation" value="EIF4EBP3"/>
+</dbReference>
+<dbReference type="HPA" id="HPA045537"/>
+<dbReference type="MIM" id="603483">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_O60516"/>
+<dbReference type="OpenTargets" id="ENSG00000243056"/>
+<dbReference type="PharmGKB" id="PA27718"/>
+<dbReference type="eggNOG" id="ENOG410J2Z0">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG4112779">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000013843"/>
+<dbReference type="HOGENOM" id="HOG000231190"/>
+<dbReference type="HOVERGEN" id="HBG050425"/>
+<dbReference type="InParanoid" id="O60516"/>
+<dbReference type="KO" id="K18645"/>
+<dbReference type="OMA" id="SQLPDCY"/>
+<dbReference type="OrthoDB" id="EOG091G0ZHJ"/>
+<dbReference type="PhylomeDB" id="O60516"/>
+<dbReference type="TreeFam" id="TF101530"/>
+<dbReference type="SIGNOR" id="O60516"/>
+<dbReference type="GeneWiki" id="EIF4EBP3"/>
+<dbReference type="GenomeRNAi" id="8637"/>
+<dbReference type="PRO" id="PR:O60516"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 5"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000243056"/>
+<dbReference type="Genevisible" id="O60516">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016281">
+<property type="term" value="C:eukaryotic translation initiation factor 4F complex"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016020">
+<property type="term" value="C:membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008190">
+<property type="term" value="F:eukaryotic initiation factor 4E binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030371">
+<property type="term" value="F:translation repressor activity"/>
+<property type="evidence" value="ECO:0000303"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045947">
+<property type="term" value="P:negative regulation of translational initiation"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008606">
+<property type="entry name" value="EIF4EBP"/>
+</dbReference>
+<dbReference type="Pfam" id="PF05456">
+<property type="entry name" value="eIF_4EBP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0652">Protein synthesis inhibitor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0810">Translation regulation</keyword>
+<feature type="chain" description="Eukaryotic translation initiation factor 4E-binding protein 3" id="PRO_0000190518">
+<location>
+<begin position="1"/>
+<end position="100"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="YXXXXLphi motif" evidence="2">
+<location>
+<begin position="40"/>
+<end position="46"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="TOS motif" evidence="1">
+<location>
+<begin position="96"/>
+<end position="100"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of interaction with EIF4E." evidence="2">
+<original>Y</original>
+<variation>A</variation>
+<location>
+<position position="40"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of interaction with EIF4E." evidence="2">
+<original>L</original>
+<variation>A</variation>
+<location>
+<position position="45"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q13541"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9593750"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="100" mass="10873" checksum="FD29A7F3829E546E" modified="1998-08-01" version="1">
+MSTSTSCPIPGGRDQLPDCYSTTPGGTLYATTPGGTRIIYDRKFLLECKNSPIARTPPCC
+LPQIPGVTTPPTAPLSKLEELKEQETEEEIPDDAQFEMDI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

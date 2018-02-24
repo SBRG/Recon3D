@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:12:48
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/4708.1/4708.1_protein/sequences/O95178-1_5xtc-Y.needle
+#    -asequence asis::MSALTRLASFARVGGRLFRSGCARTAGDGGVRHAGGGVHIEPRYRQFPQLTRSQVFQSEFFSGLMWFWILWRFWHDSEEVLGHFPYPDPSQWTDEELGIPPDDED
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXHIEPRYRQFPQLTRSQVFQSEFFSGLMWFWILWRFWHDSEEVLGHFPYPDPSQWTDEEL
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/4708.1/4708.1_protein/sequences/O95178-1_5xtc-Y.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      59/105 (56.2%)
+# Similarity:    59/105 (56.2%)
+# Gaps:           8/105 ( 7.6%)
+# Score: 318.0
+# 
+#
+#=======================================
+
+asis               1 MSALTRLASFARVGGRLFRSGCARTAGDGGVRHAGGGVHIEPRYRQFPQL     50
+                     ......................................||||||||||||
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXHIEPRYRQFPQL     50
+
+asis              51 TRSQVFQSEFFSGLMWFWILWRFWHDSEEVLGHFPYPDPSQWTDEELGIP    100
+                     |||||||||||||||||||||||||||||||||||||||||||||||   
+asis              51 TRSQVFQSEFFSGLMWFWILWRFWHDSEEVLGHFPYPDPSQWTDEEL---     97
+
+asis             101 PDDED    105
+                          
+asis              97 -----     97
+
+
+#---------------------------------------
+#---------------------------------------

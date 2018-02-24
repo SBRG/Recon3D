@@ -1,0 +1,78 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:08:24
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/8767.1/8767.1_protein/sequences/O43353-1_5ng0-B.needle
+#    -asequence asis::MNGEAICSALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGLSKWRMMSLSQSRSSKSAPEGGTIIYMPPENYEPGQKSRASIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQSVSSAIHLCDKKKMELSLNIPVNHGPQEESCGSSQLHENSGSPETSRSLPAPQDNDFLSRKAQDCYFMKLHHCPGNHSWDSTISGSQRAAFCDHKTTPCSSAIINPLSTAGNSERLQPGIAQQWIQSKREDIVNQMTEACLNQSLDALLSRDLIMKEDYELVSTKPTRTSKVRQLLDTTDIQGEEFAKVIVQKLKDNKQMGLQPYPEILVVSRSPSLNLLQNKSM
+#    -bsequence asis::XXXXAICSALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGLSKWRMXXXXXXXXXXSAPEGGTIIYMPPENYEPGXXXRASIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVFRTFEE
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/8767.1/8767.1_protein/sequences/O43353-1_5ng0-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 540
+# Identity:     281/540 (52.0%)
+# Similarity:   281/540 (52.0%)
+# Gaps:         241/540 (44.6%)
+# Score: 1486.0
+# 
+#
+#=======================================
+
+asis               1 MNGEAICSALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLH     50
+                     ....||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXXAICSALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLH     50
+
+asis              51 IHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPN    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 IHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPN    100
+
+asis             101 GSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQ    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 GSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQ    150
+
+asis             151 NILLDNEFHVKIADFGLSKWRMMSLSQSRSSKSAPEGGTIIYMPPENYEP    200
+                     ||||||||||||||||||||||..........||||||||||||||||||
+asis             151 NILLDNEFHVKIADFGLSKWRMXXXXXXXXXXSAPEGGTIIYMPPENYEP    200
+
+asis             201 GQKSRASIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVI    250
+                     |...||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 GXXXRASIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVI    250
+
+asis             251 NEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEI    300
+                     |||||||||||||||||||||||||||||||||||||||||||.||||| 
+asis             251 NEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVFRTFEE-    299
+
+asis             301 TFLEAVIQLKKTKLQSVSSAIHLCDKKKMELSLNIPVNHGPQEESCGSSQ    350
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             351 LHENSGSPETSRSLPAPQDNDFLSRKAQDCYFMKLHHCPGNHSWDSTISG    400
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             401 SQRAAFCDHKTTPCSSAIINPLSTAGNSERLQPGIAQQWIQSKREDIVNQ    450
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             451 MTEACLNQSLDALLSRDLIMKEDYELVSTKPTRTSKVRQLLDTTDIQGEE    500
+                                                                       
+asis             299 --------------------------------------------------    299
+
+asis             501 FAKVIVQKLKDNKQMGLQPYPEILVVSRSPSLNLLQNKSM    540
+                                                             
+asis             299 ----------------------------------------    299
+
+
+#---------------------------------------
+#---------------------------------------

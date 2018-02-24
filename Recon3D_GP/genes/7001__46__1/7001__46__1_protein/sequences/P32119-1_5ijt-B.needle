@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:02:20
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/7001.1/7001.1_protein/sequences/P32119-1_5ijt-B.needle
+#    -asequence asis::MASGNARIGKPAPDFKATAVVDGAFKEVKLSDYKGKYVVLFFYPLDFTFVCPTEIIAFSNRAEDFRKLGCEVLGVSVDSQFTHLAWINTPRKEGGLGPLNIPLLADVTRRLSEDYGVLKTDEGIAYRGLFIIDGKGVLRQITVNDLPVGRSVDEALRLVQAFQYTDEHGEVCPAGWKPGSDTIKPNVDDSKEYFSKHN
+#    -bsequence asis::XXXGNARIGKPAPDFKATAVVDGAFKEVKLSDYKGKYVVLFFYPLDFTFVCPTEIIAFSNRAEDFRKLGCEVLGVSVDSQFTHLAWINTPRKEGGLGPLNIPLLADVTRRLSEDYGVLKTDEGIAYRGLFIIDGKGVLRQITVNDLPVGRSVDEALRLVQAFQYTXXXXXVCPAGWKPG
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/7001.1/7001.1_protein/sequences/P32119-1_5ijt-B.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 198
+# Identity:     171/198 (86.4%)
+# Similarity:   171/198 (86.4%)
+# Gaps:          19/198 ( 9.6%)
+# Score: 891.0
+# 
+#
+#=======================================
+
+asis               1 MASGNARIGKPAPDFKATAVVDGAFKEVKLSDYKGKYVVLFFYPLDFTFV     50
+                     ...|||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XXXGNARIGKPAPDFKATAVVDGAFKEVKLSDYKGKYVVLFFYPLDFTFV     50
+
+asis              51 CPTEIIAFSNRAEDFRKLGCEVLGVSVDSQFTHLAWINTPRKEGGLGPLN    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 CPTEIIAFSNRAEDFRKLGCEVLGVSVDSQFTHLAWINTPRKEGGLGPLN    100
+
+asis             101 IPLLADVTRRLSEDYGVLKTDEGIAYRGLFIIDGKGVLRQITVNDLPVGR    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             101 IPLLADVTRRLSEDYGVLKTDEGIAYRGLFIIDGKGVLRQITVNDLPVGR    150
+
+asis             151 SVDEALRLVQAFQYTDEHGEVCPAGWKPGSDTIKPNVDDSKEYFSKHN    198
+                     |||||||||||||||.....|||||||||                   
+asis             151 SVDEALRLVQAFQYTXXXXXVCPAGWKPG-------------------    179
+
+
+#---------------------------------------
+#---------------------------------------

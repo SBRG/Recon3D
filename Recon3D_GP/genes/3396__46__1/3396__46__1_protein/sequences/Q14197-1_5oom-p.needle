@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:03:36
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/3396.1/3396.1_protein/sequences/Q14197-1_5oom-p.needle
+#    -asequence asis::MAATRCLRWGLSRAGVWLLPPPARCPRRALHKQKDGTEFKSIYSLDKLYPESQGSDTAWRVPNGAKQADSDIPLDRLTISYCRSSGPGGQNVNKVNSKAEVRFHLATAEWIAEPVRQKIAITHKNKINRLGELILTSESSRYQFRNLADCLQKIRDMITEASQTPKEPTKEDVKLHRIRIENMNRERLRQKRIHSAVKTSRRVDMD
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEFKSIYSLDKLYPESQGSDTAWRVXXXXXXXXDIPLDRLTISYCRSXXXXXXXXXXXVNSKAEVRFHLATAEWIAEPVRQKIAITHKNKINRLGELILTSESSRYQFRNLADCLQKIRDMITEASQXXXXXXXXXXKLHRIRIENMNRERLRQKRI
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/3396.1/3396.1_protein/sequences/Q14197-1_5oom-p.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 239
+# Identity:     127/239 (53.1%)
+# Similarity:   127/239 (53.1%)
+# Gaps:          79/239 (33.1%)
+# Score: 575.5
+# 
+#
+#=======================================
+
+asis               1 --------------------------------MAATRCLRWGLSRAGVWL     18
+                                                     ....              
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX--------------     36
+
+asis              19 LPPPARCPRRALHKQKDGTEFKSIYSLDKLYPESQGSDTAWRVPNGAKQA     68
+                                       .|||||||||||||||||||||||| ......
+asis              37 ------------------XEFKSIYSLDKLYPESQGSDTAWRV-XXXXXX     67
+
+asis              69 DSDIPLDRLTISYCRS-SGPGGQNVNKVNSKAEVRFHLATAEWIAEPVRQ    117
+                     ..|||||||||||||| ..........|||||||||||||||||||||||
+asis              68 XXDIPLDRLTISYCRSXXXXXXXXXXXVNSKAEVRFHLATAEWIAEPVRQ    117
+
+asis             118 KIAITHKNKINRLGELILTSESSRYQFRNLADCLQKIRDMITEASQTPKE    167
+                     ||||||||||||||||||||||||||||||||||||||||||||||....
+asis             118 KIAITHKNKINRLGELILTSESSRYQFRNLADCLQKIRDMITEASQXXXX    167
+
+asis             168 PTKEDVKLHRIRIENMNRERLRQKRIHSAVKTSRRVDMD    206
+                     ......||||||||||||||||||||             
+asis             168 XXXXXXKLHRIRIENMNRERLRQKRI-------------    193
+
+
+#---------------------------------------
+#---------------------------------------

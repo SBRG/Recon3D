@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:14:19
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/54539.1/54539.1_protein/sequences/Q9NX14-1_5xtc-e.needle
+#    -asequence asis::MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPEPEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXPWQEDPEPEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/54539.1/54539.1_protein/sequences/Q9NX14-1_5xtc-e.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 201
+# Identity:      97/201 (48.3%)
+# Similarity:    97/201 (48.3%)
+# Gaps:          99/201 (49.3%)
+# Score: 496.5
+# 
+#
+#=======================================
+
+asis               1 ------------------------------------------------MA      2
+                                                                     ..
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               3 AGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPT     52
+                     .                                                .
+asis              51 X------------------------------------------------X     52
+
+asis              53 TPWQEDPEPEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLG    102
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis              53 XPWQEDPEPEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLG    102
+
+asis             103 STFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPED    152
+                     ||||||||||||||||||||||||||||||||||||||||||||||||  
+asis             103 STFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLP--    150
+
+asis             153 E    153
+                      
+asis             150 -    150
+
+
+#---------------------------------------
+#---------------------------------------

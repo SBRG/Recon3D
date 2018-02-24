@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-02-15" modified="2017-09-27" version="130">
+<accession>Q9P2E8</accession>
+<accession>Q4KMN7</accession>
+<accession>Q86WR8</accession>
+<name>MARH4_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>E3 ubiquitin-protein ligase MARCH4</fullName>
+<ecNumber>2.3.2.27</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Membrane-associated RING finger protein 4</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Membrane-associated RING-CH protein IV</fullName>
+<shortName>MARCH-IV</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>RING finger protein 174</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="4">RING-type E3 ubiquitin transferase MARCH4</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">MARCH4</name>
+<name type="synonym">KIAA1399</name>
+<name type="synonym">RNF174</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2000" name="DNA Res." volume="7" first="65" last="73">
+<title>Prediction of the coding sequences of unidentified human genes. XVI. The complete sequences of 150 new cDNA clones from brain which code for large proteins in vitro.</title>
+<authorList>
+<person name="Nagase T."/>
+<person name="Kikuno R."/>
+<person name="Ishikawa K."/>
+<person name="Hirosawa M."/>
+<person name="Ohara O."/>
+</authorList>
+<dbReference type="PubMed" id="10718198"/>
+<dbReference type="DOI" id="10.1093/dnares/7.1.65"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Brain</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Liver</tissue>
+<tissue>Pancreas</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2004" name="J. Virol." volume="78" first="1109" last="1120">
+<title>Downregulation of major histocompatibility complex class I by human ubiquitin ligases related to viral immune evasion proteins.</title>
+<authorList>
+<person name="Bartee E."/>
+<person name="Mansouri M."/>
+<person name="Hovey Nerenberg B.T."/>
+<person name="Gouveia K."/>
+<person name="Frueh K."/>
+</authorList>
+<dbReference type="PubMed" id="14722266"/>
+<dbReference type="DOI" id="10.1128/JVI.78.3.1109-1120.2004"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<comment type="function">
+<text evidence="3">E3 ubiquitin-protein ligase that may mediate ubiquitination of MHC-I and CD4, and promote their subsequent endocytosis and sorting to lysosomes via multivesicular bodies. E3 ubiquitin ligases accept ubiquitin from an E2 ubiquitin-conjugating enzyme in the form of a thioester and then directly transfer the ubiquitin to targeted substrates.</text>
+</comment>
+<comment type="catalytic activity">
+<text>S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine + [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.</text>
+</comment>
+<comment type="pathway">
+<text>Protein modification; protein ubiquitination.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Golgi apparatus membrane</location>
+<topology evidence="3">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="3">Expressed in brain and placenta.</text>
+</comment>
+<comment type="domain">
+<text>The RING-CH-type zinc finger domain is required for E3 ligase activity.</text>
+</comment>
+<comment type="sequence caution" evidence="4">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="BAA92637" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EC" id="2.3.2.27"/>
+<dbReference type="EMBL" id="AB037820">
+<property type="protein sequence ID" value="BAA92637.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC048793">
+<property type="protein sequence ID" value="AAH48793.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC098448">
+<property type="protein sequence ID" value="AAH98448.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS33376.1"/>
+<dbReference type="RefSeq" id="NP_065865.1">
+<property type="nucleotide sequence ID" value="NM_020814.2"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.170388"/>
+<dbReference type="ProteinModelPortal" id="Q9P2E8"/>
+<dbReference type="SMR" id="Q9P2E8"/>
+<dbReference type="BioGrid" id="121627">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000273067"/>
+<dbReference type="iPTMnet" id="Q9P2E8"/>
+<dbReference type="PhosphoSitePlus" id="Q9P2E8"/>
+<dbReference type="BioMuta" id="MARCH4"/>
+<dbReference type="DMDM" id="59798475"/>
+<dbReference type="PaxDb" id="Q9P2E8"/>
+<dbReference type="PRIDE" id="Q9P2E8"/>
+<dbReference type="DNASU" id="57574"/>
+<dbReference type="Ensembl" id="ENST00000273067">
+<property type="protein sequence ID" value="ENSP00000273067"/>
+<property type="gene ID" value="ENSG00000144583"/>
+</dbReference>
+<dbReference type="GeneID" id="57574"/>
+<dbReference type="KEGG" id="hsa:57574"/>
+<dbReference type="UCSC" id="uc002vgb.4">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="57574"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000144583.4"/>
+<dbReference type="GeneCards" id="MARCH4"/>
+<dbReference type="HGNC" id="HGNC:29269">
+<property type="gene designation" value="MARCH4"/>
+</dbReference>
+<dbReference type="HPA" id="HPA014348"/>
+<dbReference type="MIM" id="608208">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q9P2E8"/>
+<dbReference type="OpenTargets" id="ENSG00000144583"/>
+<dbReference type="PharmGKB" id="PA134861849"/>
+<dbReference type="eggNOG" id="KOG1609">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG5183">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00730000110738"/>
+<dbReference type="HOGENOM" id="HOG000113484"/>
+<dbReference type="HOVERGEN" id="HBG052412"/>
+<dbReference type="InParanoid" id="Q9P2E8"/>
+<dbReference type="KO" id="K10659"/>
+<dbReference type="OMA" id="MLMPLSG"/>
+<dbReference type="OrthoDB" id="EOG091G0JT5"/>
+<dbReference type="PhylomeDB" id="Q9P2E8"/>
+<dbReference type="TreeFam" id="TF319557"/>
+<dbReference type="UniPathway" id="UPA00143"/>
+<dbReference type="ChiTaRS" id="MARCH4">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="GenomeRNAi" id="57574"/>
+<dbReference type="PRO" id="PR:Q9P2E8"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 2"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000144583"/>
+<dbReference type="CleanEx" id="HS_MARCH4"/>
+<dbReference type="Genevisible" id="Q9P2E8">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000139">
+<property type="term" value="C:Golgi membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005795">
+<property type="term" value="C:Golgi stack"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005802">
+<property type="term" value="C:trans-Golgi network"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004842">
+<property type="term" value="F:ubiquitin-protein transferase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008270">
+<property type="term" value="F:zinc ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.40.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033275">
+<property type="entry name" value="MARCH-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011016">
+<property type="entry name" value="Znf_RING-CH"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013083">
+<property type="entry name" value="Znf_RING/FYVE/PHD"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR23012">
+<property type="entry name" value="PTHR23012"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12906">
+<property type="entry name" value="RINGv"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00744">
+<property type="entry name" value="RINGv"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51292">
+<property type="entry name" value="ZF_RING_CH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0333">Golgi apparatus</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<keyword id="KW-0833">Ubl conjugation pathway</keyword>
+<keyword id="KW-0862">Zinc</keyword>
+<keyword id="KW-0863">Zinc-finger</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="18"/>
+</location>
+</feature>
+<feature type="chain" description="E3 ubiquitin-protein ligase MARCH4" id="PRO_0000055930">
+<location>
+<begin position="19"/>
+<end position="410"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="238"/>
+<end position="258"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="272"/>
+<end position="292"/>
+</location>
+</feature>
+<feature type="zinc finger region" description="RING-CH-type" evidence="2">
+<location>
+<begin position="155"/>
+<end position="215"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Pro-rich">
+<location>
+<begin position="57"/>
+<end position="127"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00623"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14722266"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="410" mass="45528" checksum="BC812496FCCC2930" modified="2005-02-15" version="2" precursor="true">
+MLMPLCGLLWWWWCCCSGWYCYGLCAPAPQMLRHQGLLKCRCRMLFNDLKVFLLRRPPQA
+PLPMHGDPQPPGLAANNTLPALGAGGWAGWRGPREVVGREPPPVPPPPPLPPSSVEDDWG
+GPATEPPASLLSSASSDDFCKEKTEDRYSLGSSLDSGMRTPLCRICFQGPEQGELLSPCR
+CDGSVKCTHQPCLIKWISERGCWSCELCYYKYHVIAISTKNPLQWQAISLTVIEKVQVAA
+AILGSLFLIASISWLIWSTFSPSARWQRQDLLFQICYGMYGFMDVVCIGLIIHEGPSVYR
+IFKRWQAVNQQWKVLNYDKTKDLEDQKAGGRTNPRTSSSTQANIPSSEEETAGTPAPEQG
+PAQAAGHPSGPLSHHHCAYTILHILSHLRPHEQRSPPGSSRELVMRVTTV
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

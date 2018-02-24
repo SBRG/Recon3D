@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2000-05-30" modified="2017-10-25" version="138">
+<accession>Q92819</accession>
+<accession>Q32MM3</accession>
+<name>HYAS2_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Hyaluronan synthase 2</fullName>
+<ecNumber>2.4.1.212</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Hyaluronate synthase 2</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Hyaluronic acid synthase 2</fullName>
+<shortName>HA synthase 2</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">HAS2</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1996" name="J. Biol. Chem." volume="271" first="22945" last="22948">
+<title>Molecular identification of a putative human hyaluronan synthase.</title>
+<authorList>
+<person name="Watanabe K."/>
+<person name="Yamaguchi Y."/>
+</authorList>
+<dbReference type="PubMed" id="8798477"/>
+<dbReference type="DOI" id="10.1074/jbc.271.38.22945"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<tissue>Brain</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2005" name="Cancer Genet. Cytogenet." volume="156" first="183" last="184">
+<title>PLAG1-HAS2 fusion in lipoblastoma with masked 8q intrachromosomal rearrangement.</title>
+<authorList>
+<person name="Morerio C."/>
+<person name="Rapella A."/>
+<person name="Rosanda C."/>
+<person name="Tassano E."/>
+<person name="Gambini C."/>
+<person name="Romagnoli G."/>
+<person name="Panarello C."/>
+</authorList>
+<dbReference type="PubMed" id="15642402"/>
+<dbReference type="DOI" id="10.1016/j.cancergencyto.2004.04.017"/>
+</citation>
+<scope>CHROMOSOMAL REARRANGEMENT WITH PLAG1</scope>
+</reference>
+<comment type="function">
+<text evidence="1">Catalyzes the addition of GlcNAc or GlcUA monosaccharides to the nascent hyaluronan polymer. Therefore, it is essential to hyaluronan synthesis a major component of most extracellular matrices that has a structural role in tissues architectures and regulates cell adhesion, migration and differentiation. This is one of the isozymes catalyzing that reaction and it is particularly responsible for the synthesis of high molecular mass hyaluronan. Required for the transition of endocardial cushion cells into mesenchymal cells, a process crucial for heart development. May also play a role in vasculogenesis. High molecular mass hyaluronan also play a role in early contact inhibition a process which stops cell growth when cells come into contact with each other or the extracellular matrix (By similarity).</text>
+</comment>
+<comment type="catalytic activity">
+<text>UDP-alpha-N-acetyl-D-glucosamine + beta-D-glucuronosyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->4)-(nascent hyaluronan) = UDP + N-acetyl-beta-D-glucosaminyl-(1->4)-beta-D-glucuronosyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->4)-(nascent hyaluronan).</text>
+</comment>
+<comment type="catalytic activity">
+<text>UDP-alpha-D-glucuronate + N-acetyl-beta-D-glucosaminyl-(1->4)-beta-D-glucuronosyl-(1->3)-(nascent hyaluronan) = UDP + beta-D-glucuronosyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->4)-beta-D-glucuronosyl-(1->3)-(nascent hyaluronan).</text>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="pathway">
+<text>Glycan biosynthesis; hyaluronan biosynthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Membrane</location>
+<topology evidence="4">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text>Expressed in fibroblasts.</text>
+</comment>
+<comment type="disease">
+<text evidence="3">A chromosomal aberration involving HAS2 may be a cause of lipoblastomas, which are benign tumors resulting from transformation of adipocytes, usually diagnosed in children. 8q12.1 to 8q24.1 intrachromosomal rearrangement with PLAG1.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the NodC/HAS family.</text>
+</comment>
+<comment type="online information" name="Atlas of Genetics and Cytogenetics in Oncology and Haematology">
+<link uri="http://atlasgeneticsoncology.org/Genes/HAS2ID412ch8q24.html"/>
+</comment>
+<dbReference type="EC" id="2.4.1.212"/>
+<dbReference type="EMBL" id="U54804">
+<property type="protein sequence ID" value="AAC50692.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC069353">
+<property type="protein sequence ID" value="AAH69353.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC109071">
+<property type="protein sequence ID" value="AAI09072.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC109072">
+<property type="protein sequence ID" value="AAI09073.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS6335.1"/>
+<dbReference type="RefSeq" id="NP_005319.1">
+<property type="nucleotide sequence ID" value="NM_005328.2"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.159226"/>
+<dbReference type="UniGene" id="Hs.668686"/>
+<dbReference type="ProteinModelPortal" id="Q92819"/>
+<dbReference type="BioGrid" id="109287">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000306991"/>
+<dbReference type="CAZy" id="GT2">
+<property type="family name" value="Glycosyltransferase Family 2"/>
+</dbReference>
+<dbReference type="iPTMnet" id="Q92819"/>
+<dbReference type="PhosphoSitePlus" id="Q92819"/>
+<dbReference type="BioMuta" id="HAS2"/>
+<dbReference type="DMDM" id="7387737"/>
+<dbReference type="PaxDb" id="Q92819"/>
+<dbReference type="PeptideAtlas" id="Q92819"/>
+<dbReference type="PRIDE" id="Q92819"/>
+<dbReference type="Ensembl" id="ENST00000303924">
+<property type="protein sequence ID" value="ENSP00000306991"/>
+<property type="gene ID" value="ENSG00000170961"/>
+</dbReference>
+<dbReference type="GeneID" id="3037"/>
+<dbReference type="KEGG" id="hsa:3037"/>
+<dbReference type="UCSC" id="uc003yph.3">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="3037"/>
+<dbReference type="DisGeNET" id="3037"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000170961.6"/>
+<dbReference type="GeneCards" id="HAS2"/>
+<dbReference type="HGNC" id="HGNC:4819">
+<property type="gene designation" value="HAS2"/>
+</dbReference>
+<dbReference type="HPA" id="HPA052060"/>
+<dbReference type="MIM" id="601636">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q92819"/>
+<dbReference type="OpenTargets" id="ENSG00000170961"/>
+<dbReference type="PharmGKB" id="PA29195"/>
+<dbReference type="eggNOG" id="KOG2571">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG1215">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000010337"/>
+<dbReference type="HOGENOM" id="HOG000112847"/>
+<dbReference type="HOVERGEN" id="HBG000189"/>
+<dbReference type="InParanoid" id="Q92819"/>
+<dbReference type="KO" id="K00752"/>
+<dbReference type="OMA" id="HCSFGDD"/>
+<dbReference type="OrthoDB" id="EOG091G04P3"/>
+<dbReference type="PhylomeDB" id="Q92819"/>
+<dbReference type="TreeFam" id="TF332506"/>
+<dbReference type="BRENDA" id="2.4.1.212">
+<property type="organism ID" value="2681"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-2142850">
+<property type="pathway name" value="Hyaluronan biosynthesis and export"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00341"/>
+<dbReference type="ChiTaRS" id="HAS2">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="GeneWiki" id="HAS2"/>
+<dbReference type="GenomeRNAi" id="3037"/>
+<dbReference type="PRO" id="PR:Q92819"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 8"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000170961"/>
+<dbReference type="CleanEx" id="HS_HAS2"/>
+<dbReference type="Genevisible" id="Q92819">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005887">
+<property type="term" value="C:integral component of plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050501">
+<property type="term" value="F:hyaluronan synthase activity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0036302">
+<property type="term" value="P:atrioventricular canal development"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060349">
+<property type="term" value="P:bone morphogenesis"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071498">
+<property type="term" value="P:cellular response to fluid shear stress"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071347">
+<property type="term" value="P:cellular response to interleukin-1"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0036120">
+<property type="term" value="P:cellular response to platelet-derived growth factor stimulus"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071356">
+<property type="term" value="P:cellular response to tumor necrosis factor"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0090500">
+<property type="term" value="P:endocardial cushion to mesenchymal transition"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044849">
+<property type="term" value="P:estrous cycle"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0085029">
+<property type="term" value="P:extracellular matrix assembly"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045226">
+<property type="term" value="P:extracellular polysaccharide biosynthetic process"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030213">
+<property type="term" value="P:hyaluronan biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001822">
+<property type="term" value="P:kidney development"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030335">
+<property type="term" value="P:positive regulation of cell migration"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008284">
+<property type="term" value="P:positive regulation of cell proliferation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:1900127">
+<property type="term" value="P:positive regulation of hyaluronan biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051549">
+<property type="term" value="P:positive regulation of keratinocyte migration"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010838">
+<property type="term" value="P:positive regulation of keratinocyte proliferation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:1900625">
+<property type="term" value="P:positive regulation of monocyte aggregation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0014911">
+<property type="term" value="P:positive regulation of smooth muscle cell migration"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:1900026">
+<property type="term" value="P:positive regulation of substrate adhesion-dependent cell spreading"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035810">
+<property type="term" value="P:positive regulation of urine volume"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901201">
+<property type="term" value="P:regulation of extracellular matrix assembly"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070295">
+<property type="term" value="P:renal water absorption"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001570">
+<property type="term" value="P:vasculogenesis"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.550.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001173">
+<property type="entry name" value="Glyco_trans_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR028371">
+<property type="entry name" value="HAS2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029044">
+<property type="entry name" value="Nucleotide-diphossugar_trans"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR22913:SF7">
+<property type="entry name" value="PTHR22913:SF7"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00535">
+<property type="entry name" value="Glycos_transf_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53448">
+<property type="entry name" value="SSF53448"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0160">Chromosomal rearrangement</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0328">Glycosyltransferase</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Hyaluronan synthase 2" id="PRO_0000197173">
+<location>
+<begin position="1"/>
+<end position="552"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="1"/>
+<end position="11"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="2">
+<location>
+<begin position="12"/>
+<end position="32"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="33"/>
+<end position="45"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="2">
+<location>
+<begin position="46"/>
+<end position="66"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="67"/>
+<end position="374"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="2">
+<location>
+<begin position="375"/>
+<end position="395"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="396"/>
+<end position="402"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="2">
+<location>
+<begin position="403"/>
+<end position="423"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="424"/>
+<end position="429"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="2">
+<location>
+<begin position="430"/>
+<end position="450"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="451"/>
+<end position="475"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="2">
+<location>
+<begin position="476"/>
+<end position="496"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="497"/>
+<end position="510"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="2">
+<location>
+<begin position="511"/>
+<end position="531"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="532"/>
+<end position="552"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15642402"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="552" mass="63566" checksum="EEEF58D97B131F9D" modified="1997-02-01" version="1">
+MHCERFLCILRIIGTTLFGVSLLLGITAAYIVGYQFIQTDNYYFSFGLYGAFLASHLIIQ
+SLFAFLEHRKMKKSLETPIKLNKTVALCIAAYQEDPDYLRKCLQSVKRLTYPGIKVVMVI
+DGNSEDDLYMMDIFSEVMGRDKSATYIWKNNFHEKGPGETDESHKESSQHVTQLVLSNKS
+ICIMQKWGGKREVMYTAFRALGRSVDYVQVCDSDTMLDPASSVEMVKVLEEDPMVGGVGG
+DVQILNKYDSWISFLSSVRYWMAFNIERACQSYFGCVQCISGPLGMYRNSLLHEFVEDWY
+NQEFMGNQCSFGDDRHLTNRVLSLGYATKYTARSKCLTETPIEYLRWLNQQTRWSKSYFR
+EWLYNAMWFHKHHLWMTYEAIITGFFPFFLIATVIQLFYRGKIWNILLFLLTVQLVGLIK
+SSFASCLRGNIVMVFMSLYSVLYMSSLLPAKMFAIATINKAGWGTSGRKTIVVNFIGLIP
+VSVWFTILLGGVIFTIYKESKRPFSESKQTVLIVGTLLYACYWVMLLTLYVVLINKCGRR
+KKGQQYDMVLDV
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

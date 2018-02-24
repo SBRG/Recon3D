@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2017-11-22" version="140">
+<accession>Q13956</accession>
+<accession>Q52LY7</accession>
+<name>CNCG_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Retinal cone rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma</fullName>
+<shortName>GMP-PDE gamma</shortName>
+<ecNumber>3.1.4.35</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">PDE6H</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1996" name="Genomics" volume="32" first="121" last="124">
+<title>Isolation and chromosomal localization of the human cone cGMP phosphodiesterase gamma cDNA (PDE6H).</title>
+<authorList>
+<person name="Shimizu-Matsumoto A."/>
+<person name="Itoh K."/>
+<person name="Inazawa J."/>
+<person name="Nishida K."/>
+<person name="Matsumoto Y."/>
+<person name="Kinoshita S."/>
+<person name="Matsubara K."/>
+<person name="Okubo K."/>
+</authorList>
+<dbReference type="PubMed" id="8786098"/>
+<dbReference type="DOI" id="10.1006/geno.1996.0085"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<tissue>Retina</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Brain</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2005" name="Ophthalmology" volume="112" first="159" last="166">
+<title>A substitution of G to C in the cone cGMP-phosphodiesterase gamma subunit gene found in a distinctive form of cone dystrophy.</title>
+<authorList>
+<person name="Piri N."/>
+<person name="Gao Y.Q."/>
+<person name="Danciger M."/>
+<person name="Mendoza E."/>
+<person name="Fishman G.A."/>
+<person name="Farber D.B."/>
+</authorList>
+<dbReference type="PubMed" id="15629837"/>
+<dbReference type="DOI" id="10.1016/j.ophtha.2004.07.011"/>
+</citation>
+<scope>INVOLVEMENT IN RCD3A</scope>
+</reference>
+<comment type="function">
+<text>Participates in processes of transmission and amplification of the visual signal. cGMP-PDEs are the effector molecules in G-protein-mediated phototransduction in vertebrate rods and cones.</text>
+</comment>
+<comment type="catalytic activity">
+<text>Guanosine 3',5'-cyclic phosphate + H(2)O = guanosine 5'-phosphate.</text>
+</comment>
+<comment type="subunit">
+<text>Tetramer composed of two catalytic chains (alpha and beta), and two inhibitory chains (gamma).</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-10231995"/>
+<interactant intactId="EBI-10232010">
+<id>Q6NUP5</id>
+<label>AGTR1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-10231995"/>
+<interactant intactId="EBI-79926">
+<id>Q14019</id>
+<label>COTL1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="domain">
+<text evidence="1">The C-terminal region is important in conferring inhibition.</text>
+</comment>
+<comment type="disease" evidence="2">
+<disease id="DI-00315">
+<name>Cone dystrophy, retinal 3A</name>
+<acronym>RCD3A</acronym>
+<description>A rare form of cone dystrophy associated with supernormal rod responses. The disorder is characterized by reduced visual acuity, photoaversion, night blindness, and abnormal color vision. At an early age, the retina shows subtle depigmentation at the macula and, later, more obvious areas of atrophy.</description>
+<dbReference type="MIM" id="610024"/>
+</disease>
+<text>The disease is caused by mutations affecting the gene represented in this entry.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the rod/cone cGMP-PDE gamma subunit family.</text>
+</comment>
+<dbReference type="EC" id="3.1.4.35"/>
+<dbReference type="EMBL" id="D45399">
+<property type="protein sequence ID" value="BAA08241.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC069774">
+<property type="protein sequence ID" value="AAH69774.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC069800">
+<property type="protein sequence ID" value="AAH69800.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC093738">
+<property type="protein sequence ID" value="AAH93738.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC093740">
+<property type="protein sequence ID" value="AAH93740.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS8672.1"/>
+<dbReference type="RefSeq" id="NP_006196.1">
+<property type="nucleotide sequence ID" value="NM_006205.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_016874920.1">
+<property type="nucleotide sequence ID" value="XM_017019431.1"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.54471"/>
+<dbReference type="ProteinModelPortal" id="Q13956"/>
+<dbReference type="SMR" id="Q13956"/>
+<dbReference type="BioGrid" id="111175">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="IntAct" id="Q13956">
+<property type="interactions" value="4"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000266395"/>
+<dbReference type="BindingDB" id="Q13956"/>
+<dbReference type="ChEMBL" id="CHEMBL2363066"/>
+<dbReference type="DrugBank" id="DB00203">
+<property type="generic name" value="Sildenafil"/>
+</dbReference>
+<dbReference type="DrugBank" id="DB00862">
+<property type="generic name" value="Vardenafil"/>
+</dbReference>
+<dbReference type="iPTMnet" id="Q13956"/>
+<dbReference type="PhosphoSitePlus" id="Q13956"/>
+<dbReference type="BioMuta" id="PDE6H"/>
+<dbReference type="DMDM" id="2833249"/>
+<dbReference type="PaxDb" id="Q13956"/>
+<dbReference type="PRIDE" id="Q13956"/>
+<dbReference type="DNASU" id="5149"/>
+<dbReference type="Ensembl" id="ENST00000266395">
+<property type="protein sequence ID" value="ENSP00000266395"/>
+<property type="gene ID" value="ENSG00000139053"/>
+</dbReference>
+<dbReference type="GeneID" id="5149"/>
+<dbReference type="KEGG" id="hsa:5149"/>
+<dbReference type="UCSC" id="uc001rcr.5">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="5149"/>
+<dbReference type="DisGeNET" id="5149"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000139053.2"/>
+<dbReference type="GeneCards" id="PDE6H"/>
+<dbReference type="GeneReviews" id="PDE6H"/>
+<dbReference type="HGNC" id="HGNC:8790">
+<property type="gene designation" value="PDE6H"/>
+</dbReference>
+<dbReference type="MalaCards" id="PDE6H"/>
+<dbReference type="MIM" id="601190">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="MIM" id="610024">
+<property type="type" value="phenotype"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q13956"/>
+<dbReference type="OpenTargets" id="ENSG00000139053"/>
+<dbReference type="Orphanet" id="49382">
+<property type="disease" value="Achromatopsia"/>
+</dbReference>
+<dbReference type="PharmGKB" id="PA33138"/>
+<dbReference type="eggNOG" id="ENOG410IZA8">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410YN07">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000013260"/>
+<dbReference type="HOGENOM" id="HOG000261673"/>
+<dbReference type="HOVERGEN" id="HBG000447"/>
+<dbReference type="KO" id="K13760"/>
+<dbReference type="OMA" id="NDIPLME"/>
+<dbReference type="OrthoDB" id="EOG091G14J5"/>
+<dbReference type="PhylomeDB" id="Q13956"/>
+<dbReference type="TreeFam" id="TF333297"/>
+<dbReference type="GenomeRNAi" id="5149"/>
+<dbReference type="PRO" id="PR:Q13956"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 12"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000139053"/>
+<dbReference type="CleanEx" id="HS_PDE6H"/>
+<dbReference type="Genevisible" id="Q13956">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0047555">
+<property type="term" value="F:3',5'-cyclic-GMP phosphodiesterase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030553">
+<property type="term" value="F:cGMP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004857">
+<property type="term" value="F:enzyme inhibitor activity"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000187">
+<property type="term" value="P:activation of MAPK activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045742">
+<property type="term" value="P:positive regulation of epidermal growth factor receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045745">
+<property type="term" value="P:positive regulation of G-protein coupled receptor protein signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050896">
+<property type="term" value="P:response to stimulus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007601">
+<property type="term" value="P:visual perception"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1120.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006952">
+<property type="entry name" value="PDE6_gamma"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR037030">
+<property type="entry name" value="PDE6_gamma_sf"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR12122">
+<property type="entry name" value="PTHR12122"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF04868">
+<property type="entry name" value="PDE6_gamma"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000969">
+<property type="entry name" value="35-cGMP_Pdiase_g"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0140">cGMP</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0716">Sensory transduction</keyword>
+<keyword id="KW-0844">Vision</keyword>
+<feature type="chain" description="Retinal cone rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma" id="PRO_0000166120">
+<location>
+<begin position="1"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Arg/Lys-rich (basic)">
+<location>
+<begin position="20"/>
+<end position="41"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15629837"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="83" mass="9074" checksum="7A8944DC0550BA45" modified="1996-11-01" version="1">
+MSDNTTLPAPASNQGPTTPRKGPPKFKQRQTRQFKSKPPKKGVKGFGDDIPGMEGLGTDI
+TVICPWEAFSHLELHELAQFGII
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

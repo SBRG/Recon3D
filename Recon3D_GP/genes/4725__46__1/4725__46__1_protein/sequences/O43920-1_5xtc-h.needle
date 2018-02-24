@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:14:06
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/4725.1/4725.1_protein/sequences/O43920-1_5xtc-h.needle
+#    -asequence asis::MPFLDIQKRFGLNIDRWLTIQSGEQPYKMAGRCHAFEKEWIECAHGIGYTRAEKECKIEYDDFVECLLRQKTMRRAGTIRKQRDKLIKEGKYTPPPHHIGKGEPRP
+#    -bsequence asis::XPFLDIQKRFGLNIDRWLTIQSGEQPYKMAGRCHAFEKEWIECAHGIGYTRAEKECKIEYDDFVECLLRQKTMRRAGTIRKQRDKLIKEGKYTPPPHHIGKGEPR
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/4725.1/4725.1_protein/sequences/O43920-1_5xtc-h.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:     104/106 (98.1%)
+# Similarity:   104/106 (98.1%)
+# Gaps:           1/106 ( 0.9%)
+# Score: 576.0
+# 
+#
+#=======================================
+
+asis               1 MPFLDIQKRFGLNIDRWLTIQSGEQPYKMAGRCHAFEKEWIECAHGIGYT     50
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+asis               1 XPFLDIQKRFGLNIDRWLTIQSGEQPYKMAGRCHAFEKEWIECAHGIGYT     50
+
+asis              51 RAEKECKIEYDDFVECLLRQKTMRRAGTIRKQRDKLIKEGKYTPPPHHIG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 RAEKECKIEYDDFVECLLRQKTMRRAGTIRKQRDKLIKEGKYTPPPHHIG    100
+
+asis             101 KGEPRP    106
+                     ||||| 
+asis             101 KGEPR-    105
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,74 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:07:30
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/1111.1/1111.1_protein/sequences/O14757-1_5op4-A.needle
+#    -asequence asis::MAVPFVEDWDLVQTLGEGAYGEVQLAVNRVTEEAVAVKIVDMKRAVDCPENIKKEICINKMLNHENVVKFYGHRREGNIQYLFLEYCSGGELFDRIEPDIGMPEPDAQRFFHQLMAGVVYLHGIGITHRDIKPENLLLDERDNLKISDFGLATVFRYNNRERLLNKMCGTLPYVAPELLKRREFHAEPVDVWSCGIVLTAMLAGELPWDQPSDSCQEYSDWKEKKTYLNPWKKIDSAPLALLHKILVENPSARITIPDIKKDRWYNKPLKKGAKRPRVTSGGVSESPSGFSKHIQSNLDFSPVNSASSEENVKYSSSQPEPRTGLSLWDTSPSYIDKLVQGISFSQPTCPDHMLLNSQLLGTPGSSQNPWQRLVKRMTRFFTKLDADKSYQCLKETCEKLGYQWKKSCMNQVTISTTDRRNNKLIFKVNLLEMDDKILVDFRLSKGDGLEFKRHFLKIKGKLIDIVSSQKIWLPAT
+#    -bsequence asis::XXVPFVEDWDLVQTLGEGAYGEVQLAVNRVTEEAVAVKIVDXXXXXXXXXNIKKEICILKMLNHENVIKFYGHRREGNIQYLFMELASGGSLFDRIEPDIGMPEPDAQRFFHQLMAGVVYLHGIGITHRDIKPHNLLLDERDNLKIADYSLATVFRYNNRERLLNKMCGTLPYVAPELLKRREFHAEPVDVWSCGIVLTAMLAGELPWDQPSDSCQEYSDWKEKKTYLNPWKKIDSAPLALLHKILVENPSARITIPDIKKDRWYNKPLK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/1111.1/1111.1_protein/sequences/O14757-1_5op4-A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 476
+# Identity:     249/476 (52.3%)
+# Similarity:   253/476 (53.2%)
+# Gaps:         206/476 (43.3%)
+# Score: 1329.0
+# 
+#
+#=======================================
+
+asis               1 MAVPFVEDWDLVQTLGEGAYGEVQLAVNRVTEEAVAVKIVDMKRAVDCPE     50
+                     ..|||||||||||||||||||||||||||||||||||||||.........
+asis               1 XXVPFVEDWDLVQTLGEGAYGEVQLAVNRVTEEAVAVKIVDXXXXXXXXX     50
+
+asis              51 NIKKEICINKMLNHENVVKFYGHRREGNIQYLFLEYCSGGELFDRIEPDI    100
+                     ||||||||.||||||||:|||||||||||||||:|..|||.|||||||||
+asis              51 NIKKEICILKMLNHENVIKFYGHRREGNIQYLFMELASGGSLFDRIEPDI    100
+
+asis             101 GMPEPDAQRFFHQLMAGVVYLHGIGITHRDIKPENLLLDERDNLKISDFG    150
+                     |||||||||||||||||||||||||||||||||.||||||||||||:|:.
+asis             101 GMPEPDAQRFFHQLMAGVVYLHGIGITHRDIKPHNLLLDERDNLKIADYS    150
+
+asis             151 LATVFRYNNRERLLNKMCGTLPYVAPELLKRREFHAEPVDVWSCGIVLTA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             151 LATVFRYNNRERLLNKMCGTLPYVAPELLKRREFHAEPVDVWSCGIVLTA    200
+
+asis             201 MLAGELPWDQPSDSCQEYSDWKEKKTYLNPWKKIDSAPLALLHKILVENP    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             201 MLAGELPWDQPSDSCQEYSDWKEKKTYLNPWKKIDSAPLALLHKILVENP    250
+
+asis             251 SARITIPDIKKDRWYNKPLKKGAKRPRVTSGGVSESPSGFSKHIQSNLDF    300
+                     ||||||||||||||||||||                              
+asis             251 SARITIPDIKKDRWYNKPLK------------------------------    270
+
+asis             301 SPVNSASSEENVKYSSSQPEPRTGLSLWDTSPSYIDKLVQGISFSQPTCP    350
+                                                                       
+asis             270 --------------------------------------------------    270
+
+asis             351 DHMLLNSQLLGTPGSSQNPWQRLVKRMTRFFTKLDADKSYQCLKETCEKL    400
+                                                                       
+asis             270 --------------------------------------------------    270
+
+asis             401 GYQWKKSCMNQVTISTTDRRNNKLIFKVNLLEMDDKILVDFRLSKGDGLE    450
+                                                                       
+asis             270 --------------------------------------------------    270
+
+asis             451 FKRHFLKIKGKLIDIVSSQKIWLPAT    476
+                                               
+asis             270 --------------------------    270
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:12:28
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/4713.1/4713.1_protein/sequences/P17568-1_5xtd-v.needle
+#    -asequence asis::MGAHLVRRYLGDASVEPDPLQMPTFPPDYGFPERKEREMVATQQEMMDAQLRLQLRDYCAHHLIRLLKCKRDSFPNFLACKQERHDWDYCEHRDYVMRMKEFERERRLLQRKKRREKKAAELAKGQGPGEVDPKVAL
+#    -bsequence asis::XXAHLVRRYLGDASVEPDPLQMPXXXXXXXXXXXKEREMVATQQEMMDAQLRLQLRDYCAHHLIRLLKCKRDSFPNFLACKQERHDWDYCEHRDYVMRMKEFERERRLLQRKKRREKKAAELAK
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/4713.1/4713.1_protein/sequences/P17568-1_5xtd-v.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 137
+# Identity:     111/137 (81.0%)
+# Similarity:   111/137 (81.0%)
+# Gaps:          13/137 ( 9.5%)
+# Score: 577.0
+# 
+#
+#=======================================
+
+asis               1 MGAHLVRRYLGDASVEPDPLQMPTFPPDYGFPERKEREMVATQQEMMDAQ     50
+                     ..|||||||||||||||||||||...........||||||||||||||||
+asis               1 XXAHLVRRYLGDASVEPDPLQMPXXXXXXXXXXXKEREMVATQQEMMDAQ     50
+
+asis              51 LRLQLRDYCAHHLIRLLKCKRDSFPNFLACKQERHDWDYCEHRDYVMRMK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              51 LRLQLRDYCAHHLIRLLKCKRDSFPNFLACKQERHDWDYCEHRDYVMRMK    100
+
+asis             101 EFERERRLLQRKKRREKKAAELAKGQGPGEVDPKVAL    137
+                     ||||||||||||||||||||||||             
+asis             101 EFERERRLLQRKKRREKKAAELAK-------------    124
+
+
+#---------------------------------------
+#---------------------------------------

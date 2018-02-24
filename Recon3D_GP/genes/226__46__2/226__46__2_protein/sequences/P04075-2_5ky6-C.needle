@@ -1,0 +1,70 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:05:55
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/226.2/226.2_protein/sequences/P04075-2_5ky6-C.needle
+#    -asequence asis::MARRKPEGSSFNMTHLSMAMAFSFPPVASGQLHPQLGNTQHQTELGKELATTSTMPYQYPALTPEQKKELSDIAHRIVAPGKGILAADESTGSIAKRLQSIGTENTEENRRFYRQLLLTADDRVNPCIGGVILFHETLYQKADDGRPFPQVIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSERCAQYKKDGADFAKWRCVLKIGEHTPSALAIMENANVLARYASICQQNGIVPIVEPEILPDGDHDLKRCQYVTEKVLAAVYKALSDHHIYLEGTLLKPNMVTPGHACTQKFSHEEIAMATVTALRRTVPPAVTGITFLSGGQSEEEASINLNAINKCPLLKPWALTFSYGRALQASALKAWGGKKENLKAAQEEYVKRALANSLACQGKYTPSGQAGAAASESLFVSNHAY
+#    -bsequence asis::PYQYPALTPEQKKELSDIAHRIVAPGKGILAADESTGSIAXXXXXXXXXNTEENRRFYRQLLLTADDRVNPCIGGVILFHETLYQKADDGRPFPQVIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSERCAQYKKDGADFAKWRCVLKIGEHTPSALAIMENANVLARYASICQQNGIVPIVEPEILPDGDHDLKRCQYVTEKVLAAVYKALSDHHIYLEGTLLKPNMVTPGHACTQKFSHEEIAMATVTALRRTVPPAVTGITFLSGGQSEEEASINLNAINKCPLLKPWALTFSYGRALQASAXXXXXXXXXNLKAAQEEYVKRALANSLACQGKYTPXXXXXXXXXXXLFVSNHAY
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/226.2/226.2_protein/sequences/P04075-2_5ky6-C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 418
+# Identity:     334/418 (79.9%)
+# Similarity:   334/418 (79.9%)
+# Gaps:          55/418 (13.2%)
+# Score: 1720.0
+# 
+#
+#=======================================
+
+asis               1 MARRKPEGSSFNMTHLSMAMAFSFPPVASGQLHPQLGNTQHQTELGKELA     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 TTSTMPYQYPALTPEQKKELSDIAHRIVAPGKGILAADESTGSIAKRLQS    100
+                          ||||||||||||||||||||||||||||||||||||||||.....
+asis               1 -----PYQYPALTPEQKKELSDIAHRIVAPGKGILAADESTGSIAXXXXX     45
+
+asis             101 IGTENTEENRRFYRQLLLTADDRVNPCIGGVILFHETLYQKADDGRPFPQ    150
+                     ....||||||||||||||||||||||||||||||||||||||||||||||
+asis              46 XXXXNTEENRRFYRQLLLTADDRVNPCIGGVILFHETLYQKADDGRPFPQ     95
+
+asis             151 VIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSERCAQYKKDGADFA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              96 VIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSERCAQYKKDGADFA    145
+
+asis             201 KWRCVLKIGEHTPSALAIMENANVLARYASICQQNGIVPIVEPEILPDGD    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             146 KWRCVLKIGEHTPSALAIMENANVLARYASICQQNGIVPIVEPEILPDGD    195
+
+asis             251 HDLKRCQYVTEKVLAAVYKALSDHHIYLEGTLLKPNMVTPGHACTQKFSH    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             196 HDLKRCQYVTEKVLAAVYKALSDHHIYLEGTLLKPNMVTPGHACTQKFSH    245
+
+asis             301 EEIAMATVTALRRTVPPAVTGITFLSGGQSEEEASINLNAINKCPLLKPW    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             246 EEIAMATVTALRRTVPPAVTGITFLSGGQSEEEASINLNAINKCPLLKPW    295
+
+asis             351 ALTFSYGRALQASALKAWGGKKENLKAAQEEYVKRALANSLACQGKYTPS    400
+                     ||||||||||||||.........||||||||||||||||||||||||||.
+asis             296 ALTFSYGRALQASAXXXXXXXXXNLKAAQEEYVKRALANSLACQGKYTPX    345
+
+asis             401 GQAGAAASESLFVSNHAY    418
+                     ..........||||||||
+asis             346 XXXXXXXXXXLFVSNHAY    363
+
+
+#---------------------------------------
+#---------------------------------------

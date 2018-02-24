@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-10-23" modified="2017-11-22" version="113">
+<accession>Q9UF12</accession>
+<name>HYPDH_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName evidence="3">Hydroxyproline dehydrogenase</fullName>
+<shortName evidence="3">HYPDH</shortName>
+<ecNumber evidence="2">1.5.5.3</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Kidney and liver proline oxidase 1</fullName>
+<shortName>HsPOX1</shortName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="5">Probable proline dehydrogenase 2</fullName>
+<ecNumber evidence="2">1.5.5.2</ecNumber>
+</alternativeName>
+<alternativeName>
+<fullName>Probable proline oxidase 2</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="5">PRODH2</name>
+<name type="synonym" evidence="5">HSPOX1</name>
+<name type="synonym" evidence="3">HYPDH</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1996-11" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Lin W.-W."/>
+<person name="Hu C.A."/>
+<person name="Valle D."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2015" name="Biochem. J." volume="466" first="273" last="281">
+<title>Proline dehydrogenase 2 (PRODH2) is a hydroxyproline dehydrogenase (HYPDH) and molecular target for treating primary hyperoxaluria.</title>
+<authorList>
+<person name="Summitt C.B."/>
+<person name="Johnson L.C."/>
+<person name="Joensson T.J."/>
+<person name="Parsonage D."/>
+<person name="Holmes R.P."/>
+<person name="Lowther W.T."/>
+</authorList>
+<dbReference type="PubMed" id="25697095"/>
+<dbReference type="DOI" id="10.1042/BJ20141159"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>COFACTOR</scope>
+<scope>SUBSTRATE SPECIFICITY</scope>
+<scope>ENZYME REGULATION</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Dehydrogenase that converts trans-4-L-hydroxyproline to delta-1-pyrroline-3-hydroxy-5-carboxylate (Hyp) using ubiquinone-10 as the terminal electron acceptor. Can also use proline as a substrate but with a very much lower efficiency. Does not react with other diastereomers of Hyp: trans-4-D-hydroxyproline and cis-4-L-hydroxyproline. Ubiquininone analogs such as menadione, duroquinone and ubiquinone-1 react more efficiently than oxygen as the terminal electron acceptor during catalysis.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="2">Trans-4-hydroxy-L-proline + a quinone = (3R,5S)-3-hydroxy-1-pyrroline-5-carboxylate + a quinol.</text>
+</comment>
+<comment type="catalytic activity">
+<text evidence="2">L-proline + a quinone = (S)-1-pyrroline-5-carboxylate + a quinol.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>FAD</name>
+<dbReference type="ChEBI" id="CHEBI:57692"/>
+</cofactor>
+</comment>
+<comment type="enzyme regulation">
+<text evidence="2">Hydroproxyproline dehydrogenase activity is inhibited by THFA,(1R,3R)3-OH-cyclopentane-COOH and 5-OH-1H-pyrazole-3-COOH.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">200 mM for trans-4-L-hydroxyproline</KM>
+<KM evidence="2">28 mM for oxygen</KM>
+<KM evidence="2">143 uM for duroquinone</KM>
+<KM evidence="2">25 uM for menadione</KM>
+<KM evidence="2">124 uM for ubiquinone-1</KM>
+<text evidence="2">kcat with trans-4-L-hydroxyproline (Hyp) and ubiquinone-1 is 0.19 sec(-1). Proline is unable to saturate PRODH2 at least up to 750mM. kcat/KM with proline and ubiquinone-10: 0.075 M(-1)/sec. kcat with oxygen, duroquinone, menadione and CoQ1 and with trans-4-L-hydroxyproline are 0.002 sec(-1), 0.27 sec(-1), 0.28 sec(-1) and 0.19 sec(-1), respectively.</text>
+</kinetics>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the proline oxidase family.</text>
+</comment>
+<dbReference type="EC" id="1.5.5.3" evidence="2"/>
+<dbReference type="EC" id="1.5.5.2" evidence="2"/>
+<dbReference type="EMBL" id="U80018">
+<property type="protein sequence ID" value="AAF21465.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS12478.1"/>
+<dbReference type="RefSeq" id="NP_067055.1">
+<property type="nucleotide sequence ID" value="NM_021232.1"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.515366"/>
+<dbReference type="ProteinModelPortal" id="Q9UF12"/>
+<dbReference type="SMR" id="Q9UF12"/>
+<dbReference type="STRING" id="9606.ENSP00000301175"/>
+<dbReference type="iPTMnet" id="Q9UF12"/>
+<dbReference type="BioMuta" id="PRODH2"/>
+<dbReference type="DMDM" id="74720632"/>
+<dbReference type="MaxQB" id="Q9UF12"/>
+<dbReference type="PaxDb" id="Q9UF12"/>
+<dbReference type="PeptideAtlas" id="Q9UF12"/>
+<dbReference type="PRIDE" id="Q9UF12"/>
+<dbReference type="DNASU" id="58510"/>
+<dbReference type="Ensembl" id="ENST00000301175">
+<property type="protein sequence ID" value="ENSP00000301175"/>
+<property type="gene ID" value="ENSG00000250799"/>
+</dbReference>
+<dbReference type="GeneID" id="58510"/>
+<dbReference type="KEGG" id="hsa:58510"/>
+<dbReference type="UCSC" id="uc002obx.1">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="58510"/>
+<dbReference type="DisGeNET" id="58510"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000250799.9"/>
+<dbReference type="GeneCards" id="PRODH2"/>
+<dbReference type="HGNC" id="HGNC:17325">
+<property type="gene designation" value="PRODH2"/>
+</dbReference>
+<dbReference type="HPA" id="HPA051287"/>
+<dbReference type="MIM" id="616377">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q9UF12"/>
+<dbReference type="OpenTargets" id="ENSG00000250799"/>
+<dbReference type="PharmGKB" id="PA33802"/>
+<dbReference type="eggNOG" id="KOG0186">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0506">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000006265"/>
+<dbReference type="HOGENOM" id="HOG000233406"/>
+<dbReference type="HOVERGEN" id="HBG108294"/>
+<dbReference type="InParanoid" id="Q9UF12"/>
+<dbReference type="KO" id="K11394"/>
+<dbReference type="OMA" id="IDAEESW"/>
+<dbReference type="OrthoDB" id="EOG091G09N3"/>
+<dbReference type="PhylomeDB" id="Q9UF12"/>
+<dbReference type="TreeFam" id="TF313544"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER66-34410"/>
+<dbReference type="Reactome" id="R-HSA-389661">
+<property type="pathway name" value="Glyoxylate metabolism and glycine degradation"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-70688">
+<property type="pathway name" value="Proline catabolism"/>
+</dbReference>
+<dbReference type="GenomeRNAi" id="58510"/>
+<dbReference type="PRO" id="PR:Q9UF12"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 19"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000250799"/>
+<dbReference type="CleanEx" id="HS_PRODH2"/>
+<dbReference type="ExpressionAtlas" id="Q9UF12">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q9UF12">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005743">
+<property type="term" value="C:mitochondrial inner membrane"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005739">
+<property type="term" value="C:mitochondrion"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071949">
+<property type="term" value="F:FAD binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016645">
+<property type="term" value="F:oxidoreductase activity, acting on the CH-NH group of donors"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004657">
+<property type="term" value="F:proline dehydrogenase activity"/>
+<property type="evidence" value="ECO:0000269"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046487">
+<property type="term" value="P:glyoxylate metabolic process"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006562">
+<property type="term" value="P:proline catabolic process"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010133">
+<property type="term" value="P:proline catabolic process to glutamate"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.20.20.220">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029041">
+<property type="entry name" value="FAD-linked_oxidoreductase-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002872">
+<property type="entry name" value="Proline_DH_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015659">
+<property type="entry name" value="Proline_oxidase"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR13914">
+<property type="entry name" value="PTHR13914"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01619">
+<property type="entry name" value="Pro_dh"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51730">
+<property type="entry name" value="SSF51730"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0007">Acetylation</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0274">FAD</keyword>
+<keyword id="KW-0285">Flavoprotein</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-0642">Proline metabolism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Hydroxyproline dehydrogenase" id="PRO_0000308623">
+<location>
+<begin position="1"/>
+<end position="536"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-acetyllysine" evidence="1">
+<location>
+<position position="386"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs3848666." id="VAR_036852">
+<original>P</original>
+<variation>R</variation>
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs3761097." id="VAR_036853">
+<original>R</original>
+<variation>Q</variation>
+<location>
+<position position="525"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q8VCZ9"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="25697095"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="25697095"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<evidence key="5" type="ECO:0000312">
+<source>
+<dbReference type="HGNC" id="HGNC:17325"/>
+</source>
+</evidence>
+<sequence length="536" mass="58871" checksum="81EB2F4B21E39E09" modified="2000-05-01" version="1">
+MSPRVVSNSSVLASQSVGITNVRTVFSNVFNNTTAFPILRGSNCHKITAPGLGKGQLVNL
+LPPENLPWCGGSQGPRMLRTCYVLCSQAGPPSRGWQSLSFDGGAFHLKGTGELTRALLVL
+RLCAWPPLVTHGLLLQAWSRRLLGSRLSGAFLRASVYGQFVAGETAEEVKGCVQQLRTLS
+LRPLLAVPTEEEPDSAAKSGEAWYEGNLGAMLRCVDLSRGLLEPPSLAEASLMQLKVTAL
+TSTRLCKELASWVRRPGASLELSPERLAEAMDSGQNLQVSCLNAEQNQHLRASLSRLHRV
+AQYARAQHVRLLVDAEYTSLNPALSLLVAALAVRWNSPGEGGPWVWNTYQACLKDTFERL
+GRDAEAAHRAGLAFGVKLVRGAYLDKERAVAQLHGMEDPTQPDYEATSQSYSRCLELMLT
+HVARHGPMCHLMVASHNEESVRQATKRMWELGIPLDGTVCFGQLLGMCDHVSLALGQAGY
+VVYKSIPYGSLEEVIPYLIRRAQENRSVLQGARREQELLSQELWRRLLPGCRRIPH
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

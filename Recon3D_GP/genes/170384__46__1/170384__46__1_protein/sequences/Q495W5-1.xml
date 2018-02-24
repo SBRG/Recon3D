@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-08-21" modified="2017-09-27" version="115">
+<accession>Q495W5</accession>
+<accession>Q495W7</accession>
+<accession>Q8IYE4</accession>
+<name>FUT11_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Alpha-(1,3)-fucosyltransferase 11</fullName>
+<ecNumber>2.4.1.-</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Fucosyltransferase XI</fullName>
+<shortName>Fuc-TXI</shortName>
+<shortName>FucT-XI</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>Galactoside 3-L-fucosyltransferase 11</fullName>
+<shortName>Fucosyltransferase 11</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">FUT11</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)</scope>
+<scope>VARIANT ALA-51</scope>
+<source>
+<tissue>Testis</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2009" name="J. Proteome Res." volume="8" first="651" last="661">
+<title>Glycoproteomics analysis of human liver tissue by combination of multiple enzyme digestion and hydrazide chemistry.</title>
+<authorList>
+<person name="Chen R."/>
+<person name="Jiang X."/>
+<person name="Sun D."/>
+<person name="Han G."/>
+<person name="Wang F."/>
+<person name="Ye M."/>
+<person name="Wang L."/>
+<person name="Zou H."/>
+</authorList>
+<dbReference type="PubMed" id="19159218"/>
+<dbReference type="DOI" id="10.1021/pr8008012"/>
+</citation>
+<scope>GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-443</scope>
+<source>
+<tissue>Liver</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Probable fucosyltransferase.</text>
+</comment>
+<comment type="pathway">
+<text>Protein modification; protein glycosylation.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2907712"/>
+<interactant intactId="EBI-748397">
+<id>P50222</id>
+<label>MEOX2</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2907712"/>
+<interactant intactId="EBI-307352">
+<id>Q04864</id>
+<label>REL</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Golgi apparatus</location>
+<location evidence="1">Golgi stack membrane</location>
+<topology evidence="1">Single-pass type II membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>Q495W5-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>Q495W5-2</id>
+<name>2</name>
+<sequence type="described" ref="VSP_027511"/>
+<text>No experimental confirmation available.</text>
+</isoform>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the glycosyltransferase 10 family.</text>
+</comment>
+<comment type="online information" name="Functional Glycomics Gateway - GTase">
+<link uri="http://www.functionalglycomics.org/glycomics/molecule/jsp/glycoEnzyme/viewGlycoEnzyme.jsp?gbpId=gt_hum_608"/>
+<text>Fucosyltransferase 11</text>
+</comment>
+<dbReference type="EC" id="2.4.1.-"/>
+<dbReference type="EMBL" id="BC036037">
+<property type="protein sequence ID" value="AAH36037.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC100994">
+<property type="protein sequence ID" value="AAI00995.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC100995">
+<property type="protein sequence ID" value="AAI00996.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC100996">
+<property type="protein sequence ID" value="AAI00997.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC100997">
+<property type="protein sequence ID" value="AAI00998.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS60558.1">
+<molecule id="Q495W5-2"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS7333.1">
+<molecule id="Q495W5-1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001271123.1">
+<molecule id="Q495W5-2"/>
+<property type="nucleotide sequence ID" value="NM_001284194.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_775811.2">
+<molecule id="Q495W5-1"/>
+<property type="nucleotide sequence ID" value="NM_173540.2"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.588854"/>
+<dbReference type="ProteinModelPortal" id="Q495W5"/>
+<dbReference type="BioGrid" id="128001">
+<property type="interactions" value="25"/>
+</dbReference>
+<dbReference type="IntAct" id="Q495W5">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000361932"/>
+<dbReference type="CAZy" id="GT10">
+<property type="family name" value="Glycosyltransferase Family 10"/>
+</dbReference>
+<dbReference type="iPTMnet" id="Q495W5"/>
+<dbReference type="PhosphoSitePlus" id="Q495W5"/>
+<dbReference type="BioMuta" id="FUT11"/>
+<dbReference type="DMDM" id="121943313"/>
+<dbReference type="EPD" id="Q495W5"/>
+<dbReference type="MaxQB" id="Q495W5"/>
+<dbReference type="PaxDb" id="Q495W5"/>
+<dbReference type="PeptideAtlas" id="Q495W5"/>
+<dbReference type="PRIDE" id="Q495W5"/>
+<dbReference type="DNASU" id="170384"/>
+<dbReference type="Ensembl" id="ENST00000372841">
+<molecule id="Q495W5-1"/>
+<property type="protein sequence ID" value="ENSP00000361932"/>
+<property type="gene ID" value="ENSG00000196968"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000394790">
+<molecule id="Q495W5-2"/>
+<property type="protein sequence ID" value="ENSP00000378270"/>
+<property type="gene ID" value="ENSG00000196968"/>
+</dbReference>
+<dbReference type="GeneID" id="170384"/>
+<dbReference type="KEGG" id="hsa:170384"/>
+<dbReference type="UCSC" id="uc001juz.3">
+<molecule id="Q495W5-1"/>
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="170384"/>
+<dbReference type="DisGeNET" id="170384"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000196968.10"/>
+<dbReference type="GeneCards" id="FUT11"/>
+<dbReference type="H-InvDB" id="HIX0035535"/>
+<dbReference type="HGNC" id="HGNC:19233">
+<property type="gene designation" value="FUT11"/>
+</dbReference>
+<dbReference type="HPA" id="HPA014033"/>
+<dbReference type="neXtProt" id="NX_Q495W5"/>
+<dbReference type="OpenTargets" id="ENSG00000196968"/>
+<dbReference type="PharmGKB" id="PA134914077"/>
+<dbReference type="eggNOG" id="KOG2619">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410ZIMX">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00680000099679"/>
+<dbReference type="HOGENOM" id="HOG000006538"/>
+<dbReference type="HOVERGEN" id="HBG055521"/>
+<dbReference type="InParanoid" id="Q495W5"/>
+<dbReference type="KO" id="K11257"/>
+<dbReference type="OMA" id="FPHFPGD"/>
+<dbReference type="OrthoDB" id="EOG091G064Z"/>
+<dbReference type="PhylomeDB" id="Q495W5"/>
+<dbReference type="TreeFam" id="TF316348"/>
+<dbReference type="BRENDA" id="2.4.1.152">
+<property type="organism ID" value="2681"/>
+</dbReference>
+<dbReference type="BRENDA" id="2.4.1.65">
+<property type="organism ID" value="2681"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00378"/>
+<dbReference type="GenomeRNAi" id="170384"/>
+<dbReference type="PRO" id="PR:Q495W5"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 10"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000196968"/>
+<dbReference type="CleanEx" id="HS_FUT11"/>
+<dbReference type="Genevisible" id="Q495W5">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070062">
+<property type="term" value="C:extracellular exosome"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032580">
+<property type="term" value="C:Golgi cisterna membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000139">
+<property type="term" value="C:Golgi membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046920">
+<property type="term" value="F:alpha-(1->3)-fucosyltransferase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006486">
+<property type="term" value="P:protein glycosylation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017176">
+<property type="entry name" value="Alpha-1_3-FUT_met"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR031481">
+<property type="entry name" value="Glyco_tran_10_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001503">
+<property type="entry name" value="Glyco_trans_10"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11929">
+<property type="entry name" value="PTHR11929"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF17039">
+<property type="entry name" value="Glyco_tran_10_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00852">
+<property type="entry name" value="Glyco_transf_10"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF037332">
+<property type="entry name" value="Alpha1_3FUT_met"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0328">Glycosyltransferase</keyword>
+<keyword id="KW-0333">Golgi apparatus</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0735">Signal-anchor</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Alpha-(1,3)-fucosyltransferase 11" id="PRO_0000299009">
+<location>
+<begin position="1"/>
+<end position="492"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="1"/>
+<end position="7"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Signal-anchor for type II membrane protein" evidence="2">
+<location>
+<begin position="8"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="2">
+<location>
+<begin position="25"/>
+<end position="492"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="166"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="443"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="98"/>
+<end position="103"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="389"/>
+<end position="392"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_027511" evidence="5">
+<original>WKEMWLQDYWQGLDQGEALTAMIHNNETEQTKFWDYLHEIFMKRQHL</original>
+<variation>SLVQVRDHCICLRFLWPHSEKGRTHNYAAVP</variation>
+<location>
+<begin position="446"/>
+<end position="492"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs17853514." id="VAR_034763" evidence="3">
+<original>S</original>
+<variation>A</variation>
+<location>
+<position position="51"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15489334"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19159218"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="15489334"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="492" mass="55816" checksum="19ED65D27DA6B30E" modified="2005-09-13" version="1">
+MAAGPIRVVLVLLGVLSVCAASGHGSVAEREAGGEAEWAEPWDGAVFRPPSALGAVGVTR
+SSGTPRPGREEAGDLPVLLWWSPGLFPHFPGDSERIECARGACVASRNRRALRDSRTRAL
+LFYGTDFRASAAPLPRLAHQSWALLHEESPLNNFLLSHGPGIRLFNLTSTFSRHSDYPLS
+LQWLPGTAYLRRPVPPPMERAEWRRRGYAPLLYLQSHCDVPADRDRYVRELMRHIPVDSY
+GKCLQNRELPTARLQDTATATTEDPELLAFLSRYKFHLALENAICNDYMTEKLWRPMHLG
+AVPVYRGSPSVRDWMPNNHSVILIDDFESPQKLAEFIDFLDKNDEEYMKYLAYKQPGGIT
+NQFLLDSLKHREWGVNDPLLPNYLNGFECFVCDYELARLDAEKAHAASPGDSPVFEPHIA
+QPSHMDCPVPTPGFGNVEEIPENDSWKEMWLQDYWQGLDQGEALTAMIHNNETEQTKFWD
+YLHEIFMKRQHL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

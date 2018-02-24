@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1991-02-01" modified="2017-12-20" version="151">
+<accession>P21108</accession>
+<accession>Q6P5P6</accession>
+<name>PRPS3_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Ribose-phosphate pyrophosphokinase 3</fullName>
+<ecNumber>2.7.6.1</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Phosphoribosyl pyrophosphate synthase 1-like 1</fullName>
+<shortName>PRPS1-like 1</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>Phosphoribosyl pyrophosphate synthase III</fullName>
+<shortName>PRS-III</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">PRPS1L1</name>
+<name type="synonym">PRPS3</name>
+<name type="synonym">PRPSL</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1990" name="J. Biol. Chem." volume="265" first="16491" last="16497">
+<title>A human testis-specific mRNA for phosphoribosylpyrophosphate synthetase that initiates from a non-AUG codon.</title>
+<authorList>
+<person name="Taira M."/>
+<person name="Iizasa T."/>
+<person name="Shimada H."/>
+<person name="Kudoh J."/>
+<person name="Shimizu N."/>
+<person name="Tatibana M."/>
+</authorList>
+<dbReference type="PubMed" id="2168892"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>PROTEIN SEQUENCE OF 2-11</scope>
+<source>
+<tissue>Testis</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<scope>VARIANT ASP-279</scope>
+<source>
+<tissue>Testis</tissue>
+</source>
+</reference>
+<comment type="function">
+<text>Catalyzes the synthesis of phosphoribosylpyrophosphate (PRPP) that is essential for nucleotide synthesis.</text>
+</comment>
+<comment type="catalytic activity">
+<text>ATP + D-ribose 5-phosphate = AMP + 5-phospho-alpha-D-ribose 1-diphosphate.</text>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="enzyme regulation">
+<text>Activated by magnesium and inorganic phosphate.</text>
+</comment>
+<comment type="pathway">
+<text>Metabolic intermediate biosynthesis; 5-phospho-alpha-D-ribose 1-diphosphate biosynthesis; 5-phospho-alpha-D-ribose 1-diphosphate from D-ribose 5-phosphate (route I): step 1/1.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Homodimer. The active form is probably a hexamer composed of 3 homodimers (By similarity).</text>
+</comment>
+<comment type="tissue specificity">
+<text>Testis.</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the ribose-phosphate pyrophosphokinase family.</text>
+</comment>
+<comment type="caution">
+<text evidence="5">According to PubMed:2168892, this sequence initiates from a non-AUG codon; N-terminal ACG codon did serve as a start codon.</text>
+</comment>
+<dbReference type="EC" id="2.7.6.1"/>
+<dbReference type="EMBL" id="M57423">
+<property type="protein sequence ID" value="AAB59463.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC062797">
+<property type="protein sequence ID" value="AAH62797.2"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS47552.1"/>
+<dbReference type="PIR" id="A37893">
+<property type="entry name" value="KIHUR3"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_787082.1">
+<property type="nucleotide sequence ID" value="NM_175886.2"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.169284"/>
+<dbReference type="ProteinModelPortal" id="P21108"/>
+<dbReference type="SMR" id="P21108"/>
+<dbReference type="BioGrid" id="128758">
+<property type="interactions" value="7"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000424595"/>
+<dbReference type="iPTMnet" id="P21108"/>
+<dbReference type="PhosphoSitePlus" id="P21108"/>
+<dbReference type="BioMuta" id="PRPS1L1"/>
+<dbReference type="DMDM" id="125585"/>
+<dbReference type="SWISS-2DPAGE" id="P21108"/>
+<dbReference type="EPD" id="P21108"/>
+<dbReference type="MaxQB" id="P21108"/>
+<dbReference type="PaxDb" id="P21108"/>
+<dbReference type="PeptideAtlas" id="P21108"/>
+<dbReference type="PRIDE" id="P21108"/>
+<dbReference type="Ensembl" id="ENST00000638645">
+<property type="protein sequence ID" value="ENSP00000492583"/>
+<property type="gene ID" value="ENSG00000229937"/>
+</dbReference>
+<dbReference type="GeneID" id="221823"/>
+<dbReference type="KEGG" id="hsa:221823"/>
+<dbReference type="CTD" id="221823"/>
+<dbReference type="GeneCards" id="PRPS1L1"/>
+<dbReference type="H-InvDB" id="HIX0033604"/>
+<dbReference type="HGNC" id="HGNC:9463">
+<property type="gene designation" value="PRPS1L1"/>
+</dbReference>
+<dbReference type="MIM" id="611566">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_P21108"/>
+<dbReference type="OpenTargets" id="ENSG00000229937"/>
+<dbReference type="PharmGKB" id="PA33818"/>
+<dbReference type="eggNOG" id="KOG1448">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0462">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00550000074583"/>
+<dbReference type="HOGENOM" id="HOG000210451"/>
+<dbReference type="HOVERGEN" id="HBG001520"/>
+<dbReference type="InParanoid" id="P21108"/>
+<dbReference type="KO" id="K00948"/>
+<dbReference type="PhylomeDB" id="P21108"/>
+<dbReference type="BioCyc" id="MetaCyc:HS11931-MONOMER"/>
+<dbReference type="Reactome" id="R-HSA-73843">
+<property type="pathway name" value="5-Phosphoribose 1-diphosphate biosynthesis"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00087">
+<property type="reaction ID" value="UER00172"/>
+</dbReference>
+<dbReference type="GenomeRNAi" id="221823"/>
+<dbReference type="PRO" id="PR:P21108"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 7"/>
+</dbReference>
+<dbReference type="CleanEx" id="HS_PRPS1L1"/>
+<dbReference type="ExpressionAtlas" id="P21108">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016301">
+<property type="term" value="F:kinase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042803">
+<property type="term" value="F:protein homodimerization activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004749">
+<property type="term" value="F:ribose phosphate diphosphokinase activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006015">
+<property type="term" value="P:5-phosphoribose 1-diphosphate biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009116">
+<property type="term" value="P:nucleoside metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009165">
+<property type="term" value="P:nucleotide biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009156">
+<property type="term" value="P:ribonucleoside monophosphate biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd06223">
+<property type="entry name" value="PRTases_typeI"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00583_B">
+<property type="entry name" value="RibP_PPkinase_B"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000842">
+<property type="entry name" value="PRib_PP_synth_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029099">
+<property type="entry name" value="Pribosyltran_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000836">
+<property type="entry name" value="PRibTrfase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029057">
+<property type="entry name" value="PRTase-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005946">
+<property type="entry name" value="Rib-P_diPkinase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR037515">
+<property type="entry name" value="Rib-P_diPkinase_bac"/>
+</dbReference>
+<dbReference type="Pfam" id="PF14572">
+<property type="entry name" value="Pribosyl_synth"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13793">
+<property type="entry name" value="Pribosyltran_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53271">
+<property type="entry name" value="SSF53271"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01251">
+<property type="entry name" value="ribP_PPkin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00114">
+<property type="entry name" value="PRPP_SYNTHASE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0418">Kinase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0545">Nucleotide biosynthesis</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="initiator methionine" description="Removed" evidence="4">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Ribose-phosphate pyrophosphokinase 3" id="PRO_0000141078">
+<location>
+<begin position="2"/>
+<end position="318"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP" evidence="1">
+<location>
+<begin position="96"/>
+<end position="101"/>
+</location>
+</feature>
+<feature type="region of interest" description="Binding of phosphoribosylpyrophosphate" evidence="2">
+<location>
+<begin position="212"/>
+<end position="227"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="2">
+<location>
+<position position="128"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="2">
+<location>
+<position position="130"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="2">
+<location>
+<position position="139"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="2">
+<location>
+<position position="143"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP" evidence="1">
+<location>
+<position position="130"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs3800962." id="VAR_050062" evidence="3">
+<original>E</original>
+<variation>D</variation>
+<location>
+<position position="279"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15489334"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="2168892"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="318" mass="34839" checksum="6A4EDC798FB3B296" modified="2007-01-23" version="2">
+MPNIKIFSGSSHQDLSQKIADRLGLELGKVVTKKFSNQETCVEIDESVRGEDVYIVQSGC
+GEINDSLMELLIMINACKIASASRVTAVIPCFPYARQDKKDKSRSPISAKLVANMLSIAG
+ADHIITMDLHASQIQGFFDIPVDNLYAEPTVLKWIRENIPEWKNCIIVSPDAGGAKRVTS
+IADQLNVDFALIHKERKKANEVDCIVLVGDVNDRVAILVDDMADTCVTICLAADKLLSAG
+ATRVYAILTHGIFSGPAISRINTACFEAVVVTNTIPQDEKMKHCSKIRVIDISMILAEAI
+RRTHNGESVSYLFSHVPL
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

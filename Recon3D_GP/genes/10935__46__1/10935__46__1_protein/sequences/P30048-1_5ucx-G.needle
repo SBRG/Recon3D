@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:02:25
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/10935.1/10935.1_protein/sequences/P30048-1_5ucx-G.needle
+#    -asequence asis::MAAAVGRLLRASVARHVSAIPWGISATAALRPAACGRTSLTNLLCSGSSQAKLFSTSSSCHAPAVTQHAPYFKGTAVVNGEFKDLSLDDFKGKYLVLFFYPLDFTFVCPTEIVAFSDKANEFHDVNCEVVAVSVDSHFSHLAWINTPRKNGGLGHMNIALLSDLTKQISRDYGVLLEGSGLALRGLFIIDPNGVIKHLSVNDLPVGRSVEETLRLVKAFQYVETHGEVCPANWTPDSPTIKPSPAASKEYFQKVNQ
+#    -bsequence asis::TAPAVTQHAPYFKGTAVVNGEFKDLSLDDFKGKYLVLFFYPLDFTFVCPTEIVAFSDKANEFHDVNCEVVAVSVDSHFCHLAWINTPRKNGGLGHMNIALLSDLTKQISRDYGVLLEGSGLALRGLFIIDPNGVIKHLSVNDLPVGRSVEETLRLVKAFQYVETHGEVCPANWTPDSPTIKPSPAASKEYFQKVN
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/10935.1/10935.1_protein/sequences/P30048-1_5ucx-G.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 256
+# Identity:     193/256 (75.4%)
+# Similarity:   193/256 (75.4%)
+# Gaps:          61/256 (23.8%)
+# Score: 1018.0
+# 
+#
+#=======================================
+
+asis               1 MAAAVGRLLRASVARHVSAIPWGISATAALRPAACGRTSLTNLLCSGSSQ     50
+                                                                       
+asis               0 --------------------------------------------------      0
+
+asis              51 AKLFSTSSSCHAPAVTQHAPYFKGTAVVNGEFKDLSLDDFKGKYLVLFFY    100
+                               .|||||||||||||||||||||||||||||||||||||||
+asis               1 ----------TAPAVTQHAPYFKGTAVVNGEFKDLSLDDFKGKYLVLFFY     40
+
+asis             101 PLDFTFVCPTEIVAFSDKANEFHDVNCEVVAVSVDSHFSHLAWINTPRKN    150
+                     ||||||||||||||||||||||||||||||||||||||.|||||||||||
+asis              41 PLDFTFVCPTEIVAFSDKANEFHDVNCEVVAVSVDSHFCHLAWINTPRKN     90
+
+asis             151 GGLGHMNIALLSDLTKQISRDYGVLLEGSGLALRGLFIIDPNGVIKHLSV    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis              91 GGLGHMNIALLSDLTKQISRDYGVLLEGSGLALRGLFIIDPNGVIKHLSV    140
+
+asis             201 NDLPVGRSVEETLRLVKAFQYVETHGEVCPANWTPDSPTIKPSPAASKEY    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+asis             141 NDLPVGRSVEETLRLVKAFQYVETHGEVCPANWTPDSPTIKPSPAASKEY    190
+
+asis             251 FQKVNQ    256
+                     ||||| 
+asis             191 FQKVN-    195
+
+
+#---------------------------------------
+#---------------------------------------

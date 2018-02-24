@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-10-31" modified="2017-10-25" version="132">
+<accession>Q9NPB1</accession>
+<name>NT5M_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>5'(3')-deoxyribonucleotidase, mitochondrial</fullName>
+<shortName>5',3'-nucleotidase, mitochondrial</shortName>
+<ecNumber>3.1.3.-</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Deoxy-5'-nucleotidase 2</fullName>
+<shortName>dNT-2</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">NT5M</name>
+<name type="synonym">DNT2</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2000" name="Proc. Natl. Acad. Sci. U.S.A." volume="97" first="8239" last="8244">
+<title>A deoxyribonucleotidase in mitochondria: involvement in regulation of dNTP pools and possible link to genetic disease.</title>
+<authorList>
+<person name="Rampazzo C."/>
+<person name="Gallinaro L."/>
+<person name="Milanesi E."/>
+<person name="Frigimelica E."/>
+<person name="Reichard P."/>
+<person name="Bianchi V."/>
+</authorList>
+<dbReference type="PubMed" id="10899995"/>
+<dbReference type="DOI" id="10.1073/pnas.97.15.8239"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<source>
+<tissue>Muscle</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Hippocampus</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2002" name="Nat. Struct. Biol." volume="9" first="779" last="787">
+<title>Crystal structure of a human mitochondrial deoxyribonucleotidase.</title>
+<authorList>
+<person name="Rinaldo-Matthis A."/>
+<person name="Rampazzo C."/>
+<person name="Reichard P."/>
+<person name="Bianchi V."/>
+<person name="Nordlund P."/>
+</authorList>
+<dbReference type="PubMed" id="12352955"/>
+<dbReference type="DOI" id="10.1038/nsb846"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 34-227 IN COMPLEX WITH MAGNESIUM AND A SUBSTRATE ANALOG</scope>
+</reference>
+<comment type="function">
+<text evidence="4">Dephosphorylates specifically the 5' and 2'(3')-phosphates of uracil and thymine deoxyribonucleotides, and so protects mitochondrial DNA replication from excess dTTP. Has only marginal activity towards dIMP and dGMP.</text>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="subunit">
+<text evidence="7">Homodimer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Mitochondrion</location>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4">Highly expressed in heart, brain and skeletal muscle. Detected at very low levels in kidney and pancreas.</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the 5'(3')-deoxyribonucleotidase family.</text>
+</comment>
+<dbReference type="EC" id="3.1.3.-"/>
+<dbReference type="EMBL" id="AJ277557">
+<property type="protein sequence ID" value="CAB99251.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AF210652">
+<property type="protein sequence ID" value="AAF87076.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC035838">
+<property type="protein sequence ID" value="AAH35838.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS32581.1"/>
+<dbReference type="RefSeq" id="NP_064586.1">
+<property type="nucleotide sequence ID" value="NM_020201.3"/>
+</dbReference>
+<dbReference type="UniGene" id="Hs.513977"/>
+<dbReference type="PDB" id="1MH9">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.80"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="1Q91">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.60"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="1Q92">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.40"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="1Z4I">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.98"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="1Z4J">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.80"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="1Z4K">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.75"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="1Z4L">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.80"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="1Z4M">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.70"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="1Z4P">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.00"/>
+<property type="chains" value="X=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="1Z4Q">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.05"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="2JAU">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.80"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="2JAW">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.95"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="4L6A">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.40"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="4L6C">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.80"/>
+<property type="chains" value="A=32-228"/>
+</dbReference>
+<dbReference type="PDB" id="4MUM">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.27"/>
+<property type="chains" value="A=32-227"/>
+</dbReference>
+<dbReference type="PDB" id="4MWO">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.67"/>
+<property type="chains" value="A=32-227"/>
+</dbReference>
+<dbReference type="PDB" id="4NFL">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.38"/>
+<property type="chains" value="A=32-227"/>
+</dbReference>
+<dbReference type="PDB" id="4YIK">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.48"/>
+<property type="chains" value="A=32-227"/>
+</dbReference>
+<dbReference type="PDBsum" id="1MH9"/>
+<dbReference type="PDBsum" id="1Q91"/>
+<dbReference type="PDBsum" id="1Q92"/>
+<dbReference type="PDBsum" id="1Z4I"/>
+<dbReference type="PDBsum" id="1Z4J"/>
+<dbReference type="PDBsum" id="1Z4K"/>
+<dbReference type="PDBsum" id="1Z4L"/>
+<dbReference type="PDBsum" id="1Z4M"/>
+<dbReference type="PDBsum" id="1Z4P"/>
+<dbReference type="PDBsum" id="1Z4Q"/>
+<dbReference type="PDBsum" id="2JAU"/>
+<dbReference type="PDBsum" id="2JAW"/>
+<dbReference type="PDBsum" id="4L6A"/>
+<dbReference type="PDBsum" id="4L6C"/>
+<dbReference type="PDBsum" id="4MUM"/>
+<dbReference type="PDBsum" id="4MWO"/>
+<dbReference type="PDBsum" id="4NFL"/>
+<dbReference type="PDBsum" id="4YIK"/>
+<dbReference type="ProteinModelPortal" id="Q9NPB1"/>
+<dbReference type="SMR" id="Q9NPB1"/>
+<dbReference type="BioGrid" id="121277">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="IntAct" id="Q9NPB1">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000373674"/>
+<dbReference type="ChEMBL" id="CHEMBL3751654"/>
+<dbReference type="DrugBank" id="DB02217">
+<property type="generic name" value="Dpb-T"/>
+</dbReference>
+<dbReference type="DEPOD" id="Q9NPB1"/>
+<dbReference type="iPTMnet" id="Q9NPB1"/>
+<dbReference type="PhosphoSitePlus" id="Q9NPB1"/>
+<dbReference type="BioMuta" id="NT5M"/>
+<dbReference type="DMDM" id="38258255"/>
+<dbReference type="PaxDb" id="Q9NPB1"/>
+<dbReference type="PeptideAtlas" id="Q9NPB1"/>
+<dbReference type="PRIDE" id="Q9NPB1"/>
+<dbReference type="Ensembl" id="ENST00000389022">
+<property type="protein sequence ID" value="ENSP00000373674"/>
+<property type="gene ID" value="ENSG00000205309"/>
+</dbReference>
+<dbReference type="GeneID" id="56953"/>
+<dbReference type="KEGG" id="hsa:56953"/>
+<dbReference type="UCSC" id="uc002grf.4">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="56953"/>
+<dbReference type="DisGeNET" id="56953"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000205309.13"/>
+<dbReference type="GeneCards" id="NT5M"/>
+<dbReference type="HGNC" id="HGNC:15769">
+<property type="gene designation" value="NT5M"/>
+</dbReference>
+<dbReference type="HPA" id="HPA043777"/>
+<dbReference type="MIM" id="605292">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q9NPB1"/>
+<dbReference type="OpenTargets" id="ENSG00000205309"/>
+<dbReference type="PharmGKB" id="PA31805"/>
+<dbReference type="eggNOG" id="ENOG410IHG0">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG410XQYS">
+<property type="taxonomic scope" value="LUCA"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000011596"/>
+<dbReference type="HOGENOM" id="HOG000236944"/>
+<dbReference type="HOVERGEN" id="HBG045599"/>
+<dbReference type="KO" id="K01081"/>
+<dbReference type="PhylomeDB" id="Q9NPB1"/>
+<dbReference type="TreeFam" id="TF331117"/>
+<dbReference type="Reactome" id="R-HSA-73621">
+<property type="pathway name" value="Pyrimidine catabolism"/>
+</dbReference>
+<dbReference type="SABIO-RK" id="Q9NPB1"/>
+<dbReference type="EvolutionaryTrace" id="Q9NPB1"/>
+<dbReference type="GenomeRNAi" id="56953"/>
+<dbReference type="PRO" id="PR:Q9NPB1"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 17"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000205309"/>
+<dbReference type="CleanEx" id="HS_NT5M"/>
+<dbReference type="ExpressionAtlas" id="Q9NPB1">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q9NPB1">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005759">
+<property type="term" value="C:mitochondrial matrix"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005739">
+<property type="term" value="C:mitochondrion"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008253">
+<property type="term" value="F:5'-nucleotidase activity"/>
+<property type="evidence" value="ECO:0000269"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008252">
+<property type="term" value="F:nucleotidase activity"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000166">
+<property type="term" value="F:nucleotide binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006260">
+<property type="term" value="P:DNA replication"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046079">
+<property type="term" value="P:dUMP catabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009223">
+<property type="term" value="P:pyrimidine deoxyribonucleotide catabolic process"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046135">
+<property type="term" value="P:pyrimidine nucleoside catabolic process"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1000">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR010708">
+<property type="entry name" value="5'(3')-deoxyribonucleotidase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036412">
+<property type="entry name" value="HAD-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023214">
+<property type="entry name" value="HAD_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF06941">
+<property type="entry name" value="NT5C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56784">
+<property type="entry name" value="SSF56784"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0496">Mitochondrion</keyword>
+<keyword id="KW-0546">Nucleotide metabolism</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0809">Transit peptide</keyword>
+<feature type="transit peptide" description="Mitochondrion" evidence="3">
+<location>
+<begin position="1"/>
+<end position="31"/>
+</location>
+</feature>
+<feature type="chain" description="5'(3')-deoxyribonucleotidase, mitochondrial" id="PRO_0000000011">
+<location>
+<begin position="32"/>
+<end position="228"/>
+</location>
+</feature>
+<feature type="active site" description="Nucleophile">
+<location>
+<position position="41"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="6">
+<location>
+<position position="43"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="5">
+<location>
+<position position="41"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium; via carbonyl oxygen" evidence="5">
+<location>
+<position position="43"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium" evidence="5">
+<location>
+<position position="176"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate">
+<location>
+<position position="43"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate">
+<location>
+<position position="49"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate">
+<location>
+<position position="75"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate">
+<location>
+<position position="76"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate; via amide nitrogen">
+<location>
+<position position="77"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate">
+<location>
+<position position="130"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate">
+<location>
+<position position="165"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="36"/>
+<end position="40"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="44"/>
+<end position="46"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="49"/>
+<end position="60"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="69"/>
+<end position="71"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="77"/>
+<end position="84"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="88"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="99"/>
+<end position="104"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="111"/>
+<end position="120"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="124"/>
+<end position="130"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="136"/>
+<end position="138"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="139"/>
+<end position="151"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="153"/>
+<end position="158"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="159"/>
+<end position="161"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="165"/>
+<end position="167"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="171"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="188"/>
+<end position="194"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="197"/>
+<end position="201"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="209"/>
+<end position="211"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="218"/>
+<end position="223"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="4MUM"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="4NFL"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10899995"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12352955"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<evidence key="7" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="12352955"/>
+</source>
+</evidence>
+<sequence length="228" mass="25862" checksum="9AE6F57B16977F0F" modified="2000-10-01" version="1" precursor="true">
+MIRLGGWCARRLCSAAVPAGRRGAAGGLGLAGGRALRVLVDMDGVLADFEGGFLRKFRAR
+FPDQPFIALEDRRGFWVSEQYGRLRPGLSEKAISIWESKNFFFELEPLPGAVEAVKEMAS
+LQNTDVFICTSPIKMFKYCPYEKYAWVEKYFGPDFLEQIVLTRDKTVVSADLLIDDRPDI
+TGAEPTPSWEHVLFTACHNQHLQLQPPRRRLHSWADDWKAILDSKRPC
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>

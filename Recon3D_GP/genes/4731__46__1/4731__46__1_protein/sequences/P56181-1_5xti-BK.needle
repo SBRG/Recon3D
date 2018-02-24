@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Fri 23 Feb 2018 13:14:16
+# Commandline: needle
+#    -outfile ./Recon3D_GP/genes/4731.1/4731.1_protein/sequences/P56181-1_5xti-BK.needle
+#    -asequence asis::MAAPCLLRQGRAGALKTMLQEAQVFRGLASTVSLSAESGKSEKGQPQNSKKQSPPKKPAPVPAEPFDNTTYKNLQHHDYSTYTFLDLNLELSKFRMPQPSSGRESPRH
+#    -bsequence asis::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLQHHDYSTYTFLDLNLELSKFRMPQPSSGRESP
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: ./Recon3D_GP/genes/4731.1/4731.1_protein/sequences/P56181-1_5xti-BK.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: asis
+# 2: asis
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 178
+# Identity:      33/178 (18.5%)
+# Similarity:    33/178 (18.5%)
+# Gaps:         142/178 (79.8%)
+# Score: 131.5
+# 
+#
+#=======================================
+
+asis               0 --------------------------------------------------      0
+                                                                       
+asis               1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     50
+
+asis               1 --------------------MAAPCLLRQGRAGALKTMLQEAQVFRGLAS     30
+                                         ...                           
+asis              51 XXXXXXXXXXXXXXXXXXXXXXX---------------------------     73
+
+asis              31 TVSLSAESGKSEKGQPQNSKKQSPPKKPAPVPAEPFDNTTYKNLQHHDYS     80
+                                                                |||||||
+asis              74 -------------------------------------------LQHHDYS     80
+
+asis              81 TYTFLDLNLELSKFRMPQPSSGRESPRH    108
+                     ||||||||||||||||||||||||||  
+asis              81 TYTFLDLNLELSKFRMPQPSSGRESP--    106
+
+
+#---------------------------------------
+#---------------------------------------
